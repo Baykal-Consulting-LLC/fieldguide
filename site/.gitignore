@@ -1,0 +1,51 @@
+node_modules/
+*.tar.gz
+.DS_Store
+test-output/
+
+.cache/
+*-debug.log
+firebase-debug.log
+
+/test-output-catalog.log
+
+/tmp/pdfs/
+
+firestore-debug.log
+ui-debug.log
+
+__pycache__/
+*.py[cod]
+
+analytics/performance/dist/
+analytics/performance/.data-app-offline/
+
+# Retained local prototype studies: large intermediate replays are not Site source.
+# The two frozen evidence modules below are required by the current benchmark.
+/prototypes/targeted-064/
+/prototypes/targeted-065/
+/prototypes/targeted-066/
+/prototypes/targeted-067/*
+!/prototypes/targeted-067/engine.mjs
+/research/targeted-064/
+/research/targeted-065/
+/research/targeted-066/
+/research/targeted-067/*
+!/research/targeted-067/review.mjs
+/scripts/*targeted-06[4-7].mjs
+/tests/targeted-06[4-7].test.js
+
+# Large replay intermediates retained locally and in outputs/executor-077-reproducibility.
+# The complete public case payloads, answer codes, input manifest and source stay published.
+/research/executor-077/states.json.gz
+/research/executor-077/results.json.gz
+/research/executor-077/targeted-results.json.gz
+/research/evidence-076/results.json.gz
+/research/evidence-076/results-002.json.gz
+
+# Ephemeral shared-update/build coordination
+.shared-foundation-use.lock/
+*.shared-tmp
+
+# Retain the immutable shared pin for portable source checkouts.
+!/shared-foundation/releases/*.tar.gz

@@ -1,0 +1,20 @@
+{
+  "id": "pay-and-structured-coverage-059",
+  "frozenAt": "2026-10-20T19:11:18.972Z",
+  "baselineRunId": "6d5980364897db5610f874c66da49528909f07bd8d18262d15b6fcf88a18b45a",
+  "baselineSHA256": "40602fa01b9c6ecb71287037ceb8ab210d2b23ca42d396fcbd1d728e9922b698",
+  "changes": [
+    "Add sourced lower-paid-third planning proxies only where occupational mapping and qualification stages support comparison; retain unknown, experience and paid-training exclusions.",
+    "Add explicit stable-ID question bindings for named occupations, preserving existing bindings; unstated specialist preferences stay unfamiliar.",
+    "Rerun unchanged 1000 base profiles, keeping 758 development and three holdouts of 30,12,200 separate.",
+    "Retain supported Top and make O*NET Best/Great connections explorable across every education route, with earnings and contrary-evidence labels.",
+    "Show actual before/after Top, normalized bachelor/graduate Top, and all-route/degree lifestyle coverage."
+  ],
+  "invariants": [
+    "No biography or question-text classifiers.",
+    "No change to RIASEC scores, fit thresholds, specific-evidence gates, degree/pay ranking or original profiles.",
+    "Never upgrade an interest correlation to supported Top.",
+    "No case-specific holdout amendments; freeze authored bindings before outcomes.",
+    "Retain previous benchmark in source; current rerun has an explicit versioned policy."
+  ]
+}

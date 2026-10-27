@@ -1,0 +1,564 @@
+{
+  "scope": "Selected regression/response consistency review, not independent occupational-fit validation.",
+  "cases": [
+    {
+      "id": "scale056-0007",
+      "previousTargeted": [],
+      "repairedTargeted": [
+        "Film and Video Editors",
+        "Sound engineering technicians"
+      ],
+      "asked": [
+        {
+          "id": "sound-technician-087-1",
+          "careerId": "sound-technician",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "sound-technician-087-2",
+          "careerId": "sound-technician",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "sound-technician-087-3",
+          "careerId": "sound-technician",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "degree-27101300-047-domain",
+          "careerId": "degree-27101300",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "creative-make",
+          "careerId": "animation",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "creative-people",
+          "careerId": "animation",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "creative-refine-3",
+          "careerId": "film-editing",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "animation-interest-044-1",
+          "careerId": "animation",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "film-editing-interest-044-1",
+          "careerId": "film-editing",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "film-editing-interest-044-2",
+          "careerId": "film-editing",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "photographer-interest-044-1",
+          "careerId": "photographer",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "photographer-interest-044-2",
+          "careerId": "photographer",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        }
+      ]
+    },
+    {
+      "id": "scale056-0015",
+      "previousTargeted": [],
+      "repairedTargeted": [
+        "Bookkeeping, Accounting, & Auditing Clerks"
+      ],
+      "asked": [
+        {
+          "id": "business-problem",
+          "careerId": "bookkeeping-clerk",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "business-workday",
+          "careerId": "bookkeeping-clerk",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "business-refine-3",
+          "careerId": "bookkeeping-clerk",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "bookkeeping-clerk-interest-044-1",
+          "careerId": "bookkeeping-clerk",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "bookkeeping-clerk-interest-044-2",
+          "careerId": "bookkeeping-clerk",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "business-people",
+          "careerId": "accounting",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "logistics-interest-044-1",
+          "careerId": "logistics",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "accounting-interest-044-1",
+          "careerId": "accounting",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "personal-financial-advisor-interest-044-1",
+          "careerId": "personal-financial-advisor",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "business-refine-4",
+          "careerId": "industrial-engineering",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "industrial-engineering-interest-044-1",
+          "careerId": "industrial-engineering",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "financial-analysis-interest-044-1",
+          "careerId": "financial-analysis",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        }
+      ]
+    },
+    {
+      "id": "scale056-0016",
+      "previousTargeted": [],
+      "repairedTargeted": [
+        "Electrical & electronic assembly"
+      ],
+      "asked": [
+        {
+          "id": "electronics-assembly-087-1",
+          "careerId": "electronics-assembly",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "electronics-assembly-087-2",
+          "careerId": "electronics-assembly",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "electronics-assembly-087-3",
+          "careerId": "electronics-assembly",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "degree-17101200-047-domain",
+          "careerId": "degree-17101200",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "degree-27101300-047-domain",
+          "careerId": "degree-27101300",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "creative-make",
+          "careerId": "photographer",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "creative-people",
+          "careerId": "photographer",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "creative-refine-3",
+          "careerId": "industrial-design",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "photographer-interest-044-1",
+          "careerId": "photographer",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "photographer-interest-044-2",
+          "careerId": "photographer",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "industrial-design-interest-044-1",
+          "careerId": "industrial-design",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "animation-interest-044-1",
+          "careerId": "animation",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        }
+      ]
+    },
+    {
+      "id": "scale056-0087",
+      "previousTargeted": [
+        "Bookkeeping, Accounting, & Auditing Clerks"
+      ],
+      "repairedTargeted": [],
+      "asked": [
+        {
+          "id": "transportation-production-move",
+          "careerId": "truck-driver",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "transportation-production-setting",
+          "careerId": "truck-driver",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "transportation-production-refine-3",
+          "careerId": "truck-driver",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "truck-driver-interest-044-1",
+          "careerId": "truck-driver",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "stock-order-filler-interest-044-1",
+          "careerId": "stock-order-filler",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "stock-order-filler-interest-044-2",
+          "careerId": "stock-order-filler",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "warehouse-material-mover-interest-044-1",
+          "careerId": "warehouse-material-mover",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "delivery-driver-interest-044-1",
+          "careerId": "delivery-driver",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "business-problem",
+          "careerId": "logistics",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "business-people",
+          "careerId": "logistics",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "business-refine-3",
+          "careerId": "accounting",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "accounting-interest-044-1",
+          "careerId": "accounting",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        }
+      ]
+    },
+    {
+      "id": "grok075-0017",
+      "previousTargeted": [],
+      "repairedTargeted": [
+        "Sound engineering technicians"
+      ],
+      "asked": [
+        {
+          "id": "sound-technician-087-1",
+          "careerId": "sound-technician",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "sound-technician-087-2",
+          "careerId": "sound-technician",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "sound-technician-087-3",
+          "careerId": "sound-technician",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "degree-27101300-047-domain",
+          "careerId": "degree-27101300",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "degree-27102700-047-domain",
+          "careerId": "degree-27102700",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "creative-make",
+          "careerId": "animation",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "creative-people",
+          "careerId": "animation",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "creative-refine-3",
+          "careerId": "animation",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "animation-interest-044-1",
+          "careerId": "animation",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "degree-27304305-047-domain",
+          "careerId": "degree-27304305",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "graphic-design-interest-044-1",
+          "careerId": "graphic-design",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "degree-27102200-047-domain",
+          "careerId": "degree-27102200",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        }
+      ]
+    },
+    {
+      "id": "grok075-0010",
+      "previousTargeted": [],
+      "repairedTargeted": [
+        "Lawyers"
+      ],
+      "asked": [
+        {
+          "id": "business-problem",
+          "careerId": "bookkeeping-clerk",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "business-workday",
+          "careerId": "bookkeeping-clerk",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "business-refine-3",
+          "careerId": "bookkeeping-clerk",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "bookkeeping-clerk-interest-044-1",
+          "careerId": "bookkeeping-clerk",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "business-people",
+          "careerId": "personal-financial-advisor",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "personal-financial-advisor-interest-044-1",
+          "careerId": "personal-financial-advisor",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "law-interest-044-1",
+          "careerId": "law",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "law-interest-044-2",
+          "careerId": "law",
+          "response": "yes",
+          "unknown": false,
+          "bindingMissing": false
+        },
+        {
+          "id": "human-resources-interest-044-1",
+          "careerId": "human-resources",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "paralegal-interest-044-1",
+          "careerId": "paralegal",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        },
+        {
+          "id": "management-analyst-interest-044-1",
+          "careerId": "management-analyst",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": true
+        },
+        {
+          "id": "market-research-interest-044-1",
+          "careerId": "market-research",
+          "response": "unfamiliar",
+          "unknown": true,
+          "bindingMissing": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Structured answers and the 1,000-profile replay · 0.56 · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Structured answers and the 1,000-profile replay · 0.56</h1><p>Retained development record. It may describe an earlier release.</p><a href="./cohort-1000-056.md" download>Download original Markdown</a><pre class="document"># Structured answers and the 1,000-profile replay · 0.56
+
+## What changed
+
+The unpublished word classifiers have been withdrawn. Neither a biography nor the wording of a question, activity label or answer option is interpreted to generate a matching answer. The release uses stable question IDs, option IDs, construct IDs, selected values, numerical interest correlations and explicit profession-evidence rules.
+
+The student matching questionnaire uses rating buttons and multiple-choice selections. Library search and optional plan notes are separate conveniences and do not supply matching evidence. Display wording can be changed without changing the stored response or the resulting match.
+
+The 1,000 public base profiles comprise 172 preserved life-first cases and 828 added structured synthetic cases. Twelve diagnostic variants are outside that denominator. Six owner-only cases remain in authenticated storage and are never included in public fixtures. The original, fresh and added holdouts have separate labels, filters and result rows.
+
+## How the added model answers are produced
+
+Each added profile has frozen positive and negative topic IDs, method IDs, responsibility preferences, contextual facts, optional fields and a lifestyle level. The original profile file and split are unchanged. The displayed biography is an explanation of those preferences; it is not parsed back into answers.
+
+The 60 official items have individually authored bindings by question ID. A fully supported positive binding produces Like (4), an explicitly contrary preference produces Dislike (2), and an unstated preference produces neutral (3). This neutral convention is necessary for the official instrument and is labeled as a simulation convention, not evidence that the model is indifferent. No extra Love intensity is fabricated.
+
+Additional profession questions use explicit bindings for topic, method and responsibility. All required positive constructs must be present for an inferred Yes; a known conflicting topic or method produces No. An unmapped question or an unstated required preference stays unfamiliar with low confidence. Prior task-option assumptions are preserved. Ten technology options now have direct, individually authored topic/method bindings rather than shared occupation-link propagation. All required constructs must be stated positively.
+
+A structured preference is not a profession-specific answer by itself. Optional activity selections affect discovery invitations only. They do not promote an unsupported career to Top, supply a missing defining interest, or add a salary or degree bonus. Existing support gates remain in force.
+
+A general binding audit removed specialty inheritance from a broad SOC parent. For example, a general executive preference does not establish sustainability-specialist interest. Incorrect provisional marine-engineering, nuclear-engineering, materials-engineering, cleaning and clinical-data bindings were corrected or left unmapped. These were global binding corrections, not case-specific edits made after inspecting holdout profiles.
+
+## Why the first ratio collapsed, and the correction
+
+The first replay mixed different test conditions. Original profiles had about 100 saved profession-specific answers on average (median 54); added profiles were stopped at three profession comparisons. A real replay bug also treated guided professions’ specific Yes/No controls as activity checkboxes because their options carried career IDs. Their defining responses were therefore never recorded, artificially blocking supported Top status. Software checks passed while missing this response-shape path; regression tests now exercise it explicitly.
+
+Policy amendment 005 corrects dispatch by question kind and removes the three-career cap. Every mapped career whose required subject preferences are stated positively receives its available questions. Shared activity questions are answered once, and unknown or contrary preferences retain their existing responses. Profiles, answer bindings, correlations, Top support gates, and degree/pay ranking are unchanged. This is comprehensive relevant-question coverage, not a prediction of how many surveys a typical student completes. The original profiles remain a separate comparison; their prior evidence holds are not removed to increase a rate.
+
+## Broader supported options · policy 006
+
+The development-only rehearsal preserved the same 628 profiles and the first-three Top definition. Supported Top coverage rose from 456 to 479; college/graduate Top coverage rose from 360 to 384. Twenty-three profiles gained their first Top and none lost all Top matches. These figures were inspected before freezing policy 006 and evaluating the separate additional holdout. The original 172 profiles and their complete current results are unchanged.
+
+All 49 added occupation bindings and ten direct technology options were read against their existing sourced questions. The 23 development models gaining their first Top received individual narrative review, linked from the current rerun review. This was author review, not independent validation. The 213 newly appearing development Top pairs also received structured consistency checks; that does not establish their qualitative correctness.
+
+Some specifically supported choices have negative or unavailable six-theme correlations. The engine already gives distinctive, positively answered profession questions precedence over broad correlation; this update does not change that policy or hide those values. A specific learning interest is not a claim of high statistical similarity, measured ability or eventual success. Those conflicting cases remain an important calibration task.
+
+No existing career binding was weakened, no broad specialty inheritance was added, and no new preference was inserted into a profile. Newly mapped answers change the replay's evidence coverage. They do not improve the student scoring engine, which already accepted actual structured answers for these professions. Additional degree offers include recognized degree routes, not a guarantee that every job legally or universally requires a degree.
+
+## Scope and remaining uncertainty
+
+Policy 006 extends the explicit simulator to 263 of 457 accessible careers, 675 profession questions and 343 task options. It adds 49 previously unmapped professions and ten directly authored technology activity bindings. Distinctive clinical, research, legal, safety and coordination responsibilities still need their own positive evidence. Unmapped careers are still accessible to actual students. A zero simulated Top count can reflect an unmapped career, an unvisited profession comparison, insufficient stated preference or a genuine contradiction; it is not a single measure of career fit.
+
+The added profile generator and the answer bindings share authored constructs. Some task bindings also reuse the existing option-to-career links. This shared methodology means the replay is not independent validation of the matching rules. All added Top claims are labeled as lacking independent qualitative review. The results describe a designed test set, not the student population, actual student choices, or the probability that a career is suitable.
+
+The withdrawn simulator offered at most three profession comparisons. The corrected replay covers all mapped subject-aligned careers; the guided and expanded career banks still have different evidence requirements. Discovery invitations and binding coverage can therefore skew the degree/nondegree distribution. More degree Top offers must not be presented as proof of improved matching quality.
+
+The added 200-profile holdout was assigned before the first outcomes and receives no case-specific tuning. Earlier aggregate outcomes were seen while replacing the failed simulator. It is consequently not an untouched final validation set. The original 30-profile holdout and fresh 12-profile holdout remain independently selectable. A genuinely new final validation cohort would be required for an unbiased final performance estimate after calibration.
+
+## Original profile protection and evidence review
+
+Original biographies, raw answers and numerical scores are retained. Previously authored structured responses are replayed without interpreting their rationale text. Seventy-one reviewed, development-side inferred claims carry an uncertainty hold where the earlier qualitative review found that the inference overreached. Direct student answers can resolve these holds. No case-specific holds or new inferred activity answers are added to any holdout profile.
+
+The original evidence review is not silently extended to new Top claims. Remaining holdout flags and newly appearing unreviewed Top claims are shown in the current rerun review. A reduction in Top coverage after removing unsupported inferred evidence is an evidence-quality correction, not a reason to force replacement matches.
+
+## Chart and frequency definitions
+
+Top is the first three specifically supported careers in the current explorer order. Other contains the remaining entries in the first 12 discovery results, including options still needing confirmation. Lifestyle contains specifically supported entries in that same window whose assessed first-paid-stage pay covers the stated budget. Missing pay remains unassessed. Top and lifestyle can overlap.
+
+The chart, profile library, student preview and frequency view use this same current replay. Frequency counts deduplicate each model–profession pair within a category. Field membership overlaps; field-model mode counts a person once per field and category. The zero-appearance list distinguishes careers supported outside the displayed window. Filters do not rerank or promote careers. The main chart contains current results only; frozen historical inputs remain available as evidence records.
+
+## Verification and reproducibility
+
+The build regenerates the replay from frozen inputs. Automated checks verify the registered input and rule hashes, all 828 structured response records, all 1,000 base rows and 12 diagnostic rows, separate holdout denominators, score parity, explicit unknowns, absence of private records, exact chart/frequency list parity, Top support, list caps, education filters and starting-pay coverage requirements.
+
+Metamorphic checks change biographies, demographic and health labels, question and option display text, nickname, skills and lifestyle assumptions while holding matching inputs constant. Matching responses, evidence support and interest ranks must remain unchanged. Separate tests ensure that activity discovery cannot create Top support and that direct student clarification supersedes an inference hold.
+
+The earlier failed policies and their exposed aggregate outcomes remain in research provenance. They are not imported by the release. The current registered replacement is policy amendment 006; immutable policy 005 inputs and results remain in research for like-for-like comparison. Full question bindings, structured profile input IDs, current run IDs, source hashes and saved response transcripts are linked from the current chart and each added model profile.
+
+These are software and procedural consistency checks. They do not complete external-service calibration or demonstrate real-student psychometric validity.
+
+## What to fix next
+
+First, independently review the authored construct bindings and question-bank differences before using this synthetic distribution to prioritize careers. Extend missing bindings from reviewed, activity-level evidence rather than career-name similarity. Review a preselected development sample of the added profiles and all newly appearing original-profile Top claims. Keep the holdouts out of case-specific revisions. After those policies are frozen, use a genuinely fresh validation set and compare equivalent structured responses with independent instruments.
+</pre></main></html>

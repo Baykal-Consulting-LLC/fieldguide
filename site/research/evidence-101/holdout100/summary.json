@@ -1,0 +1,139 @@
+{
+  "freeze": {
+    "sealedAt": "2026-10-24T19:26:34.356Z",
+    "selectorSHA256": "9f250ecde7dcd2bb3a42d0e963f5a1ac7ea3b27f581f0a6f2886d41a284c0e00",
+    "profileSHA256": "0fcfdea60d68216cc8a306fb27d6841a8c95bf38b9c1f509f2b258e3c982ff53",
+    "previouslyInspected": true
+  },
+  "summary": [
+    {
+      "budget": 0,
+      "models": 100,
+      "unknownReasons": {},
+      "beforeTop": 0,
+      "top": 0,
+      "beforeDegree": 0,
+      "degree": 0,
+      "allDegree": 0,
+      "beforeAsked": 0,
+      "beforeUnknown": 0,
+      "unknown": 0,
+      "asked": 0,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0
+    },
+    {
+      "budget": 4,
+      "models": 100,
+      "unknownReasons": {
+        "unmeasured-preference": 161,
+        "conflicting-evidence": 2
+      },
+      "beforeTop": 6,
+      "top": 6,
+      "beforeDegree": 0,
+      "degree": 0,
+      "allDegree": 0,
+      "beforeAsked": 400,
+      "beforeUnknown": 163,
+      "unknown": 163,
+      "asked": 400,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0
+    },
+    {
+      "budget": 8,
+      "models": 100,
+      "unknownReasons": {
+        "unmeasured-preference": 350,
+        "conflicting-evidence": 2
+      },
+      "beforeTop": 53,
+      "top": 53,
+      "beforeDegree": 37,
+      "degree": 37,
+      "allDegree": 37,
+      "beforeAsked": 800,
+      "beforeUnknown": 352,
+      "unknown": 352,
+      "asked": 800,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0
+    },
+    {
+      "budget": 12,
+      "models": 100,
+      "unknownReasons": {
+        "unmeasured-preference": 567,
+        "conflicting-evidence": 2
+      },
+      "beforeTop": 64,
+      "top": 64,
+      "beforeDegree": 46,
+      "degree": 46,
+      "allDegree": 46,
+      "beforeAsked": 1200,
+      "beforeUnknown": 569,
+      "unknown": 569,
+      "asked": 1200,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0
+    },
+    {
+      "budget": 16,
+      "models": 100,
+      "unknownReasons": {
+        "unmeasured-preference": 816,
+        "conflicting-evidence": 2
+      },
+      "beforeTop": 66,
+      "top": 66,
+      "beforeDegree": 49,
+      "degree": 49,
+      "allDegree": 49,
+      "beforeAsked": 1600,
+      "beforeUnknown": 818,
+      "unknown": 818,
+      "asked": 1600,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0
+    },
+    {
+      "budget": 24,
+      "models": 100,
+      "unknownReasons": {
+        "unmeasured-preference": 1403,
+        "conflicting-evidence": 2
+      },
+      "beforeTop": 71,
+      "top": 71,
+      "beforeDegree": 57,
+      "degree": 57,
+      "allDegree": 57,
+      "beforeAsked": 2400,
+      "beforeUnknown": 1405,
+      "unknown": 1405,
+      "asked": 2400,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0
+    }
+  ],
+  "limits": [
+    "Previously inspected synthetic holdout, kept separate from both 1000-model cohorts; not unseen validation or actual students.",
+    "Same frozen profiles and official60 answers; no interests added.",
+    "Baseline uses the frozen 0.100 results, not a reconstructed earlier selector.",
+    "At most24 freshly selected follow-ups; unknowns count. Canonical support requirements and live flow unchanged."
+  ]
+}

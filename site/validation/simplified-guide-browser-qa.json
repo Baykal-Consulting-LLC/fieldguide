@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-16",
+  "preview": "http://127.0.0.1:4180",
+  "data": "Synthetic browser-only QA inputs",
+  "flows": {
+    "assessment": "Passed: reached #/plan",
+    "college": "Passed: reached #/plan",
+    "training": "Passed: reached #/plan",
+    "careers": "Passed: reached #/plan",
+    "income": "Passed: reached #/plan",
+    "lifestyle": "Passed: reached #/plan"
+  },
+  "assessment": "All six original sections completed through UI; responses saved and connected to paths",
+  "salary": "Software entry/5/10/20 stages visible; selecting 10-year stage updated monthly budget",
+  "persistence": "Reload retained plan; custom gross 72000 retained as Custom income scenario",
+  "export": "My Plan JSON downloaded; personal budgets excluded by default",
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "routes": [
+      "overview",
+      "guide/assessment",
+      "activity/curiosity",
+      "guide/lifestyle",
+      "guide/income-goal",
+      "guide/paths",
+      "guide/specialty",
+      "guide/careers",
+      "career/industrial-design",
+      "guide/education",
+      "guide/income",
+      "guide/life",
+      "guide/next",
+      "plan"
+    ],
+    "horizontalOverflow": false,
+    "visibleTextBelow16px": false
+  },
+  "limitations": [
+    "Salary milestones are planning models except the labeled Austin ISD employer schedule.",
+    "UI QA does not establish psychometric or salary-model validity."
+  ]
+}

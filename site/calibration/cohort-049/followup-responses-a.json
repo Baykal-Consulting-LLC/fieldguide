@@ -1,0 +1,4824 @@
+{
+  "rows": [
+    {
+      "id": "new049-003",
+      "reviewedProbes": [
+        "p0001",
+        "p0002",
+        "p0003",
+        "p0004",
+        "p0005",
+        "p0006",
+        "p0007",
+        "p0008",
+        "p0009",
+        "p0010",
+        "p0011",
+        "p0012",
+        "p0013",
+        "p0014",
+        "p0015",
+        "p0016",
+        "p0088",
+        "p0089",
+        "p0090",
+        "p0017",
+        "p0091",
+        "p0092"
+      ],
+      "overrides": [
+        {
+          "probe": "p0001",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "He has not kept organizational reports or learned reporting rules; comparison shopping does not establish wanting that regular task.",
+            "He likes detecting hidden costs and missing pieces; tracing a money discrepancy is a plausible extension of checking what an offer actually contains."
+          ]
+        },
+        {
+          "probe": "p0002",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "Yearlong record keeping is expressly unfamiliar, and he dislikes long repetitive assignments; whether bookkeeping itself appeals is unsettled.",
+            "He checked seed quantities and delivery charges others missed, supporting interest in learning to find wrong amounts in bills."
+          ]
+        },
+        {
+          "probe": "p0003",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He enjoys comparing complete offers and overlooked costs; examining business performance is a plausible analytical extension.",
+            "His supply-offer comparison included delivery costs, supporting interest in evidence about how a business uses money; raising capital itself is unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0004",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "He underestimated box-carrying capacity and has not shown sustained interest in a whole project plan.",
+            "Missing handoffs and needing checklists concern experience; he has not expressed wanting responsibility for a team’s promised delivery."
+          ]
+        },
+        {
+          "probe": "p0005",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He checks why used items fail and what sellers include, suggesting curiosity about practical procedures and their results.",
+            "He has no experience implementing organizational changes with staff; comparing products alone does not establish wanting that responsibility."
+          ]
+        },
+        {
+          "probe": "p0007",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "He enjoys checking items but has not investigated production workflows or people allocation.",
+            "Delivery-inclusive supply comparisons and unit-price comparisons support learning to compare costs and reduce material waste."
+          ]
+        },
+        {
+          "probe": "p0008",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He browses listings voluntarily and adjusts an unsold game’s price, suggesting interest in what buyers value.",
+            "Comparing sellers’ inclusions and reconsidering price support learning market comparisons, with no claim he already knows analytical tools."
+          ]
+        },
+        {
+          "probe": "p0009",
+          "responses": [
+            "no",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He explicitly finds posting, photographing and describing items annoying, making a regular marketing-coordination role unappealing.",
+            "Price changes on one unsold game suggest some interest, but paid campaigns and ongoing marketing budgets are unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0013",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "He compares costs but has not discussed another person’s risk tolerance or financial goals.",
+            "His repeated cost comparisons and personal vehicle-saving goal support exploring saving and financial options, without assuming investment expertise."
+          ]
+        },
+        {
+          "probe": "p0014",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He likes noticing delivery charges and compared school-booth supply offers, a plausible start for learning supply planning.",
+            "He underestimated carrying capacity and has not coordinated changing suppliers, transport and customers; willingness is unknown rather than denied."
+          ]
+        },
+        {
+          "probe": "p0090",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Wind energy development is not among his chosen subjects.",
+            "He enjoys finding hidden delivery costs and comparing three offers; comparing a site project’s costs and constraints could appeal, despite unfamiliar permitting.",
+            "No evidence establishes desire to coordinate landowners and authorities or own a construction budget."
+          ]
+        },
+        {
+          "probe": "p0091",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "There is no expressed solar-energy or property interest.",
+            "He repeatedly compares quantities and total offers; comparing energy use, budget and product options is a plausible learning interest.",
+            "He finds posting and sales follow-up annoying, but has not experienced detailed solar explanation or accountability; that remains unsure."
+          ]
+        },
+        {
+          "probe": "p0092",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "His used-game transactions do not establish interest in complex technical equipment.",
+            "He enjoys checking what sellers include and whether items work, supporting comparison of requirements against product capabilities.",
+            "Technical sales presentations and delivery accountability are untried; his dislike of item descriptions makes this uncertain."
+          ]
+        }
+      ],
+      "note": "Every invited prompt reviewed. Cost and offer comparisons transfer to analysis and purchasing exploration; yearly records, management accountability and technical subjects remain uncertain. ADHD, rural access and money hopes do not determine interest. Unlisted overrides remain unsure/low."
+    },
+    {
+      "id": "new049-004",
+      "reviewedProbes": [
+        "p0097",
+        "p0098",
+        "p0099",
+        "p0100",
+        "p0001",
+        "p0002",
+        "p0003",
+        "p0004",
+        "p0005",
+        "p0006",
+        "p0007",
+        "p0008",
+        "p0009",
+        "p0010",
+        "p0011",
+        "p0012",
+        "p0013",
+        "p0014",
+        "p0015",
+        "p0016",
+        "p0102",
+        "p0103",
+        "p0104",
+        "p0105",
+        "p0106",
+        "p0107",
+        "p0108",
+        "p0109",
+        "p0110",
+        "p0111",
+        "p0112",
+        "p0113",
+        "p0114",
+        "p0115",
+        "p0116",
+        "p0117",
+        "p0018",
+        "p0088",
+        "p0118",
+        "p0119",
+        "p0120",
+        "p0121",
+        "p0122",
+        "p0123",
+        "p0089",
+        "p0090",
+        "p0124",
+        "p0125",
+        "p0126",
+        "p0127",
+        "p0128",
+        "p0129",
+        "p0130",
+        "p0131",
+        "p0132",
+        "p0133",
+        "p0017",
+        "p0134",
+        "p0135",
+        "p0091",
+        "p0092"
+      ],
+      "overrides": [
+        {
+          "probe": "p0097",
+          "selected": [
+            "sales-office-refine-1-1",
+            "sales-office-refine-1-2"
+          ],
+          "feedback": null,
+          "confidence": "medium",
+          "evidence": "She interviews classmates about skipping an event and likes making announcements answer audience concerns; purchase decisions are a tentative customer extension."
+        },
+        {
+          "probe": "p0098",
+          "selected": [
+            "sales-office-refine-3-2"
+          ],
+          "feedback": null,
+          "confidence": "medium",
+          "evidence": "She asks why people might decline and adjusts wording; service history and customer needs fit better than transaction reconciliation."
+        },
+        {
+          "probe": "p0099",
+          "selected": [
+            "sales-office-refine-4-2"
+          ],
+          "feedback": null,
+          "confidence": "medium",
+          "evidence": "Practicing a clear response fits her work asking students what would discourage attendance and revising invitations."
+        },
+        {
+          "probe": "p0100",
+          "selected": [
+            "sales-office-workday-1"
+          ],
+          "feedback": null,
+          "confidence": "medium",
+          "evidence": "She likes wording that gets attention and makes sense to its audience; follow-up record routines are not clearly enjoyed."
+        },
+        {
+          "probe": "p0004",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She plans visits and event publicity, chooses message priorities and delegates artwork, suggesting interest in learning bounded project planning.",
+            "Missed meetings and late requests reveal unresolved follow-through; she has not expressed wanting full client-delivery accountability."
+          ]
+        },
+        {
+          "probe": "p0005",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She interviews potential attendees and asks why an approach works, suggesting interest in investigating an organization’s procedures.",
+            "She rewrites invitations after feedback and is trying earlier deadlines with a smaller team, supporting learning to improve a process collaboratively."
+          ]
+        },
+        {
+          "probe": "p0006",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "The biography supports publicity teamwork, not an expressed wish to coordinate a department’s regular goals.",
+            "She has not compared detailed departmental costs or performance; promotion budgets are expressly unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0008",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She voluntarily asks classmates why they might skip an event and earlier tested requests for funny books versus books generally.",
+            "She enjoyed examining which election messages reached different groups more than the final vote, supporting learning systematic audience-data comparison."
+          ]
+        },
+        {
+          "probe": "p0009",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She repeatedly chooses campaign messages and publicizes events with a team, directly supporting interest in regular marketing work.",
+            "She likes comparing message effects and adapting them for students and parents; learning trends and spending is a plausible extension although paid budgets are unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0012",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "No recruitment or hiring interest is stated; student election work is publicity rather than staffing.",
+            "She enjoys adapting wording to audience concerns, making explanatory workplace-policy communication plausible, with substantive personnel disputes still unknown."
+          ]
+        },
+        {
+          "probe": "p0105",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She likes influencing attention but has not said she wants to lead a sales team or win continuing business accounts.",
+            "Her classmate interviews and election-message comparisons support learning to compare customer response and improve an approach.",
+            "Staff performance expectations and resolving escalated customer concerns have not been tried or sought."
+          ]
+        },
+        {
+          "probe": "p0106",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Choosing the campaign’s central message and tailoring clothing-exchange messages show repeated communication interest.",
+            "She voluntarily interviews classmates and revises announcements after audience feedback.",
+            "She delegates visuals and has not led a public response to a difficult organizational issue; accountability remains uncertain."
+          ]
+        },
+        {
+          "probe": "p0107",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "The book collection and clothing exchange show interest in framing a cause so people participate.",
+            "She liked testing funny-book wording against a general request, directly supporting campaign comparison.",
+            "She has not managed donation goals or budgets, so this responsibility is not inferred from persuasive messages."
+          ]
+        },
+        {
+          "probe": "p0108",
+          "responses": [
+            "no",
+            "no",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She explicitly avoids routine packing and delegates visual/display details; organizing records and supplies as the central activity seems unappealing.",
+            "Her curiosity focuses on audience wording rather than shared administrative workflow costs.",
+            "She has not overseen support staff or service budgets; aversion to details does not establish how she would feel about every supervisory task."
+          ]
+        },
+        {
+          "probe": "p0118",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Event publicity supplies some exposure but she has not expressed a preference for park or recreation programs.",
+            "Interviewing prospective attendees and comparing what messages reached people support visitor-feedback investigation.",
+            "She has not coordinated full activity schedules, staffing or a recreation budget."
+          ]
+        },
+        {
+          "probe": "p0124",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "An election campaign is not evidence of interest in artists’ or athletes’ professional careers.",
+            "She repeatedly considers how to promote an individual’s message to different audiences; assessing promotion approaches may appeal by transfer.",
+            "Negotiating professional engagements and representing contract obligations remain untried."
+          ]
+        },
+        {
+          "probe": "p0128",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She planned elaborate visits and currently helps an event attract participants, suggesting interest in a bounded participant experience.",
+            "Her current small-team publicity includes deadlines, audience needs and adjustments, supporting learning coordination despite mistakes.",
+            "Full event bills and supplier delivery have not been her responsibility; enthusiasm for publicity does not answer that part."
+          ]
+        },
+        {
+          "probe": "p0129",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She voluntarily worked on book donations and clothing-exchange publicity, supporting interest in bringing resources to a cause.",
+            "Testing message wording and identifying why classmates might decline support interest in donor/audience research.",
+            "She has not maintained donor commitment records or directly solicited sustained donations; those duties remain unsure."
+          ]
+        },
+        {
+          "probe": "p0135",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "No scientific-product subject interest is stated.",
+            "Her interviews about reasons to decline suggest interest in investigating requirements before choosing a message or proposal.",
+            "She has not negotiated technical contracts or owned delivery commitments; public attention alone is insufficient evidence."
+          ]
+        }
+      ],
+      "note": "All listed probes reviewed. Audience-specific wording is repeated voluntary interest; visual production, long video editing and routine lists are less appealing. Interest in communication and research does not automatically establish executive, clinical, technical or regulatory responsibility. Omitted probes remain unsure/low."
+    },
+    {
+      "id": "new049-007",
+      "reviewedProbes": [
+        "p0145",
+        "p0146",
+        "p0147",
+        "p0148",
+        "p0149",
+        "p0150",
+        "p0151",
+        "p0152",
+        "p0153",
+        "p0001",
+        "p0002",
+        "p0003",
+        "p0004",
+        "p0005",
+        "p0006",
+        "p0007",
+        "p0008",
+        "p0009",
+        "p0010",
+        "p0011",
+        "p0012",
+        "p0013",
+        "p0014",
+        "p0015",
+        "p0016",
+        "p0154",
+        "p0155",
+        "p0156",
+        "p0157",
+        "p0158",
+        "p0159",
+        "p0160",
+        "p0161",
+        "p0162",
+        "p0163",
+        "p0164",
+        "p0165",
+        "p0166",
+        "p0131",
+        "p0167",
+        "p0168",
+        "p0169",
+        "p0170",
+        "p0171",
+        "p0172",
+        "p0173",
+        "p0174",
+        "p0175",
+        "p0176",
+        "p0177",
+        "p0178",
+        "p0179",
+        "p0180",
+        "p0181",
+        "p0182",
+        "p0183",
+        "p0184",
+        "p0185",
+        "p0186",
+        "p0187",
+        "p0188",
+        "p0189",
+        "p0190",
+        "p0191",
+        "p0192",
+        "p0193",
+        "p0194",
+        "p0195",
+        "p0196",
+        "p0197",
+        "p0198",
+        "p0199",
+        "p0200",
+        "p0201",
+        "p0202",
+        "p0203",
+        "p0204",
+        "p0205",
+        "p0206",
+        "p0207",
+        "p0208",
+        "p0209",
+        "p0210",
+        "p0211",
+        "p0212",
+        "p0213",
+        "p0214",
+        "p0215",
+        "p0216",
+        "p0217",
+        "p0218",
+        "p0219",
+        "p0220",
+        "p0221",
+        "p0222",
+        "p0223",
+        "p0224",
+        "p0225",
+        "p0226",
+        "p0227",
+        "p0228",
+        "p0229",
+        "p0230",
+        "p0231",
+        "p0232",
+        "p0233",
+        "p0234",
+        "p0235",
+        "p0236",
+        "p0237",
+        "p0238",
+        "p0239",
+        "p0240",
+        "p0241",
+        "p0242",
+        "p0243",
+        "p0244",
+        "p0245",
+        "p0246",
+        "p0247",
+        "p0248",
+        "p0249",
+        "p0250",
+        "p0251",
+        "p0252",
+        "p0253",
+        "p0254",
+        "p0255",
+        "p0256",
+        "p0257",
+        "p0258",
+        "p0259",
+        "p0260",
+        "p0261",
+        "p0262",
+        "p0263",
+        "p0264",
+        "p0265",
+        "p0266",
+        "p0267",
+        "p0268",
+        "p0269",
+        "p0270",
+        "p0271"
+      ],
+      "overrides": [
+        {
+          "probe": "p0145",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He freely pursues written policy questions and original sources; decorative maps and public performances are disliked, but these science or engineered-design alternatives are not sufficiently tried to choose among them."
+        },
+        {
+          "probe": "p0146",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He freely pursues written policy questions and original sources; decorative maps and public performances are disliked, but these science or engineered-design alternatives are not sufficiently tried to choose among them."
+        },
+        {
+          "probe": "p0147",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He freely pursues written policy questions and original sources; decorative maps and public performances are disliked, but these science or engineered-design alternatives are not sufficiently tried to choose among them."
+        },
+        {
+          "probe": "p0148",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He freely pursues written policy questions and original sources; decorative maps and public performances are disliked, but these science or engineered-design alternatives are not sufficiently tried to choose among them."
+        },
+        {
+          "probe": "p0149",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He freely pursues written policy questions and original sources; decorative maps and public performances are disliked, but these science or engineered-design alternatives are not sufficiently tried to choose among them."
+        },
+        {
+          "probe": "p0150",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He freely pursues written policy questions and original sources; decorative maps and public performances are disliked, but these science or engineered-design alternatives are not sufficiently tried to choose among them."
+        },
+        {
+          "probe": "p0151",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He freely pursues written policy questions and original sources; decorative maps and public performances are disliked, but these science or engineered-design alternatives are not sufficiently tried to choose among them."
+        },
+        {
+          "probe": "p0152",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He freely pursues written policy questions and original sources; decorative maps and public performances are disliked, but these science or engineered-design alternatives are not sufficiently tried to choose among them."
+        },
+        {
+          "probe": "p0153",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He freely pursues written policy questions and original sources; decorative maps and public performances are disliked, but these science or engineered-design alternatives are not sufficiently tried to choose among them."
+        },
+        {
+          "probe": "p0001",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "His precise writing is not evidence of a wish to prepare financial reports under accounting rules.",
+            "He enjoys tracing conflicting claims back to sources, suggesting interest in learning why accounts differ, although financial content is unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0005",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He compares competing community claims and what each explanation leaves out, supporting investigation of organizational problems.",
+            "He has not implemented staff changes; writing analysis does not establish wanting operational change responsibility."
+          ]
+        },
+        {
+          "probe": "p0008",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "His own interviews with unfamiliar adults are untried, and he has not chosen product preferences as a subject.",
+            "He likes separating facts from priorities across competing claims; systematic comparison of audience evidence may appeal."
+          ]
+        },
+        {
+          "probe": "p0010",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He independently reads disputed school rules and writes a policy argument, supporting learning how laws apply to situations.",
+            "He marks exact rule sentences, checks original quotations and builds reasoned arguments, directly supporting case comparison."
+          ]
+        },
+        {
+          "probe": "p0011",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He enjoys precise wording and checking quotations against original policy documents, a plausible transfer to preparing legal papers.",
+            "He searches for missing facts and distinguishes factual disagreements from priorities, supporting organizing accurate supporting case material."
+          ]
+        },
+        {
+          "probe": "p0012",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "No recruiting or hiring interest is described.",
+            "His sustained school-policy writing and desire for accurate meanings support learning to explain how workplace policies apply; personnel counseling itself is unknown."
+          ]
+        },
+        {
+          "probe": "p0016",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "He investigated water restrictions and community claims but has not said he wants to develop land-use plans.",
+            "Comparing costs, local needs and rules could appeal through his policy-source comparison; planning tools and public implementation remain unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0163",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He investigated water restrictions but not pollution inspection specifically.",
+            "He compares sources and missing evidence in a disputed rule, suggesting interest in checking observations against rules before concluding a violation.",
+            "Required corrective orders and enforcement have not been tried; written analysis does not imply appetite for enforcing rules."
+          ]
+        },
+        {
+          "probe": "p0167",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "No sustained sustainability implementation interest is stated.",
+            "His water-restriction comparison supports examining competing evidence and practical policy consequences.",
+            "Departmental change implementation is unfamiliar and not justified by independent policy reading."
+          ]
+        },
+        {
+          "probe": "p0169",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Financial threats are not a chosen subject in his biography.",
+            "He enjoys comparing claims but has not used statistical loss models, so their appeal remains unsettled.",
+            "He likes making evidence limits explicit before others rely on a claim, supporting learning to communicate uncertainty even in an unfamiliar risk setting."
+          ]
+        },
+        {
+          "probe": "p0171",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He repeatedly seeks which claims evidence can support; a suspected deception offers a plausible investigative extension rather than a preference for criminal drama.",
+            "He checks quotations against originals and notices missing facts, directly supporting record-and-statement comparison.",
+            "He wants defensible written arguments and worries about careless claims; documenting findings that others may challenge could appeal, with legal proceedings still unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0183",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Past map drawing faded when shading became tedious; location analysis itself has not been tried enough to know.",
+            "He likes reconciling separate sources, so comparing spatial records could appeal despite the unfamiliar map tools.",
+            "He likes accurate claims, but maintaining location data has no direct preference evidence."
+          ]
+        },
+        {
+          "probe": "p0184",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He seeks original policy documents and accurate access to evidence, supporting exploration of organized electronic records.",
+            "He checks exact wording and wants missing facts retrievable, suggesting interest in categories useful for finding sources.",
+            "Confidentiality and disposal policy responsibility have not been sought or experienced."
+          ]
+        },
+        {
+          "probe": "p0187",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He has not pursued computer crime as a subject.",
+            "Checking original quotations and competing accounts supports the evidential method of comparing unaltered traces, although recovery tools are unfamiliar.",
+            "He values original-source checking and precise claims, making careful evidence explanation plausible; legal testimony itself remains uncertain."
+          ]
+        },
+        {
+          "probe": "p0191",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He examines verbal claims rather than voluntarily investigating abstract mathematical relationships.",
+            "He asks what evidence could defeat an apparently obvious claim and pursues exceptions, a specific transfer to testing arguments for counterexamples.",
+            "He would like publishable supported writing, but mathematical proof communication has not been experienced."
+          ]
+        },
+        {
+          "probe": "p0194",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Business performance is not a chosen subject.",
+            "His community-policy work separates factual disagreement from priorities and seeks missing evidence, supporting focused record questions.",
+            "He dislikes careless claims, but timely business report production is unfamiliar and unproven."
+          ]
+        },
+        {
+          "probe": "p0198",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He has not expressed interest in property boundary decisions.",
+            "He previously drew maps and now compares written sources for discrepancies; reconciling measurements and descriptions could appeal as a learning method.",
+            "Standing behind construction boundary measurements is consequential responsibility with no preference evidence."
+          ]
+        },
+        {
+          "probe": "p0245",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "His local water-restriction reading supports a tentative interest in environmental public policy.",
+            "He compares competing accounts and omitted details, directly supporting evidence-based policy comparison.",
+            "He is writing a careful school-policy argument and checking quotations; written recommendations with uncertainty are appealing even though public speaking is not."
+          ]
+        },
+        {
+          "probe": "p0250",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He investigated water restrictions but has not chosen economic costs and incentives as a subject.",
+            "Comparing policy accounts is appealing; specific economic estimation remains unfamiliar rather than automatically liked.",
+            "He enjoys distinguishing facts from priorities and what each source leaves out, supporting learning to explain tradeoffs and assumptions."
+          ]
+        },
+        {
+          "probe": "p0251",
+          "responses": [
+            "unsure",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He studies competing claims, but systematic surveys of groups are not yet a chosen subject.",
+            "He revises precise wording and notices different meanings of terms; testing survey wording could appeal even though sampling tools are unfamiliar.",
+            "He checks what can be supported and seeks missing facts, supporting learning to explain whose responses or evidence may be absent."
+          ]
+        },
+        {
+          "probe": "p0252",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "A past decorative-map hobby is not an established geographic research interest.",
+            "Local water-restriction accounts supply some transfer to combining place evidence; population-data work is unfamiliar and interest tentative.",
+            "He wants to publish supported arguments, suggesting interest in explaining geographic evidence and its limits in writing."
+          ]
+        },
+        {
+          "probe": "p0253",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He enjoys reading competing accounts of local issues and could plausibly enjoy investigating how an earlier event unfolded.",
+            "Original-document and quotation checking directly support comparing historical sources.",
+            "His longer policy piece already separates facts from differing priorities and seeks missing evidence, supporting careful written interpretations."
+          ]
+        },
+        {
+          "probe": "p0254",
+          "responses": [
+            "unsure",
+            "unsure",
+            "no"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "No sustained transport-network planning interest is described.",
+            "A jogging route is leisure, not a traffic-pattern investigation.",
+            "He explicitly dislikes imagining presenting his argument aloud; required public transport-proposal discussion would be unappealing."
+          ]
+        },
+        {
+          "probe": "p0255",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Physical crime evidence is unfamiliar and not a chosen topic.",
+            "His repeated competing-claim and source checks support comparison of observations to test explanations; laboratory techniques themselves are new.",
+            "Preserving evidence may interest him but criminal-investigation responsibility is not settled by a careful school argument."
+          ]
+        },
+        {
+          "probe": "p0257",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He voluntarily checks original policy sources and seeks accurate documentary evidence, a plausible records-preservation interest.",
+            "He likes understanding what different accounts mean and where claims came from, supporting descriptive source organization.",
+            "He checks quotations and cares about avoiding unsupported claims; responsible source access could appeal, while specialist privacy rules are new."
+          ]
+        },
+        {
+          "probe": "p0270",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "No wish to carry out established statistical calculations is stated.",
+            "He tests support for claims, but repeated numerical table preparation is unfamiliar.",
+            "He likes explaining missing evidence and precise limits, supporting communicating errors for review rather than pretending certainty."
+          ]
+        }
+      ],
+      "note": "Every invited reflection and choice was read. Written policy arguments, exact sources and competing interpretations support inquiry and legal/social research transfer. Public presentation is explicitly disliked; scientific, clinical and managerial interests are not inferred merely from analytical habits. Unlisted probes default to unsure/low."
+    },
+    {
+      "id": "new049-008",
+      "reviewedProbes": [
+        "p0001",
+        "p0002",
+        "p0003",
+        "p0004",
+        "p0005",
+        "p0006",
+        "p0007",
+        "p0008",
+        "p0009",
+        "p0010",
+        "p0011",
+        "p0012",
+        "p0013",
+        "p0014",
+        "p0015",
+        "p0016"
+      ],
+      "overrides": [
+        {
+          "probe": "p0001",
+          "responses": [
+            "no",
+            "no"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They explicitly avoid maintaining detailed lists and counting supplies, making financial reporting unappealing.",
+            "Reconciling money records would center the exact detail work they repeatedly delegate and avoid."
+          ]
+        },
+        {
+          "probe": "p0002",
+          "responses": [
+            "no",
+            "no"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They explicitly avoid detailed lists and post-event counts, making ongoing money-entry work unattractive.",
+            "They leave supply checks to an irritated cousin; detailed bill and account correction is a similar avoided routine."
+          ]
+        },
+        {
+          "probe": "p0004",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They freely coordinate school and family gatherings and enjoy dividing urgent work, supporting learning better project planning.",
+            "They want to finish an event without disappointing a second group and now record agreements, suggesting interest in learning bounded team delivery despite current overcommitment."
+          ]
+        },
+        {
+          "probe": "p0005",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They enjoy finding what remains possible when room or attendance changes; investigating practical organizational problems could appeal.",
+            "They bring representatives together and adjust event sequences, directly supporting collaborative operational improvement."
+          ]
+        },
+        {
+          "probe": "p0006",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "They repeatedly gather decision makers and assign urgent work, suggesting interest in learning team coordination.",
+            "They enjoy immediate decisions but have not shown appetite for regular departmental cost/performance review; yearlong and nonurgent team management are unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0007",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "They like redividing work and shortening an event sequence when space changes, a plausible transfer to workflow improvement.",
+            "Comparing production costs and technical designs is not described; operational agility does not establish numerical production analysis interest."
+          ]
+        },
+        {
+          "probe": "p0014",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They like figuring out who can wait after a cancelled bus and rearranging supplies and space at events.",
+            "Changing attendance, room capacity and transport are exactly the kinds of practical disruptions they voluntarily coordinate; learning supplier coordination is a plausible extension."
+          ]
+        },
+        {
+          "probe": "p0015",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Keeping participants unstranded is a motive, but there is no health-facility subject interest or care-setting exposure.",
+            "They like practical replanning, but clinical staff processes and routine service review are a distinct unfamiliar setting."
+          ]
+        },
+        {
+          "probe": "p0016",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "They adapt an existing event space rather than expressing interest in ongoing land-use planning.",
+            "Long meetings about unlikely possibilities are explicitly avoided; long-range community-plan comparison remains uncertain rather than assumed liked."
+          ]
+        }
+      ],
+      "note": "All 16 invited probes reviewed. Immediate replanning and gathering decision makers are repeated interests, while detailed records and speculative long meetings are explicitly disliked. Bounded operational learning may appeal; yearlong accountability remains uncertain. Omitted probes are unsure/low."
+    },
+    {
+      "id": "new049-011",
+      "reviewedProbes": [
+        "p0145",
+        "p0146",
+        "p0147",
+        "p0148",
+        "p0272",
+        "p0273",
+        "p0274",
+        "p0275",
+        "p0276",
+        "p0277",
+        "p0278",
+        "p0279",
+        "p0309",
+        "p0163",
+        "p0172",
+        "p0175",
+        "p0176",
+        "p0177",
+        "p0178",
+        "p0179",
+        "p0180",
+        "p0181",
+        "p0183",
+        "p0184",
+        "p0185",
+        "p0186",
+        "p0187",
+        "p0189",
+        "p0196",
+        "p0197",
+        "p0198",
+        "p0199",
+        "p0205",
+        "p0207",
+        "p0209",
+        "p0212",
+        "p0222",
+        "p0223",
+        "p0234",
+        "p0235",
+        "p0236",
+        "p0249",
+        "p0255",
+        "p0256",
+        "p0257",
+        "p0289",
+        "p0291",
+        "p0293",
+        "p0294",
+        "p0310",
+        "p0311",
+        "p0312",
+        "p0297",
+        "p0313",
+        "p0260",
+        "p0261",
+        "p0300",
+        "p0263",
+        "p0264",
+        "p0265",
+        "p0266",
+        "p0267",
+        "p0268",
+        "p0269",
+        "p0301",
+        "p0270"
+      ],
+      "overrides": [
+        {
+          "probe": "p0145",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "Their chosen investigations concern code and reliable saved information; biological, field and animal settings are untried rather than disliked."
+        },
+        {
+          "probe": "p0146",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "Their chosen investigations concern code and reliable saved information; biological, field and animal settings are untried rather than disliked."
+        },
+        {
+          "probe": "p0147",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "Their chosen investigations concern code and reliable saved information; biological, field and animal settings are untried rather than disliked."
+        },
+        {
+          "probe": "p0148",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "Their chosen investigations concern code and reliable saved information; biological, field and animal settings are untried rather than disliked."
+        },
+        {
+          "probe": "p0272",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They made a household list and reminders to remove recurring annoyances, directly supporting learning to turn needs into a useful program.",
+            "They isolated a duplicate loop and enjoy tracing unexpected behavior, directly supporting writing, testing and fixing code."
+          ]
+        },
+        {
+          "probe": "p0273",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "The household synchronized list suggests interest in making useful user-facing applications; web code is a plausible learning extension.",
+            "They test saved data after changes and want one small system to work for a term, supporting functional web reliability rather than visual design."
+          ]
+        },
+        {
+          "probe": "p0274",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "They reproduce errors with small examples, suggesting interest in investigating patterns with computing; statistical analysis itself is unfamiliar.",
+            "They write concise notes about fixes but have not expressed a wish for charts or routine decision presentations."
+          ]
+        },
+        {
+          "probe": "p0275",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "Pure mathematical patterns are not their stated interest; behavior of useful programs is.",
+            "They check whether data saved correctly after changes and ask why updates fail, supporting learning reliability checks before trusting a conclusion."
+          ]
+        },
+        {
+          "probe": "p0277",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Losing book-list entries and wanting to know why saving failed support interest in protecting information from loss.",
+            "No attack or malware subject interest is described; accidental bugs do not automatically imply security-incident enthusiasm."
+          ]
+        },
+        {
+          "probe": "p0278",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They help a neighbor with device settings and record concise fixes, directly supporting practical troubleshooting explanations.",
+            "They already like removing concrete device annoyances; learning to set up and check a tool fits that preference."
+          ]
+        },
+        {
+          "probe": "p0279",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They maintain lists and reminders around household needs, suggesting interest in learning clearer information-system requirements.",
+            "Testing saving and synchronization and tracing a duplicate loop directly support system improvement."
+          ]
+        },
+        {
+          "probe": "p0172",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "There is no patient-care or health-information subject interest.",
+            "Making lists synchronize and digital pieces cooperate supports learning information requirements, with clinical terminology new.",
+            "Clinical privacy and staff-change responsibilities have no specific preference evidence."
+          ]
+        },
+        {
+          "probe": "p0175",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "They enjoy digital pieces cooperating despite intermittent connection, making reliable communication an appealing learning extension.",
+            "Their list synchronizes on reconnection and they trace failures, supporting curiosity about interacting network parts.",
+            "They have not coordinated communication equipment installation or maintenance; large shared duties remain uncertain."
+          ]
+        },
+        {
+          "probe": "p0176",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Lost borrowed-book entries and current save checks show repeated interest in dependable stored information.",
+            "They investigate update failures and verify saved data after changes, a close transfer to debugging stored-data problems.",
+            "They care about lost files but have not managed organization-wide permissions and upgrades, and insist on agreed responsibility limits."
+          ]
+        },
+        {
+          "probe": "p0177",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "They noticed names stored separately and now make a list synchronize, supporting connected-information design interest.",
+            "They investigate mismatched saved information and duplicate loops, suggesting interest in testing data structures for useful behavior.",
+            "Setting organizational architecture standards and coordinating multiple teams is not established by a small household system."
+          ]
+        },
+        {
+          "probe": "p0178",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They specifically enjoy ordinary digital pieces cooperating instead of separate copies, supporting connected information exploration.",
+            "Their history of mismatched names, save failures and synchronization supports tracing transformations and checking consistency.",
+            "Keeping one small system working for a term and checking saved data support interest in dependable shared records; organizational scale would need agreed boundaries."
+          ]
+        },
+        {
+          "probe": "p0179",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "They want ordinary digital pieces to cooperate and help with device settings, supporting connected-system reliability.",
+            "They reproduce errors and test small fixes; tracing system settings is a plausible transfer.",
+            "They have not managed shared-service outages or access rights for others, and oppose open-ended responsibility."
+          ]
+        },
+        {
+          "probe": "p0180",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They freely build reminders and a household list to solve recurring problems.",
+            "They isolated a loop running twice and like reproducing errors with small examples.",
+            "Their goal is one small system working for a term and they verify saved data after changes, supporting learning agreed, bounded implementation checks."
+          ]
+        },
+        {
+          "probe": "p0181",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "They enjoy tracing unexpected program behavior rather than merely showing the final result.",
+            "They reproduce errors with small examples and test changes, directly supporting deliberate test design.",
+            "They write concise fix notes and verify saved data after changes, supporting clear reproducible bug records."
+          ]
+        },
+        {
+          "probe": "p0184",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "A borrowed-book tracker and household list show interest in storing and finding useful information.",
+            "They notice separate copies disagreeing, supporting learning categories and retrieval processes that meet actual needs.",
+            "Formal retention, confidentiality and disposal rules are unfamiliar; responsibility appetite is not established."
+          ]
+        },
+        {
+          "probe": "p0185",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "There is no stated interest in attackers or unauthorized entry.",
+            "Isolating unexpected behavior in small examples offers a plausible method transfer to testing weaknesses within permission.",
+            "They value agreed boundaries, but formal security reporting itself remains unfamiliar rather than automatically wanted."
+          ]
+        },
+        {
+          "probe": "p0186",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "They have not pursued malicious intrusion protection as a subject.",
+            "Testing changes until ordinary tools work reliably could transfer to testing protective changes without blocking intended behavior.",
+            "Coordinating organizational security changes has no expressed interest evidence."
+          ]
+        },
+        {
+          "probe": "p0187",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Computer crime is not a chosen subject.",
+            "They investigated why a list reset lost data and worked with a cousin on recovery, supporting curiosity about recovered files and traces.",
+            "Preserving legal evidence and explaining it under challenge is distinct from concise fix notes and remains unsure."
+          ]
+        },
+        {
+          "probe": "p0189",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "They explicitly like making ordinary digital pieces cooperate, suggesting interest in integrating components.",
+            "Name-copy discrepancies, synchronization and a duplicate loop support learning how components fit users’ needs.",
+            "Complex installation plans and coordination with technical teams remain unfamiliar and potentially exceed their chosen limits."
+          ]
+        },
+        {
+          "probe": "p0196",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Biological data are not a chosen subject.",
+            "Their small-example testing and save checks support learning to distinguish meaningful patterns from information errors.",
+            "Documenting reusable biological analyses is untried; a desire for reliable programs does not establish a life-science team responsibility."
+          ]
+        },
+        {
+          "probe": "p0207",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Physical electronic tags are not a stated subject interest.",
+            "They like synchronized lists and detecting missed updates, supporting a specific transfer to testing whether tracking records remain dependable.",
+            "Adapting a physical tracking system to an organization is untried and responsibility preferences are uncertain."
+          ]
+        },
+        {
+          "probe": "p0212",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Manufacturing purity and quality standards are unfamiliar subjects.",
+            "They test small changes and reproduce errors, supporting curiosity about controlled reliability tests.",
+            "Concise fix notes and save verification support documenting unresolved failures for others, without assuming production authority."
+          ]
+        },
+        {
+          "probe": "p0255",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "No criminal physical-evidence subject interest is described.",
+            "They investigate software errors but laboratory comparison of physical traces is too distant to infer.",
+            "They document fixes, yet criminal evidence responsibility remains unfamiliar and unestablished."
+          ]
+        },
+        {
+          "probe": "p0270",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "They have not chosen repetitive statistical calculation work.",
+            "Testing saved data and tracking program behavior suggest curiosity about data checks, though statistical tables are unfamiliar.",
+            "They write concise fix notes and report what worked, supporting learning to flag calculation uncertainties for review."
+          ]
+        }
+      ],
+      "note": "Every invited probe reviewed. Small-code debugging, lost-file recovery and synchronizing lists support technical and information-reliability learning. Security and medical interests are not inferred from depression or general debugging. Responsibility remains bounded and uncertain for public or organization-wide systems; omitted probes are unsure/low."
+    },
+    {
+      "id": "new049-012",
+      "reviewedProbes": [
+        "p0309",
+        "p0314",
+        "p0154",
+        "p0315",
+        "p0316",
+        "p0155",
+        "p0317",
+        "p0318",
+        "p0319",
+        "p0158",
+        "p0161",
+        "p0170",
+        "p0172",
+        "p0173",
+        "p0174",
+        "p0181",
+        "p0187",
+        "p0191",
+        "p0192",
+        "p0193",
+        "p0196",
+        "p0200",
+        "p0201",
+        "p0208",
+        "p0211",
+        "p0215",
+        "p0219",
+        "p0223",
+        "p0224",
+        "p0226",
+        "p0229",
+        "p0230",
+        "p0231",
+        "p0232",
+        "p0233",
+        "p0234",
+        "p0235",
+        "p0236",
+        "p0237",
+        "p0240",
+        "p0241",
+        "p0242",
+        "p0243",
+        "p0244",
+        "p0245",
+        "p0246",
+        "p0247",
+        "p0248",
+        "p0249",
+        "p0250",
+        "p0251",
+        "p0320",
+        "p0321",
+        "p0322",
+        "p0323",
+        "p0252",
+        "p0253",
+        "p0324",
+        "p0254",
+        "p0255",
+        "p0040",
+        "p0295",
+        "p0258",
+        "p0297",
+        "p0325",
+        "p0259",
+        "p0260",
+        "p0085",
+        "p0261",
+        "p0326",
+        "p0298",
+        "p0327",
+        "p0328",
+        "p0262",
+        "p0299",
+        "p0300",
+        "p0264",
+        "p0266"
+      ],
+      "overrides": [
+        {
+          "probe": "p0309",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Leaf specimens, ant observations and container plants show repeated voluntary biological observation, making sample learning appealing.",
+            "She preserves dates and method changes and compares alternative explanations, supporting careful experiments and research-team records."
+          ]
+        },
+        {
+          "probe": "p0155",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Puddle, shade and soil-moisture records suggest interest in environmental changes and possible harm.",
+            "She repeatedly returns to local sites with dated notes and restarts a method when measurement position changes."
+          ]
+        },
+        {
+          "probe": "p0315",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "Her repeated measurements concern leaves, water and soil moisture. Substances in a chemistry laboratory are a distinct subject she has not explored; this is uncertainty, not refusal of unfamiliar equipment.",
+            "She compares explanations, recognizes changed measuring position and preserves gaps, supporting controlled comparisons despite new chemistry tools."
+          ]
+        },
+        {
+          "probe": "p0316",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Her local moisture and puddle observations plausibly extend to soil and Earth-process investigation.",
+            "She keeps method changes visible and explains why two observation sets cannot combine, supporting combining site evidence with limits."
+          ]
+        },
+        {
+          "probe": "p0317",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She freely records shade and soil dampness and returns after rain, supporting land/water protection investigation.",
+            "Container observations across months suggest interest in learning how changed vegetation or land management affects water, though implementing a plan is new."
+          ]
+        },
+        {
+          "probe": "p0318",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "Growing crops as regular labor is not established by experimental containers.",
+            "She compares plant conditions over months and notices moisture changes, supporting learning to identify growth problems."
+          ]
+        },
+        {
+          "probe": "p0319",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Observation of containers does not establish liking mowing or routine landscape care.",
+            "Outdoor maintenance equipment is untried; limited access is not dislike."
+          ]
+        },
+        {
+          "probe": "p0161",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Puddle-depth and drainage-route observations support water-supply and quality exploration as a plausible extension.",
+            "She repeats water measurements and corrects location shifts, supporting learning water-movement models and comparisons.",
+            "She wants her notes taken seriously and explains comparison limits; learning defensible water findings could appeal, while formal coordination is new."
+          ]
+        },
+        {
+          "probe": "p0191",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Her interest is evidence about local changes rather than abstract mathematics itself.",
+            "She recognizes confounding conditions and asks what a comparison establishes; testing exceptions and reasoning could appeal by method transfer.",
+            "Explaining a mathematical proof to others is less supported than explaining field notes and remains uncertain."
+          ]
+        },
+        {
+          "probe": "p0192",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Allocating organizational resources is not a chosen subject.",
+            "She marked missing observations and method differences, supporting interest in checking whether a model fits an actual situation, although optimization tools are new.",
+            "She explains limits of comparisons, making careful discussion of assumptions plausible; decision-maker recommendations themselves are unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0193",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Plant observations and alternative explanations support a tentative interest in biological questions with uncertainty.",
+            "She keeps dates, confounds and gaps visible, closely supporting learning defensible analytical comparisons.",
+            "She explains limits and wants checkable notes, but formal health-study plans and audiences are untried."
+          ]
+        },
+        {
+          "probe": "p0196",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Years of plant and leaf observations suggest interest in organizing information about living things.",
+            "She distinguishes method changes and missing observations instead of inventing data; computational checks are a plausible learnable extension.",
+            "She preserves old pages so someone else can check her work and records limits, directly supporting reusable biological data."
+          ]
+        },
+        {
+          "probe": "p0201",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Agricultural equipment design is not a chosen subject.",
+            "She compared shade and dampness in containers, supporting observation and testing of water/plant-related design ideas.",
+            "Working with growers to deliver engineered systems remains untried rather than rejected."
+          ]
+        },
+        {
+          "probe": "p0208",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Repeated drainage and moisture investigations plausibly support learning environmental treatment systems.",
+            "She compares observations against dated notes and alternative explanations, supporting environmental measurement/design tests with new technical tools.",
+            "Technical/community partnership and implementation obligations are unfamiliar; low self-confidence is not used as refusal."
+          ]
+        },
+        {
+          "probe": "p0215",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Product materials are not her chosen investigative topic.",
+            "She repeats rough methods and catches changed conditions, supporting careful sample performance comparisons.",
+            "Recommending manufacturing choices with costs is a distinct unfamiliar task."
+          ]
+        },
+        {
+          "probe": "p0229",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She has observed ants but not farm-animal nutrition or productivity.",
+            "Repeated ant and container observations support comparing environmental conditions and behavior, though feeding trials are new.",
+            "Producer recommendations and farm animal care consequences are untried."
+          ]
+        },
+        {
+          "probe": "p0230",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Her several-month container study centers soil dampness and shade.",
+            "She repeats the same rough method, marks interruptions and recognizes confounding measurement changes.",
+            "She wants checkable notes and explains what observations can support, making evidence-based growing recommendations a plausible learning interest."
+          ]
+        },
+        {
+          "probe": "p0231",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Plant and ant observations show curiosity about living changes; cellular mechanisms are a plausible deeper subject to learn.",
+            "Repeated comparisons and recording alternative explanations support learning controlled laboratory or model tests despite unfamiliar tools.",
+            "She explains comparison limits, but life-science research communication beyond school is explicitly untried."
+          ]
+        },
+        {
+          "probe": "p0232",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Microscopic organisms have not been a chosen focus; leaf/ant observations provide only adjacent exposure.",
+            "She likes repeating observations and explaining changed conditions, supporting learning controlled microbial comparisons.",
+            "Sample contamination and infection-related decisions add unfamiliar clinical responsibility."
+          ]
+        },
+        {
+          "probe": "p0233",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She repeated ant observations after a changed route and likes returning to see environmental changes, supporting animal-habitat inquiry.",
+            "She uses dated observations and alternatives rather than a single anecdote, directly supporting wildlife-method learning.",
+            "She likes conclusions someone else can check and wants her notes taken seriously, supporting learning limited evidence-based recommendations; management authority itself is new."
+          ]
+        },
+        {
+          "probe": "p0234",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Leaves, ants and growing containers supply biological questions worth investigating through organized information.",
+            "She compares explanations against dated notes and marks confounds; learning computation could extend that method without prior programming skill.",
+            "She already explains why observations should not combine and preserves missing data, supporting learning to explain analytical limits."
+          ]
+        },
+        {
+          "probe": "p0235",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Curiosity about living-system changes can plausibly extend inside cells, though the specific molecular subject is new.",
+            "She repeats methods and records possible alternative explanations, supporting learning controlled cell experiments.",
+            "Her checkable notebooks support careful research records, but explaining specialized molecular conclusions to others remains uncertain."
+          ]
+        },
+        {
+          "probe": "p0236",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Inherited information has not been a chosen question.",
+            "She likes comparing alternative explanations and identifying confounds, supporting the study-comparison method despite new genetics content.",
+            "Leading rigorous genetic research adds subject and responsibility she has not explored."
+          ]
+        },
+        {
+          "probe": "p0237",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Ant routes, leaf records and long container observations directly support living-organism/environment inquiry.",
+            "She repeats observations and records confounds and alternatives, a close method fit.",
+            "She explains the limits of comparisons and wants notes that others can check, supporting communicating limited biological conclusions."
+          ]
+        },
+        {
+          "probe": "p0240",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Disease causes and health treatment have not been her selected subject.",
+            "She preserves unreliable comparisons and tests alternatives against records, supporting learning evidence comparison in an unfamiliar study.",
+            "Human research protections and treatment-study design are distinct unfamiliar responsibility."
+          ]
+        },
+        {
+          "probe": "p0241",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Astronomy is not a chosen subject; unfamiliarity is not aversion.",
+            "Repeated field observations and competing explanations offer a plausible transfer to comparing astronomical observations.",
+            "Designing an astronomical investigation and publishing it are untried."
+          ]
+        },
+        {
+          "probe": "p0242",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She has not stated a wish to investigate physical principles apart from local environmental changes.",
+            "Her measurement-position correction and retained old pages support learning to compare models with experiments.",
+            "She already records method changes and limits, making detailed repeatable reporting a plausible transfer even if the physical subject is new."
+          ]
+        },
+        {
+          "probe": "p0243",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She returns after rain and records puddle and moisture changes, supporting interest in weather-linked environmental patterns.",
+            "Repeated dated observations and explanations could extend to comparing forecasts and observations.",
+            "She explicitly explains comparison limits, supporting learning clear uncertainty communication; public forecast authority is new."
+          ]
+        },
+        {
+          "probe": "p0244",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Materials science is not her current subject.",
+            "She likes returning to changed conditions and checking alternate explanations, supporting sample comparison as a learning method.",
+            "Product-use recommendations are not established by local observation notes."
+          ]
+        },
+        {
+          "probe": "p0245",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She has not expressed a policy or climate-change strategy preference.",
+            "Her records distinguish observation from explanation, supporting interest in comparing evidence rather than accepting a policy’s claims.",
+            "Written recommendations for public decision makers are untried and not inferred from careful data."
+          ]
+        },
+        {
+          "probe": "p0246",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Her plant/moisture comparisons and repeated local observations suggest potential interest in habitat repair.",
+            "She tracks changes across months and preserves interruptions, directly supporting monitoring restoration methods.",
+            "Coordinating teams and partners is unfamiliar; she wants independence for one question rather than stated team leadership."
+          ]
+        },
+        {
+          "probe": "p0247",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Industrial production chains are not chosen subjects.",
+            "She catches when changed conditions undermine a comparison, suggesting interest in testing whether an improvement simply shifts an effect elsewhere.",
+            "Industrial recommendations with cross-system consequences are untried."
+          ]
+        },
+        {
+          "probe": "p0248",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Puddle depth, rain changes and local drainage give direct water-behavior curiosity.",
+            "She restarts measurements after noticing position drift and keeps evidence, supporting measurement/model comparison.",
+            "She explains why sets cannot combine and leaves missing values visible, strongly supporting uncertainty-aware water findings."
+          ]
+        },
+        {
+          "probe": "p0249",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Years of local environmental change and organized walk photographs support learning to see changes with distant sensors.",
+            "She compares photographs and notes and catches measurement shifts; distinguishing real geographic patterns from measurement artifacts closely fits.",
+            "She preserves imperfect records and explicitly limits comparisons, supporting explanation of what distant observations can establish."
+          ]
+        },
+        {
+          "probe": "p0251",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "People’s survey experiences are not a chosen topic.",
+            "She repeated a method and noticed sampling-position drift; comparing a sampling approach could appeal, though survey wording itself is new.",
+            "She visibly preserves missing observations and knows what cannot combine, a plausible transfer to explaining omitted experiences and limits."
+          ]
+        },
+        {
+          "probe": "p0252",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Her local drainage, shade and moisture records connect place to environmental patterns.",
+            "She combines dated site observations and photographs, supporting map and field comparison with unfamiliar population tools.",
+            "She likes checkable conclusions and explains method limits, supporting responsible geographical explanation."
+          ]
+        },
+        {
+          "probe": "p0253",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "No chosen historical subject appears.",
+            "She compares dated records and refuses to combine unlike sets, a plausible transfer to source comparison.",
+            "Historical interpretation and surviving-source gaps are new rather than clearly preferred."
+          ]
+        },
+        {
+          "probe": "p0254",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Weather changes her walking routes but she has not chosen transport planning as a subject.",
+            "Local site measurement and photographs suggest interest in comparing access evidence.",
+            "Public proposal discussion is untried; not speaking first is not an explicit rejection of all public work."
+          ]
+        },
+        {
+          "probe": "p0255",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Crime traces are an unchosen subject.",
+            "She retains old pages and uses comparisons to test alternatives, supporting a cautious experimental-evidence method extension.",
+            "Criminal evidence preservation and challenged findings add responsibility she has not explored."
+          ]
+        },
+        {
+          "probe": "p0260",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She has not chosen disease diagnosis.",
+            "She likes investigating whether results reflect a changed condition or method problem; laboratory evidence comparison may appeal.",
+            "Patient-affecting diagnostic reports are unfamiliar and not implied by trustworthy field notes."
+          ]
+        },
+        {
+          "probe": "p0261",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Medical image diagnosis has no subject evidence.",
+            "Comparing organized photographs and detecting method drift could transfer to careful image/clinical comparisons, with medical knowledge new.",
+            "Patient diagnosis communication is untried and remains uncertain."
+          ]
+        }
+      ],
+      "note": "All invited probes reviewed. Years of dated shade/moisture/plant observations support field science and transferable research methods despite low confidence. Lack of specialist equipment does not negate learning interest. Clinical care, formal authority, unrelated subjects and managing teams remain uncertain; omitted probes default unsure/low."
+    },
+    {
+      "id": "new049-015",
+      "reviewedProbes": [
+        "p0333",
+        "p0334",
+        "p0335",
+        "p0336",
+        "p0309",
+        "p0314",
+        "p0154",
+        "p0315",
+        "p0316",
+        "p0155",
+        "p0317",
+        "p0318",
+        "p0319",
+        "p0337",
+        "p0158",
+        "p0161",
+        "p0170",
+        "p0172",
+        "p0173",
+        "p0174",
+        "p0181",
+        "p0187",
+        "p0191",
+        "p0192",
+        "p0193",
+        "p0196",
+        "p0200",
+        "p0201",
+        "p0208",
+        "p0211",
+        "p0215",
+        "p0219",
+        "p0223",
+        "p0224",
+        "p0226",
+        "p0229",
+        "p0230",
+        "p0231",
+        "p0232",
+        "p0233",
+        "p0234",
+        "p0235",
+        "p0236",
+        "p0237",
+        "p0240",
+        "p0241",
+        "p0242",
+        "p0243",
+        "p0244",
+        "p0245",
+        "p0246",
+        "p0247",
+        "p0248",
+        "p0249",
+        "p0250",
+        "p0251",
+        "p0320",
+        "p0321",
+        "p0322",
+        "p0323",
+        "p0252",
+        "p0253",
+        "p0324",
+        "p0254",
+        "p0255",
+        "p0040",
+        "p0295",
+        "p0258",
+        "p0297",
+        "p0325",
+        "p0259",
+        "p0260",
+        "p0085",
+        "p0261",
+        "p0326",
+        "p0298",
+        "p0327",
+        "p0328",
+        "p0262",
+        "p0299",
+        "p0300",
+        "p0264",
+        "p0266"
+      ],
+      "overrides": [
+        {
+          "probe": "p0333",
+          "selected": [
+            "health-investigate-1",
+            "health-investigate-4"
+          ],
+          "feedback": null,
+          "confidence": "medium",
+          "evidence": "She reads digestion and regulation beyond class and wants linked body processes explained; medicine/nutrition and combining tests with symptoms are plausible next questions."
+        },
+        {
+          "probe": "p0334",
+          "selected": [
+            "health-workday-1"
+          ],
+          "feedback": null,
+          "confidence": "medium",
+          "evidence": "She distinguishes rough comparisons from controlled experiments and wants deeper explanations; evidence review fits, while direct care routines are untried."
+        },
+        {
+          "probe": "p0335",
+          "selected": [
+            "health-refine-3-4"
+          ],
+          "feedback": null,
+          "confidence": "medium",
+          "evidence": "She asks how chemical and mechanical digestion fit together, making explanation of a test, medicine or nutrition mechanism a plausible interest."
+        },
+        {
+          "probe": "p0336",
+          "selected": [
+            "health-refine-4-1",
+            "health-refine-4-5"
+          ],
+          "feedback": null,
+          "confidence": "medium",
+          "evidence": "She wants substantial laboratory access and deeper body-system reasoning; a supervised diagnostic-lab or consultation introduction would test that interest without assuming care appetite."
+        },
+        {
+          "probe": "p0309",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Seed pods, plants and home yeast comparisons show direct biological sample curiosity.",
+            "She repeated a yeast experiment and honestly identified measurement limitations, supporting careful research experiments."
+          ]
+        },
+        {
+          "probe": "p0315",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She asks why digestion uses chemical and mechanical processes and returned to yeast comparisons.",
+            "She recognizes unreliable home comparison and wants lab access, supporting learning controlled chemical experiments."
+          ]
+        },
+        {
+          "probe": "p0155",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Her plant observations and biological-system curiosity plausibly extend to pollution’s effects on living environments.",
+            "She leaves changed-condition notes and recognizes rough-comparison limits, supporting learning environmental sample methods."
+          ]
+        },
+        {
+          "probe": "p0317",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She keeps plant-condition notes and seeks linked living-system explanations, supporting soil/water protection learning.",
+            "The plant-light comparison revealed confounds; exploring how vegetation and management affect soil/water is a plausible next learning question."
+          ]
+        },
+        {
+          "probe": "p0318",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "Plants are a chosen experimental subject, but routine crop labor is not established.",
+            "She leaves notes about changed conditions and likes growth comparisons, supporting learning to respond to growth problems."
+          ]
+        },
+        {
+          "probe": "p0337",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She wants causes and regulation in living systems explained; patterns of illness are a plausible biological extension.",
+            "She distinguishes rough from controlled comparisons and wants explanations beyond memorized labels, supporting learning defensible public-health evidence."
+          ]
+        },
+        {
+          "probe": "p0158",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Her yeast and chemical-digestion curiosity plausibly extends to biological materials used for fuels, though commercialization is new.",
+            "Repeating yeast comparisons and recognizing uneven spoons support learning ingredient and process experiments.",
+            "Leading an applied program and allocating technical priorities are unfamiliar; sustained interest does not establish management desire."
+          ]
+        },
+        {
+          "probe": "p0161",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Water supply planning is not an expressed focal subject.",
+            "Plant-condition comparisons and explicit attention to confounds support measurement/model comparison as a learning method.",
+            "Water-use regulatory coordination is untried and not inferred from biology reading."
+          ]
+        },
+        {
+          "probe": "p0173",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Computational innovation itself is not a chosen subject.",
+            "She compares explanations and recognizes poor experimental control, suggesting interest in learning how experiments reveal approach limitations.",
+            "Publishing advances in computational research is a different responsibility with no stated preference."
+          ]
+        },
+        {
+          "probe": "p0193",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She persistently asks about body-system relationships, supporting quantitative biological/health questions.",
+            "She marks missing prerequisites and distinguishes rough comparisons from controlled studies, supporting rigorous analytical-method learning.",
+            "She wants understanding rather than memorized fragments and admits limitations, supporting clear study documentation and uncertainty explanations."
+          ]
+        },
+        {
+          "probe": "p0196",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She freely studies body regulation and plants, supporting biological information inquiry.",
+            "She likes connecting separate processes and identifying unreliable comparisons, making computational biological checks a plausible learning extension.",
+            "Notes with missing definitions and admitted method limits support maintaining inspectable analyses; specialist software is new rather than a barrier."
+          ]
+        },
+        {
+          "probe": "p0201",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Farming machinery itself has no preference evidence.",
+            "Her plant-condition notes and experimental comparisons support studying interactions among water and living systems through tests.",
+            "Delivering engineered improvements with growers remains untried."
+          ]
+        },
+        {
+          "probe": "p0211",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She is curious about breathing after running and linked body processes, plausibly extending to how bodies use tools and environments.",
+            "She compared her recovery after different games and revises explanations, supporting observation of human response to changed conditions.",
+            "Representing users against business priorities is new; biological curiosity does not establish advocacy responsibility."
+          ]
+        },
+        {
+          "probe": "p0229",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She seeks how living parts maintain a whole, making animal nutrition and growth plausible questions beyond plant examples.",
+            "She compares plant conditions and repeated yeast behavior, supporting designed care/feeding comparisons as learning.",
+            "Recommending producers’ practices with practical consequences is unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0230",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She has repeatedly grown beans and kept plant-condition notes.",
+            "Moving the slowest plant to light and then recognizing the confound supports learning better controlled soil/plant comparisons.",
+            "She values explanations with honest limits, supporting learning evidence-based growing recommendations without claiming present expertise."
+          ]
+        },
+        {
+          "probe": "p0231",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Her core curiosity is how chemical and mechanical processes interact within living systems.",
+            "She repeats yeast comparisons, notes missing background and wants more lab access, supporting molecular experiment learning.",
+            "She admits unreliable home comparisons and wants explanations that replace memorized fragments, supporting careful reporting and checkability."
+          ]
+        },
+        {
+          "probe": "p0232",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Yeast behavior held her attention enough to repeat it at home, directly supporting microorganism learning.",
+            "She noticed small changed conditions produced visible differences and wants controlled methods.",
+            "She identifies unreliable measuring and avoids overclaiming, supporting learning dependable sample handling and limited reports; infection-specific duties are new."
+          ]
+        },
+        {
+          "probe": "p0233",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Wildlife populations and habitats have not been her stated focus.",
+            "Her repeated plant observations and alternative explanations support learning comparative wildlife methods.",
+            "Wildlife management consequences are unfamiliar and not established by biology interest."
+          ]
+        },
+        {
+          "probe": "p0234",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She reads beyond class about connected body processes, making gene/protein data an appealing deeper biological avenue.",
+            "She asks what a comparison really supports; computation can be learned for the same evidence-checking purpose despite unfamiliar tools.",
+            "She marks missing prerequisites and refuses to overstate rough comparisons, supporting explanation of analysis limits to life-science researchers."
+          ]
+        },
+        {
+          "probe": "p0235",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She wants linked mechanisms inside living systems rather than disconnected memorized terms.",
+            "She repeated a yeast comparison and recognized confounds, supporting controlled molecular/cellular investigation.",
+            "Admitting unreliable comparisons and marking unknown definitions support transparent research records and limits."
+          ]
+        },
+        {
+          "probe": "p0236",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She seeks deeper explanations of how living processes connect; inheritance is a plausible extension of that sustained biological subject interest.",
+            "Her growth-condition comparisons and attention to alternative explanations support learning studies that test genetic explanations.",
+            "She explicitly avoids overclaiming and wants genuine understanding, supporting rigorous plans and limits rather than unsupported trait claims."
+          ]
+        },
+        {
+          "probe": "p0237",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Plants, yeast and body-system reading provide repeated voluntary evidence for investigating living organisms.",
+            "She observes changed conditions and distinguishes rough from controlled comparisons.",
+            "She wants explanations that replace memorized fragments and admits what her evidence cannot prove, supporting responsible communication."
+          ]
+        },
+        {
+          "probe": "p0240",
+          "responses": [
+            "yes",
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "Scraped-knee changes, breathing and bodily regulation directly support curiosity about disease processes and health research.",
+            "She reads linked body processes and repeated a yeast comparison, making experimental treatment-evidence learning plausible.",
+            "She does not overclaim rough findings and seeks deeper methods, supporting learning research safeguards and honest limitations; clinical implementation is still new."
+          ]
+        },
+        {
+          "probe": "p0244",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Industrial material properties are not her chosen subject.",
+            "Chemical/mechanical digestion questions and yeast comparisons offer some method transfer to testing material behavior.",
+            "Product-use recommendations and manufacturing consequences are not established."
+          ]
+        },
+        {
+          "probe": "p0248",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She has not directly investigated water systems.",
+            "Plant-light comparisons and notes of changed conditions support learning to test a water explanation against measurements.",
+            "Water-resource decision reports are untried and responsibility remains uncertain."
+          ]
+        },
+        {
+          "probe": "p0249",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Satellite and remote Earth observation are not a selected subject.",
+            "She notices when comparisons are confounded, supporting interest in testing whether apparent sensor patterns are real.",
+            "Remote-resource decision explanations are unfamiliar beyond her biology notes."
+          ]
+        },
+        {
+          "probe": "p0251",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Surveys of people’s experiences are not stated interests.",
+            "She catches unreliable comparisons, giving plausible interest in learning whether a sample supports a question.",
+            "She avoids overclaiming and marks missing knowledge, suggesting interest in explaining missing responses and limits even though survey work is new."
+          ]
+        },
+        {
+          "probe": "p0260",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She seeks explanations inside bodies and wants substantial laboratory access, making tissue/cell diagnostic investigation plausible.",
+            "She connects separate body processes and wants evidence beyond memorized names, supporting learning how sample findings distinguish causes.",
+            "She has never been in care settings; patient-affecting diagnostic accountability remains uncertain."
+          ]
+        },
+        {
+          "probe": "p0261",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Her deeper body-system curiosity plausibly extends to seeing internal structures with images.",
+            "She wants linked explanations and is willing to learn missing prerequisites, supporting comparing image evidence against bodily mechanisms.",
+            "Prompt clinical diagnostic reporting has no direct responsibility evidence."
+          ]
+        },
+        {
+          "probe": "p0264",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Her sustained curiosity about bodily and living systems and desire for better laboratory access support learning this biological sample subject.",
+            "Repeated yeast comparisons, plant-condition notes and recognition of poor control support learning careful sample tests and checking unexpected findings.",
+            "She has never spent time in a care setting; patient-linked laboratory identification and reporting responsibility remain uncertain despite research interest."
+          ]
+        },
+        {
+          "probe": "p0266",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Her sustained curiosity about bodily and living systems and desire for better laboratory access support learning this biological sample subject.",
+            "Repeated yeast comparisons, plant-condition notes and recognition of poor control support learning careful sample tests and checking unexpected findings.",
+            "She has never spent time in a care setting; patient-linked laboratory identification and reporting responsibility remain uncertain despite research interest."
+          ]
+        },
+        {
+          "probe": "p0258",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She wondered about recovery and circulation-related body processes but has not chosen treating cardiac patients.",
+            "Her interest in linked regulation supports learning to compare symptoms and tests to understand heart mechanisms.",
+            "Monitoring treatments and responding to serious cardiac problems are unfamiliar care responsibilities."
+          ]
+        },
+        {
+          "probe": "p0259",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She wants living-system explanations but has not expressed desire for treating neurological patients.",
+            "Her interest in how separate body processes connect supports learning causal comparison of neurological signs and findings.",
+            "Ongoing treatment choices and family explanations remain unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0297",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "A scraped knee’s changing surface prompted repeated early questions, suggesting a plausible learning interest in skin disease investigation.",
+            "She wants bodily processes explained and recognizes alternative explanations, supporting comparison of skin changes with tests.",
+            "Choosing procedures and monitoring patients are unfamiliar care duties rather than an automatic extension of curiosity."
+          ]
+        },
+        {
+          "probe": "p0325",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Her body-system curiosity is clear but diagnosing and treating adults is an unexplored care domain.",
+            "She explicitly enjoys links between separate body processes, closely fitting reasoning about interacting conditions and treatment evidence.",
+            "She has never experienced care settings; continuing treatment and coordination responsibility remain unsure."
+          ]
+        },
+        {
+          "probe": "p0326",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She freely reads bodily regulation, making immune regulation and why reactions cause illness a plausible subject extension.",
+            "She seeks linked explanations rather than memorized labels, supporting learning causal comparison of symptoms and tests.",
+            "Ongoing immune care and serious-reaction response are unfamiliar patient responsibilities."
+          ]
+        },
+        {
+          "probe": "p0320",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She has not specifically pursued cognition after brain illness.",
+            "Her linked-body-process reading supports learning how observations and assessments distinguish explanations, with psychological instruments unfamiliar.",
+            "Clinical conclusions affecting support for a person are untried."
+          ]
+        },
+        {
+          "probe": "p0321",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "No special cognitive or behavioral subject interest is stated beyond broad body systems.",
+            "Her interest in linked bodily regulation suggests potential learning interest in investigating patterns with evidence.",
+            "Consequential assessment recommendations remain a distinct unfamiliar care responsibility."
+          ]
+        }
+      ],
+      "note": "Every listed probe reviewed. Her freely sustained body-system reading, yeast comparison and plant experiments support strong biological learning interests despite limited equipment. Clinical reasoning may appeal through physiology, while patient treatment, surgical and program-level duties remain genuinely uncertain. Graduate openness is not used to confirm unrelated subjects; omitted probes default unsure/low."
+    },
+    {
+      "id": "new049-016",
+      "reviewedProbes": [
+        "p0001",
+        "p0002",
+        "p0003",
+        "p0004",
+        "p0005",
+        "p0006",
+        "p0007",
+        "p0008",
+        "p0009",
+        "p0010",
+        "p0011",
+        "p0012",
+        "p0013",
+        "p0014",
+        "p0015",
+        "p0016"
+      ],
+      "overrides": [
+        {
+          "probe": "p0001",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "She has not chosen organizational finance or reporting requirements as a subject.",
+            "She compares conflicting accounts and separates observations from interpretation; discrepancy tracing could appeal as a learning method."
+          ]
+        },
+        {
+          "probe": "p0005",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Her shared-console proposal and checking exceptions suggest interest in investigating how a rule or procedure works.",
+            "She likes writing revision more than live exchanges; implementing operational changes with staff has not been tried."
+          ]
+        },
+        {
+          "probe": "p0010",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She repeatedly tests whether similar cases receive similar treatment and rewrites unfair exceptions, supporting learning how law applies.",
+            "She edits unsupported claims and represents opposing accounts fairly, directly supporting reasoned case comparison."
+          ]
+        },
+        {
+          "probe": "p0011",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She enjoys precise explanations and revises rules to remove unfair exceptions, supporting preparation and checking of legal wording.",
+            "Her editing distinguishes what happened from inference and weak evidence, supporting organizing accurate supporting legal information."
+          ]
+        },
+        {
+          "probe": "p0012",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "There is no evidence of wanting hiring or recruitment administration.",
+            "She writes careful clarifications of rules and competing meanings, suggesting interest in explaining workplace-policy applications."
+          ]
+        },
+        {
+          "probe": "p0016",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "Shared household schedules and console rules are not land-use planning.",
+            "She enjoys comparing fair rules against awkward examples, supporting evidence-based planning-rule comparison as a tentative transfer."
+          ]
+        }
+      ],
+      "note": "Every invited prompt reviewed. Fair-rule exceptions, contrasting accounts and careful written explanations support legal and policy learning, without assuming desire to enforce decisions or engage in public conflict. No financial or executive interest is inferred from careful reasoning. Omitted probes remain unsure/low."
+    },
+    {
+      "id": "new049-019",
+      "reviewedProbes": [
+        "p0360",
+        "p0372",
+        "p0373",
+        "p0361",
+        "p0374",
+        "p0375",
+        "p0359",
+        "p0141",
+        "p0376",
+        "p0144",
+        "p0377",
+        "p0378",
+        "p0364",
+        "p0365",
+        "p0366",
+        "p0367",
+        "p0379"
+      ],
+      "overrides": [
+        {
+          "probe": "p0360",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Clothing sketches and sleeve variations show voluntary visual design; combining images and style in a message is a plausible tentative extension.",
+            "She revises seams freely but has not reviewed message layouts with a client or audience, so this specific task remains unsure."
+          ]
+        },
+        {
+          "probe": "p0372",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Garment design does not establish digital-screen appearance/control interest.",
+            "No website-user testing is described; fabric revision is adjacent rather than sufficient evidence."
+          ]
+        },
+        {
+          "probe": "p0373",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She alters ordinary garments to change shape and how they can be worn, supporting useful physical-product sketching.",
+            "She repeatedly unpicks seams when the fabric pulls, directly supporting testing and revising a model that does not work as intended."
+          ]
+        },
+        {
+          "probe": "p0361",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Audiobooks are accompaniment rather than evidence she chooses long writing.",
+            "She revises wearable designs, but writing feedback remains unfamiliar and should not be denied because of dyslexia."
+          ]
+        },
+        {
+          "probe": "p0374",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "No self-chosen photography project is described.",
+            "Fabric hang matters to her, but camera-light investigation is a distinct untried interest."
+          ]
+        },
+        {
+          "probe": "p0375",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Watching repeated sewing videos does not establish wanting to edit footage.",
+            "No voluntary sound/image timeline work is described; interest remains unknown."
+          ]
+        },
+        {
+          "probe": "p0359",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "She voluntarily sketches clothing but has not tried animation.",
+            "Seam revisions concern fabric fit rather than animated scenes, so movement production is still unknown."
+          ]
+        },
+        {
+          "probe": "p0364",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Changing garment shape and sketching sleeves suggest plausible interest in visual expression through form and materials.",
+            "She tests how fabric hangs and revises seams repeatedly, directly supporting material and shape experimentation.",
+            "She has unfinished pieces and little experience completing an audience-ready collection; willingness is uncertain rather than inferred from spatial ability."
+          ]
+        },
+        {
+          "probe": "p0365",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Given a free afternoon she chooses fabric experiments and clothing sketches, directly matching wearable creation.",
+            "She draws sleeve variants, unpicks seams and tests fabric hang, directly matching samples and fit revision.",
+            "She wants to finish one jacket lining but has not managed others’ production or clear external specifications; this responsibility remains tentative."
+          ]
+        },
+        {
+          "probe": "p0366",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "She has not expressed interest in designing rooms.",
+            "Her repeated concern with shape, fit and spatial arrangements may transfer to comparing layouts, but actual interior tools are new.",
+            "Accessibility plans and client/builder coordination are untried."
+          ]
+        },
+        {
+          "probe": "p0367",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Stage and exhibition settings are not her chosen creative domain.",
+            "Her sketches and material trials suggest possible interest in translating an idea into a physical model, with scripts and exhibition purposes new.",
+            "Production-team coordination and display budgets are untried."
+          ]
+        }
+      ],
+      "note": "All 17 invited probes reviewed. Garment sketches, fabric hang and seam revisions support wearable and physical design learning. Strong math performance and dyslexia do not establish other subjects; limited client deadline experience leaves production responsibility uncertain. Omitted probes remain unsure/low."
+    },
+    {
+      "id": "new049-020",
+      "reviewedProbes": [
+        "p0333",
+        "p0334",
+        "p0335",
+        "p0336",
+        "p0309",
+        "p0314",
+        "p0154",
+        "p0315",
+        "p0316",
+        "p0155",
+        "p0317",
+        "p0318",
+        "p0319",
+        "p0337",
+        "p0158",
+        "p0159",
+        "p0160",
+        "p0161",
+        "p0170",
+        "p0172",
+        "p0173",
+        "p0187",
+        "p0191",
+        "p0192",
+        "p0193",
+        "p0196",
+        "p0208",
+        "p0211",
+        "p0219",
+        "p0226",
+        "p0229",
+        "p0230",
+        "p0231",
+        "p0232",
+        "p0233",
+        "p0234",
+        "p0235",
+        "p0236",
+        "p0237",
+        "p0240",
+        "p0241",
+        "p0242",
+        "p0243",
+        "p0244",
+        "p0245",
+        "p0246",
+        "p0247",
+        "p0248",
+        "p0249",
+        "p0250",
+        "p0251",
+        "p0320",
+        "p0321",
+        "p0322",
+        "p0323",
+        "p0252",
+        "p0253",
+        "p0324",
+        "p0254",
+        "p0040",
+        "p0258",
+        "p0297",
+        "p0325",
+        "p0259",
+        "p0260",
+        "p0085",
+        "p0261",
+        "p0326",
+        "p0298",
+        "p0327",
+        "p0328",
+        "p0262",
+        "p0299",
+        "p0087"
+      ],
+      "overrides": [
+        {
+          "probe": "p0333",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He voluntarily pursues motion problems and experiment/prediction comparisons, but has no stated care or health subject experience to choose among these alternatives."
+        },
+        {
+          "probe": "p0334",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He voluntarily pursues motion problems and experiment/prediction comparisons, but has no stated care or health subject experience to choose among these alternatives."
+        },
+        {
+          "probe": "p0335",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He voluntarily pursues motion problems and experiment/prediction comparisons, but has no stated care or health subject experience to choose among these alternatives."
+        },
+        {
+          "probe": "p0336",
+          "selected": [],
+          "feedback": "unsure",
+          "confidence": "low",
+          "evidence": "He voluntarily pursues motion problems and experiment/prediction comparisons, but has no stated care or health subject experience to choose among these alternatives."
+        },
+        {
+          "probe": "p0315",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He enjoyed magnets and now freely continues physical science, supporting a plausible interest in learning substance behavior.",
+            "He likes comparing experiment with prediction and tracing failed reasoning, supporting controlled experimental learning despite current need for hints."
+          ]
+        },
+        {
+          "probe": "p0316",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "Earth-process observations are an untried subject rather than a stated dislike.",
+            "He likes comparing experiments with predictions and revising mistakes, supporting combining site evidence to test an explanation."
+          ]
+        },
+        {
+          "probe": "p0155",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "Pollution is not a stated chosen subject.",
+            "He enjoys comparing an experiment with his prediction, supporting learning observational comparison in a new environmental topic."
+          ]
+        },
+        {
+          "probe": "p0158",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Biological fuel technologies are not a chosen subject.",
+            "His repeated experiment/prediction comparisons and interest in where reasoning fails support learning experimental comparisons, even with new ingredients.",
+            "Leading a research program and choosing technical priorities are untried; enjoying supported problems does not answer management interest."
+          ]
+        },
+        {
+          "probe": "p0159",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He has not chosen scientific program leadership or independent research planning.",
+            "He likes tracing failed reasoning and comparing experimental predictions, suggesting curiosity about which testing plan can answer a question.",
+            "Scientific staff supervision and program budgets remain unfamiliar responsibility."
+          ]
+        },
+        {
+          "probe": "p0161",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Community water supply has not been his selected topic.",
+            "Motion diagrams and comparison of physical predictions with experiments support learning models of water movement.",
+            "Regulatory coordination and explaining compliance findings are untried."
+          ]
+        },
+        {
+          "probe": "p0191",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He voluntarily pursues physical motion rather than pure mathematical relationships.",
+            "He likes tracing exactly where a reasoning step failed and tries another approach; learning to test precise arguments could appeal despite difficulty with equations.",
+            "He has not independently communicated mathematical proofs; supported classwork does not settle that responsibility."
+          ]
+        },
+        {
+          "probe": "p0192",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Allocation of organizational resources is an unchosen subject.",
+            "He draws the situation before choosing equations and checks failed reasoning, supporting model-assumption learning.",
+            "Explaining operational recommendations and tradeoffs to decision makers is unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0211",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He has no particular human-factor subject interest.",
+            "He likes tracing why an intended outcome failed, a possible learning extension to observing product-use mistakes, although actual user research is new.",
+            "Representing users when priorities conflict is untried and not inferred from perseverance."
+          ]
+        },
+        {
+          "probe": "p0219",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He has no stated nuclear subject preference.",
+            "He voluntarily returns to physical calculations and checks unexpected outcomes, supporting learning tests of nuclear system behavior with new specialist knowledge.",
+            "Corrective nuclear safety recommendations are unfamiliar consequential responsibility."
+          ]
+        },
+        {
+          "probe": "p0226",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Nanoscale design is not a chosen subject.",
+            "He keeps returning to confusing physical explanations and compares predictions with experiments, supporting learning small-scale material tests.",
+            "Guiding production consistency is a responsibility he has not explored."
+          ]
+        },
+        {
+          "probe": "p0231",
+          "responses": [
+            "unsure",
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Living-cell mechanisms are not his freely chosen topic.",
+            "He likes comparing physical motion predictions with experiments, but controlled biological or disease experiments have distinct subject matter he has not chosen. The transfer is too broad to establish this particular method interest.",
+            "Reliable research reporting is unfamiliar; he dislikes long report formatting and sometimes delegates too much writing."
+          ]
+        },
+        {
+          "probe": "p0232",
+          "responses": [
+            "unsure",
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Microorganisms have not been his chosen subject.",
+            "He likes comparing physical motion predictions with experiments, but controlled biological or disease experiments have distinct subject matter he has not chosen. The transfer is too broad to establish this particular method interest.",
+            "Contamination and infection-related reporting duties have no direct preference evidence."
+          ]
+        },
+        {
+          "probe": "p0235",
+          "responses": [
+            "unsure",
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Cell and molecule function is not his selected question.",
+            "He likes comparing physical motion predictions with experiments, but controlled biological or disease experiments have distinct subject matter he has not chosen. The transfer is too broad to establish this particular method interest.",
+            "He dislikes report formatting and lets a classmate do shared writing, so formal molecular research records remain uncertain."
+          ]
+        },
+        {
+          "probe": "p0240",
+          "responses": [
+            "unsure",
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "He has not expressed a disease-treatment research preference.",
+            "He likes comparing physical motion predictions with experiments, but controlled biological or disease experiments have distinct subject matter he has not chosen. The transfer is too broad to establish this particular method interest.",
+            "Protecting human research and sample integrity is unfamiliar responsibility."
+          ]
+        },
+        {
+          "probe": "p0241",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Motion problems and physical explanations may plausibly extend to planets and objects in space, although this is a new subject.",
+            "He voluntarily watches motion explanations and compares a prediction with an experiment; observation-versus-model work is appealing to learn.",
+            "Independent investigation and detailed reporting remain uncertain; he has not yet tried prolonged solo research."
+          ]
+        },
+        {
+          "probe": "p0242",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He voluntarily continues physics after uneven examinations and wants motion problems understood.",
+            "He repeatedly uses diagrams and returns to failed equations, and likes experiment/prediction comparisons; difficulty does not negate interest.",
+            "He has not tried independent research and dislikes long report formatting, so formal repeatable research reporting remains unsure."
+          ]
+        },
+        {
+          "probe": "p0243",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Weather and climate have not been chosen subjects.",
+            "Comparing observations with a model prediction closely transfers from his stated enjoyment of physics experiments.",
+            "Communicating forecasts for others’ important decisions is untried and not implied by enjoying worked examples."
+          ]
+        },
+        {
+          "probe": "p0244",
+          "responses": [
+            "yes",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "His magnet experiment and continued physical-science work support plausible curiosity about useful material behavior.",
+            "He enjoys tracing why a prediction failed and revising the explanation, supporting material sample tests.",
+            "Research findings for product decisions require unfamiliar independent reporting; willingness remains unclear."
+          ]
+        },
+        {
+          "probe": "p0248",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Floods and water resources are not a selected subject.",
+            "His diagrams, motion problems and experiment/prediction comparisons support learning physical water models.",
+            "Providing dependable resource-decision findings is unfamiliar research responsibility."
+          ]
+        },
+        {
+          "probe": "p0249",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Satellite observations and Earth change are new subjects.",
+            "He likes finding where reasoning failed, supporting learning to compare measurements against a model rather than trusting apparent patterns.",
+            "He has not explained independent findings to decision makers; supported classroom practice does not settle that responsibility."
+          ]
+        },
+        {
+          "probe": "p0260",
+          "responses": [
+            "unsure",
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Patient disease diagnosis is an unchosen subject.",
+            "He likes testing physical explanations, but body samples and clinical evidence are new subjects; this does not establish an interest in differential diagnosis.",
+            "Patient-affecting diagnostic accountability is unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0261",
+          "responses": [
+            "unsure",
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "He copies motion diagrams but has no medical-image subject interest.",
+            "Copying motion diagrams and comparing physical predictions do not establish wanting to distinguish medical abnormalities in images; clinical interpretation remains unfamiliar.",
+            "Clinical reporting obligations and prompt consequential findings are untried."
+          ]
+        }
+      ],
+      "note": "All invited probes reviewed. His repeated voluntary return to motion/physics despite difficult equations supports real learning interest and experimental/model transfer. Current supported skill does not mean no interest; independent research, clinical care and supervisory accountability remain unsettled. Unlisted probes default unsure/low."
+    },
+    {
+      "id": "new049-023",
+      "reviewedProbes": [
+        "p0360",
+        "p0372",
+        "p0373",
+        "p0361",
+        "p0374",
+        "p0375",
+        "p0359",
+        "p0141",
+        "p0376",
+        "p0144",
+        "p0377",
+        "p0378",
+        "p0180",
+        "p0181",
+        "p0183",
+        "p0191",
+        "p0196",
+        "p0197",
+        "p0198",
+        "p0199",
+        "p0202",
+        "p0205",
+        "p0206",
+        "p0207",
+        "p0215",
+        "p0217",
+        "p0222",
+        "p0223",
+        "p0224",
+        "p0225",
+        "p0230",
+        "p0231",
+        "p0232",
+        "p0234",
+        "p0236",
+        "p0241",
+        "p0242",
+        "p0243",
+        "p0244",
+        "p0249",
+        "p0323",
+        "p0252",
+        "p0255",
+        "p0344",
+        "p0257",
+        "p0289",
+        "p0291",
+        "p0292",
+        "p0297",
+        "p0260",
+        "p0300",
+        "p0263",
+        "p0264",
+        "p0265",
+        "p0266",
+        "p0267",
+        "p0268",
+        "p0269",
+        "p0301"
+      ],
+      "overrides": [
+        {
+          "probe": "p0359",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He makes tiny silent paper animations and wants a bird to land without its wing wobbling.",
+            "He changes spacing between frames and repeats sequences to improve movement, directly matching timing and scene revision."
+          ]
+        },
+        {
+          "probe": "p0360",
+          "responses": [
+            "no",
+            "no"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He tried drawing club and disliked shared assigned prompts, and explicitly dislikes persuasion; message-centered posters are unappealing.",
+            "He rejected negotiating a longer film with a friend and dislikes group planning, making audience-driven group layout revision unappealing."
+          ]
+        },
+        {
+          "probe": "p0372",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "He has not tried digital interface controls or website appearance, so paper animation is insufficient evidence.",
+            "User testing and screen revision are unfamiliar rather than explicitly disliked."
+          ]
+        },
+        {
+          "probe": "p0373",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Folding houses and bird shapes shows some interest in making physical forms, supporting tentative product sketching beyond animation.",
+            "He revises movement for his own purpose but has never worked to someone else’s specifications; user-needs product revision remains uncertain."
+          ]
+        },
+        {
+          "probe": "p0361",
+          "responses": [
+            "no",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He explicitly dislikes writing stories or dialogue for characters and prefers silent motion, making longer story writing unappealing.",
+            "Long solo writing is explicitly untried; feedback-based expository revision is not automatically rejected because he dislikes dialogue."
+          ]
+        },
+        {
+          "probe": "p0374",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He already frames tiny movements beside a window and uses a phone stand, supporting interest in deliberate camera composition.",
+            "He watches animation process videos and repeatedly checks how a sequence looks, supporting learning light and picture review even though advanced camera work is new."
+          ]
+        },
+        {
+          "probe": "p0375",
+          "responses": [
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He likes changing frame spacing so a tiny motion reads correctly, directly supporting image sequencing.",
+            "He likes refining frame timing but explicitly rejects dialogue and prefers silent motion. Whether combining pictures with dialogue, music and sound effects would appeal is therefore mixed rather than a general video-production yes."
+          ]
+        },
+        {
+          "probe": "p0376",
+          "responses": [
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Bilingual family use does not establish wanting to interpret other people’s messages.",
+            "No voluntary translation work is described, and language identity is not interest evidence."
+          ]
+        },
+        {
+          "probe": "p0378",
+          "responses": [
+            "no",
+            "no"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He explicitly dislikes public performing and persuasion.",
+            "He dislikes persuasion and assigned creative prompts; organizational public-information campaigns do not fit his chosen silent movement work."
+          ]
+        },
+        {
+          "probe": "p0180",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He has not written code or asked to build an application.",
+            "Frame-by-frame revision and changing spacing to remove a wobble suggest curiosity about testing small instructions and revising unexpected results.",
+            "He dislikes external specifications and has not implemented program requirements for others; responsibility remains uncertain."
+          ]
+        },
+        {
+          "probe": "p0181",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Software failures are not a chosen topic.",
+            "His repeated small sequence revisions could transfer to trying variations that expose a problem, though input-testing tools are new.",
+            "He has not documented bugs for developers; animation observation is insufficient for that responsibility."
+          ]
+        },
+        {
+          "probe": "p0191",
+          "responses": [
+            "unsure",
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "He has not chosen abstract mathematical study.",
+            "He changes spacing and checks repeated movements, suggesting possible interest in precise relationships and exceptions as a learning method.",
+            "Explaining mathematical results publicly or formally is untried; repeated film revision does not establish it."
+          ]
+        },
+        {
+          "probe": "p0197",
+          "responses": [
+            "unsure",
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Mapmaking is not among his explored solitary interests.",
+            "He watches small differences between frames, but reconciling geographic sources is too different to infer a method interest.",
+            "Map reliability for others’ decisions has no direct evidence."
+          ]
+        },
+        {
+          "probe": "p0215",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Useful product materials are a new subject.",
+            "His paper folding and repeated bird-wing revisions show some interest in how physical choices affect performance, supporting sample comparisons.",
+            "He has not recommended materials under external costs or manufacturing requirements."
+          ]
+        },
+        {
+          "probe": "p0224",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He uses camera images but has not expressed interest in optical device engineering.",
+            "Changing frames by a window and testing image results suggests a tentative method interest in how light paths affect an image; component design is new.",
+            "Release-quality optical prototype evaluation is unfamiliar responsibility."
+          ]
+        },
+        {
+          "probe": "p0241",
+          "responses": [
+            "unsure",
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Astronomy is explicitly among his largely untried solitary science possibilities, with no subject evidence.",
+            "He notices tiny movement changes, but telescope/model comparison is too distant from chosen stop-motion revisions to infer interest.",
+            "Formal astronomical investigation and communication are untried."
+          ]
+        },
+        {
+          "probe": "p0242",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "Extended scientific study is explicitly untried, and animation motion does not automatically mean physical-law curiosity.",
+            "Repeatedly changing frame spacing and testing the visual result supports a tentative comparison-of-prediction method interest.",
+            "Reporting physical research for replication is a separate untried responsibility."
+          ]
+        },
+        {
+          "probe": "p0255",
+          "responses": [
+            "unsure",
+            "unsure",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "low",
+            "low"
+          ],
+          "evidence": [
+            "Crime evidence investigation is untried rather than disliked.",
+            "Fine movement observation is not evidence he wants laboratory comparison of crime traces.",
+            "Criminal evidence records and challenged conclusions are unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0344",
+          "responses": [
+            "no",
+            "no",
+            "no"
+          ],
+          "confidence": [
+            "medium",
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "He explicitly dislikes public performing and most assigned creative prompts; a teaching role is unappealing.",
+            "He has rejected shared planning and writing requirements; making assigned instructional problems does not resemble his self-chosen silent clips.",
+            "He dislikes group planning and has not sought evaluating students or guiding their work, supporting refusal of the teaching responsibility."
+          ]
+        },
+        {
+          "probe": "p0301",
+          "responses": [
+            "unsure",
+            "yes",
+            "unsure"
+          ],
+          "confidence": [
+            "low",
+            "medium",
+            "low"
+          ],
+          "evidence": [
+            "He has not expressed patient helping or body-device subject interest.",
+            "He adjusts paper wings until movement looks right, offering a narrow transfer to checking how physical adjustments affect function; body fitting itself is new.",
+            "Guiding patients and coordinating their changing needs is untried and not established by animation revisions."
+          ]
+        }
+      ],
+      "note": "Every invited probe reviewed. Silent paper animation and frame timing remain a narrow genuine positive. Explicit dislike of persuasion, performing, group planning and dialogue is preserved; unrelated solitary activities and scientific subjects remain unknown. Method transfer is used only when it resembles his actual repeated revisions. Unlisted probes default unsure/low."
+    },
+    {
+      "id": "new049-024",
+      "reviewedProbes": [
+        "p0136",
+        "p0137",
+        "p0138",
+        "p0139",
+        "p0140",
+        "p0141",
+        "p0142",
+        "p0143",
+        "p0144"
+      ],
+      "overrides": [
+        {
+          "probe": "p0141",
+          "responses": [
+            "unsure",
+            "yes"
+          ],
+          "confidence": [
+            "low",
+            "medium"
+          ],
+          "evidence": [
+            "She follows curiosity about changed routes but has not regularly helped someone else identify and search for needed information.",
+            "She asks relatives follow-up questions and wants a readable map, suggesting a tentative interest in helping people use information about places, though library work is unfamiliar."
+          ]
+        },
+        {
+          "probe": "p0144",
+          "responses": [
+            "yes",
+            "yes"
+          ],
+          "confidence": [
+            "medium",
+            "medium"
+          ],
+          "evidence": [
+            "She records relatives’ accounts of changed places with permission and enjoys follow-up questions, directly supporting interview/observation learning.",
+            "She compares old and current routes and wants to label recordings and finish a map, supporting learning to organize and compare findings despite weak current follow-through."
+          ]
+        }
+      ],
+      "note": "All nine invited probes reviewed. Current route comparisons and familiar interviews support people/place research transfer while durability and record finishing remain unclear. Family baking, demographic identity and changing interests are not used to infer caregiving, counseling or teaching preferences. Omitted probes default unsure/low."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Broader exploration pilot — 0.51 · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Broader exploration pilot — 0.51</h1><p>Retained development record. It may describe an earlier release.</p><a href="./broad-exploration-051-2026-10-19.md" download>Download original Markdown</a><pre class="document"># Broader exploration pilot — 0.51
+
+The first evaluation is deliberately paired: frozen 0.50 answers, the same Top qualification and ranking, and broader invitation retrieval across the inventory. No new Yes responses are inferred. No existing unsure, unfamiliar, declined or reviewed answer is overwritten.
+
+## What is live
+
+The pathways screen now has a prominent **Explore possibilities across fields** entry. This opens a reversible discovery pilot rather than requiring a field selection. Students can see a varied starting set, browse the entire aligned pool, answer a short round of examples, inspect the profession behind a question, stop to compare current matches, or return to field browsing. Career titles are available in optional details on the reflection screen. Existing neutral examples are reused where available. Other prompts retain their existing work descriptions; this is not a newly validated question instrument.
+
+Discovery scans all 117 guided professions and 340 added degree entries. Only evidence-ready entries with the existing strong, complete whole-profile alignment are recommended as invitations. Open/flat profiles retain browse access without arbitrary strong matches. The selected family, income, education preferences, skill confidence, demographics and mental-health features do not determine the discovery pool. Preparation preferences and responsibilities can still matter to the later, unchanged matching checks.
+
+A six-card preview is a presentation limit. The complete pool remains accessible. Comparably aligned possibilities are spread across fields and education routes; neither salary nor a degree quota creates eligibility. Explicitly declined defining interests remain visible for review, outside automatic invitations. An unsure answer remains unresolved.
+
+A round allows up to 12 new committed reflections, with pause/review at any time. Each short round freezes a varied question sequence before its first response. Already answered IDs and careers with newly declined defining interests are skipped. The next round recalculates from the global pool. A preview of 12 distinct question IDs is not a claim that those exact questions will be shown in that order. Existing answers with the exact same ID are reused. Broad domain similarity never copies a Yes into another profession's question.
+
+Guided reflections reuse the original multi-option task and route questions plus defining interests; added degree entries retain their three distinct subject/method/responsibility questions. The existing complete-check, field, task, role, clinical, route and defining-interest Top gates stay in force. Completing the pilot does not guarantee any new Top.
+
+## Paired results
+
+| Cohort | Models | Any Top, before → after | College / graduate Top, before → after | Sustaining Top, before → after | Models with unasked questions |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Original development | 70 | 64 → 64 | 58 → 58 | 29 → 29 | 43 |
+| New development | 12 | 9 → 9 | 8 → 8 | 3 → 3 | 7 |
+| Additional profiles | 24 | 21 → 21 | 15 → 15 | 8 → 8 | 21 |
+| Older profiles | 24 | 21 → 21 | 16 → 16 | 12 → 12 | 18 |
+| Original holdout | 30 | 25 → 25 | 20 → 20 | 6 → 6 | 21 |
+| Fresh 0.49 holdout | 12 | 8 → 8 | 8 → 8 | 2 → 2 | 7 |
+| Public base total | 172 | 148 → 148 | 125 → 125 | 60 → 60 | 117 |
+
+College/graduate Top offers remain 232 and first-ranked sustaining matches remain 47. All 172 base profiles pass a candidate-pool and question-queue invariance check when the first field is changed. The 12 diagnostic variants were replayed separately and excluded from the base denominator. Six private owner-only profiles are not included in this public experiment.
+
+There are 1,279 guided model/career discovery connections beyond the old three displayed invitations, across 148 models. This is an exposure comparison, not 1,279 new matches, unique professions, or careers never shown before. Some may already appear elsewhere as pending possibilities. There are 3,747 distinct unasked model/question pairs across the full aligned open pool; no student is asked all of them. The bounded pilot selects from that pool.
+
+## Interpretation and limits
+
+Broader routing removes a discovery obstacle, but it does not manufacture new interest evidence. The prior expanded-degree replay had already offered every strongly aligned evidence-ready added profession. Therefore no automatic college-Top increase should be credited to this routing change.
+
+The effect of genuinely new reflections or learning experiences on final matches has **not been measured**. The current run reuses the frozen answers; it is not a simulated claim about what a student would learn or decide after exposure. The next evaluation needs separately recorded responses, response burden, supported versus weak fit review, and changes in a shortlist. Keep salary and training feasibility separate from interest strength.
+
+The original holdout and fresh 0.49 holdout are reported separately under one locked policy. They have been examined in earlier releases, so they are regression cohorts rather than untouched external accuracy validation. Synthetic cases cannot establish actual student satisfaction, accuracy or engagement.
+
+The full student journey has not been replaced. This limited pilot is available while we collect evidence for a broader rollout. Original profiles, histories, current matches, the pinned chart and prior release comparisons are preserved.
+
+## Reproduction
+
+`research/broad-exploration-051/protocol.json` freezes the baseline, engine and discovery policy and all profile/answer inputs before evaluation. `node scripts/evaluate-broad-exploration-051.mjs` verifies those hashes, reruns every public model, checks frozen-state mutation and first-field invariance, and writes `validation/broad-exploration-051.json` and the chart companion data. The normal build runs this evaluation again and regenerates the main chart and cohort matrix. A recorded implementation amendment corrects the vector accessor for added degree entries: their sourced vectors live on the expanded records rather than in the guided-occupation table. A second amendment persists the round queue and cursor so the live sequence preserves the preview’s cross-career spread through save/resume. Structural testing caught these before publication; thresholds, frozen inputs and Top rules were unchanged.
+</pre></main></html>

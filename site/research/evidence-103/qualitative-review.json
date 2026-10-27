@@ -1,0 +1,31 @@
+{
+  "scope": "Development-only diagnostic cases after freeze; no cohort/holdout outcomes used to alter the selected policy. Architecture scope includes a previously inspected counterexample, not new validation.",
+  "cases": [
+    {
+      "id": "scale056-0411",
+      "finding": "Current control finishes landscaping using questions22\u201324. A detour after three unknown business responsibilities shifts landscaping to question24 with only its first specific check completed.",
+      "interpretation": "One additional unknown activity can crowd out a valid finishing question. An unknown streak alone is not enough evidence that a detour helps."
+    },
+    {
+      "id": "scale056-0439",
+      "finding": "Current control confirms the second bookkeeping check at24. The hybrid inserts an unfamiliar services activity at10; its bookkeeping second check is not reached.",
+      "interpretation": "Known bookkeeping interest did not disappear. This is a budget/selection loss."
+    },
+    {
+      "id": "scale056-0523",
+      "finding": "The corrected control reaches both chemistry checks at23\u201324. The weak-lead activity-first opening starts with business-problem and later uses many unfamiliar business responsibilities; chemistry is not reached.",
+      "interpretation": "A broad affirmative activity can still trigger expensive branching; preserving only direct item anchors does not preserve every useful starting field."
+    },
+    {
+      "id": "scale056-0043",
+      "finding": "The hybrid gains retail-sales Top, where the corrected current block has none within24.",
+      "interpretation": "A gain exists, but it is smaller than the development losses. Its source references remain available in the actual question trace."
+    },
+    {
+      "id": "grok075-0038",
+      "finding": "The previously inspected woodworking profile has spaces, design and workshop safety, but no explicit building-regulation-design preference. Both new architecture-specific responses remain unknown.",
+      "interpretation": "The broad architecture shortcut is removed. No new building-specific interest has been assigned to the model."
+    }
+  ],
+  "nextProposal": "Retain the architecture correction, but do not adopt the hybrid on these development results. Review whether one uninformative question can be replaced by a more discriminating existing question; avoid inserting detours that delay a valid final confirmation, and keep the same fresh60 +24 budget."
+}

@@ -1,0 +1,126 @@
+<div id="protected-confirmation-study">
+<style>
+#protected-confirmation-study{color:var(--foreground)}
+#protected-confirmation-study .pc-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+#protected-confirmation-study .pc-section{margin-top:24px}
+#protected-confirmation-study .pc-legend{display:flex;flex-wrap:wrap;gap:18px;margin:12px 0}
+#protected-confirmation-study .pc-legend-button{background:transparent;border:0;border-radius:0;color:var(--foreground);display:inline-flex;align-items:center;gap:7px;padding:0;font:inherit}
+#protected-confirmation-study .pc-legend-button i{display:inline-block;width:12px;height:12px}
+#protected-confirmation-study .pc-metric{margin-top:18px}
+#protected-confirmation-study .pc-series{margin:10px 0}
+#protected-confirmation-study .pc-bar-label{display:flex;justify-content:space-between;gap:16px;margin-bottom:4px}
+#protected-confirmation-study .pc-case li{margin:10px 0}
+#protected-confirmation-study .pc-state{display:flex;gap:18px;flex-wrap:wrap;margin:12px 0}
+#protected-confirmation-study details{margin-top:18px}
+#protected-confirmation-study summary{padding:6px 0}
+@media(max-width:650px){#protected-confirmation-study .pc-columns{grid-template-columns:1fr}}
+</style>
+<h2>Protected confirmation test</h2>
+<div class="text-small">2,000 simulated students · fresh 60 + 24 in every replay</div>
+<div class="pc-legend" aria-label="Question selectors">
+<button type="button" class="pc-legend-button cursor-interaction" data-arm="baseline" aria-pressed="true"><i style="background:var(--foreground);opacity:.55"></i>Current control</button>
+<button type="button" class="pc-legend-button cursor-interaction" data-arm="failed" aria-pressed="true"><i style="background:var(--viz-series-2)"></i>Previous focused test</button>
+<button type="button" class="pc-legend-button cursor-interaction" data-arm="protected" aria-pressed="true"><i style="background:var(--viz-series-1)"></i>Protected sets</button>
+</div>
+<div class="pc-columns" id="pc-charts">__CHARTS__</div>
+<div class="pc-state" id="pc-overall">__OVERALL__</div>
+<section class="pc-section"><h3>Development and holdouts</h3><div class="table-responsive"><table class="table table-sm"><thead><tr><th>Group</th><th>Models</th><th>Strong · current → protected</th><th>College / graduate · current → protected</th><th>College gains / losses</th></tr></thead><tbody>__SPLITS__</tbody></table></div></section>
+<section class="pc-section"><h3>Previously lost college matches</h3>__RECOVERY__</section>
+<section class="pc-section"><h3>Inspect career connections</h3>
+<div class="viz-controls"><label class="form-label" for="pc-group">Cohort<select id="pc-group" class="form-select"><option value="all">Both cohorts · splits labeled</option><option value="development">Development</option><option value="holdout">Original holdout</option><option value="holdout049">Fresh holdout</option><option value="holdout056">Expansion holdout</option><option value="grok075">Grok evaluation</option></select></label><label class="form-label" for="pc-kind">Outcome<select id="pc-kind" class="form-select"><option value="recovered">Recovered from previous test</option><option value="still-missed">Prior losses not recovered</option><option value="new-loss">College connection newly lost</option><option value="noncollege-loss">Non-college connection newly lost</option><option value="new-gain">Newly gained versus current control</option><option value="ranking-only">Confirmed, outside first three</option></select></label></div>
+<label class="form-label" for="pc-case">Student and career<select id="pc-case" class="form-select">__CASE_OPTIONS__</select></label>
+<div id="pc-case-view" aria-live="polite"><div id="pc-empty" hidden>No cases in this group.</div>__CASES__</div>
+</section>
+<details><summary>Coverage by total question count</summary><div class="pc-columns">__CURVES__</div></details>
+<details><summary>Other education routes and question allocation</summary>__BREADTH__</details>
+<details><summary>Checks and definitions</summary><ul class="text-small"><li>College coverage: a bachelor or graduate career among the first three strong matches. Associate and certificate routes are separate.</li><li>Every current and protected replay starts with the same 60 interest answers and no prior follow-up answers; unknowns count toward the 24-question budget.</li><li>Same simulator, profiles, career inventory, pay data, bank and support rules. No degree or pay bonus.</li><li>Previously inspected holdouts are shown separately; they are no longer pristine unseen validation. No outcome-based retuning in this experiment.</li><li>The previous focused results are a frozen comparator using identical inputs; the current and protected arms were freshly rerun.</li><li>Neither prototype changed. Synthetic coverage does not measure real student outcomes.</li></ul><div class="text-small">__CHECKS__</div></details>
+<div id="pc-question-pool" hidden>__QUESTIONS__</div>
+<script>
+(function () {
+  var root = document.getElementById('protected-confirmation-study');
+  if (!root) return;
+  var group = root.querySelector('#pc-group');
+  var kind = root.querySelector('#pc-kind');
+  var choice = root.querySelector('#pc-case');
+  var empty = root.querySelector('#pc-empty');
+  var cases = Array.prototype.slice.call(root.querySelectorAll('.pc-case'));
+  var filtered = cases.filter(function (item) { return item.getAttribute('data-kind') === 'recovered'; });
+  var active = filtered[0] || null;
+  var prompts = {};
+  function each(list, callback) { for (var j = 0; j < list.length; j++) callback(list[j]); }
+  each(root.querySelectorAll('#pc-question-pool [data-qid]'), function (item) {
+    prompts[item.getAttribute('data-qid')] = item.textContent;
+  });
+  function escapeText(value) {
+    return String(value).replace(/[&<>"']/g, function (c) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+  function show() {
+    if (active) active.hidden = true;
+    active = null;
+    var position = Number(choice.value);
+    if (filtered[position]) {
+      active = filtered[position];
+      each(active.querySelectorAll('[data-qref]'), function (item) {
+        item.textContent = prompts[item.getAttribute('data-qref')] || item.getAttribute('data-qref');
+      });
+      active.querySelector('.pc-case-number').textContent = 'Case ' + (position + 1) + ' of ' + filtered.length;
+      active.hidden = false;
+    }
+    empty.hidden = filtered.length > 0;
+  }
+  function refresh() {
+    filtered = cases.filter(function (item) {
+      return (group.value === 'all' || item.getAttribute('data-cohort') === group.value) && item.getAttribute('data-kind') === kind.value;
+    });
+    choice.innerHTML = filtered.map(function (item, i) {
+      return '<option value="' + i + '">' + escapeText(item.getAttribute('data-label')) + '</option>';
+    }).join('') || '<option value="0">No cases</option>';
+    choice.disabled = filtered.length === 0;
+    choice.value = '0';
+    show();
+  }
+  function remember() {
+    try {
+      if (!window.openai || typeof window.openai.setWidgetState !== 'function') return;
+      var visibleArms = [];
+      each(root.querySelectorAll('[data-arm]'), function (button) { if (button.getAttribute('aria-pressed') === 'true') visibleArms.push(button.getAttribute('data-arm')); });
+      var result = window.openai.setWidgetState({modelContent:{design:'a3-protected-v2',group:group.value,kind:kind.value,caseIndex:Number(choice.value),visibleArms:visibleArms},privateContent:null});
+      if (result && typeof result.catch === 'function') result.catch(function () {});
+    } catch (error) { /* Optional host state cannot prevent reading results. */ }
+  }
+  group.addEventListener('change', function () { refresh(); remember(); });
+  kind.addEventListener('change', function () { refresh(); remember(); });
+  choice.addEventListener('change', function () { show(); remember(); });
+  each(root.querySelectorAll('[data-arm]'), function (button) {
+    button.addEventListener('click', function () {
+      var visible = button.getAttribute('aria-pressed') !== 'true';
+      button.setAttribute('aria-pressed', String(visible));
+      each(root.querySelectorAll('[data-arm-row="' + button.getAttribute('data-arm') + '"]'), function (row) { row.hidden = !visible; });
+      remember();
+    });
+  });
+  function restore(state) {
+    if (!state || state.design !== 'a3-protected-v2') return;
+    if (Array.prototype.some.call(group.options, function (o) { return o.value === state.group; })) group.value = state.group;
+    if (Array.prototype.some.call(kind.options, function (o) { return o.value === state.kind; })) kind.value = state.kind;
+    if (Array.isArray(state.visibleArms)) each(root.querySelectorAll('[data-arm]'), function (button) {
+      var visible = state.visibleArms.indexOf(button.getAttribute('data-arm')) >= 0;
+      button.setAttribute('aria-pressed', String(visible));
+      each(root.querySelectorAll('[data-arm-row="' + button.getAttribute('data-arm') + '"]'), function (row) { row.hidden = !visible; });
+    });
+    refresh();
+    if (typeof state.caseIndex === 'number' && Math.floor(state.caseIndex) === state.caseIndex && state.caseIndex >= 0 && state.caseIndex < filtered.length) {
+      choice.value = String(state.caseIndex);
+      show();
+    }
+  }
+  try { restore(window.openai && window.openai.widgetState && window.openai.widgetState.modelContent); } catch (error) { /* Default results are already visible. */ }
+  if (typeof window.addEventListener === 'function') window.addEventListener('openai:set_globals', function (event) {
+    var globals = event.detail && event.detail.globals;
+    restore(globals && globals.widgetState && globals.widgetState.modelContent);
+  });
+})();
+</script>
+</div>

@@ -1,0 +1,2201 @@
+{
+  "method": "Descriptive paired comparisons. No population inference, calibration or answer selection. Existing answer codes and Grok codes refer to the same frozen item exposure.",
+  "cohorts": {
+    "all": {
+      "models": 1000,
+      "agreement": {
+        "exactNonempty": 42,
+        "partialOverlap": 360,
+        "disjointNonempty": 331,
+        "existingOnly": 56,
+        "grokOnly": 167,
+        "bothEmpty": 44
+      },
+      "types": {
+        "Broad interest items": {
+          "responses": 60000,
+          "changed": 16547,
+          "rawChanged": 39894,
+          "existingUnknown": 0,
+          "grokUnknown": 27010,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Activity choices": {
+          "responses": 16873,
+          "changed": 13259,
+          "rawChanged": 13259,
+          "existingUnknown": 5181,
+          "grokUnknown": 1839,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Profession-specific checks": {
+          "responses": 67767,
+          "changed": 49750,
+          "rawChanged": 49750,
+          "existingUnknown": 23573,
+          "grokUnknown": 25671,
+          "unknownToYes": 6938,
+          "yesToUnknown": 3626,
+          "noToYes": 2500,
+          "yesToNo": 188
+        },
+        "Interest facets": {
+          "responses": 19872,
+          "changed": 13779,
+          "rawChanged": 13779,
+          "existingUnknown": 5958,
+          "grokUnknown": 473,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        }
+      },
+      "largestCareerChanges": [
+        {
+          "id": "bookkeeping-clerk",
+          "title": "Bookkeeping, Accounting, & Auditing Clerks",
+          "category": "top",
+          "simulator": 42,
+          "grok": 117,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 75
+        },
+        {
+          "id": "carpentry",
+          "title": "Carpenters",
+          "category": "top",
+          "simulator": 20,
+          "grok": 77,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 57
+        },
+        {
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "category": "top",
+          "simulator": 55,
+          "grok": 107,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 52
+        },
+        {
+          "id": "degree-27204100",
+          "title": "Music Directors and Composers",
+          "category": "top",
+          "simulator": 66,
+          "grok": 17,
+          "cohort": "all",
+          "kind": "career",
+          "delta": -49
+        },
+        {
+          "id": "writing",
+          "title": "Writers & authors",
+          "category": "top",
+          "simulator": 42,
+          "grok": 88,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 46
+        },
+        {
+          "id": "mechanical-engineering",
+          "title": "Mechanical engineers",
+          "category": "top",
+          "simulator": 10,
+          "grok": 55,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 45
+        },
+        {
+          "id": "retail-sales",
+          "title": "Retail Salespersons",
+          "category": "top",
+          "simulator": 26,
+          "grok": 71,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 45
+        },
+        {
+          "id": "environmental-science",
+          "title": "Environmental scientists & specialists",
+          "category": "top",
+          "simulator": 11,
+          "grok": 55,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 44
+        },
+        {
+          "id": "degree-13108102",
+          "title": "Logistics Analysts",
+          "category": "top",
+          "simulator": 7,
+          "grok": 49,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 42
+        },
+        {
+          "id": "receptionist",
+          "title": "Receptionists & Information Clerks",
+          "category": "top",
+          "simulator": 38,
+          "grok": 0,
+          "cohort": "all",
+          "kind": "career",
+          "delta": -38
+        },
+        {
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "category": "top",
+          "simulator": 19,
+          "grok": 56,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 37
+        },
+        {
+          "id": "accounting",
+          "title": "Accountants and Auditors",
+          "category": "top",
+          "simulator": 17,
+          "grok": 53,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 36
+        },
+        {
+          "id": "degree-27304305",
+          "title": "Poets, Lyricists and Creative Writers",
+          "category": "top",
+          "simulator": 67,
+          "grok": 101,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 34
+        },
+        {
+          "id": "law",
+          "title": "Lawyers",
+          "category": "top",
+          "simulator": 8,
+          "grok": 42,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 34
+        },
+        {
+          "id": "degree-15202100",
+          "title": "Mathematicians",
+          "category": "top",
+          "simulator": 13,
+          "grok": 47,
+          "cohort": "all",
+          "kind": "career",
+          "delta": 34
+        }
+      ],
+      "largestFieldChanges": [
+        {
+          "id": "business",
+          "title": "Business & law",
+          "category": "top",
+          "simulator": 238,
+          "grok": 328,
+          "cohort": "all",
+          "kind": "field",
+          "delta": 90
+        },
+        {
+          "id": "creative",
+          "title": "Design & creativity",
+          "category": "top",
+          "simulator": 261,
+          "grok": 347,
+          "cohort": "all",
+          "kind": "field",
+          "delta": 86
+        },
+        {
+          "id": "sales-office",
+          "title": "Sales, office & customer support",
+          "category": "top",
+          "simulator": 168,
+          "grok": 241,
+          "cohort": "all",
+          "kind": "field",
+          "delta": 73
+        },
+        {
+          "id": "technology",
+          "title": "Technology & data",
+          "category": "top",
+          "simulator": 90,
+          "grok": 162,
+          "cohort": "all",
+          "kind": "field",
+          "delta": 72
+        },
+        {
+          "id": "science",
+          "title": "Science & environment",
+          "category": "top",
+          "simulator": 131,
+          "grok": 194,
+          "cohort": "all",
+          "kind": "field",
+          "delta": 63
+        },
+        {
+          "id": "trades",
+          "title": "Trades & technical repair",
+          "category": "top",
+          "simulator": 50,
+          "grok": 106,
+          "cohort": "all",
+          "kind": "field",
+          "delta": 56
+        },
+        {
+          "id": "building",
+          "title": "Engineering & building",
+          "category": "top",
+          "simulator": 83,
+          "grok": 134,
+          "cohort": "all",
+          "kind": "field",
+          "delta": 51
+        },
+        {
+          "id": "education",
+          "title": "Teaching & learning",
+          "category": "top",
+          "simulator": 52,
+          "grok": 90,
+          "cohort": "all",
+          "kind": "field",
+          "delta": 38
+        },
+        {
+          "id": "transportation-production",
+          "title": "Transport & production",
+          "category": "top",
+          "simulator": 89,
+          "grok": 116,
+          "cohort": "all",
+          "kind": "field",
+          "delta": 27
+        },
+        {
+          "id": "health",
+          "title": "Health & helping",
+          "category": "top",
+          "simulator": 75,
+          "grok": 57,
+          "cohort": "all",
+          "kind": "field",
+          "delta": -18
+        },
+        {
+          "id": "public-safety",
+          "title": "Safety & emergency response",
+          "category": "top",
+          "simulator": 21,
+          "grok": 9,
+          "cohort": "all",
+          "kind": "field",
+          "delta": -12
+        },
+        {
+          "id": "services",
+          "title": "Food, hospitality & personal care",
+          "category": "top",
+          "simulator": 66,
+          "grok": 66,
+          "cohort": "all",
+          "kind": "field",
+          "delta": 0
+        }
+      ],
+      "education": [
+        {
+          "id": "college",
+          "title": "College · bachelor’s degree",
+          "category": "top",
+          "simulator": 607,
+          "grok": 777,
+          "cohort": "all",
+          "kind": "education",
+          "delta": 170
+        },
+        {
+          "id": "work",
+          "title": "No college · learn at work",
+          "category": "top",
+          "simulator": 251,
+          "grok": 286,
+          "cohort": "all",
+          "kind": "education",
+          "delta": 35
+        },
+        {
+          "id": "apprenticeship",
+          "title": "Apprenticeship",
+          "category": "top",
+          "simulator": 33,
+          "grok": 86,
+          "cohort": "all",
+          "kind": "education",
+          "delta": 53
+        },
+        {
+          "id": "program",
+          "title": "Technical training / college courses",
+          "category": "top",
+          "simulator": 193,
+          "grok": 184,
+          "cohort": "all",
+          "kind": "education",
+          "delta": -9
+        },
+        {
+          "id": "graduate",
+          "title": "Graduate / professional degree",
+          "category": "top",
+          "simulator": 120,
+          "grok": 257,
+          "cohort": "all",
+          "kind": "education",
+          "delta": 137
+        }
+      ]
+    },
+    "development": {
+      "models": 758,
+      "agreement": {
+        "exactNonempty": 34,
+        "partialOverlap": 269,
+        "disjointNonempty": 244,
+        "existingOnly": 47,
+        "grokOnly": 130,
+        "bothEmpty": 34
+      },
+      "types": {
+        "Broad interest items": {
+          "responses": 45480,
+          "changed": 12567,
+          "rawChanged": 30303,
+          "existingUnknown": 0,
+          "grokUnknown": 20509,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Activity choices": {
+          "responses": 12820,
+          "changed": 10012,
+          "rawChanged": 10012,
+          "existingUnknown": 3918,
+          "grokUnknown": 1449,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Profession-specific checks": {
+          "responses": 51013,
+          "changed": 37449,
+          "rawChanged": 37449,
+          "existingUnknown": 17643,
+          "grokUnknown": 19325,
+          "unknownToYes": 5228,
+          "yesToUnknown": 2534,
+          "noToYes": 1879,
+          "yesToNo": 133
+        },
+        "Interest facets": {
+          "responses": 15072,
+          "changed": 10433,
+          "rawChanged": 10433,
+          "existingUnknown": 4496,
+          "grokUnknown": 366,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        }
+      },
+      "largestCareerChanges": [
+        {
+          "id": "bookkeeping-clerk",
+          "title": "Bookkeeping, Accounting, & Auditing Clerks",
+          "category": "top",
+          "simulator": 36,
+          "grok": 85,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 49
+        },
+        {
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "category": "top",
+          "simulator": 42,
+          "grok": 89,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 47
+        },
+        {
+          "id": "carpentry",
+          "title": "Carpenters",
+          "category": "top",
+          "simulator": 16,
+          "grok": 60,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 44
+        },
+        {
+          "id": "writing",
+          "title": "Writers & authors",
+          "category": "top",
+          "simulator": 29,
+          "grok": 70,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 41
+        },
+        {
+          "id": "degree-27204100",
+          "title": "Music Directors and Composers",
+          "category": "top",
+          "simulator": 54,
+          "grok": 14,
+          "cohort": "development",
+          "kind": "career",
+          "delta": -40
+        },
+        {
+          "id": "environmental-science",
+          "title": "Environmental scientists & specialists",
+          "category": "top",
+          "simulator": 7,
+          "grok": 42,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 35
+        },
+        {
+          "id": "mechanical-engineering",
+          "title": "Mechanical engineers",
+          "category": "top",
+          "simulator": 7,
+          "grok": 39,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 32
+        },
+        {
+          "id": "degree-13108102",
+          "title": "Logistics Analysts",
+          "category": "top",
+          "simulator": 7,
+          "grok": 37,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 30
+        },
+        {
+          "id": "retail-sales",
+          "title": "Retail Salespersons",
+          "category": "top",
+          "simulator": 17,
+          "grok": 46,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 29
+        },
+        {
+          "id": "degree-27304305",
+          "title": "Poets, Lyricists and Creative Writers",
+          "category": "top",
+          "simulator": 55,
+          "grok": 83,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 28
+        },
+        {
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "category": "top",
+          "simulator": 12,
+          "grok": 40,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 28
+        },
+        {
+          "id": "receptionist",
+          "title": "Receptionists & Information Clerks",
+          "category": "top",
+          "simulator": 28,
+          "grok": 0,
+          "cohort": "development",
+          "kind": "career",
+          "delta": -28
+        },
+        {
+          "id": "law",
+          "title": "Lawyers",
+          "category": "top",
+          "simulator": 4,
+          "grok": 31,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 27
+        },
+        {
+          "id": "paralegal",
+          "title": "Paralegals and Legal Assistants",
+          "category": "top",
+          "simulator": 27,
+          "grok": 0,
+          "cohort": "development",
+          "kind": "career",
+          "delta": -27
+        },
+        {
+          "id": "restaurant-cook",
+          "title": "Cooks, Restaurant",
+          "category": "top",
+          "simulator": 7,
+          "grok": 34,
+          "cohort": "development",
+          "kind": "career",
+          "delta": 27
+        }
+      ],
+      "largestFieldChanges": [
+        {
+          "id": "creative",
+          "title": "Design & creativity",
+          "category": "top",
+          "simulator": 200,
+          "grok": 266,
+          "cohort": "development",
+          "kind": "field",
+          "delta": 66
+        },
+        {
+          "id": "business",
+          "title": "Business & law",
+          "category": "top",
+          "simulator": 179,
+          "grok": 241,
+          "cohort": "development",
+          "kind": "field",
+          "delta": 62
+        },
+        {
+          "id": "technology",
+          "title": "Technology & data",
+          "category": "top",
+          "simulator": 69,
+          "grok": 122,
+          "cohort": "development",
+          "kind": "field",
+          "delta": 53
+        },
+        {
+          "id": "trades",
+          "title": "Trades & technical repair",
+          "category": "top",
+          "simulator": 42,
+          "grok": 86,
+          "cohort": "development",
+          "kind": "field",
+          "delta": 44
+        },
+        {
+          "id": "science",
+          "title": "Science & environment",
+          "category": "top",
+          "simulator": 93,
+          "grok": 136,
+          "cohort": "development",
+          "kind": "field",
+          "delta": 43
+        },
+        {
+          "id": "sales-office",
+          "title": "Sales, office & customer support",
+          "category": "top",
+          "simulator": 130,
+          "grok": 170,
+          "cohort": "development",
+          "kind": "field",
+          "delta": 40
+        },
+        {
+          "id": "building",
+          "title": "Engineering & building",
+          "category": "top",
+          "simulator": 63,
+          "grok": 100,
+          "cohort": "development",
+          "kind": "field",
+          "delta": 37
+        },
+        {
+          "id": "education",
+          "title": "Teaching & learning",
+          "category": "top",
+          "simulator": 35,
+          "grok": 68,
+          "cohort": "development",
+          "kind": "field",
+          "delta": 33
+        },
+        {
+          "id": "transportation-production",
+          "title": "Transport & production",
+          "category": "top",
+          "simulator": 68,
+          "grok": 86,
+          "cohort": "development",
+          "kind": "field",
+          "delta": 18
+        },
+        {
+          "id": "health",
+          "title": "Health & helping",
+          "category": "top",
+          "simulator": 57,
+          "grok": 45,
+          "cohort": "development",
+          "kind": "field",
+          "delta": -12
+        },
+        {
+          "id": "public-safety",
+          "title": "Safety & emergency response",
+          "category": "top",
+          "simulator": 19,
+          "grok": 8,
+          "cohort": "development",
+          "kind": "field",
+          "delta": -11
+        },
+        {
+          "id": "services",
+          "title": "Food, hospitality & personal care",
+          "category": "top",
+          "simulator": 50,
+          "grok": 49,
+          "cohort": "development",
+          "kind": "field",
+          "delta": -1
+        }
+      ],
+      "education": [
+        {
+          "id": "college",
+          "title": "College · bachelor’s degree",
+          "category": "top",
+          "simulator": 457,
+          "grok": 587,
+          "cohort": "development",
+          "kind": "education",
+          "delta": 130
+        },
+        {
+          "id": "work",
+          "title": "No college · learn at work",
+          "category": "top",
+          "simulator": 184,
+          "grok": 214,
+          "cohort": "development",
+          "kind": "education",
+          "delta": 30
+        },
+        {
+          "id": "apprenticeship",
+          "title": "Apprenticeship",
+          "category": "top",
+          "simulator": 27,
+          "grok": 69,
+          "cohort": "development",
+          "kind": "education",
+          "delta": 42
+        },
+        {
+          "id": "program",
+          "title": "Technical training / college courses",
+          "category": "top",
+          "simulator": 158,
+          "grok": 141,
+          "cohort": "development",
+          "kind": "education",
+          "delta": -17
+        },
+        {
+          "id": "graduate",
+          "title": "Graduate / professional degree",
+          "category": "top",
+          "simulator": 81,
+          "grok": 191,
+          "cohort": "development",
+          "kind": "education",
+          "delta": 110
+        }
+      ]
+    },
+    "holdout": {
+      "models": 30,
+      "agreement": {
+        "exactNonempty": 4,
+        "partialOverlap": 15,
+        "disjointNonempty": 2,
+        "existingOnly": 5,
+        "grokOnly": 0,
+        "bothEmpty": 4
+      },
+      "types": {
+        "Broad interest items": {
+          "responses": 1800,
+          "changed": 561,
+          "rawChanged": 1541,
+          "existingUnknown": 0,
+          "grokUnknown": 1302,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Activity choices": {
+          "responses": 401,
+          "changed": 220,
+          "rawChanged": 220,
+          "existingUnknown": 52,
+          "grokUnknown": 77,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Profession-specific checks": {
+          "responses": 2012,
+          "changed": 1701,
+          "rawChanged": 1701,
+          "existingUnknown": 8,
+          "grokUnknown": 1600,
+          "unknownToYes": 0,
+          "yesToUnknown": 13,
+          "noToYes": 0,
+          "yesToNo": 1
+        }
+      },
+      "largestCareerChanges": [
+        {
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "category": "top",
+          "simulator": 4,
+          "grok": 1,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -3
+        },
+        {
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "category": "top",
+          "simulator": 3,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -3
+        },
+        {
+          "id": "writing",
+          "title": "Writers & authors",
+          "category": "top",
+          "simulator": 8,
+          "grok": 6,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -2
+        },
+        {
+          "id": "architecture",
+          "title": "Architects",
+          "category": "top",
+          "simulator": 2,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -2
+        },
+        {
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "category": "top",
+          "simulator": 5,
+          "grok": 3,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -2
+        },
+        {
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "category": "top",
+          "simulator": 2,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -2
+        },
+        {
+          "id": "degree-27304100",
+          "title": "Editors",
+          "category": "top",
+          "simulator": 0,
+          "grok": 2,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": 2
+        },
+        {
+          "id": "teaching",
+          "title": "Middle school teachers",
+          "category": "top",
+          "simulator": 2,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -2
+        },
+        {
+          "id": "elementary-teacher",
+          "title": "Elementary School Teachers",
+          "category": "top",
+          "simulator": 2,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -2
+        },
+        {
+          "id": "high-school-teacher",
+          "title": "Secondary School Teachers",
+          "category": "top",
+          "simulator": 2,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -2
+        },
+        {
+          "id": "landscaping-worker",
+          "title": "Landscaping & Groundskeeping Workers",
+          "category": "top",
+          "simulator": 2,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -2
+        },
+        {
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "category": "top",
+          "simulator": 4,
+          "grok": 3,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "logistics",
+          "title": "Logisticians",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "administrative-assistant",
+          "title": "Secretaries & Administrative Assistants",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "degree-13108102",
+          "title": "Logistics Analysts",
+          "category": "top",
+          "simulator": 0,
+          "grok": 1,
+          "cohort": "holdout",
+          "kind": "career",
+          "delta": 1
+        }
+      ],
+      "largestFieldChanges": [
+        {
+          "id": "creative",
+          "title": "Design & creativity",
+          "category": "top",
+          "simulator": 15,
+          "grok": 12,
+          "cohort": "holdout",
+          "kind": "field",
+          "delta": -3
+        },
+        {
+          "id": "science",
+          "title": "Science & environment",
+          "category": "top",
+          "simulator": 6,
+          "grok": 3,
+          "cohort": "holdout",
+          "kind": "field",
+          "delta": -3
+        },
+        {
+          "id": "services",
+          "title": "Food, hospitality & personal care",
+          "category": "top",
+          "simulator": 4,
+          "grok": 1,
+          "cohort": "holdout",
+          "kind": "field",
+          "delta": -3
+        },
+        {
+          "id": "building",
+          "title": "Engineering & building",
+          "category": "top",
+          "simulator": 3,
+          "grok": 1,
+          "cohort": "holdout",
+          "kind": "field",
+          "delta": -2
+        },
+        {
+          "id": "technology",
+          "title": "Technology & data",
+          "category": "top",
+          "simulator": 4,
+          "grok": 2,
+          "cohort": "holdout",
+          "kind": "field",
+          "delta": -2
+        },
+        {
+          "id": "education",
+          "title": "Teaching & learning",
+          "category": "top",
+          "simulator": 2,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "field",
+          "delta": -2
+        },
+        {
+          "id": "transportation-production",
+          "title": "Transport & production",
+          "category": "top",
+          "simulator": 1,
+          "grok": 2,
+          "cohort": "holdout",
+          "kind": "field",
+          "delta": 1
+        },
+        {
+          "id": "business",
+          "title": "Business & law",
+          "category": "top",
+          "simulator": 1,
+          "grok": 1,
+          "cohort": "holdout",
+          "kind": "field",
+          "delta": 0
+        },
+        {
+          "id": "trades",
+          "title": "Trades & technical repair",
+          "category": "top",
+          "simulator": 1,
+          "grok": 1,
+          "cohort": "holdout",
+          "kind": "field",
+          "delta": 0
+        },
+        {
+          "id": "sales-office",
+          "title": "Sales, office & customer support",
+          "category": "top",
+          "simulator": 1,
+          "grok": 1,
+          "cohort": "holdout",
+          "kind": "field",
+          "delta": 0
+        }
+      ],
+      "education": [
+        {
+          "id": "college",
+          "title": "College · bachelor’s degree",
+          "category": "top",
+          "simulator": 21,
+          "grok": 16,
+          "cohort": "holdout",
+          "kind": "education",
+          "delta": -5
+        },
+        {
+          "id": "work",
+          "title": "No college · learn at work",
+          "category": "top",
+          "simulator": 7,
+          "grok": 6,
+          "cohort": "holdout",
+          "kind": "education",
+          "delta": -1
+        },
+        {
+          "id": "graduate",
+          "title": "Graduate · professional architecture",
+          "category": "top",
+          "simulator": 4,
+          "grok": 0,
+          "cohort": "holdout",
+          "kind": "education",
+          "delta": -4
+        },
+        {
+          "id": "apprenticeship",
+          "title": "Apprenticeship",
+          "category": "top",
+          "simulator": 1,
+          "grok": 1,
+          "cohort": "holdout",
+          "kind": "education",
+          "delta": 0
+        }
+      ]
+    },
+    "holdout049": {
+      "models": 12,
+      "agreement": {
+        "exactNonempty": 2,
+        "partialOverlap": 5,
+        "disjointNonempty": 0,
+        "existingOnly": 4,
+        "grokOnly": 0,
+        "bothEmpty": 1
+      },
+      "types": {
+        "Broad interest items": {
+          "responses": 720,
+          "changed": 85,
+          "rawChanged": 657,
+          "existingUnknown": 0,
+          "grokUnknown": 607,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Activity choices": {
+          "responses": 182,
+          "changed": 89,
+          "rawChanged": 89,
+          "existingUnknown": 52,
+          "grokUnknown": 86,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Profession-specific checks": {
+          "responses": 1614,
+          "changed": 1511,
+          "rawChanged": 1511,
+          "existingUnknown": 1,
+          "grokUnknown": 1388,
+          "unknownToYes": 0,
+          "yesToUnknown": 190,
+          "noToYes": 0,
+          "yesToNo": 5
+        }
+      },
+      "largestCareerChanges": [
+        {
+          "id": "management-analyst",
+          "title": "Management Analysts",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "market-research",
+          "title": "Market research analysts",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "high-school-teacher",
+          "title": "Secondary School Teachers",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "teaching",
+          "title": "Middle school teachers",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "elementary-teacher",
+          "title": "Elementary School Teachers",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "project-management",
+          "title": "Project Management Specialists",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "logistics",
+          "title": "Logisticians",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "degree-19204300",
+          "title": "Hydrologists",
+          "category": "top",
+          "simulator": 2,
+          "grok": 1,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "geoscience",
+          "title": "Geoscientists",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "biological-technician",
+          "title": "Biological Technicians",
+          "category": "top",
+          "simulator": 0,
+          "grok": 1,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": 1
+        },
+        {
+          "id": "degree-19302200",
+          "title": "Survey Researchers",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "statistics",
+          "title": "Statisticians",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "degree-43911100",
+          "title": "Statistical Assistants",
+          "category": "top",
+          "simulator": 0,
+          "grok": 1,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": 1
+        },
+        {
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "category": "top",
+          "simulator": 2,
+          "grok": 1,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        },
+        {
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "career",
+          "delta": -1
+        }
+      ],
+      "largestFieldChanges": [
+        {
+          "id": "science",
+          "title": "Science & environment",
+          "category": "top",
+          "simulator": 5,
+          "grok": 3,
+          "cohort": "holdout049",
+          "kind": "field",
+          "delta": -2
+        },
+        {
+          "id": "business",
+          "title": "Business & law",
+          "category": "top",
+          "simulator": 4,
+          "grok": 3,
+          "cohort": "holdout049",
+          "kind": "field",
+          "delta": -1
+        },
+        {
+          "id": "transportation-production",
+          "title": "Transport & production",
+          "category": "top",
+          "simulator": 2,
+          "grok": 1,
+          "cohort": "holdout049",
+          "kind": "field",
+          "delta": -1
+        },
+        {
+          "id": "education",
+          "title": "Teaching & learning",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "field",
+          "delta": -1
+        },
+        {
+          "id": "sales-office",
+          "title": "Sales, office & customer support",
+          "category": "top",
+          "simulator": 0,
+          "grok": 1,
+          "cohort": "holdout049",
+          "kind": "field",
+          "delta": 1
+        },
+        {
+          "id": "creative",
+          "title": "Design & creativity",
+          "category": "top",
+          "simulator": 2,
+          "grok": 1,
+          "cohort": "holdout049",
+          "kind": "field",
+          "delta": -1
+        },
+        {
+          "id": "building",
+          "title": "Engineering & building",
+          "category": "top",
+          "simulator": 2,
+          "grok": 2,
+          "cohort": "holdout049",
+          "kind": "field",
+          "delta": 0
+        },
+        {
+          "id": "technology",
+          "title": "Technology & data",
+          "category": "top",
+          "simulator": 1,
+          "grok": 1,
+          "cohort": "holdout049",
+          "kind": "field",
+          "delta": 0
+        }
+      ],
+      "education": [
+        {
+          "id": "college",
+          "title": "College · bachelor’s degree",
+          "category": "top",
+          "simulator": 9,
+          "grok": 5,
+          "cohort": "holdout049",
+          "kind": "education",
+          "delta": -4
+        },
+        {
+          "id": "graduate",
+          "title": "Graduate/professional degree",
+          "category": "top",
+          "simulator": 4,
+          "grok": 3,
+          "cohort": "holdout049",
+          "kind": "education",
+          "delta": -1
+        },
+        {
+          "id": "program",
+          "title": "Community college · associate degree",
+          "category": "top",
+          "simulator": 1,
+          "grok": 1,
+          "cohort": "holdout049",
+          "kind": "education",
+          "delta": 0
+        },
+        {
+          "id": "work",
+          "title": "No college · learn at work",
+          "category": "top",
+          "simulator": 1,
+          "grok": 0,
+          "cohort": "holdout049",
+          "kind": "education",
+          "delta": -1
+        }
+      ]
+    },
+    "holdout056": {
+      "models": 200,
+      "agreement": {
+        "exactNonempty": 2,
+        "partialOverlap": 71,
+        "disjointNonempty": 85,
+        "existingOnly": 0,
+        "grokOnly": 37,
+        "bothEmpty": 5
+      },
+      "types": {
+        "Broad interest items": {
+          "responses": 12000,
+          "changed": 3334,
+          "rawChanged": 7393,
+          "existingUnknown": 0,
+          "grokUnknown": 4592,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Interest facets": {
+          "responses": 4800,
+          "changed": 3346,
+          "rawChanged": 3346,
+          "existingUnknown": 1462,
+          "grokUnknown": 107,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Activity choices": {
+          "responses": 3470,
+          "changed": 2938,
+          "rawChanged": 2938,
+          "existingUnknown": 1159,
+          "grokUnknown": 227,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Profession-specific checks": {
+          "responses": 13128,
+          "changed": 9089,
+          "rawChanged": 9089,
+          "existingUnknown": 5921,
+          "grokUnknown": 3358,
+          "unknownToYes": 1710,
+          "yesToUnknown": 889,
+          "noToYes": 621,
+          "yesToNo": 49
+        }
+      },
+      "largestCareerChanges": [
+        {
+          "id": "bookkeeping-clerk",
+          "title": "Bookkeeping, Accounting, & Auditing Clerks",
+          "category": "top",
+          "simulator": 6,
+          "grok": 32,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 26
+        },
+        {
+          "id": "retail-sales",
+          "title": "Retail Salespersons",
+          "category": "top",
+          "simulator": 9,
+          "grok": 25,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 16
+        },
+        {
+          "id": "mechanical-engineering",
+          "title": "Mechanical engineers",
+          "category": "top",
+          "simulator": 1,
+          "grok": 15,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 14
+        },
+        {
+          "id": "carpentry",
+          "title": "Carpenters",
+          "category": "top",
+          "simulator": 3,
+          "grok": 16,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 13
+        },
+        {
+          "id": "accounting",
+          "title": "Accountants and Auditors",
+          "category": "top",
+          "simulator": 3,
+          "grok": 16,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 13
+        },
+        {
+          "id": "office-clerk",
+          "title": "Office Clerks, General",
+          "category": "top",
+          "simulator": 4,
+          "grok": 15,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 11
+        },
+        {
+          "id": "degree-13108102",
+          "title": "Logistics Analysts",
+          "category": "top",
+          "simulator": 0,
+          "grok": 11,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 11
+        },
+        {
+          "id": "degree-19302200",
+          "title": "Survey Researchers",
+          "category": "top",
+          "simulator": 0,
+          "grok": 11,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 11
+        },
+        {
+          "id": "project-management",
+          "title": "Project Management Specialists",
+          "category": "top",
+          "simulator": 0,
+          "grok": 10,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 10
+        },
+        {
+          "id": "degree-13114100",
+          "title": "Compensation, Benefits, and Job Analysis Specialists",
+          "category": "top",
+          "simulator": 10,
+          "grok": 0,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": -10
+        },
+        {
+          "id": "receptionist",
+          "title": "Receptionists & Information Clerks",
+          "category": "top",
+          "simulator": 10,
+          "grok": 0,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": -10
+        },
+        {
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "category": "top",
+          "simulator": 7,
+          "grok": 16,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 9
+        },
+        {
+          "id": "degree-27204100",
+          "title": "Music Directors and Composers",
+          "category": "top",
+          "simulator": 12,
+          "grok": 3,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": -9
+        },
+        {
+          "id": "warehouse-material-mover",
+          "title": "Laborers & Freight, Stock, & Material Movers, Hand",
+          "category": "top",
+          "simulator": 9,
+          "grok": 0,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": -9
+        },
+        {
+          "id": "degree-19309300",
+          "title": "Historians",
+          "category": "top",
+          "simulator": 2,
+          "grok": 11,
+          "cohort": "holdout056",
+          "kind": "career",
+          "delta": 9
+        }
+      ],
+      "largestFieldChanges": [
+        {
+          "id": "sales-office",
+          "title": "Sales, office & customer support",
+          "category": "top",
+          "simulator": 37,
+          "grok": 69,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": 32
+        },
+        {
+          "id": "business",
+          "title": "Business & law",
+          "category": "top",
+          "simulator": 54,
+          "grok": 83,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": 29
+        },
+        {
+          "id": "science",
+          "title": "Science & environment",
+          "category": "top",
+          "simulator": 27,
+          "grok": 52,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": 25
+        },
+        {
+          "id": "creative",
+          "title": "Design & creativity",
+          "category": "top",
+          "simulator": 44,
+          "grok": 68,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": 24
+        },
+        {
+          "id": "technology",
+          "title": "Technology & data",
+          "category": "top",
+          "simulator": 16,
+          "grok": 37,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": 21
+        },
+        {
+          "id": "building",
+          "title": "Engineering & building",
+          "category": "top",
+          "simulator": 15,
+          "grok": 31,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": 16
+        },
+        {
+          "id": "trades",
+          "title": "Trades & technical repair",
+          "category": "top",
+          "simulator": 7,
+          "grok": 19,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": 12
+        },
+        {
+          "id": "transportation-production",
+          "title": "Transport & production",
+          "category": "top",
+          "simulator": 18,
+          "grok": 27,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": 9
+        },
+        {
+          "id": "education",
+          "title": "Teaching & learning",
+          "category": "top",
+          "simulator": 14,
+          "grok": 22,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": 8
+        },
+        {
+          "id": "health",
+          "title": "Health & helping",
+          "category": "top",
+          "simulator": 18,
+          "grok": 12,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": -6
+        },
+        {
+          "id": "services",
+          "title": "Food, hospitality & personal care",
+          "category": "top",
+          "simulator": 12,
+          "grok": 16,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": 4
+        },
+        {
+          "id": "public-safety",
+          "title": "Safety & emergency response",
+          "category": "top",
+          "simulator": 2,
+          "grok": 1,
+          "cohort": "holdout056",
+          "kind": "field",
+          "delta": -1
+        }
+      ],
+      "education": [
+        {
+          "id": "work",
+          "title": "No college · learn at work",
+          "category": "top",
+          "simulator": 59,
+          "grok": 66,
+          "cohort": "holdout056",
+          "kind": "education",
+          "delta": 7
+        },
+        {
+          "id": "college",
+          "title": "College · bachelor’s degree",
+          "category": "top",
+          "simulator": 120,
+          "grok": 169,
+          "cohort": "holdout056",
+          "kind": "education",
+          "delta": 49
+        },
+        {
+          "id": "graduate",
+          "title": "Graduate/professional degree",
+          "category": "top",
+          "simulator": 31,
+          "grok": 63,
+          "cohort": "holdout056",
+          "kind": "education",
+          "delta": 32
+        },
+        {
+          "id": "apprenticeship",
+          "title": "Apprenticeship",
+          "category": "top",
+          "simulator": 5,
+          "grok": 16,
+          "cohort": "holdout056",
+          "kind": "education",
+          "delta": 11
+        },
+        {
+          "id": "program",
+          "title": "Technical training / college courses",
+          "category": "top",
+          "simulator": 34,
+          "grok": 42,
+          "cohort": "holdout056",
+          "kind": "education",
+          "delta": 8
+        }
+      ]
+    },
+    "grok075": {
+      "models": 1000,
+      "agreement": {
+        "exactNonempty": 38,
+        "partialOverlap": 424,
+        "disjointNonempty": 183,
+        "existingOnly": 29,
+        "grokOnly": 225,
+        "bothEmpty": 101
+      },
+      "types": {
+        "Broad interest items": {
+          "responses": 60000,
+          "changed": 35493,
+          "rawChanged": 46049,
+          "existingUnknown": 0,
+          "grokUnknown": 35399,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Interest facets": {
+          "responses": 24000,
+          "changed": 17506,
+          "rawChanged": 17506,
+          "existingUnknown": 17254,
+          "grokUnknown": 4420,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Activity choices": {
+          "responses": 98000,
+          "changed": 23269,
+          "rawChanged": 23269,
+          "existingUnknown": 81558,
+          "grokUnknown": 74248,
+          "unknownToYes": 0,
+          "yesToUnknown": 0,
+          "noToYes": 0,
+          "yesToNo": 0
+        },
+        "Profession-specific checks": {
+          "responses": 30319,
+          "changed": 19069,
+          "rawChanged": 19069,
+          "existingUnknown": 19454,
+          "grokUnknown": 6855,
+          "unknownToYes": 6406,
+          "yesToUnknown": 1300,
+          "noToYes": 117,
+          "yesToNo": 99
+        }
+      },
+      "largestCareerChanges": [
+        {
+          "id": "environmental-science",
+          "title": "Environmental scientists & specialists",
+          "category": "top",
+          "simulator": 16,
+          "grok": 77,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 61
+        },
+        {
+          "id": "degree-27204100",
+          "title": "Music Directors and Composers",
+          "category": "top",
+          "simulator": 85,
+          "grok": 26,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": -59
+        },
+        {
+          "id": "writing",
+          "title": "Writers & authors",
+          "category": "top",
+          "simulator": 49,
+          "grok": 101,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 52
+        },
+        {
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "category": "top",
+          "simulator": 7,
+          "grok": 58,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 51
+        },
+        {
+          "id": "degree-19309300",
+          "title": "Historians",
+          "category": "top",
+          "simulator": 3,
+          "grok": 46,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 43
+        },
+        {
+          "id": "geoscience",
+          "title": "Geoscientists",
+          "category": "top",
+          "simulator": 20,
+          "grok": 62,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 42
+        },
+        {
+          "id": "degree-43911100",
+          "title": "Statistical Assistants",
+          "category": "top",
+          "simulator": 12,
+          "grok": 53,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 41
+        },
+        {
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "category": "top",
+          "simulator": 69,
+          "grok": 30,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": -39
+        },
+        {
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "category": "top",
+          "simulator": 16,
+          "grok": 54,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 38
+        },
+        {
+          "id": "administrative-assistant",
+          "title": "Secretaries & Administrative Assistants",
+          "category": "top",
+          "simulator": 36,
+          "grok": 0,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": -36
+        },
+        {
+          "id": "conservation",
+          "title": "Conservation Scientists",
+          "category": "top",
+          "simulator": 0,
+          "grok": 35,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 35
+        },
+        {
+          "id": "carpentry",
+          "title": "Carpenters",
+          "category": "top",
+          "simulator": 29,
+          "grok": 62,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 33
+        },
+        {
+          "id": "elementary-teacher",
+          "title": "Elementary School Teachers",
+          "category": "top",
+          "simulator": 2,
+          "grok": 34,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 32
+        },
+        {
+          "id": "industrial-machinery-mechanic",
+          "title": "Industrial Machinery Mechanics",
+          "category": "top",
+          "simulator": 35,
+          "grok": 66,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 31
+        },
+        {
+          "id": "degree-13108102",
+          "title": "Logistics Analysts",
+          "category": "top",
+          "simulator": 0,
+          "grok": 29,
+          "cohort": "grok075",
+          "kind": "career",
+          "delta": 29
+        }
+      ],
+      "largestFieldChanges": [
+        {
+          "id": "science",
+          "title": "Science & environment",
+          "category": "top",
+          "simulator": 106,
+          "grok": 234,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": 128
+        },
+        {
+          "id": "building",
+          "title": "Engineering & building",
+          "category": "top",
+          "simulator": 48,
+          "grok": 119,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": 71
+        },
+        {
+          "id": "technology",
+          "title": "Technology & data",
+          "category": "top",
+          "simulator": 53,
+          "grok": 120,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": 67
+        },
+        {
+          "id": "education",
+          "title": "Teaching & learning",
+          "category": "top",
+          "simulator": 63,
+          "grok": 130,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": 67
+        },
+        {
+          "id": "creative",
+          "title": "Design & creativity",
+          "category": "top",
+          "simulator": 244,
+          "grok": 307,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": 63
+        },
+        {
+          "id": "sales-office",
+          "title": "Sales, office & customer support",
+          "category": "top",
+          "simulator": 84,
+          "grok": 128,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": 44
+        },
+        {
+          "id": "trades",
+          "title": "Trades & technical repair",
+          "category": "top",
+          "simulator": 90,
+          "grok": 125,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": 35
+        },
+        {
+          "id": "transportation-production",
+          "title": "Transport & production",
+          "category": "top",
+          "simulator": 85,
+          "grok": 119,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": 34
+        },
+        {
+          "id": "services",
+          "title": "Food, hospitality & personal care",
+          "category": "top",
+          "simulator": 67,
+          "grok": 53,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": -14
+        },
+        {
+          "id": "public-safety",
+          "title": "Safety & emergency response",
+          "category": "top",
+          "simulator": 23,
+          "grok": 14,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": -9
+        },
+        {
+          "id": "health",
+          "title": "Health & helping",
+          "category": "top",
+          "simulator": 44,
+          "grok": 37,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": -7
+        },
+        {
+          "id": "business",
+          "title": "Business & law",
+          "category": "top",
+          "simulator": 149,
+          "grok": 152,
+          "cohort": "grok075",
+          "kind": "field",
+          "delta": 3
+        }
+      ],
+      "education": [
+        {
+          "id": "college",
+          "title": "College · bachelor’s degree",
+          "category": "top",
+          "simulator": 442,
+          "grok": 675,
+          "cohort": "grok075",
+          "kind": "education",
+          "delta": 233
+        },
+        {
+          "id": "program",
+          "title": "Technical training / college courses",
+          "category": "top",
+          "simulator": 181,
+          "grok": 146,
+          "cohort": "grok075",
+          "kind": "education",
+          "delta": -35
+        },
+        {
+          "id": "graduate",
+          "title": "Graduate / professional degree",
+          "category": "top",
+          "simulator": 168,
+          "grok": 238,
+          "cohort": "grok075",
+          "kind": "education",
+          "delta": 70
+        },
+        {
+          "id": "work",
+          "title": "No college · learn at work",
+          "category": "top",
+          "simulator": 147,
+          "grok": 250,
+          "cohort": "grok075",
+          "kind": "education",
+          "delta": 103
+        },
+        {
+          "id": "apprenticeship",
+          "title": "Apprenticeship",
+          "category": "top",
+          "simulator": 47,
+          "grok": 66,
+          "cohort": "grok075",
+          "kind": "education",
+          "delta": 19
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-24T19:59:41.113Z",
+  "developmentOnly": true,
+  "models": 758,
+  "variants": [
+    {
+      "mode": "current",
+      "models": 758,
+      "beforeTop": 485,
+      "top": 485,
+      "beforeDegree": 378,
+      "degree": 378,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "unknown": 9620
+    },
+    {
+      "mode": "activity1",
+      "models": 758,
+      "beforeTop": 485,
+      "top": 474,
+      "beforeDegree": 378,
+      "degree": 379,
+      "gainedTop": 5,
+      "lostTop": 16,
+      "gainedDegree": 10,
+      "lostDegree": 9,
+      "unknown": 9854
+    },
+    {
+      "mode": "activity3",
+      "models": 758,
+      "beforeTop": 485,
+      "top": 468,
+      "beforeDegree": 378,
+      "degree": 368,
+      "gainedTop": 6,
+      "lostTop": 23,
+      "gainedDegree": 9,
+      "lostDegree": 19,
+      "unknown": 9920
+    }
+  ],
+  "selected": "activity1",
+  "selectionRule": "Best activity-first variant by development Top + degree coverage, then fewer coverage losses, then deterministic name. Current is a separately replayed control. No holdout outcomes used.",
+  "runnerSHA256": "82b59136ca8edccbd073742f1b336c2b50c20ea4f5be1cbf7b6a7b496520f8ef",
+  "selectorSHA256": "ba6cb53ff8a1bd814d603bd4c92ef71e10309255ec5c115fe268d20cc4300224",
+  "preSerializationRepairRunnerSHA256": "204f45eb85d0695b37adfa8034eb72be2cdfbed49484c76d5c70401fdd950ec5",
+  "harnessRepair": {
+    "at": "2026-10-24T20:01:36.185091+00:00",
+    "reason": "Normalize undefined properties before comparing in-memory fresh control with persisted JSON. No question selection, answers, scoring, policy, development metrics or selected candidate changed; failed shards produced no aggregate results."
+  }
+}

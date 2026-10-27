@@ -1,0 +1,42 @@
+{
+  "cohorts": {
+    "all": {
+      "noDegreeTop": 317,
+      "noTop": 188,
+      "degreeBelowCap": 65,
+      "authored": 51,
+      "structured": 266
+    },
+    "development": {
+      "noDegreeTop": 246,
+      "noTop": 147,
+      "degreeBelowCap": 52,
+      "authored": 41,
+      "structured": 205
+    },
+    "holdout": {
+      "noDegreeTop": 9,
+      "noTop": 4,
+      "degreeBelowCap": 0,
+      "authored": 9,
+      "structured": 0
+    },
+    "holdout049": {
+      "noDegreeTop": 1,
+      "noTop": 1,
+      "degreeBelowCap": 0,
+      "authored": 1,
+      "structured": 0
+    },
+    "holdout056": {
+      "noDegreeTop": 61,
+      "noTop": 36,
+      "degreeBelowCap": 13,
+      "authored": 0,
+      "structured": 61
+    }
+  },
+  "models": 317,
+  "candidatePairs": 28065,
+  "definitions": 1173
+}

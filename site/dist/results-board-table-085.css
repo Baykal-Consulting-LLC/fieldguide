@@ -1,0 +1,42 @@
+.table-caption{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:18px 0 12px;font-size:16px;color:#29483c}
+.career-table-scroll{width:100%;max-height:min(640px,72vh);overflow:auto;border:1px solid #b9c9bd;border-radius:12px;background:#fff;overscroll-behavior-x:contain;overscroll-behavior-y:auto;scrollbar-gutter:stable}
+.career-table-scroll:focus-visible{outline:3px solid #2a688f;outline-offset:3px}
+.career-options-table{width:100%;min-width:870px;border-collapse:separate;border-spacing:0;table-layout:fixed;font-size:16px;line-height:1.4;color:#203e33}
+.career-options-table .career-col{width:28%}.career-options-table .match-col{width:12%}.career-options-table .education-col{width:22%}.career-options-table .pay-col{width:12%}.career-options-table .fit-col{width:19%}.career-options-table .save-col{width:7%}
+.career-options-table th,.career-options-table td{padding:12px 14px;border-bottom:1px solid #dce3dd;text-align:left;vertical-align:middle;overflow-wrap:normal;word-break:normal}
+.career-options-table thead th{position:sticky;top:0;z-index:3;background:#244d3d;color:white;font-size:15px;font-weight:700;white-space:nowrap}
+.career-options-table .table-field-heading th{background:#e5eee6;font-size:18px;font-weight:750;padding:12px 14px;color:#193c2c}
+.table-field-heading span{margin-left:12px;font-size:15px;font-weight:500}
+.career-options-table .career-option-row>th{position:sticky;left:0;z-index:1;background:white;font-weight:650}
+.career-option-row:hover>td,.career-option-row:hover>th{background:#f3f7f2}
+.table-career-link{font:inherit;font-weight:650;line-height:1.4;color:#173f30;text-align:left;display:block;padding:4px 0;border:0;background:none;white-space:normal;word-break:normal;overflow-wrap:normal;cursor:pointer}
+.table-career-link:hover{text-decoration:underline}.table-career-link:focus-visible{outline:2px solid #2a688f;outline-offset:3px}
+.career-options-table .table-pay{text-align:right;white-space:nowrap;font-weight:750;font-variant-numeric:tabular-nums;font-size:18px}
+.career-options-table .save{width:36px;height:36px;min-width:36px;padding:0;display:grid;place-items:center;font-size:23px}
+.match-chip{display:inline-block;padding:4px 8px;border-radius:6px;font-size:14px;line-height:1.3;font-weight:750;white-space:nowrap}
+.match-chip.top{background:#1f543d;color:white}.match-chip.supported{background:#e2ebe5;color:#234936}.match-chip.explore{background:#dbeafa;color:#194b76}.match-chip.mixed{background:#fff0cf;color:#714b00}
+.table-fit{font-size:15px;font-weight:650;white-space:nowrap}.table-fit.good,.table-fit.tight{color:#175936}.table-fit.gap{color:#933c20}.table-fit.unknown{color:#655019}
+.table-key{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:15px;margin-top:12px;color:#284b3c}
+.comparison-match{font-size:15px;line-height:1.5;margin:12px 0}.comparison-match>span+span{margin-left:6px}
+.pathway select{width:100%;min-width:0;font-size:16px;text-overflow:ellipsis}
+@media(max-width:760px){.career-options-table{min-width:870px}.career-options-table th,.career-options-table td{padding:10px 12px}.career-options-table .career-col{width:29%}.career-options-table .education-col{width:21%}.table-caption{font-size:15px}.compare-grid{grid-template-columns:1fr!important}}
+
+.career-options-table caption.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+@media(max-width:480px){.career-table-scroll{max-height:520px}.table-key{font-size:14px}}
+
+.table-scroll-hint{display:none}@media(max-width:940px){.table-scroll-hint{display:inline;font-weight:650}}@media(max-width:600px){.career-options-table .career-option-row>th{position:static}}
+
+.career-options-table .table-field-heading th{position:sticky;top:46px;z-index:2}@media(max-width:760px){.career-options-table .table-field-heading th{top:42px}}
+
+.career-options-table thead th:first-child{left:0;z-index:4}@media(max-width:600px){.career-options-table thead th:first-child{left:auto}}
+
+/* Scores remain readable in the horizontally scrollable table. */
+.career-options-table{min-width:1040px}
+.career-options-table .career-col{width:25%}.career-options-table .match-col{width:13%}.career-options-table .score-col{width:9%}.career-options-table .education-col{width:19%}.career-options-table .pay-col{width:11%}.career-options-table .fit-col{width:17%}.career-options-table .save-col{width:6%}
+.table-score{font-variant-numeric:tabular-nums;font-weight:750;white-space:nowrap}
+button.match-chip{border:0;cursor:pointer;font-family:inherit}button.match-chip:hover{text-decoration:underline}button.match-chip:focus-visible{outline:3px solid #2a688f;outline-offset:3px}
+
+.career-options-table{min-width:1160px}.career-options-table .career-col{width:23%}.career-options-table .score-col{width:15%}.career-options-table .education-col{width:18%}.career-options-table .fit-col{width:14%}.table-score{font-size:15px}
+.career-options-table{min-width:1000px;font-size:14px;line-height:1.35}.career-options-table .career-col{width:27%}.career-options-table .match-col{width:10%}.career-options-table .score-col{width:14%}.career-options-table .education-col{width:17%}.career-options-table .pay-col{width:10%}.career-options-table .fit-col{width:17%}.career-options-table .save-col{width:5%}.career-options-table th,.career-options-table td{padding:10px 11px}.career-options-table thead th{font-size:13px}.career-options-table .table-pay{font-size:16px}.career-options-table .table-score,.career-options-table .table-fit{font-size:13px}.career-options-table .table-fit{white-space:normal}.career-options-table .match-chip{font-size:12px;padding:4px 6px}.career-options-table .table-career-link{font-size:14px}.career-options-table .table-field-heading th{font-size:16px}
+.career-options-table tr>:last-child{padding-left:5px;padding-right:5px}

@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Independent matching audit — 2026-10-17 · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Independent matching audit — 2026-10-17</h1><p>Retained development record. It may describe an earlier release.</p><a href="./independent-calibration-audit-2026-10-17.md" download>Download original Markdown</a><pre class="document"># Independent matching audit — 2026-10-17
+
+Scope: read-only review of the pre-change release 0.18.0 matching source, original and added interest items, profession questions/refinement, guide state, and rendering. Scratch computations were authored independently of the existing test expectations. This is a software/content audit, not empirical psychometric validation.
+
+## Findings requiring calibration
+
+### 1. Broad endorsement produces a falsely differentiated profession shortlist (high priority)
+
+Reproduction: for any family, select every available option for all eight follow-up questions. `professionSuggestions` counts distinct question IDs per profession, adds a small inverse-option-scope bonus, sorts, and takes three. Every profession is supported under this response pattern. Health supports all 30 roles, yet only physician assistant, physician, and nurse practitioner occupy the featured set. Creative work features industrial design, web/interface design, and graphic design; science features veterinary medicine, crop farm work, and conservation. These distinctions are caused by mapping breadth and catalog order, not a student's relative preferences.
+
+Remedy: explicitly identify nondiscriminating endorsement patterns. Do not claim the featured subset is a differentiated match. Show related groups or ask contrast/focused questions, and retain the ability to choose any role. If a three-card starting set is retained, explain the diversity/navigation basis instead of implying evidence favors those three over equally supported alternatives.
+
+### 2. Conventional interests are not recognized for the appropriate mixed field (high priority)
+
+Reproduction: all ten C (organizing/checking) items = 5; all remaining 50 activities = 1. Broad output:
+
+- Transportation &amp; production: supported, score 3.36.
+- Business: unsupported, score 0.
+- Technology: unsupported, score 0.
+
+The business and sales/office families combine E and C in their blended scores and broad linked activities. This can suppress accounting/office evidence when persuasion/leading is disliked. All E = 5, everything else = 1 similarly supports business but leaves sales/office unsupported.
+
+Remedy: recognize coherent subfield evidence inside a mixed umbrella. Endorsement of accurate records, payments, schedules, and details can support accounting/office exploration without requiring persuasion. Do not treat a broad family's combined code as a mandatory combination for every member occupation. Compare single-theme archetypes as well as mixed archetypes against occupational interest descriptors.
+
+### 3. Several professions have identical answer signatures (medium priority)
+
+Identical mappings across all available options in the family's eight questions:
+
+- Technology: data science / statistics.
+- Health: physician assistant / physician / nurse practitioner; physical therapy / occupational therapy / speech-language pathology; sonography / radiologic technology; psychiatric aide / technician; nursing assistant / personal-care aide.
+- Business: accounting / financial analysis.
+- Transportation: warehouse material mover / stock-order filler; truck driver / delivery driver.
+
+No answer combination in those branches can distinguish members of an identical-signature group. Catalog order breaks the tie. The current information can legitimately support a cluster, but not a claim of comparative fit among its members.
+
+Remedy: label task clusters and show tied members together, or add genuinely discriminating tasks/context follow-ups with appropriate occupational evidence. Training, scope of practice, and everyday responsibilities differ; explain those rather than pretending the shared interest evidence differentiates them.
+
+### 4. Counting question IDs is not counting independent constructs (medium priority)
+
+Many added prompts repeat a theme as a desired problem, finished result, details to check, and introductory project. In health, diagnosing illness is repeated for the same PA/physician/NP cluster across the four refinements. A threshold of three distinct questions is a useful software guard, but should be described as three question responses, not three independent clues or scientific corroboration.
+
+Remedy: document item redundancy and distinct dimensions. Avoid psychometric independence claims. Use task/content, context, responsibility and preference breadth when designing genuinely different follow-ups. Empirical item analysis with students is still necessary.
+
+### 5. Follow-up completion is not enforced at route boundary (medium priority)
+
+`resolveJourneyRoute` gates lifestyle and broad-profile completion, but `journey/professions` does not require `depthComplete`. A direct/bookmarked hash route can show recommendations after three positively answered questions while the remaining five are unanswered. The normal Next-button path completes the sequence, so this is a route/resume inconsistency rather than a failure of the normal path.
+
+Remedy: redirect an incomplete branch to its first unanswered question; keep explicit [] / Not sure responses as completed. An intentionally early preview should be labeled partial and should not look like completed branch results.
+
+## Independent computations performed
+
+- All 12 families: all-follow-up-options selected, recording featured and supported roles.
+- All reviewed career/family memberships: select every option mentioning the target occupation and no unrelated options. Every reviewed career appears in its family's top three in this favorable construction. This establishes practical positive-pattern reachability, not the correctness or validity of a match.
+- All six pure interest-theme archetypes with every item in one theme rated 5 and every other item rated 1.
+- Exhaustive grid of theme-constant answers 1–5 across six themes: **15,625 profiles**. This is exhaustive only for that restricted equivalence grid, not all 60-item answer patterns. There were 263 distinct ordered three-pathway sets, 14,606 profiles with at least one supported field, and 1,019 profiles yielding the generic creative/health/trades starting set.
+- Identical profession option-signatures across every available follow-up mapping.
+
+Scratch scripts: `/tmp/independent-calibration-audit.mjs`, `/tmp/independent-vectors.mjs`, `/tmp/independent-reachability.mjs`, `/tmp/independent-puretypes.mjs`.
+
+## What this audit did not establish
+
+It did not compare real students' official Interest Profiler responses with Fieldguide responses, measure test-retest reliability or predictive validity, or validate self-reported aptitude. The items are original and do not inherit O*NET's validity. All 60 interest items each having five ratings plus Not sure yields 6^60 patterns before skills, values, contexts, or follow-up selections; literal full end-to-end enumeration is not feasible. Clearly defined exhaustive subspaces, metamorphic properties, boundary cases, and independent content benchmarks are needed, with transparent coverage counts.
+
+No app files were changed by this audit. Parent implementation may remedy findings; keep the report as a pre-change independent baseline and record the actual fixes separately.
+</pre></main></html>

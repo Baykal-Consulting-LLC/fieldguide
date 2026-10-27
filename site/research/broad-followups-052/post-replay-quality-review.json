@@ -1,0 +1,48 @@
+{
+  "reviewedAt": "2026-10-20T02:42:35.629349+00:00",
+  "policy": "Independent review of every newly added Top offer. Apply documented uncertainty holds to unsupported new inferences; do not change profiles, raw author answers, matching gates or select extra rounds.",
+  "firstPassSHA256": "ab8f75fe7e3681b92064ef34fbae8ebbb1c48cd86b44ad7c070c752e3772c360",
+  "reviewFiles": {
+    "research/broad-followups-052/quality-review-development.json": "aef72c4209618353b29afed93c8382718e7d0fd7126def508e811412829c9fc2",
+    "research/broad-followups-052/quality-review-holdout.json": "283aac7e74278786eacdd6292c78db8d34861da3a7bb16bb6f31249f5c563c95"
+  },
+  "holds": [
+    {
+      "token": "reflection-0253",
+      "modelId": "life-075",
+      "questionId": "writing-interest-044-1",
+      "reason": "The cited biography establishes practical labels, descriptions and a multimodal recipe booklet, but not enjoyment of developing an extended written piece for readers. Broad supplied writing-related task selections do not resolve that missing scope.",
+      "followup": "Would you enjoy developing a several-page account or guide about a place or family recipe, choosing its ideas and structure for readers, or do you mainly enjoy concise instructions, labels and maps?",
+      "effectiveResponse": "unsure",
+      "effectiveConfidence": "low",
+      "constructSupport": "transfer"
+    },
+    {
+      "token": "reflection-0260",
+      "modelId": "life-077",
+      "questionId": "industrial-design-interest-044-1",
+      "reason": "Absorption in bridge-load tests and engineering activities supports physical function, but does not directly establish wanting to sketch product ideas around users' actions, comfort or needs.",
+      "followup": "Would you enjoy sketching different versions of an everyday object after finding out how people use it, or is understanding and testing its mechanism the part that draws you in?",
+      "effectiveResponse": "unsure",
+      "effectiveConfidence": "low",
+      "constructSupport": "transfer"
+    },
+    {
+      "token": "reflection-0265",
+      "modelId": "life-077",
+      "questionId": "industrial-design-interest-044-2",
+      "reason": "He enjoys model trials and mechanism tests, but the cited evidence does not show interest in observing use and changing a design when it fails someone's needs. Learning these methods is possible; wanting that focus remains unconfirmed.",
+      "followup": "Would you like to let people try a simple model, watch where it is awkward for them, and change the design for their use, as well as testing whether its mechanism works?",
+      "effectiveResponse": "unsure",
+      "effectiveConfidence": "low",
+      "constructSupport": "transfer"
+    }
+  ],
+  "confidenceAdjustments": [
+    {
+      "token": "reflection-0868",
+      "effectiveConfidence": "medium",
+      "reason": "Publication and caption work supports visual communication, but direct page composition is not explicit enough for high-confidence inference."
+    }
+  ]
+}

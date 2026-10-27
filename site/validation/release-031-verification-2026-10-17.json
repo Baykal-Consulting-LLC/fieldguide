@@ -1,0 +1,38 @@
+{
+  "release": "0.31.0",
+  "generatedAt": "2026-10-18T04:29:33.076Z",
+  "unitAndIntegration": {
+    "tests": 404,
+    "passed": 404,
+    "failed": 0
+  },
+  "renderedScreens": {
+    "screens": 2027,
+    "failures": []
+  },
+  "localSensitivity": {
+    "students": 54,
+    "perturbations": 5820,
+    "pathwayChanges": 66,
+    "careerChanges": 101,
+    "lossOfAllPathways": 0
+  },
+  "browserChecks": [
+    "Nine lifestyle choices auto-advance and tally only at the end.",
+    "Single official answer advances; compact stacked choices remain.",
+    "A restored guided draft opens My Plan rather than the legacy report.",
+    "Borrowing saves on input and reload; linked payment changes lifestyle once.",
+    "Completed-activity feedback persists without changing official scores.",
+    "Uncertain creative follow-ups do not force a career recommendation.",
+    "An alternate career has one direct plan action and an explicit back link.",
+    "Switching medicine/design/medicine keeps the original note, completion and per-career budget.",
+    "Salary preview work experiments do not change the saved plan until explicitly saved.",
+    "Use this salary updates the selected pay stage and work scenario.",
+    "Alternative-career selection updates the displayed pathway as well as education and pay.",
+    "Developer expanded view changes an official answer and reruns the same engine.",
+    "Phone390px and desktop1280px layouts inspected; no horizontal overflow observed on plan.",
+    "Existing Google sign-in panel opens; backend and account permissions unchanged."
+  ],
+  "scope": "Implementation and authored-scenario checks. No claim of recruited-student validation, predictive accuracy, device-performance benchmark or measured exact-year salaries.",
+  "realStudentSessions": 0
+}

@@ -1,0 +1,16 @@
+{
+  "version": "0.56.0",
+  "purpose": "Expand to 1000 public base profiles for synthetic coverage and distribution diagnostics, not estimate real student preferences or validate accuracy.",
+  "originalBase": 172,
+  "additionalBase": 828,
+  "additionalDevelopment": 628,
+  "additionalHoldout": 200,
+  "diagnosticsOutsideDenominator": 12,
+  "ownerOnlyOutsidePublicDenominator": 6,
+  "unit": "One uniquely seeded structured synthetic profile, not an independent observed student.",
+  "design": "Neutral topic activities, independent methods and responsibilities, mixed interests, uncertainty, strengths, motivations and contextual variation. No occupation vectors, matching scores, pay or desired results enter biography generation or answer policy.",
+  "freeze": "Freeze profile inputs and response-policy hashes before matching. Outcomes never select, rewrite or reject profiles. Unknown is not Yes. Original inputs and engine rules are immutable.",
+  "simulation": "60 official items and 24 general facets, zero to two optional field surveys selected from stated interests, and up to three voluntarily explored profession introductions. Potential responses use a pre-registered construct/evidence policy; no salary or education bonus.",
+  "holdout": "Deterministic split assigned before outcomes, 200 additional holdout profiles; automated fixed-rule evaluation only. No case-by-case qualitative tuning or response editing. Original 30 and fresh 12 holdouts remain separately identified.",
+  "limitations": ["Structured templates and one procedural answer policy introduce shared-method bias.", "Synthetic results describe this designed coverage set, not the US student population or actual student career choices.", "A larger count does not create psychometric validity or independent validation.", "Unknown specialist preferences remain unknown; no Top quota, degree quota or career-frequency target.", "New profiles have not received the independent qualitative review applied to the original 160 cases."]
+}

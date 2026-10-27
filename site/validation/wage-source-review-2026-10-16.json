@@ -1,0 +1,3685 @@
+{
+  "checkedAt": "2026-10-16",
+  "scope": "Fresh source review of all 65 reviewed careers before this validation release; official entry proxy data for those 64 exact occupations plus physician and dentist.",
+  "sourceReferencePeriod": "May 2025 wages (latest public OEWS release found)",
+  "sourceReleaseURL": "https://www.bls.gov/news.release/ocwage.htm",
+  "sourceReleaseDate": "2026-05-15",
+  "independentStatisticalValidation": false,
+  "officialBLSDownloadAttempt": {
+    "url": "https://www.bls.gov/oes/special-requests/oesm25ma.zip",
+    "result": "HTTP 403 from command environment; compared primary federal O*NET presentation and official state TWC presentation instead. Both share upstream OEWS data."
+  },
+  "twcMethodology": {
+    "publisher": "Texas Workforce Commission / Labor Market Information",
+    "title": "2025 Annual MSA Wages \u00b7 Entry wage proxy",
+    "referencePeriod": "2025 annual wages",
+    "checkedAt": "2026-10-16",
+    "sourceURL": "https://texaswages.com/MSAWages",
+    "dataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+    "methodologyURL": "https://texaswages.com/Home/About",
+    "entryDefinition": "Mean wage of the lowest-paid one-third of workers in the selected occupation and location. It is an entry wage proxy, not observed pay by years of experience.",
+    "experiencedDefinition": "Mean wage of the upper-paid two-thirds; not a measured 5-, 10-, or 20-year salary.",
+    "population": "Wage and salary employees; self-employed workers excluded.",
+    "units": "Gross annual employee wages, USD",
+    "rawArchiveSHA256": "3a67164dc8cde235b91b85790586ff1affaf59ac8566f9321b9d98a73505e2bf",
+    "excludedIds": [
+      "tattoo"
+    ],
+    "exclusionReason": "SOC 27-1019 covers broader artist occupations, not tattoo-specific earnings.",
+    "suppressionRule": "Zero or absent regional figures mean unavailable; never use them as a zero salary."
+  },
+  "rawTWCArchives": [
+    {
+      "kind": "entrywg",
+      "url": "https://texaswages.com/api/MSAAnnual/entrywg",
+      "archive": "data-sources/twc-2025-msa-entrywg.json",
+      "sha256": "3a67164dc8cde235b91b85790586ff1affaf59ac8566f9321b9d98a73505e2bf",
+      "occupationRows": 831,
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "kind": "median",
+      "url": "https://texaswages.com/api/MSAAnnual/median",
+      "archive": "data-sources/twc-2025-msa-median.json",
+      "sha256": "d5c6342339d1bb7bde642ac43e72df15d560340c873f4c0ef60246b29c942af8",
+      "occupationRows": 831,
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "kind": "experience",
+      "url": "https://texaswages.com/api/MSAAnnual/experience",
+      "archive": "data-sources/twc-2025-msa-experience.json",
+      "sha256": "3ac6ac945b8ef35a0d3564c9c2a39d0e65d54a5a648c628b3a09c20b0647f488",
+      "occupationRows": 831,
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "kind": "mean",
+      "url": "https://texaswages.com/api/MSAAnnual/mean",
+      "archive": "data-sources/twc-2025-msa-mean.json",
+      "sha256": "adc56268e4686bcc41447d288168d77a01617a546458c3b973a4555a45b962cf",
+      "occupationRows": 831,
+      "checkedAt": "2026-10-16"
+    }
+  ],
+  "summary": {
+    "reviewed": 65,
+    "officialOccupationAnchorsCompared": 64,
+    "matched": 64,
+    "mismatches": 0,
+    "nonrepresentativePostingEstimates": 1,
+    "modeledExperienceCurvesEmpiricallyValidated": 0,
+    "priorModeledEntryOverOfficialTWCProxyByMoreThan10Percent": 23,
+    "twcEntryProxiesDelivered": 66
+  },
+  "findings": [
+    "All 64 exact-occupation employee wage anchors match the current O*NET tables. Psychiatric aide uses Dallas because Austin is absent.",
+    "TWC provides an official lower-third entry wage proxy for 64 exact occupations, including the Dallas psychiatric-aide fallback. Existing generic entry multipliers differ materially for several occupations.",
+    "No reviewed source supports assigning generic occupation-family multipliers to actual 5-,10-,20-year earnings. Keep those labeled illustrative scenarios.",
+    "Tattoo earnings should be a low-confidence illustrative business/contractor scenario; do not interpret five salary-bearing postings as representative employee earnings.",
+    "Physician and dentist were omitted from the reviewed catalog; neither is excluded by student interests or an assessment result."
+  ],
+  "records": [
+    {
+      "id": "industrial-design",
+      "url": "https://www.onetonline.org/link/localwages/27-1021.00?zip=75201",
+      "observed": [
+        62060,
+        79240,
+        100520,
+        132910,
+        172570
+      ],
+      "expected": [
+        79240,
+        100520,
+        132910
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "27-1021.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 67108.0,
+        "median": 100515.0,
+        "experiencedProxy": 131445.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 68353.6,
+        "priorEntryVsTWCDifferencePercent": 1.9
+      }
+    },
+    {
+      "id": "software",
+      "url": "https://www.onetonline.org/link/localwages/15-1252.00?st=TX",
+      "observed": [
+        96110,
+        104000,
+        134120,
+        168730,
+        209890
+      ],
+      "expected": [
+        104000,
+        134120,
+        168730
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "15-1252.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 96163.0,
+        "median": 134124.0,
+        "experiencedProxy": 167368.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 99248.8,
+        "priorEntryVsTWCDifferencePercent": 3.2
+      }
+    },
+    {
+      "id": "social-research",
+      "url": "https://www.onetonline.org/link/localwages/19-4061.00?st=TX",
+      "observed": [
+        39970,
+        49660,
+        64900,
+        67150,
+        103930
+      ],
+      "expected": [
+        49660,
+        64900,
+        67150
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-4061.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 42341.0,
+        "median": 64905.0,
+        "experiencedProxy": 75026.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 50622,
+        "priorEntryVsTWCDifferencePercent": 19.6
+      }
+    },
+    {
+      "id": "environmental-science",
+      "url": "https://www.onetonline.org/link/localwages/19-2041.00?st=TX",
+      "observed": [
+        64970,
+        72990,
+        93070,
+        124630,
+        163200
+      ],
+      "expected": [
+        72990,
+        93070,
+        124630
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-2041.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 67262.0,
+        "median": 93067.0,
+        "experiencedProxy": 120660.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 72594.6,
+        "priorEntryVsTWCDifferencePercent": 7.9
+      }
+    },
+    {
+      "id": "market-research",
+      "url": "https://www.onetonline.org/link/localwages/13-1161.00?st=TX",
+      "observed": [
+        44990,
+        60560,
+        80460,
+        104280,
+        152160
+      ],
+      "expected": [
+        60560,
+        80460,
+        104280
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "13-1161.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 51496.0,
+        "median": 80466.0,
+        "experiencedProxy": 109013.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 57931.2,
+        "priorEntryVsTWCDifferencePercent": 12.5
+      }
+    },
+    {
+      "id": "writing",
+      "url": "https://www.onetonline.org/link/localwages/27-3043.00?st=TX",
+      "observed": [
+        50640,
+        55740,
+        75380,
+        108840,
+        161380
+      ],
+      "expected": [
+        55740,
+        75380,
+        108840
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "27-3043.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 53219.0,
+        "median": 75383.0,
+        "experiencedProxy": 112316.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 51258.4,
+        "priorEntryVsTWCDifferencePercent": -3.7
+      }
+    },
+    {
+      "id": "mechanical-engineering",
+      "url": "https://www.onetonline.org/link/localwages/17-2141.00?st=TX",
+      "observed": [
+        68080,
+        92130,
+        106690,
+        145090,
+        173210
+      ],
+      "expected": [
+        92130,
+        106690,
+        145090
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "17-2141.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 77505.0,
+        "median": 106685.0,
+        "experiencedProxy": 139212.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 78950.6,
+        "priorEntryVsTWCDifferencePercent": 1.9
+      }
+    },
+    {
+      "id": "teaching",
+      "url": "https://www.onetonline.org/link/localwages/25-2022.00?st=TX",
+      "observed": [
+        53020,
+        60400,
+        61380,
+        62340,
+        72240
+      ],
+      "expected": [
+        60400,
+        61380,
+        62340
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "25-2022.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 55746.0,
+        "median": 61378.0,
+        "experiencedProxy": 64662.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 58069,
+        "priorEntryVsTWCDifferencePercent": 4.2
+      }
+    },
+    {
+      "id": "tattoo",
+      "status": "not independently reverified; nonrepresentative posting estimate",
+      "sourceReferencePeriod": "Updated June 8, 2026; prior 36 months",
+      "checkedAt": "2026-10-16",
+      "soc": "27-1019.00",
+      "geography": "Austin, TX",
+      "url": "https://www.indeed.com/career/tattoo-artist/salaries/Austin--TX",
+      "expected": {
+        "average": 65395,
+        "sampleSize": 5
+      },
+      "observed": null,
+      "finding": "A five-posting mean does not validate entry or experience-specific earnings. No exact-occupation official tattoo series exists in the reviewed data. Do not substitute broader SOC 27-1019 employee pay."
+    },
+    {
+      "id": "nursing",
+      "url": "https://www.onetonline.org/link/localwages/29-1141.00?st=TX",
+      "observed": [
+        73440,
+        81540,
+        97890,
+        106450,
+        127510
+      ],
+      "expected": [
+        81540,
+        97890,
+        106450
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1141.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 74370.0,
+        "median": 97887.0,
+        "experiencedProxy": 109238.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 83206.5,
+        "priorEntryVsTWCDifferencePercent": 11.9
+      }
+    },
+    {
+      "id": "physician-assistant",
+      "url": "https://www.onetonline.org/link/localwages/29-1071.00?st=TX",
+      "observed": [
+        111830,
+        130130,
+        134550,
+        157840,
+        170450
+      ],
+      "expected": [
+        130130,
+        134550,
+        157840
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1071.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 115971.0,
+        "median": 134547.0,
+        "experiencedProxy": 153957.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 114367.5,
+        "priorEntryVsTWCDifferencePercent": -1.4
+      }
+    },
+    {
+      "id": "physical-therapy",
+      "url": "https://www.onetonline.org/link/localwages/29-1123.00?st=TX",
+      "observed": [
+        82330,
+        97080,
+        103630,
+        130880,
+        135320
+      ],
+      "expected": [
+        97080,
+        103630,
+        130880
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1123.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 85926.0,
+        "median": 103631.0,
+        "experiencedProxy": 124946.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 88085.5,
+        "priorEntryVsTWCDifferencePercent": 2.5
+      }
+    },
+    {
+      "id": "occupational-therapy",
+      "url": "https://www.onetonline.org/link/localwages/29-1122.00?st=TX",
+      "observed": [
+        80040,
+        98480,
+        122050,
+        129880,
+        131000
+      ],
+      "expected": [
+        98480,
+        122050,
+        129880
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1122.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 84505.0,
+        "median": 122045.0,
+        "experiencedProxy": 127862.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 103742.5,
+        "priorEntryVsTWCDifferencePercent": 22.8
+      }
+    },
+    {
+      "id": "pharmacy",
+      "url": "https://www.onetonline.org/link/localwages/29-1051.00?st=TX",
+      "observed": [
+        90810,
+        131640,
+        151290,
+        164140,
+        172490
+      ],
+      "expected": [
+        131640,
+        151290,
+        164140
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1051.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 107723.0,
+        "median": 151292.0,
+        "experiencedProxy": 161415.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 128596.5,
+        "priorEntryVsTWCDifferencePercent": 19.4
+      }
+    },
+    {
+      "id": "dental-hygiene",
+      "url": "https://www.onetonline.org/link/localwages/29-1292.00?st=TX",
+      "observed": [
+        58120,
+        94630,
+        105480,
+        119690,
+        120420
+      ],
+      "expected": [
+        94630,
+        105480,
+        119690
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1292.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 74980.0,
+        "median": 105477.0,
+        "experiencedProxy": 112341.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 89658,
+        "priorEntryVsTWCDifferencePercent": 19.6
+      }
+    },
+    {
+      "id": "speech-language",
+      "url": "https://www.onetonline.org/link/localwages/29-1127.00?st=TX",
+      "observed": [
+        77120,
+        99110,
+        106290,
+        126250,
+        126250
+      ],
+      "expected": [
+        99110,
+        106290,
+        126250
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1127.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 83460.0,
+        "median": 106287.0,
+        "experiencedProxy": 117731.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 90346.5,
+        "priorEntryVsTWCDifferencePercent": 8.3
+      }
+    },
+    {
+      "id": "sonography",
+      "url": "https://www.onetonline.org/link/localwages/29-2032.00?st=TX",
+      "observed": [
+        63790,
+        77990,
+        98010,
+        102900,
+        114400
+      ],
+      "expected": [
+        77990,
+        98010,
+        102900
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-2032.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 70027.0,
+        "median": 98009.0,
+        "experiencedProxy": 102383.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 83308.5,
+        "priorEntryVsTWCDifferencePercent": 19.0
+      }
+    },
+    {
+      "id": "respiratory-therapy",
+      "url": "https://www.onetonline.org/link/localwages/29-1126.00?st=TX",
+      "observed": [
+        65470,
+        78310,
+        82760,
+        96240,
+        102990
+      ],
+      "expected": [
+        78310,
+        82760,
+        96240
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1126.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 71578.0,
+        "median": 82756.0,
+        "experiencedProxy": 92264.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 70346,
+        "priorEntryVsTWCDifferencePercent": -1.7
+      }
+    },
+    {
+      "id": "nutrition",
+      "url": "https://www.onetonline.org/link/localwages/29-1031.00?st=TX",
+      "observed": [
+        52770,
+        62600,
+        73130,
+        90800,
+        105120
+      ],
+      "expected": [
+        62600,
+        73130,
+        90800
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1031.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 52948.0,
+        "median": 73129.0,
+        "experiencedProxy": 87335.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 62160.5,
+        "priorEntryVsTWCDifferencePercent": 17.4
+      }
+    },
+    {
+      "id": "social-work",
+      "url": "https://www.onetonline.org/link/localwages/21-1021.00?st=TX",
+      "observed": [
+        45790,
+        48840,
+        58640,
+        67220,
+        77420
+      ],
+      "expected": [
+        48840,
+        58640,
+        67220
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "21-1021.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 45351.0,
+        "median": 58641.0,
+        "experiencedProxy": 66981.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 48084.799999999996,
+        "priorEntryVsTWCDifferencePercent": 6.0
+      }
+    },
+    {
+      "id": "school-psychology",
+      "url": "https://www.onetonline.org/link/localwages/19-3034.00?st=TX",
+      "observed": [
+        66630,
+        79680,
+        89380,
+        108140,
+        110870
+      ],
+      "expected": [
+        79680,
+        89380,
+        108140
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-3034.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 69777.0,
+        "median": 89384.0,
+        "experiencedProxy": 102427.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 75973,
+        "priorEntryVsTWCDifferencePercent": 8.9
+      }
+    },
+    {
+      "id": "data-science",
+      "url": "https://www.onetonline.org/link/localwages/15-2051.00?st=TX",
+      "observed": [
+        74640,
+        85780,
+        127360,
+        161560,
+        186010
+      ],
+      "expected": [
+        85780,
+        127360,
+        161560
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "15-2051.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 77556.0,
+        "median": 127356.0,
+        "experiencedProxy": 151462.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 94246.4,
+        "priorEntryVsTWCDifferencePercent": 21.5
+      }
+    },
+    {
+      "id": "statistics",
+      "url": "https://www.onetonline.org/link/localwages/15-2041.00?st=TX",
+      "observed": [
+        48400,
+        75180,
+        102070,
+        140820,
+        165980
+      ],
+      "expected": [
+        75180,
+        102070,
+        140820
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "15-2041.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 63444.0,
+        "median": 102065.0,
+        "experiencedProxy": 130295.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 75531.8,
+        "priorEntryVsTWCDifferencePercent": 19.1
+      }
+    },
+    {
+      "id": "information-security",
+      "url": "https://www.onetonline.org/link/localwages/15-1212.00?st=TX",
+      "observed": [
+        79500,
+        102860,
+        134100,
+        162800,
+        186680
+      ],
+      "expected": [
+        102860,
+        134100,
+        162800
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "15-1212.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 87328.0,
+        "median": 134096.0,
+        "experiencedProxy": 161668.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 99234,
+        "priorEntryVsTWCDifferencePercent": 13.6
+      }
+    },
+    {
+      "id": "systems-analysis",
+      "url": "https://www.onetonline.org/link/localwages/15-1211.00?st=TX",
+      "observed": [
+        72540,
+        84510,
+        104590,
+        133550,
+        169420
+      ],
+      "expected": [
+        84510,
+        104590,
+        133550
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "15-1211.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 76890.0,
+        "median": 104591.0,
+        "experiencedProxy": 132783.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 77396.6,
+        "priorEntryVsTWCDifferencePercent": 0.7
+      }
+    },
+    {
+      "id": "accounting",
+      "url": "https://www.onetonline.org/link/localwages/13-2011.00?st=TX",
+      "observed": [
+        57660,
+        68250,
+        83120,
+        103820,
+        130130
+      ],
+      "expected": [
+        68250,
+        83120,
+        103820
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "13-2011.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 61339.0,
+        "median": 83117.0,
+        "experiencedProxy": 106286.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 59846.399999999994,
+        "priorEntryVsTWCDifferencePercent": -2.4
+      }
+    },
+    {
+      "id": "financial-analysis",
+      "url": "https://www.onetonline.org/link/localwages/13-2051.00?st=TX",
+      "observed": [
+        66710,
+        80040,
+        101530,
+        132060,
+        189180
+      ],
+      "expected": [
+        80040,
+        101530,
+        132060
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "13-2051.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 71979.0,
+        "median": 101528.0,
+        "experiencedProxy": 140077.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 73101.59999999999,
+        "priorEntryVsTWCDifferencePercent": 1.6
+      }
+    },
+    {
+      "id": "human-resources",
+      "url": "https://www.onetonline.org/link/localwages/13-1071.00?st=TX",
+      "observed": [
+        48050,
+        60300,
+        75860,
+        96380,
+        127240
+      ],
+      "expected": [
+        60300,
+        75860,
+        96380
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "13-1071.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 52354.0,
+        "median": 75855.0,
+        "experiencedProxy": 95078.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 54619.2,
+        "priorEntryVsTWCDifferencePercent": 4.3
+      }
+    },
+    {
+      "id": "logistics",
+      "url": "https://www.onetonline.org/link/localwages/13-1081.00?st=TX",
+      "observed": [
+        49430,
+        63670,
+        78460,
+        102370,
+        129360
+      ],
+      "expected": [
+        63670,
+        78460,
+        102370
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "13-1081.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 55062.0,
+        "median": 78456.0,
+        "experiencedProxy": 101238.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 56491.2,
+        "priorEntryVsTWCDifferencePercent": 2.6
+      }
+    },
+    {
+      "id": "project-management",
+      "url": "https://www.onetonline.org/link/localwages/13-1082.00?st=TX",
+      "observed": [
+        63300,
+        80060,
+        102390,
+        134580,
+        169050
+      ],
+      "expected": [
+        80060,
+        102390,
+        134580
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "13-1082.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 69552.0,
+        "median": 102388.0,
+        "experiencedProxy": 134180.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 73720.8,
+        "priorEntryVsTWCDifferencePercent": 6.0
+      }
+    },
+    {
+      "id": "economics",
+      "url": "https://www.onetonline.org/link/localwages/19-3011.00?st=TX",
+      "observed": [
+        48230,
+        67310,
+        87350,
+        175970,
+        259290
+      ],
+      "expected": [
+        67310,
+        87350,
+        175970
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-3011.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 59054.0,
+        "median": 87347.0,
+        "experiencedProxy": 168625.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 62892,
+        "priorEntryVsTWCDifferencePercent": 6.5
+      }
+    },
+    {
+      "id": "law",
+      "url": "https://www.onetonline.org/link/localwages/23-1011.00?st=TX",
+      "observed": [
+        83990,
+        105240,
+        153330,
+        220540,
+        361090
+      ],
+      "expected": [
+        105240,
+        153330,
+        220540
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "23-1011.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 93726.0,
+        "median": 153332.0,
+        "experiencedProxy": 230087.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 110397.59999999999,
+        "priorEntryVsTWCDifferencePercent": 17.8
+      }
+    },
+    {
+      "id": "paralegal",
+      "url": "https://www.onetonline.org/link/localwages/23-2011.00?st=TX",
+      "observed": [
+        44200,
+        46800,
+        64140,
+        79100,
+        100460
+      ],
+      "expected": [
+        46800,
+        64140,
+        79100
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "23-2011.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 45291.0,
+        "median": 64138.0,
+        "experiencedProxy": 83662.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 52594.799999999996,
+        "priorEntryVsTWCDifferencePercent": 16.1
+      }
+    },
+    {
+      "id": "urban-planning",
+      "url": "https://www.onetonline.org/link/localwages/19-3051.00?st=TX",
+      "observed": [
+        63850,
+        70620,
+        82830,
+        102260,
+        110630
+      ],
+      "expected": [
+        70620,
+        82830,
+        102260
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-3051.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 66517.0,
+        "median": 82826.0,
+        "experiencedProxy": 97617.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 67920.59999999999,
+        "priorEntryVsTWCDifferencePercent": 2.1
+      }
+    },
+    {
+      "id": "civil-engineering",
+      "url": "https://www.onetonline.org/link/localwages/17-2051.00?st=TX",
+      "observed": [
+        65380,
+        80070,
+        100470,
+        128890,
+        162770
+      ],
+      "expected": [
+        80070,
+        100470,
+        128890
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "17-2051.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 70607.0,
+        "median": 100467.0,
+        "experiencedProxy": 124467.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 74347.8,
+        "priorEntryVsTWCDifferencePercent": 5.3
+      }
+    },
+    {
+      "id": "electrical-engineering",
+      "url": "https://www.onetonline.org/link/localwages/17-2071.00?st=TX",
+      "observed": [
+        81960,
+        110310,
+        145360,
+        202060,
+        212900
+      ],
+      "expected": [
+        110310,
+        145360,
+        202060
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "17-2071.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 93562.0,
+        "median": 145364.0,
+        "experiencedProxy": 190112.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 107566.4,
+        "priorEntryVsTWCDifferencePercent": 15.0
+      }
+    },
+    {
+      "id": "biomedical-engineering",
+      "url": "https://www.onetonline.org/link/localwages/17-2031.00?st=TX",
+      "observed": [
+        62650,
+        76010,
+        97600,
+        128030,
+        180910
+      ],
+      "expected": [
+        76010,
+        97600,
+        128030
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "17-2031.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 65747.0,
+        "median": 97602.0,
+        "experiencedProxy": 127109.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 72224,
+        "priorEntryVsTWCDifferencePercent": 9.9
+      }
+    },
+    {
+      "id": "chemistry",
+      "url": "https://www.onetonline.org/link/localwages/19-2031.00?st=TX",
+      "observed": [
+        51790,
+        66480,
+        79770,
+        99040,
+        137410
+      ],
+      "expected": [
+        66480,
+        79770,
+        99040
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-2031.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 58370.0,
+        "median": 79769.0,
+        "experiencedProxy": 103803.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 62220.6,
+        "priorEntryVsTWCDifferencePercent": 6.6
+      }
+    },
+    {
+      "id": "biological-technician",
+      "url": "https://www.onetonline.org/link/localwages/19-4021.00?st=TX",
+      "observed": [
+        40780,
+        46410,
+        54260,
+        66890,
+        80050
+      ],
+      "expected": [
+        46410,
+        54260,
+        66890
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-4021.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 43411.0,
+        "median": 54263.0,
+        "experiencedProxy": 65640.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 42322.8,
+        "priorEntryVsTWCDifferencePercent": -2.5
+      }
+    },
+    {
+      "id": "conservation",
+      "url": "https://www.onetonline.org/link/localwages/19-1031.00?st=TX",
+      "observed": [
+        53440,
+        60520,
+        68620,
+        80620,
+        91190
+      ],
+      "expected": [
+        60520,
+        68620,
+        80620
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-1031.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 54957.0,
+        "median": 68617.0,
+        "experiencedProxy": 78693.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 53523.6,
+        "priorEntryVsTWCDifferencePercent": -2.6
+      }
+    },
+    {
+      "id": "food-science",
+      "url": "https://www.onetonline.org/link/localwages/19-1012.00?st=TX",
+      "observed": [
+        62250,
+        91100,
+        95030,
+        110510,
+        139770
+      ],
+      "expected": [
+        91100,
+        95030,
+        110510
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-1012.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 75257.0,
+        "median": 95028.0,
+        "experiencedProxy": 118259.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 74123.40000000001,
+        "priorEntryVsTWCDifferencePercent": -1.5
+      }
+    },
+    {
+      "id": "veterinary",
+      "url": "https://www.onetonline.org/link/localwages/29-1131.00?st=TX",
+      "observed": [
+        85340,
+        121590,
+        133250,
+        164000,
+        211770
+      ],
+      "expected": [
+        121590,
+        133250,
+        164000
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1131.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 98128.0,
+        "median": 133246.0,
+        "experiencedProxy": 167811.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 113262.5,
+        "priorEntryVsTWCDifferencePercent": 15.4
+      }
+    },
+    {
+      "id": "architecture",
+      "url": "https://www.onetonline.org/link/localwages/17-1011.00?st=TX",
+      "observed": [
+        62160,
+        77220,
+        96600,
+        110960,
+        150230
+      ],
+      "expected": [
+        77220,
+        96600,
+        110960
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "17-1011.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 67366.0,
+        "median": 96595.0,
+        "experiencedProxy": 115991.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 69552,
+        "priorEntryVsTWCDifferencePercent": 3.2
+      }
+    },
+    {
+      "id": "construction-management",
+      "url": "https://www.onetonline.org/link/localwages/11-9021.00?st=TX",
+      "observed": [
+        69740,
+        82440,
+        102980,
+        134400,
+        169110
+      ],
+      "expected": [
+        82440,
+        102980,
+        134400
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "11-9021.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 75128.0,
+        "median": 102983.0,
+        "experiencedProxy": 137546.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 74145.59999999999,
+        "priorEntryVsTWCDifferencePercent": -1.3
+      }
+    },
+    {
+      "id": "graphic-design",
+      "url": "https://www.onetonline.org/link/localwages/27-1024.00?st=TX",
+      "observed": [
+        40690,
+        52140,
+        65060,
+        79790,
+        101690
+      ],
+      "expected": [
+        52140,
+        65060,
+        79790
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "27-1024.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 46122.0,
+        "median": 65064.0,
+        "experiencedProxy": 82197.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 44240.8,
+        "priorEntryVsTWCDifferencePercent": -4.1
+      }
+    },
+    {
+      "id": "animation",
+      "url": "https://www.onetonline.org/link/localwages/27-1014.00?st=TX",
+      "observed": [
+        61910,
+        63560,
+        82570,
+        127080,
+        150000
+      ],
+      "expected": [
+        63560,
+        82570,
+        127080
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "27-1014.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 61544.0,
+        "median": 82573.0,
+        "experiencedProxy": 120981.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 56147.600000000006,
+        "priorEntryVsTWCDifferencePercent": -8.8
+      }
+    },
+    {
+      "id": "film-editing",
+      "url": "https://www.onetonline.org/link/localwages/27-4032.00?st=TX",
+      "observed": [
+        38970,
+        46900,
+        65360,
+        100900,
+        145600
+      ],
+      "expected": [
+        46900,
+        65360,
+        100900
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "27-4032.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 41608.0,
+        "median": 65358.0,
+        "experiencedProxy": 95061.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 44444.8,
+        "priorEntryVsTWCDifferencePercent": 6.8
+      }
+    },
+    {
+      "id": "public-relations",
+      "url": "https://www.onetonline.org/link/localwages/27-3031.00?st=TX",
+      "observed": [
+        44320,
+        53790,
+        69470,
+        86090,
+        113270
+      ],
+      "expected": [
+        53790,
+        69470,
+        86090
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "27-3031.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 47750.0,
+        "median": 69466.0,
+        "experiencedProxy": 90068.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 47239.600000000006,
+        "priorEntryVsTWCDifferencePercent": -1.1
+      }
+    },
+    {
+      "id": "librarian",
+      "url": "https://www.onetonline.org/link/localwages/25-4022.00?st=TX",
+      "observed": [
+        55330,
+        62380,
+        68800,
+        81600,
+        96690
+      ],
+      "expected": [
+        62380,
+        68800,
+        81600
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "25-4022.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 56904.0,
+        "median": 68803.0,
+        "experiencedProxy": 81182.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 56416,
+        "priorEntryVsTWCDifferencePercent": -0.9
+      }
+    },
+    {
+      "id": "interpreting",
+      "url": "https://www.onetonline.org/link/localwages/27-3091.00?st=TX",
+      "observed": [
+        35480,
+        46390,
+        62900,
+        98800,
+        117140
+      ],
+      "expected": [
+        46390,
+        62900,
+        98800
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "27-3091.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 41465.0,
+        "median": 62896.0,
+        "experiencedProxy": 88020.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 42772,
+        "priorEntryVsTWCDifferencePercent": 3.2
+      }
+    },
+    {
+      "id": "exercise-physiology",
+      "url": "https://www.onetonline.org/link/localwages/29-1128.00?st=TX",
+      "observed": [
+        38120,
+        42110,
+        57640,
+        61610,
+        77270
+      ],
+      "expected": [
+        42110,
+        57640,
+        61610
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-1128.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 40526.0,
+        "median": 57636.0,
+        "experiencedProxy": 64494.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 48994,
+        "priorEntryVsTWCDifferencePercent": 20.9
+      }
+    },
+    {
+      "id": "epidemiology",
+      "url": "https://www.onetonline.org/link/localwages/19-1041.00?st=TX",
+      "observed": [
+        62590,
+        64040,
+        69380,
+        78670,
+        94350
+      ],
+      "expected": [
+        64040,
+        69380,
+        78670
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-1041.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 61332.0,
+        "median": 69376.0,
+        "experiencedProxy": 80024.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 54116.4,
+        "priorEntryVsTWCDifferencePercent": -11.8
+      }
+    },
+    {
+      "id": "geoscience",
+      "url": "https://www.onetonline.org/link/localwages/19-2042.00?st=TX",
+      "observed": [
+        61420,
+        76360,
+        92930,
+        134340,
+        174050
+      ],
+      "expected": [
+        76360,
+        92930,
+        134340
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-2042.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 66203.0,
+        "median": 92928.0,
+        "experiencedProxy": 135246.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 72485.40000000001,
+        "priorEntryVsTWCDifferencePercent": 9.5
+      }
+    },
+    {
+      "id": "industrial-engineering",
+      "url": "https://www.onetonline.org/link/localwages/17-2112.00?st=TX",
+      "observed": [
+        62790,
+        82300,
+        103610,
+        134360,
+        169370
+      ],
+      "expected": [
+        82300,
+        103610,
+        134360
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "17-2112.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 72294.0,
+        "median": 103611.0,
+        "experiencedProxy": 137299.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 76671.4,
+        "priorEntryVsTWCDifferencePercent": 6.1
+      }
+    },
+    {
+      "id": "electrician",
+      "url": "https://www.onetonline.org/link/localwages/47-2111.00?st=TX",
+      "observed": [
+        39260,
+        47780,
+        60390,
+        73310,
+        78820
+      ],
+      "expected": [
+        47780,
+        60390,
+        73310
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "47-2111.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 43503.0,
+        "median": 60390.0,
+        "experiencedProxy": 69518.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 49519.799999999996,
+        "priorEntryVsTWCDifferencePercent": 13.8
+      }
+    },
+    {
+      "id": "plumbing",
+      "url": "https://www.onetonline.org/link/localwages/47-2152.00?st=TX",
+      "observed": [
+        40810,
+        48760,
+        62810,
+        79710,
+        80920
+      ],
+      "expected": [
+        48760,
+        62810,
+        79710
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "47-2152.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 43334.0,
+        "median": 62814.0,
+        "experiencedProxy": 73972.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 51504.2,
+        "priorEntryVsTWCDifferencePercent": 18.9
+      }
+    },
+    {
+      "id": "hvac",
+      "url": "https://www.onetonline.org/link/localwages/49-9021.00?st=TX",
+      "observed": [
+        44030,
+        49070,
+        60820,
+        74810,
+        92180
+      ],
+      "expected": [
+        49070,
+        60820,
+        74810
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "49-9021.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 44893.0,
+        "median": 60819.0,
+        "experiencedProxy": 73454.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 49872.399999999994,
+        "priorEntryVsTWCDifferencePercent": 11.1
+      }
+    },
+    {
+      "id": "carpentry",
+      "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+      "observed": [
+        39600,
+        47940,
+        50260,
+        58260,
+        70200
+      ],
+      "expected": [
+        47940,
+        50260,
+        58260
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "47-2031.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 42813.0,
+        "median": 50257.0,
+        "experiencedProxy": 59367.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 41213.2,
+        "priorEntryVsTWCDifferencePercent": -3.7
+      }
+    },
+    {
+      "id": "automotive",
+      "url": "https://www.onetonline.org/link/localwages/49-3023.00?st=TX",
+      "observed": [
+        33350,
+        37730,
+        50610,
+        69190,
+        94150
+      ],
+      "expected": [
+        37730,
+        50610,
+        69190
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "49-3023.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 34732.0,
+        "median": 50616.0,
+        "experiencedProxy": 68788.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 41500.2,
+        "priorEntryVsTWCDifferencePercent": 19.5
+      }
+    },
+    {
+      "id": "emt",
+      "url": "https://www.onetonline.org/link/localwages/29-2042.00?st=TX",
+      "observed": [
+        36710,
+        39070,
+        45740,
+        52160,
+        59790
+      ],
+      "expected": [
+        39070,
+        45740,
+        52160
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-2042.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 37056.0,
+        "median": 45743.0,
+        "experiencedProxy": 51261.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 37506.799999999996,
+        "priorEntryVsTWCDifferencePercent": 1.2
+      }
+    },
+    {
+      "id": "chef",
+      "url": "https://www.onetonline.org/link/localwages/35-1011.00?st=TX",
+      "observed": [
+        42740,
+        52050,
+        62400,
+        80730,
+        93290
+      ],
+      "expected": [
+        52050,
+        62400,
+        80730
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "35-1011.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 46376.0,
+        "median": 62400.0,
+        "experiencedProxy": 78992.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 51168,
+        "priorEntryVsTWCDifferencePercent": 10.3
+      }
+    },
+    {
+      "id": "dental-assisting",
+      "url": "https://www.onetonline.org/link/localwages/31-9091.00?st=TX",
+      "observed": [
+        36630,
+        39530,
+        48500,
+        58420,
+        64440
+      ],
+      "expected": [
+        39530,
+        48500,
+        58420
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "31-9091.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 38631.0,
+        "median": 48494.0,
+        "experiencedProxy": 57844.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 39770,
+        "priorEntryVsTWCDifferencePercent": 2.9
+      }
+    },
+    {
+      "id": "psychiatric-aide",
+      "url": "https://www.onetonline.org/link/localwages/31-1133.00?st=TX",
+      "observed": [
+        33640,
+        35870,
+        47780,
+        48090,
+        48090
+      ],
+      "expected": [
+        35870,
+        47780,
+        48090
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "31-1133.00",
+      "geography": "Dallas\u2013Fort Worth\u2013Arlington, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Dallas\u2013Fort Worth\u2013Arlington, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 34274.0,
+        "median": 47781.0,
+        "experiencedProxy": 47871.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 39179.6,
+        "priorEntryVsTWCDifferencePercent": 14.3
+      }
+    },
+    {
+      "id": "psychiatric-technician",
+      "url": "https://www.onetonline.org/link/localwages/29-2053.00?st=TX",
+      "observed": [
+        36600,
+        38830,
+        40610,
+        47170,
+        47560
+      ],
+      "expected": [
+        38830,
+        40610,
+        47170
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "29-2053.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 36858.0,
+        "median": 40614.0,
+        "experiencedProxy": 45815.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 33300.2,
+        "priorEntryVsTWCDifferencePercent": -9.7
+      }
+    },
+    {
+      "id": "clinical-psychologist",
+      "url": "https://www.onetonline.org/link/localwages/19-3033.00?st=TX",
+      "observed": [
+        55830,
+        77470,
+        87930,
+        109820,
+        129420
+      ],
+      "expected": [
+        77470,
+        87930,
+        109820
+      ],
+      "match": true,
+      "years": [
+        "2025"
+      ],
+      "sourceReferencePeriod": "May 2025",
+      "checkedAt": "2026-10-16",
+      "soc": "19-3033.00",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "expectedFields": [
+        "p25",
+        "median",
+        "p75"
+      ],
+      "observedFields": [
+        "p10",
+        "p25",
+        "median",
+        "p75",
+        "p90"
+      ],
+      "status": "match",
+      "sourcePublisher": "BLS via O*NET OnLine",
+      "population": "Wage and salary employees; excludes self-employed workers",
+      "methodCaveat": "Source transcription/freshness check. Not independent statistical validation and not a measured experience-year wage series.",
+      "twcCrossCheck": {
+        "referencePeriod": "2025 annual wages",
+        "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+        "publisher": "Texas Workforce Commission / Labor Market Information",
+        "sourceURL": "https://texaswages.com/MSAWages",
+        "entryDataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+        "methodologyURL": "https://texaswages.com/Home/About",
+        "entryProxy": 64692.0,
+        "median": 87931.0,
+        "experiencedProxy": 109175.0,
+        "entryDefinition": "Mean wage of the lowest-paid one-third of workers in this occupation and location, not an observed salary for a particular experience year.",
+        "experiencedDefinition": "Mean wage of the upper-paid two-thirds, not a 5-, 10-, or 20-year salary.",
+        "priorFieldguideModeledEntry": 74740.5,
+        "priorEntryVsTWCDifferencePercent": 15.5
+      }
+    }
+  ],
+  "newCareerBenchmarks": [
+    {
+      "id": "physician",
+      "soc": "29-1215",
+      "title": "Family medicine physicians",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "referencePeriod": "May 2025",
+      "url": "https://www.onetonline.org/link/localwages/29-1215.00?st=TX",
+      "p25": 223030,
+      "median": 263070,
+      "p75": 264160,
+      "twcEntryProxy": 185725.0,
+      "twcMedian": 263074.0,
+      "twcExperiencedProxy": 0.0,
+      "note": "TWC zero denotes suppressed/unavailable, not zero earnings. Employee wages exclude owner profit. Family medicine is one physician occupation; not all doctors or specialists."
+    },
+    {
+      "id": "dentist",
+      "soc": "29-1021",
+      "title": "General dentists",
+      "geography": "Austin\u2013Round Rock\u2013San Marcos, TX",
+      "referencePeriod": "May 2025",
+      "url": "https://www.onetonline.org/link/localwages/29-1021.00?st=TX",
+      "p25": 163750,
+      "median": 188190,
+      "p75": 301960,
+      "twcEntryProxy": 121174.0,
+      "twcMedian": 188192.0,
+      "twcExperiencedProxy": 255648.0,
+      "note": "TWC zero denotes suppressed/unavailable, not zero earnings. Employee wages exclude owner profit. Family medicine is one physician occupation; not all doctors or specialists."
+    }
+  ],
+  "residentSalaryExample": {
+    "institution": "Dell Medical School / Ascension Seton",
+    "year": "2026\u20132027",
+    "pageUpdated": "2026-09-16",
+    "url": "https://dellmed.utexas.edu/education/academics/graduate-medical-education/resources/salary-and-benefits",
+    "pgyAnnualPay": {
+      "1": 69528,
+      "2": 71747,
+      "3": 74652,
+      "4": 77629,
+      "5": 81309,
+      "6": 83955,
+      "7": 86963,
+      "8": 89023
+    },
+    "note": "Published resident/fellow training pay; distinguish from qualified attending physician wages. Not a guarantee at every Austin employer."
+  },
+  "teacherSalaryScheduleCheck": {
+    "publisher": "Austin Independent School District",
+    "year": "2026\u20132027",
+    "sourceURL": "https://www.austinisd.org/hc/careers/compensation",
+    "documentURL": "https://docs.google.com/document/d/1zEQ3aEXDNrm28i8w_Vt-mkq9BEQJIGHVtE_dmi13lDc/edit",
+    "retrievedVia": "https://docs.google.com/document/d/1zEQ3aEXDNrm28i8w_Vt-mkq9BEQJIGHVtE_dmi13lDc/export?format=txt",
+    "checkedAt": "2026-10-16",
+    "observed": {
+      "0\u20132": 58069,
+      "5": 59772,
+      "10": 63944,
+      "20": 68844
+    },
+    "allFourMatch": true,
+    "sha256": "92ba94b8d911dacc854334ea68e5918aaaf2c50747f039144d516eee56cbca2f",
+    "scope": "Published187-day new-hire placement schedule, excludes stipends and incentives. One employer example, not guaranteed future raises or occupation-wide earnings."
+  }
+}

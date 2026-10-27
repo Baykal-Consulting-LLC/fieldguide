@@ -1,0 +1,17 @@
+import{followupPanel062}from'./followup-062.js';
+import{exploration059Data}from'./exploration-059-data.js';
+import{educationRoutesFor}from'./education-routes.js';
+import{explorerBudget}from'./explorer-053-budget.js';
+export const degreeRoute059=o=>educationRoutesFor(o).some(r=>['college','graduate'].includes(r.key));
+export function educationView059(result,education){
+ if(!['degree','work','apprenticeship','program','college','graduate'].includes(education))return result;
+ const rows=result.rows.filter(r=>education==='degree'?degreeRoute059(r.o):educationRoutesFor(r.o).some(x=>x.key===education));return{...result,rows,total:rows.length};
+}
+// Pure presentation union. It neither mutates evidence nor establishes Top support.
+export function explorationRows059(result){return result.rows.filter(r=>r.specific.supported||(Number.isFinite(r.r)&&r.r>=.608&&exploration059Data[r.id]?.zone)).sort((a,b)=>Number(b.specific.supported)-Number(a.specific.supported)||(b.r??-2)-(a.r??-2)||a.id.localeCompare(b.id));}
+const h=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const money=n=>Number.isFinite(n)?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n):'Unassessed';
+export function explorationPanel059(s,result,scope='all'){
+ const rows=explorationRows059(result);if(!rows.length)return followupPanel062(s,result,scope);
+ return `<section class="guide-input-panel" id="all-route-comparison"><h2>Supported matches and more interests to explore</h2><p>${rows.filter(r=>r.specific.supported).length} specifically supported options · ${rows.filter(r=>!r.specific.supported).length} additional strong broad interest connections in this view. Use the field and education filters above to compare routes.</p><p>Interest connections suggest work to investigate. Specific answers, including any conflicting interests, remain visible; a correlation alone does not establish a Top match.</p><details><summary>Compare every option, learning route and earnings</summary><div style="overflow-x:auto"><table><thead><tr><th>Profession</th><th>Interest evidence</th><th>Learning routes</th><th>First-paid-stage / proxy</th><th>Occupational median</th><th>Next exploration</th></tr></thead><tbody>${rows.map(r=>{const b=explorerBudget(s,r.o),w=exploration059Data[r.id],label=r.specific.supported?'Specific interests supported':r.specific.contrary.length?'Interest connection · conflicting answer':r.r>=.729?'Best broad interest connection':'Great broad interest connection';return `<tr><td><a href="#/journey/profession/${r.id}">${h(r.o.title)}</a></td><td>${h(label)}${r.r===null?'':' · r '+r.r.toFixed(3)}</td><td>${educationRoutesFor(r.o).map(x=>h(x.label||x.key)).join(' · ')}</td><td>${money(b.amount)}<br><small>${h(b.reason)}${b.covers===true?' · Could cover your lifestyle':b.covers===false?' · Does not establish entry lifestyle coverage':''}</small></td><td>${money(w?.median)}<br><small>${w?.median?h(w.geography)+' · '+h(w.period)+(w.broader?' · Broader wage group':''):'No comparable wage reference'}</small></td><td><a href="#/journey/clarify/${r.id}/0?scope=${h(scope)}">Explore and clarify interests</a></td></tr>`;}).join('')}</tbody></table></div></details><p><small>All learning levels stay available. Occupational median is not starting pay. Entry proxies are planning assumptions; licensing, study costs and any earlier paid training require verification.</small></p></section>`+followupPanel062(s,result,scope);
+}

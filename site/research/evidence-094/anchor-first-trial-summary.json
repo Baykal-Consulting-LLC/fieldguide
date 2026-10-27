@@ -1,0 +1,170 @@
+{
+  "version": "0.94",
+  "generatedAt": "2026-10-23T20:17:22.121Z",
+  "baseline": "0.93",
+  "summary": [
+    {
+      "cohort": "all",
+      "models": 1000,
+      "shortAnswers": {
+        "top": 162,
+        "degree": 17,
+        "questions": 9675,
+        "unknown": 7407,
+        "unbound": 4407
+      },
+      "shortTargeted": {
+        "top": 127,
+        "degree": 93,
+        "questions": 11535,
+        "unknown": 9478,
+        "unbound": 5623
+      },
+      "repaired": {
+        "top": 222,
+        "degree": 58,
+        "questions": 11537,
+        "unknown": 8405,
+        "unbound": 4510
+      }
+    },
+    {
+      "cohort": "development",
+      "models": 758,
+      "shortAnswers": {
+        "top": 124,
+        "degree": 15,
+        "questions": 7371,
+        "unknown": 5652,
+        "unbound": 3382
+      },
+      "shortTargeted": {
+        "top": 102,
+        "degree": 73,
+        "questions": 8785,
+        "unknown": 7206,
+        "unbound": 4296
+      },
+      "repaired": {
+        "top": 170,
+        "degree": 45,
+        "questions": 8786,
+        "unknown": 6412,
+        "unbound": 3466
+      }
+    },
+    {
+      "cohort": "holdout",
+      "models": 30,
+      "shortAnswers": {
+        "top": 0,
+        "degree": 0,
+        "questions": 286,
+        "unknown": 286,
+        "unbound": 0
+      },
+      "shortTargeted": {
+        "top": 0,
+        "degree": 0,
+        "questions": 360,
+        "unknown": 360,
+        "unbound": 0
+      },
+      "repaired": {
+        "top": 0,
+        "degree": 0,
+        "questions": 360,
+        "unknown": 360,
+        "unbound": 0
+      }
+    },
+    {
+      "cohort": "holdout049",
+      "models": 12,
+      "shortAnswers": {
+        "top": 0,
+        "degree": 0,
+        "questions": 80,
+        "unknown": 80,
+        "unbound": 0
+      },
+      "shortTargeted": {
+        "top": 0,
+        "degree": 0,
+        "questions": 96,
+        "unknown": 96,
+        "unbound": 0
+      },
+      "repaired": {
+        "top": 0,
+        "degree": 0,
+        "questions": 96,
+        "unknown": 96,
+        "unbound": 0
+      }
+    },
+    {
+      "cohort": "holdout056",
+      "models": 200,
+      "shortAnswers": {
+        "top": 38,
+        "degree": 2,
+        "questions": 1938,
+        "unknown": 1389,
+        "unbound": 1025
+      },
+      "shortTargeted": {
+        "top": 25,
+        "degree": 20,
+        "questions": 2294,
+        "unknown": 1816,
+        "unbound": 1327
+      },
+      "repaired": {
+        "top": 52,
+        "degree": 13,
+        "questions": 2295,
+        "unknown": 1537,
+        "unbound": 1044
+      }
+    },
+    {
+      "cohort": "grok075",
+      "models": 1000,
+      "shortAnswers": {
+        "top": 92,
+        "degree": 39,
+        "questions": 10077,
+        "unknown": 8053,
+        "unbound": 5031
+      },
+      "shortTargeted": {
+        "top": 167,
+        "degree": 115,
+        "questions": 11864,
+        "unknown": 9435,
+        "unbound": 6459
+      },
+      "repaired": {
+        "top": 121,
+        "degree": 62,
+        "questions": 11864,
+        "unknown": 8984,
+        "unbound": 4805
+      }
+    }
+  ],
+  "limits": [
+    "Research only; live student matching and question flow unchanged.",
+    "Current extensive-answer results and fresh short-flow experiments are different conditions; do not conflate them.",
+    "Baseline short arm uses the conservative 0.90 question-scoped resolver, not the full historic answer executor. Repaired arms also restore existing explicit activity-option bindings; broad unreviewed career bindings are not activated.",
+    "Short experiment starts with saved lifestyle and official60 answers only; prior follow-ups are withheld. Twelve additional questions maximum.",
+    "Three short-flow arms isolate current simulator, whole-question answers/shared activity reuse, and three four-question targeting waves.",
+    "Unbound means no reviewed question-scoped binding was used; an older broader catalog construct may exist. Broad unreviewed occupational assumptions are not promoted to specific evidence.",
+    "Synthetic typed facts determine simulated answers; unknowns stay unknown. This is not real-student validation or proof of occupational fit.",
+    "Both cohorts informed development; fixed holdout splits are separately reported but are no longer unseen.",
+    "No use of demographics, mental health, lifestyle or desired education to grant interest evidence. No education score bonus.",
+    "Historical Top order and all support retained in the extensive replay. Short-flow careers are newly ranked; retention of extensive outcomes is not expected.",
+    "All remaining gap models receive a structured diagnostic audit; eight profile-level manual spot checks are included. Every proposed career has not been independently human-validated."
+  ]
+}

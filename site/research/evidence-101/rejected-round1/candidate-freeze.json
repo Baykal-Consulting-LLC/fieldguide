@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-24T18:27:03.253Z",
+  "developmentOnly": true,
+  "models": 758,
+  "variants": [
+    {
+      "mode": "early",
+      "models": 758,
+      "beforeTop": 485,
+      "top": 433,
+      "beforeDegree": 378,
+      "degree": 308,
+      "gainedTop": 4,
+      "lostTop": 56,
+      "gainedDegree": 2,
+      "lostDegree": 72,
+      "unknown": 10528
+    },
+    {
+      "mode": "finish",
+      "models": 758,
+      "beforeTop": 485,
+      "top": 483,
+      "beforeDegree": 378,
+      "degree": 376,
+      "gainedTop": 0,
+      "lostTop": 2,
+      "gainedDegree": 0,
+      "lostDegree": 2,
+      "unknown": 9620
+    },
+    {
+      "mode": "balanced",
+      "models": 758,
+      "beforeTop": 485,
+      "top": 447,
+      "beforeDegree": 378,
+      "degree": 337,
+      "gainedTop": 6,
+      "lostTop": 44,
+      "gainedDegree": 5,
+      "lostDegree": 46,
+      "unknown": 10537
+    }
+  ],
+  "selected": "finish",
+  "selectionRule": "Highest development Top + degree coverage, then fewer coverage losses, then deterministic name. No holdout outcomes used.",
+  "selectorSHA256": "4983d1cba6c08c24db2eb3c15f6730fd6a7044751b6dbc08648f540a3f4a215a"
+}

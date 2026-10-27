@@ -1,0 +1,2 @@
+// Comparable independent evidence units; repeated task contexts do not outrank distinctive interests.
+export function diagnosticCompletion093(candidate,questions){const guided=questions.some(q=>q.options&&!['specific','core-work'].includes(q.kind));const specific=new Set(candidate.positiveDomains).size,tasks=new Set(candidate.taskDomains).size;return guided?(Math.min(2,specific)+Math.min(2,tasks))/4:specific/3;}

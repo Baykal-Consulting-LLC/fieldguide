@@ -1,0 +1,11 @@
+{
+  "study": "executor-077-targeted",
+  "policy": "Fixed 0.76 invitations, selected before independent responses; no outcome-driven extra questions. Same frozen saved context in both arms; only new targeted answers vary. Missing evidence stays unknown. This is separate from full-survey current-matcher comparison.",
+  "baselineSHA256": "d312b85b4b35f6c07078eba13c806c04625966297a33f293c863c81420dd2769",
+  "consumerSHA256": "92da40e5ee2735a776e45ca5a89c384eca6df6330ff5a196e9027cf062c98238",
+  "contract": "Independently answer ONLY the supplied narrow follow-up questions as each fictional student, using only their frozen profile facts. No career recommendation, scoring, tools, external files, web, subagents or prior context. Old responses and matching outcomes are withheld. Do not optimize a result. Answer the precise activity, not just its broad subject. Skill, confidence, access, demographics, health, family duties, financial means and education aspirations do not independently establish enjoyment. Explicit chosen enjoyed activities are evidence; omitted distinctive activities remain unknown. Never invent missing interests. For each question use 1=Yes, I would like to learn this exact work;2=No, this work does not interest me;3=Unsure/mixed;0=Unfamiliar/insufficient profile evidence. Return {\"models\":[{\"id\":\"...\",\"answers\":{\"opaqueQuestionIndex\":integer,...}},...]} only. Exactly each requested question key, every model in order. These are synthetic profiles, not real people.",
+  "models": 2000,
+  "offeredModels": 1437,
+  "questions": 4239,
+  "startedAt": 1792605649.4974332
+}

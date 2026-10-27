@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "archivedAt": "2026-10-25T06:18:11.146105+00:00",
+  "baseSourceCommit": "ac90d0343fe5e354778e40b1933c4fd7c180dc96",
+  "scope": "Public fictional cohorts, frozen research traces, analyses, and design studies. Source archival only; no live matching or flow change.",
+  "files": [
+    {
+      "path": "shortlist-study-2026-10-24/summary.json",
+      "source": "outputs/a3-shortlist-study-2026-10-24/summary.json",
+      "sha256": "f82eab934346724201ba77a8f73fb9b630cdcbfee8bd136d3625cd17c84966a6",
+      "bytes": 1832273
+    },
+    {
+      "path": "shortlist-study-2026-10-24/run.mjs",
+      "source": "outputs/a3-shortlist-study-2026-10-24/run.mjs",
+      "sha256": "0bb9f8d4145c8b52e567182bb945572512647f52e4d84e6269bbf30f7028ecf9",
+      "bytes": 7349
+    },
+    {
+      "path": "shortlist-study-2026-10-24/pilot-0.json.gz",
+      "source": "outputs/a3-shortlist-study-2026-10-24/pilot-0.json.gz",
+      "sha256": "5e8487278b8266cf74923cf1dbc389a905113127bca74e3a3fec959f268fd556",
+      "bytes": 2969
+    },
+    {
+      "path": "shortlist-study-2026-10-24/summarize.py",
+      "source": "outputs/a3-shortlist-study-2026-10-24/summarize.py",
+      "sha256": "95a362b5408819568405a7f83be6af9ce259b6a966de46855ccfb24d47000f5e",
+      "bytes": 6810
+    },
+    {
+      "path": "shortlist-study-2026-10-24/README.md",
+      "source": "outputs/a3-shortlist-study-2026-10-24/README.md",
+      "sha256": "85694597246d043894c6a07ce4d0749616035628cae67c134ada9d9238ccdbf6",
+      "bytes": 2870
+    },
+    {
+      "path": "shortlist-study-2026-10-24/shard-3.json.gz",
+      "source": "outputs/a3-shortlist-study-2026-10-24/shard-3.json.gz",
+      "sha256": "e81c2f0fbcfff67c58e782bce4ced25e17638207ed13a46035e9e49686908604",
+      "bytes": 3282880
+    },
+    {
+      "path": "shortlist-study-2026-10-24/selector.mjs",
+      "source": "outputs/a3-shortlist-study-2026-10-24/selector.mjs",
+      "sha256": "faa06e85b3490bff57f797ab5615a1187da779f5a0dd548b62065e43979cf876",
+      "bytes": 3838
+    },
+    {
+      "path": "shortlist-study-2026-10-24/protocol.json",
+      "source": "outputs/a3-shortlist-study-2026-10-24/protocol.json",
+      "sha256": "6038eba911c2aa4c22ac2e9036f144cbf5e4433e021908bd9cb8157a8b20b70a",
+      "bytes": 3860
+    },
+    {
+      "path": "shortlist-study-2026-10-24/shard-2.json.gz",
+      "source": "outputs/a3-shortlist-study-2026-10-24/shard-2.json.gz",
+      "sha256": "392fd1ce7f575ce7928835f501b868a61641aefa71f8428b3d30ade5922a9206",
+      "bytes": 3064733
+    },
+    {
+      "path": "shortlist-study-2026-10-24/report.html",
+      "source": "outputs/a3-shortlist-study-2026-10-24/report.html",
+      "sha256": "99e15169aa6c2e15fea907c8706992d1879ef03ee88cd649d1021e8a18fa644d",
+      "bytes": 686660
+    },
+    {
+      "path": "shortlist-study-2026-10-24/shard-0.json.gz",
+      "source": "outputs/a3-shortlist-study-2026-10-24/shard-0.json.gz",
+      "sha256": "a3b4eec7f5ea7d83606ff4c1f8fcdd24c26849501bbd93aab0ad653cb76523ca",
+      "bytes": 3069691
+    },
+    {
+      "path": "shortlist-study-2026-10-24/shard-1.json.gz",
+      "source": "outputs/a3-shortlist-study-2026-10-24/shard-1.json.gz",
+      "sha256": "3a40cb9106ba469622bb68ec3d2a82419d3be1fb0be381ab27432f2e56dd8bb6",
+      "bytes": 3049871
+    },
+    {
+      "path": "shortlist-study-2026-10-24/inline-repair/verification.md",
+      "source": "outputs/a3-shortlist-study-2026-10-24/inline-repair/verification.md",
+      "sha256": "e3036672795ea0d828fcedf56cd447300e8e620981af8944f677e78db5373f54",
+      "bytes": 869
+    },
+    {
+      "path": "shortlist-study-2026-10-24/inline-repair/data-check.json",
+      "source": "outputs/a3-shortlist-study-2026-10-24/inline-repair/data-check.json",
+      "sha256": "d514a01aee49ceb3e4e24ea2183b13f52724b706e7d6395f78b3297b7181a9e1",
+      "bytes": 172
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/summary.json",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/summary.json",
+      "sha256": "3620f64b1fcd91b1bc1b3671a3ecbbe841a179833c24f96a38029abfd05ccb6d",
+      "bytes": 4141318
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/run.mjs",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/run.mjs",
+      "sha256": "1cf1ed459ae3513ccf3f706c2fe18795235b7b931100c62618dcc88aa70b17b1",
+      "bytes": 7960
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/readout.json.txt",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/readout.json.txt",
+      "sha256": "eb1e657c08d30d3e799652db98f308ab3cb401cae25f886adfcfb2107b72a6ad",
+      "bytes": 14041
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/pilot-0.json.gz",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/pilot-0.json.gz",
+      "sha256": "7764bbda4d8440037ce7f65a440f55a6616ee9c7f168a70fdc407c56a901799c",
+      "bytes": 3071
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/selector.test.mjs",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/selector.test.mjs",
+      "sha256": "cec0ff85996b4a587f308708d69a968d69a5f2591c826f0206e8d218f679b4c1",
+      "bytes": 2338
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/summarize.py",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/summarize.py",
+      "sha256": "a50bfaaa9929939b1e1d1bafe78c603ca7e7c414ae1a72ccfdf975211aaae01f",
+      "bytes": 8527
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/README.md",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/README.md",
+      "sha256": "61fae12265a8969c7461a7ad8bd995f93c1fa57887023ddd7c1a77c6cc80ba26",
+      "bytes": 3134
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/shard-3.json.gz",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/shard-3.json.gz",
+      "sha256": "d997fd1e19e54b727fe14e820a8953f108477b6676d62c6530004ddc36dedef1",
+      "bytes": 3647523
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/selector.mjs",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/selector.mjs",
+      "sha256": "152b58ef1799c753c83261576cb0d7f6cd04179476e1b3592cf7a6b01ead250a",
+      "bytes": 4183
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/protocol.json",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/protocol.json",
+      "sha256": "f9a0e8849ebd95046ee2a0445a839af3eb368de0d30cfbe191168d60b2c22cf5",
+      "bytes": 43906
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/shard-2.json.gz",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/shard-2.json.gz",
+      "sha256": "f1bccac5604d3e268ae92a6e9aaa4f45f0f42189716f8d09e265df805c698fa0",
+      "bytes": 3395415
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/review.md",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/review.md",
+      "sha256": "ddb516cc2b969c88a3ef4c02bea3eb9cb8d022bca157f0a34f97deb892deca44",
+      "bytes": 5083
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/report.html",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/report.html",
+      "sha256": "ea560497647db28e14027b963a4f51c61277b6be5e9abc19dcb51ab11850e4bd",
+      "bytes": 1297755
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/shard-0.json.gz",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/shard-0.json.gz",
+      "sha256": "593224374c0aa8340ce0dbc5a0dc90c6180aee406acddba271a56271af2fc969",
+      "bytes": 3394099
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/report-template.html",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/report-template.html",
+      "sha256": "5ee8c1932cb25bec6b0084edade694e6532308e947c927a4e7b7921592cc67b7",
+      "bytes": 14037
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/shard-1.json.gz",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/shard-1.json.gz",
+      "sha256": "0891fff8a52dbe53bfaab125f087f5d51006985ce542bd64cb99d6ff42c8a92d",
+      "bytes": 3398354
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/workers.mjs",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/workers.mjs",
+      "sha256": "dc3d1be67f09b97662c3909a7e19c442fd5ea497088425d8fd6817a92acc5ea9",
+      "bytes": 570
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/inline-repair/build.py",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/inline-repair/build.py",
+      "sha256": "2ecdce68267ae40a0ac6fa07b22dac29a3fcf04b49d1824c7bf6fe3c5bfb5b5f",
+      "bytes": 8048
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/inline-repair/template.html",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/inline-repair/template.html",
+      "sha256": "570bd1c23dd67515a5cbe28c83ee6f61ac64f8d56aa0cfae27e972cc372adc40",
+      "bytes": 9786
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/inline-repair/verification.json",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/inline-repair/verification.json",
+      "sha256": "1a8e11642a2e7a4bd51818b24cb128397277dbf16cafff569ec834094a6ca430",
+      "bytes": 876
+    },
+    {
+      "path": "protected-confirmations-2026-10-25/inline-repair/payload.json",
+      "source": "outputs/a3-protected-confirmations-2026-10-25/inline-repair/payload.json",
+      "sha256": "69599b2ce8b399f3b6c56b13852662ee641072ce069556ca1ae328665c0b7b1f",
+      "bytes": 546480
+    },
+    {
+      "path": "design-sources/approach-three-designs.html",
+      "source": "conversation-design/approach-three-designs.html",
+      "sha256": "e2276910248efd716ea25101ecb46fb3ed9896cb4ef59bd60ad0d348a495c0bd",
+      "bytes": 15321
+    },
+    {
+      "path": "design-sources/approach-three-connected-journey.html",
+      "source": "conversation-design/approach-three-connected-journey.html",
+      "sha256": "4bc70a4a683c99762018a4e70de871550af1005de18f44c16d7896b74a0724ee",
+      "bytes": 30889
+    },
+    {
+      "path": "design-sources/approach-three-actual-route-overview.html",
+      "source": "conversation-design/approach-three-actual-route-overview.html",
+      "sha256": "bc761ef10a2098bcbdd6776c74fc81823ae43a55035f55004c91c386eac778cf",
+      "bytes": 641068
+    },
+    {
+      "path": "design-sources/amara-clarification-and-focused-results.html",
+      "source": "conversation-design/amara-clarification-and-focused-results.html",
+      "sha256": "939b86afeb51311b0d5ce3989cba3024695c2b4f22815e68b3dd437cdd753b65",
+      "bytes": 79867
+    },
+    {
+      "path": "design-sources/shortlist-followup-study.html",
+      "source": "conversation-design/shortlist-followup-study.html",
+      "sha256": "3cfce423b19862982e35f05c21dfdfd4b8894d9ddd5c921c44ce2229fae90674",
+      "bytes": 408161
+    },
+    {
+      "path": "design-sources/protected-confirmation-study.html",
+      "source": "conversation-design/protected-confirmation-study.html",
+      "sha256": "dfcbfb949abfbcd564198c807037f77a0f52f27debcdc622219498e627dfa924",
+      "bytes": 875734
+    }
+  ]
+}

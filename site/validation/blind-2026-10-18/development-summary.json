@@ -1,0 +1,3880 @@
+{
+  "createdAt": "2026-10-19T02:25:40.237Z",
+  "phase": "development",
+  "engine": "3.5.0",
+  "biographyHash": "e4fff822a2406c71c02de7dce2ca29cedfec02fb0d6c0e99987bfc7e6c64c59b",
+  "responseHash": "14b8c367f9fda4745c7e844460c9743460223728d8b0272d8024f9f97837e963",
+  "scope": "Life-first fictional simulations; no accuracy rate or student validation claim.",
+  "students": [
+    {
+      "id": "life-005",
+      "name": "Amara Okafor",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        21,
+        20,
+        30,
+        21,
+        14,
+        21
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "building",
+        "business"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "industrial-design",
+          "basis": "tasks",
+          "r": 0.505080295600242
+        },
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.4082653748122453
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "industrial-design",
+        "preparation": "Bachelor’s degree and a strong portfolio are typical.",
+        "payStage": "entry",
+        "pay": 67108,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "37 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        },
+        {
+          "kind": "plausible-answer-sensitivity",
+          "severity": "review",
+          "detail": "At least one independently recorded plausible alternate response changes a pathway or displayed career set."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-006",
+      "name": "Noah Sato",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        21,
+        24,
+        30,
+        23,
+        12,
+        17
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "science",
+        "technology"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "animation",
+          "basis": "profile-and-tasks",
+          "r": 0.6629694799607644
+        },
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.33619622013103195
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "animation",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 61544,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "46 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-007",
+      "name": "Isabel Rios",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        13,
+        20,
+        24,
+        19,
+        19,
+        30
+      ],
+      "fields": [],
+      "workFields": [
+        "technology"
+      ],
+      "selectedField": "technology",
+      "careers": [],
+      "taskLeads": [],
+      "plan": null,
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "47 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        },
+        {
+          "kind": "open-career-choice",
+          "severity": "information",
+          "detail": "No career is forced. Work-led options, alternatives and the full chosen field remain available."
+        }
+      ],
+      "checks": 5,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-009",
+      "name": "Sienna Park",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        23,
+        20,
+        32,
+        27,
+        17,
+        11
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "trades",
+        "building"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.3156708257710654
+        },
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.29716526498405776
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "writing",
+        "preparation": "A bachelor’s degree is typical for many salaried roles.",
+        "payStage": "entry",
+        "pay": 53219,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "31 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-011",
+      "name": "Lucia Hartwell",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        33,
+        21,
+        23,
+        21,
+        14,
+        17
+      ],
+      "fields": [
+        "trades"
+      ],
+      "workFields": [
+        "building",
+        "education"
+      ],
+      "selectedField": "trades",
+      "careers": [
+        {
+          "id": "carpentry",
+          "basis": "profile-and-tasks",
+          "r": 0.7926695759700273
+        },
+        {
+          "id": "welder",
+          "basis": "profile-and-tasks",
+          "r": 0.7245808890019994
+        },
+        {
+          "id": "construction-laborer",
+          "basis": "profile-and-tasks",
+          "r": 0.7480819248275569
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "carpentry",
+        "preparation": "High school preparation and on-the-job learning.",
+        "payStage": "entry",
+        "pay": 42813,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "46 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-012",
+      "name": "Tariq Bennett",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        17,
+        23,
+        31,
+        24,
+        11,
+        17
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "education",
+        "science"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.4189275156448282
+        },
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.3603205958800419
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "writing",
+        "preparation": "A bachelor’s degree is typical for many salaried roles.",
+        "payStage": "entry",
+        "pay": 53219,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "46 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-013",
+      "name": "Genevieve Cho",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        24,
+        20,
+        27,
+        20,
+        11,
+        24
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "trades",
+        "building",
+        "education"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "industrial-design",
+          "basis": "tasks",
+          "r": 0.4216180353865551
+        },
+        {
+          "id": "animation",
+          "basis": "profile-and-tasks",
+          "r": 0.6389255670875904
+        },
+        {
+          "id": "photographer",
+          "basis": "profile-and-tasks",
+          "r": 0.698301522783353
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "industrial-design",
+        "preparation": "Bachelor’s degree and a strong portfolio are typical.",
+        "payStage": "entry",
+        "pay": 67108,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "45 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-014",
+      "name": "Mateo Quintero",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        31,
+        20,
+        32,
+        20,
+        13,
+        12
+      ],
+      "fields": [],
+      "workFields": [
+        "trades",
+        "science",
+        "building"
+      ],
+      "selectedField": "trades",
+      "careers": [
+        {
+          "id": "industrial-machinery-mechanic",
+          "basis": "tasks",
+          "r": 0.22201308408404252
+        },
+        {
+          "id": "automotive",
+          "basis": "tasks",
+          "r": 0.18392322038062034
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "industrial-machinery-mechanic",
+        "preparation": "High school or GED, then job training.",
+        "payStage": "entry",
+        "pay": 49111,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "44 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-015",
+      "name": "Avery Larkin",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        21,
+        32,
+        24,
+        11,
+        18
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "education",
+        "building",
+        "trades"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "animation",
+          "basis": "profile-and-tasks",
+          "r": 0.7264530391896458
+        }
+      ],
+      "taskLeads": [
+        "film-editing",
+        "photographer",
+        "writing"
+      ],
+      "plan": {
+        "career": "animation",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 61544,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "44 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-016",
+      "name": "Owen Mbatha",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        19,
+        24,
+        30,
+        24,
+        12,
+        16
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "science",
+        "technology"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.33404212514347464
+        },
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.28541583877751475
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "writing",
+        "preparation": "A bachelor’s degree is typical for many salaried roles.",
+        "payStage": "entry",
+        "pay": 53219,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "44 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-018",
+      "name": "Finn Callahan",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        26,
+        20,
+        26,
+        22,
+        13,
+        19
+      ],
+      "fields": [],
+      "workFields": [
+        "trades",
+        "science",
+        "building"
+      ],
+      "selectedField": "building",
+      "careers": [
+        {
+          "id": "civil-engineering",
+          "basis": "tasks",
+          "r": 0.20063332486835195
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "civil-engineering",
+        "preparation": "PE license for regulated engineering services.",
+        "payStage": "entry",
+        "pay": 70607,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "45 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-020",
+      "name": "Wyatt Chen",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        30,
+        22,
+        37,
+        22,
+        13,
+        11
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "trades",
+        "science",
+        "education"
+      ],
+      "selectedField": "building",
+      "careers": [
+        {
+          "id": "mechanical-engineering",
+          "basis": "tasks",
+          "r": -0.0020521020412813656
+        },
+        {
+          "id": "electrical-engineering",
+          "basis": "tasks",
+          "r": -0.01996176399711103
+        },
+        {
+          "id": "biomedical-engineering",
+          "basis": "tasks",
+          "r": -0.022085954029387636
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "mechanical-engineering",
+        "preparation": "PE license for regulated engineering services.",
+        "payStage": "entry",
+        "pay": 77505,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "23 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-021",
+      "name": "Beatrice Albright",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        19,
+        21,
+        22,
+        19,
+        10,
+        27
+      ],
+      "fields": [],
+      "workFields": [
+        "education"
+      ],
+      "selectedField": "education",
+      "careers": [
+        {
+          "id": "librarian",
+          "basis": "profile-and-tasks",
+          "r": 0.6351843612744469
+        },
+        {
+          "id": "social-research",
+          "basis": "tasks",
+          "r": 0.571001635942575
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "librarian",
+        "preparation": "Library jobs differ from Texas school-library certification.",
+        "payStage": "entry",
+        "pay": 56904,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "30 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 94
+    },
+    {
+      "id": "life-023",
+      "name": "Harper Ekwueme",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        19,
+        20,
+        26,
+        25,
+        11,
+        24
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "science",
+        "trades"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "industrial-design",
+          "basis": "tasks",
+          "r": -0.027759754817965974
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "industrial-design",
+        "preparation": "Bachelor’s degree and a strong portfolio are typical.",
+        "payStage": "entry",
+        "pay": 67108,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "45 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-024",
+      "name": "Samuel Price",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        25,
+        20,
+        25,
+        21,
+        10,
+        18
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "trades",
+        "science"
+      ],
+      "selectedField": "trades",
+      "careers": [
+        {
+          "id": "carpentry",
+          "basis": "tasks",
+          "r": 0.458229892837407
+        }
+      ],
+      "taskLeads": [
+        "welder"
+      ],
+      "plan": {
+        "career": "carpentry",
+        "preparation": "High school preparation and on-the-job learning.",
+        "payStage": "entry",
+        "pay": 42813,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "47 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-025",
+      "name": "Leila Haddad",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        31,
+        24,
+        20,
+        23,
+        15,
+        16
+      ],
+      "fields": [
+        "science",
+        "trades"
+      ],
+      "workFields": [
+        "building",
+        "creative",
+        "education"
+      ],
+      "selectedField": "building",
+      "careers": [
+        {
+          "id": "biomedical-engineering",
+          "basis": "tasks",
+          "r": 0.5461973462936739
+        },
+        {
+          "id": "mechanical-engineering",
+          "basis": "tasks",
+          "r": 0.5280131866081439
+        },
+        {
+          "id": "electrical-engineering",
+          "basis": "tasks",
+          "r": 0.5524978635746094
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "biomedical-engineering",
+        "preparation": "PE license for regulated engineering services.",
+        "payStage": "entry",
+        "pay": 65747,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "44 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 99
+    },
+    {
+      "id": "life-026",
+      "name": "Benjamin Vu",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        19,
+        27,
+        25,
+        24,
+        10,
+        23
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "education",
+        "science"
+      ],
+      "selectedField": "science",
+      "careers": [
+        {
+          "id": "geoscience",
+          "basis": "tasks",
+          "r": 0.4800816662617223
+        },
+        {
+          "id": "environmental-science",
+          "basis": "tasks",
+          "r": 0.3610366788210992
+        },
+        {
+          "id": "conservation",
+          "basis": "tasks",
+          "r": 0.13683017359286484
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "geoscience",
+        "preparation": "PG license for public geoscience services.",
+        "payStage": "entry",
+        "pay": 66203,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "41 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-027",
+      "name": "Cora McIntyre",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        18,
+        23,
+        25,
+        24,
+        12,
+        24
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "science",
+        "sales-office"
+      ],
+      "selectedField": "education",
+      "careers": [],
+      "taskLeads": [
+        "librarian",
+        "social-research"
+      ],
+      "plan": null,
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "42 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "open-career-choice",
+          "severity": "information",
+          "detail": "No career is forced. Work-led options, alternatives and the full chosen field remain available."
+        },
+        {
+          "kind": "optional-detail-changes-result",
+          "severity": "review",
+          "detail": "Adding authored optional work detail changes the displayed career set."
+        }
+      ],
+      "checks": 5,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-029",
+      "name": "Evelyn Duarte",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        21,
+        22,
+        22,
+        29,
+        21,
+        13
+      ],
+      "fields": [
+        "education"
+      ],
+      "workFields": [
+        "services",
+        "business",
+        "transportation-production"
+      ],
+      "selectedField": "business",
+      "careers": [
+        {
+          "id": "project-management",
+          "basis": "tasks",
+          "r": -0.39888057811542993
+        },
+        {
+          "id": "general-operations-manager",
+          "basis": "tasks",
+          "r": -0.3489176838422725
+        },
+        {
+          "id": "management-analyst",
+          "basis": "tasks",
+          "r": -0.5106060924929906
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "project-management",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 69552,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "34 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 98
+    },
+    {
+      "id": "life-030",
+      "name": "Theo Robinson",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        19,
+        23,
+        34,
+        22,
+        10,
+        16
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "science"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "animation",
+          "basis": "profile-and-tasks",
+          "r": 0.7634812956443133
+        },
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.47879539552528844
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "animation",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 61544,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "44 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-031",
+      "name": "Amina Farah",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        18,
+        20,
+        24,
+        25,
+        16,
+        20
+      ],
+      "fields": [],
+      "workFields": [
+        "sales-office",
+        "business",
+        "trades"
+      ],
+      "selectedField": "business",
+      "careers": [
+        {
+          "id": "law",
+          "basis": "tasks",
+          "r": -0.2901685142334019
+        },
+        {
+          "id": "paralegal",
+          "basis": "tasks",
+          "r": -0.2105742786612869
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "law",
+        "preparation": "Texas bar admission to practice law.",
+        "payStage": "entry",
+        "pay": 93726,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "45 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 99
+    },
+    {
+      "id": "life-032",
+      "name": "Diego Kim",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        25,
+        20,
+        24,
+        25,
+        10,
+        23
+      ],
+      "fields": [],
+      "workFields": [
+        "education",
+        "creative",
+        "trades"
+      ],
+      "selectedField": "building",
+      "careers": [
+        {
+          "id": "biomedical-engineering",
+          "basis": "tasks",
+          "r": 0.2747700846860536
+        },
+        {
+          "id": "mechanical-engineering",
+          "basis": "tasks",
+          "r": 0.25796248606506145
+        },
+        {
+          "id": "electrical-engineering",
+          "basis": "tasks",
+          "r": 0.19150437039626744
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "biomedical-engineering",
+        "preparation": "PE license for regulated engineering services.",
+        "payStage": "entry",
+        "pay": 65747,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "42 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-033",
+      "name": "Ruth Henderson",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        21,
+        29,
+        23,
+        18,
+        10,
+        24
+      ],
+      "fields": [
+        "science"
+      ],
+      "workFields": [
+        "education"
+      ],
+      "selectedField": "science",
+      "careers": [
+        {
+          "id": "chemistry",
+          "basis": "profile-and-tasks",
+          "r": 0.6841167276420613
+        },
+        {
+          "id": "food-science",
+          "basis": "profile-and-tasks",
+          "r": 0.6516111895240486
+        },
+        {
+          "id": "biological-technician",
+          "basis": "profile-and-tasks",
+          "r": 0.6330436931141966
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "chemistry",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 58370,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "43 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-034",
+      "name": "Alexei Petrov",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        12,
+        21,
+        28,
+        27,
+        17,
+        20
+      ],
+      "fields": [
+        "education"
+      ],
+      "workFields": [
+        "creative",
+        "business",
+        "sales-office"
+      ],
+      "selectedField": "technology",
+      "careers": [],
+      "taskLeads": [
+        "data-science",
+        "statistics",
+        "economics"
+      ],
+      "plan": null,
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "43 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "open-career-choice",
+          "severity": "information",
+          "detail": "No career is forced. Work-led options, alternatives and the full chosen field remain available."
+        },
+        {
+          "kind": "plausible-answer-sensitivity",
+          "severity": "review",
+          "detail": "At least one independently recorded plausible alternate response changes a pathway or displayed career set."
+        }
+      ],
+      "checks": 5,
+      "choiceScreens": 99
+    },
+    {
+      "id": "life-035",
+      "name": "Miles Pruett",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        22,
+        20,
+        21,
+        18,
+        10,
+        25
+      ],
+      "fields": [],
+      "workFields": [
+        "trades",
+        "education"
+      ],
+      "selectedField": "services",
+      "careers": [],
+      "taskLeads": [
+        "general-maintenance",
+        "janitor-cleaner",
+        "landscaping-worker"
+      ],
+      "plan": null,
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "48 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "open-career-choice",
+          "severity": "information",
+          "detail": "No career is forced. Work-led options, alternatives and the full chosen field remain available."
+        },
+        {
+          "kind": "optional-detail-changes-result",
+          "severity": "review",
+          "detail": "Adding authored optional work detail changes the displayed career set."
+        }
+      ],
+      "checks": 5,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-036",
+      "name": "Marisol Treviño",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        26,
+        20,
+        21,
+        24,
+        23,
+        21
+      ],
+      "fields": [
+        "services"
+      ],
+      "workFields": [
+        "trades",
+        "transportation-production",
+        "education"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "industrial-design",
+          "basis": "tasks",
+          "r": -0.20592401190338444
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "industrial-design",
+        "preparation": "Bachelor’s degree and a strong portfolio are typical.",
+        "payStage": "entry",
+        "pay": 67108,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "40 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        },
+        {
+          "kind": "plausible-answer-sensitivity",
+          "severity": "review",
+          "detail": "At least one independently recorded plausible alternate response changes a pathway or displayed career set."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 100
+    },
+    {
+      "id": "life-037",
+      "name": "Theo Whitcomb",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        12,
+        20,
+        30,
+        25,
+        10,
+        22
+      ],
+      "fields": [
+        "creative",
+        "education"
+      ],
+      "workFields": [
+        "sales-office"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.4908602575881857
+        },
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.3966515810989046
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "writing",
+        "preparation": "A bachelor’s degree is typical for many salaried roles.",
+        "payStage": "entry",
+        "pay": 53219,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "27 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-038",
+      "name": "Aisha Ellery",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        22,
+        23,
+        22,
+        27,
+        10,
+        25
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "science",
+        "trades"
+      ],
+      "selectedField": "technology",
+      "careers": [],
+      "taskLeads": [
+        "data-science",
+        "statistics",
+        "economics"
+      ],
+      "plan": null,
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "43 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "open-career-choice",
+          "severity": "information",
+          "detail": "No career is forced. Work-led options, alternatives and the full chosen field remain available."
+        },
+        {
+          "kind": "optional-detail-changes-result",
+          "severity": "review",
+          "detail": "Adding authored optional work detail changes the displayed career set."
+        }
+      ],
+      "checks": 5,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-040",
+      "name": "Priya Ramaswamy",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        18,
+        20,
+        29,
+        26,
+        10,
+        16
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "building"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "interpreting",
+          "basis": "tasks",
+          "r": 0.5030118347783282
+        },
+        {
+          "id": "industrial-design",
+          "basis": "tasks",
+          "r": 0.10894779270630645
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "interpreting",
+        "preparation": "Texas court interpreting has a licensed route.",
+        "payStage": "entry",
+        "pay": 41465,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "43 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-041",
+      "name": "Evan Markham",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        18,
+        26,
+        22,
+        20,
+        10,
+        21
+      ],
+      "fields": [],
+      "workFields": [
+        "science"
+      ],
+      "selectedField": "science",
+      "careers": [
+        {
+          "id": "geoscience",
+          "basis": "profile-and-tasks",
+          "r": 0.6373162521270407
+        },
+        {
+          "id": "environmental-science",
+          "basis": "tasks",
+          "r": 0.5262873497918951
+        },
+        {
+          "id": "conservation",
+          "basis": "tasks",
+          "r": 0.30579802172192644
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "geoscience",
+        "preparation": "PG license for public geoscience services.",
+        "payStage": "entry",
+        "pay": 66203,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "47 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-042",
+      "name": "Rhett Calder",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        18,
+        21,
+        31,
+        20,
+        10,
+        18
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.5520756121550852
+        },
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.4298716821858027
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "film-editing",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 41608,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "47 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 94
+    },
+    {
+      "id": "life-043",
+      "name": "Rojin Baran",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        12,
+        20,
+        24,
+        25,
+        13,
+        29
+      ],
+      "fields": [
+        "creative",
+        "education"
+      ],
+      "workFields": [
+        "transportation-production",
+        "building"
+      ],
+      "selectedField": "technology",
+      "careers": [],
+      "taskLeads": [
+        "statistics",
+        "data-science",
+        "economics"
+      ],
+      "plan": null,
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "43 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "open-career-choice",
+          "severity": "information",
+          "detail": "No career is forced. Work-led options, alternatives and the full chosen field remain available."
+        },
+        {
+          "kind": "optional-detail-changes-result",
+          "severity": "review",
+          "detail": "Adding authored optional work detail changes the displayed career set."
+        },
+        {
+          "kind": "plausible-answer-sensitivity",
+          "severity": "review",
+          "detail": "At least one independently recorded plausible alternate response changes a pathway or displayed career set."
+        }
+      ],
+      "checks": 5,
+      "choiceScreens": 98
+    },
+    {
+      "id": "life-044",
+      "name": "Bethany Kline",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        24,
+        23,
+        27,
+        24,
+        10,
+        20
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "education",
+        "science"
+      ],
+      "selectedField": "building",
+      "careers": [
+        {
+          "id": "civil-engineering",
+          "basis": "tasks",
+          "r": 0.11486076033550739
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "civil-engineering",
+        "preparation": "PE license for regulated engineering services.",
+        "payStage": "entry",
+        "pay": 70607,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "39 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "plausible-answer-sensitivity",
+          "severity": "review",
+          "detail": "At least one independently recorded plausible alternate response changes a pathway or displayed career set."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-045",
+      "name": "Caleb Hensley",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        17,
+        20,
+        30,
+        22,
+        12,
+        23
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "transportation-production"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.5864977866936504
+        },
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.46541777632137193
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "film-editing",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 41608,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "42 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-048",
+      "name": "Darius Bellamy",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        21,
+        20,
+        28,
+        26,
+        12,
+        13
+      ],
+      "fields": [],
+      "workFields": [
+        "education",
+        "creative",
+        "trades"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "animation",
+          "basis": "tasks",
+          "r": 0.5202987111576665
+        },
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.19906258357885898
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "animation",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 61544,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "46 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        },
+        {
+          "kind": "plausible-answer-sensitivity",
+          "severity": "review",
+          "detail": "At least one independently recorded plausible alternate response changes a pathway or displayed career set."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-050",
+      "name": "Tessa Redbird",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        28,
+        21,
+        24,
+        25,
+        10,
+        20
+      ],
+      "fields": [],
+      "workFields": [
+        "trades",
+        "science",
+        "education"
+      ],
+      "selectedField": "trades",
+      "careers": [
+        {
+          "id": "industrial-machinery-mechanic",
+          "basis": "tasks",
+          "r": 0.43802492094372225
+        },
+        {
+          "id": "automotive",
+          "basis": "tasks",
+          "r": 0.4129046243244885
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "industrial-machinery-mechanic",
+        "preparation": "High school or GED, then job training.",
+        "payStage": "entry",
+        "pay": 49111,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "39 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-051",
+      "name": "Samir Haddad",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        23,
+        20,
+        23,
+        22,
+        21,
+        20
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "services",
+        "trades"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "industrial-design",
+          "basis": "tasks",
+          "r": 0.35257927249555376
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "industrial-design",
+        "preparation": "Bachelor’s degree and a strong portfolio are typical.",
+        "payStage": "entry",
+        "pay": 67108,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "51 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-052",
+      "name": "Maya Fenwick",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        20,
+        24,
+        25,
+        20,
+        20
+      ],
+      "fields": [
+        "education"
+      ],
+      "workFields": [
+        "creative",
+        "services",
+        "sales-office"
+      ],
+      "selectedField": "education",
+      "careers": [
+        {
+          "id": "librarian",
+          "basis": "tasks",
+          "r": -0.06774187950435552
+        },
+        {
+          "id": "social-research",
+          "basis": "tasks",
+          "r": -0.4828162949876866
+        },
+        {
+          "id": "high-school-teacher",
+          "basis": "profile-and-tasks",
+          "r": 0.8216043345348946
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "librarian",
+        "preparation": "Library jobs differ from Texas school-library certification.",
+        "payStage": "entry",
+        "pay": 56904,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "52 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-054",
+      "name": "Harper Voss",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        20,
+        22,
+        29,
+        20,
+        20
+      ],
+      "fields": [
+        "education"
+      ],
+      "workFields": [
+        "creative",
+        "sales-office"
+      ],
+      "selectedField": "education",
+      "careers": [],
+      "taskLeads": [],
+      "plan": null,
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "51 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        },
+        {
+          "kind": "open-career-choice",
+          "severity": "information",
+          "detail": "No career is forced. Work-led options, alternatives and the full chosen field remain available."
+        }
+      ],
+      "checks": 5,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-055",
+      "name": "Elena Ward",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        20,
+        30,
+        22,
+        20,
+        21
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "film-editing",
+          "basis": "profile-and-tasks",
+          "r": 0.808244910987215
+        },
+        {
+          "id": "writing",
+          "basis": "profile-and-tasks",
+          "r": 0.7589436229745975
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "film-editing",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 41608,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "49 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 92
+    },
+    {
+      "id": "life-056",
+      "name": "Chinedu Okafor",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        26,
+        26,
+        24,
+        20,
+        20
+      ],
+      "fields": [],
+      "workFields": [
+        "education",
+        "creative",
+        "science"
+      ],
+      "selectedField": "science",
+      "careers": [
+        {
+          "id": "geoscience",
+          "basis": "tasks",
+          "r": 0.15882997153246073
+        },
+        {
+          "id": "environmental-science",
+          "basis": "tasks",
+          "r": 0.0772953092941916
+        },
+        {
+          "id": "conservation",
+          "basis": "tasks",
+          "r": -0.15805276865401327
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "geoscience",
+        "preparation": "PG license for public geoscience services.",
+        "payStage": "entry",
+        "pay": 66203,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "46 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 94
+    },
+    {
+      "id": "life-058",
+      "name": "Sofia Delaney",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        21,
+        28,
+        23,
+        20,
+        20
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "education",
+        "science"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "film-editing",
+          "basis": "profile-and-tasks",
+          "r": 0.6378869247101744
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "film-editing",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 41608,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "50 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 94
+    },
+    {
+      "id": "life-061",
+      "name": "Julian Reyes",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        21,
+        23,
+        25,
+        21,
+        20,
+        20
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "education",
+        "science"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.5606292720136407
+        },
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.4815018354925838
+        },
+        {
+          "id": "animation",
+          "basis": "profile-and-tasks",
+          "r": 0.7820135568639118
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "writing",
+        "preparation": "A bachelor’s degree is typical for many salaried roles.",
+        "payStage": "entry",
+        "pay": 53219,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "52 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 94
+    },
+    {
+      "id": "life-062",
+      "name": "Alex Nowak",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        21,
+        24,
+        25,
+        22,
+        20,
+        21
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "education",
+        "science"
+      ],
+      "selectedField": "science",
+      "careers": [
+        {
+          "id": "landscaping-worker",
+          "basis": "tasks",
+          "r": -0.3794392291393568
+        },
+        {
+          "id": "farmworker-crops",
+          "basis": "tasks",
+          "r": -0.4825612348805489
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "landscaping-worker",
+        "preparation": "Learn on the job. A degree is optional.",
+        "payStage": "entry",
+        "pay": 33360,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "51 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 94
+    },
+    {
+      "id": "life-063",
+      "name": "Hodan Farah",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        24,
+        20,
+        22,
+        24,
+        20,
+        22
+      ],
+      "fields": [
+        "education"
+      ],
+      "workFields": [
+        "trades",
+        "science",
+        "creative"
+      ],
+      "selectedField": "education",
+      "careers": [
+        {
+          "id": "high-school-teacher",
+          "basis": "tasks",
+          "r": 0.5131887206395179
+        },
+        {
+          "id": "teaching",
+          "basis": "tasks",
+          "r": 0.49515690666820383
+        }
+      ],
+      "taskLeads": [
+        "elementary-teacher"
+      ],
+      "plan": {
+        "career": "high-school-teacher",
+        "preparation": "Four-year college degree",
+        "payStage": "entry",
+        "pay": 58069,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "48 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-064",
+      "name": "Nico Serrano",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        20,
+        29,
+        23,
+        20,
+        20
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "education",
+        "technology"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "film-editing",
+          "basis": "profile-and-tasks",
+          "r": 0.7043940831526243
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "film-editing",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 41608,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "51 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 94
+    },
+    {
+      "id": "life-067",
+      "name": "Greta Halvorsen",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        20,
+        20,
+        22,
+        14,
+        27
+      ],
+      "fields": [],
+      "workFields": [
+        "sales-office",
+        "services",
+        "transportation-production"
+      ],
+      "selectedField": "sales-office",
+      "careers": [
+        {
+          "id": "office-clerk",
+          "basis": "tasks",
+          "r": 0.6064615361832869
+        },
+        {
+          "id": "administrative-assistant",
+          "basis": "tasks",
+          "r": 0.4554568833770433
+        },
+        {
+          "id": "receptionist",
+          "basis": "tasks",
+          "r": 0.3990623654688435
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "office-clerk",
+        "preparation": "High school or GED, then job training.",
+        "payStage": "entry",
+        "pay": 30460,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "51 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-068",
+      "name": "Marisol Vela",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        23,
+        22,
+        30,
+        22,
+        20,
+        27
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "education",
+        "sales-office",
+        "transportation-production"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "film-editing",
+          "basis": "profile-and-tasks",
+          "r": 0.8499738518480056
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "film-editing",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 41608,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "40 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 98
+    },
+    {
+      "id": "life-069",
+      "name": "Evan Rourke",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        25,
+        20,
+        28,
+        21,
+        20,
+        19
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "trades",
+        "building",
+        "technology"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "film-editing",
+          "basis": "profile-and-tasks",
+          "r": 0.6879715434544884
+        },
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.31127612246006536
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "film-editing",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 41608,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "48 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-070",
+      "name": "Tessa Bellamy",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        28,
+        20,
+        25,
+        21,
+        20,
+        20
+      ],
+      "fields": [
+        "creative",
+        "trades"
+      ],
+      "workFields": [
+        "building"
+      ],
+      "selectedField": "trades",
+      "careers": [
+        {
+          "id": "carpentry",
+          "basis": "profile-and-tasks",
+          "r": 0.7559225581676355
+        },
+        {
+          "id": "welder",
+          "basis": "profile-and-tasks",
+          "r": 0.6554924653341657
+        },
+        {
+          "id": "construction-laborer",
+          "basis": "profile-and-tasks",
+          "r": 0.6325215989575077
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "carpentry",
+        "preparation": "High school preparation and on-the-job learning.",
+        "payStage": "entry",
+        "pay": 42813,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "49 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "plausible-answer-sensitivity",
+          "severity": "review",
+          "detail": "At least one independently recorded plausible alternate response changes a pathway or displayed career set."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-071",
+      "name": "Julian Adebayo",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        21,
+        22,
+        27,
+        23,
+        26,
+        13
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "education",
+        "business"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.508107640319235
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "writing",
+        "preparation": "A bachelor’s degree is typical for many salaried roles.",
+        "payStage": "entry",
+        "pay": 53219,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "46 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-073",
+      "name": "Nico Serrano",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        22,
+        20,
+        26,
+        26,
+        22,
+        20
+      ],
+      "fields": [
+        "education"
+      ],
+      "workFields": [
+        "creative",
+        "business",
+        "trades"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "industrial-design",
+          "basis": "tasks",
+          "r": -0.06056369187920538
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "industrial-design",
+        "preparation": "Bachelor’s degree and a strong portfolio are typical.",
+        "payStage": "entry",
+        "pay": 67108,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "46 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-075",
+      "name": "Caleb Nguyen",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        22,
+        29,
+        21,
+        20,
+        25
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "technology",
+        "sales-office",
+        "science"
+      ],
+      "selectedField": "technology",
+      "careers": [
+        {
+          "id": "data-science",
+          "basis": "tasks",
+          "r": 0.20065492643983734
+        },
+        {
+          "id": "statistics",
+          "basis": "tasks",
+          "r": 0.101295756357768
+        },
+        {
+          "id": "systems-analysis",
+          "basis": "tasks",
+          "r": 0.01798691000142969
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "data-science",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 77556,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "46 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-077",
+      "name": "Owen Patel",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        29,
+        20,
+        29,
+        22,
+        20,
+        24
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "trades",
+        "building",
+        "technology"
+      ],
+      "selectedField": "building",
+      "careers": [
+        {
+          "id": "mechanical-engineering",
+          "basis": "tasks",
+          "r": 0.2561770011110741
+        },
+        {
+          "id": "electrical-engineering",
+          "basis": "tasks",
+          "r": 0.14915214617009126
+        },
+        {
+          "id": "biomedical-engineering",
+          "basis": "tasks",
+          "r": -0.0360837478884016
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "mechanical-engineering",
+        "preparation": "PE license for regulated engineering services.",
+        "payStage": "entry",
+        "pay": 77505,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "41 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-078",
+      "name": "Hana Qureshi",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        26,
+        24,
+        19,
+        24,
+        20,
+        34
+      ],
+      "fields": [
+        "sales-office",
+        "business",
+        "services"
+      ],
+      "workFields": [
+        "trades",
+        "science",
+        "education"
+      ],
+      "selectedField": "business",
+      "careers": [
+        {
+          "id": "bookkeeping-clerk",
+          "basis": "profile-and-tasks",
+          "r": 0.8248238333947804
+        },
+        {
+          "id": "accounting",
+          "basis": "profile-and-tasks",
+          "r": 0.7029814846709335
+        },
+        {
+          "id": "industrial-engineering",
+          "basis": "profile-and-tasks",
+          "r": 0.6594148249981018
+        }
+      ],
+      "taskLeads": [
+        "logistics",
+        "financial-analysis",
+        "project-management"
+      ],
+      "plan": {
+        "career": "bookkeeping-clerk",
+        "preparation": "College coursework or targeted training.",
+        "payStage": "entry",
+        "pay": 38692,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "39 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 101
+    },
+    {
+      "id": "life-080",
+      "name": "Imani Dorsey",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        26,
+        21,
+        21,
+        24,
+        21,
+        27
+      ],
+      "fields": [
+        "transportation-production",
+        "trades",
+        "sales-office"
+      ],
+      "workFields": [
+        "building",
+        "education"
+      ],
+      "selectedField": "building",
+      "careers": [
+        {
+          "id": "civil-engineering",
+          "basis": "tasks",
+          "r": 0.459232532167072
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "civil-engineering",
+        "preparation": "PE license for regulated engineering services.",
+        "payStage": "entry",
+        "pay": 70607,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "43 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 100
+    },
+    {
+      "id": "life-081",
+      "name": "Sofia Mendel",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        25,
+        20,
+        27,
+        26,
+        20,
+        21
+      ],
+      "fields": [],
+      "workFields": [
+        "education",
+        "creative",
+        "trades"
+      ],
+      "selectedField": "building",
+      "careers": [
+        {
+          "id": "mechanical-engineering",
+          "basis": "tasks",
+          "r": -0.296234013378968
+        },
+        {
+          "id": "electrical-engineering",
+          "basis": "tasks",
+          "r": -0.35895896345338857
+        },
+        {
+          "id": "biomedical-engineering",
+          "basis": "tasks",
+          "r": -0.3700317787714804
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "mechanical-engineering",
+        "preparation": "PE license for regulated engineering services.",
+        "payStage": "entry",
+        "pay": 77505,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "43 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        },
+        {
+          "kind": "plausible-answer-sensitivity",
+          "severity": "review",
+          "detail": "At least one independently recorded plausible alternate response changes a pathway or displayed career set."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 98
+    },
+    {
+      "id": "life-082",
+      "name": "Malik Harbin",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        21,
+        29,
+        21,
+        23,
+        20
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "services",
+        "trades"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "graphic-design",
+          "basis": "profile-and-tasks",
+          "r": 0.8709202082584326
+        },
+        {
+          "id": "film-editing",
+          "basis": "profile-and-tasks",
+          "r": 0.7746656514299963
+        },
+        {
+          "id": "photographer",
+          "basis": "tasks",
+          "r": 0.3776686436330182
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "graphic-design",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 46122,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "50 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-083",
+      "name": "Mateo Rivas",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        26,
+        20,
+        27,
+        22,
+        21,
+        23
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "services",
+        "trades",
+        "building"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "film-editing",
+          "basis": "profile-and-tasks",
+          "r": 0.776289859154229
+        },
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.1486994857315459
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "film-editing",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 41608,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "44 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-084",
+      "name": "Peyton Mercer",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        22,
+        23,
+        27,
+        20,
+        24
+      ],
+      "fields": [
+        "education"
+      ],
+      "workFields": [
+        "creative",
+        "technology",
+        "science"
+      ],
+      "selectedField": "technology",
+      "careers": [
+        {
+          "id": "statistics",
+          "basis": "tasks",
+          "r": 0.03565918742180586
+        },
+        {
+          "id": "data-science",
+          "basis": "tasks",
+          "r": 0.008446317421386363
+        },
+        {
+          "id": "economics",
+          "basis": "tasks",
+          "r": -0.05573977238354012
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "statistics",
+        "preparation": "Master’s degree is typical.",
+        "payStage": "entry",
+        "pay": 63444,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "48 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-085",
+      "name": "Diego Alvarenga",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        25,
+        21,
+        28,
+        24,
+        20,
+        20
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "trades",
+        "science",
+        "technology"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.5441891872133287
+        },
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.24284621997484987
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "film-editing",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 41608,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "45 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 95
+    },
+    {
+      "id": "life-086",
+      "name": "Anya Volkov",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        22,
+        28,
+        21,
+        16,
+        25
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "business"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "film-editing",
+          "basis": "profile-and-tasks",
+          "r": 0.6425075502210793
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "film-editing",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 41608,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "46 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 94
+    },
+    {
+      "id": "life-087",
+      "name": "Jules Benton",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        27,
+        22,
+        27,
+        24,
+        20,
+        22
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "trades",
+        "science",
+        "education"
+      ],
+      "selectedField": "building",
+      "careers": [
+        {
+          "id": "mechanical-engineering",
+          "basis": "tasks",
+          "r": 0.15218791628740855
+        },
+        {
+          "id": "electrical-engineering",
+          "basis": "tasks",
+          "r": 0.08656071699625875
+        },
+        {
+          "id": "biomedical-engineering",
+          "basis": "tasks",
+          "r": 0.017924087137261988
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "mechanical-engineering",
+        "preparation": "PE license for regulated engineering services.",
+        "payStage": "entry",
+        "pay": 77505,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "42 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 97
+    },
+    {
+      "id": "life-088",
+      "name": "Deshawn Ellis",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        25,
+        20,
+        24,
+        24,
+        24,
+        17
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "education",
+        "trades"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "industrial-design",
+          "basis": "tasks",
+          "r": 0.14402963825940374
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "industrial-design",
+        "preparation": "Bachelor’s degree and a strong portfolio are typical.",
+        "payStage": "entry",
+        "pay": 67108,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "44 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 98
+    },
+    {
+      "id": "life-089",
+      "name": "Ada Walkingstick",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        27,
+        21,
+        26,
+        24,
+        21,
+        22
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "trades",
+        "transportation-production",
+        "science"
+      ],
+      "selectedField": "building",
+      "careers": [
+        {
+          "id": "civil-engineering",
+          "basis": "tasks",
+          "r": 0.10006870604806924
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "civil-engineering",
+        "preparation": "PE license for regulated engineering services.",
+        "payStage": "entry",
+        "pay": 70607,
+        "lifestyle": "This pay just covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "42 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 98
+    },
+    {
+      "id": "life-090",
+      "name": "Lena McCauley",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        21,
+        22,
+        23,
+        27,
+        24,
+        15
+      ],
+      "fields": [],
+      "workFields": [
+        "education",
+        "creative",
+        "business"
+      ],
+      "selectedField": "education",
+      "careers": [
+        {
+          "id": "librarian",
+          "basis": "tasks",
+          "r": -0.569922502546035
+        },
+        {
+          "id": "social-research",
+          "basis": "tasks",
+          "r": -0.624996873009814
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "librarian",
+        "preparation": "Library jobs differ from Texas school-library certification.",
+        "payStage": "entry",
+        "pay": 56904,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "45 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    },
+    {
+      "id": "life-094",
+      "name": "Sadie Pruitt",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        27,
+        20,
+        28,
+        22,
+        20,
+        26
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "trades",
+        "transportation-production",
+        "building"
+      ],
+      "selectedField": "trades",
+      "careers": [
+        {
+          "id": "electrician",
+          "basis": "tasks",
+          "r": 0.41274180892345486
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "electrician",
+        "preparation": "Texas electrician license for non-exempt work.",
+        "payStage": "apprenticeship",
+        "pay": 43825,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "41 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 98
+    },
+    {
+      "id": "life-096",
+      "name": "Claire Okafor",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        21,
+        29,
+        28,
+        21,
+        20,
+        22
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "science",
+        "services"
+      ],
+      "selectedField": "science",
+      "careers": [
+        {
+          "id": "food-science",
+          "basis": "tasks",
+          "r": 0.32221581861895177
+        },
+        {
+          "id": "chemistry",
+          "basis": "tasks",
+          "r": 0.289364930826372
+        },
+        {
+          "id": "biological-technician",
+          "basis": "tasks",
+          "r": 0.06707407806808507
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "food-science",
+        "preparation": "Bachelor’s degree is typical.",
+        "payStage": "entry",
+        "pay": 75257,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "43 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 94
+    },
+    {
+      "id": "life-098",
+      "name": "Avery Farzan",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        20,
+        23,
+        31,
+        25,
+        20,
+        13
+      ],
+      "fields": [],
+      "workFields": [
+        "creative",
+        "education"
+      ],
+      "selectedField": "creative",
+      "careers": [
+        {
+          "id": "writing",
+          "basis": "tasks",
+          "r": 0.5295971624244411
+        },
+        {
+          "id": "film-editing",
+          "basis": "tasks",
+          "r": 0.29517856042301044
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "writing",
+        "preparation": "A bachelor’s degree is typical for many salaried roles.",
+        "payStage": "entry",
+        "pay": 53219,
+        "lifestyle": "This pay does not cover your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "43 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "shared-tasks",
+          "severity": "review",
+          "detail": "Several careers share the endorsed tasks. No unique best job is established."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 94
+    },
+    {
+      "id": "life-100",
+      "name": "Micah Baptiste",
+      "phase": "development",
+      "sourceId": null,
+      "scores": [
+        23,
+        21,
+        28,
+        24,
+        23,
+        24
+      ],
+      "fields": [
+        "creative"
+      ],
+      "workFields": [
+        "education",
+        "sales-office",
+        "business"
+      ],
+      "selectedField": "business",
+      "careers": [
+        {
+          "id": "law",
+          "basis": "tasks",
+          "r": -0.3550442653446713
+        },
+        {
+          "id": "paralegal",
+          "basis": "tasks",
+          "r": -0.4916671001921372
+        }
+      ],
+      "taskLeads": [],
+      "plan": {
+        "career": "law",
+        "preparation": "Texas bar admission to practice law.",
+        "payStage": "entry",
+        "pay": 93726,
+        "lifestyle": "This pay covers your lifestyle."
+      },
+      "flags": [
+        {
+          "kind": "inference-uncertainty",
+          "severity": "review",
+          "detail": "39 official answers have low-confidence narrative inference. Clear-looking results need caution."
+        },
+        {
+          "kind": "interest-task-contrast",
+          "severity": "review",
+          "detail": "Repeated task choices and the six-part occupational interest pattern point in different directions. The contrast must stay visible."
+        }
+      ],
+      "checks": 6,
+      "choiceScreens": 96
+    }
+  ],
+  "coverage": {
+    "count": 70,
+    "checks": 413,
+    "sixScorePatterns": 70,
+    "branches": [
+      "creative",
+      "technology",
+      "trades",
+      "building",
+      "education",
+      "science",
+      "business",
+      "services",
+      "sales-office"
+    ],
+    "flagCounts": {
+      "inference-uncertainty": 70,
+      "shared-tasks": 39,
+      "plausible-answer-sensitivity": 8,
+      "open-career-choice": 7,
+      "interest-task-contrast": 14,
+      "optional-detail-changes-result": 4
+    }
+  }
+}

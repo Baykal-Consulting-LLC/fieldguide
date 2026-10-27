@@ -1,0 +1,17 @@
+{
+  "name": "fieldguide-approach-3",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4183 --bind 127.0.0.1 --directory dist",
+    "build": "python3 scripts/shared-foundation.py run -- node scripts/build.mjs",
+    "test": "python3 scripts/shared-foundation.py run -- node --test tests/*.test.mjs",
+    "shared:check": "python3 scripts/shared-foundation.py check",
+    "resources:verify": "python3 scripts/verify-resources.py",
+    "postinstall": "python3 scripts/shared-foundation.py restore"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

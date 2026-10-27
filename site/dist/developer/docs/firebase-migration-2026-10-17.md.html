@@ -1,0 +1,72 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Firebase Spark migration · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Firebase Spark migration</h1><p>Retained development record. It may describe an earlier release.</p><a href="./firebase-migration-2026-10-17.md" download>Download original Markdown</a><pre class="document"># Firebase Spark migration
+
+Release: 0.30.0. Google sign-in and private Firestore saves replace the earlier Neon backend. The personal Firebase project is active and the migrated records were verified before publication. Real Google sign-in, an account save, and restoration on a fresh live page were verified, with the original account UID preserved. The specifically approved Neon project was deleted and its absence from active projects confirmed on October 17, 2026.
+
+The owner approved moving Fieldguide to Firebase Spark with Google sign-in, no linked billing account, preserving saved results, testing the migration, and then deleting only the Neon project created for this app.
+
+## Intended architecture
+
+- Keep the current static Sites hosting and all questionnaire/matching behavior.
+- Use Google sign-in through Firebase Authentication.
+- Save private guides directly in Firestore under the authenticated user's UID.
+- No Cloud Functions, Cloud Run, SQL Connect, paid extensions, or billing account.
+- Keep browser-only drafts separate; signing into a new account requires an explicit choice to import a draft.
+- Preserve answers, notes, completed actions, lifestyle, education and money worksheets, and archived guides.
+- Import legacy account UIDs without passwords or sessions, so Google login can reconnect to the original record and browser caches.
+- Store JSON in bounded chunks to preserve long histories without Firestore's document-size or nesting limits.
+- Save chunks and metadata in one transaction, with optimistic revisions to reject stale saves.
+- Bind each request to the UI's expected UID; an account changed in another tab cannot receive another student's pending guide.
+
+## Resources
+
+- Firebase/GCP project: `fieldguide-personal-d3b71` (Fieldguide), outside any organization.
+- Retired Neon project: `autumn-moon-38916970`.
+- Sites project: `appgprj_6ad2290682f48191aa3af4294c080f91`.
+
+The owner chose to keep Fieldguide separate from the company Google organization. The personal project was independently verified with no organization/folder parent, `billingEnabled: false`, and an empty billing-account name. First-use terms were accepted by the owner. Only Google sign-in and the default Standard-edition Firestore database are used by the app. No Analytics SDK or AI service is loaded. The unused company setup is not the app backend.
+
+## Preservation and cutover procedure
+
+1. Export identities and saved guides to private, ignored local files under `.cache/migration/`, with restrictive permissions. Never include these files in `dist/`, source commits, developer archives, or public reports.
+2. Activate Firebase, configure Google sign-in and authorized website domain, deploy owner-only Firestore rules, and verify no billing account is linked.
+3. Temporarily stop writes to the old guide table before taking the final export. Keep browser drafts and pending edits intact.
+4. Import identities with the same UID and verified-email status. Never copy password hashes, sessions, OTPs, or signing secrets.
+5. Import every guide with its original revision. Re-read every Firebase record and compare every field with the Neon snapshot, including archived guides. Record SHA-256 checksums in the private verification report.
+6. Test Google sign-in, load, save, reload, sign-out, account isolation, conflict handling, and preservation of guest drafts.
+7. Publish the Firebase version. Recheck the live site and the no-billing invariant.
+8. Remove the specifically approved Neon project only after the checks pass. Retain the private migration snapshot.
+
+## Verification
+
+- Full application suite after replacing the legacy controller and consolidating duplicate tests: **390 passed**. No matching-engine or financial-model behavior changed.
+- Firestore Emulator Suite: owner can save/reload a multi-document guide; other users and anonymous visitors cannot read, write, or delete roots or chunks; malformed/stale/oversized writes rejected; shrinking and deletion remove old chunks.
+- Authentication + Firestore emulators: imported identity → mock Google sign-in reuses UID → original notes and archived guides load → changes save/reload → sign-out blocks access → a different Google account cannot save the previous student's pending data.
+- Full-field JSON round trips, Unicode at chunk boundaries, oversized saves, incomplete/mixed revisions, and optimistic conflicts tested.
+- Dependency audit after resolving a transitive gRPC vulnerability: no known vulnerabilities reported.
+
+Production import: **3 account identities and 1 saved guide**. Every saved field and original revision was compared with the private Neon snapshot after re-reading Firestore. The one server-side guide is fictional QA data. Browser-only drafts remain on their devices. Real Google sign-in: verified in the live app. The original imported account UID was preserved and the account reached the explicit save-choice screen. No anonymous browser draft was uploaded by the agent. Browser save/load, conflicts, histories, sign-out, and isolation were tested through the controller and official emulators; production migration records were re-read and compared field by field. After the user saved their guide, a fresh live page restored the Google session and displayed “Saved to your account.” The owner record was independently confirmed in Firestore. The agent did not choose to import or replace the browser draft.
+
+## Repeating tests
+
+```sh
+npm test
+npm run build:account
+firebase emulators:exec --project demo-fieldguide --only firestore 'node tests/firebase-rules.mjs'
+firebase emulators:exec --project demo-fieldguide --only auth,firestore 'node tests/firebase-google-migration.mjs'
+```
+
+The emulator requires Java 21. This workspace has a locally downloaded, checksum-verified Eclipse Temurin JDK under ignored `.cache/tools/`; it is not deployed.
+
+The migration script `scripts/migrate-neon-to-firebase.mjs` refuses a different project or linked billing, refuses identity/data collisions, and verifies exact record contents before reporting success. It uses the owner's local Firebase CLI authorization and never prints or stores access tokens in project files.
+
+## Final operational state
+
+- Published site: https://fieldguide-college-exploration.mooroobee.chatgpt.site/
+- Firebase Spark: personal Google account; no organization/folder parent; no billing account linked.
+- Google sign-in: enabled; the website domain is authorized.
+- Firestore: default Native-mode Standard-edition database in `nam5`; point-in-time recovery disabled.
+- Neon project `autumn-moon-38916970`: deleted after copy, integrity, isolation, and real Google sign-in checks; confirmed absent from active projects. Other Neon projects were not changed.
+- Private local snapshots and verification checksums remain under ignored `.cache/migration/` with restrictive permissions.
+- The unused company-owned setup `fieldguide-college-a7d92` (project number `780632646101`) was shut down on October 17, 2026, after the owner completed work-account verification and explicitly authorized its removal. Google Asset Inventory showed only the project itself, with no deployed resources; Billing confirmed no linked account. Google confirmed it is pending deletion after November 16, 2026, with its normal 30-day recovery window. The personal Firebase project, saved guides, and other company projects were not changed.
+- Firebase CLI authorization is connected to the personal account. Never print raw account-list JSON: the CLI can include credentials. Credentials are not included in the site, repository, or developer archive.
+</pre></main></html>

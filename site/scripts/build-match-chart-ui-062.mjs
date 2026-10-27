@@ -1,0 +1,4 @@
+import fs from'node:fs';import path from'node:path';import{createHash}from'node:crypto';import{build}from'esbuild';
+fs.copyFileSync('analytics/performance/src/content/shared/system-match-metrics.js','dist/system-match-metrics.js');
+await build({entryPoints:['dist/model-match-chart-controller.js'],outfile:'dist/developer/model-match-chart-app.js',bundle:true,minify:true,format:'esm',platform:'browser',target:'es2022',plugins:[{name:'account',setup(b){b.onResolve({filter:/firebase-client\.js/},()=>({path:'../firebase-client.js?v=0.47.0',external:true}));b.onResolve({filter:/^\.\/.*\?v=/},a=>({path:path.resolve(a.resolveDir,a.path.split('?')[0])}));}}],legalComments:'eof'});
+const p='dist/developer/model-match-chart.html',hash=createHash('sha256').update(fs.readFileSync('dist/developer/model-match-chart-app.js')).digest('hex').slice(0,12);fs.writeFileSync(p,fs.readFileSync(p,'utf8').replace(/model-match-chart-app\.js\?v=[^"]+/,`model-match-chart-app.js?v=${hash}`));

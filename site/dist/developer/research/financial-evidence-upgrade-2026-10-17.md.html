@@ -1,0 +1,161 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Financial evidence upgrade — implementation brief · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Financial evidence upgrade — implementation brief</h1><p>Retained development record. It may describe an earlier release.</p><a href="./financial-evidence-upgrade-2026-10-17.md" download>Download original Markdown</a><pre class="document"># Financial evidence upgrade — implementation brief
+
+Reviewed 17 October 2026. Scope: all 117 salary IDs in the current application. This is a research deliverable; no production code, credentials, or accounts were changed.
+
+## What to implement now
+
+1. Keep a complete, populated route and money view for every occupation. Distinguish a published price from a calculated route budget in the data, rather than presenting students with missing-data messages.
+2. Use the existing exact-occupation Austin/Texas wage records and official TWC entry/experienced wages. Replace broad family-ratio dependence with occupation-level wage envelopes and explicit preparation stages. Do not pretend cross-sectional wages establish salaries at exact years.
+3. Add the published local schedules below for police and clinical residency, retaining teacher schedules. Display paid training separately from the first qualified job.
+4. Connect route costs, grants, borrowing and monthly debt payments to the lifestyle calculation. A fully funded PhD, paid apprenticeship, employer-paid academy, certificate, associate degree, bachelor's degree and professional degree must not share one generic tuition multiplier.
+5. For variable-hours and independent work, calculate an ordinary-work scenario with paid hours, operating costs and appropriate payroll taxes. Do not run gross business receipts through the employee salary calculator.
+
+## Current implementation findings
+
+`salary-progression.js` supplies 117 IDs: creative 9, technical 13, science 8, professional 22, healthcare 20, public service 7, support 28, trade 10. Except teaching, later stages use eight editorial family curves, not representative occupation-by-experience data. All amounts are non-decreasing in the current runtime; that verifies arithmetic, not the assumed growth.
+
+The physician's later amounts are $257,808.60, $264,160 and $264,160, rounded to $260K at all three stages under the requested rounding rule. The local upper quartile of $264,160 is close to the $263,070 median, creating the ceiling. **Do not force an upward slope just to make the chart look better.** Stable purchasing-power pay in an occupation is plausible; earned training progress and changes of role are separate.
+
+SOC fallback classification also needs explicit review: preschool teaching currently inherits the generic professional curve. Classification by the first two SOC digits is too coarse for deciding experience growth.
+
+`common-cost-data.js` has useful named examples, but several headline amounts are application fees or annual tuition rather than a full route. `education-cost-evidence.js` already contains professional program year rows. Reuse those rows in a whole-route estimate; avoid discarding the existing research.
+
+## Verified local schedule additions
+
+### Austin Police — same-rank base pay, no overtime
+
+The [City recruiting pay page](https://www.austintexas.gov/police-recruiting/pay-benefits) gives academy pay $67,000 annually; graduation $78,627; first anniversary $92,647; second $106,344; sixth $113,788; tenth $121,754; fourteenth $130,276; sixteenth $139,396; top step at 23 years $143,578. These are one employer's base rates, excluding overtime and incentive pay.
+
+Implementation: paid academy is separate. Qualified stages can use graduation $78,627; five years $106,344 (last published attained step); ten years $121,754; twenty years $139,396 (last published attained step). Record `method: published_employer_step_schedule`, `selection: latest_published_step_at_or_before_year`. Never interpolate an unpublished raise. Keep academy duration separate; the [recruiting careers page](https://www.austintexas.gov/police-recruiting/careers) describes an approximately eight-month academy plus field training.
+
+The pay page also documents education incentives: associate/60 credits $1,200 a year, bachelor's $2,640, master's $3,600. This is a concrete college benefit; do not add it automatically to every officer's base salary.
+
+### Austin Fire — paid academy and qualified entry
+
+[Austin Fire's official employment page](https://www.austintexas.gov/fire/fire-cadet-employment) lists cadet pay $22.55/hour, annualized to $46,904, and $66,019 after successful completion of an approximately six-month academy. Add these as two distinct preparation/entry stages. No later experience schedule was verified in this review; retain occupation-based modeled later scenarios rather than inventing steps.
+
+### Dell Medical School — residency, not attending pay
+
+The [official salary/benefits page](https://dellmed.utexas.edu/education/academics/graduate-medical-education/resources/salary-and-benefits), updated 16 September 2026, lists 2026–27 PGY-1 $69,528; PGY-2 $71,747; PGY-3 $74,652. Family medicine commonly uses three residency years. Store all three on the training timeline, rather than showing PGY-1 as the whole residency. Published 2027–28 PGY-1/2/3 amounts are $70,919/$73,182/$76,145; do not mix academic years in one route example.
+
+### Austin Electrical Training Alliance
+
+The [program page](https://austineta.org/apprentice-program-2/) now explicitly dates its wage table to 5 January 2026 under the 2025–28 inside agreement. It lists first and second periods $21.07/hour, then $22.98, $24.90, $26.81, $28.73 and qualified journeyman $38.30. At 2,080 hours, the page reports $43,825 first period and $79,664 journeyman. Treat these as one program's example, not all Austin electricians. Four years/8,000 hours describes the program; period changes depend on progression, so do not falsely map six periods to six exact years. Application $35; tuition is announced before classes. Its owner/foreman career illustration must not be assumed in ordinary employee earnings.
+
+## A defensible completed pay model across all occupations
+
+### Evidence hierarchy
+
+- Exact Austin occupation and current employer experience schedule when available.
+- Exact Austin TWC entry, median and experienced wages, with O*NET/BLS distribution as a plausibility cross-check.
+- Exact Dallas or Houston occupation fallback, retaining Austin lifestyle costs and source geography in details.
+- Broader matched occupational wages only when the scope is explicitly identified in developer evidence.
+- Independent-business scenario for titles such as tattoo artist where employee wage coverage is poor. No invented employee median.
+
+[TWC defines entry](https://texaswages.com/Home/About) as the mean of the lowest-paid third and experienced as the mean of the upper-paid two-thirds. These are valid published planning anchors; neither is measured first-job or specific-year pay. Existing archived `twc-2025-msa-experience.json` is available locally and should be integrated, instead of retaining unused data while generating generic later amounts.
+
+For remaining 5/10/20 displays, use a consistent, documented **planning scenario** fitted to that occupation's entry-to-experienced spread; keep its source facts and progression assumptions as separate fields. Sensitivity should operate on actual local low/median/high wage anchors and paid hours. This is a substantive improvement over family multipliers, but still does not empirically validate exact-year forecasts. It must never be reported as such.
+
+Suggested data shape:
+
+```js
+{
+  careerId, soc, wageSoc, geography, sourceYear,
+  employee: {entryProxy, median, experiencedProxy, p25, p75},
+  schedule: {employer, effectiveDate, trainingSteps, qualifiedSteps} || null,
+  workBasis: 'annual_contract' | 'hourly' | 'annual_employee' | 'independent_profit',
+  paidHoursPerWeek, paidWeeksPerYear,
+  preparation: {stages, firstQualifiedRoleAfterYears},
+  scenarioAssumptions: {progression, wageAdjustment, hoursAdjustment},
+  sources: [{url, checkedAt, field, method}]
+}
+```
+
+[BLS wage guidance](https://www.bls.gov/oes/earnings.htm) supports comparing lower percentiles with newer workers and higher percentiles with more experienced/educated workers, but lists geography, industry and work conditions as other drivers. Its figures should not be silently relabeled as 5-, 10- or 20-year observations. The [OEWS FAQ](https://www.bls.gov/oes/oes_ques.htm) also excludes self-employed workers and explains annualization and wage definitions.
+
+## Variable hours and independent work
+
+Current `variableHours` covers 11 IDs, but selecting a career still routes a full-time annual number into a monthly employee cash flow. Add a complete work-basis adjustment for retail, cashier, food counter, server, restaurant cook, delivery, personal care, childcare, hairdresser, farmworker and photography. Review commission sales, writing, film editing, tattooing, landscaping and construction for additional optional independent scenarios.
+
+For hourly work, calculate `annualGross = hourlyRate * paidHoursPerWeek * paidWeeksPerYear`. Preserve the source hourly wage where available; deriving annual/2080 is an annualization reference, not observed weekly hours. Offer a 30-hour versus 40-hour comparison as a **user scenario**, not as an asserted occupational average. The [BLS server profile](https://www.bls.gov/ooh/food-preparation-and-serving/waiters-and-waitresses.htm) specifically says part-time work is common and schedules vary. Reported wage estimates may include tips; never add a second automatic tip percentage.
+
+For independent work: collected receipts − studio/platform share − rent − supplies − professional insurance − equipment/software − other business expenses = operating profit. Then calculate personal taxes/benefits from profit. Retain paid versus unpaid hours and paid weeks separately. A default 10% or 20% expense assumption is not researched evidence and must not become a claimed industry expense ratio.
+
+The [IRS self-employment tax guidance](https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes) confirms the combined 15.3% Social Security/Medicare rate, employer-equivalent deduction and additional Medicare threshold for single filers above $200,000. For code use Schedule SE's net-earnings basis and the correct annual Social Security cap; the explanatory IRS page's example cap is older. Do not use employee 7.65% payroll taxes for independent profit. Employer benefits and paid leave should not be silently assumed.
+
+### Implementation formula: single adult, sole proprietor, no other wages
+
+[IRS Topic 554](https://www.irs.gov/taxtopics/tc554) supports the 92.35% net-earnings basis and half ordinary-SE-tax adjustment. [SSA's 2026 announcement](https://www.ssa.gov/news/en/press/releases/2025-10-24.html) sets the Social Security taxable maximum at $184,500. Use:
+
+```js
+const netSE = Math.max(0, profit) * 0.9235;
+const ordinarySE = netSE &gt;= 400
+  ? 0.124 * Math.min(netSE, 184500) + 0.029 * netSE
+  : 0;
+const additionalMedicare = 0.009 * Math.max(0, netSE - 200000);
+const taxableIncome = Math.max(0,
+  profit - ordinarySE / 2 - deductibleRetirement - 16100);
+const monthly = (profit - ordinarySE - additionalMedicare
+  - federalIncomeTax(taxableIncome) - retirementCash) / 12
+  - monthlyHealthCash;
+```
+
+The half-tax deduction excludes Additional Medicare tax. Health stays a separate cash expense in this simplified formula; it must not reduce Schedule SE earnings. For mixed W-2/independent income, Social Security's remaining cap is reduced by existing Social Security wages; do not apply the full cap twice. QBI deductions, tax credits, and qualified self-employed health/retirement deductions require additional eligibility logic. A conservative budgeting calculator can omit them explicitly in developer scope rather than assume universal eligibility. A self-employed retirement percentage cannot automatically be treated as a qualifying pre-tax employee 401(k) contribution.
+
+Calculation fixtures, independently recomputed using the current 2026 single brackets:
+
+- Employee gross $75,000, 8% qualified retirement: federal $6,350; Social Security $4,650; Medicare $1,087.50; retirement $6,000; monthly $4,742.7083 before a separate health cost.
+- Independent profit $60,000, no retirement deduction: SE base $55,410; ordinary SE $8,477.73; half deduction $4,238.865; federal taxable $39,661.135; federal tax $4,511.3362; monthly $3,917.5778 before health. Keep intermediate precision until display.
+- The independent amount starts from profit **after** business expenses; do not subtract the same operating expenses again in lifestyle spending.
+
+## Complete education route, debt, lifestyle
+
+For each occupation provide a route object with duration, qualification, named cost example, preparation earnings, one-time fees, summer coverage, and required post-degree training. A legal fee alone is not a full preparation cost. On-job routes can correctly have no tuition requirement while budgeting equipment/certification separately; do not force an optional college bill into their minimum route.
+
+For bachelor routes the verified [UT Austin 2026–27 budget](https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/) is $10,858–$13,576 tuition, $32,508–$35,386 total with on/off-campus living, or $24,998–$27,716 total living with parents. These cover fall/spring, not 12 months. Model summer living separately, using attendance months, without adding the full annual lifestyle budget on top of COA housing.
+
+For associate/transfer routes use verified ACC program credits and district status, plus the receiving university years. The [2026–27 ACC free-tuition catalog](https://catalog.austincc.edu/college-entry/paying-for-college/acc-free-tuition-pilot-program/) describes eligible service-area 2024–28 high-school/homeschool cohorts and eligible GED recipients, three years beginning the first fall after completion, plus two more years for an ACC bachelor's. This is not a waiver of rent, books, all course-specific costs, or receiving-university tuition. Ask the two eligibility facts; do not display assumed $0 to everyone.
+
+For MD/DDS/JD/DVM/PharmD/PA/PT/OT and graduate licensure, sum program-specific year rows already collected; add prerequisites only once. Separate funded PhD support from unfunded generic graduate tuition. For occupational therapy and PA, the source years and incomplete full-attendance totals in the current evidence need actual component budgets, not a renamed undergraduate total.
+
+Suggested arithmetic:
+
+```text
+route gross cost = tuition + required fees + books/equipment + living during study
+route net cost = gross cost − confirmed grants/scholarships/tuition support
+borrowing = net cost − family cash − planned study earnings
+loan repayment principal = disbursed principal + permitted capitalized interest
+monthly payment = amortization(principal, cohort rate, chosen term)
+working-life available income = after-tax earnings − health/retirement − loan payment
+```
+
+Loans finance cost; they do not reduce net price. Maintain student and parent loans separately. Do not auto-move a parent's loan payment into the student's lifestyle. Accrue unsubsidized interest during study from actual disbursement timing; avoid treating all four years' borrowing as issued at day one.
+
+The official [September 2026 Federal Register rate table](https://www.govinfo.gov/content/pkg/FR-2026-09-10/pdf/FR-2026-09-10.pdf) confirms first-disbursed July 2026–June 2027 fixed rates: undergraduate Direct 6.52%, graduate/professional Direct unsubsidized 8.07%, PLUS 9.07%. These apply to that cohort only; keep rates editable for future scenarios.
+
+At a chosen 120-month term, comparison payments are $340.9493 for $30,000 at 6.52%; $1,216.9779 for $100,000 at 8.07%; $381.1648 for $30,000 at 9.07%. These are amortization fixtures, not a claim that all federal borrowers use a ten-year plan. Principal excludes origination fees only if net proceeds were grossed up correctly; `loanPrincipal = netProceeds / (1 - feeRate)` when the user enters received cash. If entering loan principal directly, do not gross it up a second time. Zero-interest loans use principal/months. Negative funding need means no additional borrowing; preserve the surplus as a separate amount.
+
+[FSA's current loan-change guide](https://studentaid.gov/announcements-events/big-updates) states new graduate/professional loan rules from July 2026. Do not assume unlimited new Grad PLUS: graduate annual $20,500 / aggregate $100,000; professional annual $50,000 / aggregate $200,000, subject to stated classification and exceptions. Professional classification of some health programs has been disputed; never infer it just from degree name. Add program-specific eligibility evidence before automating limits. Display calculated funding required, rather than pretending all shortfalls can be borrowed federally.
+
+## Austin lifestyle benchmark and calibration
+
+The [MIT Travis County calculator](https://livingwage.mit.edu/counties/48453), updated 15 February 2026, gives one adult/no children $23.69/hour, $49,279 annual before-tax required income, and $42,042 after taxes. Annual components include food $4,159, medical $3,075, housing $18,213, transportation $8,465, internet/mobile $1,479, civic $2,583 and other $4,067. Use this as an external basic-needs cross-check, not as the input dataset for lavish discretionary baskets. MIT requests no scraping/licensing for reuse; do not bulk-import its table into the application.
+
+Current defaults roughly align on one-bedroom housing/utilities ($1,530/month), health ($250), and phone/internet ($125). Transport depends heavily on car debt versus transit. Lowest lifestyle baskets can legitimately come below the living-alone benchmark through shared housing and transit; that is a changed scenario, not evidence that MIT is wrong.
+
+Retain separate entertainment and recreation. A dining frequency choice should price all-in meals for one adult, explicitly including the selected tax/tip assumption internally. Do not make reduced home cooking automatically eliminate the grocery budget without an intentional substitution model. Ownership needs down payment/closing cash and maintenance in addition to monthly loan service; an annual salary can support the monthly payment while savings remain insufficient to purchase.
+
+## Acceptance checks for every one of 117 IDs
+
+- Source occupation/geography/year and preparation route resolve; no generic “check locally” destination.
+- Published steps remain exact before display rounding; unsupported promotions/ownership are absent.
+- Pay years start at a named qualified job, with paid training and prerequisites visible separately.
+- More weekly hours cannot reduce gross pay; fewer paid weeks must reduce hourly annual income.
+- Independent profit uses its own tax path, preserves losses, and never treats receipts as wages.
+- COA does not double-count tuition or housing; named annual versus whole-program scope remains consistent.
+- Tuition aid eligibility changes the correct covered charges only; loan proceeds do not reduce net price.
+- Loan principal/payment rises monotonically with borrowing and links to the lifestyle debt row exactly once.
+- Higher housing or debt costs cannot improve support status. Salary-stage selection updates both take-home and lifestyle fit.
+- College benefits are concrete route opportunities or documented employer incentives, not unsupported promises of higher earnings in every occupation.
+- Scenario estimates remain concise and clearly identified; detailed evidence and assumptions belong in Developer/source details.
+</pre></main></html>

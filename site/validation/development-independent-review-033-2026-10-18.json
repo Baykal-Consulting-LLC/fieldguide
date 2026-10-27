@@ -1,0 +1,1015 @@
+{
+  "scope": {
+    "source": "/tmp/adolescent-life-models-2026-10-18/development-review.json",
+    "cases": 70,
+    "method": "Reviewed all supplied biographies and selected follow-up answers, careers, named rows for disputed comparisons, and preparation/pay/lifestyle plan fields. Inspected targeted current matching and funding-note functions. Review only; no app, answer or expectation edits and no holdout files/outcomes inspected.",
+    "interpretation": "These are development cases with synthetic inferred responses, not student-authored answers or ground-truth career labels. Case dispositions assess defensible exploration and false specificity, not predictive accuracy.",
+    "candidateRemedyNote": "After this snapshot review, root reports narrowing subset domination to extra options mapped to at most two careers while preserving the two-question/two-domain requirement, plus a regression for broad bundled extras and a plain shared-task card label. Targeted current source inspection confirms the scope<=2 filter. This limits the documented generic-superset inversion; it does not establish medical/biological interest or solve multimodal prompts, equal evidence sets, synthetic-inference contradictions or translation specificity. Original findings are retained; revised development outcomes were not independently re-reviewed here."
+  },
+  "caseReviews": [
+    {
+      "id": "life-005",
+      "disposition": "sensible physical-design exploration; writing modality uncertain",
+      "reason": "Ceramics, careful finishing and useful-object answers support industrial design. Photography/storytelling can justify a related writing comparison, but the bundled words/photos/moving-images option does not establish that she wants author work; caring for siblings is not the career rationale.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "industrial-design",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 358.49
+      }
+    },
+    {
+      "id": "life-006",
+      "disposition": "creative field sensible; animation specificity weak",
+      "reason": "Synthesizer and audio-layering practice support sound creation. Animation and film are plausible media comparisons given the selected timing/mood answers, but no animation practice or visual-production preference is established. Access needs are practical planning questions, not limits on creative interest.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "animation",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -256.42
+      }
+    },
+    {
+      "id": "life-007",
+      "disposition": "appropriate open choice",
+      "reason": "Small-program debugging and practical comparison sheets support coding/data exploration alongside music. The simultaneous software and analysis answers do not establish one profession; an empty top set with field access is reasonable, provided the UI explains unresolved breadth rather than suggesting no capability.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-009",
+      "disposition": "permissible story-related exploration",
+      "reason": "Completed comics and visual storytelling support creative narrative work, and selected scene/word choices support writing/film as comparisons. They do not establish preference for moving-image editing over comics. ADHD and need for routines should inform trial supports, not eligibility or a predicted occupation.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "writing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -490.01
+      }
+    },
+    {
+      "id": "life-011",
+      "disposition": "sensible practical alternatives",
+      "reason": "Supervised metalwork, precise measuring, repair work and explicit wood/metal introductions support carpentry and welding. The prewritten carpentry scenario is a comparison, not a correction to her actual metalwork interest; political history remains a valid parallel interest.",
+      "issues": [],
+      "planReview": {
+        "career": "carpentry",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1837.55
+      }
+    },
+    {
+      "id": "life-012",
+      "disposition": "sensible related creative alternatives",
+      "reason": "The comic newsletter, publication dates, visual explanations and library animation give actual support for writing and media exploration. Repeated mixed-modality options do not identify a unique medium, and a future salary is not evidence that he wants his hobby to provide income.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "writing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -260.01
+      }
+    },
+    {
+      "id": "life-013",
+      "disposition": "industrial design sensible; media comparisons weaker",
+      "reason": "Miniature rooms, props and precise assembly support physical design. Animation/photography can be sampled, but photos sent to cousins and a bundled edited-story/photo-series answer alone should not imply distinct professional interests. Anxiety does not supply career evidence.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "industrial-design",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 358.49
+      }
+    },
+    {
+      "id": "life-014",
+      "disposition": "sensible repair exploration",
+      "reason": "Bicycle diagnosis, fabrication and visible repair improvements support industrial machinery and automotive exploration. Explicit diagnostic-sequence and wear/vibration answers support the extension beyond a bicycle. Music and essays need not be displaced; qualified entry pay does not represent instant skilled employment.",
+      "issues": [],
+      "planReview": {
+        "career": "industrial-machinery-mechanic",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1347.8
+      }
+    },
+    {
+      "id": "life-015",
+      "disposition": "sensible animation exploration",
+      "reason": "Actual stop-motion practice and patient frame sequencing directly support animation. Other mixed creative interests remain legitimate. The roughly $19 monthly scenario surplus is extremely thin, so the just-covers label and entered-funding conditions are essential; it is not secure affordability.",
+      "issues": [],
+      "planReview": {
+        "career": "animation",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 18.58
+      }
+    },
+    {
+      "id": "life-016",
+      "disposition": "creative exploration valid; professional medium uncertain",
+      "reason": "Live comedy, puppet scenes and scripts support collaborative storytelling. Writing/film are related possibilities under the selected answers, but broad scene/word bundles do not establish interest in author work or editing routines. Autism and quiet recovery needs must not be read as avoiding people or performance.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "writing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -615.01
+      }
+    },
+    {
+      "id": "life-018",
+      "disposition": "sensible civil-engineering exploration",
+      "reason": "Bridge sketches, collapse/load questions and model tests directly support civil engineering. The route details correctly distinguish degree preparation from later PE scope. Music, out-of-state study and uncertain college mathematics remain open, with the Austin qualified-pay scenario only one possible adult setting.",
+      "issues": [],
+      "planReview": {
+        "career": "civil-engineering",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 297.25
+      }
+    },
+    {
+      "id": "life-020",
+      "disposition": "unjustified biomedical specificity",
+      "reason": "Mechanical builds, ramp calculations and light circuits support mechanical/electrical engineering. Medical devices appear only inside a bundled machine/circuit/medical-device option. Biomedical engineering can remain an application to investigate, but it has no independently endorsed medical/biological evidence comparable to the actual mechanisms/circuits.",
+      "issues": [
+        "biomedical-specificity"
+      ],
+      "planReview": {
+        "career": "mechanical-engineering",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 241.8
+      }
+    },
+    {
+      "id": "life-021",
+      "disposition": "sensible information-work exploration",
+      "reason": "Careful school-photo cataloging, postcard research and resource-access answers support librarian exploration. The supplied master's and school-certification distinctions avoid portraying quiet archive volunteering as instant librarian qualification. A calm routine and slower start are preferences, not lack of ambition.",
+      "issues": [],
+      "planReview": {
+        "career": "librarian",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -114.89
+      }
+    },
+    {
+      "id": "life-023",
+      "disposition": "sensible physical-design exploration",
+      "reason": "Precise alterations, a textile workshop and user-fit/material answers support industrial design as a related useful-object direction. Mathematics and dialogue writing remain valid interests. Low broad correlation is not a reason to erase repeatedly chosen practical design tasks.",
+      "issues": [],
+      "planReview": {
+        "career": "industrial-design",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 358.49
+      }
+    },
+    {
+      "id": "life-024",
+      "disposition": "sensible carpentry exploration",
+      "reason": "Furniture restoration, patient surface preparation and explicit woodworking choices support carpentry. The continuing-class goal is compatible with exploration, while eligibility, transport and limited savings affect concrete access. Welding is only a related lead, not an equally established professional preference.",
+      "issues": [],
+      "planReview": {
+        "career": "carpentry",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -975.73
+      }
+    },
+    {
+      "id": "life-025",
+      "disposition": "unjustified biomedical lead",
+      "reason": "Fans, motorcycle parts and performance testing directly support mechanical design. Biomedical leads despite no biological/medical application evidence; the machine/circuit/medical-device bundle cannot resolve the domain. Electrical can be an exploratory neighbor, but not an assertion of a tested specialty.",
+      "issues": [
+        "biomedical-specificity"
+      ],
+      "planReview": {
+        "career": "biomedical-engineering",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1286.48
+      }
+    },
+    {
+      "id": "life-026",
+      "disposition": "sensible environmental exploration; specialty unresolved",
+      "reason": "Shoreline debris questions and field-study/conservation answers support environmental work. Geoscience is a related field-measurement option rather than an established preference for geology; environmental science and conservation remain useful comparisons. Dance and exhibit explanation should remain visible.",
+      "issues": [],
+      "planReview": {
+        "career": "geoscience",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 303.2
+      }
+    },
+    {
+      "id": "life-027",
+      "disposition": "appropriate open inquiry",
+      "reason": "Essays, library discussion, community information and research answers support librarian/social-research leads without establishing a winner. Homeschool documentation and unfamiliar larger classes affect trial planning, not aptitude. No assigned career or financial promise is appropriate.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-029",
+      "disposition": "sensible coordination exploration; experience conditions matter",
+      "reason": "Study/running coordination and event problems support project work, with actual workflow/responsibility answers. Operations management and consulting are related directions, not immediate jobs secured by leadership enthusiasm; the plan's industry/project experience condition matters. Negative broad correlations alone do not negate specific interests.",
+      "issues": [],
+      "planReview": {
+        "career": "project-management",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -704.02
+      }
+    },
+    {
+      "id": "life-030",
+      "disposition": "valid creative branch; animation specificity uncertain",
+      "reason": "Clarinet, scene painting and acoustics support sound/visual experimentation. Animation/film are plausible comparisons under the scene/image answers, but no preference for animated production over music, scenic painting or acoustic experiments is established. Formal study remains a trial, not a declared future.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "animation",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -256.42
+      }
+    },
+    {
+      "id": "life-031",
+      "disposition": "sensible legal exploration",
+      "reason": "Voluntary argument testing, fairness reflections and specifically legal-source/case answers support law/paralegal exploration. Discussion skill is not legal aptitude or admission readiness. The approved law-degree, undergraduate and bar details correctly prevent treating a humanities workshop as professional qualification.",
+      "issues": [],
+      "planReview": {
+        "career": "law",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 1820.23
+      }
+    },
+    {
+      "id": "life-032",
+      "disposition": "biomedical prominence unjustified; subset inversion",
+      "reason": "Paper engineering, planter usability and feedback support physical design. Biomedical takes first place while electrical is demoted as sharing its evidence; extra generic user consultation does not establish a biomedical domain. Preserve mechanical/electrical comparisons rather than allowing a broad medical-tag mapping to win.",
+      "issues": [
+        "biomedical-specificity"
+      ],
+      "planReview": {
+        "career": "biomedical-engineering",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 275.34
+      }
+    },
+    {
+      "id": "life-033",
+      "disposition": "sensible experimental-science comparisons",
+      "reason": "Systematic bread-temperature changes, symbolic work and selected substances/lab/food-quality answers support chemistry, food science and biological-technician exploration. Physics remains a real biography interest; the synthetic lab extension is a hypothesis to test, not proof of laboratory aptitude or a uniquely correct field.",
+      "issues": [],
+      "planReview": {
+        "career": "chemistry",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -507.15
+      }
+    },
+    {
+      "id": "life-034",
+      "disposition": "appropriate analytical leads",
+      "reason": "The attendance chart, maps and statistics elective supply a reason to explore data quality and explanation. No forced role is appropriate when data science/statistics/economics remain unresolved; economy-specific preference is not established just by choosing generic data tasks. Dance and recreation matter independently.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-035",
+      "disposition": "appropriate practical leads",
+      "reason": "Returning to shelving, supply checking and setup supports maintaining shared spaces as an exploration. Painting flats and being useful do not establish a janitorial identity. An open result avoids forcing an occupation from ordinary reliable tasks; no financial projection is preferable to invented certainty.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-036",
+      "disposition": "sensible useful-object exploration",
+      "reason": "Ceramics, glazing, production timing, useful planters and user questions support physical design. Selling and oral explanation can remain interests without implying sales or management as the only route. Dyslexia calls for usable instruction formats, not a reduction in opportunity or a claim of measured dexterity.",
+      "issues": [],
+      "planReview": {
+        "career": "industrial-design",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -123.33
+      }
+    },
+    {
+      "id": "life-037",
+      "disposition": "sensible writing; film a comparison",
+      "reason": "Persistent private comedy writing and editing provide direct writing evidence. Film is a related narrative route under scene/timing selections, but not an established medium preference. Welcoming others and logistics are legitimate parallel interests; wealth and polished opportunities do not establish a career choice.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "writing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -465.01
+      }
+    },
+    {
+      "id": "life-038",
+      "disposition": "appropriate analytical leads",
+      "reason": "Repeatable robotics tests, including failures, support trustworthy analysis exploration. No named career is forced from a generic public-dataset branch. Diabetes supply access, sleep and meal planning are conditions for sustainable participation, not evidence of clinical-care interest or analytical incapacity.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-040",
+      "disposition": "interpreting specificity unjustified",
+      "reason": "Usable recipe audio/photos and mending support communication/product exploration. Generic meaning, audience, research and community choices do not establish interest in translating between languages; the biography gives no such practice. Interpreting can be a question, but its first-place professional plan is too specific without neutral language-domain follow-up.",
+      "issues": [
+        "translation-specificity"
+      ],
+      "planReview": {
+        "career": "interpreting",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1333.08
+      }
+    },
+    {
+      "id": "life-041",
+      "disposition": "sensible environmental comparisons",
+      "reason": "Bird counts, field notes and selected habitats/conservation tasks support environmental investigation. Geoscience is a related option, not proof of a geological specialty. Anxiety and stopping-rule support should be treated as participation context; paid-work and broader field conditions remain untested.",
+      "issues": [],
+      "planReview": {
+        "career": "geoscience",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 453.2
+      }
+    },
+    {
+      "id": "life-042",
+      "disposition": "sensible writing/audio-media exploration",
+      "reason": "He writes audio scenes, edits intelligible recordings and receives writing feedback, supporting writing and media work. Film editing is a related extension rather than a distinct demonstrated visual-editing preference. Seasonal chores and transport are practical constraints; family ranch work does not dictate the result.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "film-editing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1911.17
+      }
+    },
+    {
+      "id": "life-043",
+      "disposition": "appropriate analytical exploration",
+      "reason": "Replay analysis, inventory and source organization make data/evidence exploration plausible, with no forced winner. Translation practice is a separate credible interest in this biography but need not replace the selected branch. Leaving versus staying nearby is not a score of ambition or readiness.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-044",
+      "disposition": "sensible civil-engineering exploration",
+      "reason": "Repeated paper-bridge load tests and technical water-use questions support civil engineering. Poetry and discussion remain genuine alternatives. The degree/PE distinction correctly avoids presenting professional licensure as a prerequisite for every entry role, and unfamiliar calculation routines deserve a small trial.",
+      "issues": [],
+      "planReview": {
+        "career": "civil-engineering",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 572.25
+      }
+    },
+    {
+      "id": "life-045",
+      "disposition": "creative branch valid; medium inference uncertain",
+      "reason": "Guitar, photo scanning and family-story questions support creative communication, but biography evidence for film editing or sustained author work is limited. Frozen scene/word answers make these permissible comparisons, not established work preferences. His privacy and family obligations must not become career stereotypes.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "film-editing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1324.35
+      }
+    },
+    {
+      "id": "life-048",
+      "disposition": "film/media sensible; animation less established",
+      "reason": "Actual park videos, interview sound and file-management practice support media production/editing. Animation is adjacent but lacks explicit animated creation in the biography or disentangled modality answers. ADHD supports and calendar needs inform a trial, not occupational eligibility.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "animation",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 248.58
+      }
+    },
+    {
+      "id": "life-050",
+      "disposition": "sensible mechanical exploration",
+      "reason": "Repeated bicycle repair, wear checks and diagnostic/maintenance answers support automotive and industrial-maintenance comparisons. Reporting overlooked people remains a separate interest; family language and identity are not a reason to force translation or spokesperson work. Entry pay is conditional on completing useful training.",
+      "issues": [],
+      "planReview": {
+        "career": "industrial-machinery-mechanic",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1452.8
+      }
+    },
+    {
+      "id": "life-051",
+      "disposition": "sensible physical-design extension",
+      "reason": "Garment fitting, repaired seams, user questions and repeated useful-object choices support industrial design as an exploratory neighbor to textiles. Competent coding that he rarely chooses should not override sustained making. Degree language is typical preparation, not a requirement to turn sewing into work.",
+      "issues": [],
+      "planReview": {
+        "career": "industrial-design",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 208.49
+      }
+    },
+    {
+      "id": "life-052",
+      "disposition": "sensible community-information exploration",
+      "reason": "Library event planning, participation barriers and information-resource answers support librarian exploration; adapting activities also supports teaching as a related route. Neither foster history nor welcoming others establishes a helping vocation. The master's/certification details correctly distinguish career preparation from teen volunteering.",
+      "issues": [],
+      "planReview": {
+        "career": "librarian",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -264.89
+      }
+    },
+    {
+      "id": "life-054",
+      "disposition": "sensible teaching comparisons",
+      "reason": "Repeated explanation of movement to children, reading events and actual young/older learner answers support several teaching ages. No exact age-group winner is established, but multiple related roles are sensible. The roughly $36 monthly margin is conditional and thin, not a promise of a secure budget or free time.",
+      "issues": [],
+      "planReview": {
+        "career": "teaching",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 36.28
+      }
+    },
+    {
+      "id": "life-055",
+      "disposition": "writing/editing sensible; film medium uncertain",
+      "reason": "Literary editing and feedback directly support writing-related exploration; piano and generic scene/image answers do not independently establish film-editing preference. Depression/recovery cannot be scored as diminished ability or treated as an achievement target. Pacing and care continuity are real planning conditions.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "film-editing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -819.35
+      }
+    },
+    {
+      "id": "life-056",
+      "disposition": "uncertain synthetic domain extension; not a matching error",
+      "reason": "The biography's repeated observation is of the moon/physics, while frozen follow-ups specifically endorse habitats, environmental risk and conservation. Environmental results follow those answers, but the jump from astronomy to ecology is an inference/catalog-coverage limitation to disclose, not evidence that the student chose conservation or grounds to retune matching.",
+      "issues": [
+        "inference-provenance"
+      ],
+      "planReview": {
+        "career": "geoscience",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 533.2
+      }
+    },
+    {
+      "id": "life-058",
+      "disposition": "film-only prominence too medium-specific",
+      "reason": "Shared murals, private sketches and comics support visual storytelling; no moving-image editing practice is established. Frozen timing/mood answers make film a possible trial, but exclusive film prominence over visual alternatives overreads bundled scene/image wording. Bereavement does not explain or define the artwork.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "film-editing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -819.35
+      }
+    },
+    {
+      "id": "life-061",
+      "disposition": "sensible writing exploration",
+      "reason": "Sustained collaborative fiction, specific feedback requests and word-focused choices directly support writing. Coastal observation is a parallel interest. The salaried-role degree wording is appropriately qualified; access needs and limited residential funds remain practical questions, not measured aptitude.",
+      "issues": [],
+      "planReview": {
+        "career": "writing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -110.01
+      }
+    },
+    {
+      "id": "life-062",
+      "disposition": "sensible plant-care comparisons",
+      "reason": "Propagation, greenhouse care and detailed watering/soil choices support landscaping and crop work as practical options despite negative broad correlations. This does not establish desire for mechanized/outdoor seasonal production over plant study; his avoidance of loud enclosed machinery deserves specific work-setting questions, not automatic exclusion.",
+      "issues": [],
+      "planReview": {
+        "career": "landscaping-worker",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1323.23
+      }
+    },
+    {
+      "id": "life-063",
+      "disposition": "sensible teaching exploration",
+      "reason": "Scheduled tutoring and several fraction explanations directly support teaching older pupils. Preferring bounded help is compatible with exploring professional teaching and should prompt questions about workload, not a claim that he wants unlimited family tutoring. Sailing and ceramics remain independent interests.",
+      "issues": [],
+      "planReview": {
+        "career": "high-school-teacher",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -343.72
+      }
+    },
+    {
+      "id": "life-064",
+      "disposition": "film-only prominence too medium-specific",
+      "reason": "Digital layout/color revision and audience-sensitive invitations give direct graphic-design evidence. Film outranks graphic/animation/photo by one question under bundled story/scene options, despite no film practice in the biography. Keep visual comparisons or ask medium preference rather than interpreting the one-question margin as a settled editing direction.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "film-editing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1049.35
+      }
+    },
+    {
+      "id": "life-067",
+      "disposition": "sensible office-service exploration",
+      "reason": "Labels, routines, concrete visitor questions and appointment/document answers support office clerking, administration and reception. Persuasion is not inferred from service competence. No unusual passion is needed to explore useful work; predictable days and a future budget still depend on actual employers and location.",
+      "issues": [],
+      "planReview": {
+        "career": "office-clerk",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1501.19
+      }
+    },
+    {
+      "id": "life-068",
+      "disposition": "permissible theatrical/media exploration; exact medium unresolved",
+      "reason": "Stage crew, costume/backdrop work, puppet scenes and a wish to write a scene support storytelling and production. Film is adjacent under the selected timing/image answers, but the biography does not establish post-production preference. Science and expense puzzles remain real parallel possibilities.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "film-editing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -819.35
+      }
+    },
+    {
+      "id": "life-069",
+      "disposition": "strongly grounded film exploration",
+      "reason": "Stop-motion, explaining cuts, documentary sequencing, swim filming and the explicit ambition to edit films directly support film editing. Writing is a legitimate adjacent evidence/story route, not a compulsory replacement for reading accommodations. Dyslexia does not negate the documented media practice.",
+      "issues": [],
+      "planReview": {
+        "career": "film-editing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1474.35
+      }
+    },
+    {
+      "id": "life-070",
+      "disposition": "sensible practical alternatives",
+      "reason": "Latch/gate repair and accurate wood/structure/drawing answers support carpentry; welding is a plausible related gate-repair direction but less directly endorsed than woodworking. Music and printmaking remain independent. Bereavement and family operation must not be used as the reason for the occupation.",
+      "issues": [],
+      "planReview": {
+        "career": "carpentry",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1607.55
+      }
+    },
+    {
+      "id": "life-071",
+      "disposition": "strongly grounded writing exploration",
+      "reason": "Month-long private poem revision, editing and chosen word-focused tasks supply stronger specific evidence than launch-only ventures. Writing is plausible without treating confidence, wealthy access or a wish for an audience as proof of talent. Paid publishing and sustained income are future uncertainties.",
+      "issues": [],
+      "planReview": {
+        "career": "writing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -965.01
+      }
+    },
+    {
+      "id": "life-073",
+      "disposition": "sensible useful-object exploration",
+      "reason": "Rebuilding collapsed clay over sessions and a matching usable-cup goal support product-making/industrial design exploration. Debate is also sustained, so no single future is established. ADHD systems and missed small deadlines affect support and trial design rather than interest eligibility.",
+      "issues": [],
+      "planReview": {
+        "career": "industrial-design",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 588.49
+      }
+    },
+    {
+      "id": "life-075",
+      "disposition": "sensible analytical extension; technical depth untested",
+      "reason": "Detailed maps, library digital mapping and selected data/user-system choices support data science/statistics/systems analysis as exploration. They do not establish coding proficiency, statistical readiness or a guaranteed high-paying job. Housing recovery and costs are access context, not a low-aspiration constraint.",
+      "issues": [],
+      "planReview": {
+        "career": "data-science",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 956.35
+      }
+    },
+    {
+      "id": "life-077",
+      "disposition": "mechanical/electrical sensible; biomedical ungrounded",
+      "reason": "Robotics, mechanisms, load tests and actual circuits support engineering. Biomedical is only a possible application and gets no separate medical-domain evidence from the bundled device question. Anxiety and sleep support must not be used to exclude demanding engineering or music.",
+      "issues": [
+        "biomedical-specificity"
+      ],
+      "planReview": {
+        "career": "mechanical-engineering",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 1183.62
+      }
+    },
+    {
+      "id": "life-078",
+      "disposition": "sensible multiple systems/finance interests",
+      "reason": "Real expense reconciliation, useful supplies and explicit workflows/bottlenecks answers support bookkeeping/accounting and an industrial-engineering comparison. The latter needs engineering study rather than a short accounting credential; it is a separate option, not an automatic promotion from clerical work. Nature remains a chosen context.",
+      "issues": [],
+      "planReview": {
+        "career": "bookkeeping-clerk",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1709.31
+      }
+    },
+    {
+      "id": "life-080",
+      "disposition": "sensible civil-engineering exploration",
+      "reason": "The biography and actual load-test, structural-demand and safety-margin answers directly support civil engineering. Bakery service and character discussion remain real interests. The Austin salary/lifestyle and Texas-resident costs are scenarios to compare with Memphis/Dallas/nonresident possibilities, not personalized geographic forecasts.",
+      "issues": [],
+      "planReview": {
+        "career": "civil-engineering",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 952.25
+      }
+    },
+    {
+      "id": "life-081",
+      "disposition": "subset-rule inversion creates unjustified biomedical sole lead",
+      "reason": "Switch-operated music boxes, keyboard repair and circuits support electrical/mechanical devices. Generic user-needs/safety options are mapped as extra biomedical endorsements, demoting both other engineering roles despite eight questions each. No biological/medical application is established; this is false specificity from mapping breadth, not autism or language interests.",
+      "issues": [
+        "biomedical-specificity"
+      ],
+      "planReview": {
+        "career": "biomedical-engineering",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 530.34
+      }
+    },
+    {
+      "id": "life-082",
+      "disposition": "graphic design strongly grounded; media alternatives permissible",
+      "reason": "Readable publicity, audience access, visual layouts and photo editing directly support graphic design, with film/photography as adjacent trials under actual image/timing answers. Styling remains another interest. Arthritis and variable grip/standing needs call for workplace setups and recovery questions, not indoor-only predictions.",
+      "issues": [],
+      "planReview": {
+        "career": "graphic-design",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -908.58
+      }
+    },
+    {
+      "id": "life-083",
+      "disposition": "editing-routine contradiction to surface",
+      "reason": "Bilingual poems and sound pieces support writing/media exploration. The biography explicitly prefers cable setup to editing and avoids long editing sessions, while synthetic answers endorse revisions and film leads. Neither input should be silently overwritten; clarify whether a short creative trial differs from the daily post-production routine before treating the plan as a preference.",
+      "issues": [
+        "editing-conflict"
+      ],
+      "planReview": {
+        "career": "film-editing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1119.35
+      }
+    },
+    {
+      "id": "life-084",
+      "disposition": "sensible analysis exploration; economics is adjacent",
+      "reason": "Survey summaries, practice charts and revisiting confounding support statistics/data science. Economics is a permissible related comparison from generic data work, not established interest in economic questions. Graduate preparation for statistician is disclosed, so the pay scenario must remain post-qualification rather than an immediate spreadsheet-skill salary.",
+      "issues": [],
+      "planReview": {
+        "career": "statistics",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 364.65
+      }
+    },
+    {
+      "id": "life-085",
+      "disposition": "strongly grounded film exploration",
+      "reason": "Media-club films, actual editing/framing, consent-conscious interviewing and shared authorship directly support film work. Writing is a plausible adjacent story route. Family separation and bilingual identity do not require a hardship narrative, translation career or autobiographical subject matter.",
+      "issues": [],
+      "planReview": {
+        "career": "film-editing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -969.35
+      }
+    },
+    {
+      "id": "life-086",
+      "disposition": "film-only prominence too medium-specific",
+      "reason": "Cartoons, visual jokes and quiet drawings give direct static-visual evidence; film editing is not documented. Selected timing/scene/image bundles make it a possible experiment, but a sole film result overreads modality. Budget competence and confident organizing should not override chosen art or be treated as management ambition.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "film-editing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1049.35
+      }
+    },
+    {
+      "id": "life-087",
+      "disposition": "subset-rule inversion creates unjustified biomedical sole lead",
+      "reason": "Ramps, magnets and physical demonstrations support mechanical/electrical exploration. Biomedical alone features because its generic user-needs and shared device mappings form a superset; there is no biomedical content. Depression and fluctuating energy are planning context, not evidence of medical-device interest or incapacity.",
+      "issues": [
+        "biomedical-specificity"
+      ],
+      "planReview": {
+        "career": "biomedical-engineering",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 655.34
+      }
+    },
+    {
+      "id": "life-088",
+      "disposition": "sensible physical-design extension",
+      "reason": "Functional pocket questions, durable patches, garment sketches and user needs support industrial design as a related extension from clothing. It does not establish experience with every manufactured product. Low self-confidence in untried science should prompt access to a trial rather than exclusion or a promised degree outcome.",
+      "issues": [],
+      "planReview": {
+        "career": "industrial-design",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 588.49
+      }
+    },
+    {
+      "id": "life-089",
+      "disposition": "sensible civil-engineering exploration",
+      "reason": "Failed-joint tests, bridge prototypes and actual infrastructure/load choices support civil engineering. Quiet cardboard preference does not rule out engineering; ask about work settings and protected tool access. Oklahoma versus Texas residence and tuition need scenario comparison before calling the financial plan affordable.",
+      "issues": [],
+      "planReview": {
+        "career": "civil-engineering",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 90.43
+      }
+    },
+    {
+      "id": "life-090",
+      "disposition": "sensible community-learning extension",
+      "reason": "Nature walks with children, user interviews and resource organization support librarian/community learning as an exploration. Master's preparation is explicit, so welcoming visitors is not being called professional qualification. Limited sustained research and independent event operations remain questions, not proof of a wrong role.",
+      "issues": [],
+      "planReview": {
+        "career": "librarian",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -389.89
+      }
+    },
+    {
+      "id": "life-094",
+      "disposition": "sensible electrician exploration",
+      "reason": "Lamp repair, diagram reading and specifically electrical faults/installation choices support electrician exploration despite self-doubt. Apprenticeship pay is explicitly selected, with supervised hours and licensing details. Grease/noise preferences require practical protections and setting questions, not an assumption that all technical work will be unpleasant.",
+      "issues": [],
+      "planReview": {
+        "career": "electrician",
+        "payStage": "apprenticeship",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -833.91
+      }
+    },
+    {
+      "id": "life-096",
+      "disposition": "sensible laboratory/food-science comparisons",
+      "reason": "Microscope drawings and food experiments plus selected food-safety/lab answers support food science, chemistry and biological technician exploration. This is not proof of sustained laboratory readiness. Adapted tools and site access are concrete participation conditions; generic enthusiastic speech should not count as technical experience.",
+      "issues": [],
+      "planReview": {
+        "career": "food-science",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 683.52
+      }
+    },
+    {
+      "id": "life-098",
+      "disposition": "writing sensible; language/media alternatives unresolved",
+      "reason": "Two-language story versions and comparison of translation changes provide real language/writing evidence. Writing is strongly defensible and translation remains available, but film is less directly grounded despite bundled scene/image selections. Unlike Priya, actual cross-language practice exists; do not suppress it merely because writing ranks higher.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "writing",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -385.01
+      }
+    },
+    {
+      "id": "life-100",
+      "disposition": "sensible legal exploration",
+      "reason": "Mock trial, clarifying questions and specifically legal-case/evidence/deadline answers support law/paralegal exploration. Prepared confidence is not legal expertise, and the full degree/bar route is correctly disclosed. Private jewelry making and outdoor curiosity remain valid parallel interests rather than distractions to remove.",
+      "issues": [],
+      "planReview": {
+        "career": "law",
+        "payStage": "entry",
+        "judgment": "Preparation details distinguish qualified work from required study/training; pay and lifestyle are conditional comparison scenarios. No new arithmetic defect established by the provided plan fields.",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 2050.23
+      }
+    }
+  ],
+  "outliers": [
+    {
+      "ids": [
+        "life-020",
+        "life-025",
+        "life-032",
+        "life-077",
+        "life-081",
+        "life-087"
+      ],
+      "severity": "P1 general mapping/prominence defect",
+      "issue": "Generic device tasks establish biomedical specialization; superset prominence can invert specificity",
+      "evidence": "The device-refinement option bundles machine, circuit, or medical device; no reviewed biography or separate selected option establishes biological/medical application. In 081/087 mechanical and electrical each have eight task questions yet are comparisonOnly with biomedical as their dominator, leaving biomedical alone featured. In 032 electrical is similarly demoted. The additional atomic choices are generic consultation/safety or broader machine/circuit mappings, not independent biomedical responsibility evidence.",
+      "proposedGeneralFix": "A proper option-ID superset is not semantic specificity. Before allowing it to demote another supported occupation, require that extra endorsements distinguish that occupation/application rather than generic teamwork/user consultation, broad OR wording, or its more inclusive careerIds mapping. Otherwise show the engineering family and parallel named comparisons and ask a neutral application-domain question. Validate the mapping invariant across fields, not with per-student thresholds; do not change frozen answers, scores or clinical gates."
+    },
+    {
+      "ids": [
+        "life-040"
+      ],
+      "severity": "P2 unjustified role specificity",
+      "issue": "Meaning/community/research bundles promote professional interpreting without cross-language evidence",
+      "evidence": "Priya records family recipes in audio/photos and repairs clothes; full transcription was tedious. Seven endorsed prompts include meaning, culture, research and community, but none asks translating/interpreting between languages. Interpreting leads while its plan correctly says advanced proficiency in two languages. This is missing preference evidence, not proof that she cannot learn languages. In contrast 098 has actual comparison of story versions across languages.",
+      "proposedGeneralFix": "Keep language work as a related question until a neutral cross-language activity preference is endorsed. Separate writing/editing, translation, information access and community expression in future question design. Qualification questions should describe readiness/training, not be used as aptitude gates or inferred from cultural background."
+    },
+    {
+      "ids": [
+        "life-005",
+        "life-006",
+        "life-009",
+        "life-013",
+        "life-016",
+        "life-030",
+        "life-045",
+        "life-048",
+        "life-055",
+        "life-058",
+        "life-064",
+        "life-068",
+        "life-086"
+      ],
+      "severity": "P2 questionnaire/presentation ambiguity, not universally wrong careers",
+      "issue": "Repeated multimodal story/scene prompts can manufacture a precise media specialty",
+      "evidence": "Words/photos/moving images, scenes/images/sound, edited story/film/animation/photo series and mixed beginner projects recur across eight answers. Audio musicians, static mural/cartoon artists, performers and photographers can all accumulate film/animation/writing support without selecting that specific work. 058/064/086 display film alone despite static visual biography evidence; 064 has seven-question graphic/animation/photo support against film eight. Actual film cases 069/085, stop-motion 015 and writing cases 061/071 remain well grounded.",
+      "proposedGeneralFix": "Treat these answers as common creative-story evidence, show a medium-neutral explanation and retain named supported comparisons. Ask whether the student wants writing, static visual design, photography, audio, performance, animation or editing before presenting one as especially established. Count repeated paraphrases as correlated evidence rather than independent confirmation. Preserve valid task-led exploration even with low broad-profile correlation; do not force three winners or retroactively make the biography a target label."
+    },
+    {
+      "ids": [
+        "life-083",
+        "life-056"
+      ],
+      "severity": "P2 inference/provenance limitation",
+      "issue": "Frozen inferred answers can contradict a biography routine or extend its domain",
+      "evidence": "083 explicitly avoids long editing after performances but inferred follow-ups endorse revisions and a film plan leads. 056 has moon/physics observations while inferred answers specifically endorse habitats, conservation and environmental risk. The recommender follows those selected answers; disagreement with the biography alone is not a scoring bug. Many supplied flags record low-confidence official inference and alternate-answer sensitivity.",
+      "proposedGeneralFix": "Surface the conflicting or untested work routine in the explanation and a small trial: e.g. enjoy a short media exercise versus a daily editing routine, astronomy observation versus ecological fieldwork. Keep provenance and plausible alternate responses visible in evaluation. In live use, ask the learner rather than silently inferring agreement; preserve the frozen benchmark payload and do not tune against biography outcomes."
+    },
+    {
+      "ids": [
+        "life-015",
+        "life-018",
+        "life-054",
+        "life-080",
+        "life-089"
+      ],
+      "severity": "P3 conditional planning risk; no new arithmetic bug established",
+      "issue": "Small surpluses and location/training assumptions must remain explicit",
+      "evidence": "015 shows about $19/month, 054 about $36, 089 about $90, while financial stages are post-qualification except 094 explicitly paid apprenticeship. Several biographies are outside Austin/Texas or leave higher-study funding unresolved. The provided development plan excerpt does not contain full debt/cost/source assumptions; current trainingFundingNote explicitly says unresolved funding and entered-loans-only.",
+      "proposedGeneralFix": "Keep the corrected adjacent funding condition, qualified-versus-training stage, geography/source dates and zero-borrowing interpretation visible. For a user-owned plan, compare actual local/nonresident tuition, living, access costs, hours, benefits and debt sensitivity rather than treating a small positive scenario as a promise. Do not fabricate debt or aid, assume health/disability costs, or discard an interest because the chosen lifestyle is expensive."
+    }
+  ],
+  "limits": [
+    "No holdout file, holdout result, or newly inferred answer payload outside the one authorized development-review file was inspected. Source inspection was targeted to current matching and financial-note behavior.",
+    "All 70 cases receive individual dispositions. No answer changes, target tuning, force-three policy, synthetic accuracy percentage or psychometric validity claim was used.",
+    "Parent-supplied fixes for preparation export, law duration, named RN/EMT and architecture cost examples were not re-audited exhaustively here; these 70 supplied plans do not exercise every corrected role. Current full funding-note source was verified. The compact plan fields do not support recertifying costs, wages, taxes, source freshness or financing.",
+    "Biographies describe ordinary interests and access differences, not career ground truth. A related alternative can be sensible without prior professional exposure. Health, neurodivergence, loss, culture, identity, wealth and caregiving must not stand in for a vocational preference or measured ability.",
+    "Except for the subset-rule/mapping issue, many concerning results are ambiguous questions or uncertain synthetic response inference rather than demonstrated algorithm defects. A precise-looking correlation is not confidence in a biography inference, success probability or proof of an occupation.",
+    "Open top sets with useful leads/full field access were credited as appropriate restraint. Negative broad correlation was not treated as grounds to erase eight specifically endorsed task answers. Parallel music, science, art and service interests were retained in interpretation.",
+    "The prewritten financial plan is a harness comparison of a displayed role, not evidence that the fictional learner independently committed to that occupation. Later qualified wages do not apply immediately after high school, and conditional affordability does not establish admission, a job, benefits, a work schedule or funded training."
+  ]
+}

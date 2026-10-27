@@ -1,0 +1,66 @@
+{
+  "count": 100,
+  "uniqueNarratives": 100,
+  "distribution": {
+    "age": {
+      "14": 10,
+      "15": 21,
+      "16": 21,
+      "17": 28,
+      "18": 16,
+      "19": 4
+    },
+    "gender": {
+      "girl": 43,
+      "boy": 42,
+      "nonbinary": 8,
+      "not stated": 7
+    },
+    "region": {
+      "West": 30,
+      "South": 27,
+      "Midwest": 22,
+      "Northeast": 20,
+      "not stated": 1
+    },
+    "locale": {
+      "suburban": 30,
+      "urban": 30,
+      "rural": 20,
+      "town": 20
+    },
+    "confidence": {
+      "2": 22,
+      "3": 49,
+      "4": 28,
+      "5": 1
+    },
+    "exposure": {
+      "mixed": 44,
+      "limited": 36,
+      "broad": 20
+    },
+    "education": {
+      "open": 37,
+      "undecided": 23,
+      "bachelor": 24,
+      "short training": 8,
+      "associate": 8
+    }
+  },
+  "warnings": [
+    {
+      "id": "blind099-0029",
+      "kind": "Census region unknown; original Southwest retained"
+    },
+    {
+      "id": "blind099-0009",
+      "kind": "quantitative-context-conflict"
+    }
+  ],
+  "limits": [
+    "Synthetic coverage sample, not a representative US joint demographic distribution.",
+    "Automatic schema/coherence checks do not establish psychometric validity.",
+    "All valid profiles retained before outcomes; no interest repair based on scores."
+  ]
+}

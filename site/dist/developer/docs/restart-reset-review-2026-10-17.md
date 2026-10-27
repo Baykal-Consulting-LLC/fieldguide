@@ -1,0 +1,23 @@
+# Restart, saved guides, and reset
+
+Release 0.27.0. Matching engine and assessment scoring are unchanged.
+
+## Access and behavior
+
+Restart / reset appears in the app footer, on Start, and in My space.
+
+Restart guide asks for confirmation, saves the complete current guide locally, then starts with fresh lifestyle and questionnaire answers. The nickname/context and independent career-library saved reading and notes carry forward. The old plan, completed work, budgets, and questionnaire remain in Saved guides and can be restored.
+
+Restoring a saved guide saves the current work first. Saved guides are not automatically replaced or trimmed. They remain in this browser until a full reset or browser-data removal. Draft exports export the active guide; restore a saved guide first to export that version.
+
+Reset all data has its own confirmation. It clears only Fieldguide's active-draft and saved-guides storage keys. It also clears transient app searches and selections. Downloaded exports and unrelated website storage are not removed.
+
+If saving fails, or the existing draft/history cannot be read, restart does not replace the current guide. No browser storage is silently cleared to make room.
+
+## Validation
+
+All 347 regression tests passed.
+
+Unit checks cover fresh answers, mandatory lifestyle, exact earlier-state preservation, save/reload, plan and residency pay restoration, completed notes, multiple restarts, storage-quota failures, unreadable records, missing restore targets, and application-scoped reset.
+
+Browser QA used a disposable localhost-only physician draft with a checked action and a note. Restart returned to the first home choice; after reload, Saved guides restored the plan, residency stage, checked action, and note. Canceling reset kept the plan. Confirming reset removed the draft and saved copies across reload. My space access was also checked. The hosted user's draft was not reset during testing.

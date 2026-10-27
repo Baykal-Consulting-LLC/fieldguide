@@ -1,0 +1,2540 @@
+{
+  "date": "2026-10-17",
+  "engine": "3.0.0",
+  "release": "0.22.0",
+  "scope": "Authored fictional high-school students. Rerun of current engine, not recruited students or independent psychometric validation. Raw RIASEC scores 0–40; profile correlations are not percentages or success probabilities.",
+  "students": [
+    {
+      "id": "care-and-diagnosis",
+      "name": "Biology volunteer",
+      "story": "Enjoys biology investigations and explaining things to people. Wants to observe patient care before committing to medicine.",
+      "officialAnswers": {
+        "onet-sf-01": 2,
+        "onet-sf-02": 2,
+        "onet-sf-03": 5,
+        "onet-sf-04": 4,
+        "onet-sf-05": 2,
+        "onet-sf-06": 2,
+        "onet-sf-07": 4,
+        "onet-sf-08": 5,
+        "onet-sf-09": 2,
+        "onet-sf-10": 2,
+        "onet-sf-11": 4,
+        "onet-sf-12": 4,
+        "onet-sf-13": 2,
+        "onet-sf-14": 1,
+        "onet-sf-15": 5,
+        "onet-sf-16": 2,
+        "onet-sf-17": 2,
+        "onet-sf-18": 3,
+        "onet-sf-19": 4,
+        "onet-sf-20": 5,
+        "onet-sf-21": 2,
+        "onet-sf-22": 2,
+        "onet-sf-23": 3,
+        "onet-sf-24": 3,
+        "onet-sf-25": 2,
+        "onet-sf-26": 2,
+        "onet-sf-27": 5,
+        "onet-sf-28": 3,
+        "onet-sf-29": 3,
+        "onet-sf-30": 2,
+        "onet-sf-31": 4,
+        "onet-sf-32": 3,
+        "onet-sf-33": 2,
+        "onet-sf-34": 3,
+        "onet-sf-35": 4,
+        "onet-sf-36": 4,
+        "onet-sf-37": 3,
+        "onet-sf-38": 2,
+        "onet-sf-39": 3,
+        "onet-sf-40": 5,
+        "onet-sf-41": 3,
+        "onet-sf-42": 1,
+        "onet-sf-43": 4,
+        "onet-sf-44": 5,
+        "onet-sf-45": 2,
+        "onet-sf-46": 2,
+        "onet-sf-47": 3,
+        "onet-sf-48": 4,
+        "onet-sf-49": 2,
+        "onet-sf-50": 3,
+        "onet-sf-51": 4,
+        "onet-sf-52": 5,
+        "onet-sf-53": 1,
+        "onet-sf-54": 3,
+        "onet-sf-55": 4,
+        "onet-sf-56": 4,
+        "onet-sf-57": 2,
+        "onet-sf-58": 2,
+        "onet-sf-59": 4,
+        "onet-sf-60": 3
+      },
+      "baseline": {
+        "scores": {
+          "R": 11,
+          "I": 31,
+          "A": 12,
+          "S": 32,
+          "E": 11,
+          "C": 26
+        },
+        "complete": true,
+        "flat": false,
+        "nearFlat": false,
+        "pathways": [
+          {
+            "id": "health",
+            "title": "Health & helping",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.9216198469876294,
+            "workPreferencesConfirmed": true,
+            "workPreferencesLiked": [
+              "Investigating health concerns",
+              "Working directly with people receiving care",
+              "Handling careful health-related work"
+            ],
+            "workPreferencesDisliked": []
+          },
+          {
+            "id": "education",
+            "title": "Teaching & learning",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.7469547743078638,
+            "workPreferencesConfirmed": true,
+            "workPreferencesLiked": [
+              "Helping people understand ideas",
+              "Adapting lessons and feedback"
+            ],
+            "workPreferencesDisliked": []
+          },
+          {
+            "id": "science",
+            "title": "Science & environment",
+            "interestSupported": false,
+            "meanClosestThreeCorrelation": 0.3742394494675682,
+            "workPreferencesConfirmed": true,
+            "workPreferencesLiked": [
+              "Investigating questions with evidence",
+              "Exploring unanswered questions",
+              "Using careful research methods"
+            ],
+            "workPreferencesDisliked": []
+          }
+        ],
+        "family": "health",
+        "careerStatus": "suggestions",
+        "refined": [
+          {
+            "id": "nurse-practitioner",
+            "title": "Nurse Practitioners",
+            "correlation": 0.8905586559504529,
+            "alignment": "Very strong interest alignment",
+            "supportingQuestionCount": 8,
+            "taskEvidence": [
+              {
+                "questionId": "health-care",
+                "question": "Which parts of health and helping draw you in?",
+                "text": "Investigate symptoms and explain possible treatment",
+                "id": "health-care-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-investigate",
+                "question": "What would you enjoy understanding more deeply?",
+                "text": "How symptoms, medical history and tests fit together",
+                "id": "health-investigate-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-support",
+                "question": "How would you like to help someone?",
+                "text": "Listen to their concerns and explain a care plan",
+                "id": "health-support-1",
+                "scope": 5
+              },
+              {
+                "questionId": "health-workday",
+                "question": "Which health-care routines would you like to learn?",
+                "text": "Use evidence, keep records and review complex decisions",
+                "id": "health-workday-1",
+                "scope": 4
+              },
+              {
+                "questionId": "health-refine-1",
+                "question": "Which problem would you want to understand in more detail?",
+                "text": "An illness that could have several causes",
+                "id": "health-refine-1-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-2",
+                "question": "Which responsibility would you enjoy learning about?",
+                "text": "Diagnose a medical problem and manage treatment over time",
+                "id": "health-refine-2-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-3",
+                "question": "What would you like to explain to someone?",
+                "text": "Why symptoms point toward a diagnosis and what comes next",
+                "id": "health-refine-3-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-4",
+                "question": "Which supervised experience would you most want to try?",
+                "text": "Observe a medical consultation and discuss the reasoning afterward",
+                "id": "health-refine-4-1",
+                "scope": 3
+              }
+            ]
+          },
+          {
+            "id": "physician",
+            "title": "Physician · family medicine",
+            "correlation": 0.8797271698535014,
+            "alignment": "Very strong interest alignment",
+            "supportingQuestionCount": 8,
+            "taskEvidence": [
+              {
+                "questionId": "health-care",
+                "question": "Which parts of health and helping draw you in?",
+                "text": "Investigate symptoms and explain possible treatment",
+                "id": "health-care-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-investigate",
+                "question": "What would you enjoy understanding more deeply?",
+                "text": "How symptoms, medical history and tests fit together",
+                "id": "health-investigate-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-support",
+                "question": "How would you like to help someone?",
+                "text": "Listen to their concerns and explain a care plan",
+                "id": "health-support-1",
+                "scope": 5
+              },
+              {
+                "questionId": "health-workday",
+                "question": "Which health-care routines would you like to learn?",
+                "text": "Use evidence, keep records and review complex decisions",
+                "id": "health-workday-1",
+                "scope": 4
+              },
+              {
+                "questionId": "health-refine-1",
+                "question": "Which problem would you want to understand in more detail?",
+                "text": "An illness that could have several causes",
+                "id": "health-refine-1-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-2",
+                "question": "Which responsibility would you enjoy learning about?",
+                "text": "Diagnose a medical problem and manage treatment over time",
+                "id": "health-refine-2-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-3",
+                "question": "What would you like to explain to someone?",
+                "text": "Why symptoms point toward a diagnosis and what comes next",
+                "id": "health-refine-3-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-4",
+                "question": "Which supervised experience would you most want to try?",
+                "text": "Observe a medical consultation and discuss the reasoning afterward",
+                "id": "health-refine-4-1",
+                "scope": 3
+              }
+            ]
+          },
+          {
+            "id": "physician-assistant",
+            "title": "Physician Assistants",
+            "correlation": 0.8343809162551347,
+            "alignment": "Very strong interest alignment",
+            "supportingQuestionCount": 8,
+            "taskEvidence": [
+              {
+                "questionId": "health-care",
+                "question": "Which parts of health and helping draw you in?",
+                "text": "Investigate symptoms and explain possible treatment",
+                "id": "health-care-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-investigate",
+                "question": "What would you enjoy understanding more deeply?",
+                "text": "How symptoms, medical history and tests fit together",
+                "id": "health-investigate-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-support",
+                "question": "How would you like to help someone?",
+                "text": "Listen to their concerns and explain a care plan",
+                "id": "health-support-1",
+                "scope": 5
+              },
+              {
+                "questionId": "health-workday",
+                "question": "Which health-care routines would you like to learn?",
+                "text": "Use evidence, keep records and review complex decisions",
+                "id": "health-workday-1",
+                "scope": 4
+              },
+              {
+                "questionId": "health-refine-1",
+                "question": "Which problem would you want to understand in more detail?",
+                "text": "An illness that could have several causes",
+                "id": "health-refine-1-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-2",
+                "question": "Which responsibility would you enjoy learning about?",
+                "text": "Diagnose a medical problem and manage treatment over time",
+                "id": "health-refine-2-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-3",
+                "question": "What would you like to explain to someone?",
+                "text": "Why symptoms point toward a diagnosis and what comes next",
+                "id": "health-refine-3-1",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-4",
+                "question": "Which supervised experience would you most want to try?",
+                "text": "Observe a medical consultation and discuss the reasoning afterward",
+                "id": "health-refine-4-1",
+                "scope": 3
+              }
+            ]
+          }
+        ],
+        "otherCareers": [
+          {
+            "id": "nurse-practitioner",
+            "title": "Nurse Practitioners",
+            "correlation": 0.8905586559504529,
+            "taskSupport": 8,
+            "featured": true
+          },
+          {
+            "id": "physician",
+            "title": "Physician · family medicine",
+            "correlation": 0.8797271698535014,
+            "taskSupport": 8,
+            "featured": true
+          },
+          {
+            "id": "physician-assistant",
+            "title": "Physician Assistants",
+            "correlation": 0.8343809162551347,
+            "taskSupport": 8,
+            "featured": true
+          },
+          {
+            "id": "pharmacy",
+            "title": "Pharmacists",
+            "correlation": 0.9296532668725056,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "nursing",
+            "title": "Registered Nurses",
+            "correlation": 0.8807383798335017,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "speech-language",
+            "title": "Speech-Language Pathologists",
+            "correlation": 0.943669450039476,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "clinical-psychologist",
+            "title": "Clinical & Counseling Psychologists",
+            "correlation": 0.8915368240509063,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "school-psychology",
+            "title": "School Psychologists",
+            "correlation": 0.872679826028225,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "nutrition",
+            "title": "Dietitians and Nutritionists",
+            "correlation": 0.8446872460977672,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "psychiatric-technician",
+            "title": "Psychiatric Technicians",
+            "correlation": 0.8383596780029549,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "mental-health-counselor",
+            "title": "Mental Health Counselors",
+            "correlation": 0.8172160650738882,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "psychiatric-aide",
+            "title": "Psychiatric Aides",
+            "correlation": 0.8072898085683609,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "epidemiology",
+            "title": "Epidemiologists",
+            "correlation": 0.7969049136984876,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "occupational-therapy",
+            "title": "Occupational Therapists",
+            "correlation": 0.7397627907729171,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "social-work",
+            "title": "Child, Family, and School Social Workers",
+            "correlation": 0.723083124081914,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "physical-therapy",
+            "title": "Physical Therapists",
+            "correlation": 0.7007378256334693,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "social-research",
+            "title": "Social science research assistants",
+            "correlation": 0.6768543115562018,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "medical-assistant",
+            "title": "Medical Assistants",
+            "correlation": 0.6700560737429637,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "vocational-nurse",
+            "title": "Licensed Practical & Licensed Vocational Nurses",
+            "correlation": 0.6287003404363909,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "respiratory-therapy",
+            "title": "Respiratory Therapists",
+            "correlation": 0.6112256493876167,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "dentist",
+            "title": "Dentist · general dentistry",
+            "correlation": 0.5579953754852566,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "dental-hygiene",
+            "title": "Dental Hygienists",
+            "correlation": 0.6037154124896127,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "dental-assisting",
+            "title": "Dental assistants",
+            "correlation": 0.5801664646741383,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "nursing-assistant",
+            "title": "Nursing Assistants",
+            "correlation": 0.5261087231530573,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "exercise-physiology",
+            "title": "Exercise Physiologists",
+            "correlation": 0.48732434793316537,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "personal-care-aide",
+            "title": "Personal Care Aides",
+            "correlation": 0.455126670986565,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "sonography",
+            "title": "Medical sonographers",
+            "correlation": 0.44415744566650167,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "radiologic-technologist",
+            "title": "Radiologic Technologists & Technicians",
+            "correlation": 0.4064054214118774,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "pharmacy-technician",
+            "title": "Pharmacy Technicians",
+            "correlation": 0.3454352313629389,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "food-science",
+            "title": "Food Scientists and Technologists",
+            "correlation": 0.17297460905172146,
+            "taskSupport": 0,
+            "featured": false
+          }
+        ]
+      },
+      "noviceSkillRatingsChangeMatch": false,
+      "plausibleAnswerVariation": {
+        "changes": [
+          [
+            32,
+            2
+          ]
+        ],
+        "scores": {
+          "R": 11,
+          "I": 31,
+          "A": 12,
+          "S": 31,
+          "E": 11,
+          "C": 26
+        },
+        "threePathways": [
+          "health",
+          "education",
+          "creative"
+        ],
+        "refined": [
+          "nurse-practitioner",
+          "physician",
+          "physician-assistant"
+        ]
+      }
+    },
+    {
+      "id": "precision-and-dental-care",
+      "name": "Careful maker drawn to dentistry",
+      "story": "Likes careful handwork, human biology and reassuring patients. Dislikes sales and public performance. Wants to compare dentistry with dental hygiene.",
+      "officialAnswers": {
+        "onet-sf-01": 4,
+        "onet-sf-02": 3,
+        "onet-sf-03": 5,
+        "onet-sf-04": 4,
+        "onet-sf-05": 2,
+        "onet-sf-06": 2,
+        "onet-sf-07": 3,
+        "onet-sf-08": 4,
+        "onet-sf-09": 2,
+        "onet-sf-10": 2,
+        "onet-sf-11": 4,
+        "onet-sf-12": 4,
+        "onet-sf-13": 5,
+        "onet-sf-14": 1,
+        "onet-sf-15": 5,
+        "onet-sf-16": 2,
+        "onet-sf-17": 2,
+        "onet-sf-18": 2,
+        "onet-sf-19": 3,
+        "onet-sf-20": 5,
+        "onet-sf-21": 2,
+        "onet-sf-22": 2,
+        "onet-sf-23": 4,
+        "onet-sf-24": 3,
+        "onet-sf-25": 5,
+        "onet-sf-26": 2,
+        "onet-sf-27": 5,
+        "onet-sf-28": 4,
+        "onet-sf-29": 2,
+        "onet-sf-30": 2,
+        "onet-sf-31": 3,
+        "onet-sf-32": 2,
+        "onet-sf-33": 2,
+        "onet-sf-34": 2,
+        "onet-sf-35": 4,
+        "onet-sf-36": 4,
+        "onet-sf-37": 5,
+        "onet-sf-38": 5,
+        "onet-sf-39": 3,
+        "onet-sf-40": 5,
+        "onet-sf-41": 2,
+        "onet-sf-42": 2,
+        "onet-sf-43": 3,
+        "onet-sf-44": 3,
+        "onet-sf-45": 2,
+        "onet-sf-46": 2,
+        "onet-sf-47": 4,
+        "onet-sf-48": 4,
+        "onet-sf-49": 5,
+        "onet-sf-50": 2,
+        "onet-sf-51": 4,
+        "onet-sf-52": 5,
+        "onet-sf-53": 2,
+        "onet-sf-54": 2,
+        "onet-sf-55": 2,
+        "onet-sf-56": 3,
+        "onet-sf-57": 2,
+        "onet-sf-58": 2,
+        "onet-sf-59": 4,
+        "onet-sf-60": 3
+      },
+      "baseline": {
+        "scores": {
+          "R": 27,
+          "I": 32,
+          "A": 10,
+          "S": 21,
+          "E": 10,
+          "C": 28
+        },
+        "complete": true,
+        "flat": false,
+        "nearFlat": false,
+        "pathways": [
+          {
+            "id": "health",
+            "title": "Health & helping",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.9309604048260844,
+            "workPreferencesConfirmed": true,
+            "workPreferencesLiked": [
+              "Investigating health concerns",
+              "Working directly with people receiving care",
+              "Handling careful health-related work"
+            ],
+            "workPreferencesDisliked": []
+          },
+          {
+            "id": "science",
+            "title": "Science & environment",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.9055387024430567,
+            "workPreferencesConfirmed": true,
+            "workPreferencesLiked": [
+              "Investigating questions with evidence",
+              "Exploring unanswered questions"
+            ],
+            "workPreferencesDisliked": []
+          },
+          {
+            "id": "building",
+            "title": "Engineering & building",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.8277251260767778,
+            "workPreferencesConfirmed": false,
+            "workPreferencesLiked": [],
+            "workPreferencesDisliked": [
+              "Designing things before they are built",
+              "Working through technical designs",
+              "Balancing design and real-world constraints"
+            ]
+          }
+        ],
+        "family": "health",
+        "careerStatus": "suggestions",
+        "refined": [
+          {
+            "id": "dentist",
+            "title": "Dentist · general dentistry",
+            "correlation": 0.9117919250804961,
+            "alignment": "Very strong interest alignment",
+            "supportingQuestionCount": 8,
+            "taskEvidence": [
+              {
+                "questionId": "health-care",
+                "question": "Which parts of health and helping draw you in?",
+                "text": "Learn precise hands-on care for teeth and gums",
+                "id": "health-care-3",
+                "scope": 3
+              },
+              {
+                "questionId": "health-investigate",
+                "question": "What would you enjoy understanding more deeply?",
+                "text": "How oral health affects someone’s comfort and health",
+                "id": "health-investigate-2",
+                "scope": 3
+              },
+              {
+                "questionId": "health-support",
+                "question": "How would you like to help someone?",
+                "text": "Listen to their concerns and explain a care plan",
+                "id": "health-support-1",
+                "scope": 5
+              },
+              {
+                "questionId": "health-workday",
+                "question": "Which health-care routines would you like to learn?",
+                "text": "Carry out careful procedures while helping a patient feel at ease",
+                "id": "health-workday-2",
+                "scope": 5
+              },
+              {
+                "questionId": "health-refine-1",
+                "question": "Which problem would you want to understand in more detail?",
+                "text": "A problem with teeth, gums, or a patient’s oral health",
+                "id": "health-refine-1-2",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-2",
+                "question": "Which responsibility would you enjoy learning about?",
+                "text": "Plan and carry out precise dental treatment",
+                "id": "health-refine-2-3",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-3",
+                "question": "What would you like to explain to someone?",
+                "text": "How to care for teeth and what a dental procedure involves",
+                "id": "health-refine-3-3",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-4",
+                "question": "Which supervised experience would you most want to try?",
+                "text": "Observe a dental clinic and its careful procedures",
+                "id": "health-refine-4-2",
+                "scope": 3
+              }
+            ]
+          },
+          {
+            "id": "dental-hygiene",
+            "title": "Dental Hygienists",
+            "correlation": 0.8397373358914163,
+            "alignment": "Very strong interest alignment",
+            "supportingQuestionCount": 7,
+            "taskEvidence": [
+              {
+                "questionId": "health-care",
+                "question": "Which parts of health and helping draw you in?",
+                "text": "Learn precise hands-on care for teeth and gums",
+                "id": "health-care-3",
+                "scope": 3
+              },
+              {
+                "questionId": "health-investigate",
+                "question": "What would you enjoy understanding more deeply?",
+                "text": "How oral health affects someone’s comfort and health",
+                "id": "health-investigate-2",
+                "scope": 3
+              },
+              {
+                "questionId": "health-workday",
+                "question": "Which health-care routines would you like to learn?",
+                "text": "Carry out careful procedures while helping a patient feel at ease",
+                "id": "health-workday-2",
+                "scope": 5
+              },
+              {
+                "questionId": "health-refine-1",
+                "question": "Which problem would you want to understand in more detail?",
+                "text": "A problem with teeth, gums, or a patient’s oral health",
+                "id": "health-refine-1-2",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-2",
+                "question": "Which responsibility would you enjoy learning about?",
+                "text": "Plan and carry out precise dental treatment",
+                "id": "health-refine-2-3",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-3",
+                "question": "What would you like to explain to someone?",
+                "text": "How to care for teeth and what a dental procedure involves",
+                "id": "health-refine-3-3",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-4",
+                "question": "Which supervised experience would you most want to try?",
+                "text": "Observe a dental clinic and its careful procedures",
+                "id": "health-refine-4-2",
+                "scope": 3
+              }
+            ]
+          },
+          {
+            "id": "dental-assisting",
+            "title": "Dental assistants",
+            "correlation": 0.8384599866352256,
+            "alignment": "Very strong interest alignment",
+            "supportingQuestionCount": 7,
+            "taskEvidence": [
+              {
+                "questionId": "health-care",
+                "question": "Which parts of health and helping draw you in?",
+                "text": "Learn precise hands-on care for teeth and gums",
+                "id": "health-care-3",
+                "scope": 3
+              },
+              {
+                "questionId": "health-investigate",
+                "question": "What would you enjoy understanding more deeply?",
+                "text": "How oral health affects someone’s comfort and health",
+                "id": "health-investigate-2",
+                "scope": 3
+              },
+              {
+                "questionId": "health-workday",
+                "question": "Which health-care routines would you like to learn?",
+                "text": "Carry out careful procedures while helping a patient feel at ease",
+                "id": "health-workday-2",
+                "scope": 5
+              },
+              {
+                "questionId": "health-refine-1",
+                "question": "Which problem would you want to understand in more detail?",
+                "text": "A problem with teeth, gums, or a patient’s oral health",
+                "id": "health-refine-1-2",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-2",
+                "question": "Which responsibility would you enjoy learning about?",
+                "text": "Plan and carry out precise dental treatment",
+                "id": "health-refine-2-3",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-3",
+                "question": "What would you like to explain to someone?",
+                "text": "How to care for teeth and what a dental procedure involves",
+                "id": "health-refine-3-3",
+                "scope": 3
+              },
+              {
+                "questionId": "health-refine-4",
+                "question": "Which supervised experience would you most want to try?",
+                "text": "Observe a dental clinic and its careful procedures",
+                "id": "health-refine-4-2",
+                "scope": 3
+              }
+            ]
+          }
+        ],
+        "otherCareers": [
+          {
+            "id": "dentist",
+            "title": "Dentist · general dentistry",
+            "correlation": 0.9117919250804961,
+            "taskSupport": 8,
+            "featured": true
+          },
+          {
+            "id": "dental-hygiene",
+            "title": "Dental Hygienists",
+            "correlation": 0.8397373358914163,
+            "taskSupport": 7,
+            "featured": true
+          },
+          {
+            "id": "dental-assisting",
+            "title": "Dental assistants",
+            "correlation": 0.8384599866352256,
+            "taskSupport": 7,
+            "featured": true
+          },
+          {
+            "id": "nursing",
+            "title": "Registered Nurses",
+            "correlation": 0.7542890191724254,
+            "taskSupport": 2,
+            "featured": false
+          },
+          {
+            "id": "nurse-practitioner",
+            "title": "Nurse Practitioners",
+            "correlation": 0.8013706952233445,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "physician-assistant",
+            "title": "Physician Assistants",
+            "correlation": 0.7885188077556446,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "physician",
+            "title": "Physician · family medicine",
+            "correlation": 0.740533673364586,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "radiologic-technologist",
+            "title": "Radiologic Technologists & Technicians",
+            "correlation": 0.9491093560003259,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "sonography",
+            "title": "Medical sonographers",
+            "correlation": 0.9319799333974313,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "respiratory-therapy",
+            "title": "Respiratory Therapists",
+            "correlation": 0.8787014038501472,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "food-science",
+            "title": "Food Scientists and Technologists",
+            "correlation": 0.824993625093012,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "exercise-physiology",
+            "title": "Exercise Physiologists",
+            "correlation": 0.811499039717718,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "medical-assistant",
+            "title": "Medical Assistants",
+            "correlation": 0.7937406595459395,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "pharmacy",
+            "title": "Pharmacists",
+            "correlation": 0.7742893777154713,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "social-research",
+            "title": "Social science research assistants",
+            "correlation": 0.7655851470177373,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "epidemiology",
+            "title": "Epidemiologists",
+            "correlation": 0.7330798004908062,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "vocational-nurse",
+            "title": "Licensed Practical & Licensed Vocational Nurses",
+            "correlation": 0.7247726420212908,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "pharmacy-technician",
+            "title": "Pharmacy Technicians",
+            "correlation": 0.6451874422171688,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "physical-therapy",
+            "title": "Physical Therapists",
+            "correlation": 0.607117983958456,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "nursing-assistant",
+            "title": "Nursing Assistants",
+            "correlation": 0.5858869475488752,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "speech-language",
+            "title": "Speech-Language Pathologists",
+            "correlation": 0.5759829573943621,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "psychiatric-technician",
+            "title": "Psychiatric Technicians",
+            "correlation": 0.5172973773810935,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "psychiatric-aide",
+            "title": "Psychiatric Aides",
+            "correlation": 0.5159581187350806,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "occupational-therapy",
+            "title": "Occupational Therapists",
+            "correlation": 0.42372111153798975,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "nutrition",
+            "title": "Dietitians and Nutritionists",
+            "correlation": 0.4161608474266493,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "clinical-psychologist",
+            "title": "Clinical & Counseling Psychologists",
+            "correlation": 0.22887236488223214,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "personal-care-aide",
+            "title": "Personal Care Aides",
+            "correlation": 0.17737819821006806,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "school-psychology",
+            "title": "School Psychologists",
+            "correlation": 0.15053880161607017,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "mental-health-counselor",
+            "title": "Mental Health Counselors",
+            "correlation": 0.08013231627182807,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "social-work",
+            "title": "Child, Family, and School Social Workers",
+            "correlation": 0.004573905452629272,
+            "taskSupport": 0,
+            "featured": false
+          }
+        ]
+      },
+      "noviceSkillRatingsChangeMatch": false,
+      "plausibleAnswerVariation": {
+        "changes": [
+          [
+            27,
+            3
+          ]
+        ],
+        "scores": {
+          "R": 27,
+          "I": 30,
+          "A": 10,
+          "S": 21,
+          "E": 10,
+          "C": 28
+        },
+        "threePathways": [
+          "health",
+          "science",
+          "building"
+        ],
+        "refined": [
+          "dentist",
+          "dental-assisting",
+          "dental-hygiene"
+        ]
+      }
+    },
+    {
+      "id": "visual-not-performance",
+      "name": "Visual designer, not a performer",
+      "story": "Loves posters, visual layouts, photographs and product sketches. Does not enjoy music, acting, creative writing or selling. An arts score must not erase that visual interest.",
+      "officialAnswers": {
+        "onet-sf-01": 2,
+        "onet-sf-02": 2,
+        "onet-sf-03": 2,
+        "onet-sf-04": 2,
+        "onet-sf-05": 4,
+        "onet-sf-06": 3,
+        "onet-sf-07": 3,
+        "onet-sf-08": 3,
+        "onet-sf-09": 2,
+        "onet-sf-10": 2,
+        "onet-sf-11": 4,
+        "onet-sf-12": 4,
+        "onet-sf-13": 2,
+        "onet-sf-14": 2,
+        "onet-sf-15": 2,
+        "onet-sf-16": 2,
+        "onet-sf-17": 3,
+        "onet-sf-18": 5,
+        "onet-sf-19": 3,
+        "onet-sf-20": 3,
+        "onet-sf-21": 2,
+        "onet-sf-22": 2,
+        "onet-sf-23": 3,
+        "onet-sf-24": 3,
+        "onet-sf-25": 2,
+        "onet-sf-26": 2,
+        "onet-sf-27": 2,
+        "onet-sf-28": 2,
+        "onet-sf-29": 5,
+        "onet-sf-30": 5,
+        "onet-sf-31": 3,
+        "onet-sf-32": 3,
+        "onet-sf-33": 2,
+        "onet-sf-34": 2,
+        "onet-sf-35": 4,
+        "onet-sf-36": 4,
+        "onet-sf-37": 2,
+        "onet-sf-38": 2,
+        "onet-sf-39": 2,
+        "onet-sf-40": 2,
+        "onet-sf-41": 5,
+        "onet-sf-42": 2,
+        "onet-sf-43": 3,
+        "onet-sf-44": 3,
+        "onet-sf-45": 2,
+        "onet-sf-46": 2,
+        "onet-sf-47": 3,
+        "onet-sf-48": 3,
+        "onet-sf-49": 2,
+        "onet-sf-50": 2,
+        "onet-sf-51": 2,
+        "onet-sf-52": 2,
+        "onet-sf-53": 2,
+        "onet-sf-54": 5,
+        "onet-sf-55": 3,
+        "onet-sf-56": 3,
+        "onet-sf-57": 2,
+        "onet-sf-58": 2,
+        "onet-sf-59": 3,
+        "onet-sf-60": 3
+      },
+      "baseline": {
+        "scores": {
+          "R": 10,
+          "I": 10,
+          "A": 29,
+          "S": 20,
+          "E": 10,
+          "C": 24
+        },
+        "complete": true,
+        "flat": false,
+        "nearFlat": false,
+        "pathways": [
+          {
+            "id": "creative",
+            "title": "Design & creativity",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.7383590025525711,
+            "workPreferencesConfirmed": true,
+            "workPreferencesLiked": [
+              "Creating original work",
+              "Revising creative ideas",
+              "Understanding an audience"
+            ],
+            "workPreferencesDisliked": []
+          },
+          {
+            "id": "education",
+            "title": "Teaching & learning",
+            "interestSupported": false,
+            "meanClosestThreeCorrelation": 0.470641054171636,
+            "workPreferencesConfirmed": false,
+            "workPreferencesLiked": [],
+            "workPreferencesDisliked": [
+              "Helping people understand ideas",
+              "Working alongside different learners",
+              "Adapting lessons and feedback"
+            ]
+          },
+          {
+            "id": "health",
+            "title": "Health & helping",
+            "interestSupported": false,
+            "meanClosestThreeCorrelation": 0.26038309321313385,
+            "workPreferencesConfirmed": false,
+            "workPreferencesLiked": [],
+            "workPreferencesDisliked": [
+              "Investigating health concerns",
+              "Working directly with people receiving care",
+              "Handling careful health-related work"
+            ]
+          }
+        ],
+        "family": "creative",
+        "careerStatus": "suggestions",
+        "refined": [
+          {
+            "id": "graphic-design",
+            "title": "Graphic Designers",
+            "correlation": 0.6612040552004772,
+            "alignment": "Strong interest alignment",
+            "supportingQuestionCount": 8,
+            "taskEvidence": [
+              {
+                "questionId": "creative-make",
+                "question": "What would you enjoy creating?",
+                "text": "A visual message that helps people understand an idea",
+                "id": "creative-make-1",
+                "scope": 2
+              },
+              {
+                "questionId": "creative-revise",
+                "question": "Which kind of revision sounds satisfying?",
+                "text": "Make a layout easier to read and navigate",
+                "id": "creative-revise-1",
+                "scope": 2
+              },
+              {
+                "questionId": "creative-people",
+                "question": "Who would you enjoy creating with or for?",
+                "text": "Clients who need a clear visual identity",
+                "id": "creative-people-1",
+                "scope": 3
+              },
+              {
+                "questionId": "creative-workday",
+                "question": "Which parts of a creative workday would you like to try?",
+                "text": "Make several drafts and improve them after feedback",
+                "id": "creative-workday-1",
+                "scope": 4
+              },
+              {
+                "questionId": "creative-refine-1",
+                "question": "Which creative problem would keep you curious?",
+                "text": "Make a visual message memorable without making it confusing",
+                "id": "creative-refine-1-1",
+                "scope": 1
+              },
+              {
+                "questionId": "creative-refine-2",
+                "question": "Which result would you most enjoy finishing?",
+                "text": "A visual identity and a set of clear layouts",
+                "id": "creative-refine-2-1",
+                "scope": 1
+              },
+              {
+                "questionId": "creative-refine-3",
+                "question": "Which details would you enjoy checking?",
+                "text": "Type, spacing, colour, and the order people read a page",
+                "id": "creative-refine-3-1",
+                "scope": 2
+              },
+              {
+                "questionId": "creative-refine-4",
+                "question": "Which beginner project would you choose?",
+                "text": "Design and revise a poster for a real audience",
+                "id": "creative-refine-4-1",
+                "scope": 1
+              }
+            ]
+          }
+        ],
+        "otherCareers": [
+          {
+            "id": "interpreting",
+            "title": "Interpreters and Translators",
+            "correlation": 0.8646497249878609,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "graphic-design",
+            "title": "Graphic Designers",
+            "correlation": 0.6612040552004772,
+            "taskSupport": 8,
+            "featured": true
+          },
+          {
+            "id": "film-editing",
+            "title": "Film and Video Editors",
+            "correlation": 0.6892232274693755,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "animation",
+            "title": "Special Effects Artists and Animators",
+            "correlation": 0.6153912342590799,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "web-interface-design",
+            "title": "Web & Digital Interface Designers",
+            "correlation": 0.2857780519505767,
+            "taskSupport": 5,
+            "featured": false
+          },
+          {
+            "id": "writing",
+            "title": "Writers & authors",
+            "correlation": 0.569244710081442,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "photographer",
+            "title": "Photographers",
+            "correlation": 0.285292821759474,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "industrial-design",
+            "title": "Industrial designers",
+            "correlation": 0.11112686837678176,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "librarian",
+            "title": "Librarians & media specialists",
+            "correlation": 0.3747406142227663,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "public-relations",
+            "title": "Public Relations Specialists",
+            "correlation": 0.31382885086749845,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "social-research",
+            "title": "Social science research assistants",
+            "correlation": -0.08002982249786328,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "tattoo",
+            "title": "Tattoo artists",
+            "correlation": null,
+            "taskSupport": 0,
+            "featured": false
+          }
+        ]
+      },
+      "noviceSkillRatingsChangeMatch": false,
+      "plausibleAnswerVariation": {
+        "changes": [
+          [
+            7,
+            2
+          ],
+          [
+            43,
+            2
+          ]
+        ],
+        "scores": {
+          "R": 10,
+          "I": 10,
+          "A": 29,
+          "S": 18,
+          "E": 10,
+          "C": 24
+        },
+        "threePathways": [
+          "creative",
+          "education",
+          "health"
+        ],
+        "refined": [
+          "graphic-design"
+        ]
+      }
+    },
+    {
+      "id": "hands-on-diagnostics",
+      "name": "Repair-club student",
+      "story": "Repairs objects and likes wiring, diagrams and diagnosing faults. Prefers learning by doing and wants to compare paid training with engineering.",
+      "officialAnswers": {
+        "onet-sf-01": 5,
+        "onet-sf-02": 5,
+        "onet-sf-03": 2,
+        "onet-sf-04": 2,
+        "onet-sf-05": 1,
+        "onet-sf-06": 1,
+        "onet-sf-07": 2,
+        "onet-sf-08": 2,
+        "onet-sf-09": 2,
+        "onet-sf-10": 2,
+        "onet-sf-11": 3,
+        "onet-sf-12": 4,
+        "onet-sf-13": 5,
+        "onet-sf-14": 1,
+        "onet-sf-15": 3,
+        "onet-sf-16": 2,
+        "onet-sf-17": 1,
+        "onet-sf-18": 2,
+        "onet-sf-19": 2,
+        "onet-sf-20": 2,
+        "onet-sf-21": 2,
+        "onet-sf-22": 2,
+        "onet-sf-23": 3,
+        "onet-sf-24": 4,
+        "onet-sf-25": 5,
+        "onet-sf-26": 3,
+        "onet-sf-27": 3,
+        "onet-sf-28": 4,
+        "onet-sf-29": 2,
+        "onet-sf-30": 2,
+        "onet-sf-31": 2,
+        "onet-sf-32": 2,
+        "onet-sf-33": 2,
+        "onet-sf-34": 2,
+        "onet-sf-35": 4,
+        "onet-sf-36": 3,
+        "onet-sf-37": 5,
+        "onet-sf-38": 5,
+        "onet-sf-39": 2,
+        "onet-sf-40": 2,
+        "onet-sf-41": 1,
+        "onet-sf-42": 1,
+        "onet-sf-43": 2,
+        "onet-sf-44": 2,
+        "onet-sf-45": 2,
+        "onet-sf-46": 2,
+        "onet-sf-47": 4,
+        "onet-sf-48": 3,
+        "onet-sf-49": 5,
+        "onet-sf-50": 3,
+        "onet-sf-51": 2,
+        "onet-sf-52": 3,
+        "onet-sf-53": 1,
+        "onet-sf-54": 2,
+        "onet-sf-55": 2,
+        "onet-sf-56": 2,
+        "onet-sf-57": 2,
+        "onet-sf-58": 2,
+        "onet-sf-59": 4,
+        "onet-sf-60": 3
+      },
+      "baseline": {
+        "scores": {
+          "R": 32,
+          "I": 15,
+          "A": 4,
+          "S": 10,
+          "E": 10,
+          "C": 25
+        },
+        "complete": true,
+        "flat": false,
+        "nearFlat": false,
+        "pathways": [
+          {
+            "id": "trades",
+            "title": "Trades & technical repair",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.9704462794341245,
+            "workPreferencesConfirmed": true,
+            "workPreferencesLiked": [
+              "Installing or repairing physical systems",
+              "Working with tools and materials",
+              "Diagnosing faults and checking repairs"
+            ],
+            "workPreferencesDisliked": []
+          },
+          {
+            "id": "transportation-production",
+            "title": "Transport & production",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.9659870331731829,
+            "workPreferencesConfirmed": true,
+            "workPreferencesLiked": [
+              "Keeping materials and work moving",
+              "Working in a physical operations setting",
+              "Checking operations and safety"
+            ],
+            "workPreferencesDisliked": []
+          },
+          {
+            "id": "building",
+            "title": "Engineering & building",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.8585316349952025,
+            "workPreferencesConfirmed": false,
+            "workPreferencesLiked": [],
+            "workPreferencesDisliked": [
+              "Designing things before they are built",
+              "Balancing design and real-world constraints"
+            ]
+          }
+        ],
+        "family": "trades",
+        "careerStatus": "suggestions",
+        "refined": [
+          {
+            "id": "electrician",
+            "title": "Electricians",
+            "correlation": 0.9630511602321972,
+            "alignment": "Very strong interest alignment",
+            "supportingQuestionCount": 8,
+            "taskEvidence": [
+              {
+                "questionId": "trades-systems",
+                "question": "Which systems would you like to work with?",
+                "text": "Wiring, electrical equipment and circuits",
+                "id": "trades-systems-1",
+                "scope": 2
+              },
+              {
+                "questionId": "trades-process",
+                "question": "What sounds satisfying to learn?",
+                "text": "Install a new system from drawings and instructions",
+                "id": "trades-process-2",
+                "scope": 3
+              },
+              {
+                "questionId": "trades-place",
+                "question": "Where would you enjoy learning practical work?",
+                "text": "Different homes and buildings that need service",
+                "id": "trades-place-2",
+                "scope": 4
+              },
+              {
+                "questionId": "trades-workday",
+                "question": "Which routines would you like to practice?",
+                "text": "Read drawings, measure carefully and check the result",
+                "id": "trades-workday-1",
+                "scope": 4
+              },
+              {
+                "questionId": "trades-refine-1",
+                "question": "Which fault would you most enjoy tracing?",
+                "text": "A circuit or electrical component that will not work",
+                "id": "trades-refine-1-1",
+                "scope": 1
+              },
+              {
+                "questionId": "trades-refine-2",
+                "question": "Which finished result would feel satisfying?",
+                "text": "An electrical installation that passes the required checks",
+                "id": "trades-refine-2-1",
+                "scope": 1
+              },
+              {
+                "questionId": "trades-refine-3",
+                "question": "Which details would you enjoy learning to check?",
+                "text": "Circuits, connections, isolation, and electrical drawings",
+                "id": "trades-refine-3-1",
+                "scope": 1
+              },
+              {
+                "questionId": "trades-refine-4",
+                "question": "Which safe introduction would you choose?",
+                "text": "A low-voltage circuit demonstration with an instructor",
+                "id": "trades-refine-4-1",
+                "scope": 1
+              }
+            ]
+          },
+          {
+            "id": "plumbing",
+            "title": "Plumbers & pipefitters",
+            "correlation": 0.9511979829504282,
+            "alignment": "Very strong interest alignment",
+            "supportingQuestionCount": 3,
+            "taskEvidence": [
+              {
+                "questionId": "trades-process",
+                "question": "What sounds satisfying to learn?",
+                "text": "Install a new system from drawings and instructions",
+                "id": "trades-process-2",
+                "scope": 3
+              },
+              {
+                "questionId": "trades-place",
+                "question": "Where would you enjoy learning practical work?",
+                "text": "Different homes and buildings that need service",
+                "id": "trades-place-2",
+                "scope": 4
+              },
+              {
+                "questionId": "trades-workday",
+                "question": "Which routines would you like to practice?",
+                "text": "Read drawings, measure carefully and check the result",
+                "id": "trades-workday-1",
+                "scope": 4
+              }
+            ]
+          }
+        ],
+        "otherCareers": [
+          {
+            "id": "electrician",
+            "title": "Electricians",
+            "correlation": 0.9630511602321972,
+            "taskSupport": 8,
+            "featured": true
+          },
+          {
+            "id": "plumbing",
+            "title": "Plumbers & pipefitters",
+            "correlation": 0.9511979829504282,
+            "taskSupport": 3,
+            "featured": true
+          },
+          {
+            "id": "hvac",
+            "title": "HVAC technicians",
+            "correlation": 0.9738811733864025,
+            "taskSupport": 2,
+            "featured": false
+          },
+          {
+            "id": "industrial-machinery-mechanic",
+            "title": "Industrial Machinery Mechanics",
+            "correlation": 0.9683199859315574,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "general-maintenance",
+            "title": "Maintenance & Repair Workers, General",
+            "correlation": 0.9682994807793677,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "welder",
+            "title": "Welders, Cutters, Solderers, & Brazers",
+            "correlation": 0.9297024960482155,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "carpentry",
+            "title": "Carpenters",
+            "correlation": 0.871192669827014,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "automotive",
+            "title": "Automotive Service Technicians and Mechanics",
+            "correlation": 0.9691376789844135,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "construction-laborer",
+            "title": "Construction Laborers",
+            "correlation": 0.9353484170589481,
+            "taskSupport": 0,
+            "featured": false
+          }
+        ]
+      },
+      "noviceSkillRatingsChangeMatch": false,
+      "plausibleAnswerVariation": {
+        "changes": [
+          [
+            28,
+            3
+          ]
+        ],
+        "scores": {
+          "R": 32,
+          "I": 14,
+          "A": 4,
+          "S": 10,
+          "E": 10,
+          "C": 25
+        },
+        "threePathways": [
+          "trades",
+          "transportation-production",
+          "building"
+        ],
+        "refined": [
+          "electrician",
+          "plumbing"
+        ]
+      }
+    },
+    {
+      "id": "design-and-technology",
+      "name": "Art-and-coding student",
+      "story": "Enjoys both visual design and making digital tools usable. Wants to compare design with computing, not be forced into only one.",
+      "officialAnswers": {
+        "onet-sf-01": 2,
+        "onet-sf-02": 2,
+        "onet-sf-03": 4,
+        "onet-sf-04": 4,
+        "onet-sf-05": 4,
+        "onet-sf-06": 3,
+        "onet-sf-07": 2,
+        "onet-sf-08": 2,
+        "onet-sf-09": 2,
+        "onet-sf-10": 2,
+        "onet-sf-11": 4,
+        "onet-sf-12": 4,
+        "onet-sf-13": 2,
+        "onet-sf-14": 2,
+        "onet-sf-15": 4,
+        "onet-sf-16": 4,
+        "onet-sf-17": 3,
+        "onet-sf-18": 5,
+        "onet-sf-19": 2,
+        "onet-sf-20": 2,
+        "onet-sf-21": 2,
+        "onet-sf-22": 2,
+        "onet-sf-23": 5,
+        "onet-sf-24": 4,
+        "onet-sf-25": 2,
+        "onet-sf-26": 2,
+        "onet-sf-27": 4,
+        "onet-sf-28": 4,
+        "onet-sf-29": 5,
+        "onet-sf-30": 5,
+        "onet-sf-31": 2,
+        "onet-sf-32": 2,
+        "onet-sf-33": 2,
+        "onet-sf-34": 2,
+        "onet-sf-35": 4,
+        "onet-sf-36": 4,
+        "onet-sf-37": 2,
+        "onet-sf-38": 2,
+        "onet-sf-39": 5,
+        "onet-sf-40": 4,
+        "onet-sf-41": 5,
+        "onet-sf-42": 2,
+        "onet-sf-43": 2,
+        "onet-sf-44": 2,
+        "onet-sf-45": 2,
+        "onet-sf-46": 2,
+        "onet-sf-47": 4,
+        "onet-sf-48": 4,
+        "onet-sf-49": 2,
+        "onet-sf-50": 2,
+        "onet-sf-51": 4,
+        "onet-sf-52": 4,
+        "onet-sf-53": 2,
+        "onet-sf-54": 5,
+        "onet-sf-55": 2,
+        "onet-sf-56": 2,
+        "onet-sf-57": 2,
+        "onet-sf-58": 2,
+        "onet-sf-59": 4,
+        "onet-sf-60": 4
+      },
+      "baseline": {
+        "scores": {
+          "R": 10,
+          "I": 31,
+          "A": 29,
+          "S": 10,
+          "E": 10,
+          "C": 31
+        },
+        "complete": true,
+        "flat": false,
+        "nearFlat": false,
+        "pathways": [
+          {
+            "id": "creative",
+            "title": "Design & creativity",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.7937211126368385,
+            "workPreferencesConfirmed": true,
+            "workPreferencesLiked": [
+              "Creating original work",
+              "Revising creative ideas",
+              "Understanding an audience"
+            ],
+            "workPreferencesDisliked": []
+          },
+          {
+            "id": "technology",
+            "title": "Technology & data",
+            "interestSupported": true,
+            "meanClosestThreeCorrelation": 0.7861908899849128,
+            "workPreferencesConfirmed": true,
+            "workPreferencesLiked": [
+              "Building useful digital tools",
+              "Troubleshooting digital systems",
+              "Testing and refining solutions"
+            ],
+            "workPreferencesDisliked": []
+          },
+          {
+            "id": "health",
+            "title": "Health & helping",
+            "interestSupported": false,
+            "meanClosestThreeCorrelation": 0.46533573242070814,
+            "workPreferencesConfirmed": false,
+            "workPreferencesLiked": [],
+            "workPreferencesDisliked": [
+              "Investigating health concerns",
+              "Working directly with people receiving care",
+              "Handling careful health-related work"
+            ]
+          }
+        ],
+        "family": "creative",
+        "careerStatus": "suggestions",
+        "refined": [
+          {
+            "id": "web-interface-design",
+            "title": "Web & Digital Interface Designers",
+            "correlation": 0.9548347448935146,
+            "alignment": "Very strong interest alignment",
+            "supportingQuestionCount": 7,
+            "taskEvidence": [
+              {
+                "questionId": "creative-make",
+                "question": "What would you enjoy creating?",
+                "text": "A visual message that helps people understand an idea",
+                "id": "creative-make-1",
+                "scope": 2
+              },
+              {
+                "questionId": "creative-revise",
+                "question": "Which kind of revision sounds satisfying?",
+                "text": "Make a layout easier to read and navigate",
+                "id": "creative-revise-1",
+                "scope": 2
+              },
+              {
+                "questionId": "creative-people",
+                "question": "Who would you enjoy creating with or for?",
+                "text": "A team making a product or digital experience",
+                "id": "creative-people-2",
+                "scope": 3
+              },
+              {
+                "questionId": "creative-refine-1",
+                "question": "Which creative problem would keep you curious?",
+                "text": "Make a website or app easier to understand and use",
+                "id": "creative-refine-1-2",
+                "scope": 1
+              },
+              {
+                "questionId": "creative-refine-2",
+                "question": "Which result would you most enjoy finishing?",
+                "text": "A tested screen design that people can navigate",
+                "id": "creative-refine-2-2",
+                "scope": 1
+              },
+              {
+                "questionId": "creative-refine-3",
+                "question": "Which details would you enjoy checking?",
+                "text": "Type, spacing, colour, and the order people read a page",
+                "id": "creative-refine-3-1",
+                "scope": 2
+              },
+              {
+                "questionId": "creative-refine-4",
+                "question": "Which beginner project would you choose?",
+                "text": "Sketch an app screen and watch someone try it",
+                "id": "creative-refine-4-2",
+                "scope": 1
+              }
+            ]
+          }
+        ],
+        "otherCareers": [
+          {
+            "id": "web-interface-design",
+            "title": "Web & Digital Interface Designers",
+            "correlation": 0.9548347448935146,
+            "taskSupport": 7,
+            "featured": true
+          },
+          {
+            "id": "interpreting",
+            "title": "Interpreters and Translators",
+            "correlation": 0.753850280529034,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "social-research",
+            "title": "Social science research assistants",
+            "correlation": 0.6724783124879667,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "graphic-design",
+            "title": "Graphic Designers",
+            "correlation": 0.46979201482104377,
+            "taskSupport": 3,
+            "featured": false
+          },
+          {
+            "id": "industrial-design",
+            "title": "Industrial designers",
+            "correlation": 0.3931034616182727,
+            "taskSupport": 2,
+            "featured": false
+          },
+          {
+            "id": "animation",
+            "title": "Special Effects Artists and Animators",
+            "correlation": 0.3998976779532752,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "librarian",
+            "title": "Librarians & media specialists",
+            "correlation": 0.45982941704693864,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "writing",
+            "title": "Writers & authors",
+            "correlation": 0.40156071591270986,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "film-editing",
+            "title": "Film and Video Editors",
+            "correlation": 0.3636798522327974,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "photographer",
+            "title": "Photographers",
+            "correlation": 0.08141134624032724,
+            "taskSupport": 0,
+            "featured": false
+          },
+          {
+            "id": "public-relations",
+            "title": "Public Relations Specialists",
+            "correlation": -0.013084981457867191,
+            "taskSupport": 1,
+            "featured": false
+          },
+          {
+            "id": "tattoo",
+            "title": "Tattoo artists",
+            "correlation": null,
+            "taskSupport": 0,
+            "featured": false
+          }
+        ]
+      },
+      "noviceSkillRatingsChangeMatch": false,
+      "plausibleAnswerVariation": {
+        "changes": [
+          [
+            24,
+            3
+          ],
+          [
+            54,
+            4
+          ]
+        ],
+        "scores": {
+          "R": 10,
+          "I": 31,
+          "A": 28,
+          "S": 10,
+          "E": 10,
+          "C": 30
+        },
+        "threePathways": [
+          "technology",
+          "creative",
+          "health"
+        ],
+        "refined": [
+          "web-interface-design"
+        ]
+      }
+    }
+  ],
+  "checks": [
+    "All five students completed all 60 official answers.",
+    "Every featured role has strong full-profile alignment and support from at least three follow-up questions.",
+    "Changing all self-reported skills to new does not change interest scores or featured careers.",
+    "Mixed student retains identical six scores through design and technology branches.",
+    "All-unsure control yields no featured career."
+  ],
+  "findings": [
+    "Three-card display fills weaker exploration slots even when no additional field is endorsed.",
+    "Broad interest support can remain positive for engineering despite directly disliked field-work questions.",
+    "Medical follow-ups map diagnosis answers jointly to NP, physician and PA, so those choices do not uniquely establish which profession is preferred.",
+    "Dental treatment-planning option is mapped to dentist, hygienist and assistant; responsibilities need finer distinction."
+  ],
+  "mixedTechnologyBranch": {
+    "description": "Same six-dimensional profile. Student separately chooses building a website, tracing code, testing changes, and debugging a small app.",
+    "scores": {
+      "R": 10,
+      "I": 31,
+      "A": 29,
+      "S": 10,
+      "E": 10,
+      "C": 31
+    },
+    "complete": true,
+    "flat": false,
+    "nearFlat": false,
+    "pathways": [
+      {
+        "id": "creative",
+        "title": "Design & creativity",
+        "interestSupported": true,
+        "meanClosestThreeCorrelation": 0.7937211126368385,
+        "workPreferencesConfirmed": true,
+        "workPreferencesLiked": [
+          "Creating original work",
+          "Revising creative ideas",
+          "Understanding an audience"
+        ],
+        "workPreferencesDisliked": []
+      },
+      {
+        "id": "technology",
+        "title": "Technology & data",
+        "interestSupported": true,
+        "meanClosestThreeCorrelation": 0.7861908899849128,
+        "workPreferencesConfirmed": true,
+        "workPreferencesLiked": [
+          "Building useful digital tools",
+          "Troubleshooting digital systems",
+          "Testing and refining solutions"
+        ],
+        "workPreferencesDisliked": []
+      },
+      {
+        "id": "health",
+        "title": "Health & helping",
+        "interestSupported": false,
+        "meanClosestThreeCorrelation": 0.46533573242070814,
+        "workPreferencesConfirmed": false,
+        "workPreferencesLiked": [],
+        "workPreferencesDisliked": [
+          "Investigating health concerns",
+          "Working directly with people receiving care",
+          "Handling careful health-related work"
+        ]
+      }
+    ],
+    "family": "technology",
+    "careerStatus": "suggestions",
+    "refined": [
+      {
+        "id": "web-developer",
+        "title": "Web Developers",
+        "correlation": 0.8130513618502633,
+        "alignment": "Very strong interest alignment",
+        "supportingQuestionCount": 8,
+        "taskEvidence": [
+          {
+            "questionId": "technology-problem",
+            "question": "Which digital problem would you enjoy exploring?",
+            "text": "Build a useful app or website",
+            "id": "technology-problem-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-approach",
+            "question": "What would you like to do when a digital tool is not working?",
+            "text": "Trace the code and test a possible fix",
+            "id": "technology-approach-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-result",
+            "question": "Which result would feel satisfying?",
+            "text": "People can use something I built",
+            "id": "technology-result-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-workday",
+            "question": "Which parts of the work would you like to learn?",
+            "text": "Test small changes until a solution works reliably",
+            "id": "technology-workday-1",
+            "scope": 3
+          },
+          {
+            "questionId": "technology-refine-1",
+            "question": "Which problem would you want to untangle?",
+            "text": "A program that needs new behaviour",
+            "id": "technology-refine-1-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-refine-2",
+            "question": "Which result would you enjoy producing?",
+            "text": "A useful application or website",
+            "id": "technology-refine-2-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-refine-3",
+            "question": "Which details would you enjoy checking?",
+            "text": "Code, test cases, and unexpected behaviour",
+            "id": "technology-refine-3-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-refine-4",
+            "question": "Which small project would you try first?",
+            "text": "Build and debug a tiny application",
+            "id": "technology-refine-4-1",
+            "scope": 2
+          }
+        ]
+      },
+      {
+        "id": "software",
+        "title": "Software developers",
+        "correlation": 0.696012471728132,
+        "alignment": "Strong interest alignment",
+        "supportingQuestionCount": 8,
+        "taskEvidence": [
+          {
+            "questionId": "technology-problem",
+            "question": "Which digital problem would you enjoy exploring?",
+            "text": "Build a useful app or website",
+            "id": "technology-problem-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-approach",
+            "question": "What would you like to do when a digital tool is not working?",
+            "text": "Trace the code and test a possible fix",
+            "id": "technology-approach-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-result",
+            "question": "Which result would feel satisfying?",
+            "text": "People can use something I built",
+            "id": "technology-result-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-workday",
+            "question": "Which parts of the work would you like to learn?",
+            "text": "Test small changes until a solution works reliably",
+            "id": "technology-workday-1",
+            "scope": 3
+          },
+          {
+            "questionId": "technology-refine-1",
+            "question": "Which problem would you want to untangle?",
+            "text": "A program that needs new behaviour",
+            "id": "technology-refine-1-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-refine-2",
+            "question": "Which result would you enjoy producing?",
+            "text": "A useful application or website",
+            "id": "technology-refine-2-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-refine-3",
+            "question": "Which details would you enjoy checking?",
+            "text": "Code, test cases, and unexpected behaviour",
+            "id": "technology-refine-3-1",
+            "scope": 2
+          },
+          {
+            "questionId": "technology-refine-4",
+            "question": "Which small project would you try first?",
+            "text": "Build and debug a tiny application",
+            "id": "technology-refine-4-1",
+            "scope": 2
+          }
+        ]
+      }
+    ],
+    "otherCareers": [
+      {
+        "id": "web-developer",
+        "title": "Web Developers",
+        "correlation": 0.8130513618502633,
+        "taskSupport": 8,
+        "featured": true
+      },
+      {
+        "id": "data-science",
+        "title": "Data Scientists",
+        "correlation": 0.8106543510067334,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "statistics",
+        "title": "Statisticians",
+        "correlation": 0.7348669570977417,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "software",
+        "title": "Software developers",
+        "correlation": 0.696012471728132,
+        "taskSupport": 8,
+        "featured": true
+      },
+      {
+        "id": "systems-analysis",
+        "title": "Computer Systems Analysts",
+        "correlation": 0.6663671534004164,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "information-security",
+        "title": "Information Security Analysts",
+        "correlation": 0.47807044086065426,
+        "taskSupport": 1,
+        "featured": false
+      },
+      {
+        "id": "economics",
+        "title": "Economists",
+        "correlation": 0.6057937618937135,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "computer-support",
+        "title": "Computer User Support Specialists",
+        "correlation": 0.16124033688825093,
+        "taskSupport": 0,
+        "featured": false
+      }
+    ]
+  },
+  "uncertainControl": {
+    "scores": {
+      "R": 20,
+      "I": 20,
+      "A": 20,
+      "S": 20,
+      "E": 20,
+      "C": 20
+    },
+    "complete": true,
+    "flat": true,
+    "nearFlat": false,
+    "pathways": [
+      {
+        "id": "building",
+        "title": "Engineering & building",
+        "interestSupported": false,
+        "meanClosestThreeCorrelation": -1,
+        "workPreferencesConfirmed": false,
+        "workPreferencesLiked": [],
+        "workPreferencesDisliked": []
+      },
+      {
+        "id": "business",
+        "title": "Business & law",
+        "interestSupported": false,
+        "meanClosestThreeCorrelation": -1,
+        "workPreferencesConfirmed": false,
+        "workPreferencesLiked": [],
+        "workPreferencesDisliked": []
+      },
+      {
+        "id": "creative",
+        "title": "Design & creativity",
+        "interestSupported": false,
+        "meanClosestThreeCorrelation": -1,
+        "workPreferencesConfirmed": false,
+        "workPreferencesLiked": [],
+        "workPreferencesDisliked": []
+      }
+    ],
+    "family": "health",
+    "careerStatus": "open-profile",
+    "refined": [],
+    "otherCareers": [
+      {
+        "id": "clinical-psychologist",
+        "title": "Clinical & Counseling Psychologists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "dental-assisting",
+        "title": "Dental assistants",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "dental-hygiene",
+        "title": "Dental Hygienists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "dentist",
+        "title": "Dentist · general dentistry",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "epidemiology",
+        "title": "Epidemiologists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "exercise-physiology",
+        "title": "Exercise Physiologists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "food-science",
+        "title": "Food Scientists and Technologists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "medical-assistant",
+        "title": "Medical Assistants",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "mental-health-counselor",
+        "title": "Mental Health Counselors",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "nurse-practitioner",
+        "title": "Nurse Practitioners",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "nursing",
+        "title": "Registered Nurses",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "nursing-assistant",
+        "title": "Nursing Assistants",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "nutrition",
+        "title": "Dietitians and Nutritionists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "occupational-therapy",
+        "title": "Occupational Therapists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "personal-care-aide",
+        "title": "Personal Care Aides",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "pharmacy",
+        "title": "Pharmacists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "pharmacy-technician",
+        "title": "Pharmacy Technicians",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "physical-therapy",
+        "title": "Physical Therapists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "physician",
+        "title": "Physician · family medicine",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "physician-assistant",
+        "title": "Physician Assistants",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "psychiatric-aide",
+        "title": "Psychiatric Aides",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "psychiatric-technician",
+        "title": "Psychiatric Technicians",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "radiologic-technologist",
+        "title": "Radiologic Technologists & Technicians",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "respiratory-therapy",
+        "title": "Respiratory Therapists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "school-psychology",
+        "title": "School Psychologists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "social-research",
+        "title": "Social science research assistants",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "social-work",
+        "title": "Child, Family, and School Social Workers",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "sonography",
+        "title": "Medical sonographers",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "speech-language",
+        "title": "Speech-Language Pathologists",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      },
+      {
+        "id": "vocational-nurse",
+        "title": "Licensed Practical & Licensed Vocational Nurses",
+        "correlation": null,
+        "taskSupport": 0,
+        "featured": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+import {collegeProgramOptions} from './college-program-options.js';
+import {escapeHTML as h} from './model.js';
+const awardNames={AS:'Associate of Science',AA:'Associate of Arts',AAS:'Associate degree · career training',AAT:'Associate degree · teaching',BS:'Bachelor of Science',BA:'Bachelor of Arts',BBA:'Business degree',BFA:'Fine arts degree',MD:'Medical degree',DDS:'Dental degree',JD:'Law degree',PharmD:'Pharmacy degree',DVM:'Veterinary degree',PhD:'Doctoral degree',DPT:'Physical therapy doctorate',MS:'Master of Science',MA:'Master of Arts',MPH:'Public health master’s degree',MSN:'Nursing master’s degree',SSP:'School psychology graduate degree',BHA:'Health administration degree',BArch:'Architecture degree','Entry-level OTD':'Occupational therapy doctorate','CE certificate':'Short training certificate','Registered Medical Assistant CE program':'Medical assistant training','Continuing education CDL-A preparation':'Commercial driver training'};
+const awardLabel=p=>awardNames[p.award]||(/^BS/.test(p.award)?'Bachelor’s degree':p.award);
+export function chooseCollegeProgram(state,careerId,programId){
+ const options=collegeProgramOptions(careerId).categories.flatMap(c=>c.options);
+ if(!options.some(p=>p.id===programId))return false;
+ state.guide.programChoices??={};
+ if(state.guide.programChoices[careerId]===programId)delete state.guide.programChoices[careerId];
+ else state.guide.programChoices[careerId]=programId;
+ return true;
+}
+export function collegeProgramPanel(state,careerId,{selectable=false,plan=false}={}){
+ const data=collegeProgramOptions(careerId);if(!data.optionCount)return '';
+ const selected=state.guide?.programChoices?.[careerId],all=data.categories.flatMap(c=>c.options),kept=all.find(p=>p.id===selected);
+ const rows=plan&&kept?[{label:'Saved for this career',options:[kept]}]:data.categories;
+ return `<section class="college-programs" data-coverage="programs"><h2>${plan&&kept?'My program to explore':'Programs to explore'}</h2><p>${plan&&!kept?'You can save an example here. Choosing a school is not required.':'A few named options. Compare the route, then the cost.'}</p>${rows.map(c=>`<div class="program-group"><h3>${h(c.label)}</h3>${c.options.map(p=>`<article class="program-option"><h3>${h(p.title)}</h3><p><strong>${h(p.school)}</strong> · ${h(awardLabel(p))}</p><p>${h(p.relationship)}</p><p>${h(p.benefit)}</p>${p.careerNote&&['psychiatric-technician','industrial-design','industrial-machinery-mechanic'].includes(careerId)?'<p>Related study. This is not a job-specific qualification.</p>':''}<div class="program-actions"><a href="${h(p.url)}" target="_blank" rel="noopener">Program details ↗</a>${selectable?`<button class="text-link" data-action="guide-program" data-career="${h(careerId)}" data-id="${h(p.id)}" aria-pressed="${selected===p.id}">${selected===p.id?'Saved · remove':'Save this option'}</button>`:''}</div><details class="more-info"><summary>More info · entry & cost</summary>${p.duration?`<p>${h(p.duration)}</p>`:''}<p>${h(p.requirementsNote)}</p>${p.careerNote?`<p>${h(p.careerNote)}</p>`:''}<a href="${h(p.tuitionURL)}" target="_blank" rel="noopener">Published tuition & fees ↗</a><p>Tuition is only part of the cost. Compare fees, living costs, grants and loans in the budget below.</p><p>Reviewed ${h(p.checkedAt)}. Related study does not guarantee admission, licensing or higher pay.</p></details></article>`).join('')}</div>`).join('')}<details class="more-info"><summary>More info · these examples</summary><p>${h(data.note)}</p></details>${plan&&kept?'<a href="#/guide/education">Compare other program options →</a>':''}</section>`;
+}

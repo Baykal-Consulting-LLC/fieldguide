@@ -1,0 +1,1511 @@
+{
+  "scope": "Judge whether the specific defining work interests are established by the biography and supplied reflections. A career label is context, not evidence of student interest. Do not tune to counts or desired outcomes. Prior professional experience is not required; transferable skill alone is not sufficient.",
+  "rows": [
+    {
+      "modelId": "life-005",
+      "biography": {
+        "id": "life-005",
+        "name": "Amara Okafor",
+        "age": 16,
+        "pronouns": "she/her",
+        "background": {
+          "family": "Lives with her father and two younger siblings; mother died in 2021.",
+          "finances": "Father’s nursing shifts provide adequate income with limited schedule flexibility.",
+          "geography": "North Houston, Texas.",
+          "cultureLanguages": "English and some Igbo; close ties to a Nigerian American congregation.",
+          "school": "Public magnet school reached by a long bus ride.",
+          "accessOpportunities": "Strong school resources; after-school access depends on sibling care."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "In 2014, Amara and her mother made elaborate birthday cards for relatives. Amara liked cutting shapes more than writing messages and became annoyed when adults interpreted every scribble as a recognizable animal."
+          },
+          {
+            "ages": "6–7",
+            "story": "At six, she started gymnastics at a recreation center. In 2017, she happily practiced balances but declined a competition team because weekend family visits mattered more to her than collecting ribbons or traveling."
+          },
+          {
+            "ages": "8–9",
+            "story": "In 2018, her teacher introduced classroom voting. Amara organized a campaign for more art supplies, discovered that other children preferred sports equipment, and negotiated a smaller request instead of continuing the argument alone."
+          },
+          {
+            "ages": "10–11",
+            "story": "During 2020, she learned video-call routines alongside her siblings. Their mother became ill the following year and died in 2021. Extended family provided meals and school pickups while the family adjusted to profound changes."
+          },
+          {
+            "ages": "12–13",
+            "story": "At twelve, Amara met regularly with a school grief group and resumed drawing. Some days ordinary jokes felt welcome; other days celebrations were tiring. Her father kept asking before enrolling her in new activities."
+          },
+          {
+            "ages": "14–15",
+            "story": "In 2024, she began coordinating sibling pickup twice weekly and joined a ceramics class on Saturdays. A missed kiln deadline upset her more than expected, and the instructor helped her arrange a manageable second project."
+          },
+          {
+            "ages": "16",
+            "story": "At sixteen in 2026, Amara enjoys photographing neighborhood signs and takes a government elective seriously. She is considering a Houston college workshop but needs dates early enough to arrange caregiving, and she dislikes being praised mainly for resilience. Her latest photograph shows a fading shop sign reflected in a puddle after school."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Ceramics",
+            "Local policy discussions",
+            "Photographing lettering"
+          ],
+          "avoids": [
+            "Being assigned the role of family example",
+            "Unpredictable late meetings"
+          ],
+          "activities": [
+            "Sibling pickups",
+            "Saturday studio",
+            "School newspaper photographs"
+          ],
+          "demonstratedSkills": [
+            "Plans reliable routes",
+            "Negotiates shared tasks",
+            "Patient hand finishing"
+          ],
+          "unfamiliarActivities": [
+            "Overnight campus programs",
+            "Team coding projects"
+          ],
+          "motivations": [
+            "Protecting time for her own interests",
+            "Making shared spaces fairer"
+          ],
+          "ambitions": [
+            "Try a residential program for one week",
+            "Keep making objects without selling them",
+            "She imagines a home of her own near people she trusts, with enough personal time to make art and choose when to help."
+          ],
+          "struggles": [
+            "Grief anniversaries",
+            "Guilt when she declines family requests"
+          ],
+          "supports": [
+            "Father",
+            "Aunt",
+            "School counselor",
+            "Ceramics instructor"
+          ],
+          "practicalConstraints": [
+            "Sibling pickup twice weekly",
+            "Long school commute"
+          ]
+        },
+        "selfDescription": "I am responsible about some things and spectacularly messy about my desk. I want people to ask what I am making now instead of assuming that taking care of my family explains everything about me.",
+        "openQuestions": [
+          "How would she use time without caregiving duties?",
+          "Does she want public-facing work or simply more influence over local decisions?"
+        ],
+        "variationTags": [
+          "parental bereavement",
+          "caregiving",
+          "arts and civic curiosity",
+          "magnet commute"
+        ]
+      },
+      "career": {
+        "id": "photographer",
+        "title": "Photographers",
+        "summary": "Use images to tell stories, show products or preserve moments.",
+        "confirmation": {
+          "version": "0.44.0",
+          "confirmed": true,
+          "declined": false,
+          "inferred": true,
+          "code": "confirmed",
+          "headline": "Profile supports defining work interests",
+          "detail": "Two separate defining interests have profile evidence, alongside the broader task and role checks. These simulated answers support an interest match, not a recorded student choice or proof of readiness.",
+          "nextQuestionId": "photographer-interest-044-1",
+          "questions": [
+            {
+              "id": "photographer-interest-044-1",
+              "prompt": "Would you like to learn to compose photographs and adjust a camera to capture the people, places, or events you want to show?",
+              "activity": "Compose photographs and adjust a camera to capture the people, places, or events you want to show.",
+              "source": "https://www.onetonline.org/link/summary/27-4021.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "photographer"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "high",
+                "evidence": "She photographs neighborhood signs and contributes school newspaper photographs.",
+                "biographyPaths": [
+                  "timeline.6.story",
+                  "currentLife.activities"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            },
+            {
+              "id": "photographer-interest-044-2",
+              "prompt": "Would you like to learn to use natural or artificial light and review your pictures to improve the result for a photographic project?",
+              "activity": "Use natural or artificial light and review your pictures to improve the result for a photographic project.",
+              "source": "https://www.onetonline.org/link/summary/27-4021.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "photographer"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "high",
+                "evidence": "Her composed sign photograph uses a puddle reflection; photography is a current chosen interest.",
+                "biographyPaths": [
+                  "timeline.6.story"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "questionId": "creative-make",
+            "question": "What would you enjoy creating?",
+            "text": "A story through words, photographs or moving images",
+            "id": "creative-make-3",
+            "scope": 4,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-workday",
+            "question": "Which parts of a creative workday would you like to try?",
+            "text": "Work carefully with images, light, movement or sound",
+            "id": "creative-workday-2",
+            "scope": 3,
+            "kind": "task",
+            "domain": "context"
+          },
+          {
+            "questionId": "creative-refine-2",
+            "question": "Which result would you most enjoy finishing?",
+            "text": "An edited story, film, animation, or photo series",
+            "id": "creative-refine-2-4",
+            "scope": 4,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-refine-4",
+            "question": "Which beginner project would you choose?",
+            "text": "Make a short written, photographic, or moving-image story",
+            "id": "creative-refine-4-4",
+            "scope": 4,
+            "kind": "task",
+            "domain": "introduction"
+          }
+        ],
+        "routes": [
+          {
+            "key": "work",
+            "label": "No college · learn at work"
+          }
+        ]
+      },
+      "newReflections": [
+        {
+          "questionId": "photographer-interest-044-1",
+          "careerId": "photographer",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to compose photographs and adjust a camera to capture the people, places, or events you want to show?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "high",
+          "evidence": "She photographs neighborhood signs and contributes school newspaper photographs.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        },
+        {
+          "questionId": "photographer-interest-044-2",
+          "careerId": "photographer",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to use natural or artificial light and review your pictures to improve the result for a photographic project?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "high",
+          "evidence": "Her composed sign photograph uses a puddle reflection; photography is a current chosen interest.",
+          "biographyPaths": [
+            "timeline.6.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        }
+      ]
+    },
+    {
+      "modelId": "life-012",
+      "biography": {
+        "id": "life-012",
+        "name": "Tariq Bennett",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with his mother and two siblings in stable subsidized housing.",
+          "finances": "Tight income; mother’s food-service work is steady.",
+          "geography": "San Antonio, Texas.",
+          "cultureLanguages": "English; close relationships with a multigenerational Black neighborhood community.",
+          "school": "Public high school with limited arts electives and an active library.",
+          "accessOpportunities": "Library technology and free city programs; no household vehicle."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "In 2014, Tariq drew long comic strips about neighborhood cats. He made his older sister read every speech bubble aloud and then changed the ending whenever she predicted what would happen on the next page."
+          },
+          {
+            "ages": "6–7",
+            "story": "At six, he helped an elderly neighbor water balcony plants. During 2017, the neighbor taught him to wait before assuming a wilted plant needed more water, a lesson he later repeated with exaggerated seriousness."
+          },
+          {
+            "ages": "8–9",
+            "story": "In 2018, Tariq joined a free city swim program and enjoyed the quiet underwater. He was comfortable playing with other children but rarely volunteered to lead their games unless the rules seemed particularly unfair."
+          },
+          {
+            "ages": "10–11",
+            "story": "During 2020, he used paper school packets and a borrowed hotspot. His mother remained employed, and relatives shared childcare. Tariq began drawing instructional pictures so his youngest sibling could remember the steps for simple chores."
+          },
+          {
+            "ages": "12–13",
+            "story": "At twelve, he discovered astronomy through library books and wanted a telescope. In 2023, a free public observing night showed him both Saturn’s rings and how much waiting was involved in sharing equipment with a crowd."
+          },
+          {
+            "ages": "14–15",
+            "story": "In 2024, Tariq started a small comic newsletter at school. In 2025, he and a friend disagreed over publishing a joke about another student; he removed it, then wrote a new issue about misunderstood inventions."
+          },
+          {
+            "ages": "16",
+            "story": "At sixteen in 2026, he uses library software to animate short explanations. He is interested in a San Antonio college outreach program and a paid summer job, weighing how to preserve drawing time without expecting his hobby to provide income."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Astronomy",
+            "Drawing instructions",
+            "Swimming"
+          ],
+          "avoids": [
+            "Jokes that humiliate classmates",
+            "Expensive activities with hidden fees"
+          ],
+          "activities": [
+            "Comic newsletter",
+            "Library animation",
+            "Plant care"
+          ],
+          "demonstratedSkills": [
+            "Explains procedures visually",
+            "Revises after feedback",
+            "Keeps publication dates"
+          ],
+          "unfamiliarActivities": [
+            "Telescope setup alone",
+            "College science laboratories"
+          ],
+          "motivations": [
+            "Making people curious",
+            "Creating things younger children understand"
+          ],
+          "ambitions": [
+            "Try a laboratory activity",
+            "Keep a personal comic series",
+            "He imagines a secure home with books and drawing space, familiar people nearby, and time to keep being curious."
+          ],
+          "struggles": [
+            "Access to equipment",
+            "Feels awkward asking about fee waivers"
+          ],
+          "supports": [
+            "Mother",
+            "Librarian",
+            "Newsletter friend"
+          ],
+          "practicalConstraints": [
+            "Bus schedules",
+            "Shared devices",
+            "Need for summer earnings"
+          ]
+        },
+        "selfDescription": "I like explaining things with pictures because a good picture can make someone stop being intimidated. I am curious about science, but I have not done enough experiments to know which parts I would enjoy doing all day.",
+        "openQuestions": [
+          "How will he respond to repetitive experimental work?",
+          "Could earning money coexist with an unpressured creative practice?"
+        ],
+        "variationTags": [
+          "urban transit reliance",
+          "visual explanations",
+          "astronomy curiosity",
+          "stable low-income family"
+        ]
+      },
+      "career": {
+        "id": "animation",
+        "title": "Animator and visual-effects artist",
+        "summary": "Create special effects or animations using film, video, computers, or other electronic tools and media for use in products, such as computer games, movies, music videos, and commercials.",
+        "confirmation": {
+          "version": "0.44.0",
+          "confirmed": true,
+          "declined": false,
+          "inferred": true,
+          "code": "confirmed",
+          "headline": "Profile supports defining work interests",
+          "detail": "Two separate defining interests have profile evidence, alongside the broader task and role checks. These simulated answers support an interest match, not a recorded student choice or proof of readiness.",
+          "nextQuestionId": "animation-interest-044-1",
+          "questions": [
+            {
+              "id": "animation-interest-044-1",
+              "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?",
+              "activity": "Create drawings or digital models that become moving characters, objects, or visual effects for animation.",
+              "source": "https://www.onetonline.org/link/summary/27-1014.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "animation"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "medium",
+                "evidence": "He currently animates short explanations with library software and enjoys drawing instructions.",
+                "biographyPaths": [
+                  "timeline.6.story",
+                  "currentLife.enjoys"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            },
+            {
+              "id": "animation-interest-044-2",
+              "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?",
+              "activity": "Plan animated scenes and revise their movement, timing, or appearance to make the intended action clear.",
+              "source": "https://www.onetonline.org/link/summary/27-1014.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "animation"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "medium",
+                "evidence": "His animation explains actions, and he revises visual explanations after feedback.",
+                "biographyPaths": [
+                  "timeline.6.story",
+                  "currentLife.demonstratedSkills"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "questionId": "creative-make",
+            "question": "What would you enjoy creating?",
+            "text": "A story through words, photographs or moving images",
+            "id": "creative-make-3",
+            "scope": 4,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-revise",
+            "question": "Which kind of revision sounds satisfying?",
+            "text": "Shape the timing, mood or story of a scene",
+            "id": "creative-revise-3",
+            "scope": 4,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-workday",
+            "question": "Which parts of a creative workday would you like to try?",
+            "text": "Work carefully with images, light, movement or sound",
+            "id": "creative-workday-2",
+            "scope": 3,
+            "kind": "task",
+            "domain": "context"
+          },
+          {
+            "questionId": "creative-refine-1",
+            "question": "Which creative problem would keep you curious?",
+            "text": "Make a story, scene, or image more engaging",
+            "id": "creative-refine-1-4",
+            "scope": 4,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-refine-2",
+            "question": "Which result would you most enjoy finishing?",
+            "text": "An edited story, film, animation, or photo series",
+            "id": "creative-refine-2-4",
+            "scope": 4,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-refine-3",
+            "question": "Which details would you enjoy checking?",
+            "text": "Timing, movement, lighting, and the mood of an image",
+            "id": "creative-refine-3-4",
+            "scope": 3,
+            "kind": "task",
+            "domain": "process"
+          },
+          {
+            "questionId": "creative-refine-4",
+            "question": "Which beginner project would you choose?",
+            "text": "Make a short written, photographic, or moving-image story",
+            "id": "creative-refine-4-4",
+            "scope": 4,
+            "kind": "task",
+            "domain": "introduction"
+          }
+        ],
+        "routes": [
+          {
+            "key": "college",
+            "label": "College · bachelor’s degree"
+          }
+        ]
+      },
+      "newReflections": [
+        {
+          "questionId": "animation-interest-044-1",
+          "careerId": "animation",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He currently animates short explanations with library software and enjoys drawing instructions.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        },
+        {
+          "questionId": "animation-interest-044-2",
+          "careerId": "animation",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His animation explains actions, and he revises visual explanations after feedback.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        }
+      ]
+    },
+    {
+      "modelId": "life-075",
+      "biography": {
+        "id": "life-075",
+        "name": "Caleb Nguyen",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with his mother, aunt, and two cousins after a tornado made their previous rental uninhabitable when he was thirteen.",
+          "finances": "Housing is now stable but crowded; replacement costs consumed savings and adults work variable shifts.",
+          "geography": "Garland, Texas, after several temporary stays around North Texas.",
+          "cultureLanguages": "Vietnamese and English at home; family recipes connect relatives whose memories of the same dish differ.",
+          "school": "Public high school, his third school in four years.",
+          "accessOpportunities": "Dallas College events, a nearby library, and school transportation offer opportunities; fees and late rides still limit participation."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Caleb liked arranging toy buses into routes and helping his aunt rinse herbs. He was sociable with familiar cousins but needed time before joining games with children he did not know."
+          },
+          {
+            "ages": "6–7",
+            "story": "He memorized the walk to a neighborhood market and began drawing maps with every dog and distinctive mailbox marked. His teacher appreciated the detail but asked him to make room for street names too."
+          },
+          {
+            "ages": "8–9",
+            "story": "An after-school cooking club taught him to measure instead of guessing. He enjoyed helping others rescue oversalted soup. A recorder unit also caught his attention, although practicing in a busy apartment was difficult."
+          },
+          {
+            "ages": "10–11",
+            "story": "He organized a family recipe booklet and discovered that his aunt preferred approximate instructions. They compromised with photographs. At school he liked geography projects but found debates stressful when classmates interrupted one another."
+          },
+          {
+            "ages": "12–13",
+            "story": "A tornado damaged their rental, and temporary housing meant changing bus routes, bedrooms, and schools. Caleb kept drawing maps because they were useful. Adults handled recovery, while a counselor helped him reconnect with ordinary school routines."
+          },
+          {
+            "ages": "14–15",
+            "story": "After settling with his aunt, he joined percussion because the school provided instruments. He enjoyed rehearsals but left a paid weekend workshop to avoid adding family costs. He did not tell the instructor why until much later."
+          },
+          {
+            "ages": "16",
+            "story": "Caleb now helps cook twice weekly and plays percussion in school. He is exploring digital mapping through library computers. He likes his new neighborhood, yet keeps belongings packed more neatly than necessary and hesitates to make commitments that depend on staying."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Family cooking",
+            "Mapping routes",
+            "Layered percussion rhythms"
+          ],
+          "avoids": [
+            "Arguments with overlapping voices",
+            "Activities with unclear hidden fees"
+          ],
+          "activities": [
+            "School percussion",
+            "Household meals",
+            "Library mapping tutorials"
+          ],
+          "demonstratedSkills": [
+            "Detailed route descriptions",
+            "Adjusting recipes",
+            "Coordinating rhythm with a group"
+          ],
+          "unfamiliarActivities": [
+            "Overnight camps",
+            "Advanced coding",
+            "Organized athletics"
+          ],
+          "motivations": [
+            "Making everyday life easier",
+            "Building friendships that last"
+          ],
+          "ambitions": [
+            "Finish a neighborhood sound map",
+            "Join a low-cost summer program",
+            "He imagines a stable adult home where he can invite friends to eat and keep belongings unpacked."
+          ],
+          "struggles": [
+            "Assumes opportunities may disappear",
+            "Keeps financial worries private"
+          ],
+          "supports": [
+            "Mother and aunt",
+            "School counselor",
+            "Percussion instructor"
+          ],
+          "practicalConstraints": [
+            "Crowded home",
+            "Variable adult shifts",
+            "Limited discretionary money"
+          ]
+        },
+        "selfDescription": "I notice how places connect, including which way gets you home if the usual bus does not come. I want to say yes to things sooner, but I still like knowing the backup plan.",
+        "openQuestions": [
+          "Will stable housing make longer commitments feel safer?",
+          "Is mapping mainly a practical tool or an interest he wants to explore deeply?"
+        ],
+        "variationTags": [
+          "significant disaster displacement",
+          "urban shared household",
+          "music and mapping",
+          "rebuilding continuity",
+          "financially limited extracurricular access"
+        ]
+      },
+      "career": {
+        "id": "writing",
+        "title": "Writers & authors",
+        "summary": "Originate and prepare written material, such as scripts, stories, advertisements, and other material.",
+        "confirmation": {
+          "version": "0.44.0",
+          "confirmed": true,
+          "declined": false,
+          "inferred": true,
+          "code": "confirmed",
+          "headline": "Profile supports defining work interests",
+          "detail": "Two separate defining interests have profile evidence, alongside the broader task and role checks. These simulated answers support an interest match, not a recorded student choice or proof of readiness.",
+          "nextQuestionId": "writing-interest-044-1",
+          "questions": [
+            {
+              "id": "writing-interest-044-1",
+              "prompt": "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+              "activity": "Write stories, articles, or other longer pieces that communicate ideas to readers.",
+              "source": "https://www.onetonline.org/link/summary/27-3043.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "writing"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "medium",
+                "evidence": "He organized a family recipe booklet and enjoys detailed descriptions and geography projects.",
+                "biographyPaths": [
+                  "timeline.3.story",
+                  "currentLife.demonstratedSkills"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            },
+            {
+              "id": "writing-interest-044-2",
+              "prompt": "Would you like to learn to revise your writing after feedback so its message, structure, and style work better for its intended readers?",
+              "activity": "Revise your writing after feedback so its message, structure, and style work better for its intended readers.",
+              "source": "https://www.onetonline.org/link/summary/27-3043.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "writing"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "medium",
+                "evidence": "He adapted recipe instructions after his aunt’s feedback and learned to include useful street names on maps.",
+                "biographyPaths": [
+                  "timeline.1.story",
+                  "timeline.3.story"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "questionId": "creative-revise",
+            "question": "Which kind of revision sounds satisfying?",
+            "text": "Find words that carry the right meaning for an audience",
+            "id": "creative-revise-4",
+            "scope": 3,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-workday",
+            "question": "Which parts of a creative workday would you like to try?",
+            "text": "Make several drafts and improve them after feedback",
+            "id": "creative-workday-1",
+            "scope": 4,
+            "kind": "task",
+            "domain": "context"
+          },
+          {
+            "questionId": "creative-workday",
+            "question": "Which parts of a creative workday would you like to try?",
+            "text": "Research meaning and check that information is accurate",
+            "id": "creative-workday-4",
+            "scope": 3,
+            "kind": "task",
+            "domain": "context"
+          },
+          {
+            "questionId": "creative-refine-3",
+            "question": "Which details would you enjoy checking?",
+            "text": "Words, meaning, and whether a claim is accurate",
+            "id": "creative-refine-3-3",
+            "scope": 5,
+            "kind": "task",
+            "domain": "process"
+          }
+        ],
+        "routes": [
+          {
+            "key": "college",
+            "label": "College · bachelor’s degree"
+          }
+        ]
+      },
+      "newReflections": [
+        {
+          "questionId": "creative-revise",
+          "careerId": "writing",
+          "kind": "work",
+          "family": "creative",
+          "prompt": "Which kind of revision sounds satisfying?",
+          "options": [
+            {
+              "id": "creative-revise-1",
+              "text": "Make a layout easier to read and navigate"
+            },
+            {
+              "id": "creative-revise-2",
+              "text": "Improve how a product looks, feels and works"
+            },
+            {
+              "id": "creative-revise-3",
+              "text": "Shape the timing, mood or story of a scene"
+            },
+            {
+              "id": "creative-revise-4",
+              "text": "Find words that carry the right meaning for an audience"
+            }
+          ],
+          "response": "selected",
+          "selected": [
+            "creative-revise-1",
+            "creative-revise-4"
+          ],
+          "confidence": "medium",
+          "evidence": "He revised map labels and adapted recipe instructions with photographs so relatives could understand them.",
+          "biographyPaths": [
+            "timeline.1.story",
+            "timeline.3.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "creative-revise-1": {
+              "evidence": "He revised map labels and adapted recipe instructions with photographs so relatives could understand them.",
+              "biographyPaths": [
+                "timeline.1.story",
+                "timeline.3.story",
+                "currentLife.demonstratedSkills"
+              ]
+            },
+            "creative-revise-4": {
+              "evidence": "He revised map labels and adapted recipe instructions with photographs so relatives could understand them.",
+              "biographyPaths": [
+                "timeline.1.story",
+                "timeline.3.story",
+                "currentLife.demonstratedSkills"
+              ]
+            }
+          },
+          "applied": true
+        },
+        {
+          "questionId": "writing-interest-044-1",
+          "careerId": "writing",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He organized a family recipe booklet and enjoys detailed descriptions and geography projects.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        },
+        {
+          "questionId": "writing-interest-044-2",
+          "careerId": "writing",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to revise your writing after feedback so its message, structure, and style work better for its intended readers?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He adapted recipe instructions after his aunt’s feedback and learned to include useful street names on maps.",
+          "biographyPaths": [
+            "timeline.1.story",
+            "timeline.3.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        }
+      ]
+    },
+    {
+      "modelId": "life-077",
+      "biography": {
+        "id": "life-077",
+        "name": "Owen Patel",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with his parents and younger brother; his parents' disagreements about schedules are usually resolved in weekly planning.",
+          "finances": "Middle income with treatment covered by insurance, though private lessons are occasional rather than routine.",
+          "geography": "Round Rock, Texas.",
+          "cultureLanguages": "English-speaking household with Gujarati-speaking grandparents; celebrates family holidays without sharing every relative's beliefs.",
+          "school": "Public high school; fictional generalized anxiety disorder diagnosed at fourteen, with therapy and a school support plan.",
+          "accessOpportunities": "Austin Community College workshops, library programs, and university outreach are reachable by family car on selected days."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Owen enjoyed inventing songs about household objects and checking whether everyone had a place at the table. He asked many questions before unfamiliar outings, which adults initially treated as simple curiosity."
+          },
+          {
+            "ages": "6–7",
+            "story": "A piano teacher used predictable lesson routines, and he practiced eagerly. He disliked competitive recitals but volunteered to play background music at a family gathering because no one expected a perfect solo."
+          },
+          {
+            "ages": "8–9",
+            "story": "He helped build a model drawbridge at school and became absorbed in testing its load. Before field trips he repeatedly checked permission forms, then generally enjoyed himself once the bus left."
+          },
+          {
+            "ages": "10–11",
+            "story": "A friend introduced him to robotics. He loved rehearsed demonstrations and could answer technical questions clearly. Open-ended team arguments were harder; he sometimes agreed too quickly so the group would move on."
+          },
+          {
+            "ages": "12–13",
+            "story": "Worry expanded beyond particular events and interfered with sleep and starting assignments. His grades remained good, hiding how long routine work took. His parents sought help when he began skipping activities he had previously enjoyed."
+          },
+          {
+            "ages": "14–15",
+            "story": "A clinician diagnosed generalized anxiety disorder, and therapy helped him practice tolerating uncertainty in small steps. He returned to robotics, began handing in imperfect drafts, and discovered pleasure in accompanying a singer who occasionally changed the tempo."
+          },
+          {
+            "ages": "16",
+            "story": "Owen still experiences difficult evenings, especially before unfamiliar tasks, but attends school consistently and uses agreed support rather than repeated reassurance. He is considering a summer workshop while admitting that both engineering activities and collaborative music can absorb him."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Testing mechanisms",
+            "Accompanying singers",
+            "Prepared demonstrations"
+          ],
+          "avoids": [
+            "Repeated reassurance loops when he notices them",
+            "Competitive solo recitals"
+          ],
+          "activities": [
+            "Robotics",
+            "Piano accompaniment",
+            "Therapy exercises"
+          ],
+          "demonstratedSkills": [
+            "Clear technical explanations",
+            "Listening and adjusting musically",
+            "Careful testing records"
+          ],
+          "unfamiliarActivities": [
+            "Independent overnight programs",
+            "Retail shifts",
+            "Biological fieldwork"
+          ],
+          "motivations": [
+            "Participating even without certainty",
+            "Being a dependable collaborator"
+          ],
+          "ambitions": [
+            "Attend an unfamiliar workshop",
+            "Submit work before excessive checking begins",
+            "He imagines an adult routine that includes music, dependable support, and room to try things before feeling certain."
+          ],
+          "struggles": [
+            "Persistent worry and disrupted sleep during stressful periods",
+            "Overchecking"
+          ],
+          "supports": [
+            "Therapist",
+            "Parents",
+            "Teacher who accepts staged drafts"
+          ],
+          "practicalConstraints": [
+            "Needs ongoing treatment access",
+            "Shared transport",
+            "Must protect sleep"
+          ]
+        },
+        "selfDescription": "Being worried does not mean I dislike the thing I am about to do. Sometimes the demonstration I dreaded all week is the best part of my week once I start.",
+        "openQuestions": [
+          "How will unfamiliar settings affect routines that currently help?",
+          "Does he choose some structured activities from genuine enjoyment, predictability, or both?"
+        ],
+        "variationTags": [
+          "fictional generalized anxiety disorder",
+          "supported functioning",
+          "music and robotics",
+          "prepared public speaking",
+          "gradual return to activities"
+        ]
+      },
+      "career": {
+        "id": "industrial-design",
+        "title": "Industrial designers",
+        "summary": "Design and develop manufactured products, such as cars, home appliances, and children's toys. Combine artistic talent with research on product use, marketing, and materials to create the most functional and appealing product design.",
+        "confirmation": {
+          "version": "0.44.0",
+          "confirmed": true,
+          "declined": false,
+          "inferred": true,
+          "code": "confirmed",
+          "headline": "Profile supports defining work interests",
+          "detail": "Two separate defining interests have profile evidence, alongside the broader task and role checks. These simulated answers support an interest match, not a recorded student choice or proof of readiness.",
+          "nextQuestionId": "industrial-design-interest-044-1",
+          "questions": [
+            {
+              "id": "industrial-design-interest-044-1",
+              "prompt": "Would you like to learn to sketch ideas for useful physical products, thinking about how people will use them as a regular part of your work?",
+              "activity": "Sketch ideas for useful physical products, thinking about how people will use them.",
+              "source": "https://www.onetonline.org/link/summary/27-1021.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "industrial-design"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "medium",
+                "evidence": "He becomes absorbed in model-bridge load testing and engineering activities, a concrete interest in how useful objects work.",
+                "biographyPaths": [
+                  "timeline.2.story",
+                  "timeline.6.story"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            },
+            {
+              "id": "industrial-design-interest-044-2",
+              "prompt": "Would you like to learn to build or try models of a product and revise the design when it does not meet users' needs as a regular part of your work?",
+              "activity": "Build or try models of a product and revise the design when it does not meet users' needs.",
+              "source": "https://www.onetonline.org/link/summary/27-1021.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "industrial-design"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "medium",
+                "evidence": "He enjoys hands-on drawbridge load tests, robotics and testing mechanisms, supporting model trials and practical design revision.",
+                "biographyPaths": [
+                  "timeline.2.story",
+                  "currentLife.activities",
+                  "currentLife.enjoys"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "questionId": "creative-make",
+            "question": "What would you enjoy creating?",
+            "text": "A useful object people can hold and use",
+            "id": "creative-make-2",
+            "scope": 1,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-workday",
+            "question": "Which parts of a creative workday would you like to try?",
+            "text": "Make several drafts and improve them after feedback",
+            "id": "creative-workday-1",
+            "scope": 4,
+            "kind": "task",
+            "domain": "context"
+          },
+          {
+            "questionId": "creative-refine-1",
+            "question": "Which creative problem would keep you curious?",
+            "text": "Make a physical object more useful and appealing",
+            "id": "creative-refine-1-3",
+            "scope": 1,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-refine-3",
+            "question": "Which details would you enjoy checking?",
+            "text": "Materials, proportions, and how parts fit a user’s hand",
+            "id": "creative-refine-3-2",
+            "scope": 1,
+            "kind": "task",
+            "domain": "process"
+          },
+          {
+            "questionId": "creative-refine-4",
+            "question": "Which beginner project would you choose?",
+            "text": "Build a simple model and improve how it works",
+            "id": "creative-refine-4-3",
+            "scope": 1,
+            "kind": "task",
+            "domain": "introduction"
+          }
+        ],
+        "routes": [
+          {
+            "key": "college",
+            "label": "College · bachelor’s degree"
+          }
+        ]
+      },
+      "newReflections": [
+        {
+          "questionId": "industrial-design-interest-044-1",
+          "careerId": "industrial-design",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to sketch ideas for useful physical products, thinking about how people will use them as a regular part of your work?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He becomes absorbed in model-bridge load testing and engineering activities, a concrete interest in how useful objects work.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        },
+        {
+          "questionId": "industrial-design-interest-044-2",
+          "careerId": "industrial-design",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to build or try models of a product and revise the design when it does not meet users' needs as a regular part of your work?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He enjoys hands-on drawbridge load tests, robotics and testing mechanisms, supporting model trials and practical design revision.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "currentLife.activities",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        }
+      ]
+    },
+    {
+      "modelId": "life-085",
+      "biography": {
+        "id": "life-085",
+        "name": "Diego Alvarenga",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with his father and younger sister; his mother lives in Honduras after an immigration-related removal when he was twelve, and they speak frequently by video.",
+          "finances": "Low but usually steady income from warehouse work, supplemented by nearby relatives during difficult months.",
+          "geography": "Brownsville, Texas; born in the United States.",
+          "cultureLanguages": "Spanish and English, with Honduran family traditions and South Texas neighborhood ties.",
+          "school": "Public high school with media electives and a supportive bilingual family liaison.",
+          "accessOpportunities": "Texas Southmost College events, UTRGV outreach, and library equipment are local possibilities; family schedules and costs limit travel."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Diego liked making paper animals and asking adults to describe their childhood homes. He would recreate those places with cushions, combining details that could never have belonged to the same room."
+          },
+          {
+            "ages": "6–7",
+            "story": "He began photographing insects with a borrowed phone and drawing labels in both languages. Reading aloud was enjoyable when the audience was his sister; formal school presentations made him speak very quickly."
+          },
+          {
+            "ages": "8–9",
+            "story": "A teacher showed him basic video editing. He made a funny family cooking clip and discovered that relatives disagreed about what should be shared. He learned to ask before posting and kept several favorite recordings private."
+          },
+          {
+            "ages": "10–11",
+            "story": "Family worries occupied more adult conversation, and he noticed changes without understanding the legal situation. He kept playing soccer and started helping his sister organize school materials, appreciating routines that felt manageable."
+          },
+          {
+            "ages": "12–13",
+            "story": "His mother's removal separated the household across countries. Video calls sustained their relationship but did not replace everyday contact. A school liaison helped his father arrange communication with teachers, while an uncle made sure Diego could continue soccer."
+          },
+          {
+            "ages": "14–15",
+            "story": "Diego joined media club and made a short film about bus stops rather than family separation. He enjoyed framing ordinary places on their own terms. He also tried electronics repair, becoming competent at replacing a controller cable with supervision."
+          },
+          {
+            "ages": "16",
+            "story": "He balances school, sibling pickup, and weekend soccer. He has begun mapping shaded walking routes for a class project and is unsure whether he likes the technology, neighborhood conversations, or the visual choices most. Family uncertainty remains, alongside ordinary jokes, friendships, and plans."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Filming everyday places",
+            "Soccer with familiar friends",
+            "Small supervised repairs"
+          ],
+          "avoids": [
+            "Being expected to tell a hardship story",
+            "Posting people without agreement"
+          ],
+          "activities": [
+            "Media club",
+            "Sibling pickup",
+            "Soccer",
+            "Walking-route project"
+          ],
+          "demonstratedSkills": [
+            "Visual framing",
+            "Bilingual interviewing",
+            "Following repair instructions carefully"
+          ],
+          "unfamiliarActivities": [
+            "Overnight college programs",
+            "Advanced laboratory work",
+            "Formal customer sales"
+          ],
+          "motivations": [
+            "Showing places beyond stereotypes",
+            "Keeping family relationships active"
+          ],
+          "ambitions": [
+            "Complete a film with shared authorship",
+            "He imagines adult independence that still leaves time and practical means to maintain close family contact"
+          ],
+          "struggles": [
+            "Missing everyday time with his mother",
+            "Overcommits when relatives need help"
+          ],
+          "supports": [
+            "Father",
+            "Mother by regular calls",
+            "Uncle",
+            "School family liaison"
+          ],
+          "practicalConstraints": [
+            "Sibling responsibilities",
+            "Limited travel funds",
+            "Uncertain family travel arrangements"
+          ]
+        },
+        "selfDescription": "My family is part of everything, but not every film I make has to explain us. I like noticing something on an ordinary street that people usually pass without seeing.",
+        "openQuestions": [
+          "How much creative time can he protect alongside family duties?",
+          "Would mapping remain interesting without the visual and social parts?"
+        ],
+        "variationTags": [
+          "significant cross-border family separation",
+          "South Texas",
+          "bilingual media",
+          "ordinary neighborhood observation",
+          "family connection and independence"
+        ]
+      },
+      "career": {
+        "id": "photographer",
+        "title": "Photographers",
+        "summary": "Use images to tell stories, show products or preserve moments.",
+        "confirmation": {
+          "version": "0.44.0",
+          "confirmed": true,
+          "declined": false,
+          "inferred": true,
+          "code": "confirmed",
+          "headline": "Profile supports defining work interests",
+          "detail": "Two separate defining interests have profile evidence, alongside the broader task and role checks. These simulated answers support an interest match, not a recorded student choice or proof of readiness.",
+          "nextQuestionId": "photographer-interest-044-1",
+          "questions": [
+            {
+              "id": "photographer-interest-044-1",
+              "prompt": "Would you like to learn to compose photographs and adjust a camera to capture the people, places, or events you want to show?",
+              "activity": "Compose photographs and adjust a camera to capture the people, places, or events you want to show.",
+              "source": "https://www.onetonline.org/link/summary/27-4021.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "photographer"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "high",
+                "evidence": "He enjoys photographing insects and framing ordinary places in his media-club films.",
+                "biographyPaths": [
+                  "timeline.1.story",
+                  "timeline.5.story",
+                  "currentLife.demonstratedSkills"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            },
+            {
+              "id": "photographer-interest-044-2",
+              "prompt": "Would you like to learn to use natural or artificial light and review your pictures to improve the result for a photographic project?",
+              "activity": "Use natural or artificial light and review your pictures to improve the result for a photographic project.",
+              "source": "https://www.onetonline.org/link/summary/27-4021.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "photographer"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "high",
+                "evidence": "Visual framing and filming everyday places are chosen interests he wants to develop in a shared film.",
+                "biographyPaths": [
+                  "timeline.5.story",
+                  "currentLife.enjoys",
+                  "currentLife.ambitions"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "questionId": "creative-make",
+            "question": "What would you enjoy creating?",
+            "text": "A story through words, photographs or moving images",
+            "id": "creative-make-3",
+            "scope": 4,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-revise",
+            "question": "Which kind of revision sounds satisfying?",
+            "text": "Shape the timing, mood or story of a scene",
+            "id": "creative-revise-3",
+            "scope": 4,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-workday",
+            "question": "Which parts of a creative workday would you like to try?",
+            "text": "Work carefully with images, light, movement or sound",
+            "id": "creative-workday-2",
+            "scope": 3,
+            "kind": "task",
+            "domain": "context"
+          },
+          {
+            "questionId": "creative-refine-1",
+            "question": "Which creative problem would keep you curious?",
+            "text": "Make a story, scene, or image more engaging",
+            "id": "creative-refine-1-4",
+            "scope": 4,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-refine-2",
+            "question": "Which result would you most enjoy finishing?",
+            "text": "An edited story, film, animation, or photo series",
+            "id": "creative-refine-2-4",
+            "scope": 4,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-refine-3",
+            "question": "Which details would you enjoy checking?",
+            "text": "Timing, movement, lighting, and the mood of an image",
+            "id": "creative-refine-3-4",
+            "scope": 3,
+            "kind": "task",
+            "domain": "process"
+          },
+          {
+            "questionId": "creative-refine-4",
+            "question": "Which beginner project would you choose?",
+            "text": "Make a short written, photographic, or moving-image story",
+            "id": "creative-refine-4-4",
+            "scope": 4,
+            "kind": "task",
+            "domain": "introduction"
+          }
+        ],
+        "routes": [
+          {
+            "key": "work",
+            "label": "No college · learn at work"
+          }
+        ]
+      },
+      "newReflections": [
+        {
+          "questionId": "photographer-interest-044-1",
+          "careerId": "photographer",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to compose photographs and adjust a camera to capture the people, places, or events you want to show?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "high",
+          "evidence": "He enjoys photographing insects and framing ordinary places in his media-club films.",
+          "biographyPaths": [
+            "timeline.1.story",
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        },
+        {
+          "questionId": "photographer-interest-044-2",
+          "careerId": "photographer",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to use natural or artificial light and review your pictures to improve the result for a photographic project?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "high",
+          "evidence": "Visual framing and filming everyday places are chosen interests he wants to develop in a shared film.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.enjoys",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Life-first student models: protocol frozen before results · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Life-first student models: protocol frozen before results</h1><p>Retained development record. It may describe an earlier release.</p><a href="./blind-student-protocol-2026-10-18.md" download>Download original Markdown</a><pre class="document"># Life-first student models: protocol frozen before results
+
+## Scope
+
+100 new fictional age-16 life histories, plus a separate reinterpretation of the existing 24 narrative models. This is broad scenario coverage, not every possible life, a representative demographic sample, real students, or a psychometric validation study.
+
+## Separation of work
+
+1. Biography authors receive only a generic adolescent-life brief. They have no conversation history, questionnaire, response labels, engine, occupational vectors, existing answers, target professions, or result reports. They are instructed not to inspect the app workspace.
+2. Each biography contains seven age bands from 4 through 16, specific experiences, changing interests, opportunity constraints, strengths, supports and unresolved tensions. Background labels are context, not a formula for capabilities or preferences. Fictional conditions are specified features of a story; no diagnosis of an actual person is made.
+3. Raw biographies are saved unchanged and fingerprinted before response inference. Completeness and diversity checks may require a documented editorial revision before freezing. Revisions after results require a new version and reason; they cannot erase the original.
+4. A different agent sees only frozen life histories and question/option text. It records plausible answers, biographical evidence and uncertainty. It may not inspect scores, occupation mappings, matching thresholds, output reports or previous student answers. Questions with insufficient evidence retain uncertainty; unfamiliarity does not imply dislike or low ability.
+5. Response files are frozen before recommendations are run. No target career is an answer key. All original 24 answers and their SHA-256 remain unchanged.
+6. Development uses 70 new histories; 30 are reserved as a holdout and are scored only after any candidate rule change is frozen. The assignment is deterministic from frozen IDs and a documented seed, without consulting results. A disappointing holdout result remains visible; a subsequent fix requires a later version and another evaluation set.
+
+## Variation requirements
+
+Across the 100, check actual narrative content rather than tags alone: family composition, finances, language/culture, rural/suburban/urban settings, school resources, access and exposure, paid work, caregiving, learning differences, disability access, specified mental-health conditions, significant adversity, supportive ordinary lives, social/solitary preferences, practical/academic/creative/community interests, confidence, ambition, conflict, motivation and changes over time. Do not make adversity universal. Include counter-stereotypical cases and people whose interests do not match family expectations. Conditions and demographic identities must never serve as direct career exclusion inputs.
+
+## Existing 24
+
+Preserve their exact answers and results as a legacy baseline. Biography expansion sees only the original narrative/context, not the answers or outcomes. Such expansions are conditioned on older, sometimes career-suggestive narratives; they are not an independent sample. New inferred answers form a parallel record, with every difference recorded rather than replacing the baseline.
+
+## Evaluation
+
+Review coherent repeated task evidence, weak/contradictory interest comparisons, missing plausible alternatives, arbitrary ordering/ties, novice versus experienced students, work and education conflicts, and specific licensing/education/time/cost requirements. Financial plans must distinguish training pay from qualified pay, grants from debt, living costs from tuition, and modeled milestones from measured salaries. No plan is automatically assigned to an uncertain student merely to complete a test.
+
+Counterfactual background-label swaps hold the response payload fixed: matching should not change. Such checks establish only that labels do not enter this implementation; they cannot establish social fairness. Explicit lifestyle and education preferences may change planning information without changing RIASEC scores.
+
+Publish a quick-list developer library, complete downloadable inputs/results, an outlier table with evidence and severity, before/after comparisons for general rule fixes, and scoped automated/browser checks. Keep authoring and scoring provenance distinct.
+
+## Research context
+
+The retained [model-design research](student-model-design-2026-10-18.md) links primary longitudinal research on adolescent interest changes, interest differentiation, and the separate roles of goals, confidence and supports. That research motivates varied, evolving cases; it does not supply fictional responses or establish the accuracy of this app. Model biography richness is not a substitute for independent observations of adolescents.
+
+## Additive coverage extensions
+
+A biography-only audit of the frozen100 identified substantive resource/family/access variation and repeated voice/interest/arc motifs, with missing everyday domains. On the user's instruction,24 additional life histories were written as a separate cohort. The first100 histories and answers were not revised. New authors received general life-domain requirements, no questions, engine, or desired recommendations. Different agents inferred their responses. Separate biography/response hashes record the extension; it is not the original30-case holdout.
+
+The candidate was locked before evaluating the original30 holdout and the24 additional outcomes. Findings remain visible without outcome-driven answer changes or later ranking-rule tuning. Detailed private local model histories and individual results are excluded from the public source and library.
+</pre></main></html>

@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Four fictional student walkthroughs · October 16, 2026 · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Four fictional student walkthroughs · October 16, 2026</h1><p>Retained development record. It may describe an earlier release.</p><a href="./student-walkthroughs-2026-10-16.md" download>Download original Markdown</a><pre class="document"># Four fictional student walkthroughs · October 16, 2026
+
+These examples test whether the original reflection prompts, broad-to-specific choices, salary previews, and personal plan are coherent. They are not student outcome research or psychometric validation. The exact ratings, priorities, task choices, and reproducible outputs live in `dist/student-examples.js`; the website presents them read-only at `#/student-examples/medicine` (and dentistry, creative, trades). No real student draft is used.
+
+## What the four students actually see
+
+| Student | Highest highlighted field | Chosen main direction | Related task-based alternatives | Preparation | Earliest paid scenario used |
+|---|---|---|---|---|---|
+| Medicine | Health &amp; helping | Physician, family medicine | Physician assistant; registered nurse | Common route: 4 years college + 4 medical school + 3 family medicine residency | Dell Med PGY1, $69,528 for 2026–27; display $70K |
+| Dentistry | Health &amp; helping | General dentist | Dental hygienist; dental assistant | Common route: 4 years college preparation + 4 DDS/DMD | TWC regional entry proxy $121,174; display $120K; not an observed first-job salary |
+| Creative | Design &amp; creativity | Graphic designer | Industrial designer; web/digital interface designer | Graphic design or visual communication degree, portfolio, internships | TWC regional entry proxy $46,122; display $46K |
+| Trades | Trades &amp; technical repair | Electrician | HVAC technician; plumber/pipefitter | Austin ETA example: 4 years, 8,000 supervised hours; Texas licensing | Austin ETA first-period apprentice $43,825 annual published example; display $44K |
+
+The questionnaire suggests broad fields, not a guaranteed profession. Students explicitly select fields and concrete day-to-day tasks, then choose a main career. These are exploration connections, not ranked fitness probabilities. The task-selection order resolves ties; it does not mean a first-click career is scientifically a better match. Physician and dentist are now visible under Medicine, dentistry &amp; nutrition; allied health and nursing offer separately credentialed alternatives.
+
+## Budget reality check
+
+All four use the same one-adult Austin baseline: one-bedroom rental, practical used car, modest dining/travel/recreation, cash saving, modeled employee tax/retirement/health deductions. Spending plus cash savings is about $3,843/month. The gross target band is $65K–$85K: lower end covers the basket; upper end leaves 20% of take-home unallocated. It is not a statistical interval or income ceiling. Wage and spending years differ; no graduation-year inflation forecast.
+
+| Student | Monthly balance before education loans | Explicit loan-payment what-if | Balance with that what-if |
+|---|---:|---:|---:|
+| Medicine, resident | +$336 | $1,500/month | −$1,164 |
+| Dentistry, entry proxy | +$3,116 | $2,000/month | +$1,116 |
+| Graphic design, entry proxy | −$1,094 | $250/month | −$1,344 |
+| Electrician, first-period apprentice | −$1,234 | $0/month | −$1,234 |
+
+Loan figures are deliberately labeled stress tests, not predicted borrowing, expected payments, or repayment-plan quotes. Both college stages and professional school can require substantial funding before earnings. For creative and trades students, an optional shared-rent/transit example is shown separately: about $120/month left with the creative loan what-if and $229/month left for the apprentice. Those remain tight, and transit must work for actual job sites/hours. No lifestyle adjustment or debt is silently applied to a saved plan.
+
+## Fixes from this walkthrough
+
+- Highlight at most three supported broad fields; retain access to every field. Previously eight or ten fields could appear equally recommended.
+- Add item-level activity relevance to broad-field ordering. Existing theme coverage, positive-interest, flat-profile, and companion-interest safeguards remain. Editorial ordering is 60% mean of at least three answered field-linked activities and 40% existing theme connection. Otherwise retain the theme connection. This is a transparent heuristic, not a validated score. No score or probability is shown. Each field's explanation uses its own positively answered linked activities.
+- Keep task-choice positions fixed while selecting; previously selected tasks could jump around.
+- Put explicitly chosen career tasks first, breaking ties in selection order rather than arbitrary catalog order. Salary goals and confidence do not become aptitude or fit scores.
+- Replace generic alternative education labels with role-specific routes, so an RN is not described as a short-certificate career.
+- Give physician, dentist, graphic designer, and electrician distinct, practical next actions. Retain student-edited actions and dates when revisiting the plan.
+- Show paid residency before physician practice pay, and show the selected training salary prominently in My Plan.
+- Add the current Austin ETA first-period apprentice example, its direct salary-to-lifestyle link, and correct storage/adoption of that pay stage. Keep regional wage proxy and program pay distinct. Regional electrician wages do not identify apprentice/journeyman status; the 5/10/20-year illustrations are not a licensure pay schedule.
+- Add explicit training timelines and current program-fee scope; do not present the past 2025–26 Austin ETA tuition notice as a current tuition quote.
+- Preserve priorities in the personal plan, and expose read-only four-student example plans without touching personal answers.
+
+Questionnaire prompt version remains 2.0.0; editorial matching method is now 2.1.0. Plan exports report the method separately.
+
+## Sources and scope
+
+- [O*NET Interest Profiler](https://www.onetcenter.org/IP.html), [O*NET content model](https://www.onetcenter.org/content.html), and imported O*NET 31.0 occupation descriptors: interest, skills, abilities, work styles, and task concepts remain separate. The custom prompts are not the official instrument. Prior independent official-tool comparisons are in `validation/official-tool-comparison-2026-10-16.md`.
+- [Dell Med resident salary](https://dellmed.utexas.edu/education/academics/graduate-medical-education/resources/salary-and-benefits): PGY1 $69,528 for current 2026–27. Do not substitute upcoming 2027–28 rates.
+- [Austin ETA apprenticeship](https://austineta.org/apprentice-program-2/): effective January 5, 2026, first-period $21.07/hour, published annual $43,825; qualified example $38.30/hour/$79,664. Annual illustrations assume 40 hours/week; no guaranteed hours, overtime, admission, or placement. Four years, 8,000 work hours. $35 application fee; tuition announced before classes. Six pay periods are not six years. The $825 notice covers September 2025–August 2026, a past period. One program's union schedule is not the regional wage average.
+- [Austin BLS OEWS May 2025](https://www.bls.gov/oes/current/oes_12420.htm) and [TWC Texas Wages](https://texaswages.com/): employee occupation data; TWC entry is a lower-paid-third proxy, not first-year observed earnings. Later milestones are explicitly modeled. Self-employment, ownership revenue, and exceptional outcomes are not employee salary estimates.
+- [UT undergraduate budget](https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/) and [ACC budget](https://students.austincc.edu/financial-aid/explore-your-financial-aid/cost-of-attendance/): 2026–27 references, before aid. Medical tuition ($22,074 for one entering-class year, excludes living/undergraduate study) and Houston DDS first-year attendance budget ($95,020, includes living/educational allowances) retain different labels and sources in `education-cost-evidence.js`. Neither is presented as total degree cost.
+
+## Verification
+
+Four complete browser journeys on separate localhost origins: all 30 interest prompts, 1–3 priorities, four experience/confidence responses, a project and reflection, broad field, specialty where needed, concrete tasks, matches, career, preparation, earliest appropriate paid-stage lifestyle, final plan, and two explicitly saved alternatives. Browser evidence records are in `validation/student-browser-walkthroughs-2026-10-16.json`. These are synthetic usability/regression checks. No claims about predictive validity, real-student reliability, or career success follow from passing them.
+</pre></main></html>

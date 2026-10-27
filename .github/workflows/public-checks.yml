@@ -1,0 +1,25 @@
+name: Public source checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore existing shared pins
+        run: python scripts/restore-pins.py
+      - name: Check shared assets
+        run: python shared-foundation/tools/manage.py check --app all
+      - name: Approach 1 JavaScript syntax
+        run: npm run check
+        working-directory: site
+      - name: Python updater syntax
+        run: python -m py_compile shared-foundation/tools/manage.py

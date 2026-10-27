@@ -1,0 +1,806 @@
+{
+  "developmentOnly": true,
+  "models": 758,
+  "source": "evidence-103 corrected-current development traces only",
+  "limits": [
+    "Observed simulator answer availability, not validated human information gain. No holdout answers or career outcomes used."
+  ],
+  "questions": {
+    "sound-technician-087-1": {
+      "asked": 101,
+      "unknown": 34
+    },
+    "creative-make": {
+      "asked": 476,
+      "unknown": 204
+    },
+    "education-help": {
+      "asked": 398,
+      "unknown": 194
+    },
+    "health-care": {
+      "asked": 364,
+      "unknown": 282
+    },
+    "trades-refine-3": {
+      "asked": 486,
+      "unknown": 200
+    },
+    "trades-systems": {
+      "asked": 337,
+      "unknown": 65
+    },
+    "carpentry-interest-044-1": {
+      "asked": 249,
+      "unknown": 176
+    },
+    "welder-interest-044-1": {
+      "asked": 254,
+      "unknown": 223
+    },
+    "trades-workday": {
+      "asked": 215,
+      "unknown": 3
+    },
+    "industrial-machinery-mechanic-interest-044-1": {
+      "asked": 210,
+      "unknown": 174
+    },
+    "science-refine-3": {
+      "asked": 519,
+      "unknown": 344
+    },
+    "technology-problem": {
+      "asked": 410,
+      "unknown": 347
+    },
+    "building-design": {
+      "asked": 386,
+      "unknown": 269
+    },
+    "services-people": {
+      "asked": 493,
+      "unknown": 218
+    },
+    "services-refine-3": {
+      "asked": 338,
+      "unknown": 246
+    },
+    "services-serve": {
+      "asked": 209,
+      "unknown": 133
+    },
+    "business-problem": {
+      "asked": 527,
+      "unknown": 191
+    },
+    "transportation-production-move": {
+      "asked": 348,
+      "unknown": 224
+    },
+    "carpentry-interest-044-2": {
+      "asked": 62,
+      "unknown": 45
+    },
+    "welder-interest-044-2": {
+      "asked": 29,
+      "unknown": 29
+    },
+    "industrial-machinery-mechanic-interest-044-2": {
+      "asked": 41,
+      "unknown": 30
+    },
+    "sales-office-help": {
+      "asked": 398,
+      "unknown": 238
+    },
+    "science-wonder": {
+      "asked": 140,
+      "unknown": 40
+    },
+    "public-safety-purpose": {
+      "asked": 236,
+      "unknown": 204
+    },
+    "electronics-assembly-087-1": {
+      "asked": 83,
+      "unknown": 32
+    },
+    "science-setting": {
+      "asked": 228,
+      "unknown": 95
+    },
+    "geoscience-interest-044-1": {
+      "asked": 89,
+      "unknown": 57
+    },
+    "environmental-science-interest-044-1": {
+      "asked": 88,
+      "unknown": 48
+    },
+    "conservation-interest-044-1": {
+      "asked": 103,
+      "unknown": 67
+    },
+    "geoscience-interest-044-2": {
+      "asked": 32,
+      "unknown": 15
+    },
+    "environmental-science-interest-044-2": {
+      "asked": 43,
+      "unknown": 6
+    },
+    "conservation-interest-044-2": {
+      "asked": 34,
+      "unknown": 31
+    },
+    "creative-people": {
+      "asked": 467,
+      "unknown": 303
+    },
+    "health-refine-3": {
+      "asked": 261,
+      "unknown": 174
+    },
+    "education-refine-3": {
+      "asked": 265,
+      "unknown": 193
+    },
+    "business-refine-3": {
+      "asked": 425,
+      "unknown": 125
+    },
+    "technology-refine-3": {
+      "asked": 137,
+      "unknown": 81
+    },
+    "sales-office-refine-3": {
+      "asked": 205,
+      "unknown": 89
+    },
+    "health-support": {
+      "asked": 120,
+      "unknown": 41
+    },
+    "building-refine-3": {
+      "asked": 171,
+      "unknown": 91
+    },
+    "transportation-production-refine-3": {
+      "asked": 160,
+      "unknown": 59
+    },
+    "creative-refine-3": {
+      "asked": 313,
+      "unknown": 102
+    },
+    "business-people": {
+      "asked": 378,
+      "unknown": 110
+    },
+    "education-workday": {
+      "asked": 176,
+      "unknown": 68
+    },
+    "health-investigate": {
+      "asked": 221,
+      "unknown": 182
+    },
+    "general-maintenance-interest-044-1": {
+      "asked": 139,
+      "unknown": 115
+    },
+    "quality-inspection-087-1": {
+      "asked": 78,
+      "unknown": 39
+    },
+    "animation-interest-044-1": {
+      "asked": 115,
+      "unknown": 81
+    },
+    "film-editing-interest-044-1": {
+      "asked": 140,
+      "unknown": 36
+    },
+    "film-editing-interest-044-2": {
+      "asked": 108,
+      "unknown": 10
+    },
+    "photographer-interest-044-1": {
+      "asked": 100,
+      "unknown": 0
+    },
+    "photographer-interest-044-2": {
+      "asked": 99,
+      "unknown": 87
+    },
+    "restaurant-cook-interest-044-1": {
+      "asked": 54,
+      "unknown": 29
+    },
+    "restaurant-cook-interest-044-2": {
+      "asked": 23,
+      "unknown": 19
+    },
+    "building-workday": {
+      "asked": 83,
+      "unknown": 4
+    },
+    "mechanical-engineering-interest-044-1": {
+      "asked": 52,
+      "unknown": 41
+    },
+    "electrical-engineering-interest-044-1": {
+      "asked": 50,
+      "unknown": 40
+    },
+    "mechanical-engineering-interest-044-2": {
+      "asked": 12,
+      "unknown": 4
+    },
+    "electrical-engineering-interest-044-2": {
+      "asked": 12,
+      "unknown": 9
+    },
+    "animal-caretaking-087-1": {
+      "asked": 12,
+      "unknown": 5
+    },
+    "public-safety-refine-3": {
+      "asked": 60,
+      "unknown": 45
+    },
+    "urban-planning-interest-044-1": {
+      "asked": 253,
+      "unknown": 203
+    },
+    "logistics-interest-044-1": {
+      "asked": 269,
+      "unknown": 161
+    },
+    "urban-planning-interest-044-2": {
+      "asked": 15,
+      "unknown": 15
+    },
+    "logistics-interest-044-2": {
+      "asked": 86,
+      "unknown": 51
+    },
+    "business-workday": {
+      "asked": 123,
+      "unknown": 25
+    },
+    "business-refine-4": {
+      "asked": 38,
+      "unknown": 18
+    },
+    "creative-revise": {
+      "asked": 37,
+      "unknown": 7
+    },
+    "writing-interest-044-1": {
+      "asked": 155,
+      "unknown": 66
+    },
+    "writing-interest-044-2": {
+      "asked": 88,
+      "unknown": 2
+    },
+    "interpreting-interest-044-1": {
+      "asked": 157,
+      "unknown": 129
+    },
+    "public-relations-interest-044-1": {
+      "asked": 98,
+      "unknown": 70
+    },
+    "interpreting-interest-044-2": {
+      "asked": 7,
+      "unknown": 7
+    },
+    "public-relations-interest-044-2": {
+      "asked": 7,
+      "unknown": 7
+    },
+    "librarian-interest-044-1": {
+      "asked": 136,
+      "unknown": 71
+    },
+    "sound-technician-087-2": {
+      "asked": 65,
+      "unknown": 5
+    },
+    "sound-technician-087-3": {
+      "asked": 62,
+      "unknown": 19
+    },
+    "transportation-production-setting": {
+      "asked": 107,
+      "unknown": 0
+    },
+    "industrial-engineering-interest-044-1": {
+      "asked": 216,
+      "unknown": 146
+    },
+    "high-school-teacher-interest-044-1": {
+      "asked": 20,
+      "unknown": 13
+    },
+    "preschool-teacher-interest-044-1": {
+      "asked": 54,
+      "unknown": 49
+    },
+    "elementary-teacher-interest-044-1": {
+      "asked": 55,
+      "unknown": 39
+    },
+    "childcare-worker-interest-044-1": {
+      "asked": 53,
+      "unknown": 53
+    },
+    "preschool-teacher-interest-044-2": {
+      "asked": 8,
+      "unknown": 7
+    },
+    "elementary-teacher-interest-044-2": {
+      "asked": 20,
+      "unknown": 10
+    },
+    "childcare-worker-interest-044-2": {
+      "asked": 5,
+      "unknown": 5
+    },
+    "technology-workday": {
+      "asked": 48,
+      "unknown": 5
+    },
+    "landscaping-worker-interest-044-1": {
+      "asked": 55,
+      "unknown": 36
+    },
+    "farmworker-crops-interest-044-1": {
+      "asked": 31,
+      "unknown": 17
+    },
+    "degree-19101300-047-domain": {
+      "asked": 29,
+      "unknown": 14
+    },
+    "landscaping-worker-interest-044-2": {
+      "asked": 15,
+      "unknown": 3
+    },
+    "farmworker-crops-interest-044-2": {
+      "asked": 12,
+      "unknown": 6
+    },
+    "industrial-engineering-interest-044-2": {
+      "asked": 5,
+      "unknown": 5
+    },
+    "bookkeeping-clerk-interest-044-1": {
+      "asked": 95,
+      "unknown": 16
+    },
+    "bookkeeping-clerk-interest-044-2": {
+      "asked": 78,
+      "unknown": 0
+    },
+    "sales-office-workday": {
+      "asked": 130,
+      "unknown": 38
+    },
+    "office-clerk-interest-044-1": {
+      "asked": 61,
+      "unknown": 31
+    },
+    "cashier-interest-044-1": {
+      "asked": 39,
+      "unknown": 35
+    },
+    "retail-sales-interest-044-1": {
+      "asked": 47,
+      "unknown": 0
+    },
+    "retail-sales-interest-044-2": {
+      "asked": 45,
+      "unknown": 0
+    },
+    "electronics-assembly-087-2": {
+      "asked": 51,
+      "unknown": 0
+    },
+    "electronics-assembly-087-3": {
+      "asked": 51,
+      "unknown": 14
+    },
+    "web-interface-design-interest-044-1": {
+      "asked": 52,
+      "unknown": 37
+    },
+    "graphic-design-interest-044-1": {
+      "asked": 51,
+      "unknown": 1
+    },
+    "graphic-design-interest-044-2": {
+      "asked": 49,
+      "unknown": 0
+    },
+    "web-interface-design-interest-044-2": {
+      "asked": 2,
+      "unknown": 2
+    },
+    "av-technician-087-1": {
+      "asked": 29,
+      "unknown": 9
+    },
+    "animation-interest-044-2": {
+      "asked": 29,
+      "unknown": 7
+    },
+    "office-clerk-interest-044-2": {
+      "asked": 24,
+      "unknown": 2
+    },
+    "cashier-interest-044-2": {
+      "asked": 6,
+      "unknown": 3
+    },
+    "marketing-manager-interest-044-1": {
+      "asked": 77,
+      "unknown": 60
+    },
+    "market-research-interest-044-1": {
+      "asked": 76,
+      "unknown": 22
+    },
+    "marketing-manager-interest-044-2": {
+      "asked": 14,
+      "unknown": 4
+    },
+    "market-research-interest-044-2": {
+      "asked": 51,
+      "unknown": 14
+    },
+    "degree-19309300-047-domain": {
+      "asked": 138,
+      "unknown": 134
+    },
+    "general-maintenance-interest-044-2": {
+      "asked": 3,
+      "unknown": 3
+    },
+    "public-safety-team": {
+      "asked": 28,
+      "unknown": 5
+    },
+    "phlebotomy-087-1": {
+      "asked": 9,
+      "unknown": 9
+    },
+    "health-workday": {
+      "asked": 27,
+      "unknown": 4
+    },
+    "software-interest-044-1": {
+      "asked": 19,
+      "unknown": 4
+    },
+    "web-developer-interest-044-1": {
+      "asked": 13,
+      "unknown": 0
+    },
+    "web-developer-interest-044-2": {
+      "asked": 13,
+      "unknown": 0
+    },
+    "software-interest-044-2": {
+      "asked": 16,
+      "unknown": 0
+    },
+    "accounting-interest-044-1": {
+      "asked": 74,
+      "unknown": 62
+    },
+    "financial-analysis-interest-044-1": {
+      "asked": 71,
+      "unknown": 54
+    },
+    "paralegal-interest-044-1": {
+      "asked": 41,
+      "unknown": 32
+    },
+    "personal-financial-advisor-interest-044-1": {
+      "asked": 82,
+      "unknown": 67
+    },
+    "human-resources-interest-044-1": {
+      "asked": 79,
+      "unknown": 57
+    },
+    "law-interest-044-1": {
+      "asked": 48,
+      "unknown": 16
+    },
+    "law-interest-044-2": {
+      "asked": 22,
+      "unknown": 10
+    },
+    "paralegal-interest-044-2": {
+      "asked": 8,
+      "unknown": 3
+    },
+    "personal-financial-advisor-interest-044-2": {
+      "asked": 3,
+      "unknown": 2
+    },
+    "human-resources-interest-044-2": {
+      "asked": 5,
+      "unknown": 4
+    },
+    "civil-engineering-interest-044-1": {
+      "asked": 19,
+      "unknown": 0
+    },
+    "civil-engineering-interest-044-2": {
+      "asked": 19,
+      "unknown": 12
+    },
+    "water-treatment-087-1": {
+      "asked": 37,
+      "unknown": 30
+    },
+    "teaching-interest-044-1": {
+      "asked": 21,
+      "unknown": 13
+    },
+    "stock-order-filler-interest-044-1": {
+      "asked": 76,
+      "unknown": 0
+    },
+    "stock-order-filler-interest-044-2": {
+      "asked": 76,
+      "unknown": 28
+    },
+    "management-analyst-interest-044-1": {
+      "asked": 89,
+      "unknown": 45
+    },
+    "statistics-interest-044-1": {
+      "asked": 39,
+      "unknown": 0
+    },
+    "statistics-interest-044-2": {
+      "asked": 39,
+      "unknown": 0
+    },
+    "food-science-interest-044-1": {
+      "asked": 83,
+      "unknown": 69
+    },
+    "social-research-interest-044-1": {
+      "asked": 152,
+      "unknown": 109
+    },
+    "architecture-interest-044-1": {
+      "asked": 18,
+      "unknown": 18
+    },
+    "quality-inspection-087-2": {
+      "asked": 37,
+      "unknown": 0
+    },
+    "quality-inspection-087-3": {
+      "asked": 37,
+      "unknown": 37
+    },
+    "biological-technician-interest-044-1": {
+      "asked": 79,
+      "unknown": 61
+    },
+    "chemistry-interest-044-1": {
+      "asked": 83,
+      "unknown": 43
+    },
+    "school-psychology-interest-044-1": {
+      "asked": 78,
+      "unknown": 63
+    },
+    "degree-19309300-047-method": {
+      "asked": 4,
+      "unknown": 0
+    },
+    "degree-19309300-047-responsibility": {
+      "asked": 4,
+      "unknown": 2
+    },
+    "industrial-design-interest-044-1": {
+      "asked": 4,
+      "unknown": 1
+    },
+    "industrial-design-interest-044-2": {
+      "asked": 3,
+      "unknown": 0
+    },
+    "management-analyst-interest-044-2": {
+      "asked": 33,
+      "unknown": 13
+    },
+    "general-operations-manager-interest-044-1": {
+      "asked": 97,
+      "unknown": 79
+    },
+    "project-management-interest-044-1": {
+      "asked": 99,
+      "unknown": 20
+    },
+    "degree-25103200-047-domain": {
+      "asked": 3,
+      "unknown": 3
+    },
+    "clinical-psychologist-interest-044-1": {
+      "asked": 57,
+      "unknown": 42
+    },
+    "social-work-interest-044-1": {
+      "asked": 51,
+      "unknown": 48
+    },
+    "mental-health-counselor-interest-044-1": {
+      "asked": 55,
+      "unknown": 40
+    },
+    "degree-19101300-047-method": {
+      "asked": 14,
+      "unknown": 4
+    },
+    "plant-research-reporting-090": {
+      "asked": 10,
+      "unknown": 8
+    },
+    "degree-25105300-047-domain": {
+      "asked": 1,
+      "unknown": 1
+    },
+    "physician-interest-044-1": {
+      "asked": 20,
+      "unknown": 13
+    },
+    "chemistry-interest-044-2": {
+      "asked": 36,
+      "unknown": 3
+    },
+    "hairdresser-interest-044-1": {
+      "asked": 22,
+      "unknown": 22
+    },
+    "librarian-interest-044-2": {
+      "asked": 59,
+      "unknown": 2
+    },
+    "high-school-teacher-interest-044-2": {
+      "asked": 7,
+      "unknown": 1
+    },
+    "teaching-interest-044-2": {
+      "asked": 7,
+      "unknown": 3
+    },
+    "medical-services-manager-interest-044-1": {
+      "asked": 42,
+      "unknown": 35
+    },
+    "financial-analysis-interest-044-2": {
+      "asked": 5,
+      "unknown": 1
+    },
+    "av-technician-087-2": {
+      "asked": 14,
+      "unknown": 13
+    },
+    "mental-health-counselor-interest-044-2": {
+      "asked": 10,
+      "unknown": 6
+    },
+    "clinical-psychologist-interest-044-2": {
+      "asked": 9,
+      "unknown": 8
+    },
+    "degree-17102100-047-method": {
+      "asked": 5,
+      "unknown": 5
+    },
+    "degree-25903100-047-method": {
+      "asked": 2,
+      "unknown": 2
+    },
+    "school-psychology-interest-044-2": {
+      "asked": 2,
+      "unknown": 2
+    },
+    "general-operations-manager-interest-044-2": {
+      "asked": 6,
+      "unknown": 4
+    },
+    "medical-services-manager-interest-044-2": {
+      "asked": 3,
+      "unknown": 3
+    },
+    "animal-caretaking-087-2": {
+      "asked": 7,
+      "unknown": 3
+    },
+    "machining-087-1": {
+      "asked": 3,
+      "unknown": 3
+    },
+    "degree-25103100-047-domain": {
+      "asked": 2,
+      "unknown": 2
+    },
+    "accounting-interest-044-2": {
+      "asked": 6,
+      "unknown": 0
+    },
+    "exercise-physiology-interest-044-1": {
+      "asked": 10,
+      "unknown": 6
+    },
+    "degree-25106500-047-domain": {
+      "asked": 3,
+      "unknown": 3
+    },
+    "physical-therapy-interest-044-1": {
+      "asked": 10,
+      "unknown": 8
+    },
+    "animal-caretaking-087-3": {
+      "asked": 4,
+      "unknown": 2
+    },
+    "social-research-interest-044-2": {
+      "asked": 6,
+      "unknown": 4
+    },
+    "physical-therapy-interest-044-2": {
+      "asked": 1,
+      "unknown": 0
+    },
+    "physician-interest-044-2": {
+      "asked": 5,
+      "unknown": 3
+    },
+    "degree-25112100-047-domain": {
+      "asked": 5,
+      "unknown": 4
+    },
+    "degree-27403100-047-responsibility": {
+      "asked": 2,
+      "unknown": 1
+    },
+    "firefighter-interest-044-1": {
+      "asked": 7,
+      "unknown": 7
+    },
+    "cnc-operation-087-1": {
+      "asked": 1,
+      "unknown": 1
+    },
+    "food-science-interest-044-2": {
+      "asked": 2,
+      "unknown": 2
+    },
+    "biological-technician-interest-044-2": {
+      "asked": 2,
+      "unknown": 1
+    },
+    "degree-25112100-047-method": {
+      "asked": 1,
+      "unknown": 1
+    },
+    "degree-25105200-047-domain": {
+      "asked": 2,
+      "unknown": 2
+    }
+  }
+}

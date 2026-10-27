@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-10-25T00:35:50.175Z",
+  "developmentOnly": true,
+  "models": 758,
+  "variants": [
+    {
+      "mode": "fixed",
+      "models": 758,
+      "beforeTop": 482,
+      "top": 482,
+      "beforeDegree": 375,
+      "degree": 375,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "asked": 18192,
+      "unknown": 9636,
+      "uncorrectedTop": 485,
+      "uncorrectedDegree": 378
+    },
+    {
+      "mode": "hybrid2",
+      "models": 758,
+      "beforeTop": 482,
+      "top": 474,
+      "beforeDegree": 375,
+      "degree": 361,
+      "gainedTop": 2,
+      "lostTop": 10,
+      "gainedDegree": 0,
+      "lostDegree": 14,
+      "asked": 18192,
+      "unknown": 9707,
+      "uncorrectedTop": 485,
+      "uncorrectedDegree": 378
+    },
+    {
+      "mode": "hybrid3",
+      "models": 758,
+      "beforeTop": 482,
+      "top": 476,
+      "beforeDegree": 375,
+      "degree": 369,
+      "gainedTop": 1,
+      "lostTop": 7,
+      "gainedDegree": 0,
+      "lostDegree": 6,
+      "asked": 18192,
+      "unknown": 9656,
+      "uncorrectedTop": 485,
+      "uncorrectedDegree": 378
+    }
+  ],
+  "selected": "hybrid3",
+  "selectionRule": "Best hybrid variant by development Top + degree coverage, then fewer coverage losses relative to the corrected control, then deterministic name. Fixed is the separately replayed architecture-corrected control. No holdout outcomes used.",
+  "runnerSHA256": "7671780fc5be85d1a6f729381000b679a4a0e631593bc48fd4f981bf56382411",
+  "selectorSHA256": "3643cbf424ee5bf6666b096f3757b8d143da7715c8d8dce49bbb23bf3ddff447"
+}

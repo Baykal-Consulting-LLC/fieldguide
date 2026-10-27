@@ -1,0 +1,394 @@
+{
+  "version": "0.56.0",
+  "generatedAt": "2026-10-25T02:42:00.300Z",
+  "classification": "Public fictional base profiles; diagnostic variants and six private cases excluded from these comparison totals.",
+  "total": {
+    "before": {
+      "models": 172,
+      "hasTop": 147,
+      "degreeTop": 125,
+      "firstCovers": 42,
+      "topCovers": 54,
+      "unknownTopPay": 54
+    },
+    "payOnlyTopCovers": 60,
+    "current": {
+      "models": 172,
+      "hasTop": 148,
+      "degreeTop": 125,
+      "firstCovers": 47,
+      "topCovers": 61,
+      "unknownTopPay": 15
+    },
+    "topChanged": 29,
+    "degreeAdded": 9,
+    "modelsWithNewReflections": 26,
+    "noncollegeAlongsideDegree": 21
+  },
+  "cohorts": {
+    "development": {
+      "before": {
+        "models": 70,
+        "hasTop": 63,
+        "degreeTop": 58,
+        "firstCovers": 23,
+        "topCovers": 27,
+        "unknownTopPay": 24
+      },
+      "payOnlyTopCovers": 28,
+      "current": {
+        "models": 70,
+        "hasTop": 64,
+        "degreeTop": 58,
+        "firstCovers": 23,
+        "topCovers": 30,
+        "unknownTopPay": 1
+      },
+      "topChanged": 13,
+      "degreeAdded": 3,
+      "modelsWithNewReflections": 7,
+      "noncollegeAlongsideDegree": 6
+    },
+    "holdout": {
+      "before": {
+        "models": 30,
+        "hasTop": 25,
+        "degreeTop": 20,
+        "firstCovers": 2,
+        "topCovers": 5,
+        "unknownTopPay": 8
+      },
+      "payOnlyTopCovers": 6,
+      "current": {
+        "models": 30,
+        "hasTop": 25,
+        "degreeTop": 20,
+        "firstCovers": 2,
+        "topCovers": 6,
+        "unknownTopPay": 2
+      },
+      "topChanged": 3,
+      "degreeAdded": 2,
+      "modelsWithNewReflections": 7,
+      "noncollegeAlongsideDegree": 2
+    },
+    "supplement": {
+      "before": {
+        "models": 24,
+        "hasTop": 21,
+        "degreeTop": 15,
+        "firstCovers": 5,
+        "topCovers": 7,
+        "unknownTopPay": 7
+      },
+      "payOnlyTopCovers": 8,
+      "current": {
+        "models": 24,
+        "hasTop": 21,
+        "degreeTop": 15,
+        "firstCovers": 7,
+        "topCovers": 8,
+        "unknownTopPay": 3
+      },
+      "topChanged": 5,
+      "degreeAdded": 2,
+      "modelsWithNewReflections": 6,
+      "noncollegeAlongsideDegree": 5
+    },
+    "legacy": {
+      "before": {
+        "models": 24,
+        "hasTop": 21,
+        "degreeTop": 16,
+        "firstCovers": 9,
+        "topCovers": 11,
+        "unknownTopPay": 8
+      },
+      "payOnlyTopCovers": 13,
+      "current": {
+        "models": 24,
+        "hasTop": 21,
+        "degreeTop": 16,
+        "firstCovers": 11,
+        "topCovers": 12,
+        "unknownTopPay": 4
+      },
+      "topChanged": 5,
+      "degreeAdded": 1,
+      "modelsWithNewReflections": 4,
+      "noncollegeAlongsideDegree": 5
+    },
+    "development049": {
+      "before": {
+        "models": 12,
+        "hasTop": 9,
+        "degreeTop": 8,
+        "firstCovers": 2,
+        "topCovers": 2,
+        "unknownTopPay": 4
+      },
+      "payOnlyTopCovers": 3,
+      "current": {
+        "models": 12,
+        "hasTop": 9,
+        "degreeTop": 8,
+        "firstCovers": 2,
+        "topCovers": 3,
+        "unknownTopPay": 3
+      },
+      "topChanged": 1,
+      "degreeAdded": 0,
+      "modelsWithNewReflections": 1,
+      "noncollegeAlongsideDegree": 2
+    },
+    "holdout049": {
+      "before": {
+        "models": 12,
+        "hasTop": 8,
+        "degreeTop": 8,
+        "firstCovers": 1,
+        "topCovers": 2,
+        "unknownTopPay": 3
+      },
+      "payOnlyTopCovers": 2,
+      "current": {
+        "models": 12,
+        "hasTop": 8,
+        "degreeTop": 8,
+        "firstCovers": 2,
+        "topCovers": 2,
+        "unknownTopPay": 2
+      },
+      "topChanged": 2,
+      "degreeAdded": 1,
+      "modelsWithNewReflections": 1,
+      "noncollegeAlongsideDegree": 1
+    }
+  },
+  "holdoutPolicy": "Original holdout and fresh 0.49 holdout are reported separately. Rules, examples and pay treatment were locked before holdout reflections and final outcomes. No real-student accuracy or causal learning claim.",
+  "payMethod": "TWC mean of lowest-paid third, or a labeled BLS 10th-percentile fallback, for18 exact-SOC roles without unresolved earlier paid stages; wage proxies are planning assumptions, not measured starting salaries. Thirty wage references available in total. Twelve keep first-stage coverage unresolved.",
+  "newCollege": [
+    {
+      "id": "life-012",
+      "phase": "development",
+      "added": [
+        {
+          "id": "animation",
+          "title": "Animator and visual-effects artist",
+          "routes": [
+            {
+              "key": "college",
+              "label": "College · bachelor’s degree"
+            }
+          ]
+        }
+      ],
+      "before": [
+        "degree-27304305",
+        "graphic-design",
+        "degree-27101300"
+      ],
+      "current": [
+        "degree-27304305",
+        "graphic-design",
+        "animation"
+      ]
+    },
+    {
+      "id": "life-030",
+      "phase": "development",
+      "added": [
+        {
+          "id": "degree-27102700",
+          "title": "Set and Exhibit Designers",
+          "routes": [
+            {
+              "key": "college",
+              "label": "College · bachelor’s degree"
+            }
+          ]
+        }
+      ],
+      "before": [],
+      "current": [
+        "degree-27102700"
+      ]
+    },
+    {
+      "id": "life-078",
+      "phase": "development",
+      "added": [
+        {
+          "id": "industrial-engineering",
+          "title": "Industrial Engineers",
+          "routes": [
+            {
+              "key": "college",
+              "label": "College · bachelor’s degree"
+            }
+          ]
+        }
+      ],
+      "before": [
+        "bookkeeping-clerk",
+        "accounting",
+        "degree-13105100"
+      ],
+      "current": [
+        "bookkeeping-clerk",
+        "accounting",
+        "industrial-engineering"
+      ]
+    },
+    {
+      "id": "life-060",
+      "phase": "holdout",
+      "added": [
+        {
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "routes": [
+            {
+              "key": "college",
+              "label": "College · bachelor’s degree"
+            }
+          ]
+        }
+      ],
+      "before": [
+        "degree-27101300",
+        "degree-27304100",
+        "writing"
+      ],
+      "current": [
+        "degree-27101300",
+        "degree-27304100",
+        "graphic-design"
+      ]
+    },
+    {
+      "id": "life-066",
+      "phase": "holdout",
+      "added": [
+        {
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "routes": [
+            {
+              "key": "college",
+              "label": "College · bachelor’s degree"
+            }
+          ]
+        }
+      ],
+      "before": [
+        "interpreting"
+      ],
+      "current": [
+        "interpreting",
+        "graphic-design"
+      ]
+    },
+    {
+      "id": "gap-003",
+      "phase": "supplement",
+      "added": [
+        {
+          "id": "accounting",
+          "title": "Accountant",
+          "routes": [
+            {
+              "key": "college",
+              "label": "College · bachelor’s degree"
+            }
+          ]
+        }
+      ],
+      "before": [
+        "bookkeeping-clerk",
+        "farmworker-crops",
+        "degree-13108102"
+      ],
+      "current": [
+        "bookkeeping-clerk",
+        "farmworker-crops",
+        "accounting"
+      ]
+    },
+    {
+      "id": "gap-022",
+      "phase": "supplement",
+      "added": [
+        {
+          "id": "degree-19204300",
+          "title": "Hydrologists",
+          "routes": [
+            {
+              "key": "college",
+              "label": "College · bachelor’s degree"
+            }
+          ]
+        }
+      ],
+      "before": [
+        "biological-technician",
+        "degree-19102904",
+        "environmental-science"
+      ],
+      "current": [
+        "biological-technician",
+        "environmental-science",
+        "degree-19204300"
+      ]
+    },
+    {
+      "id": "legacy-019",
+      "phase": "legacy",
+      "added": [
+        {
+          "id": "degree-29114101",
+          "title": "Acute Care Nurses",
+          "routes": [
+            {
+              "key": "college",
+              "label": "College · bachelor’s degree"
+            }
+          ]
+        }
+      ],
+      "before": [
+        "emt"
+      ],
+      "current": [
+        "emt",
+        "degree-29114101"
+      ]
+    },
+    {
+      "id": "new049-014",
+      "phase": "holdout049",
+      "added": [
+        {
+          "id": "social-research",
+          "title": "Social research assistant",
+          "routes": [
+            {
+              "key": "college",
+              "label": "College · bachelor’s degree"
+            }
+          ]
+        }
+      ],
+      "before": [
+        "degree-15202100",
+        "degree-19302200",
+        "statistics"
+      ],
+      "current": [
+        "degree-15202100",
+        "statistics",
+        "social-research"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pay evidence, earlier exploration and coverage comparison · 0.50 · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Pay evidence, earlier exploration and coverage comparison · 0.50</h1><p>Retained development record. It may describe an earlier release.</p><a href="./coverage-050-2026-10-19.md" download>Download original Markdown</a><pre class="document"># Pay evidence, earlier exploration and coverage comparison · 0.50
+
+This release preserves all original fictional biographies, assessment totals and raw response histories. It adds sourced wage references, neutral exploration examples and comparable-fit ranking. The public baseline contains172 independent base profiles;12 paired diagnostics and six authenticated owner-only models remain separate. These are synthetic evaluation cases, not a representative student sample or a real-student accuracy study.
+
+## Results against the frozen 0.49 snapshot
+
+| Public base models | Before | Current |
+| --- | ---: | ---: |
+| Has a confirmed Top match |147|148|
+| Has a college/graduate Top match |125|125|
+| First-ranked match covers stated lifestyle |42|47|
+| At least one Top match covers stated lifestyle |54|60|
+| Unknown affordability on at least one Top match |54|15|
+| Any displayed option covers lifestyle |139|139|
+| No displayed option establishes coverage |33|33|
+
+The coverage increase from54 to60 also occurs when the new pay evidence is applied to the frozen Top lists. Ranking and new reflections redistribute some coverage between models; they are not responsible for six independently discovered sustaining matches. All financial outcomes are scenarios using the stated wage and funding assumptions.
+
+Six models receive an added college/graduate Top profession. Total degree Top offers remain232 and degree-Top model coverage remains125: additions are offset by replacements. The release does not force an increase by relabeling weak interests. Theo (life-030) gains a first supported Top option in set/exhibit design. Jordan (legacy-019) gains Acute Care Nurses alongside EMT; that specialty's first paid-stage affordability remains unknown. Other new degree offers are Industrial Engineers, Accountant, Hydrologists and Social research assistant. The chart's added-college filter identifies all six cases and retained histories.
+
+## Pay evidence
+
+Thirty previously missing Top-profession wage references now have exact official sources. For17 exact-SOC professions, the entry planning point uses the Texas Workforce Commission mean wage of the lowest-paid third, consistent with existing guided-career proxies. Mathematicians uses the national BLS/O*NET10th percentile because the local TWC value is unavailable. Geography and fallback are visible. These are occupational wage proxies after qualification, not measured first-job salaries.
+
+Twelve professions retain unresolved first paid-stage affordability: six research/faculty routes with earlier paid preparation or appointment uncertainties, two roles typically requiring related experience, and four specialties whose wages cover broader occupations. Qualified-role wage information is still available for exploration. No salary is borrowed from the student's existing income. Training costs, aid and first paid preparation remain separate; monthly comparisons include only entered loan payments. Full-time employee wage references do not establish self-employed income or reliable year-round hours.
+
+Source tables and scope are in `research/pay-050/pay-evidence.json` and `pay-review.csv`. BLS2025 data and the live TWC API were checked on October20 UTC. The TWC live dataset matches the existing archived annual dataset. Sources: https://texaswages.com/Home/About and https://www.onetonline.org/link/localwages/15-1253.00?st=TX .
+
+## Better exploration
+
+The student results introduce college possibilities alongside current fits when no degree Top is established or a noncollege fit falls short financially. The underlying interest threshold still determines what is relevant; pay never establishes eligibility. A separate author, who did not read biographies or outcomes, wrote72 concrete examples with optional no-tools thought experiments, balanced reflections and limits. A new example never supplies an answer automatically.
+
+A focused replay offered at most two pending, non-declined degree professions to26 models without a degree Top. The invitation set was frozen from0.49 before pay/ranking changes. An independent author received only anonymous examples, underlying interests and original biographies. The18 non-holdout profiles supplied42 reflections (three supported Yes,39 unsure); eight holdout profiles supplied15 unsure responses. All57 are frozen separately. Existing supported answers and declines are preserved. Plausible transfers remain uncertain, and identity, diagnosis, family resources, prestige and income goals never imply an interest.
+
+Eight flat/near-flat profiles remain open for exploration rather than receiving an invented interest ranking. Direct student reflection may clarify a real student's preferences; synthetic biography inference cannot substitute for that evidence. One paired diagnostic reuses its parent's new reflections exactly and is not a27th independent observation.
+
+## Ranking and holdout
+
+All eligibility thresholds remain intact. For expanded and guided candidates together, supported evidence quality and interest tier lead. Within the same quality/tier and0.10 correlation band, education preference and assessed first-stage affordability can order the options. The strongest noncollege fit is retained alongside a comparable sustaining degree fit when the Top-three cap would otherwise displace it. The chart and frequency view retain that cap.
+
+The rules, pay treatment, invitation set and examples were locked before the holdout reflection pass. Development outcomes were reviewed first. Original holdout30 and fresh holdout12 appear separately in the chart. The original holdout's any-Top coverage is5→6; fresh holdout remains2→2. No holdout outcome was used to retune eligibility or ranking.
+
+Three later operational repairs preserve evidence-hold explanations on unresolved answers, keep answer-freeze timestamps immutable on repeat builds, and correctly label the existing national Mathematician wage fallback. The initial freeze remains intact; hashes and explanations are in `operational-amendments.json`. Outcome lists are checked against the pre-repair snapshot; these repairs do not change matching or coverage policy.
+
+## Inspect the changes
+
+The chart adds a frozen0.49→0.50 cohort comparison, a pay-evidence-only stage, new-college/changed-Top/exploration filters, per-model old Top lists, all new reflection evidence and wage provenance. The education filter also applies to the baseline. Private records remain authenticated; a0.49 baseline is not invented for private rows. Diagnostics are excluded from default denominators. Cohort features and raw biographies are unchanged; the matrix and profession-frequency view rebuild from the same release.
+
+The0.49 tests that required unchanged engine code or universally unknown expanded pay have been superseded by explicit0.50 tests of frozen inputs, frozen baseline offers, shared chart/student replay, wage-source scope and comparable-fit safeguards.
+</pre></main></html>

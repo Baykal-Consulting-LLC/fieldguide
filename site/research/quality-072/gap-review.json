@@ -1,0 +1,5210 @@
+[
+  {
+    "modelId": "life-011",
+    "name": "Lucia Hartwell",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Industrial Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to study how products are made or work gets done and redesign the steps to use time, people, and materials more effectively?",
+      "Would you like to learn to compare production costs and design changes to recommend practical ways an organization could reduce waste or improve output?"
+    ],
+    "missingFeatures": [
+      "m:quantitative",
+      "m:testing",
+      "r:safety",
+      "t:enterprise"
+    ]
+  },
+  {
+    "modelId": "life-016",
+    "name": "Owen Mbatha",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Film and Video Editors",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "f:shots-edit"
+    ]
+  },
+  {
+    "modelId": "life-024",
+    "name": "Samuel Price",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+    "unresolvedPrompts": [
+      "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?"
+    ],
+    "missingFeatures": [
+      "visual.develops-body-of-work",
+      "visual.original-work",
+      "visual.revises-form"
+    ]
+  },
+  {
+    "modelId": "life-027",
+    "name": "Cora McIntyre",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Librarians & media specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "life-029",
+    "name": "Evelyn Duarte",
+    "cohort": "development",
+    "noTop": true,
+    "category": "binding",
+    "categoryLabel": "Unasked defining checks with rule-level evidence to review",
+    "degreeAlternatives": [],
+    "candidate": "Management Analysts",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate how an organization works by gathering information about its procedures, problems, and results?",
+      "Would you like to learn to recommend better ways for an organization to operate and work with its staff to put those changes into practice?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "life-032",
+    "name": "Diego Kim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Mechanical engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "f:mechanism-test",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "life-034",
+    "name": "Alexei Petrov",
+    "cohort": "development",
+    "noTop": true,
+    "category": "binding",
+    "categoryLabel": "Unasked defining checks with rule-level evidence to review",
+    "degreeAlternatives": [],
+    "candidate": "Statistical Assistants",
+    "unresolvedPrompts": [
+      "Would you like to learn to support statistical studies by organizing information and carrying out calculations using established statistical procedures accurately and consistently?",
+      "Would you like to learn to check data and apply specified calculations to prepare useful tables, charts, or summaries for the people conducting a statistical study?",
+      "Would you like to learn to maintain reliable study records and explain calculation results clearly while recognizing errors or uncertainties that need review by the research team?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "life-035",
+    "name": "Miles Pruett",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Interpreters and Translators",
+    "unresolvedPrompts": [
+      "Would you like to learn to convey someone\u2019s spoken or signed message accurately from one language into another?",
+      "Would you like to learn to work out meaning and context across languages so the translated message preserves the speaker\u2019s intent and tone?"
+    ],
+    "missingFeatures": [
+      "m:explaining",
+      "t:language"
+    ]
+  },
+  {
+    "modelId": "life-045",
+    "name": "Caleb Hensley",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Librarians & media specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "life-050",
+    "name": "Tessa Redbird",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Occupational Therapists",
+    "unresolvedPrompts": [
+      "Would you like to learn to assess how an illness, injury, or disability affects a person's ability to do everyday activities and set rehabilitation goals with them as a regular part of your work?",
+      "Would you like to learn to plan and guide therapy that helps a person with an illness, injury, or disability regain or adapt everyday skills such as dressing, cooking, or using tools as a regular part of your work?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "r:patientcare",
+      "t:movement"
+    ]
+  },
+  {
+    "modelId": "life-056",
+    "name": "Chinedu Okafor",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Art, Drama, and Music Teachers, Postsecondary",
+    "unresolvedPrompts": [
+      "Would you like to learn to teach adult learners to develop artistic expression through visual art, drama, or music while understanding the choices behind creative work?"
+    ],
+    "missingFeatures": [
+      "m:expression",
+      "r:assessment",
+      "t:adults",
+      "t:learning",
+      "t:visual"
+    ]
+  },
+  {
+    "modelId": "life-062",
+    "name": "Alex Nowak",
+    "cohort": "development",
+    "noTop": false,
+    "category": "binding",
+    "categoryLabel": "Unasked defining checks with rule-level evidence to review",
+    "degreeAlternatives": [],
+    "candidate": "Biological Technicians",
+    "unresolvedPrompts": [
+      "Would you like to learn to collect and prepare biological samples, such as plants, water, or animal material, to help scientists study living things?",
+      "Would you like to learn to carry out biological experiments carefully, observe what happens, and record results for a research team?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "life-067",
+    "name": "Greta Halvorsen",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Document Management Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to organize how an organization captures, stores, finds, shares, and eventually disposes of its electronic documents and records?",
+      "Would you like to learn to coordinate document-handling rules that balance useful access with confidentiality, retention duties, and secure disposal when records are no longer needed?"
+    ],
+    "missingFeatures": [
+      "f:checked-records",
+      "m:coordination",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "life-094",
+    "name": "Sadie Pruitt",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Industrial designers",
+    "unresolvedPrompts": [
+      "Would you like to learn to build or try models of a product and revise the design when it does not meet users' needs as a regular part of your work?"
+    ],
+    "missingFeatures": [
+      "f:physical-prototype",
+      "m:testing"
+    ]
+  },
+  {
+    "modelId": "gap-001",
+    "name": "Elena Duarte",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Materials Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to recommend materials and manufacturing choices while balancing product performance, reliability, availability, and the costs of producing them?"
+    ],
+    "missingFeatures": [
+      "f:materials-controls",
+      "r:safety",
+      "t:chemistry"
+    ]
+  },
+  {
+    "modelId": "gap-002",
+    "name": "Jamal Whitaker",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Registered Nurses",
+    "unresolvedPrompts": [
+      "Would you like to learn to give prescribed medicines and monitor patients' responses as part of direct nursing care as a regular part of your work?"
+    ],
+    "missingFeatures": [
+      "r:patientcare"
+    ]
+  },
+  {
+    "modelId": "gap-005",
+    "name": "Priya Menon",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Statistical Assistants",
+    "unresolvedPrompts": [
+      "Would you like to learn to support statistical studies by organizing information and carrying out calculations using established statistical procedures accurately and consistently?",
+      "Would you like to learn to maintain reliable study records and explain calculation results clearly while recognizing errors or uncertainties that need review by the research team?"
+    ],
+    "missingFeatures": [
+      "m:quantitative",
+      "t:statistics"
+    ]
+  },
+  {
+    "modelId": "gap-006",
+    "name": "Mateo Ruiz",
+    "cohort": "development",
+    "noTop": false,
+    "category": "binding",
+    "categoryLabel": "Unasked defining checks with rule-level evidence to review",
+    "degreeAlternatives": [],
+    "candidate": "Logisticians",
+    "unresolvedPrompts": [
+      "Would you like to learn to plan how an organization\u2019s supplies or products get to the right place at the right time?",
+      "Would you like to learn to coordinate suppliers, transport, and customers when delivery plans change or something goes wrong?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "gap-009",
+    "name": "Darius Bell",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Secondary School Teachers",
+    "unresolvedPrompts": [
+      "Would you like to learn to plan lessons for a high-school class, check students\u2019 understanding, and adjust your teaching to help different students learn?"
+    ],
+    "missingFeatures": [
+      "r:assessment"
+    ]
+  },
+  {
+    "modelId": "gap-010",
+    "name": "Linh Tran",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Industrial designers",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "f:physical-prototype"
+    ]
+  },
+  {
+    "modelId": "gap-013",
+    "name": "Jalen Brooks",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Logisticians",
+    "unresolvedPrompts": [
+      "Would you like to learn to coordinate suppliers, transport, and customers when delivery plans change or something goes wrong?"
+    ],
+    "missingFeatures": [
+      "m:quantitative",
+      "t:logistics"
+    ]
+  },
+  {
+    "modelId": "gap-016",
+    "name": "Wyatt Mercer",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Logisticians",
+    "unresolvedPrompts": [
+      "Would you like to learn to plan how an organization\u2019s supplies or products get to the right place at the right time?",
+      "Would you like to learn to coordinate suppliers, transport, and customers when delivery plans change or something goes wrong?"
+    ],
+    "missingFeatures": [
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "gap-017",
+    "name": "Marisol Vega",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Anesthesiologist Assistants",
+    "unresolvedPrompts": [
+      "Would you like to learn to help maintain a patient's comfort and safety while medicines temporarily reduce awareness or sensation during a surgical or other medical procedure?",
+      "Would you like to learn to interpret changing measurements of breathing, circulation, and other body functions to recognize when a patient receiving anesthesia needs immediate attention?",
+      "Would you like to learn to support airway care and adjustments to anesthesia under appropriate medical supervision while remaining attentive throughout a patient's procedure?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:testing",
+      "r:patientcare",
+      "r:safety",
+      "s:anesthesia-care",
+      "s:time-critical-care",
+      "t:biology",
+      "t:chemistry"
+    ]
+  },
+  {
+    "modelId": "gap-020",
+    "name": "Luis Alberto Pe\u00f1a",
+    "cohort": "development",
+    "noTop": false,
+    "category": "binding",
+    "categoryLabel": "Unasked defining checks with rule-level evidence to review",
+    "degreeAlternatives": [],
+    "candidate": "Logisticians",
+    "unresolvedPrompts": [
+      "Would you like to learn to plan how an organization\u2019s supplies or products get to the right place at the right time?",
+      "Would you like to learn to coordinate suppliers, transport, and customers when delivery plans change or something goes wrong?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "gap-021",
+    "name": "Audrey Whitfield",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Meeting, Convention, and Event Planners",
+    "unresolvedPrompts": [
+      "Would you like to learn to manage event commitments and bills while making sure suppliers and staff deliver the arrangements promised to a client?"
+    ],
+    "missingFeatures": [
+      "f:financial-reconciliation",
+      "m:precision",
+      "t:logistics OR t:finance"
+    ]
+  },
+  {
+    "modelId": "legacy-004",
+    "name": "Lee",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Physician \u00b7 family medicine",
+    "unresolvedPrompts": [
+      "Would you like to learn to examine patients, interpret medical tests, and work out which illness or injury is causing their symptoms?",
+      "Would you like to learn to take responsibility for choosing and providing medical treatments, such as medicines or preventive care, and monitoring a patient\u2019s health?"
+    ],
+    "missingFeatures": [
+      "r:clinical",
+      "r:patientcare"
+    ]
+  },
+  {
+    "modelId": "legacy-009",
+    "name": "Drew",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Network and Computer Systems Administrators",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "legacy-015",
+    "name": "Cameron",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Industrial designers",
+    "unresolvedPrompts": [
+      "Would you like to learn to sketch ideas for useful physical products, thinking about how people will use them as a regular part of your work?"
+    ],
+    "missingFeatures": [
+      "f:physical-product"
+    ]
+  },
+  {
+    "modelId": "legacy-016",
+    "name": "Sky",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Biological Technicians",
+    "unresolvedPrompts": [
+      "Would you like to learn to collect and prepare biological samples, such as plants, water, or animal material, to help scientists study living things?",
+      "Would you like to learn to carry out biological experiments carefully, observe what happens, and record results for a research team?"
+    ],
+    "missingFeatures": [
+      "t:biology"
+    ]
+  },
+  {
+    "modelId": "legacy-017",
+    "name": "Rowan",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Fashion Designers",
+    "unresolvedPrompts": [
+      "Would you like to learn to communicate clear production details and balance the intended look with fit, materials, and practical constraints so others can make the design?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "legacy-019",
+    "name": "Jordan",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Acute Care Nurses",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "m:coordination",
+      "m:investigation",
+      "m:testing",
+      "r:clinical",
+      "r:patientcare",
+      "r:safety",
+      "s:time-critical-care",
+      "t:biology"
+    ]
+  },
+  {
+    "modelId": "legacy-020",
+    "name": "Parker",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Document Management Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to coordinate document-handling rules that balance useful access with confidentiality, retention duties, and secure disposal when records are no longer needed?"
+    ],
+    "missingFeatures": [
+      "f:checked-records",
+      "m:coordination",
+      "r:safety",
+      "t:computing"
+    ]
+  },
+  {
+    "modelId": "legacy-022",
+    "name": "Sage",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Document Management Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to coordinate document-handling rules that balance useful access with confidentiality, retention duties, and secure disposal when records are no longer needed?"
+    ],
+    "missingFeatures": [
+      "f:checked-records",
+      "r:safety",
+      "t:computing"
+    ]
+  },
+  {
+    "modelId": "legacy-023",
+    "name": "Remy",
+    "cohort": "development",
+    "noTop": true,
+    "category": "exposure",
+    "categoryLabel": "No usable typed interest evidence",
+    "degreeAlternatives": [],
+    "candidate": "Animal Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate how nutrition, genetics, housing, and growth affect the health and productivity of animals raised on farms?",
+      "Would you like to learn to design comparisons of animal feeding or care practices and interpret results to understand what produces better outcomes?",
+      "Would you like to learn to explain research findings to producers and recommend evidence-based changes in the way farm animals are raised and cared for?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:testing",
+      "r:research",
+      "t:animals"
+    ]
+  },
+  {
+    "modelId": "legacy-024",
+    "name": "Charlie",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Industrial designers",
+    "unresolvedPrompts": [
+      "Would you like to learn to build or try models of a product and revise the design when it does not meet users' needs as a regular part of your work?"
+    ],
+    "missingFeatures": [
+      "f:physical-prototype",
+      "m:testing"
+    ]
+  },
+  {
+    "modelId": "life-008",
+    "name": "Caleb Whitlock",
+    "cohort": "holdout",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Industrial designers",
+    "unresolvedPrompts": [
+      "Would you like to learn to build or try models of a product and revise the design when it does not meet users' needs as a regular part of your work?"
+    ],
+    "missingFeatures": [
+      "f:physical-prototype",
+      "m:testing"
+    ]
+  },
+  {
+    "modelId": "life-010",
+    "name": "Devin Laurent",
+    "cohort": "holdout",
+    "noTop": false,
+    "category": "binding",
+    "categoryLabel": "Unasked defining checks with rule-level evidence to review",
+    "degreeAlternatives": [],
+    "candidate": "Logisticians",
+    "unresolvedPrompts": [
+      "Would you like to learn to coordinate suppliers, transport, and customers when delivery plans change or something goes wrong?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "life-046",
+    "name": "Linh Cabrera",
+    "cohort": "holdout",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Geographers",
+    "unresolvedPrompts": [
+      "Would you like to learn to communicate a research-based explanation of relationships between places, including the evidence and limits behind the geographic conclusions?"
+    ],
+    "missingFeatures": [
+      "m:fieldwork",
+      "m:quantitative",
+      "r:research",
+      "t:earth"
+    ]
+  },
+  {
+    "modelId": "life-047",
+    "name": "Nolan Ashford",
+    "cohort": "holdout",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Industrial designers",
+    "unresolvedPrompts": [
+      "Would you like to learn to build or try models of a product and revise the design when it does not meet users' needs as a regular part of your work?"
+    ],
+    "missingFeatures": [
+      "f:physical-prototype",
+      "m:testing"
+    ]
+  },
+  {
+    "modelId": "life-049",
+    "name": "Zoe Min Park",
+    "cohort": "holdout",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Industrial designers",
+    "unresolvedPrompts": [
+      "Would you like to learn to build or try models of a product and revise the design when it does not meet users' needs as a regular part of your work?"
+    ],
+    "missingFeatures": [
+      "f:physical-prototype",
+      "m:testing"
+    ]
+  },
+  {
+    "modelId": "life-053",
+    "name": "Owen Chao",
+    "cohort": "holdout",
+    "noTop": true,
+    "category": "binding",
+    "categoryLabel": "Unasked defining checks with rule-level evidence to review",
+    "degreeAlternatives": [],
+    "candidate": "Management Analysts",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate how an organization works by gathering information about its procedures, problems, and results?",
+      "Would you like to learn to recommend better ways for an organization to operate and work with its staff to put those changes into practice?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "life-059",
+    "name": "Wyatt Sloane",
+    "cohort": "holdout",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Biological Technicians",
+    "unresolvedPrompts": [
+      "Would you like to learn to collect and prepare biological samples, such as plants, water, or animal material, to help scientists study living things?",
+      "Would you like to learn to carry out biological experiments carefully, observe what happens, and record results for a research team?"
+    ],
+    "missingFeatures": [
+      "t:biology"
+    ]
+  },
+  {
+    "modelId": "life-097",
+    "name": "Jonas Loke",
+    "cohort": "holdout",
+    "noTop": false,
+    "category": "binding",
+    "categoryLabel": "Unasked defining checks with rule-level evidence to review",
+    "degreeAlternatives": [],
+    "candidate": "Biological Technicians",
+    "unresolvedPrompts": [
+      "Would you like to learn to collect and prepare biological samples, such as plants, water, or animal material, to help scientists study living things?",
+      "Would you like to learn to carry out biological experiments carefully, observe what happens, and record results for a research team?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "new049-001",
+    "name": "Marisol Vega",
+    "cohort": "development",
+    "noTop": true,
+    "category": "binding",
+    "categoryLabel": "Unasked defining checks with rule-level evidence to review",
+    "degreeAlternatives": [],
+    "candidate": "Public Relations Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to answer questions from journalists or the public and provide accurate information on behalf of an organization?",
+      "Would you like to learn to plan messages or public-information campaigns that help people understand an organization and its work?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "new049-003",
+    "name": "Colton Reed",
+    "cohort": "development",
+    "noTop": true,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Market research analysts",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "r:research",
+      "t:marketing",
+      "t:statistics"
+    ]
+  },
+  {
+    "modelId": "new049-021",
+    "name": "Tessa Walker",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Animal Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate how nutrition, genetics, housing, and growth affect the health and productivity of animals raised on farms?",
+      "Would you like to learn to design comparisons of animal feeding or care practices and interpret results to understand what produces better outcomes?",
+      "Would you like to learn to explain research findings to producers and recommend evidence-based changes in the way farm animals are raised and cared for?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:testing",
+      "r:research",
+      "t:animals"
+    ]
+  },
+  {
+    "modelId": "new049-020",
+    "name": "Miles Bennett",
+    "cohort": "holdout049",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Astronomers",
+    "unresolvedPrompts": [
+      "Would you like to learn to design and communicate a defensible investigation of an astronomical question, including uncertainty and the limits of available observations?"
+    ],
+    "missingFeatures": [
+      "m:quantitative",
+      "r:research",
+      "t:space"
+    ]
+  },
+  {
+    "modelId": "scale056-0001",
+    "name": "Alex Bennett",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0003",
+    "name": "Sam Bennett",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Insurance Underwriters",
+    "unresolvedPrompts": [
+      "Would you like to learn to explain decisions to accept, limit, or decline insurance coverage while applying consistent risk-assessment rules?"
+    ],
+    "missingFeatures": [
+      "r:risk"
+    ]
+  },
+  {
+    "modelId": "scale056-0008",
+    "name": "Casey Bennett",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Food Scientists and Technologists",
+      "Physicists",
+      "Film and Video Editors",
+      "Validation Engineers",
+      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
+    ],
+    "candidate": "Physicists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0012",
+    "name": "Drew Bennett",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Editors",
+    "unresolvedPrompts": [
+      "Would you like to learn to read drafts critically, check factual claims, and compare revisions that strengthen the structure, language, and meaning of the text?"
+    ],
+    "missingFeatures": [
+      "m:expression",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0023",
+    "name": "Dakota Bennett",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Soil and Plant Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare soil conditions and plant responses through observations or experiments to work out why growth changes across different settings?"
+    ],
+    "missingFeatures": [
+      "m:explaining",
+      "m:precision",
+      "m:testing OR m:fieldwork",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0031",
+    "name": "Charlie Bennett",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Social science research assistants"
+    ],
+    "candidate": "Social science research assistants",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0033",
+    "name": "River Bennett",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Anthropologists and Archeologists",
+    "unresolvedPrompts": [
+      "Would you like to learn to document and share findings about people or past societies while treating communities and cultural evidence with care and explaining uncertain interpretations?"
+    ],
+    "missingFeatures": [
+      "r:research"
+    ]
+  },
+  {
+    "modelId": "scale056-0034",
+    "name": "Lane Bennett",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0035",
+    "name": "Jules Bennett",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health Education Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate a community's health information needs and develop teaching materials or activities that are understandable and useful to its members?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:investigation"
+    ]
+  },
+  {
+    "modelId": "scale056-0042",
+    "name": "Kai Chen",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Environmental Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to work with technical and community partners to ensure an environmental solution is practical, meets requirements, and addresses the actual hazard?"
+    ],
+    "missingFeatures": [
+      "m:quantitative",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0045",
+    "name": "Taylor Chen",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Optometrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine eye examination findings and test results to identify vision problems and compare suitable corrections or treatments within the care provided?",
+      "Would you like to learn to explain eye-care findings and choices to patients, provide appropriate correction or treatment, and recognize when another kind of specialist care is needed?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "r:clinical"
+    ]
+  },
+  {
+    "modelId": "scale056-0049",
+    "name": "Reese Chen",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Registered Nurses"
+    ],
+    "candidate": "Registered Nurses",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0050",
+    "name": "Rowan Chen",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "General & Operations Managers",
+      "Administrative Services Managers",
+      "Regulatory Affairs Specialists",
+      "Project Management Specialists",
+      "Human Resources Specialists"
+    ],
+    "candidate": "Administrative Services Managers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0053",
+    "name": "Emery Chen",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Sales Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to set fair sales expectations, guide struggling staff, and resolve difficult customer concerns on behalf of a team?"
+    ],
+    "missingFeatures": [
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0056",
+    "name": "Adrian Chen",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare measurements and circuit behavior to find why an electronic design does not perform as intended?"
+    ],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0064",
+    "name": "Kendall Chen",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Librarians & media specialists",
+      "Logistics Analysts",
+      "Budget Analysts",
+      "Logisticians",
+      "Compensation, Benefits, and Job Analysis Specialists"
+    ],
+    "candidate": "Logistics Analysts",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0067",
+    "name": "Charlie Chen",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Sociologists",
+    "unresolvedPrompts": [
+      "Would you like to learn to design surveys, interviews, or other systematic studies and compare findings to test an explanation of a social pattern?",
+      "Would you like to learn to communicate social research responsibly while protecting participants and explaining how the study\u2019s methods limit the conclusions people can draw?"
+    ],
+    "missingFeatures": [
+      "m:quantitative",
+      "r:research"
+    ]
+  },
+  {
+    "modelId": "scale056-0073",
+    "name": "Alex Davis",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Mental Health and Substance Abuse Social Workers",
+    "unresolvedPrompts": [
+      "Would you like to learn to provide counseling and coordinate services while documenting progress toward agreed goals and responding carefully when a crisis affects the person?"
+    ],
+    "missingFeatures": [
+      "r:clinical"
+    ]
+  },
+  {
+    "modelId": "scale056-0076",
+    "name": "Riley Davis",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Robotics Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare sensor information, movement, and control instructions to investigate why a robotic system behaves differently from what was intended?"
+    ],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0077",
+    "name": "Avery Davis",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Materials Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to communicate research findings that help others understand a material's possibilities and limitations before applying it to new products?"
+    ],
+    "missingFeatures": [
+      "m:explaining",
+      "m:precision",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0078",
+    "name": "Kai Davis",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Atmospheric and Space Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare weather observations and model predictions to develop forecasts or test explanations of atmospheric processes and changing conditions?",
+      "Would you like to learn to communicate forecasts and their uncertainty clearly to people who may need to make important plans or protective decisions from them?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0081",
+    "name": "Taylor Davis",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Network and Computer Systems Administrators",
+    "unresolvedPrompts": [
+      "Would you like to learn to manage access, backups, and system changes while minimizing disruption and restoring services when technical problems arise?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0082",
+    "name": "Quinn Davis",
+    "cohort": "development",
+    "noTop": true,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Public Relations Specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0089",
+    "name": "Emery Davis",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Civil Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to plan or improve roads, bridges, water systems, or other structures that people depend on?",
+      "Would you like to learn to use calculations and tests of soil or building materials to check whether a construction design is strong and safe?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0091",
+    "name": "Cameron Davis",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Editors",
+    "unresolvedPrompts": [
+      "Would you like to learn to read drafts critically, check factual claims, and compare revisions that strengthen the structure, language, and meaning of the text?"
+    ],
+    "missingFeatures": [
+      "m:expression"
+    ]
+  },
+  {
+    "modelId": "scale056-0100",
+    "name": "Kendall Davis",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Security Management Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to assess how someone could bypass existing protections and compare practical changes to reduce the security weaknesses found?",
+      "Would you like to learn to recommend security procedures and help coordinate responses to incidents while considering the people affected by protective measures?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:explaining",
+      "m:investigation",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0106",
+    "name": "Lane Davis",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Librarians & media specialists",
+      "Statistical Assistants",
+      "Social science research assistants",
+      "Survey Researchers",
+      "Computer Programmers",
+      "Software Quality Assurance Analysts and Testers"
+    ],
+    "candidate": "Statistical Assistants",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0113",
+    "name": "Avery Ellis",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Cartographers and Photogrammetrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine survey records, photographs, and other geographic observations to resolve differences and improve the accuracy of a map?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0118",
+    "name": "Quinn Ellis",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Validation Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to document testing procedures and unresolved failures so others can judge whether equipment or processes are ready for dependable use?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0119",
+    "name": "Jamie Ellis",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Mechanical engineers",
+      "Robotics Engineers",
+      "Electrical Engineers",
+      "Electronics Engineers, Except Computer",
+      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "Mechatronics Engineers",
+      "Validation Engineers",
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+    ],
+    "candidate": "Robotics Engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0120",
+    "name": "Drew Ellis",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Logistics Analysts",
+      "Computer Programmers",
+      "Appraisers of Personal and Business Property",
+      "Librarians & media specialists",
+      "Credit Analysts",
+      "Logisticians",
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "Budget Analysts",
+      "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "Loan Officers",
+      "Management Analysts",
+      "Wholesale and Retail Buyers, Except Farm Products",
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Human Resources Specialists",
+      "Credit Counselors",
+      "Public Relations Specialists"
+    ],
+    "candidate": "Logistics Analysts",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0122",
+    "name": "Rowan Ellis",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Architecture Teachers, Postsecondary",
+    "unresolvedPrompts": [
+      "Would you like to learn to teach adult learners how buildings and spaces can combine structural needs, human use, and visual design in thoughtful ways?",
+      "Would you like to learn to develop design exercises and critiques that help students explain and improve their architectural choices using evidence and clear reasoning?",
+      "Would you like to learn to evaluate students' building-design work and give constructive feedback while adapting the course to what learners need to understand next?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:explaining",
+      "r:assessment",
+      "t:adults",
+      "t:learning"
+    ]
+  },
+  {
+    "modelId": "scale056-0131",
+    "name": "Dakota Ellis",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Public Relations Specialists"
+    ],
+    "candidate": "Public Relations Specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0133",
+    "name": "Ellis Ellis",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0138",
+    "name": "Parker Ellis",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Animal Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to design comparisons of animal feeding or care practices and interpret results to understand what produces better outcomes?",
+      "Would you like to learn to explain research findings to producers and recommend evidence-based changes in the way farm animals are raised and cared for?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:testing",
+      "r:research"
+    ]
+  },
+  {
+    "modelId": "scale056-0144",
+    "name": "Alexis Ellis",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Music Directors and Composers",
+    "unresolvedPrompts": [
+      "Would you like to learn to develop musical ideas through composing, arranging, or interpreting scores, then revise them by listening carefully to how they sound?"
+    ],
+    "missingFeatures": [
+      "audio.original-work",
+      "audio.revises-by-listening",
+      "audio.uses-listener-feedback"
+    ]
+  },
+  {
+    "modelId": "scale056-0149",
+    "name": "Avery Farah",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Animal Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to design comparisons of animal feeding or care practices and interpret results to understand what produces better outcomes?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:testing"
+    ]
+  },
+  {
+    "modelId": "scale056-0155",
+    "name": "Jamie Farah",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Camera Operators, Television, Video, and Film",
+    "unresolvedPrompts": [
+      "Would you like to learn to experiment with framing, light, camera position, and movement to produce shots that support the intended scene or visual effect?",
+      "Would you like to learn to coordinate camera work with performers and production staff while making reliable recordings that meet the shared visual plan and practical needs?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0156",
+    "name": "Drew Farah",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Librarians & media specialists",
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "Atmospheric and Space Scientists"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0160",
+    "name": "Sage Farah",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Civil Engineers",
+      "Construction Managers",
+      "Accountants and Auditors",
+      "Logisticians",
+      "Budget Analysts",
+      "Tax Examiners and Collectors, and Revenue Agents",
+      "Compensation, Benefits, and Job Analysis Specialists"
+    ],
+    "candidate": "Budget Analysts",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0161",
+    "name": "Emery Farah",
+    "cohort": "development",
+    "noTop": true,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Exercise Physiologists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0162",
+    "name": "Robin Farah",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Logisticians",
+      "Budget Analysts",
+      "Librarians & media specialists"
+    ],
+    "candidate": "Compensation, Benefits, and Job Analysis Specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0163",
+    "name": "Cameron Farah",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "Proofreaders and Copy Markers",
+      "Editors",
+      "Architects",
+      "Interior Designers",
+      "Graphic Designers",
+      "Poets, Lyricists and Creative Writers",
+      "Fine Artists, Including Painters, Sculptors, and Illustrators"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0165",
+    "name": "Marin Farah",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Animal Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to explain research findings to producers and recommend evidence-based changes in the way farm animals are raised and cared for?"
+    ],
+    "missingFeatures": [
+      "r:research"
+    ]
+  },
+  {
+    "modelId": "scale056-0166",
+    "name": "Sky Farah",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Compensation, Benefits, and Job Analysis Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare job information, pay data, and benefit rules to recommend consistent ways of classifying and compensating work?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0168",
+    "name": "Finley Farah",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Civil Engineers",
+      "Mechanical engineers",
+      "Electrical Engineers",
+      "Robotics Engineers",
+      "Electronics Engineers, Except Computer",
+      "Mechatronics Engineers",
+      "Construction Managers"
+    ],
+    "candidate": "Robotics Engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0170",
+    "name": "Arden Farah",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Education Administrators, Kindergarten through Secondary",
+    "unresolvedPrompts": [
+      "Would you like to learn to make schoolwide decisions about staff, student support, and policies while explaining those decisions to families?"
+    ],
+    "missingFeatures": [
+      "r:assessment",
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0174",
+    "name": "Parker Farah",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Instructional Coordinators",
+    "unresolvedPrompts": [
+      "Would you like to learn to observe instruction and compare learning evidence to identify how course content, activities, or teaching methods could work more effectively?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:explaining"
+    ]
+  },
+  {
+    "modelId": "scale056-0177",
+    "name": "River Farah",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Budget Analysts",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare spending proposals and financial reports to identify unrealistic estimates, changing needs, or departures from a budget?"
+    ],
+    "missingFeatures": [
+      "m:organization",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0182",
+    "name": "Jordan Garcia",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Food Scientists and Technologists"
+    ],
+    "candidate": "Food Scientists and Technologists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0185",
+    "name": "Avery Garcia",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0188",
+    "name": "Casey Garcia",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Astronomers",
+    "unresolvedPrompts": [
+      "Would you like to learn to analyze observations from telescopes and compare scientific explanations for patterns in light or the motion of objects in space?",
+      "Would you like to learn to design and communicate a defensible investigation of an astronomical question, including uncertainty and the limits of available observations?"
+    ],
+    "missingFeatures": [
+      "m:quantitative",
+      "r:research"
+    ]
+  },
+  {
+    "modelId": "scale056-0191",
+    "name": "Jamie Garcia",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Registered Nurses",
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Educational, Guidance, & Career Counselors & Advisors",
+      "Budget Analysts",
+      "Elementary School Teachers",
+      "Secondary School Teachers",
+      "Logistics Analysts",
+      "Middle school teachers",
+      "Logisticians",
+      "Instructional Coordinators"
+    ],
+    "candidate": "Compensation, Benefits, and Job Analysis Specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0193",
+    "name": "Reese Garcia",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Librarians & media specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to help someone work out what information they need and search reliable sources to answer their question as a regular part of your work?"
+    ],
+    "missingFeatures": [
+      "f:source-comparison"
+    ]
+  },
+  {
+    "modelId": "scale056-0194",
+    "name": "Rowan Garcia",
+    "cohort": "development",
+    "noTop": true,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Public Relations Specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0197",
+    "name": "Emery Garcia",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0210",
+    "name": "Parker Garcia",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Animal Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate how nutrition, genetics, housing, and growth affect the health and productivity of animals raised on farms?",
+      "Would you like to learn to design comparisons of animal feeding or care practices and interpret results to understand what produces better outcomes?",
+      "Would you like to learn to explain research findings to producers and recommend evidence-based changes in the way farm animals are raised and cared for?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:testing",
+      "r:research",
+      "t:animals"
+    ]
+  },
+  {
+    "modelId": "scale056-0217",
+    "name": "Alex Hayes",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Validation Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to document testing procedures and unresolved failures so others can judge whether equipment or processes are ready for dependable use?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0221",
+    "name": "Avery Hayes",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Writers & authors",
+    "unresolvedPrompts": [
+      "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+      "Would you like to learn to revise your writing after feedback so its message, structure, and style work better for its intended readers?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "t:writing"
+    ]
+  },
+  {
+    "modelId": "scale056-0225",
+    "name": "Taylor Hayes",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Validation Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to document testing procedures and unresolved failures so others can judge whether equipment or processes are ready for dependable use?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0228",
+    "name": "Drew Hayes",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Electrical Engineers",
+      "Electronics Engineers, Except Computer",
+      "Food Scientists and Technologists",
+      "Validation Engineers"
+    ],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0229",
+    "name": "Reese Hayes",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Instructional Coordinators",
+    "unresolvedPrompts": [
+      "Would you like to learn to observe instruction and compare learning evidence to identify how course content, activities, or teaching methods could work more effectively?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:explaining"
+    ]
+  },
+  {
+    "modelId": "scale056-0232",
+    "name": "Sage Hayes",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Credit Counselors",
+    "unresolvedPrompts": [
+      "Would you like to learn to review a person's income, expenses, and credit information to compare manageable ways of addressing financial difficulties?"
+    ],
+    "missingFeatures": [
+      "m:listening",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0233",
+    "name": "Emery Hayes",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Validation Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to plan controlled tests and analyze the results to determine whether a process reliably meets its stated acceptance criteria?",
+      "Would you like to learn to document testing procedures and unresolved failures so others can judge whether equipment or processes are ready for dependable use?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0241",
+    "name": "Ellis Hayes",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0243",
+    "name": "Blair Hayes",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0245",
+    "name": "Remy Hayes",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+    "unresolvedPrompts": [
+      "Would you like to learn to recommend and check safety changes to equipment or processes even when those changes affect cost or production schedules?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0254",
+    "name": "Jordan Ibrahim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Historians",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare original records and conflicting accounts to work out which explanation of a past event is best supported?",
+      "Would you like to learn to present historical interpretations that distinguish evidence from speculation and acknowledge gaps or uncertainty in the surviving records?"
+    ],
+    "missingFeatures": [
+      "history.compares-records",
+      "history.investigates-past",
+      "history.presents-uncertainty"
+    ]
+  },
+  {
+    "modelId": "scale056-0258",
+    "name": "Kai Ibrahim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Advertising and Promotions Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare campaign ideas and revise words or images to communicate the intended message more effectively?"
+    ],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0260",
+    "name": "Casey Ibrahim",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Librarians & media specialists",
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0263",
+    "name": "Jamie Ibrahim",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "Validation Engineers",
+      "Compliance Officers"
+    ],
+    "candidate": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0269",
+    "name": "Emery Ibrahim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Interior Designers",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare room layouts and design details to work out how people can move through and use an interior more effectively?"
+    ],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0273",
+    "name": "Marin Ibrahim",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0277",
+    "name": "Ellis Ibrahim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health Education Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to work with community partners to deliver health education and evaluate its usefulness while avoiding claims that go beyond the available evidence?"
+    ],
+    "missingFeatures": [
+      "m:testing"
+    ]
+  },
+  {
+    "modelId": "scale056-0282",
+    "name": "Parker Ibrahim",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Compliance Officers",
+    "unresolvedPrompts": [
+      "Would you like to learn to explain compliance findings and required corrections to affected people, including when your conclusions lead to penalties or restrictions?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0288",
+    "name": "Alexis Ibrahim",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "Librarians & media specialists",
+      "Budget Analysts",
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Logisticians",
+      "Registered Nurses"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0289",
+    "name": "Alex Jones",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Materials Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to communicate research findings that help others understand a material's possibilities and limitations before applying it to new products?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0290",
+    "name": "Jordan Jones",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Validation Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to document testing procedures and unresolved failures so others can judge whether equipment or processes are ready for dependable use?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0293",
+    "name": "Avery Jones",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Logistics Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to use shipment and operating data to compare routes or network designs and test ways to reduce delays or wasted resources?",
+      "Would you like to learn to develop workable logistics recommendations and explain their consequences for costs, capacity, and service to the people responsible for operations?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:explaining"
+    ]
+  },
+  {
+    "modelId": "scale056-0297",
+    "name": "Taylor Jones",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Registered Nurses"
+    ],
+    "candidate": "Registered Nurses",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0298",
+    "name": "Quinn Jones",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Budget Analysts",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare spending proposals and financial reports to identify unrealistic estimates, changing needs, or departures from a budget?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0305",
+    "name": "Emery Jones",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Advertising and Promotions Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to coordinate people, schedules, and spending so an advertising campaign reaches its audience as planned?"
+    ],
+    "missingFeatures": [
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0306",
+    "name": "Robin Jones",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Robotics Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare sensor information, movement, and control instructions to investigate why a robotic system behaves differently from what was intended?"
+    ],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0307",
+    "name": "Cameron Jones",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0308",
+    "name": "Adrian Jones",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "Logisticians",
+      "Education Administrators, Postsecondary"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0317",
+    "name": "Remy Jones",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Software developers",
+    "unresolvedPrompts": [
+      "Would you like to learn to write and test code, then fix problems so a computer program works as intended?"
+    ],
+    "missingFeatures": [
+      "m:computing"
+    ]
+  },
+  {
+    "modelId": "scale056-0320",
+    "name": "Hayden Jones",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Chief Executives",
+    "unresolvedPrompts": [
+      "Would you like to learn to weigh advice from several departments and compare the consequences of major organizational choices?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0322",
+    "name": "Lane Jones",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Camera Operators, Television, Video, and Film",
+      "Proofreaders and Copy Markers",
+      "Film and Video Editors",
+      "Construction Managers",
+      "Poets, Lyricists and Creative Writers",
+      "Editors",
+      "Writers & authors"
+    ],
+    "candidate": "Camera Operators, Television, Video, and Film",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0325",
+    "name": "Alex Kim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health Specialties Teachers, Postsecondary",
+    "unresolvedPrompts": [
+      "Would you like to learn to turn health research and practical examples into lessons that help students connect scientific ideas with decisions in their chosen health field?"
+    ],
+    "missingFeatures": [
+      "m:explaining",
+      "m:investigation"
+    ]
+  },
+  {
+    "modelId": "scale056-0329",
+    "name": "Avery Kim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0331",
+    "name": "Morgan Kim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Optometrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine eye examination findings and test results to identify vision problems and compare suitable corrections or treatments within the care provided?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0332",
+    "name": "Casey Kim",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Credit Counselors",
+      "Tax Examiners and Collectors, and Revenue Agents",
+      "Personal Financial Advisors",
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Insurance Underwriters",
+      "Investment Fund Managers",
+      "Credit Analysts",
+      "Accountants and Auditors",
+      "Financial and Investment Analysts"
+    ],
+    "candidate": "Credit Counselors",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0334",
+    "name": "Quinn Kim",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to lead purchasing staff and take responsibility for fair supplier decisions, contract procedures, and purchases that meet organizational needs?"
+    ],
+    "missingFeatures": [
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0337",
+    "name": "Reese Kim",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Network and Computer Systems Administrators",
+      "Computer and Information Research Scientists",
+      "Anthropologists and Archeologists"
+    ],
+    "candidate": "Network and Computer Systems Administrators",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0340",
+    "name": "Sage Kim",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Exercise Physiologists",
+      "Elementary School Teachers",
+      "Education Administrators, Kindergarten through Secondary",
+      "Instructional Coordinators"
+    ],
+    "candidate": "Education Administrators, Kindergarten through Secondary",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0341",
+    "name": "Emery Kim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Education Administrators, Kindergarten through Secondary",
+    "unresolvedPrompts": [
+      "Would you like to learn to make schoolwide decisions about staff, student support, and policies while explaining those decisions to families?"
+    ],
+    "missingFeatures": [
+      "r:assessment",
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0342",
+    "name": "Robin Kim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Compliance Officers",
+    "unresolvedPrompts": [
+      "Would you like to learn to examine records and compare observed practices with stated requirements to work out whether an activity complies with the rules?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0343",
+    "name": "Cameron Kim",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Architects",
+      "Mechanical engineers",
+      "Film and Video Editors",
+      "Validation Engineers",
+      "Physicists",
+      "Interpreters and Translators"
+    ],
+    "candidate": "Validation Engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0345",
+    "name": "Marin Kim",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Registered Nurses"
+    ],
+    "candidate": "Registered Nurses",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0346",
+    "name": "Sky Kim",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Astronomers",
+    "unresolvedPrompts": [
+      "Would you like to learn to design and communicate a defensible investigation of an astronomical question, including uncertainty and the limits of available observations?"
+    ],
+    "missingFeatures": [
+      "r:research"
+    ]
+  },
+  {
+    "modelId": "scale056-0353",
+    "name": "Remy Kim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Cartographers and Photogrammetrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine survey records, photographs, and other geographic observations to resolve differences and improve the accuracy of a map?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0354",
+    "name": "Parker Kim",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0355",
+    "name": "Charlie Kim",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Sales Managers",
+      "Surveyors",
+      "Mining and Geological Engineers, Including Mining Safety Engineers",
+      "Cartographers and Photogrammetrists",
+      "Petroleum Engineers"
+    ],
+    "candidate": "Sales Managers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0363",
+    "name": "Sam Lopez",
+    "cohort": "development",
+    "noTop": false,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Public Relations Specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0364",
+    "name": "Riley Lopez",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Music Directors and Composers",
+    "unresolvedPrompts": [
+      "Would you like to learn to develop musical ideas through composing, arranging, or interpreting scores, then revise them by listening carefully to how they sound?"
+    ],
+    "missingFeatures": [
+      "audio.original-work",
+      "audio.revises-by-listening",
+      "audio.uses-listener-feedback"
+    ]
+  },
+  {
+    "modelId": "scale056-0367",
+    "name": "Morgan Lopez",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Validation Engineers"
+    ],
+    "candidate": "Validation Engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0371",
+    "name": "Jamie Lopez",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "Food Scientists and Technologists",
+      "Compliance Officers",
+      "Arbitrators, Mediators, and Conciliators"
+    ],
+    "candidate": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0374",
+    "name": "Rowan Lopez",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Network and Computer Systems Administrators",
+    "unresolvedPrompts": [
+      "Would you like to learn to manage access, backups, and system changes while minimizing disruption and restoring services when technical problems arise?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0375",
+    "name": "Noor Lopez",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+    "unresolvedPrompts": [
+      "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?",
+      "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?"
+    ],
+    "missingFeatures": [
+      "visual.develops-body-of-work",
+      "visual.original-work",
+      "visual.revises-form"
+    ]
+  },
+  {
+    "modelId": "scale056-0381",
+    "name": "Marin Lopez",
+    "cohort": "development",
+    "noTop": true,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Public Relations Specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0386",
+    "name": "Arden Lopez",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Child, Family, and School Social Workers",
+    "unresolvedPrompts": [
+      "Would you like to learn to understand difficulties affecting children or families and help them obtain support and services?",
+      "Would you like to learn to make and follow a support plan for a child or family, recording progress and working with the people involved?"
+    ],
+    "missingFeatures": [
+      "m:organization",
+      "t:children",
+      "t:policy"
+    ]
+  },
+  {
+    "modelId": "scale056-0389",
+    "name": "Remy Lopez",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Music Directors and Composers",
+    "unresolvedPrompts": [
+      "Would you like to learn to develop musical ideas through composing, arranging, or interpreting scores, then revise them by listening carefully to how they sound?"
+    ],
+    "missingFeatures": [
+      "audio.original-work",
+      "audio.revises-by-listening",
+      "audio.uses-listener-feedback"
+    ]
+  },
+  {
+    "modelId": "scale056-0394",
+    "name": "Lane Lopez",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+    "unresolvedPrompts": [
+      "Would you like to learn to recommend and check safety changes to equipment or processes even when those changes affect cost or production schedules?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0397",
+    "name": "Alex Martin",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Camera Operators, Television, Video, and Film",
+    "unresolvedPrompts": [
+      "Would you like to learn to experiment with framing, light, camera position, and movement to produce shots that support the intended scene or visual effect?",
+      "Would you like to learn to coordinate camera work with performers and production staff while making reliable recordings that meet the shared visual plan and practical needs?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0398",
+    "name": "Jordan Martin",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0399",
+    "name": "Sam Martin",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Logisticians"
+    ],
+    "candidate": "Logisticians",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0401",
+    "name": "Avery Martin",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Logistics Analysts",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare shipment records and delivery information to identify where a supply chain is losing time or reliability?"
+    ],
+    "missingFeatures": [
+      "m:organization",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0402",
+    "name": "Kai Martin",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Budget Analysts",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare spending proposals and financial reports to identify unrealistic estimates, changing needs, or departures from a budget?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0404",
+    "name": "Casey Martin",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "Logisticians"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0406",
+    "name": "Quinn Martin",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Public Relations Specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0408",
+    "name": "Drew Martin",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Producers and Directors",
+    "unresolvedPrompts": [
+      "Would you like to learn to interpret a script or production idea and experiment with staging, framing, or performance choices to produce the intended audience experience?",
+      "Would you like to learn to direct collaborators and make creative decisions during rehearsals or recording while coordinating the production's practical limits and overall artistic direction?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:design",
+      "m:expression",
+      "m:organization",
+      "m:testing",
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0416",
+    "name": "Adrian Martin",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Dentist \u00b7 general dentistry",
+      "Exercise Physiologists"
+    ],
+    "candidate": "Dentist \u00b7 general dentistry",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0421",
+    "name": "Ellis Martin",
+    "cohort": "development",
+    "noTop": true,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Social science research assistants",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0425",
+    "name": "Remy Martin",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Financial Risk Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to explain risk exposure and recommend limits or safeguards while making the assumptions and uncertainties clear to decision makers?"
+    ],
+    "missingFeatures": [
+      "r:risk"
+    ]
+  },
+  {
+    "modelId": "scale056-0426",
+    "name": "Parker Martin",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate an accident or test a product design to identify how technical changes could prevent the same danger?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:testing"
+    ]
+  },
+  {
+    "modelId": "scale056-0427",
+    "name": "Charlie Martin",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Validation Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to document testing procedures and unresolved failures so others can judge whether equipment or processes are ready for dependable use?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0429",
+    "name": "River Martin",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Survey Researchers",
+    "unresolvedPrompts": [
+      "Would you like to learn to explain survey findings and their limitations clearly, including whose experiences may be missing and which conclusions the collected responses cannot support?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0441",
+    "name": "Taylor Nguyen",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Mathematicians",
+    "unresolvedPrompts": [
+      "Would you like to learn to construct a precise mathematical argument and look for exceptions before deciding that a proposed relationship is true?",
+      "Would you like to learn to explain the assumptions and reasoning behind a mathematical result so others can examine and build on it?"
+    ],
+    "missingFeatures": [
+      "math.checks-argument",
+      "math.explains-reasoning"
+    ]
+  },
+  {
+    "modelId": "scale056-0442",
+    "name": "Quinn Nguyen",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0444",
+    "name": "Drew Nguyen",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Physicists",
+      "Food Scientists and Technologists",
+      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "Validation Engineers",
+      "Exercise Physiologists",
+      "Interpreters and Translators",
+      "Proofreaders and Copy Markers",
+      "Poets, Lyricists and Creative Writers",
+      "Editors",
+      "Writers & authors"
+    ],
+    "candidate": "Physicists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0445",
+    "name": "Reese Nguyen",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "Budget Analysts",
+      "Meeting, Convention, and Event Planners"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0447",
+    "name": "Noor Nguyen",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Camera Operators, Television, Video, and Film",
+    "unresolvedPrompts": [
+      "Would you like to learn to coordinate camera work with performers and production staff while making reliable recordings that meet the shared visual plan and practical needs?"
+    ],
+    "missingFeatures": [
+      "m:coordination"
+    ]
+  },
+  {
+    "modelId": "scale056-0448",
+    "name": "Sage Nguyen",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Chief Executives",
+    "unresolvedPrompts": [
+      "Would you like to learn to answer to an organization\u2019s governing board for its overall performance and decisions affecting its workforce?"
+    ],
+    "missingFeatures": [
+      "r:wholeorganization"
+    ]
+  },
+  {
+    "modelId": "scale056-0449",
+    "name": "Emery Nguyen",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare measurements and circuit behavior to find why an electronic design does not perform as intended?"
+    ],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0452",
+    "name": "Adrian Nguyen",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Compliance Officers",
+    "unresolvedPrompts": [
+      "Would you like to learn to examine records and compare observed practices with stated requirements to work out whether an activity complies with the rules?"
+    ],
+    "missingFeatures": [
+      "m:investigation"
+    ]
+  },
+  {
+    "modelId": "scale056-0454",
+    "name": "Sky Nguyen",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Validation Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to document testing procedures and unresolved failures so others can judge whether equipment or processes are ready for dependable use?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0463",
+    "name": "Charlie Nguyen",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Optometrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine eye examination findings and test results to identify vision problems and compare suitable corrections or treatments within the care provided?",
+      "Would you like to learn to explain eye-care findings and choices to patients, provide appropriate correction or treatment, and recognize when another kind of specialist care is needed?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:precision",
+      "r:clinical"
+    ]
+  },
+  {
+    "modelId": "scale056-0466",
+    "name": "Lane Nguyen",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Petroleum Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to oversee technical changes to wells while taking responsibility for safe equipment operation and the consequences of production decisions?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0471",
+    "name": "Sam Ortiz",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Occupational Health and Safety Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to recommend protective procedures and require unsafe activities to stop when conditions create a serious threat to people's health?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0472",
+    "name": "Riley Ortiz",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Mathematicians"
+    ],
+    "candidate": "Mathematicians",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0473",
+    "name": "Avery Ortiz",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Statistical Assistants",
+    "unresolvedPrompts": [
+      "Would you like to learn to check data and apply specified calculations to prepare useful tables, charts, or summaries for the people conducting a statistical study?",
+      "Would you like to learn to maintain reliable study records and explain calculation results clearly while recognizing errors or uncertainties that need review by the research team?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0474",
+    "name": "Kai Ortiz",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Robotics Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare sensor information, movement, and control instructions to investigate why a robotic system behaves differently from what was intended?"
+    ],
+    "missingFeatures": [
+      "m:computing",
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0480",
+    "name": "Drew Ortiz",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Insurance Underwriters",
+      "Financial and Investment Analysts"
+    ],
+    "candidate": "Insurance Underwriters",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0482",
+    "name": "Rowan Ortiz",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Compensation, Benefits, and Job Analysis Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare job information, pay data, and benefit rules to recommend consistent ways of classifying and compensating work?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0485",
+    "name": "Emery Ortiz",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Soil and Plant Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare soil conditions and plant responses through observations or experiments to work out why growth changes across different settings?",
+      "Would you like to learn to recommend land and growing practices using scientific evidence while explaining consequences for soil, crops, and the people managing them?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:testing OR m:fieldwork",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0489",
+    "name": "Marin Ortiz",
+    "cohort": "development",
+    "noTop": true,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Social science research assistants",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0490",
+    "name": "Sky Ortiz",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health Education Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate a community's health information needs and develop teaching materials or activities that are understandable and useful to its members?"
+    ],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0492",
+    "name": "Finley Ortiz",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Chemical Engineers",
+      "Materials Engineers"
+    ],
+    "candidate": "Chemical Engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0494",
+    "name": "Arden Ortiz",
+    "cohort": "development",
+    "noTop": false,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Mechanical engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0497",
+    "name": "Remy Ortiz",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Cost Estimators",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine plans, quantities, past prices, and expected labor time to build and check a detailed cost estimate?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0500",
+    "name": "Hayden Ortiz",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Validation Engineers",
+      "Proofreaders and Copy Markers",
+      "Poets, Lyricists and Creative Writers",
+      "Writers & authors",
+      "Editors"
+    ],
+    "candidate": "Validation Engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0509",
+    "name": "Avery Patel",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Graphic Designers"
+    ],
+    "candidate": "Graphic Designers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0510",
+    "name": "Kai Patel",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Mechanical engineers",
+      "Civil Engineers",
+      "Logisticians"
+    ],
+    "candidate": "Mechanical engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0512",
+    "name": "Casey Patel",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Civil Engineers",
+      "Electronics Engineers, Except Computer"
+    ],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0515",
+    "name": "Jamie Patel",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Sales Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to set fair sales expectations, guide struggling staff, and resolve difficult customer concerns on behalf of a team?"
+    ],
+    "missingFeatures": [
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0517",
+    "name": "Reese Patel",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0518",
+    "name": "Rowan Patel",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Child, Family, and School Social Workers",
+    "unresolvedPrompts": [
+      "Would you like to learn to understand difficulties affecting children or families and help them obtain support and services?",
+      "Would you like to learn to make and follow a support plan for a child or family, recording progress and working with the people involved?"
+    ],
+    "missingFeatures": [
+      "t:children",
+      "t:policy"
+    ]
+  },
+  {
+    "modelId": "scale056-0527",
+    "name": "Dakota Patel",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Budget Analysts",
+      "Logisticians"
+    ],
+    "candidate": "Budget Analysts",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0529",
+    "name": "Ellis Patel",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Optometrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine eye examination findings and test results to identify vision problems and compare suitable corrections or treatments within the care provided?",
+      "Would you like to learn to explain eye-care findings and choices to patients, provide appropriate correction or treatment, and recognize when another kind of specialist care is needed?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:precision",
+      "r:clinical"
+    ]
+  },
+  {
+    "modelId": "scale056-0535",
+    "name": "Charlie Patel",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Electrical Engineers",
+      "Mechanical engineers",
+      "Robotics Engineers",
+      "Manufacturing Engineers",
+      "Electronics Engineers, Except Computer",
+      "Mechatronics Engineers",
+      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "Validation Engineers",
+      "Accountants and Auditors",
+      "Compensation, Benefits, and Job Analysis Specialists"
+    ],
+    "candidate": "Robotics Engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0537",
+    "name": "River Patel",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Robotics Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to test a robot's complete behavior and take responsibility for changes that make its physical actions reliable and safe around people?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0540",
+    "name": "Alexis Patel",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Producers and Directors",
+    "unresolvedPrompts": [
+      "Would you like to learn to interpret a script or production idea and experiment with staging, framing, or performance choices to produce the intended audience experience?",
+      "Would you like to learn to direct collaborators and make creative decisions during rehearsals or recording while coordinating the production's practical limits and overall artistic direction?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:design",
+      "m:organization"
+    ]
+  },
+  {
+    "modelId": "scale056-0542",
+    "name": "Jordan Reed",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Facilities Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate building problems and compare maintenance or renovation options that improve how the whole facility operates?",
+      "Would you like to learn to coordinate contractors, maintenance staff, and building users while taking responsibility for repairs, safety requirements, and disruptions to daily operations?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:organization",
+      "m:precision",
+      "r:leadership",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0544",
+    "name": "Riley Reed",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Appraisers and Assessors of Real Estate",
+      "Budget Analysts",
+      "Credit Analysts",
+      "Logisticians",
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Credit Counselors",
+      "Film and Video Editors",
+      "Camera Operators, Television, Video, and Film",
+      "Interior Designers",
+      "Graphic Designers",
+      "Special Effects Artists and Animators",
+      "Fine Artists, Including Painters, Sculptors, and Illustrators"
+    ],
+    "candidate": "Appraisers and Assessors of Real Estate",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0545",
+    "name": "Avery Reed",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Animal Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to design comparisons of animal feeding or care practices and interpret results to understand what produces better outcomes?",
+      "Would you like to learn to explain research findings to producers and recommend evidence-based changes in the way farm animals are raised and cared for?"
+    ],
+    "missingFeatures": [
+      "m:testing",
+      "r:research"
+    ]
+  },
+  {
+    "modelId": "scale056-0547",
+    "name": "Morgan Reed",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Librarians & media specialists",
+      "Logisticians",
+      "Budget Analysts",
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Food Scientists and Technologists"
+    ],
+    "candidate": "Budget Analysts",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0550",
+    "name": "Quinn Reed",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Library Science Teachers, Postsecondary",
+    "unresolvedPrompts": [
+      "Would you like to learn to create learning activities that help students compare approaches to organizing collections, finding sources, and supporting people's access to reliable information?"
+    ],
+    "missingFeatures": [
+      "m:explaining"
+    ]
+  },
+  {
+    "modelId": "scale056-0557",
+    "name": "Emery Reed",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Cartographers and Photogrammetrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine survey records, photographs, and other geographic observations to resolve differences and improve the accuracy of a map?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0561",
+    "name": "Marin Reed",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Editors",
+    "unresolvedPrompts": [
+      "Would you like to learn to read drafts critically, check factual claims, and compare revisions that strengthen the structure, language, and meaning of the text?"
+    ],
+    "missingFeatures": [
+      "m:expression",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0562",
+    "name": "Sky Reed",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Chief Executives",
+    "unresolvedPrompts": [
+      "Would you like to learn to weigh advice from several departments and compare the consequences of major organizational choices?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0567",
+    "name": "Blair Reed",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0568",
+    "name": "Kendall Reed",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "Validation Engineers"
+    ],
+    "candidate": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0570",
+    "name": "Parker Reed",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0573",
+    "name": "River Reed",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+    "unresolvedPrompts": [
+      "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?",
+      "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?"
+    ],
+    "missingFeatures": [
+      "visual.develops-body-of-work",
+      "visual.original-work",
+      "visual.revises-form"
+    ]
+  },
+  {
+    "modelId": "scale056-0576",
+    "name": "Alexis Reed",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Career/Technical Education Teachers, Middle School",
+    "unresolvedPrompts": [
+      "Would you like to learn to guide young students' practical learning, maintain a safe and orderly learning space, and give feedback that helps them explore possible skills?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "r:assessment"
+    ]
+  },
+  {
+    "modelId": "scale056-0584",
+    "name": "Casey Singh",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Compensation, Benefits, and Job Analysis Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare job information, pay data, and benefit rules to recommend consistent ways of classifying and compensating work?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0590",
+    "name": "Rowan Singh",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Sales Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to set fair sales expectations, guide struggling staff, and resolve difficult customer concerns on behalf of a team?"
+    ],
+    "missingFeatures": [
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0593",
+    "name": "Emery Singh",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Compliance Officers",
+    "unresolvedPrompts": [
+      "Would you like to learn to examine records and compare observed practices with stated requirements to work out whether an activity complies with the rules?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0594",
+    "name": "Robin Singh",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0595",
+    "name": "Cameron Singh",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Animal Scientists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0597",
+    "name": "Marin Singh",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Elementary School Teachers",
+    "unresolvedPrompts": [
+      "Would you like to learn to teach elementary school children through explanations, demonstrations, and classroom activities?",
+      "Would you like to learn to identify where a child is struggling with schoolwork and adjust your teaching or support to help them learn?"
+    ],
+    "missingFeatures": [
+      "r:assessment",
+      "t:learning"
+    ]
+  },
+  {
+    "modelId": "scale056-0598",
+    "name": "Sky Singh",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Interior Designers",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare room layouts and design details to work out how people can move through and use an interior more effectively?"
+    ],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0599",
+    "name": "Dakota Singh",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Advertising and Promotions Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to coordinate people, schedules, and spending so an advertising campaign reaches its audience as planned?"
+    ],
+    "missingFeatures": [
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0601",
+    "name": "Ellis Singh",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Atmospheric and Space Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to communicate forecasts and their uncertainty clearly to people who may need to make important plans or protective decisions from them?"
+    ],
+    "missingFeatures": [
+      "m:explaining",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0602",
+    "name": "Arden Singh",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Editors",
+    "unresolvedPrompts": [
+      "Would you like to learn to read drafts critically, check factual claims, and compare revisions that strengthen the structure, language, and meaning of the text?"
+    ],
+    "missingFeatures": [
+      "m:expression",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0603",
+    "name": "Blair Singh",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Advertising and Promotions Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to coordinate people, schedules, and spending so an advertising campaign reaches its audience as planned?"
+    ],
+    "missingFeatures": [
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0605",
+    "name": "Remy Singh",
+    "cohort": "development",
+    "noTop": true,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Exercise Physiologists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0606",
+    "name": "Parker Singh",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Optometrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to explain eye-care findings and choices to patients, provide appropriate correction or treatment, and recognize when another kind of specialist care is needed?"
+    ],
+    "missingFeatures": [
+      "r:clinical"
+    ]
+  },
+  {
+    "modelId": "scale056-0616",
+    "name": "Riley Taylor",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "Construction Managers",
+      "Food Scientists and Technologists"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0617",
+    "name": "Avery Taylor",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Camera Operators, Television, Video, and Film",
+    "unresolvedPrompts": [
+      "Would you like to learn to experiment with framing, light, camera position, and movement to produce shots that support the intended scene or visual effect?",
+      "Would you like to learn to coordinate camera work with performers and production staff while making reliable recordings that meet the shared visual plan and practical needs?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0621",
+    "name": "Taylor Taylor",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Optometrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine eye examination findings and test results to identify vision problems and compare suitable corrections or treatments within the care provided?",
+      "Would you like to learn to explain eye-care findings and choices to patients, provide appropriate correction or treatment, and recognize when another kind of specialist care is needed?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "r:clinical"
+    ]
+  },
+  {
+    "modelId": "scale056-0625",
+    "name": "Reese Taylor",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+    "unresolvedPrompts": [
+      "Would you like to learn to recommend and check safety changes to equipment or processes even when those changes affect cost or production schedules?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0628",
+    "name": "Sage Taylor",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0629",
+    "name": "Emery Taylor",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Animal Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to design comparisons of animal feeding or care practices and interpret results to understand what produces better outcomes?",
+      "Would you like to learn to explain research findings to producers and recommend evidence-based changes in the way farm animals are raised and cared for?"
+    ],
+    "missingFeatures": [
+      "m:testing",
+      "r:research"
+    ]
+  },
+  {
+    "modelId": "scale056-0631",
+    "name": "Cameron Taylor",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate an accident or test a product design to identify how technical changes could prevent the same danger?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0632",
+    "name": "Adrian Taylor",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Biostatisticians",
+    "unresolvedPrompts": [
+      "Would you like to learn to choose and check analytical approaches for a clinical or biological study so comparisons support defensible conclusions?"
+    ],
+    "missingFeatures": [
+      "m:quantitative",
+      "m:testing"
+    ]
+  },
+  {
+    "modelId": "scale056-0633",
+    "name": "Marin Taylor",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0639",
+    "name": "Blair Taylor",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Editors",
+    "unresolvedPrompts": [
+      "Would you like to learn to read drafts critically, check factual claims, and compare revisions that strengthen the structure, language, and meaning of the text?"
+    ],
+    "missingFeatures": [
+      "m:expression",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0649",
+    "name": "Alex Usman",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Food Scientists and Technologists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0650",
+    "name": "Jordan Usman",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Advertising and Promotions Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare campaign ideas and revise words or images to communicate the intended message more effectively?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0651",
+    "name": "Sam Usman",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Human Resources Specialists",
+      "Budget Analysts",
+      "Personal Financial Advisors",
+      "Credit Counselors",
+      "Credit Analysts",
+      "Logisticians"
+    ],
+    "candidate": "Budget Analysts",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0653",
+    "name": "Avery Usman",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Advertising and Promotions Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to coordinate people, schedules, and spending so an advertising campaign reaches its audience as planned?"
+    ],
+    "missingFeatures": [
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0655",
+    "name": "Morgan Usman",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Insurance Underwriters",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare application information and missing details to judge the likelihood and potential cost of an insured loss?"
+    ],
+    "missingFeatures": [
+      "m:investigation"
+    ]
+  },
+  {
+    "modelId": "scale056-0658",
+    "name": "Quinn Usman",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Sales Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to set fair sales expectations, guide struggling staff, and resolve difficult customer concerns on behalf of a team?"
+    ],
+    "missingFeatures": [
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0661",
+    "name": "Reese Usman",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Film and Video Editors",
+    "unresolvedPrompts": [
+      "Would you like to learn to select and arrange video footage so a scene or story is clear and engaging?"
+    ],
+    "missingFeatures": [
+      "m:expression"
+    ]
+  },
+  {
+    "modelId": "scale056-0669",
+    "name": "Marin Usman",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Insurance Underwriters",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare application information and missing details to judge the likelihood and potential cost of an insured loss?"
+    ],
+    "missingFeatures": [
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0670",
+    "name": "Sky Usman",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health Education Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate a community's health information needs and develop teaching materials or activities that are understandable and useful to its members?"
+    ],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0672",
+    "name": "Finley Usman",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Instructional Coordinators",
+    "unresolvedPrompts": [
+      "Would you like to learn to observe instruction and compare learning evidence to identify how course content, activities, or teaching methods could work more effectively?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:explaining"
+    ]
+  },
+  {
+    "modelId": "scale056-0674",
+    "name": "Arden Usman",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0678",
+    "name": "Parker Usman",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Registered Nurses"
+    ],
+    "candidate": "Registered Nurses",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0693",
+    "name": "Taylor Vega",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Media Programming Directors",
+    "unresolvedPrompts": [
+      "Would you like to learn to coordinate broadcast schedules and program records so the station delivers its planned content and follows the requirements governing its broadcasts?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0694",
+    "name": "Quinn Vega",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Sales Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare customer needs and sales results to decide how a team should change its approach?",
+      "Would you like to learn to set fair sales expectations, guide struggling staff, and resolve difficult customer concerns on behalf of a team?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:persuading",
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0695",
+    "name": "Jamie Vega",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Software developers",
+    "unresolvedPrompts": [
+      "Would you like to learn to turn people\u2019s needs into a plan for a useful computer program?"
+    ],
+    "missingFeatures": [
+      "m:design"
+    ]
+  },
+  {
+    "modelId": "scale056-0697",
+    "name": "Reese Vega",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Sales Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to set fair sales expectations, guide struggling staff, and resolve difficult customer concerns on behalf of a team?"
+    ],
+    "missingFeatures": [
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0699",
+    "name": "Noor Vega",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Logistics Analysts",
+      "Logisticians",
+      "Librarians & media specialists",
+      "Statistical Assistants",
+      "Logistics Engineers",
+      "Computer Programmers",
+      "Database Architects",
+      "Software Quality Assurance Analysts and Testers",
+      "Statisticians",
+      "Software developers",
+      "Web Developers",
+      "Survey Researchers",
+      "Data Scientists",
+      "Atmospheric and Space Scientists",
+      "Soil and Plant Scientists"
+    ],
+    "candidate": "Logistics Analysts",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0702",
+    "name": "Robin Vega",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health Education Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate a community's health information needs and develop teaching materials or activities that are understandable and useful to its members?"
+    ],
+    "missingFeatures": [
+      "m:investigation"
+    ]
+  },
+  {
+    "modelId": "scale056-0704",
+    "name": "Adrian Vega",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Civil Engineers",
+      "Mechanical engineers",
+      "Electrical Engineers",
+      "Electronics Engineers, Except Computer",
+      "Appraisers of Personal and Business Property",
+      "Security Management Specialists",
+      "Cost Estimators",
+      "Accountants and Auditors",
+      "Credit Analysts",
+      "Tax Examiners and Collectors, and Revenue Agents",
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Credit Counselors"
+    ],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0706",
+    "name": "Sky Vega",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Optometrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine eye examination findings and test results to identify vision problems and compare suitable corrections or treatments within the care provided?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0708",
+    "name": "Finley Vega",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Marketing Managers",
+      "Advertising and Promotions Managers"
+    ],
+    "candidate": "Advertising and Promotions Managers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0709",
+    "name": "Ellis Vega",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+    "unresolvedPrompts": [
+      "Would you like to learn to investigate an accident or test a product design to identify how technical changes could prevent the same danger?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0715",
+    "name": "Charlie Vega",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Mechanical engineers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0717",
+    "name": "River Vega",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Biochemists and Biophysicists",
+    "unresolvedPrompts": [
+      "Would you like to learn to communicate biological research findings with their limitations and help ensure that experiments and conclusions can be checked by other researchers?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0726",
+    "name": "Kai Walker",
+    "cohort": "development",
+    "noTop": false,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Bioengineers and Biomedical Engineers",
+    "unresolvedPrompts": [
+      "Would you like to learn to design or improve medical devices or equipment that help diagnose or treat health conditions as a regular part of your work?",
+      "Would you like to learn to test medical equipment to find out whether it works effectively and safely for patients and health workers as a regular part of your work?"
+    ],
+    "missingFeatures": [
+      "r:safety",
+      "t:biology",
+      "t:mechanics"
+    ]
+  },
+  {
+    "modelId": "scale056-0727",
+    "name": "Morgan Walker",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Survey Researchers",
+    "unresolvedPrompts": [
+      "Would you like to learn to develop and test survey wording and sampling approaches to reduce misunderstanding and make the information more useful for the research question?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:explaining",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0729",
+    "name": "Taylor Walker",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Surveyors",
+      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
+    ],
+    "candidate": "Surveyors",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0731",
+    "name": "Jamie Walker",
+    "cohort": "development",
+    "noTop": true,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Food Scientists and Technologists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0733",
+    "name": "Reese Walker",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Surveyors",
+    "unresolvedPrompts": [
+      "Would you like to learn to prepare accurate boundary records and stand behind the measurements other people will use for property and construction decisions?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0738",
+    "name": "Robin Walker",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Chief Executives",
+    "unresolvedPrompts": [
+      "Would you like to learn to weigh advice from several departments and compare the consequences of major organizational choices?",
+      "Would you like to learn to answer to an organization\u2019s governing board for its overall performance and decisions affecting its workforce?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:quantitative",
+      "r:wholeorganization"
+    ]
+  },
+  {
+    "modelId": "scale056-0741",
+    "name": "Marin Walker",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Film and Video Editors",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine picture, dialogue, music, and sound effects and refine the timing of a video?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0749",
+    "name": "Remy Walker",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Materials Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to design tests of material samples and compare results to explain why a material changes, fails, or behaves unexpectedly?"
+    ],
+    "missingFeatures": [
+      "m:explaining",
+      "m:precision",
+      "m:testing",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0750",
+    "name": "Parker Walker",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Education and Childcare Administrators, Preschool and Daycare",
+    "unresolvedPrompts": [
+      "Would you like to learn to guide staff and discuss program decisions with families while taking responsibility for the center's daily operation?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:explaining",
+      "r:assessment",
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0753",
+    "name": "River Walker",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Music Directors and Composers",
+    "unresolvedPrompts": [
+      "Would you like to learn to develop musical ideas through composing, arranging, or interpreting scores, then revise them by listening carefully to how they sound?"
+    ],
+    "missingFeatures": [
+      "audio.original-work",
+      "audio.revises-by-listening",
+      "audio.uses-listener-feedback"
+    ]
+  },
+  {
+    "modelId": "scale056-0754",
+    "name": "Lane Walker",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Insurance Underwriters",
+    "unresolvedPrompts": [
+      "Would you like to learn to explain decisions to accept, limit, or decline insurance coverage while applying consistent risk-assessment rules?"
+    ],
+    "missingFeatures": [
+      "r:risk"
+    ]
+  },
+  {
+    "modelId": "scale056-0755",
+    "name": "Jules Walker",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Soil and Plant Scientists"
+    ],
+    "candidate": "Soil and Plant Scientists",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0758",
+    "name": "Jordan Young",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Kindergarten Teachers, Except Special Education",
+    "unresolvedPrompts": [
+      "Would you like to learn to guide a classroom of young children through routines and challenges while communicating with families about each child\u2019s progress and support needs?"
+    ],
+    "missingFeatures": [
+      "r:assessment"
+    ]
+  },
+  {
+    "modelId": "scale056-0759",
+    "name": "Sam Young",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Civil Engineers",
+      "Electrical Engineers",
+      "Registered Nurses",
+      "Electronics Engineers, Except Computer"
+    ],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0760",
+    "name": "Riley Young",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Compliance Officers",
+    "unresolvedPrompts": [
+      "Would you like to learn to examine records and compare observed practices with stated requirements to work out whether an activity complies with the rules?"
+    ],
+    "missingFeatures": [
+      "m:investigation",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0766",
+    "name": "Quinn Young",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "Librarians & media specialists"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0771",
+    "name": "Noor Young",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare supplier proposals and terms to determine which purchase best meets an organization\u2019s practical requirements?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0773",
+    "name": "Emery Young",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Substitute Teachers, Short-Term",
+    "unresolvedPrompts": [
+      "Would you like to learn to interpret an existing lesson plan and adapt explanations as needed when students have questions or encounter difficulties during the lesson?",
+      "Would you like to learn to establish a workable classroom routine quickly and communicate what happened so the regular teacher can resume instruction with useful information?"
+    ],
+    "missingFeatures": [
+      "m:explaining",
+      "m:listening",
+      "r:assessment"
+    ]
+  },
+  {
+    "modelId": "scale056-0777",
+    "name": "Marin Young",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Electronics Engineers, Except Computer",
+      "Librarians & media specialists"
+    ],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0781",
+    "name": "Ellis Young",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+    ],
+    "candidate": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0782",
+    "name": "Arden Young",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Sales Managers",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare customer needs and sales results to decide how a team should change its approach?",
+      "Would you like to learn to set fair sales expectations, guide struggling staff, and resolve difficult customer concerns on behalf of a team?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:persuading",
+      "r:leadership"
+    ]
+  },
+  {
+    "modelId": "scale056-0783",
+    "name": "Blair Young",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Foresters",
+      "Environmental scientists & specialists",
+      "Conservation Scientists",
+      "Geoscientists",
+      "Anthropologists and Archeologists"
+    ],
+    "candidate": "Foresters",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0788",
+    "name": "Hayden Young",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Biological Technicians",
+      "Soil and Plant Scientists"
+    ],
+    "candidate": "Soil and Plant Scientists",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "m:explaining",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0789",
+    "name": "River Young",
+    "cohort": "development",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Atmospheric and Space Scientists",
+    "unresolvedPrompts": [
+      "Would you like to learn to communicate forecasts and their uncertainty clearly to people who may need to make important plans or protective decisions from them?"
+    ],
+    "missingFeatures": [
+      "m:explaining",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0791",
+    "name": "Jules Young",
+    "cohort": "development",
+    "noTop": false,
+    "category": "activity",
+    "categoryLabel": "Both defining checks Yes; distinct activity evidence incomplete",
+    "degreeAlternatives": [],
+    "candidate": "Librarians & media specialists",
+    "unresolvedPrompts": [],
+    "missingFeatures": [
+      "f:source-comparison",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0793",
+    "name": "Alex Zhao",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Budget Analysts",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare spending proposals and financial reports to identify unrealistic estimates, changing needs, or departures from a budget?"
+    ],
+    "missingFeatures": [
+      "m:organization",
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0797",
+    "name": "Avery Zhao",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Cartographers and Photogrammetrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine survey records, photographs, and other geographic observations to resolve differences and improve the accuracy of a map?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0799",
+    "name": "Morgan Zhao",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Budget Analysts",
+      "Survey Researchers"
+    ],
+    "candidate": "Budget Analysts",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0802",
+    "name": "Quinn Zhao",
+    "cohort": "development",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Cartographers and Photogrammetrists",
+    "unresolvedPrompts": [
+      "Would you like to learn to combine survey records, photographs, and other geographic observations to resolve differences and improve the accuracy of a map?"
+    ],
+    "missingFeatures": [
+      "m:precision",
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0803",
+    "name": "Jamie Zhao",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Customs Brokers",
+      "Loan Officers",
+      "Credit Counselors",
+      "Logistics Analysts",
+      "Insurance Underwriters",
+      "Credit Analysts",
+      "Budget Analysts",
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Personal Financial Advisors",
+      "Logisticians",
+      "Fraud Examiners, Investigators and Analysts",
+      "Securities, Commodities, and Financial Services Sales Agents",
+      "Financial and Investment Analysts"
+    ],
+    "candidate": "Customs Brokers",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0804",
+    "name": "Drew Zhao",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Chief Executives",
+    "unresolvedPrompts": [
+      "Would you like to learn to weigh advice from several departments and compare the consequences of major organizational choices?",
+      "Would you like to learn to answer to an organization\u2019s governing board for its overall performance and decisions affecting its workforce?"
+    ],
+    "missingFeatures": [
+      "m:coordination",
+      "m:quantitative",
+      "r:wholeorganization"
+    ]
+  },
+  {
+    "modelId": "scale056-0806",
+    "name": "Rowan Zhao",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Insurance Underwriters",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare application information and missing details to judge the likelihood and potential cost of an insured loss?"
+    ],
+    "missingFeatures": [
+      "m:quantitative"
+    ]
+  },
+  {
+    "modelId": "scale056-0809",
+    "name": "Emery Zhao",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Security Management Specialists",
+    "unresolvedPrompts": [
+      "Would you like to learn to assess how someone could bypass existing protections and compare practical changes to reduce the security weaknesses found?",
+      "Would you like to learn to recommend security procedures and help coordinate responses to incidents while considering the people affected by protective measures?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:precision",
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0810",
+    "name": "Robin Zhao",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to compare measurements and circuit behavior to find why an electronic design does not perform as intended?",
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0815",
+    "name": "Dakota Zhao",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Elementary School Teachers",
+    "unresolvedPrompts": [
+      "Would you like to learn to teach elementary school children through explanations, demonstrations, and classroom activities?",
+      "Would you like to learn to identify where a child is struggling with schoolwork and adjust your teaching or support to help them learn?"
+    ],
+    "missingFeatures": [
+      "m:design",
+      "m:explaining",
+      "t:learning"
+    ]
+  },
+  {
+    "modelId": "scale056-0817",
+    "name": "Ellis Zhao",
+    "cohort": "holdout056",
+    "noTop": false,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Chief Executives",
+    "unresolvedPrompts": [
+      "Would you like to learn to answer to an organization\u2019s governing board for its overall performance and decisions affecting its workforce?"
+    ],
+    "missingFeatures": [
+      "r:wholeorganization"
+    ]
+  },
+  {
+    "modelId": "scale056-0818",
+    "name": "Arden Zhao",
+    "cohort": "holdout056",
+    "noTop": true,
+    "category": "one-check",
+    "categoryLabel": "One defining check unresolved; answer not assumed",
+    "degreeAlternatives": [],
+    "candidate": "Electronics Engineers, Except Computer",
+    "unresolvedPrompts": [
+      "Would you like to learn to evaluate whether electronic components work together reliably and document the design changes needed before a product is used?"
+    ],
+    "missingFeatures": [
+      "r:safety"
+    ]
+  },
+  {
+    "modelId": "scale056-0820",
+    "name": "Kendall Zhao",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Registered Nurses"
+    ],
+    "candidate": "Registered Nurses",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  },
+  {
+    "modelId": "scale056-0825",
+    "name": "River Zhao",
+    "cohort": "development",
+    "noTop": true,
+    "category": "broader",
+    "categoryLabel": "Broader exploration: multiple missing or contrary checks",
+    "degreeAlternatives": [],
+    "candidate": "Camera Operators, Television, Video, and Film",
+    "unresolvedPrompts": [
+      "Would you like to learn to experiment with framing, light, camera position, and movement to produce shots that support the intended scene or visual effect?",
+      "Would you like to learn to coordinate camera work with performers and production staff while making reliable recordings that meet the shared visual plan and practical needs?"
+    ],
+    "missingFeatures": [
+      "m:precision"
+    ]
+  },
+  {
+    "modelId": "scale056-0827",
+    "name": "Jules Zhao",
+    "cohort": "development",
+    "noTop": false,
+    "category": "below-cap",
+    "categoryLabel": "Supported degree already outside Top three",
+    "degreeAlternatives": [
+      "Accountants and Auditors",
+      "Budget Analysts",
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Logisticians"
+    ],
+    "candidate": "Budget Analysts",
+    "unresolvedPrompts": [],
+    "missingFeatures": []
+  }
+]

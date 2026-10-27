@@ -1,0 +1,63 @@
+{
+  "reviewedAt": "2026-10-20T02:37:39.494736+00:00",
+  "beforeOutcomeReplay": true,
+  "policy": "Apply the same subject/context-specificity standard across cohorts. Teaching or supervising children in another activity alone does not establish early-childhood curriculum interest. Raw authored answers are preserved. A stated dislike of clinical treatment does not establish dislike of unaddressed nonclinical information, community-health or practical-support options.",
+  "holds": [
+    {
+      "token": "reflection-0881",
+      "reason": "The biography establishes teaching riding safety and helping younger riders, but not interest in early-childhood learning activities or curriculum as regular work.",
+      "followup": "Would you enjoy helping very young children learn early language, numbers, sharing and self-care through play and daily routines, beyond the activity you already help with?",
+      "effectiveResponse": "unsure",
+      "effectiveConfidence": "low",
+      "constructSupport": "transfer"
+    },
+    {
+      "token": "reflection-0891",
+      "reason": "The biography establishes supervising children and adapting instructions at events, but not interest in teaching early-childhood skills or curriculum as regular work.",
+      "followup": "Would you enjoy helping very young children learn early language, numbers, sharing and self-care through play and daily routines, beyond the activity you already help with?",
+      "effectiveResponse": "unsure",
+      "effectiveConfidence": "low",
+      "constructSupport": "transfer"
+    },
+    {
+      "token": "reflection-0355",
+      "reason": "Avoiding clinical symptom discussions does not establish dislike of the nonclinical community-health or social-pattern option.",
+      "followup": "Setting patient treatment aside, would you like to explore any of the information, community-health or practical-support options in this question?",
+      "effectiveResponse": "unsure",
+      "effectiveConfidence": "low",
+      "constructSupport": "none"
+    },
+    {
+      "token": "reflection-0612",
+      "reason": "Avoiding clinical care does not establish dislike of nonclinical community-health information and evidence work.",
+      "followup": "Setting patient treatment aside, would you like to explore any of the information, community-health or practical-support options in this question?",
+      "effectiveResponse": "unsure",
+      "effectiveConfidence": "low",
+      "constructSupport": "none"
+    },
+    {
+      "token": "reflection-0613",
+      "reason": "Avoiding clinical care does not establish dislike of producing reliable health information.",
+      "followup": "Setting patient treatment aside, would you like to explore any of the information, community-health or practical-support options in this question?",
+      "effectiveResponse": "unsure",
+      "effectiveConfidence": "low",
+      "constructSupport": "none"
+    },
+    {
+      "token": "reflection-0617",
+      "reason": "Avoiding clinical care does not establish dislike of emotional, relationship or practical support.",
+      "followup": "Setting patient treatment aside, would you like to explore any of the information, community-health or practical-support options in this question?",
+      "effectiveResponse": "unsure",
+      "effectiveConfidence": "low",
+      "constructSupport": "none"
+    },
+    {
+      "token": "reflection-0679",
+      "reason": "Avoiding patient treatment does not establish dislike of collecting information about community health.",
+      "followup": "Setting patient treatment aside, would you like to explore any of the information, community-health or practical-support options in this question?",
+      "effectiveResponse": "unsure",
+      "effectiveConfidence": "low",
+      "constructSupport": "none"
+    }
+  ]
+}

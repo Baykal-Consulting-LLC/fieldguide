@@ -1,0 +1,55 @@
+# Life-first model review · release 0.33.0
+
+100 original new biographies and their inferred answers remain unchanged. We added 24 new biographies for coverage gaps rather than revising the first cohort. All 24 older models were independently reviewed with fixed original answers; expanded histories produced a separate parallel interpretation.
+
+Open Developer → Latest review → Life-first library or Outliers & findings. Each public case has its life history, complete inferred responses, the actual questions used on the focused route, omitted optional responses, six scores, pathways, refined jobs, conditional plan, education budget and answer experiments. Search by name, stable ID, field or review flag. Historical records remain available.
+
+## Authoring and evaluation
+
+- Three separate no-history authors wrote the original 100 lives from age4 to16 without questionnaire or engine access in their brief. The original24 expansions used earlier narrative seeds, sometimes career-suggestive; they are not an independent sample.
+- Different agents received frozen biographies and question/option text, without scoring mappings, target careers or results. They recorded person-specific evidence, uncertainty and plausible alternatives.
+- All original100 biographies and all124 corresponding response records were frozen before their first scoring run. The response count includes24 parallel interpretations of older students, not24 additional people.
+- Seventy new cases informed development. Thirty were held out until engine3.5 source files were locked. The holdout was evaluated once, with no answer revisions or post-holdout ranking-rule changes.
+- A biography-only reviewer inspected all100 histories. Substantive variation in resources, families, schooling, access and support was present. Repeated mature voices, creative/practical interests and constructive life arcs were also present. Missing clinical exposure, ordinary digital/relationship experiences, unsettled difficulties and less reflective/disengaged lives prompted the additional24 histories.
+- The additional24 histories and their separately inferred responses were frozen before scoring. They are a gap-focused supplementary group, not representative validation or an independent population sample.
+- Independent outcome reviews cover the original24,70 development,30 holdout and24 supplementary cases. Private local simulations are excluded from public files.
+
+Prompt-level separation is documented; this was not a technical filesystem sandbox. Synthetic responses remain inferences. All100 original new cases had substantial low-confidence inferences for unfamiliar activities. A rich biography cannot establish how someone would answer every imagined work activity.
+
+## Corrections
+
+1. **Preparation:** stop automatically treating the first suggested subject as the student's chosen study focus. Export actual requirements plus structured details; retain an explicit subject choice separately.
+2. **Law:** distinguish a continuing-year reference row from an entire program. Include one first-year and two continuing budgets, plus a separately labeled summer living reserve. The reference route covers four college years and three law-school years.
+3. **Nursing and EMT:** named ACC program-cost sheets replace accidental zero-dollar/zero-year fallbacks. Listed program expenses, living allowances, health assumptions, duration and tuition-exemption scope are separate. No free course or automatic aid is assumed.
+4. **Architecture:** use a five-year professional BArch planning example rather than allowing a variable-credential label to bypass college costs.
+5. **Lifestyle:** show unresolved training funding beside the pay comparison. Zero entered borrowing does not mean education is already paid for.
+6. **Shared tasks:** narrower evidence can affect main-card prominence, while related jobs remain reachable. Extra evidence must cover at least two questions and two domains, with each extra option linked to at most two careers. Broad consultation or bundled device options cannot establish extra specialization. This corrected the development-case inversion that suppressed mechanical/electrical engineering in favor of biomedical engineering.
+7. **Presentation:** label shared work on cards. Bundle Developer experiments separately so cached older modules cannot silently rerun a newer case with an older engine. Make the model search readable on phones.
+
+The official60 items, wording, answer labels, sequence and scoring are unchanged. No student questions were added. Existing answers, notes and completed work remain saved.
+
+## Important observed outliers
+
+| Case | Observation | Disposition |
+|---|---|---|
+| life-081, life-087 | Broad device/consultation options originally suppressed mechanical/electrical options | Narrowed prominence rule retains the alternatives; generic device preferences still do not establish a biomedical specialization |
+| life-040; holdout life-019/039/065 | Meaning/community prompts can produce interpreting without a language-specific task preference | Keep as related exploration; no claim of language skill or an established specialty |
+| life-083 | Inferred editing preferences are stronger than the biography's routine preferences | Preserve both; treat as inference uncertainty, not a reason to rewrite answers |
+| life-007 | Several coding/data roles tie | No arbitrary career winner or automatic plan |
+| gap-016 | A nearly undifferentiated profile plus shared stock tasks yields logistics | A specificity/uncertainty limit; not proof of an analyst preference or a correct-career target |
+| gap-005 | Supervised pool-job interest leads to EMT exploration | EMT is not lifeguard preparation; catalog scope is a limit, and the18+ credential route remains explicit |
+| gap-009 | Broad rehabilitation tasks support several therapies | Therapy exploration is plausible; speech/OT/PT preferences are not independently distinguished |
+
+Broad media/meaning/device prompts still have limited specialty resolution. Raw profile similarity is not a success probability, tested skill or admissions prediction. Low exposure or low self-confidence does not bar a career. Money does not rewrite interest scores or rank careers.
+
+## Financial source scope
+
+The revised law example uses [Texas Law's2026–27 attendance budgets](https://law.utexas.edu/financial-aid/cost-of-attendance/). Nursing and EMT use the named sheets linked from [ACC Health Sciences program costs](https://sites.austincc.edu/health/program-costs/): listed in-district expenses are$9,724 and$1,911 respectively, with separate study living/health planning allowances. The undated sheets and their local-high-school tuition-exemption columns retain that scope; current admissions instructions take precedence for exam names. Architecture uses [UT's five-year professional degree](https://soa.utexas.edu/architecture/undergraduate) and a labeled university budget-range scenario.
+
+These amounts are before aid, in current-source dollars, not predicted bills or assumed loans. The study budget can include living costs; it must not be read as tuition alone. Austin working-life costs apply to the later job stage. Paid training, qualified entry and modeled later-career pay remain distinct.
+
+## Verification limits
+
+No real students, measured aptitude, demographic norm, success rate or predictive-accuracy percentage were produced. Fixed-answer identity swaps only establish that those labels do not directly affect this implementation. Conditional plan previews exercise the first displayed job; they are not observed student decisions or gold-standard careers.
+
+The machine-readable release record separates cohort checks, source locks, source dates, independent review judgments and browser/regression verification. Historical comparison outputs remain alongside current results.

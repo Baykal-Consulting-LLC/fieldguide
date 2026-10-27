@@ -1,0 +1,511 @@
+{
+  "experiment": "evidence-075-v1",
+  "baselineRunId": "835f3e9eeb139692035e7672805c414bf104f557fb5983856e6928d9b0fc7a87",
+  "freezeSHA256": "fdb90f109199208a8d1b62cb01f9863762fc73e2f8d21ff0becd431f0e6ef0d6",
+  "blindSeal": {
+    "count": 1000,
+    "sha256": "aa4e222f4885505c77a7824c1b804c0b602fdf2d6de838ac87348fbb2bf41032",
+    "qualitySHA256": "8933bbf822ae3a912d2bcdb9c04c14f2e36c78f01d1eeb96f25132836af74cf8",
+    "questionnaireSHA256": "458c97ea6af9ed17bf9e7d9616928752f88eca1068e90e46257da577affa4814",
+    "contractSHA256": "4d6167d4c97acc270d43e22983372178c7b688e26309480d5f15ae980a088f4b",
+    "sealedAt": "2026-10-21T16:22:39.326Z",
+    "selection": "All schema-valid authored profiles retained. No matching outcomes used for acceptance. Any coherence warnings remain visible.",
+    "policySHA256": "fdb90f109199208a8d1b62cb01f9863762fc73e2f8d21ff0becd431f0e6ef0d6"
+  },
+  "summary": {
+    "all": {
+      "models": 1000,
+      "beforeTop": 789,
+      "beforeDegree": 653,
+      "beforeGraduate": 120,
+      "beforeCovers": 236,
+      "priorTop": 820,
+      "priorDegree": 696,
+      "priorGraduate": 158,
+      "priorCovers": 258,
+      "correctedTop": 813,
+      "correctedDegree": 686,
+      "correctedGraduate": 157,
+      "correctedCovers": 256,
+      "afterTop": 813,
+      "afterDegree": 686,
+      "afterGraduate": 157,
+      "afterCovers": 256,
+      "gainedTop": 0,
+      "lostTop": 7,
+      "gainedDegree": 0,
+      "lostDegree": 10,
+      "gainedGraduate": 0,
+      "lostGraduate": 1,
+      "gainedCovers": 0,
+      "lostCovers": 2,
+      "changed": 22,
+      "afterAnyDegree": 753,
+      "afterDegreeBelowCap": 67,
+      "withdrawnClaims": 30,
+      "newClaims": 0,
+      "correctedReferences": 383,
+      "quarantinedResponses": 6,
+      "followups": 107,
+      "positiveActivities": 0,
+      "unknownActivities": 107
+    },
+    "development": {
+      "models": 758,
+      "beforeTop": 594,
+      "beforeDegree": 490,
+      "beforeGraduate": 81,
+      "beforeCovers": 183,
+      "priorTop": 616,
+      "priorDegree": 519,
+      "priorGraduate": 112,
+      "priorCovers": 197,
+      "correctedTop": 611,
+      "correctedDegree": 513,
+      "correctedGraduate": 112,
+      "correctedCovers": 196,
+      "afterTop": 611,
+      "afterDegree": 513,
+      "afterGraduate": 112,
+      "afterCovers": 196,
+      "gainedTop": 0,
+      "lostTop": 5,
+      "gainedDegree": 0,
+      "lostDegree": 6,
+      "gainedGraduate": 0,
+      "lostGraduate": 0,
+      "gainedCovers": 0,
+      "lostCovers": 1,
+      "changed": 15,
+      "afterAnyDegree": 567,
+      "afterDegreeBelowCap": 54,
+      "withdrawnClaims": 20,
+      "newClaims": 0,
+      "correctedReferences": 289,
+      "quarantinedResponses": 4,
+      "followups": 77,
+      "positiveActivities": 0,
+      "unknownActivities": 77
+    },
+    "holdout": {
+      "models": 30,
+      "beforeTop": 26,
+      "beforeDegree": 21,
+      "beforeGraduate": 4,
+      "beforeCovers": 10,
+      "priorTop": 27,
+      "priorDegree": 24,
+      "priorGraduate": 6,
+      "priorCovers": 10,
+      "correctedTop": 27,
+      "correctedDegree": 22,
+      "correctedGraduate": 6,
+      "correctedCovers": 10,
+      "afterTop": 27,
+      "afterDegree": 22,
+      "afterGraduate": 6,
+      "afterCovers": 10,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 2,
+      "gainedGraduate": 0,
+      "lostGraduate": 0,
+      "gainedCovers": 0,
+      "lostCovers": 0,
+      "changed": 3,
+      "afterAnyDegree": 22,
+      "afterDegreeBelowCap": 0,
+      "withdrawnClaims": 4,
+      "newClaims": 0,
+      "correctedReferences": 69,
+      "quarantinedResponses": 1,
+      "followups": 3,
+      "positiveActivities": 0,
+      "unknownActivities": 3
+    },
+    "holdout049": {
+      "models": 12,
+      "beforeTop": 11,
+      "beforeDegree": 11,
+      "beforeGraduate": 4,
+      "beforeCovers": 3,
+      "priorTop": 11,
+      "priorDegree": 11,
+      "priorGraduate": 5,
+      "priorCovers": 3,
+      "correctedTop": 9,
+      "correctedDegree": 9,
+      "correctedGraduate": 4,
+      "correctedCovers": 2,
+      "afterTop": 9,
+      "afterDegree": 9,
+      "afterGraduate": 4,
+      "afterCovers": 2,
+      "gainedTop": 0,
+      "lostTop": 2,
+      "gainedDegree": 0,
+      "lostDegree": 2,
+      "gainedGraduate": 0,
+      "lostGraduate": 1,
+      "gainedCovers": 0,
+      "lostCovers": 1,
+      "changed": 4,
+      "afterAnyDegree": 9,
+      "afterDegreeBelowCap": 0,
+      "withdrawnClaims": 6,
+      "newClaims": 0,
+      "correctedReferences": 25,
+      "quarantinedResponses": 1,
+      "followups": 6,
+      "positiveActivities": 0,
+      "unknownActivities": 6
+    },
+    "holdout056": {
+      "models": 200,
+      "beforeTop": 158,
+      "beforeDegree": 131,
+      "beforeGraduate": 31,
+      "beforeCovers": 40,
+      "priorTop": 166,
+      "priorDegree": 142,
+      "priorGraduate": 35,
+      "priorCovers": 48,
+      "correctedTop": 166,
+      "correctedDegree": 142,
+      "correctedGraduate": 35,
+      "correctedCovers": 48,
+      "afterTop": 166,
+      "afterDegree": 142,
+      "afterGraduate": 35,
+      "afterCovers": 48,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "gainedGraduate": 0,
+      "lostGraduate": 0,
+      "gainedCovers": 0,
+      "lostCovers": 0,
+      "changed": 0,
+      "afterAnyDegree": 155,
+      "afterDegreeBelowCap": 13,
+      "withdrawnClaims": 0,
+      "newClaims": 0,
+      "correctedReferences": 0,
+      "quarantinedResponses": 0,
+      "followups": 21,
+      "positiveActivities": 0,
+      "unknownActivities": 21
+    },
+    "grok075": {
+      "models": 1000,
+      "beforeTop": 0,
+      "beforeDegree": 0,
+      "beforeGraduate": 0,
+      "beforeCovers": 0,
+      "priorTop": 705,
+      "priorDegree": 586,
+      "priorGraduate": 203,
+      "priorCovers": 274,
+      "correctedTop": 705,
+      "correctedDegree": 586,
+      "correctedGraduate": 203,
+      "correctedCovers": 274,
+      "afterTop": 707,
+      "afterDegree": 588,
+      "afterGraduate": 203,
+      "afterCovers": 274,
+      "gainedTop": 2,
+      "lostTop": 0,
+      "gainedDegree": 2,
+      "lostDegree": 0,
+      "gainedGraduate": 0,
+      "lostGraduate": 0,
+      "gainedCovers": 0,
+      "lostCovers": 0,
+      "changed": 4,
+      "afterAnyDegree": 637,
+      "afterDegreeBelowCap": 49,
+      "withdrawnClaims": 1,
+      "newClaims": 5,
+      "correctedReferences": 0,
+      "quarantinedResponses": 0,
+      "followups": 123,
+      "positiveActivities": 102,
+      "unknownActivities": 0
+    }
+  },
+  "questionBank": [
+    {
+      "id": "followup075-workflow-delays",
+      "key": "workflow-delays",
+      "careerId": "management-analyst",
+      "targetQuestionId": "management-analyst-interest-044-1",
+      "prompt": "An event has recurring delays. How appealing would it be to compare waiting times and staffing notes across several events to find where the delays begin?",
+      "feature": "f:workflow-delay-measures075",
+      "pair": "first",
+      "after": null,
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:workflow-delay-measures075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    },
+    {
+      "id": "followup075-workflow-revision",
+      "key": "workflow-revision",
+      "careerId": "management-analyst",
+      "targetQuestionId": "management-analyst-interest-044-2",
+      "prompt": "How appealing would it be to test a different arrangement with the team, track the results, and revise your recommendation if it did not help?",
+      "feature": "f:workflow-change-trial075",
+      "pair": "second",
+      "after": "followup075-workflow-delays",
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:workflow-change-trial075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    },
+    {
+      "id": "followup075-data-validation",
+      "key": "data-validation",
+      "careerId": "degree-43911100",
+      "targetQuestionId": "degree-43911100-047-domain",
+      "prompt": "An attendance chart suggests an activity is becoming more popular. How appealing would it be to check missing counts and changed recording methods before deciding what the pattern means?",
+      "feature": "f:data-definition-check075",
+      "pair": "first",
+      "after": null,
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:data-definition-check075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    },
+    {
+      "id": "followup075-data-preparation",
+      "key": "data-preparation",
+      "careerId": "degree-43911100",
+      "targetQuestionId": "degree-43911100-047-method",
+      "prompt": "How appealing would it be to regularly prepare the attendance records, run a specified calculation, and check the tables so the group can rely on the results?",
+      "feature": "f:statistical-preparation075",
+      "pair": "second",
+      "after": "followup075-data-validation",
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:statistical-preparation075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    },
+    {
+      "id": "followup075-plant-comparison",
+      "key": "plant-comparison",
+      "careerId": "biological-technician",
+      "targetQuestionId": "biological-technician-interest-044-1",
+      "prompt": "How appealing would it be to compare two ways of growing plant cuttings, keep other conditions similar, and record measurements for several weeks even if no clear pattern appears?",
+      "feature": "f:controlled-plant-comparison075",
+      "pair": "first",
+      "after": null,
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:controlled-plant-comparison075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    },
+    {
+      "id": "followup075-plant-samples",
+      "key": "plant-samples",
+      "careerId": "biological-technician",
+      "targetQuestionId": "biological-technician-interest-044-2",
+      "prompt": "How appealing would it be to prepare, label and measure plant or soil samples using a written procedure, then check the records for a research team?",
+      "feature": "f:plant-sample-procedure075",
+      "pair": "second",
+      "after": "followup075-plant-comparison",
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:plant-sample-procedure075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    }
+  ],
+  "checks": {
+    "originalModels": 1000,
+    "blindModels": 1000,
+    "rawInputChanges": 0,
+    "liveFlowChanges": 0,
+    "topCap": 3,
+    "maxTargetedItems": 4,
+    "policyFrozenBeforeOutcomes": true
+  },
+  "limitations": [
+    "Research only. Six authored diagnostic items are not validated scales. Original 1,000 profiles retain unknown answers to these narrower new items.",
+    "Corrections remove invalid implications and can lower coverage. Raw profiles/transcripts remain unchanged; previous results retained.",
+    "Grok created whole-person synthetic profiles blind to occupations, rules and outcomes. Item text and structural schema were supplied. This tests a separate synthetic population, not actual student predictive validity.",
+    "The new holdout remains separate from development and all previous holdouts. No policies were retuned after its outcomes.",
+    "New holdout race marginal approximates US public-school enrollment; other whole-profile distributions are design choices and require coherence review. No claim of representative joint US demographics or diagnoses.",
+    "Comprehensive subject-aligned simulation is not typical student completion. Unprovided specialist preferences remain unknown. Qualitative strength and health/context text is inspectable, not parsed into match scores.",
+    "All education levels and existing earnings proxies retained. US holdout lifestyle comparisons use the same Austin reference budget/pay conventions, not regional cost estimates."
+  ]
+}

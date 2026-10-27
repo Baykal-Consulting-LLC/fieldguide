@@ -1,0 +1,10 @@
+// Canonical reporting definitions. Copied verbatim to the chart by the build.
+// This module classifies saved results; it never scores or promotes a career.
+export const systemCohortLabels={development:'Development · 758',holdout:'Original holdout · 30',holdout049:'Fresh holdout · 12',holdout056:'Expanded holdout · 200'};
+export const educationRouteLabels={work:'Learn at work',apprenticeship:'Apprenticeship',program:'Associate / specialist program',college:'Bachelor’s degree',graduate:'Graduate / professional'};
+export function systemCohort(row){const phase=row.phase;return phase==='private'?'private':phase==='diagnostic049'?'diagnostic':Object.hasOwn(systemCohortLabels,phase)&&phase!=='development'?phase:'development';}
+export function inSystemCohort(row,cohort='all'){const group=systemCohort(row);return cohort==='all'?group!=='private'&&group!=='diagnostic':cohort==='all-rows'?group!=='private':cohort==='original-development'?row.phase==='development':cohort==='original'?group!=='private'&&group!=='diagnostic'&&!row.cohort056:cohort==='expanded'?!!row.cohort056:cohort==='diagnostic049'?group==='diagnostic':Object.hasOwn(systemCohortLabels,cohort)?group===cohort:row.phase===cohort;}
+export function routeKeys(career){return(career?.routes||[]).map(r=>typeof r==='string'?r:r.key);}
+export function bachelorGraduate(career){return routeKeys(career).some(k=>k==='college'||k==='graduate');}
+export function educationMatches(career,education='all'){return education==='all'||(education==='degree'?bachelorGraduate(career):routeKeys(career).includes(education));}
+export function summarizeSystemModels(rows){const count=key=>rows.filter(r=>r[key]).length;return{models:rows.length,top:count('currentTop'),degreeTop:count('currentDegree'),topCovers:count('currentCovers'),degreeTopCovers:count('currentDegreeCovers'),exploration:count('hasExploration'),degreeExploration:count('hasDegreeExploration'),followup:count('hasFollowup'),degreeFollowup:count('hasDegreeFollowup'),explorationOnly:rows.filter(r=>!r.currentTop&&r.hasExploration).length,degreeExplorationOnly:rows.filter(r=>!r.currentDegree&&r.hasDegreeExploration).length};}

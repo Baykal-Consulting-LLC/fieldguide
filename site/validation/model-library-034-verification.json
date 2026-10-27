@@ -1,0 +1,54 @@
+{
+  "version": "0.34.0",
+  "createdAt": "2026-10-19T03:20:12.537148+00:00",
+  "softwareTests": {
+    "tests": 494,
+    "passed": 494,
+    "failed": 0
+  },
+  "frozenCaseReplays": {
+    "public": 148,
+    "private": 6,
+    "scoresUnchanged": true,
+    "careerListsUnchanged": true,
+    "answersUnchanged": true
+  },
+  "firestoreRulesTests": [
+    "Verified owner read/list succeeds",
+    "Guest, other account and unverified owner denied",
+    "All browser writes denied",
+    "Existing student-guide save/reload/isolation tests pass"
+  ],
+  "productionPrivateStorage": {
+    "cases": 6,
+    "readbackHashesMatch": true,
+    "anonymousRequestsDenied": true,
+    "existingStudentGuideRootsUnchanged": true,
+    "billingEnabled": false
+  },
+  "browserChecks": [
+    "390px phone view has no document overflow",
+    "Multiple career plan comparisons work",
+    "Edit/rerun/reset preserves originals and does not force a first-career plan",
+    "Public cases stay accessible while private profiles require owner sign-in"
+  ],
+  "sources": [
+    {
+      "url": "https://avedaarts.edu/campus/tx/austin/",
+      "supports": "Nine-month 1,000-hour reference; $18,975 tuition, kit and listed school fees"
+    },
+    {
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/mechanical-engineers.htm",
+      "supports": "Degree preparation and distinction between entry work and later PE licensure"
+    },
+    {
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/forensic-science-technicians.htm",
+      "supports": "Forensic duties and degree/training differ from general biology laboratory work"
+    }
+  ],
+  "limits": [
+    "Fictional scenarios do not establish actual-student accuracy or clinical suitability.",
+    "No new independent holdout claim; existing frozen histories and answers were replayed.",
+    "Long-term salary amounts are illustrations, not measured experience averages."
+  ]
+}

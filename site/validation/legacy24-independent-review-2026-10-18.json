@@ -1,0 +1,260 @@
+{
+  "scope": {
+    "review": "Independent review of all 24 fixed-answer legacy cases, not a career-accuracy benchmark",
+    "inputs": [
+      "site/validation/legacy24-plan-audit-2026-10-18.json",
+      "Targeted fields from site/validation/student-models-032-2026-10-18.json",
+      "Current targeted dist matching, preparation, and funding functions"
+    ],
+    "preparationCorrection": "Verified: makeJourneyPlan no longer assigns an automatic subject; selectCareer clears study focus on career change; personalPlanExport uses careerEducationSummary and exports optional studyFocus separately. All 3 existing preparation-summary tests pass. Rankings are unchanged in every audit case. Old frozen rendered plans still include their previous automatic study focus; they are not new-run evidence.",
+    "writes": "Review artifact only; no answers, expectations, or app files changed. No newly authored 100-case material inspected.",
+    "proposedProminenceRuleReview": "The proposed comparisonOnly rule is reasonable for Noor/Ash if their actual endorsed atomic option sets are proper subsets of the stronger role, with at least two additional question IDs across at least two domains. Retaining every supported role in named comparisons/full field preserves permissible exploration. This is a prominence decision, not proof the subset role is unsuitable or a prerequisite/aptitude test. Equal bundled sets (food roles) and non-nested finance alternatives remain unresolved; roles with distinct endorsed evidence must not be demoted merely for surprising correlations. Preserve the comparison explanation in results/exports."
+  },
+  "caseReviews": [
+    {
+      "id": "m32-medical-reasoning",
+      "disposition": "sensible exploration; financial conclusion conditional",
+      "reason": "Diagnosis, physician observation, and physician-route choices supply role-specific support. Residency pay is correctly selected rather than attending pay, and the full plan distinguishes roughly 11 postsecondary years. The $69,528 example leaves only about $85 monthly under a zero-debt lifestyle; $399,818 remains unfunded in the education scenario.",
+      "issues": [
+        "funding-conditionality"
+      ]
+    },
+    {
+      "id": "m32-dental-precision",
+      "disposition": "sensible exploration; financial conclusion conditional",
+      "reason": "Restorative dentistry and dental-route answers discriminate this from general medicine. Entry pay is qualified-dentist pay, not study income. A $512,922 reference route remains unfunded while the lifestyle displays coverage with $0 loan payments.",
+      "issues": [
+        "funding-conditionality"
+      ]
+    },
+    {
+      "id": "m32-novice-care",
+      "disposition": "sensible match; actual preparation-cost defect",
+      "reason": "Monitoring patients and preferring RN work support nursing despite limited exposure and low confidence; neither is evidence of inability. However nursing's varied credential classification falls through to $0 cost and zero study years even though the app itself requires an approved nursing program and exams. The export reduces preparation to RN licensure only.",
+      "issues": [
+        "missing-cost-as-zero",
+        "lossy-preparation-summary"
+      ]
+    },
+    {
+      "id": "m32-care-route-tension",
+      "disposition": "appropriate unresolved conflict",
+      "reason": "The app preserves physician-duty interest as a route conflict and assigns no career or financial projection after the dental-assisting preparation choice. It does not equate the routes or use the expensive lifestyle to infer aptitude. A counselor discussion or side-by-side routes is the appropriate next step.",
+      "issues": []
+    },
+    {
+      "id": "m32-visual-editor",
+      "disposition": "sensible exploration",
+      "reason": "Layout, readability, and visual-identity answers directly support graphic design. UI design can remain a related possibility, not a required winning output. The selected entry wage fails the fixed lifestyle budget; shared housing alone does not establish affordability. Typical degree language is appropriately not an absolute requirement.",
+      "issues": []
+    },
+    {
+      "id": "m32-quiet-writer",
+      "disposition": "writing sensible; interpreting insufficiently differentiated",
+      "reason": "Eight focused writing/story answers justify task-led writing even with weak broad-profile correlation. Interpreting is featured from four shared meaning, audience, and research prompts; no answer establishes interest in communicating across languages. Its high profile correlation cannot supply that missing role evidence. It is permissible as a question to investigate, but overstates support if presented as an equally evidenced career.",
+      "issues": [
+        "shared-task-specialization",
+        "funding-conditionality"
+      ]
+    },
+    {
+      "id": "m32-biology-stories",
+      "disposition": "permissible mixed-interest exploration",
+      "reason": "The narrative alone might suggest science communication, but actual answers favor scene timing, mood, movement, and imagery, so film editing and visual alternatives are defensible. Science remains a task pathway. The harness explicitly chose writing from named alternatives; that financial plan is not an accidental reassignment or a predicted identity. Degree summary is now role-based rather than automatic English/literature.",
+      "issues": []
+    },
+    {
+      "id": "m32-web-maker",
+      "disposition": "sensible exploration; financial conclusion conditional",
+      "reason": "Building, tracing code, and testing fixes support software and web development. Neither study preference nor current experience is treated as admission or job readiness. The qualified entry proxy covers the modeled lifestyle before any linked study debt; $158,899 in reference study cost is still unfunded.",
+      "issues": [
+        "funding-conditionality"
+      ]
+    },
+    {
+      "id": "m32-tech-cautious",
+      "disposition": "sensible exploration",
+      "reason": "Patient device troubleshooting and user service support computer support without requiring high self-confidence or an advanced research identity. Targeted training wording allows practical routes. The wage shortfall is disclosed, not hidden by a speculative promotion.",
+      "issues": []
+    },
+    {
+      "id": "m32-budget-volunteer",
+      "disposition": "accounting/bookkeeping sensible; finance alternatives ambiguous",
+      "reason": "Accurate records and reconciliation strongly support accounting/bookkeeping. Financial analysis and advising borrow the same bundled records/investments/planning choices despite the narrative's lack of investment or sales enthusiasm. The fixed answers also explicitly mention forecasts and financial recommendations, so these are defensible exploratory neighbors rather than proven errors. Exported preparation is unhelpfully reduced to a CPA-license caveat.",
+      "issues": [
+        "shared-task-specialization",
+        "lossy-preparation-summary"
+      ]
+    },
+    {
+      "id": "m32-debate-law",
+      "disposition": "sensible exploration; actual route-budget defect",
+      "reason": "Evidence, rights, and legal-source answers support law and paralegal exploration without establishing legal aptitude. The full plan requires further study and warns pay starts after preparation. However its funding calculation counts only one law-school academic-year row, producing five total study years and $221,160 for the combined college/professional scenario rather than applying the code's intended three-law-year calculation. The export's bar-admission-only preparation is also incomplete as a route summary.",
+      "issues": [
+        "law-budget-duration",
+        "lossy-preparation-summary"
+      ]
+    },
+    {
+      "id": "m32-water-observer",
+      "disposition": "sensible related alternatives; thin financial margin",
+      "reason": "Field measurements and environmental uncertainty support environmental science, geoscience, and conservation. The explicit environmental-science plan choice is legitimate even when geoscience ranks first. The modest positive budget is conditional on funding assumptions; preparation export says only that there is no blanket license, obscuring the app's typical science degree.",
+      "issues": [
+        "lossy-preparation-summary",
+        "funding-conditionality"
+      ]
+    },
+    {
+      "id": "m32-bridge-testing",
+      "disposition": "sensible exploration; export route detail deficient",
+      "reason": "Load testing, calculations, and safety support civil engineering. Home ownership is correctly shown as unaffordable under selected entry pay, including upfront-savings context; the dream does not invalidate interest. PE licensure is scoped to regulated services in the summary, but the export omits the typical engineering degree and the app's explanation that a PE is not needed for every entry job.",
+      "issues": [
+        "lossy-preparation-summary"
+      ]
+    },
+    {
+      "id": "m32-circuit-learner",
+      "disposition": "electrician sensible; plumbing weakly differentiated",
+      "reason": "Five electrical-specific selections plus practical work prompts strongly support electrician. Plumbing is featured using only three shared installation/building/drawing prompts and zero refinement support; it can be a related exploration lead but is not supported at the same specificity. The plan correctly selects first-period apprentice pay and describes four years/8,000 hours, rather than paying a student the qualified wage.",
+      "issues": [
+        "shared-task-specialization"
+      ]
+    },
+    {
+      "id": "m32-machine-repair",
+      "disposition": "sensible exploration",
+      "reason": "Fault diagnosis and repair support automotive and industrial machinery. Welding is not purely an accidental generic match: actual choices include a metal joint/repaired machine and a supervised welding/machine-maintenance demonstration. Keep it an alternative with distinct job questions. Employer training can be a legitimate route, so a $0 compulsory tuition scenario is not by itself the RN-type bug, although tools and unpaid periods remain to investigate.",
+      "issues": []
+    },
+    {
+      "id": "m32-food-without-sales",
+      "disposition": "cooking sensible; senior/service roles need clarification",
+      "reason": "Eight focused food-preparation answers warrant cooking exploration despite negative broad correlations. Counter service and head chef share bundled food/service answers, which do not establish preference for order-taking or staff supervision. Restaurant cook is a sensible explicit plan choice. Head-chef progression should state experience and responsibility changes rather than implying immediate entry; current qualified entry wages and the lifestyle shortfall are at least visible.",
+      "issues": [
+        "shared-task-specialization"
+      ]
+    },
+    {
+      "id": "m32-salon-listener",
+      "disposition": "sensible task-led exploration",
+      "reason": "Client consultation, desired appearance, and careful techniques directly support cosmetology despite a negative broad correlation. Approved training and a Texas license are now the preparation summary, and a named $15,700 training-cost example is visible. Low entry pay does not cover the chosen spending; the app does not promise the lifestyle or claim dexterity was tested.",
+      "issues": []
+    },
+    {
+      "id": "m32-tutor-explainer",
+      "disposition": "sensible exploration",
+      "reason": "Adapting explanations and lesson activities support teaching at several grade levels; a precise age-group winner is not justified by generic tutoring evidence. Public-school certification is properly scoped in the summary. The entry employer schedule is labeled as an example, and the budget shortfall is shown.",
+      "issues": [
+        "lossy-preparation-summary"
+      ]
+    },
+    {
+      "id": "m32-emergency-team",
+      "disposition": "sensible match; actual missing-cost presentation defect",
+      "reason": "Immediate care within training and a response-team setting discriminate EMT from long clinical diagnosis routes. The app lists age, approved course, and certification requirements, but its funding fallback displays $0/zero years and generic paid-training/on-job wording without evidence the required course is free or paid. Selected qualified entry pay is not trainee pay; its lifestyle shortfall is clear.",
+      "issues": [
+        "missing-cost-as-zero",
+        "lossy-preparation-summary"
+      ]
+    },
+    {
+      "id": "m32-stock-systems",
+      "disposition": "sensible exploration; preparation fix beneficial",
+      "reason": "Stock counts, labels, materials, and routines support stocking and material moving. New preparation correctly says learn on the job with an optional degree rather than supplying supply-chain management as the necessary route. The fixed lifestyle costs exceed entry pay even with shared rent and a paid-off car; that is a planning tension, not a matching failure.",
+      "issues": []
+    },
+    {
+      "id": "m32-route-organizer",
+      "disposition": "sensible driving/logistics exploration",
+      "reason": "Actual answers include delivering goods, being on the road, and checking vehicles, so driving is not inferred solely from map interest. Delivery, commercial truck driving, and logistics have distinct qualifications; the corrected delivery plan no longer labels logistics as mandatory preparation. The explicit delivery choice's pay and costs do not automatically apply to the top-ranked heavy-truck role. Hours, licensing, age, and vehicle/business expenses remain open exploration questions.",
+      "issues": []
+    },
+    {
+      "id": "m32-event-office",
+      "disposition": "sensible exploration; preparation fix beneficial",
+      "reason": "Appointments, requests, and accurate information support administrative assistance, reception, and office clerking. New preparation correctly uses school/job training instead of automatically prescribing a business degree. A certificate can be optional, and the fixed entry-pay budget shortfall is disclosed.",
+      "issues": []
+    },
+    {
+      "id": "m32-still-exploring",
+      "disposition": "appropriate uncertainty",
+      "reason": "Uniform unsure responses yield no precise profession, preparation, or financial projection. The student can investigate settings without uncertainty being scored as inability. This is successful restraint, not a failed prediction.",
+      "issues": []
+    },
+    {
+      "id": "m32-many-positive",
+      "disposition": "appropriate broad exploration",
+      "reason": "An undifferentiated positive profile and selection of every option do not produce an artificial winning career or financial promise. More exposure and selective reflection are justified; manufacturing differentiation is not.",
+      "issues": []
+    }
+  ],
+  "outliers": [
+    {
+      "ids": [
+        "m32-debate-law"
+      ],
+      "severity": "P1 actual calculation bug",
+      "issue": "Law funding duration and total omit two intended professional-school years",
+      "evidence": "Current studyCostReference('law') returns cost 221159.6667, years 5. The generic yearRows.every(totalResident) branch consumes the one law year and runs before the explicit id==='law' three-year branch. Full rendered plan shows $221,160. This also shortens study-interest accrual assumptions.",
+      "proposedGeneralFix": "Resolve program-duration semantics before summing rows: distinguish a full cohort/year series from a single annual reference. Route-specific required duration must govern repetition. Validate every graduate route's degree duration, covered months, living costs, and summed total against source metadata; do not assume row count equals program length."
+    },
+    {
+      "ids": [
+        "m32-novice-care",
+        "m32-emergency-team"
+      ],
+      "severity": "P1 actual missing-data/presentation bug",
+      "issue": "Unknown or varied mandatory preparation becomes $0 and zero years",
+      "evidence": "RN credentialLevel='varies' bypasses degree branches; studyCostReference returns $0/0 years and 'No compulsory college tuition is included' despite its own approved-program requirement. EMT's missing course cost similarly becomes $0/0 and 'Learn through paid training or on the job'. Both rendered plans show Training cost before aid $0.",
+      "proposedGeneralFix": "Represent missing costs and duration as unknown. Ask for an explicit route where credentials vary, then use a reviewed route example. Distinguish paid employer training, required self-funded courses, optional college, exams/tools, and living costs; only display a zero cost when scope and evidence establish it."
+    },
+    {
+      "ids": [
+        "m32-quiet-writer",
+        "m32-circuit-learner",
+        "m32-budget-volunteer",
+        "m32-food-without-sales"
+      ],
+      "severity": "P2 evidence-specificity ambiguity; not proven wrong careers",
+      "issue": "Shared bundled prompts overstate support for specialized neighboring roles",
+      "evidence": "Interpreting is featured from four meaning/audience/research prompts with no cross-language choice; plumbing from three installation/building/drawing prompts and zero refinements; financial analysis/advising share records/investment bundles; chef/counter roles share meal/service bundles. Broad correlation cannot establish unasked work preferences. In contrast, Cameron's welding and Imani's film have some actual differentiated choices.",
+      "proposedGeneralFix": "Across the catalog, separate universally shared tasks from role-discriminating tasks and responsibilities. Use a related-lead presentation when role-specific evidence is absent; ask a neutral follow-up about translation, pipe systems, investment work, management, or counter service before implying comparable support. Keep prerequisites as readiness questions, not aptitude gates or automatic exclusions. Avoid case-specific thresholds."
+    },
+    {
+      "ids": [
+        "m32-novice-care",
+        "m32-budget-volunteer",
+        "m32-debate-law",
+        "m32-water-observer",
+        "m32-bridge-testing",
+        "m32-tutor-explainer",
+        "m32-emergency-team"
+      ],
+      "severity": "P2 export/completeness issue",
+      "issue": "License/caveat summaries are too terse to serve as the only exported preparation route",
+      "evidence": "personalPlanExport now correctly separates studyFocus, but preparation uses only careerEducationSummary: RN license; bar admission; CPA caveat; 'No blanket license'; PE license; educator certificate; EMT certification. The app's separate bullets contain approved programs, examinations, typical degrees, and entry versus advanced-license distinctions that the export does not carry. Generic preparation next steps repeat the terse line.",
+      "proposedGeneralFix": "Retain the correction and export structured typical education, required credentials/exams, supervised practice, usual duration, and jurisdiction/scope caveats alongside an optional subject focus. Reuse existing sourced bullets rather than treating a legal-license headline as a complete training route. Do not turn optional majors into requirements."
+    },
+    {
+      "ids": [
+        "m32-medical-reasoning",
+        "m32-dental-precision",
+        "m32-quiet-writer",
+        "m32-web-maker",
+        "m32-water-observer"
+      ],
+      "severity": "P2 conditionality/presentation risk; arithmetic not shown wrong",
+      "issue": "Positive lifestyle headlines omit unresolved education funding at the point of conclusion",
+      "evidence": "Fixed defaults use $0 debt and unlinked borrowing while education panels correctly disclose substantial unfunded route costs. Ari's residency example leaves about $85/month; Jules' qualified entry scenario says covers with $512,922 unfunded. The app already explains qualified entry versus training, zero borrowing defaults, and grants versus loans, so it is not claiming all costs are paid; the isolated positive headline remains easy to overread.",
+      "proposedGeneralFix": "Keep zero borrowing until the student chooses financing, but label affordability as conditional on entered debt/funding and show unresolved training funding next to the lifestyle conclusion. Offer funded/borrowing sensitivities, qualified-job versus training-stage comparisons, and schedule/benefit assumptions without silently fabricating debt or guaranteed aid."
+    }
+  ],
+  "limits": [
+    "All 24 compact narratives and actual match/preparation/financial outputs were reviewed; targeted fixed answers and rendered plan sections were consulted for disputed cases. This is an independent qualitative review, not a rerun against a chosen correct career.",
+    "No career is ground truth. Related alternatives can be reasonable; mismatch to narrative first interest, negative correlation, or a high lifestyle goal alone is not a bug. Correlations are not accuracy probabilities or measured aptitude.",
+    "The fixed harness makes explicit fictional role choices, sometimes from alternatives. A selected financial plan therefore need not equal the highest-ranked occupation.",
+    "Existing plan text correctly labels qualified entry, residency/apprenticeship examples, illustrative later wages, source geography/year, work-hour assumptions, and no-guarantee conditions. Those protections were credited rather than reported absent.",
+    "No independent legal or wage-source recertification was performed. Prerequisite findings rely on the app's own sourced summaries/bullets and internal consistency. The concrete law and missing-cost defects are reproducible from current functions.",
+    "No synthetic accuracy percentages, newly authored biographies/responses, answer edits, expectation edits, or per-student threshold proposals were used."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "studyDataChanged": false,
+  "cases": 423,
+  "questionPrompts": 96,
+  "staticBars": 12,
+  "htmlBytes": 875734,
+  "scriptBytes": 4779,
+  "sourcePayloadSHA256": "69599b2ce8b399f3b6c56b13852662ee641072ce069556ca1ae328665c0b7b1f",
+  "checks": [
+    "JavaScript parses",
+    "No resize or geometry API dependency",
+    "No executable study-data object",
+    "Charts/totals/default case render with script removed",
+    "Filters work with ResizeObserver unavailable and host state getter throwing",
+    "Grok filter and 151-case count correct",
+    "College gain and bookkeeping loss retain exact question text",
+    "Original holdout empty recovery view correct",
+    "Legend toggles 12 to 8 visible bars and back",
+    "Case selection restores after reload",
+    "390px mobile chart layout readable",
+    "Browser console errors: none",
+    "No prototype files changed"
+  ]
+}

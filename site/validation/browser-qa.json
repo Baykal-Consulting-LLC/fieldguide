@@ -1,0 +1,2311 @@
+{
+  "reviewedAt": "2026-10-16T18:32:48.117Z",
+  "environment": "Isolated local preview on127.0.0.1:4179; synthetic data only",
+  "desktop": {
+    "width": 1280,
+    "pages": [
+      {
+        "overflow": false,
+        "route": "#/overview",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/explore",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/results",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/report",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/reflection",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/directions",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/catalog",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/money",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/lifestyle",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/plan",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/approach",
+        "small": []
+      }
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "mainPages": [
+      {
+        "overflow": false,
+        "route": "#/overview",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/explore",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/results",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/report",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/reflection",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/directions",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/catalog",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/money",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/lifestyle",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/plan",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/approach",
+        "small": []
+      }
+    ],
+    "catalogPages": [
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/industrial-design",
+        "small": 0,
+        "title": "Industrial designers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/software",
+        "small": 0,
+        "title": "Software developers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/social-research",
+        "small": 0,
+        "title": "Social science research assistants"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/environmental-science",
+        "small": 0,
+        "title": "Environmental scientists & specialists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/market-research",
+        "small": 0,
+        "title": "Market research analysts"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/writing",
+        "small": 0,
+        "title": "Writers & authors"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/mechanical-engineering",
+        "small": 0,
+        "title": "Mechanical engineers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/teaching",
+        "small": 0,
+        "title": "Middle school teachers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/tattoo",
+        "small": 0,
+        "title": "Tattoo artists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/nursing",
+        "small": 0,
+        "title": "Registered Nurses"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/physician-assistant",
+        "small": 0,
+        "title": "Physician Assistants"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/physical-therapy",
+        "small": 0,
+        "title": "Physical Therapists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/occupational-therapy",
+        "small": 0,
+        "title": "Occupational Therapists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/pharmacy",
+        "small": 0,
+        "title": "Pharmacists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/dental-hygiene",
+        "small": 0,
+        "title": "Dental Hygienists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/speech-language",
+        "small": 0,
+        "title": "Speech-Language Pathologists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/sonography",
+        "small": 0,
+        "title": "Medical sonographers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/respiratory-therapy",
+        "small": 0,
+        "title": "Respiratory Therapists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/nutrition",
+        "small": 0,
+        "title": "Dietitians and Nutritionists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/social-work",
+        "small": 0,
+        "title": "Child, Family, and School Social Workers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/school-psychology",
+        "small": 0,
+        "title": "School Psychologists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/data-science",
+        "small": 0,
+        "title": "Data Scientists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/statistics",
+        "small": 0,
+        "title": "Statisticians"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/information-security",
+        "small": 0,
+        "title": "Information Security Analysts"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/systems-analysis",
+        "small": 0,
+        "title": "Computer Systems Analysts"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/accounting",
+        "small": 0,
+        "title": "Accountants and Auditors"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/financial-analysis",
+        "small": 0,
+        "title": "Financial and Investment Analysts"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/human-resources",
+        "small": 0,
+        "title": "Human Resources Specialists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/logistics",
+        "small": 0,
+        "title": "Logisticians"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/project-management",
+        "small": 0,
+        "title": "Project Management Specialists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/economics",
+        "small": 0,
+        "title": "Economists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/law",
+        "small": 0,
+        "title": "Lawyers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/paralegal",
+        "small": 0,
+        "title": "Paralegals and Legal Assistants"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/urban-planning",
+        "small": 0,
+        "title": "Urban and Regional Planners"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/civil-engineering",
+        "small": 0,
+        "title": "Civil Engineers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/electrical-engineering",
+        "small": 0,
+        "title": "Electrical Engineers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/biomedical-engineering",
+        "small": 0,
+        "title": "Bioengineers and Biomedical Engineers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/chemistry",
+        "small": 0,
+        "title": "Chemists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/biological-technician",
+        "small": 0,
+        "title": "Biological Technicians"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/conservation",
+        "small": 0,
+        "title": "Conservation Scientists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/food-science",
+        "small": 0,
+        "title": "Food Scientists and Technologists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/veterinary",
+        "small": 0,
+        "title": "Veterinarians"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/architecture",
+        "small": 0,
+        "title": "Architects"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/construction-management",
+        "small": 0,
+        "title": "Construction Managers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/graphic-design",
+        "small": 0,
+        "title": "Graphic Designers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/animation",
+        "small": 0,
+        "title": "Special Effects Artists and Animators"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/film-editing",
+        "small": 0,
+        "title": "Film and Video Editors"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/public-relations",
+        "small": 0,
+        "title": "Public Relations Specialists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/librarian",
+        "small": 0,
+        "title": "Librarians & media specialists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/interpreting",
+        "small": 0,
+        "title": "Interpreters and Translators"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/exercise-physiology",
+        "small": 0,
+        "title": "Exercise Physiologists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/epidemiology",
+        "small": 0,
+        "title": "Epidemiologists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/geoscience",
+        "small": 0,
+        "title": "Geoscientists"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/industrial-engineering",
+        "small": 0,
+        "title": "Industrial Engineers"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/electrician",
+        "small": 0,
+        "title": "Electricians"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/plumbing",
+        "small": 0,
+        "title": "Plumbers & pipefitters"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/hvac",
+        "small": 0,
+        "title": "HVAC technicians"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/carpentry",
+        "small": 0,
+        "title": "Carpenters"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/automotive",
+        "small": 0,
+        "title": "Automotive Service Technicians and Mechanics"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/emt",
+        "small": 0,
+        "title": "Emergency Medical Technicians"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/chef",
+        "small": 0,
+        "title": "Chefs & head cooks"
+      },
+      {
+        "kind": "career",
+        "overflow": false,
+        "panels": [
+          "earnings",
+          "educationRoutes",
+          "requirements",
+          "educationCosts"
+        ],
+        "route": "#/career/dental-assisting",
+        "small": 0,
+        "title": "Dental assistants"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/design",
+        "small": 0,
+        "title": "Design"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/psychology",
+        "small": 0,
+        "title": "Psychology"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/human-computer-interaction",
+        "small": 0,
+        "title": "Human-computer interaction"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/computer-science",
+        "small": 0,
+        "title": "Computer science"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/information-systems",
+        "small": 0,
+        "title": "Information systems"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/applied-mathematics",
+        "small": 0,
+        "title": "Applied mathematics"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/biology",
+        "small": 0,
+        "title": "Biology"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/public-health",
+        "small": 0,
+        "title": "Public health"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/environmental-science",
+        "small": 0,
+        "title": "Environmental science"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/ecology",
+        "small": 0,
+        "title": "Ecology"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/earth-science",
+        "small": 0,
+        "title": "Earth science"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/business",
+        "small": 0,
+        "title": "Business"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/economics",
+        "small": 0,
+        "title": "Economics"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/public-policy",
+        "small": 0,
+        "title": "Public policy"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/literature",
+        "small": 0,
+        "title": "Literature"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/history",
+        "small": 0,
+        "title": "History"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/media-studies",
+        "small": 0,
+        "title": "Media studies"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/engineering",
+        "small": 0,
+        "title": "Engineering"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/architecture",
+        "small": 0,
+        "title": "Architecture"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/materials-science",
+        "small": 0,
+        "title": "Materials science"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/education",
+        "small": 0,
+        "title": "Education"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/sociology",
+        "small": 0,
+        "title": "Sociology"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/communication",
+        "small": 0,
+        "title": "Communication"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/nursing",
+        "small": 0,
+        "title": "Nursing"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/health-sciences",
+        "small": 0,
+        "title": "Health sciences"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/kinesiology",
+        "small": 0,
+        "title": "Kinesiology"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/exercise-science",
+        "small": 0,
+        "title": "Exercise science"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/communication-sciences-and-disorders",
+        "small": 0,
+        "title": "Communication sciences and disorders"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/occupational-therapy",
+        "small": 0,
+        "title": "Occupational therapy"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/diagnostic-medical-sonography",
+        "small": 0,
+        "title": "Diagnostic medical sonography"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/respiratory-therapy",
+        "small": 0,
+        "title": "Respiratory therapy"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/dental-hygiene",
+        "small": 0,
+        "title": "Dental hygiene"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/pharmaceutical-sciences",
+        "small": 0,
+        "title": "Pharmaceutical sciences"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/nutrition",
+        "small": 0,
+        "title": "Nutrition"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/dietetics",
+        "small": 0,
+        "title": "Dietetics"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/chemistry",
+        "small": 0,
+        "title": "Chemistry"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/biotechnology",
+        "small": 0,
+        "title": "Biotechnology"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/animal-science",
+        "small": 0,
+        "title": "Animal science"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/food-science",
+        "small": 0,
+        "title": "Food science"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/geology",
+        "small": 0,
+        "title": "Geology"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/mathematics",
+        "small": 0,
+        "title": "Mathematics"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/statistics",
+        "small": 0,
+        "title": "Statistics"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/data-science",
+        "small": 0,
+        "title": "Data science"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/cybersecurity",
+        "small": 0,
+        "title": "Cybersecurity"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/accounting",
+        "small": 0,
+        "title": "Accounting"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/finance",
+        "small": 0,
+        "title": "Finance"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/human-resource-management",
+        "small": 0,
+        "title": "Human resource management"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/supply-chain-management",
+        "small": 0,
+        "title": "Supply chain management"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/project-management",
+        "small": 0,
+        "title": "Project management"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/political-science",
+        "small": 0,
+        "title": "Political science"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/legal-studies",
+        "small": 0,
+        "title": "Legal studies"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/paralegal-studies",
+        "small": 0,
+        "title": "Paralegal studies"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/philosophy",
+        "small": 0,
+        "title": "Philosophy"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/social-work",
+        "small": 0,
+        "title": "Social work"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/urban-planning",
+        "small": 0,
+        "title": "Urban planning"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/civil-engineering",
+        "small": 0,
+        "title": "Civil engineering"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/construction-management",
+        "small": 0,
+        "title": "Construction management"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/geography",
+        "small": 0,
+        "title": "Geography"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/journalism",
+        "small": 0,
+        "title": "Journalism"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/public-relations",
+        "small": 0,
+        "title": "Public relations"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/film-production",
+        "small": 0,
+        "title": "Film production"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/languages",
+        "small": 0,
+        "title": "Languages"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/linguistics",
+        "small": 0,
+        "title": "Linguistics"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/graphic-design",
+        "small": 0,
+        "title": "Graphic design"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/visual-communication",
+        "small": 0,
+        "title": "Visual communication"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/animation",
+        "small": 0,
+        "title": "Animation"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/digital-arts",
+        "small": 0,
+        "title": "Digital arts"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/information-science",
+        "small": 0,
+        "title": "Information science"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/electrical-engineering",
+        "small": 0,
+        "title": "Electrical engineering"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/biomedical-engineering",
+        "small": 0,
+        "title": "Biomedical engineering"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/bioengineering",
+        "small": 0,
+        "title": "Bioengineering"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/forestry",
+        "small": 0,
+        "title": "Forestry"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/industrial-engineering",
+        "small": 0,
+        "title": "Industrial engineering"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/industrial-design",
+        "small": 0,
+        "title": "Industrial design"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/product-design",
+        "small": 0,
+        "title": "Product design"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/software-engineering",
+        "small": 0,
+        "title": "Software engineering"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/creative-writing",
+        "small": 0,
+        "title": "Creative writing"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/mechanical-engineering",
+        "small": 0,
+        "title": "Mechanical engineering"
+      },
+      {
+        "kind": "major",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/major/mechanical-engineering-technology",
+        "small": 0,
+        "title": "Mechanical engineering technology"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/design",
+        "small": 0,
+        "title": "Design & human experience"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/technology",
+        "small": 0,
+        "title": "Technology & systems"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/health",
+        "small": 0,
+        "title": "Health & human behavior"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/environment",
+        "small": 0,
+        "title": "Environment & discovery"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/business",
+        "small": 0,
+        "title": "Business & social impact"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/culture",
+        "small": 0,
+        "title": "Storytelling & culture"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/engineering",
+        "small": 0,
+        "title": "The built world"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/learning",
+        "small": 0,
+        "title": "Learning & community"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/nursing-care",
+        "small": 0,
+        "title": "Nursing & patient care"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/rehabilitation",
+        "small": 0,
+        "title": "Movement, communication & rehabilitation"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/allied-health",
+        "small": 0,
+        "title": "Diagnostic & clinical technology"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/medicines-nutrition",
+        "small": 0,
+        "title": "Medicines, food & nutrition"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/life-sciences",
+        "small": 0,
+        "title": "Living systems & animal health"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/physical-sciences",
+        "small": 0,
+        "title": "Matter & the Earth"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/mathematics-data",
+        "small": 0,
+        "title": "Mathematics, data & inference"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/cybersecurity",
+        "small": 0,
+        "title": "Secure systems & information"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/accounting-finance",
+        "small": 0,
+        "title": "Accounting & financial decisions"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/organizations-operations",
+        "small": 0,
+        "title": "People, projects & operations"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/law-policy",
+        "small": 0,
+        "title": "Law, policy & civic life"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/social-support",
+        "small": 0,
+        "title": "Social support & school wellbeing"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/architecture-cities",
+        "small": 0,
+        "title": "Architecture, cities & infrastructure"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/media-communication",
+        "small": 0,
+        "title": "Media, language & communication"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/visual-arts",
+        "small": 0,
+        "title": "Visual arts & digital creation"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/information-history",
+        "small": 0,
+        "title": "Ideas, history & information"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/skilled-trades",
+        "small": 0,
+        "title": "Skilled trades & technical repair"
+      },
+      {
+        "kind": "path",
+        "overflow": false,
+        "panels": [
+          "educationRoutes",
+          "requirements",
+          "educationCosts",
+          "earnings"
+        ],
+        "route": "#/path/practical-service",
+        "small": 0,
+        "title": "Practical care, kitchens & emergency response"
+      }
+    ]
+  },
+  "journeys": {
+    "interest": "Synthetic complete0–10 paper profile; all6scores, source,date, verification; report interest reasons rendered.",
+    "education": "37,000 cost minus12,000 grants=25,000 net. Loan5,500=>fundinggap4,500; loan10,000=>gap0 while netprice stays25,000. Pending50,000 ignored.",
+    "housing": "Shared2BR818.50+90=908.50; solo1BR1350+180=1530; Adjust opens appropriate settings.",
+    "tattoo": "Austin65,395 default; Dallas63,259 and Houston62,774 selection updates actual lifestyle gross and provenance. City averages never rendered as percentiles.",
+    "industrialDesign": "Austin100,520 median and79,240–132,910 range; source disclosure opened/closed with Enter.",
+    "privacy": "Preview origin isolated from production drafts. Full export rules tested by unit suite; no real student data used."
+  },
+  "limitations": [
+    "No full keyboard-only end-to-end or200%browserzoom audit executed.",
+    "No counselor review, psychometric validation, or student comprehension pilot executed.",
+    "Travel and clothing baskets remain assumptions; dining source spot checks do not validate every purchase."
+  ]
+}

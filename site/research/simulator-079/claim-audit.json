@@ -1,0 +1,91 @@
+{
+  "note": "Complete exact career changes by separate cohort. Career counts overlap and do not equal model coverage gains. No subjective accuracy verdict is inferred from numeric acceptance.",
+  "cohorts": [
+    {
+      "cohort": "all",
+      "models": 1000,
+      "addedTop": {
+        "Electrical Engineers": 1,
+        "Environmental scientists & specialists": 10,
+        "Electronics Engineers, Except Computer": 9,
+        "Instructional Coordinators": 5,
+        "Validation Engineers": 11,
+        "Carpenters": 1,
+        "Chemical Engineers": 1
+      },
+      "withdrawnSupported": {
+        "Validation Engineers": 20,
+        "Electronics Engineers, Except Computer": 1,
+        "Paralegals and Legal Assistants": 1
+      },
+      "remainingNoTop": 115,
+      "remainingNoDegreeTop": 216
+    },
+    {
+      "cohort": "development",
+      "models": 758,
+      "addedTop": {
+        "Electrical Engineers": 1,
+        "Environmental scientists & specialists": 10,
+        "Validation Engineers": 8,
+        "Carpenters": 1,
+        "Electronics Engineers, Except Computer": 6,
+        "Instructional Coordinators": 3,
+        "Chemical Engineers": 1
+      },
+      "withdrawnSupported": {
+        "Validation Engineers": 15,
+        "Electronics Engineers, Except Computer": 1,
+        "Paralegals and Legal Assistants": 1
+      },
+      "remainingNoTop": 94,
+      "remainingNoDegreeTop": 171
+    },
+    {
+      "cohort": "holdout",
+      "models": 30,
+      "addedTop": {},
+      "withdrawnSupported": {},
+      "remainingNoTop": 4,
+      "remainingNoDegreeTop": 9
+    },
+    {
+      "cohort": "holdout049",
+      "models": 12,
+      "addedTop": {},
+      "withdrawnSupported": {},
+      "remainingNoTop": 1,
+      "remainingNoDegreeTop": 1
+    },
+    {
+      "cohort": "holdout056",
+      "models": 200,
+      "addedTop": {
+        "Electronics Engineers, Except Computer": 3,
+        "Instructional Coordinators": 2,
+        "Validation Engineers": 3
+      },
+      "withdrawnSupported": {
+        "Validation Engineers": 5
+      },
+      "remainingNoTop": 16,
+      "remainingNoDegreeTop": 35
+    },
+    {
+      "cohort": "grok075",
+      "models": 1000,
+      "addedTop": {
+        "Environmental scientists & specialists": 24,
+        "Validation Engineers": 6,
+        "Instructional Coordinators": 52,
+        "Kindergarten Teachers, Except Special Education": 5,
+        "Electronics Engineers, Except Computer": 2
+      },
+      "withdrawnSupported": {
+        "Validation Engineers": 33
+      },
+      "remainingNoTop": 245,
+      "remainingNoDegreeTop": 349
+    }
+  ]
+}

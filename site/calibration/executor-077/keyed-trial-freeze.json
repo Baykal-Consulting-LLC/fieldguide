@@ -1,0 +1,14 @@
+{
+  "stage": "Before inspecting either independent response study\u2019s matching outcomes",
+  "policy": "Final full-survey trial uses one model, low effort, exact question keys and per-question allowed codes for every model. Transport pilots excluded without inspecting outcomes. No outcome-based response selection, profile tuning or matching-rule changes. Separate narrow-round results do not retune the primary experiment.",
+  "files": {
+    "scripts/executor-077/generate.py": "4d332b843f4677422a63ecf8dec2dec88d92b6b4f6e278d34a21f9eadee4c955",
+    "scripts/executor-077/export.mjs": "a4d4e8714d5fdea8310a2be692abce4375e10fcfc6bd16deab1b024387ee28e0",
+    "scripts/executor-077/seal.py": "8036b721b0ad3b535086bc8d93e33538e715e0993eb1547d9711ec99fbc3a39a",
+    "scripts/executor-077/compare.mjs": "0a27084298187f234939761944dcde523ad80581e673e041e7b5addc55ad1e92",
+    "scripts/executor-077/compare-targeted.mjs": "f91351cc3e7e1132da258177fc1f9eb0b64bd5e2b34635ca721122bc131c50a9",
+    "prototypes/executor-077/followups.mjs": "7571a4eab9a1b0471d6e0b0d3e2c1840c1b9d534c0cef65b518826f5070bfcae",
+    "calibration/executor-077/manifest.json.gz": "62a2761a4022ebf847a25d3e1d98c18e22b278955bcdb933ce6e0ecdfc1bd000",
+    "calibration/executor-077/targeted-protocol.json": "ba3caf4a456bb9ed06015921a5de8eb03e2b2190c1493c2c4b79b6da3528fb7b"
+  }
+}

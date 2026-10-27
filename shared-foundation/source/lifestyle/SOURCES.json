@@ -1,0 +1,42 @@
+{
+  "id": "fieldguide-lifestyle-v1",
+  "snapshotDate": "2026-10-16",
+  "promotedAt": "2026-10-22",
+  "taxYear": 2026,
+  "geography": "Austin, Texas",
+  "household": "One adult; single-filer employee illustration by default",
+  "questionnaire": "Nine original Fieldguide lifestyle questions, five editable planning options each; ownership branch for housing",
+  "questionnaireAssessment": "Preferences and editable budgeting assumptions, not a validated assessment or market quotes",
+  "originalFiles": [
+    {
+      "file": "financial-math.js",
+      "source": "Approach 1 public runtime snapshot",
+      "sha256": "9e3c80c09af05a75d9b300c56396cbb21e0ac2fd9839ae3367935b1685e7b523"
+    },
+    {
+      "file": "lifestyle.js",
+      "source": "Approach 1 public runtime snapshot",
+      "sha256": "c94a3167be55f29fcf89456b302c564145579eb519dc0a3c7c55591d6bd5b6cb"
+    },
+    {
+      "file": "lifestyle-builder.js",
+      "source": "Approach 1 public runtime snapshot",
+      "sha256": "d7d2830f762750addbfbc08fcddc65d2c141db8471359bc7c1a5f3267c67c3e1"
+    }
+  ],
+  "incomeTarget": "Unchanged lifestyleIncomeRange function extracted from Approach 1; minimum expenses and 20% take-home breathing-room target",
+  "scope": "Only public question definitions and pure calculation modules. No student answers, accounts, career ranking, hosting settings or salary assumptions.",
+  "sourceLinks": [
+    "https://www.irs.gov/newsroom/working-families-tax-cuts-individuals-and-workers",
+    "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500",
+    "https://www.ssa.gov/pubs/EN-05-10003.pdf",
+    "https://www.huduser.gov/portal/datasets/fmr.html"
+  ],
+  "limitations": [
+    "Uses a dated 2026 illustration and simplified household/tax assumptions.",
+    "Preset spending baskets are editable assumptions, not current quotations.",
+    "Housing ownership needs upfront cash in addition to monthly costs.",
+    "A college pathway is not assigned a single salary.",
+    "Different consumer pins are intentional: Approach 1 remains 1.0.4 unchanged at the user request."
+  ]
+}

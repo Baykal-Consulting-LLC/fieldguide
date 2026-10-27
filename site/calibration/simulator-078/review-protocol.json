@@ -1,0 +1,47 @@
+{
+  "version": "simulator-078",
+  "review": "Executor-blinded AI review, fresh Grok CLI sessions; same provider as one executor, no human validation",
+  "sample": {
+    "profiles": 192,
+    "items": 384,
+    "cohortStrata": [
+      [
+        "development",
+        "narrative",
+        32
+      ],
+      [
+        "development",
+        "structured",
+        32
+      ],
+      [
+        "holdout",
+        "narrative",
+        8
+      ],
+      [
+        "holdout049",
+        "narrative",
+        6
+      ],
+      [
+        "holdout056",
+        "structured",
+        18
+      ],
+      [
+        "grok075",
+        "structured",
+        96
+      ]
+    ],
+    "selection": "Fixed SHA-256 ordering of changed-Top-set profiles; one relevant profession disagreement and one relevant activity disagreement where available. Stratified diagnostic sample, not representative population accuracy."
+  },
+  "blindness": "Reviewer sees anonymized frozen profiles, actual question/options and independently shuffled human-readable A/B answers only. Executor names, IDs, occupation links, match results, wage/education metrics and prior reviews withheld. Natural job wording in the actual question retained.",
+  "repairSeparation": "Use original development judgments for authoring. Keep all original holdout and Grok judgments sealed until repair rules are frozen. Existing holdouts have been inspected in earlier work; not pristine final validation.",
+  "unknowns": "Missing enjoyment is not disinterest. Grades, ability, demography, wellbeing, obligations and access do not imply enjoyment. Do not invent missing specialist purpose. Literal OR alternatives need one branch, not every example.",
+  "limits": "Same-model self-style and prompt effects can remain despite executor labels being blinded. Two items per profile; report clustered profiles and both/neither/unresolved, not just a winner rate. No live changes.",
+  "manifestSHA256": "62a2761a4022ebf847a25d3e1d98c18e22b278955bcdb933ce6e0ecdfc1bd000",
+  "blindInputSHA256": "8977cc8e1f933f80a9722e5a85286b61d6f7c334ac231455360ea6e0a646774f"
+}

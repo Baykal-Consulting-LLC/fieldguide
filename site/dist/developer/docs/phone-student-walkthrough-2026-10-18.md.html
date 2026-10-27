@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Phone student walkthrough · 0.31.7 · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Phone student walkthrough · 0.31.7</h1><p>Retained development record. It may describe an earlier release.</p><a href="./phone-student-walkthrough-2026-10-18.md" download>Download original Markdown</a><pre class="document"># Phone student walkthrough · 0.31.7
+
+Completed a fresh fictional medicine student's guide through the actual browser UI at a 390 × 844 phone viewport: nine lifestyle choices, 60 official O*NET interest questions, 18 focused field-work questions, 12 skill-experience questions, values and four working-life/education screens, then 11 medical-profession follow-ups. The reviewed fixture supplied choices; no completed assessment was preloaded into browser storage. The field choices were Health &amp; helping and Teaching &amp; learning, with Science &amp; environment also available as work-led exploration. Selected Health, then Doctor (family medicine), and created the plan using first-year residency pay.
+
+Also reviewed the career library, search, saved reading, salary-to-lifestyle previews, a completed-profile review, sign-in dialog and restart dialog. No sign-in or reset was performed. The preview used separate test storage and account sync disabled only in an ignored local copy.
+
+## Fixes from the walk
+
+- Optional “Explore every field” control moved from the main questionnaire toolbar into More info. Single-choice answers still advance immediately. Multi-select screens keep their next/back actions within reach at the bottom of a phone viewport.
+- Field and career icons share a row with the card title. Featured field cards no longer repeat a “Worth exploring” label. Their observed height fell from roughly 380px to 311px at the checked viewport.
+- Lifestyle tally kept above total and income range, with shorter spacing and caption. Its observed height fell from 974px to 733px. Full cost scope remains in More info.
+- Reviewing lifestyle after finishing the profile returns to pathway matches, rather than repeating the last question.
+- Guided career pages have Work, Training and Pay shortcuts, a back-to-matches link, and one clear job-choice/open-plan action. Detailed match reasons no longer precede the career title.
+- Plan and library section menus fit in one row. The library's tabs no longer cause horizontal scrolling at 320px. Each library career card is one link.
+- Education budgets with an unfunded balance say so clearly next to the zero-loan-payment scenario. No borrowing or aid was invented; the calculation is unchanged.
+- Salary previews lead with the selected pay and affordability result. Pay comparisons and work-scenario editing are optional. Library previews say “An Austin example” and “this example,” preserving their separation from the student's own lifestyle and plan.
+- Lifestyle result and example cards use smaller padding and headings, while retaining readable 17–18px explanatory text.
+
+## Observed checks
+
+A reflection note and completed first activity survived reload. Saving a dentist to library reading did not change the physician plan. The chosen resident-pay stage stayed intact. New lifestyle questions started unselected, earlier choices remained saved, and the completed lifestyle review returned directly to matches. Plan anchors cleared the sticky menu. Library tabs and plan navigation had no horizontal overflow at 320px; the primary walkthrough used 390px. More info retained the detailed match explanation, financial scope, future pay and edit controls.
+
+All 412 regression tests passed on the final student code. The completed result and observed UI checks are retained in the verification record. These checks cover UI behavior and regression tests; they do not establish psychometric validity, future income, or physical-device Safari behavior. No assessment wording/order, matching weights, salary anchors, budget formulas, saved student data, cloud infrastructure or billing settings changed.
+
+The structured observed route is retained in `validation/phone-student-walkthrough-2026-10-18.json`. This record describes one realistic full UI journey and targeted secondary checks, not every possible student or answer combination.
+</pre></main></html>

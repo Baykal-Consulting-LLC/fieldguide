@@ -1,0 +1,46 @@
+# Reviewer 2: calibration 054
+
+Non-independent AI biography review; not human, counselor, or psychometric validation.
+
+Biography-only expectation ledger frozen before reading any output packet or other assessment data. All 53 assigned biographies reviewed; 39 development/legacy and 10 original holdout plus 4 development049 are kept in their recorded phases. Original holdout observations are evaluation only. Fresh holdout is absent and remains sealed.
+
+Ledger SHA256: `9bbe994f3644b0950d872ca2315e2bed0b45eebc805fba97d2e56e2d2ab34fbe`
+
+Expectations identify plausible exploration directions, not mandatory matches. Adjacent families may overlap; no prior professional experience is required. Quotes are exact biography phrases. No engine, answers, biographies, holdout rules or public pages edited.
+
+## Completed outcome review
+
+All 53 cases reviewed against the frozen ledger: {'cases': 53, 'top': {'supported': 75, 'needs-clarification': 36}, 'discovery': {'supported-direction': 93, 'plausible-adjacent': 277, 'needs-clarification': 265, 'implausible': 1}, 'priority': {'high': 17, 'medium': 32, 'low': 4}, 'missingDirectionEntries': 63}
+
+The output packet exposes simulated/student and profile-inferred answers; these are not independent human responses. Review preserves them and judges biography support separately. Supported direction does not mean every occupation-specific answer has been supplied. A missing exact answer is a neutral pending question, not an unsuitable discovery. Needs-clarification means a specific task/domain transfer is unresolved, never a claim of low ability. No thresholds were fitted to these judgments.
+
+Priority queue:
+
+- life-050 (development): Mechanical repair is well grounded; production-machine and automotive scope are reasonable learning extensions. The displayed list omits the equally clear reporting interest. Follow-up: Would you rather interview someone about how a place works, repair a mechanism, or try both in short projects?
+- life-052 (development): Library participation and welcoming people support library discovery. The list shifts heavily from that community interest into clinical helping roles without evidence of wanting clinical work. Follow-up: Which parts of rehearsal or library participation would you choose to explore outside the current group?
+- life-054 (development): Teaching younger children is supported; high-school and middle-school subject teaching are plausible age/content transfers requiring preference clarification. Creative writing and sport strategy are crowded out. Follow-up: Would you prefer teaching movement, exploring a subject lesson, developing stories, or comparing these?
+- life-056 (development): No top claim is shown, which is acceptable while exact interests remain unasked. The first12 is poorly aligned: teaching is adjacent, but therapy and unrelated social fields displace sustained dance and sky observation. Follow-up: Would you choose a dance-creation session, telescope observation with some physics, or both?
+- life-063 (development): Bounded tutoring and multiple fraction explanations support teaching discovery. Repeated school-age variants crowd out two distinct practical interests. Follow-up: Which would you choose to explore without a helping obligation: algebra, making a useful clay object, sailing, or a combination?
+- life-070 (development): Printmaking is directly grounded. Gates and latches support repair and construction discovery, while wood framing and metal joining are domain extensions needing a neutral trial. Follow-up: Would you like to compare a safe wood or metal joining demonstration with a larger ensemble rehearsal?
+- life-075 (development): Usable maps and a photographed recipe booklet support information design. Mapping interest alone does not establish statistical-computing interest; the Data Scientist support claim needs clarification. Follow-up: For a map project, would you choose route field notes, visual layout, data analysis, or another part?
+- life-078 (development): Bookkeeping and accounting follow repeated voluntary expense work. Office work and industrial engineering are adjacent; neither should erase the outdoor context in which the interest occurs. Follow-up: Would records still interest you for an unfamiliar organization, and would you like to compare that with trail restoration?
+- life-081 (development): Electrical and sound-device exploration is grounded in chosen projects. Broad machine design is adjacent. Festival guidance and language interest are displaced by teaching/clinical options. Follow-up: Would you like to compare a sound-device project, language exercise, and short visitor-information shift with clear breaks?
+- life-083 (development): Bilingual poetry supports writing without requiring long prose. Cooking is at least a supported direction even while exact commercial tasks remain unasked. The principal sound interest is omitted. Follow-up: Would you rather set up and mix live sound, edit a recording, cook for a group, or revise a poem?
+- life-090 (development): Child-oriented nature explanation supports elementary education. Older subject teaching, reference service, and systematic social research are adjacent rather than fully established specific preferences. Follow-up: Would you choose a nature walk, a school subject lesson, user interviews about signs, or a combination?
+- life-094 (development): No top claim is shown. That is not a failure by itself: circuit-diagram use and successful repair support inviting electronics-specific clarification, already buried tenth. Grease dislike does not imply technical disinterest. Follow-up: Would you like another supervised circuit repair with protective gear, a music workshop, or both?
+- legacy-016 (legacy): Culinary discovery is supported without business ownership. Food Service Manager is implausible for the stated preference because staff supervision and restaurant ownership are explicitly avoided. Follow-up: Would you like to observe meal preparation, a production kitchen, or counter service before choosing a training direction?
+- life-074 (holdout): Instruction of younger riders supports child teaching discovery. Academic subjects and older classrooms require preference clarification. Sustained dance and sky observations are omitted. Evaluation only. Follow-up: Would you like to try a dance piece, more telescope work, horse care, or a school lesson before comparing routes?
+- life-091 (holdout): Adaptive child instruction supports elementary education. Older subject teaching is adjacent; no classroom experience is required to explore, but the subject/age preference remains unasked. Evaluation only. Follow-up: Would you like to compare teaching children, a dance workshop, and a sound experiment after the move?
+- new049-001 (development049): Customer conversations support market-research adjacency, but bargaining and remembering buyers do not establish desire for systematic consumer study or analytical reporting. Negotiation itself is omitted. Follow-up: Would you prefer reaching a price agreement, systematically comparing customer answers, or planning purchases with records and transport?
+- new049-013 (development049): Bookkeeping and accounting are grounded. Receipt reconciliation does not establish interest in database infrastructure; data warehousing needs technical workflow questions. Investment/advisory roles also overextend everyday cost comparisons. Follow-up: Would you like larger financial reconciliations, learning database queries and shared data pipelines, or comparing costs/time in an operational choice?
+
+## Cross-case observations
+
+- Distinct interests are repeatedly crowded out by variants of one dominant family: music (life-070/077/094/096), dance/astronomy (life-056/074/091), reporting (life-050), practical electronics (life-085), and culinary/live sound (life-075/083). These are invitation/coverage gaps, not demands to force top matches.
+- Several Specific interests supported claims rely on broad transfers: mapping to data science (life-075), receipts to data warehousing (new049-013), customer bargaining to market research (new049-001), younger-child instruction to older academic teaching, and first aid to acute nursing. Ask about the new core tasks. Professional experience is never required.
+- Useful adjacent options should remain discoverable. Fashion direction is strongly supported for life-088/new049-019 even where exact answers are missing; electronics direction is supported for life-094 despite self-doubt and no top.
+- A real contradiction appears in legacy-016 Food Service Manager: explicit avoidance of staff supervision/ownership. Unlike unfamiliar activities, this justifies an implausible label for the shown responsibility scope.
+- Generic therapy/clinical entries often lack positive task evidence; they need questions rather than inferred caring identity, trauma destiny or automatic rejection.
+- Ten original holdout cases are evaluation-only, identified by phase and in summaries. Fresh holdout has not been supplied or opened.
+
+Per-case neutral follow-ups are in each summary; missing-direction entries include their own optional comparison questions. Review JSON is an initial pending queue; it does not authorize answer rewrites or tuning on original holdout.

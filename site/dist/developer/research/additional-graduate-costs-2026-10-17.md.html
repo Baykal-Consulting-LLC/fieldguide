@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Additional graduate program costs · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Additional graduate program costs</h1><p>Retained development record. It may describe an earlier release.</p><a href="./additional-graduate-costs-2026-10-17.md" download>Download original Markdown</a><pre class="document"># Additional graduate program costs
+
+Checked 17 October 2026. The accompanying JSON supplies **all 11 graduate career IDs** that previously fell back to `genericGraduate`. Every record names a Texas public university program that actually prepares for the selected career or credential. No production files changed.
+
+## Coverage and useful amounts
+
+| Career ID | Program example | Numerical benchmark | Preparation scope |
+|---|---|---|---|
+| speech-language | Texas State MS Communication Disorders, Round Rock | Fall 2026 resident graduate 9-credit semester: $4,511.49 | 63 credits non-thesis; prerequisites and clinical training matter |
+| school-psychology | Texas State Specialist in School Psychology | Same published semester benchmark | 69 credits, three years, practicum and internship |
+| statistics | Texas State MS Mathematics, Statistics concentration | Same published semester benchmark | 36 credits non-thesis or 30 thesis |
+| mental-health-counselor | Texas State MA Professional Counseling, Clinical Mental Health | Same published semester benchmark | 60 credits; degree precedes additional LPC supervision |
+| school-counselor | Texas State MA Professional Counseling, School Counseling | Same published semester benchmark | Selected 60-credit certification concentration |
+| urban-planning | UT Austin MS Community and Regional Planning | $6,239 resident 12-credit semester; four such terms calculate to $24,956 | 48 credits; calculated tuition scenario, living extra |
+| economics | UT Austin MA Economics | $36,000 resident tuition for 10-month/30-credit track | Published program total, with 18/24-month options |
+| librarian | UNT MS Library Science | Advertised estimated resident tuition/fees $16,500 | 36-credit ALA-accredited degree; living extra |
+| epidemiology | UTHealth Houston MPH Epidemiology | 45-credit resident tuition $12,915; plus $3,825 technology fee | Usually 18–24 months; term/institution fees and living extra |
+| nurse-practitioner | UT Arlington MSN Adult-Gerontology Primary Care NP | Published total tuition $26,814 | 41 credits, 29–33 months; BSN/RN first |
+| nutrition | UT Southwestern Clinical Nutrition Coordinated Program | Dated first-year resident attendance budget $45,756 | 24 months, including supervised dietetics practice |
+
+## Evidence and implementation decisions
+
+### Texas State routes
+
+[Fall 2026 graduate tuition rates](https://onestop.txst.edu/cost-payments/cost-attendance/tuition-rates.html) price nine resident credits at $4,511.49 and nine nonresident credits at $8,364.49. The [2026–27 graduate attendance budget](https://onestop.txst.edu/cost-payments/cost-attendance/graduate-coa.html) has $9,020 rounded fall/spring tuition and $27,660 total for nine credits each term, living on/off campus. That allowance is not a program total. Credit load and campus can change fees, so do not multiply it by program years as an official price.
+
+The records pair the actual institutional rate with verified programs: [speech-language pathology](https://www.health.txst.edu/cdis/graduate-degree-program.html), [school psychology](https://www.gradcollege.txst.edu/programs/ssp.html), [statistics concentration](https://www.gradcollege.txst.edu/programs/math.html), [clinical mental health/school counseling](https://www.gradcollege.txst.edu/programs/counseling.html). Professional counseling has its own [additional expenses](https://www.txst.edu/clas/coun/current-students/anticipated-program-costs.html), including liability coverage and licensure/exams. None is renamed “generic graduate study.”
+
+For full-route calculations use actual planned semester credits, the institution's fee schedule, and study months. Keep a calculated program budget distinct from an institution-published total. The JSON preserves degree credits and marks any suggested planning duration explicitly as a scenario. The [speech-language course sequence](https://docs.gato.txst.edu/786571/Grad%20Course%20Sequence%202024_Accessibility.pdf) spans two academic years with summer study; thesis and leveling can add time. School psychology's [2025 handbook](https://docs.gato.txst.edu/743349/Program%20Handbook_Rev%20Aug_21_2025.pdf) explicitly describes a three-year route.
+
+### Named published or derived degree totals
+
+[UT Economics](https://ma.eco.utexas.edu/tuition/) publishes separate Option III prices: $36,000 resident for 10 months, $43,500 for 18 months and $54,600 for 24 months. Use these, not ordinary graduate tuition. Books/living and some ancillary charges are excluded. The university's [2026–27 tuition tables](https://catalog.utexas.edu/general-information/registration-tuition-and-fees/tuition-and-fees/tables-tuition-for-fall-and-spring/) independently list these program amounts and price Architecture graduate study used for the [48-credit planning master's](https://soa.utexas.edu/planning/masters).
+
+[UNT's official online program page](https://online.unt.edu/programs/graduate/library-science) estimates $16.5K for the 36-credit, ALA-accredited Library Science MS. The price is rounded and lacks an academic-year label; preserve that source status internally. Library science preparation is distinct from Texas school-librarian educator certification.
+
+[UTHealth's MPH Epidemiology](https://sph.uth.edu/academic-programs/masters-programs/epidemiology) is 45 credits with 18–24-month full-time completion. Its [2026–27 public-health fee table](https://www.uth.edu/bursars/student-resources/tuition-fees/school-of-public-health) gives resident tuition $287/credit plus $85/credit technology fee. Computed degree subtotals are $12,915 and $3,825. Required institution and term fees remain separate. A credited $200 enrollment deposit must not be added twice.
+
+[UTA's AG primary-care NP MSN](https://academicpartnerships.uta.edu/healthcare-nursing-online-programs/msn-adult-gerontology/primary-care-nurse-practitioner/) publishes $26,814 tuition, 41 credits, 29–33 months, and BSN/active RN prerequisites. It states certification eligibility followed by Texas APRN recognition. This is a qualifying NP example, with a specific population focus; graduate tuition does not price the prerequisite nursing degree.
+
+[UTSW's coordinated dietetics master's](https://shp.utsouthwestern.edu/programs/clinical-nutrition-coordinated-program/) is a 24-month post-baccalaureate program preparing registered dietitians. The [2026–27 COA](https://www.utsw.edu/education/students/financial-aid/cost-of-attendance/health-professions/) gives resident program portions $45,756, $54,067 and final partial-year $13,034. Their sum is $112,857; tuition/fee portions sum to $23,666. These are current-year budgets across portions, not a guaranteed future cohort price. The older undated program marketing estimate is lower; the JSON deliberately favors dated financial-aid budgets.
+
+## Route mistakes caught during research
+
+- **UT Austin MS Statistics is not offered as a standalone program.** Its [official page](https://stat.utexas.edu/academics/master-science-statistics) limits it to current UT doctoral students concurrently earning the MS. Use the verified Texas State statistics concentration here.
+- **A generic online nutrition master's is not the whole RDN route.** The selected UTSW program is coordinated and includes practice preparation.
+- **Texas school counselors no longer need two prior classroom teaching years as a universal certification rule.** [TEA's adopted amendment](https://tea.texas.gov/about-tea/laws-and-rules/sbec-rules-tac/sbec-adopted/24-04-239-20.pdf) removes that requirement. District hiring preferences and school-librarian requirements are separate.
+- **NP is a graduate specialization after nursing preparation.** Never show the master's tuition alone as the cost from high school to NP.
+
+## Integration notes
+
+The JSON's top-level keys are the 11 career IDs; values conform to the existing `educationCostEvidence` shape. Additional `programCredits`, `duration`, `qualificationEvidence` and `additionalSourceURLs` make route budgeting reproducible. `amounts` keeps published semester, annual attendance and calculated whole-program subtotals separate. Feature the amount whose scope is visible in the headline; do not call a semester amount “the degree cost.”
+
+Do not invent future fees, automatic assistantships, guaranteed scholarships or loan eligibility. Populate a calculation from these current named benchmarks and the student's selected route; store evidence detail in Developer while keeping student prompts short.
+</pre></main></html>

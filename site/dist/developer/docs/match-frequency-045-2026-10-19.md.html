@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Field and profession frequencies · 0.45 · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Field and profession frequencies · 0.45</h1><p>Retained development record. It may describe an earlier release.</p><a href="./match-frequency-045-2026-10-19.md" download>Download original Markdown</a><pre class="document"># Field and profession frequencies · 0.45
+
+The Developer page and model match chart now link to a frequency view covering all12 general fields and all117 catalog professions. It uses the current frozen model reruns, with the six owner-only models included in memory after sign-in.
+
+## Count definitions
+
+A profession counts once per model within each of three categories: current Top matches; visible Other matches; and displayed lifestyle-sustaining options. Other uses the existing six-item list after removing every offer under Needs confirmation, matching the chart’s Other column. Lifestyle uses the existing deduplicated five-per-education-route lists and first-paid-stage financial test. A Top match can also sustain the lifestyle; the categories are overlapping measures, not shares of a whole. The “Any of these lists” column counts unique models across the three categories.
+
+General fields use all catalog memberships. Models reached counts each field once per model per category, regardless of how many professions in that field the model receives. Profession offers instead counts model–profession pairs under each relevant field. Cross-field professions contribute to every attached field. This is a rollup of profession offers, not a count of the models’ chosen exploration fields or their earlier broad-field invitations.
+
+The chart uses aligned horizontal bars from zero, exact values, and a common scale within each field/profession view. Counts open the specific models and offers behind them. Links return to the model chart for biographies, answer rounds, interim and current matches, and budgets. Tables support profession search, field selection, sorting and CSV export; scope controls select model cohort and education route.
+
+## Professions with no match appearances
+
+The separate list includes every profession with zero Top, Other and displayed lifestyle appearances in the selected cohort. It separately identifies pending confirmation, comparison invitations and internal eligible options outside displayed caps. “Not displayed in the model chart” excludes pending checks and comparison invitations as well as the three match lists; it may still include undisplayed internal eligible options. The chart’s current comparison-invitation list is capped at three per model. A zero count describes this fictional-model sample, not proof of a missing career or a scoring defect. Absence is not assessed when no model results are available.
+
+## Source and refresh
+
+The normal build first regenerates the model match chart, then derives a lean public frequency dataset from those exact rows. The asset contains all117 profession/field mappings and public model–profession references, without raw biographies or answer payloads. The page aggregates the same structure for owner-only cases after authenticated access. Sign-out clears private rows and open details. No matching rules, answer histories, career routes or budget calculations change in this release.
+
+Verification checks deduplication, overlap, multi-field membership, exact displayed-list parity, zero-appearance classification, empty cohorts, education-route filtering, generation from all148 public cases, and the private-data boundary. Browser verification covers the counts, model drilldowns, education filters, missing-profession list and CSV exports.
+</pre></main></html>

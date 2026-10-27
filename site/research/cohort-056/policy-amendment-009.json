@@ -1,0 +1,62 @@
+{
+  "version": 9,
+  "at": "2026-10-20T20:31:43.285Z",
+  "reason": "Operational registration correction only: the frozen-profile reuse helper still selected policy006. Point generator, replay and current provenance to this registered policy. Preserve all original profiles and the exact policy008 answer function, bindings, exposure, Top gates and pay data. No calibration from results.",
+  "profileSHA256": "c57b0f4f6b3c894cec8cd4343a27859152dee241477018ba4029565a7f94bc2c",
+  "policyHashes": {
+    "calibration/cohort-056/spec.mjs": "10740b3da853f20f7dac8bf9ca2892c4b5995bd77e1c2a8fb785cca0284d7847",
+    "calibration/cohort-056/response-policy.mjs": "81d10a804cd96eeff0b465c8e3f8b2540575d316c8ea6e277801bf0541b70a00",
+    "scripts/generate-cohort-056.mjs": "128feee407bf97e5352e187951d5c67965704ade4203e79a31d7a7758eb1b85a",
+    "research/cohort-056/protocol.json": "470f4baf02a244a0c3eea75d9dcf8f7cd7d0ca0db152c97dc027fbe177b031f5"
+  },
+  "runtimeHashes": {
+    "dist/open-explorer-056.js": "a4c3e00881042fdd1cb54acede51882d29fe9b983c2c86998cfec7c972061900",
+    "dist/exploration-056-data.js": "2f569a7e2d36f6f1e114e99917d2b0a7bbf2df71e65132a08c5a52c44f04e039",
+    "scripts/rerun-cohort-056.mjs": "cf40564669d9d9045c541d9c183ba5540471f149180c58412ee044c38a56815f"
+  },
+  "bindingHashes": {
+    "calibration/cohort-056/constructs.mjs": "27d9929c825c4b72b79c6a2e9cea1627c6e19b107ededf2abf54b934be3307e1",
+    "calibration/cohort-056/question-bindings.json": "0593c86e70e63aee56c727156c892f549286032cff63c68823e2ee8ce3ece7ee",
+    "calibration/cohort-056/discovery-links.mjs": "bfaad24bb4f0113770e2903305ae87d06b1ccbb8629344185e978c56d106c74f",
+    "research/cohort-056/activity-inputs-003.json": "ea8b8805d7457b631700f9c19dcf7e4bbb9e13ae33955d67dc63b00d168ea159",
+    "scripts/prepare-construct-bindings-056.mjs": "05d13f37028a713943ff192797e28a620f4722cf07efae3ec6f56b7d8d0f2cad",
+    "scripts/prepare-exploration-056.mjs": "29ec3514b48205075c2a447eb6c08a8216aa4dab79e7f76167bf3dd825be944f",
+    "dist/task-evidence-domains.js": "2e5e8fa71fe4f766992bb01003d0ac9364c53d6333e9f9b27b9980049b092d26",
+    "calibration/cohort-056/replay-policy.mjs": "0a9ba0a2dce30237317eb7de4525421593e2cb21a63b3e62cbe2a7efe584da03",
+    "calibration/cohort-056/additional-bindings-006.mjs": "6ef4be42d3880fb858709c51713f181eb67dcecf86a31704d39701116b206dc8",
+    "calibration/cohort-056/task-bindings-005.json": "6a6b6020abd8037873c777a20a8fc1be344b8331a173e4f6e7aef211ba04e03f",
+    "calibration/cohort-059/bindings.mjs": "81cf3ac619259d6c1bb26c4d797ee8fabb4d1ca655d0429d9125d6f3ddf93bc0",
+    "calibration/cohort-060/bindings.mjs": "05a0471d02da67a0f84478cfe1d546bc7e27ff950385b967f7a74d7e9de5fa91",
+    "scripts/review-coverage-060.mjs": "2856abcc3cfa8d5d335bd2c733a63d2e789a9a6de0988fcc753ba9093b08af89",
+    "research/coverage-060/mapping-review.json": "c5cf78811eec2901998247a5c6acd0ce799a75e7c95150510e424940aba200c0"
+  },
+  "limitations": [
+    "Original172 frozen answer histories are replayed unchanged; new synthetic answers are derived only from the828 existing structured profiles.",
+    "68 newly bound jobs require explicit specialty preferences not present in these procedural profiles; no positive value is invented. Student answers to actual profession questions remain separate.",
+    "27 aggregate All Other records have no specific work checks and cannot be confirmed as distinct professions.",
+    "Authored simulation assumptions are not independent fit validation. All current Top gates remain unchanged.",
+    "The 30/12/200 holdout splits are preserved with the same global policy; earlier results have been seen. No case-specific holdout changes."
+  ],
+  "coverage": {
+    "mappedCareers": 430,
+    "accessibleCareers": 457,
+    "mappedSpecificQuestions": 1173,
+    "mappedOptions": 343,
+    "namedCareers": 430,
+    "aggregateCareers": 27,
+    "careersNeedingExplicitFeatures": 68,
+    "unmappedNamedCareers": 0
+  },
+  "priorSourceCommit": "0d26cf9d7e082371a197cfb49e4716cf53abe766",
+  "exposureProtocol": "All mapped careers whose required subject constructs are explicitly positive receive their available questions; no salary, degree, match quota or successful-outcome stopping. This is comprehensive questionnaire coverage, not typical student behavior.",
+  "priorAmendment": "policy-amendment-008.json",
+  "baselineSHA256": "62833b1e0cd961825111fe27c25152e242796abd882071ae6a5920ada281210b",
+  "baselineRunId": "e0102e166ef47b51be813899fc718752f77ef1ed20b42ed4d7021c720e14ac9b",
+  "preflight": {
+    "profiles": 828,
+    "existingProfessionAnswersUnchanged": 43424,
+    "officialResponsesUnchanged": 49680
+  },
+  "answerPolicyVersion": 8,
+  "operationalOnly": true
+}

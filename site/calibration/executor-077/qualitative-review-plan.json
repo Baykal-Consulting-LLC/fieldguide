@@ -1,0 +1,7 @@
+{
+  "stage": "Before opening the primary matching outcomes",
+  "scope": "Selected qualitative review; not exhaustive or independent student validation",
+  "selection": "For each frozen 1000-profile cohort, take the three largest absolute bachelor/graduate career Top-frequency changes, and the first lexicographic model ID adding or removing each career in the direction of that change. Also inspect the largest all-education career change when absent from those three. Preserve raw outcomes. Inspect additional cases only to investigate an observed uncertainty, naming that extra scope.",
+  "evidence": "Read the frozen profile and exact relevant question responses. Distinguish enjoyment from ability, obligations, population characteristics and a broad subject liking. Respect missing specialist purposes or responsibilities. Compare career types and fields, not just coverage counts.",
+  "policy": "No rule, profile, answer or question-exposure tuning in this experiment. Any observed overreach is annotated separately and never silently changes the raw counts. Neither executor is ground truth."
+}

@@ -1,0 +1,34 @@
+{
+  "release": "0.39.0",
+  "scope": "Software regression and observed browser behavior; not student outcome validation.",
+  "fullSuite": {
+    "tests": 532,
+    "passed": 532,
+    "failed": 0
+  },
+  "finalChangedUIFocusedRun": {
+    "tests": 32,
+    "passed": 32,
+    "failed": 0
+  },
+  "finalChartReplayRun": {
+    "tests": 4,
+    "passed": 4,
+    "failed": 0
+  },
+  "browserChecks": [
+    "Audrey isolated preview: four existing HR work questions, earned Top status, return to cross-field results; no automatic career selection.",
+    "390px phone: focused accounting questions remain readable and usable.",
+    "Chart filtered to Audrey: pending invitations are separate from matches and lifestyle coverage.",
+    "Pending chart link opens the isolated student comparison."
+  ],
+  "ownerOnlyReview": {
+    "models": 6,
+    "topCovers": 4,
+    "otherCovers": 2,
+    "noneCover": 0,
+    "inputsUnchanged": true,
+    "rawCasesBundled": 0
+  },
+  "publicInputMutations": 0
+}

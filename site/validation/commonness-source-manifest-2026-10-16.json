@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-10-16",
+  "files": [
+    {
+      "path": "data-sources/commonness-austin-oews-2025-release-web.json",
+      "bytes": 21487,
+      "sha256": "e3bd23784e28684952e74f10f817e4bf2dcaea402c496f659b8b1f5293dec61a"
+    },
+    {
+      "path": "data-sources/commonness-bls-employment-2025-parsed.json",
+      "bytes": 459968,
+      "sha256": "3400ca1ee845e62840c0ecc0a9a6846843b81ed736c689c8a3614043d9046eac"
+    },
+    {
+      "path": "data-sources/commonness-bls-employment-2025-web.json",
+      "bytes": 285381,
+      "sha256": "27d1c3c8d416e31d0caa98c0c276bb81ae622f9f4323dd788c96f6464165062a"
+    },
+    {
+      "path": "data-sources/commonness-legislator-broad-context.html",
+      "bytes": 137181,
+      "sha256": "756939a9233943e2f9df078d36290b89846cce8b492ec7db4faff03a77146dbc"
+    },
+    {
+      "path": "data-sources/commonness-onet-wage-pages-2025.json",
+      "bytes": 616501,
+      "sha256": "c6e0666cc3d19a081161e48df70948fb40458fb68659aa3f9944e9e8b2d82382"
+    },
+    {
+      "path": "data-sources/commonness-twc-capital-area-projections-2024.json",
+      "bytes": 79370,
+      "sha256": "26e675d3f30e0bef8da4981c533ec6d183ac3976ab17f2c80cda2d3936800819"
+    },
+    {
+      "path": "scripts/research-commonness-wages.py",
+      "bytes": 5849,
+      "sha256": "54207bb164950b03f8194759b365b030443c59ff6e590b29ca6bd096ba9b1811"
+    },
+    {
+      "path": "scripts/research-commonness.py",
+      "bytes": 20339,
+      "sha256": "709b8f819267cfbcb6c340d478703d36a81eb178ff1202f5b5c7f2f09d089872"
+    },
+    {
+      "path": "validation/commonness-directory-audit-2026-10-16.json",
+      "bytes": 2153318,
+      "sha256": "1061f4d93145bcb614f12195ec20a40e1d4ab515715bab5cb094235dbe07a383"
+    },
+    {
+      "path": "validation/commonness-method-review-2026-10-16.md",
+      "bytes": 5066,
+      "sha256": "ab3b4aaa83255a2adafe96f9446d8286bfe4ca4bedd5281ce44273093208ef39"
+    },
+    {
+      "path": "validation/commonness-priority-50-2026-10-16.json",
+      "bytes": 120044,
+      "sha256": "fc6c2eb5ae1a10b38106c39dc23c3353205d588bcdf0f9b714d9aa280ca4743a"
+    },
+    {
+      "path": "validation/commonness-priority-50-wages-2026-10-16.json",
+      "bytes": 128328,
+      "sha256": "58282886ce68d8b6047761ef07b5a03725d49457cde371b5001cd0bb92cb53d9"
+    }
+  ]
+}

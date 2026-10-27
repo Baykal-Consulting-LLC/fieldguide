@@ -1,0 +1,93 @@
+{
+  "scope": {
+    "frozenModels": 1000,
+    "reconstructedTargetModels": 412,
+    "candidatePairsInspected": 40229,
+    "newClaims": 113,
+    "newProfessions": 15,
+    "coverageLossModels": 6,
+    "reclassifiedClaims": 44
+  },
+  "remaining": {
+    "below-cap": {
+      "models": 67,
+      "noTop": 0
+    },
+    "binding": {
+      "models": 9,
+      "noTop": 4
+    },
+    "activity": {
+      "models": 15,
+      "noTop": 10
+    },
+    "one-check": {
+      "models": 136,
+      "noTop": 101
+    },
+    "broader": {
+      "models": 81,
+      "noTop": 66
+    },
+    "exposure": {
+      "models": 1,
+      "noTop": 1
+    }
+  },
+  "cohorts": {
+    "development": {
+      "models": 758,
+      "noTop": 144,
+      "noDegreeTop": 242,
+      "belowCap": 54,
+      "newClaims": 81,
+      "reclassified": 36
+    },
+    "holdout": {
+      "models": 30,
+      "noTop": 3,
+      "noDegreeTop": 8,
+      "belowCap": 0,
+      "newClaims": 3,
+      "reclassified": 0
+    },
+    "holdout049": {
+      "models": 12,
+      "noTop": 1,
+      "noDegreeTop": 1,
+      "belowCap": 0,
+      "newClaims": 2,
+      "reclassified": 0
+    },
+    "holdout056": {
+      "models": 200,
+      "noTop": 34,
+      "noDegreeTop": 58,
+      "belowCap": 13,
+      "newClaims": 27,
+      "reclassified": 8
+    }
+  },
+  "newClaimScoreFlags": {
+    "differentPattern": 17,
+    "differentPatternInTop": 8,
+    "unavailable": 1,
+    "unavailableInTop": 1
+  },
+  "unconsumedEvidenceItems": {
+    "items": 7,
+    "offered": 553,
+    "groundedPositive": 91
+  },
+  "specialistPositiveCoverage": {
+    "visionFacts": 0,
+    "farmProductionFacts": 0
+  },
+  "limits": [
+    "Systematic gate/provenance review plus selected individual profile judgments, not an independent assessment or a validated accuracy estimate.",
+    "Sources are frozen simulated profiles; background, demographics and mental health were not used as career exclusion features.",
+    "All holdouts have been inspected; keep diagnostic results separate.",
+    "Negative broad correlation is a disagreement signal, not proof a concrete activity interest is invalid.",
+    "No source profiles, answers, scoring, live flow or saved benchmark counts changed."
+  ]
+}

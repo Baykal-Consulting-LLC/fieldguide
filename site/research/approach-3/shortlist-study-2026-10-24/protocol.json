@@ -1,0 +1,89 @@
+{
+  "id": "A3-shortlist-v1",
+  "frozenAt": "2026-10-25T04:58:25.673660+00:00",
+  "cohorts": {
+    "originalTotal": 1000,
+    "development": 758,
+    "originalHoldout": 30,
+    "freshHoldout": 12,
+    "expansionHoldout": 200,
+    "grokEvaluation": 1000
+  },
+  "baseline": "Architecture-corrected current research control 0.104, rerun fresh and verified against exact saved questions and career support.",
+  "candidate": "One predeclared focused selector; preserve final confirmations, retain six observed-evidence leads, add broad/field-diverse leads to a maximum of eight; prefer non-repeated evidence contexts and simulator-answerable questions using development-only availability rates. No subsequent parameter tuning using outcomes.",
+  "shortlist": "All confirmed careers retained regardless of correlation. Unconfirmed priority candidates need some recorded positive evidence, r>=0.608, and no contrary answer. This screen never creates a match; deferred careers remain browsable.",
+  "budget": {
+    "official": 60,
+    "maxFollowups": 24,
+    "countUnknown": true,
+    "lifestyleSeparate": true,
+    "noPriorFollowups": true
+  },
+  "guardrails": [
+    "No new interests, profile edits, simulator bindings, bank wording or support-threshold changes.",
+    "Question selector never receives biography, profile facts, unseen responses, cohort or pay.",
+    "Same official60 and current canonical scoring in both arms.",
+    "Previously inspected holdouts remain separate and are not pristine unseen validation.",
+    "No app build, source edits, publication or account changes. All new files under outputs or thread visualization directory."
+  ],
+  "studentLabels": {
+    "confirmedTop": "Strong match",
+    "otherConfirmed": "Strong match",
+    "priorityUnconfirmed": "Worth exploring",
+    "remainingPool": "Browse more careers"
+  },
+  "sources": [
+    {
+      "path": "outputs/a3-shortlist-study-2026-10-24/selector.mjs",
+      "sha256": "faa06e85b3490bff57f797ab5615a1187da779f5a0dd548b62065e43979cf876"
+    },
+    {
+      "path": "outputs/a3-shortlist-study-2026-10-24/run.mjs",
+      "sha256": "0bb9f8d4145c8b52e567182bb945572512647f52e4d84e6269bbf30f7028ecf9"
+    },
+    {
+      "path": "site/dist/developer/matrix-104.json.gz",
+      "sha256": "458c447b7ef18350f3cde07d37fbf8d6d086f84a4cec04dc5b366602cff610d8"
+    },
+    {
+      "path": "site/dist/developer/journeys-104.json.gz",
+      "sha256": "c6c197eb6403c31ba87eef0e0a766db97866d0c58b8aecec06427ec7eddcf0c2"
+    },
+    {
+      "path": "site/research/evidence-104/question-information.json",
+      "sha256": "9cb0b698575564a8a43754628ef9f9ea3fe457f728c9ca50cfc2536f83bc2b05"
+    },
+    {
+      "path": "site/dist/open-explorer-090.js",
+      "sha256": "f26f72cb472b34b428699f7da3aeebdd7e0b2e7ad3ef79ff1f5a3839b73f35a5"
+    },
+    {
+      "path": "site/prototypes/evidence-103/answer.mjs",
+      "sha256": "a96d2562865a9baa3ccae098b0d09b3d8e68db51cbcc1e97d67714b9c3c42344"
+    },
+    {
+      "path": "site/prototypes/evidence-100/targeting.mjs",
+      "sha256": "c3ffe9b44b0c7176470aec0d0d6dd60ef5899d628ea31ea055f9dd4e8cd8caf9"
+    },
+    {
+      "path": "site/calibration/cohort-056/profiles.json",
+      "sha256": "c57b0f4f6b3c894cec8cd4343a27859152dee241477018ba4029565a7f94bc2c"
+    },
+    {
+      "path": "site/calibration/grok-075/profiles.json",
+      "sha256": "aa4e222f4885505c77a7824c1b804c0b602fdf2d6de838ac87348fbb2bf41032"
+    },
+    {
+      "path": "site/research/evidence-098/legacy-facts.json",
+      "sha256": "e887357abe596bb789c2b8c4bcba4541ecdf7a17f97ef897ea19ad09cc7daf47"
+    },
+    {
+      "path": "approach-2/dist/engine.js",
+      "sha256": "6af16bf569f4e6e56201b64a369eb444a9f0e6a3796a7f4e9df4d9a861ccb829"
+    },
+    {
+      "path": "approach-2/dist/data/pathways.json",
+      "sha256": "bb95ad57562d7747e1fb9e231fc58b1fcc9628facd94bd6fb45e504f9c8b6949"
+    }
+  ]
+}

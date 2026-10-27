@@ -1,0 +1,56 @@
+{
+  "models": 1000,
+  "correlations_checked": 427713,
+  "max_error": 5.000405645105843e-11,
+  "cohorts": {
+    "development": {
+      "models": 70,
+      "current": 58,
+      "strong": 69,
+      "degree": 69
+    },
+    "supplement": {
+      "models": 24,
+      "current": 15,
+      "strong": 24,
+      "degree": 24
+    },
+    "legacy": {
+      "models": 24,
+      "current": 21,
+      "strong": 22,
+      "degree": 22
+    },
+    "holdout": {
+      "models": 30,
+      "current": 26,
+      "strong": 30,
+      "degree": 30
+    },
+    "development049": {
+      "models": 12,
+      "current": 8,
+      "strong": 9,
+      "degree": 9
+    },
+    "holdout049": {
+      "models": 12,
+      "current": 11,
+      "strong": 8,
+      "degree": 8
+    },
+    "holdout056": {
+      "models": 200,
+      "current": 158,
+      "strong": 193,
+      "degree": 189
+    },
+    "development056": {
+      "models": 628,
+      "current": 492,
+      "strong": 606,
+      "degree": 598
+    }
+  },
+  "currentRunId": "835f3e9eeb139692035e7672805c414bf104f557fb5983856e6928d9b0fc7a87"
+}

@@ -1,0 +1,511 @@
+{
+  "generator": "Grok CLI default model, independent sessions, no tools/web/subagents",
+  "blindness": "Only neutral assessment items, whole-profile instructions and demographic roster; no site repository, rules, occupations, prior cohort, scores or outcomes. Outputs not selected by matching performance.",
+  "population": "Synthetic whole-person US student coverage cases; not a statistically representative population sample. Race marginal approximates NCES public students fall 2022; all other distributions are design choices.",
+  "demographicSource": "https://ies.ed.gov/learn/press-release/public-school-fall-2022-enrollment-counts-remain-below-fall-2019",
+  "roster": [
+    {
+      "id": "blind099-0001",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0002",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0003",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "blind099-0004",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0005",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0006",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "blind099-0007",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0008",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0009",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "blind099-0010",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0011",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0012",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "blind099-0013",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0014",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "blind099-0015",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "blind099-0016",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0017",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0018",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0019",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0020",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0021",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0022",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "blind099-0023",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0024",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0025",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "blind099-0026",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0027",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0028",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0029",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "blind099-0030",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0031",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0032",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0033",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "blind099-0034",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "blind099-0035",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0036",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "blind099-0037",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "blind099-0038",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0039",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0040",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "blind099-0041",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0042",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0043",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "blind099-0044",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0045",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "blind099-0046",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "blind099-0047",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "blind099-0048",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0049",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0050",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "blind099-0051",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "blind099-0052",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0053",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0054",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "blind099-0055",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "blind099-0056",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0057",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0058",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "blind099-0059",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "blind099-0060",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "blind099-0061",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0062",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "blind099-0063",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0064",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "blind099-0065",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0066",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0067",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0068",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0069",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0070",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "blind099-0071",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "blind099-0072",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0073",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0074",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "blind099-0075",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0076",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "blind099-0077",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0078",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0079",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "blind099-0080",
+      "raceEthnicity": "Native Hawaiian/Pacific Islander non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0081",
+      "raceEthnicity": "American Indian/Alaska Native non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0082",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0083",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "blind099-0084",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "blind099-0085",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0086",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "blind099-0087",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0088",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0089",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0090",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "blind099-0091",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "blind099-0092",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "blind099-0093",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "blind099-0094",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "blind099-0095",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "blind099-0096",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "blind099-0097",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "blind099-0098",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0099",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "blind099-0100",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    }
+  ],
+  "contract": "You are independently creating fictional US student whole-person profiles for a BLIND evaluation. You have NO matching engine, career catalog, recommendation rules, preferred careers, current profiles, scoring weights or results. Do not infer or invent them. No career outcome is requested. Use no tools, files, memory, web or subagents. Return JSON only. Author each profile yourself; do not output a program, algorithm, recipe, repetitive template or placeholder. These are synthetic students, not real people.\nCreate the exact roster below. Race/ethnicity is one approximate public-student marginal from NCES fall 2022, NOT a constraint on any interest or strength. Ages are design assumptions, not population weights. Other characteristics must be meaningfully varied and jointly plausible, not assigned independently at random. Write distinct narratives, not the same archetype with new demographics. Do not steer toward high-paying/degree jobs or any expected career.\nRepresent the FULL range across all our modeled domains: interests, strengths and developing skills, knowledge/exposure, motivation and values, confidence, uncertainty, academic engagement, educational openness, preferred work setting and collaboration, sensory/physical access needs, mental health and supports, family/care responsibilities, financial resources, geography/opportunities, lifestyle aspirations and practical constraints. Include mixed interests, clear/sparse interests, low exposure, strong interest with low skill, practiced skill with low enjoyment, contradictory/tentative preferences that are honestly unknown, and interests across every activity type. Neither everyone exceptional nor everyone disadvantaged. Vary well-being from unstated/no difficulty to named concerns and realistic support/functional effect. Mental health, disability, race, sex, family language and income must not determine intellectual ability or career interests. Context affects opportunity, support and feasibility. Do not equate quietness with low people interest, low income with no college, sport with health careers, or caring for plants with laboratory research.\nFor each profile output EXACT keys:\nid, name (fictional), age, gender (girl/boy/nonbinary/not stated), raceEthnicity (from roster), region (Northeast/Midwest/South/West), locale (urban/suburban/town/rural), household (short coherent family/resources/opportunities/caregiving description), school (type/grade/electives/access), wellbeing (current concern or unstated, functional needs and support, no diagnosis-to-interest inference), motivation (2-4 short motives), strengths (2 strengths + 1 developing area; not aptitude claims), confidence (1-5), exposure (limited/mixed/broad), education (short training/associate/bachelor/graduate/open/undecided; feasible aspirations may need aid), workContext (preferred setting, pace, people vs solo and access needs), constraints (0-3), narrative (45-75 words connecting sustained chosen activities, motivation, strengths, exposure and one uncertainty; no career recommendation), positiveTopics (1-8 IDs), negativeTopics (0-6 distinct IDs), positiveMethods (1-8 IDs), negativeMethods (0-4 IDs), responsibilities (0-3 IDs), lifestyleChoices ({home,transport,groceries,dining,travel,entertainment,recreation,clothing,saving}, each 0-3), official (60 integer responses 1-5 in supplied order), followups (object mapping all six supplied IDs to 0=unknown or 1-5 interest; 3=neutral, 4=interested,5=very interested).\nActivity IDs are questionnaire ANSWERS to the supplied exact activity statements, NOT categories or inferred attributes. Select a positive only if this specific activity appeals; broad subject liking must not imply its distinctive procedures. Select negatives only for explicit disinterest; all other IDs remain unknown. Keep positives and negatives disjoint. Official 3 means Unsure; never invent confident interest to fill every item. Followup 0 is unknown; use 4/5 only for explicitly appealing activities consistent with narrative, context and other answers. One statement being positive does not force the paired statement. A student can like an unfamiliar hypothetical activity without prior skill; leave unknown if they cannot judge. Vary answers independently where meaningful, not identical theme patterns. Responses and profile must be internally consistent. Lifestyle choices: 0 low-cost/shared/basic,1 modest,2 comfortable,3 expansive; aspirations may exceed current household means but make that uncertainty explicit.\nReturn {\"profiles\":[...]} and nothing else.",
+  "questionnaireSHA256": "458c97ea6af9ed17bf9e7d9616928752f88eca1068e90e46257da577affa4814",
+  "createdAt": 1792822533.38525
+}

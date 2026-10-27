@@ -1,0 +1,7 @@
+import fs from'node:fs';import crypto from'node:crypto';import assert from'node:assert/strict';
+const dir='calibration/blind-2026-10-18',tmp='/tmp/adolescent-life-models-2026-10-18',hash=x=>crypto.createHash('sha256').update(x).digest('hex');
+assert.equal(hash(fs.readFileSync(dir+'/biographies.json')),JSON.parse(fs.readFileSync(dir+'/biography-freeze.json')).biographiesSHA256,'Original100 changed');
+const a=['a','b'].flatMap(k=>JSON.parse(fs.readFileSync(tmp+'/gap-cohort-'+k+'.json')));assert.equal(a.length,24);assert.equal(new Set(a.map(b=>b.id)).size,24);
+for(const b of a){assert.equal(b.age,16);assert.equal(b.timeline.length,7);assert.ok(b.timeline.map(t=>t.story).join(' ').split(/\s+/).length>=220);assert.ok(!('answers'in b));}
+const payload=JSON.stringify(a,null,2)+'\n',path=dir+'/supplement-biographies.json';if(fs.existsSync(path))assert.equal(fs.readFileSync(path,'utf8'),payload);else fs.writeFileSync(path,payload);
+fs.writeFileSync(dir+'/supplement-biography-freeze.json',JSON.stringify({createdAt:new Date().toISOString(),count:24,sha256:hash(payload),reason:'New histories added for independently identified life-domain gaps; original100 histories and inferred answers unchanged.',phase:'Supplemental development, not original holdout',isolation:'Separate no-history authors received general life-domain variation requirements only; no questions, answers, engine or desired outcomes.'},null,2)+'\n');console.log('24 additional biographies frozen',hash(payload));

@@ -1,0 +1,627 @@
+{
+  "version": "0.50.0",
+  "profiles": [
+    {
+      "token": "profile-7aaef9e27a2bf9",
+      "answers": [
+        {
+          "token": "reflection-52737d6e141bd9",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Noah makes electronic sounds and mixes audio layers, but his stated creative interests do not include drawing, digital modeling, or making successive animation images. The creature scene alone cannot supply a preference for that visual work.",
+          "biographyPaths": [
+            "biography.currentLife.enjoys[1]",
+            "biography.currentLife.demonstratedSkills[1]",
+            "biography.timeline[5].story"
+          ],
+          "constructSupport": "unknown"
+        },
+        {
+          "token": "reflection-f80e0b5d159cb2",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "He experiments with sound and used teammates’ conflicting suggestions on an unfinished track. That supports creative revision in audio; it leaves open whether he would enjoy repeatedly planning and adjusting visual movement to communicate an action.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.timeline[6].story",
+            "biography.currentLife.activities[1]"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-f870ab6abfd4b7",
+      "answers": [
+        {
+          "token": "reflection-1d837f9f7aef47",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Samuel repeatedly sketches remembered rooms and enjoys poetry about ordinary details, giving him material for related artwork. There is no stated wish to assemble a connected collection or make audience-facing presentation decisions, so personal image making does not settle this reflection.",
+          "biographyPaths": [
+            "biography.timeline[3].story",
+            "biography.timeline[5].story",
+            "biography.currentLife.enjoys[1]",
+            "biography.currentLife.enjoys[2]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-25ea65b5d4fa7e",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "He helps restore donated furniture, enjoys learning the techniques, and patiently prepares surfaces. Those are concrete interests in material work on existing objects, but preserving original evidence for future study rather than restoring usefulness or appearance is not established.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.currentLife.enjoys[0]",
+            "biography.currentLife.demonstratedSkills[1]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-c1c748898a7a01",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "His donation workshop and patience with furniture preparation offer a possible link to protective object care. His personal notebook and preference for dependable plans do not establish a wish to record conservation interventions or specify storage and handling to prevent future damage.",
+          "biographyPaths": [
+            "biography.currentLife.activities[1]",
+            "biography.currentLife.activities[2]",
+            "biography.currentLife.demonstratedSkills[1]",
+            "biography.selfDescription"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-0e90ec9980b583",
+      "answers": [
+        {
+          "token": "reflection-e12087b9422bb3",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Cora enjoys essays, word puzzles, and discussions around shared texts. Nothing in those activities states an interest in conveying another person’s message between languages; English at home is not evidence of either dislike or inability to learn it.",
+          "biographyPaths": [
+            "biography.background.cultureLanguages",
+            "biography.timeline[3].story",
+            "biography.timeline[5].story",
+            "biography.currentLife.enjoys[0]"
+          ],
+          "constructSupport": "unknown"
+        },
+        {
+          "token": "reflection-4aa5078ad9ff5d",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "She likes performing characters, understands character motivations, and discusses essays that challenge familiar opinions. These provide a possible interest in intended meaning, but they do not show whether working out tone specifically across languages would appeal.",
+          "biographyPaths": [
+            "biography.timeline[2].story",
+            "biography.timeline[4].story",
+            "biography.currentLife.demonstratedSkills[2]"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-f642680c20875c",
+      "answers": [
+        {
+          "token": "reflection-4d08f0d0cf8ac2",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Theo has repeatedly chosen theater scenery work since enjoying painting a production backdrop, willingly explained his color choices, and still volunteers with local theater. His early invented shops and characters, practical problem solving, and motivation to learn through repeated trials together support wanting to learn how to turn a story into workable spatial plans and revise them, even though detailed models would be new.",
+          "biographyPaths": [
+            "biography.timeline[0].story",
+            "biography.timeline[2].story",
+            "biography.timeline[3].story",
+            "biography.timeline[5].story",
+            "biography.currentLife.activities[1]",
+            "biography.currentLife.motivations[1]"
+          ],
+          "constructSupport": "direct"
+        },
+        {
+          "token": "reflection-21dfb7d6097166",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "He enjoys scene painting, mixing colors, and inventing characters. That supplies visual and story interests, but creating a character through successive moving images is a different method from a painted stage backdrop, and no preference for it is stated.",
+          "biographyPaths": [
+            "biography.timeline[0].story",
+            "biography.timeline[2].story",
+            "biography.currentLife.demonstratedSkills[1]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-42742d3c8c1588",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "His theater participation connects him with stories and visual choices, while repeated sound trials show willingness to experiment. Neither describes planning animated action or revising its timing and movement, so the transfer remains tentative.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.currentLife.activities[1]",
+            "biography.currentLife.motivations[1]"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-88ca128092afd9",
+      "answers": [
+        {
+          "token": "reflection-9438ec71ce278d",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Caleb asks clarifying questions while helping his grandfather with forms, but that is practical help in a familiar context. His biography does not state a wish to carry spoken or signed messages between languages, and the scene does not create one.",
+          "biographyPaths": [
+            "biography.timeline[6].story",
+            "biography.currentLife.activities[2]",
+            "biography.currentLife.demonstratedSkills[2]",
+            "biography.background.cultureLanguages"
+          ],
+          "constructSupport": "unknown"
+        },
+        {
+          "token": "reflection-35130f1744d2d7",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "He noticed different versions and missing details when discussing family photographs and stories. That supports attention to contextual meaning, but there is no evidence that interpreting intent and tone across languages is itself appealing to him.",
+          "biographyPaths": [
+            "biography.timeline[3].story",
+            "biography.currentLife.enjoys[1]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-61513de97e626f",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Caleb’s sustained creative activity is guitar playing with friends; formal visual art is listed among unfamiliar activities. His childhood arranged vehicle play does not establish an interest in making drawings or models into animated characters, and unfamiliar visual practice alone is not a negative preference.",
+          "biographyPaths": [
+            "biography.timeline[1].story",
+            "biography.timeline[5].story",
+            "biography.currentLife.unfamiliarActivities[2]"
+          ],
+          "constructSupport": "unknown"
+        },
+        {
+          "token": "reflection-07efe5e08c7936",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Keeping rhythm and making music sound right together could make timing choices relatable. His weekly music group and self-description concern sound rather than planning and repeatedly revising visual scenes, leaving the animation interest unresolved.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.currentLife.demonstratedSkills[0]",
+            "biography.selfDescription"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-5a0f564bf90f9f",
+      "answers": [
+        {
+          "token": "reflection-008bb3ce3929d6",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Chinedu voluntarily helps younger dancers learn a transition and tries alternative explanations, so teaching within the arts is more than a generic helping motive for him. The biography does not establish interest in adult beginners or in developing their expression and creative choices through the listed visual, dramatic, or musical media.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.currentLife.enjoys[2]",
+            "biography.currentLife.activities[0]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-99e52bbc91f7e6",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "When younger dancers struggled with a transition, Chinedu recognized that describing his own sensation was inadequate, tried several explanations, and watched which changed their next attempt. Together with his continuing ensemble participation and stated enjoyment of teaching several ways, this directly supports learning to evaluate a performance and give actionable feedback that develops the learner.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.currentLife.activities[0]",
+            "biography.currentLife.enjoys[2]",
+            "biography.currentLife.demonstratedSkills[2]"
+          ],
+          "constructSupport": "direct"
+        }
+      ]
+    },
+    {
+      "token": "profile-8442d9f3bb25de",
+      "answers": [
+        {
+          "token": "reflection-3efc79d5ed8fcd",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Greta enjoyed labeled classroom trays, sorting donations, and arranging garage-sale supplies. Those repeated choices support making shared materials findable, but they do not establish interest in the full electronic record lifecycle, including capture, sharing, and disposal.",
+          "biographyPaths": [
+            "biography.timeline[2].story",
+            "biography.timeline[4].story",
+            "biography.timeline[5].story",
+            "biography.currentLife.enjoys[0]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-b1e013eae5f17d",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "She likes usable spaces and clear labels and continues helping with service-club supplies. The scene’s central responsibility is choosing record access, confidentiality, retention, and disposal rules; her supply organization does not indicate a preference for those judgments.",
+          "biographyPaths": [
+            "biography.currentLife.activities[0]",
+            "biography.currentLife.demonstratedSkills[0]",
+            "biography.timeline[2].story"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-f4ffbae66f3214",
+      "answers": [
+        {
+          "token": "reflection-03199c1cedf0a8",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Priya enjoys timing laps accurately and following clear practiced safety sequences. These connect with orderly measurements and consistent procedures, but her activities and next-step training wish concern swimming and pool safety, not supporting statistical studies.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.timeline[6].story",
+            "biography.currentLife.enjoys[2]",
+            "biography.currentLife.demonstratedSkills[0]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-9cf8e4645db8c4",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Accurate lap timing and her recognition that knowing safety steps differs from making oneself heard could transfer to careful communication. There is no expressed interest in maintaining study calculation histories or explaining uncertain research results for team review.",
+          "biographyPaths": [
+            "biography.timeline[4].story",
+            "biography.currentLife.demonstratedSkills[0]",
+            "biography.currentLife.activities[2]"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-57dce823887a6d",
+      "answers": [
+        {
+          "token": "reflection-62e4ac67961f02",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Mateo enjoys crossing off receipt tasks, once entered fictional purchases for fun, now reconciles small purchase lists and flags omissions for an adult. This gives a real financial-record connection, but the biography explicitly leaves open whether he would enjoy more complex record work; analyzing organizational reports and learning reporting obligations remains uncertain.",
+          "biographyPaths": [
+            "biography.timeline[2].story",
+            "biography.timeline[4].story",
+            "biography.timeline[6].story",
+            "biography.openQuestions[0]",
+            "biography.openQuestions[1]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-554d798d501359",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "He copies shop shelf labels and matches entries to receipts, which shows experience with familiar details. He is less confident in formal writing in either home language and has no stated interest in proofreading other people’s language and layout; neither that confidence issue nor his receipt work resolves a desire to learn publication checking.",
+          "biographyPaths": [
+            "biography.background.cultureLanguages",
+            "biography.timeline[3].story",
+            "biography.currentLife.demonstratedSkills[0]"
+          ],
+          "constructSupport": "unknown"
+        }
+      ]
+    },
+    {
+      "token": "profile-95d64080be723f",
+      "answers": [
+        {
+          "token": "reflection-8e9fe0145b5e9e",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Jalen chooses and schedules friends’ gaming sessions and settles team choices. That is a real coordination activity, but it does not establish a wish to turn a work goal into linked tasks, deadlines, staffing, and a budget, particularly when the biography leaves enjoyment of gaming versus belonging unresolved.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.currentLife.demonstratedSkills[0]",
+            "biography.openQuestions[1]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-a7df5dcece63d5",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "He remembers friends’ schedules and resolves minor gaming-team disagreements, so coordinating familiar people can appeal. Owning delivery to a client or organization through progress checks and problems is a further responsibility for which the biography provides no chosen activity or wish.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.currentLife.activities[0]",
+            "biography.currentLife.motivations[0]"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-055f7ddd069c4b",
+      "answers": [
+        {
+          "token": "reflection-0e4a5d92339d0f",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Wyatt can steadily unload feed beside a familiar adult and notices missing usual supplies. That is experience executing a physical routine, not evidence that he wants to plan organizational quantities, storage, arrival times, and destinations. His absence of an independently chosen plan leaves the reflection open.",
+          "biographyPaths": [
+            "biography.timeline[6].story",
+            "biography.currentLife.activities[1]",
+            "biography.currentLife.demonstratedSkills[2]",
+            "biography.currentLife.ambitions[1]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-09dc2c9d450d79",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "His feed-store work is familiar unloading with clear directions, and he avoids approaching strangers about openings. Neither establishes dislike of delivery coordination, but there is no expressed interest in negotiating changed commitments among suppliers, transporters, and customers.",
+          "biographyPaths": [
+            "biography.timeline[6].story",
+            "biography.currentLife.demonstratedSkills[0]",
+            "biography.currentLife.avoids[2]"
+          ],
+          "constructSupport": "unknown"
+        }
+      ]
+    },
+    {
+      "token": "profile-d8f82ffa591a2c",
+      "answers": [
+        {
+          "token": "reflection-d9dd6e4d7cb71e",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Audrey likes planning social outings and coordinates invitations, while tracking deadlines with calendar support. These are possible starting points for project planning, but her minor club duties and lack of sustained self-directed projects do not establish interest in a whole work plan including staffing, dependencies, and budget.",
+          "biographyPaths": [
+            "biography.currentLife.enjoys[3]",
+            "biography.currentLife.demonstratedSkills[0]",
+            "biography.currentLife.demonstratedSkills[1]",
+            "biography.timeline[4].story",
+            "biography.currentLife.unfamiliarActivities[3]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-e120edcc177e7f",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Maintaining group chats and organizing responses show that Audrey does coordinate people she knows. She cannot identify what she enjoyed producing in a polished presentation and has only limited committee duties, so sustained delivery responsibility to a client through setbacks is unresolved rather than inferred from her social coordination.",
+          "biographyPaths": [
+            "biography.timeline[4].story",
+            "biography.timeline[6].story",
+            "biography.currentLife.activities[0]",
+            "biography.currentLife.demonstratedSkills[1]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-d61d38f4cdb608",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "She enjoys arranging outings and has some school social-committee involvement. There is no stated wish to check supplier promises, reconcile event bills, or own the promised service result; independent budgeting is unfamiliar, which signals an open learning question rather than a reason to reject it.",
+          "biographyPaths": [
+            "biography.currentLife.enjoys[3]",
+            "biography.currentLife.activities[0]",
+            "biography.currentLife.unfamiliarActivities[1]"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-4c539fc7043db7",
+      "answers": [
+        {
+          "token": "reflection-36a53ccf61c60f",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Valentina compares resale prices, writes clear item descriptions, and records costs and proceeds for her monthly listings. Those choices connect to explaining an item’s value, but documenting assumptions and uncertainty for someone’s consequential financial decision is not established by her small sales.",
+          "biographyPaths": [
+            "biography.timeline[4].story",
+            "biography.timeline[6].story",
+            "biography.currentLife.enjoys[2]",
+            "biography.currentLife.demonstratedSkills[0]",
+            "biography.currentLife.demonstratedSkills[1]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-346e7155ad2138",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "She likes organizing actual sale information in inventory tables and keeps proceeds records. That is evidence for practical information organization, but it does not show that setting confidentiality, access, retention, and secure-disposal rules for shared organizational records would interest her.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.timeline[6].story",
+            "biography.currentLife.demonstratedSkills[1]"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-622ce055e31644",
+      "answers": [
+        {
+          "token": "reflection-c5b25f424c5149",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Cameron enjoys diagnosing faults, checks fixes, and wants to compare vehicle and machinery training. Curiosity about how larger machines work is a possible bridge, but their chosen activity remains repair; there is no stated wish to develop new structures or power and movement systems.",
+          "biographyPaths": [
+            "biography.timeline[4].story",
+            "biography.timeline[5].story",
+            "biography.timeline[6].story",
+            "biography.currentLife.enjoys[0]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-60ab0a71184023",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "A failed bicycle repair led Cameron to value final testing, and they ask what engine checks rule out. That supports interest in checking reliability of a repair, but coordinating new vehicle design changes across specialists and whole-vehicle requirements remains a plausible transfer only.",
+          "biographyPaths": [
+            "biography.timeline[3].story",
+            "biography.timeline[4].story",
+            "biography.currentLife.enjoys[1]"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-0d5eceff9be40f",
+      "answers": [
+        {
+          "token": "reflection-1ebdd339ebe58a",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Rowan asks people about preferences, sketches visual changes, and noticed that a pictured hairstyle could fail someone’s daily routine. Those choices support balancing appearance and use, but production specifications about materials, fit, and construction so other people can manufacture the design are not yet a supported interest.",
+          "biographyPaths": [
+            "biography.timeline[1].story",
+            "biography.timeline[3].story",
+            "biography.timeline[4].story",
+            "biography.currentLife.demonstratedSkills[1]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-11ace0895b946e",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Their repeated outfit and hairstyle sketches show a sustained visual interest, including possibilities for fictional characters. The sketches respond to individual preferences; there is no stated goal to develop a coherent personal collection or make finishing and presentation choices for its audience.",
+          "biographyPaths": [
+            "biography.timeline[1].story",
+            "biography.timeline[3].story",
+            "biography.currentLife.activities[0]",
+            "biography.selfDescription"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-7fe3e7e144f98d",
+      "answers": [
+        {
+          "token": "reflection-53dfc2d8b60803",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Jordan became curious about first aid, asked what training would permit real emergency responsibility, repeatedly chose instructor-led scenarios, and now investigates EMT training. The explicit appeal of immediate trained care and team procedures supports learning to recognize changing clinical need and select an appropriate response within her role; her uncertainty is about experiencing a real crisis, not a lack of desire to learn that care.",
+          "biographyPaths": [
+            "biography.timeline[4].story",
+            "biography.timeline[5].story",
+            "biography.timeline[6].story",
+            "biography.currentLife.enjoys[0]",
+            "biography.currentLife.ambitions[0]",
+            "biography.selfDescription"
+          ],
+          "constructSupport": "direct"
+        },
+        {
+          "token": "reflection-4a0a4247ec68a7",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Her repeated first-aid practice and wish to investigate EMT training support learning immediate care. They do not specifically reveal whether she wants to interpret trends across patient measurements and test results, as opposed to carrying out coordinated practiced procedures, so this narrower clinical-information method remains tentative.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.timeline[6].story",
+            "biography.currentLife.enjoys[1]",
+            "biography.currentLife.enjoys[2]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-510a27a8723137",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Jordan likes immediate trained care, repeated scenarios, and team procedures, so prompt response within a care team has support. The continuing prescribed-treatment and sustained nursing-care responsibility for a critically ill person goes beyond her stated first-aid and EMT curiosity; preferring immediate care to years of follow-up does not itself prove she would reject continuous critical care.",
+          "biographyPaths": [
+            "biography.timeline[5].story",
+            "biography.currentLife.activities[0]",
+            "biography.currentLife.ambitions[0]",
+            "biography.selfDescription"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-c8a2ac4eba030e",
+      "answers": [
+        {
+          "token": "reflection-c10a9d218ce304",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Sage enjoys accurate appointment lists and corrected duplicate sign-ups with an adult’s help while avoiding embarrassment. That gives a modest connection to careful records, but does not show an interest in deciding confidential access, retention duties, and secure disposal across a document lifecycle.",
+          "biographyPaths": [
+            "biography.timeline[4].story",
+            "biography.timeline[5].story",
+            "biography.currentLife.enjoys[0]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-daacc59af108dd",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "She repeatedly chooses useful scheduling and clear messages, helped a class know where to go, and finds office or service settings appealing. These support administrative help itself, but supervising support staff and controlling service budgets while owning departmental service outcomes are additional responsibilities with no stated preference.",
+          "biographyPaths": [
+            "biography.timeline[2].story",
+            "biography.timeline[3].story",
+            "biography.timeline[5].story",
+            "biography.currentLife.motivations[1]"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    },
+    {
+      "token": "profile-8889d47dc90ece",
+      "answers": [
+        {
+          "token": "reflection-575e0b2d3aa7b4",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "Gabriel compares competing accounts about community policy, separates factual disputes from priorities, and checks original documents. That supports systematic scrutiny of existing claims, but it does not establish a wish to design systematic information gathering from a group about its experiences rather than work mainly with written arguments and sources.",
+          "biographyPaths": [
+            "biography.timeline[3].story",
+            "biography.timeline[5].story",
+            "biography.timeline[6].story",
+            "biography.currentLife.activities[1]"
+          ],
+          "constructSupport": "plausible"
+        },
+        {
+          "token": "reflection-41ef43955ab86e",
+          "response": "unsure",
+          "confidence": "low",
+          "evidence": "He checks quotations, seeks missing facts, and dislikes careless claims in his policy writing. These are substantial evidence-oriented habits, but no financial or property investigation interest is stated; the possible explanation-checking transfer does not supply that specialized subject preference.",
+          "biographyPaths": [
+            "biography.timeline[6].story",
+            "biography.currentLife.demonstratedSkills[1]",
+            "biography.currentLife.motivations[2]",
+            "biography.selfDescription"
+          ],
+          "constructSupport": "plausible"
+        }
+      ]
+    }
+  ]
+}

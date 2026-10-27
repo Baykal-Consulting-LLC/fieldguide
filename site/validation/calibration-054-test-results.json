@@ -1,0 +1,49 @@
+{
+  "version": "054",
+  "completedAt": "2026-10-20T13:14:36.891Z",
+  "software": {
+    "tests": 652,
+    "passed": 652,
+    "failed": 0,
+    "durationMs": 124243.474069
+  },
+  "independentMetricChecks": {
+    "tests": 5,
+    "passed": 5
+  },
+  "authoredBoundaryFixtures": {
+    "tests": 6,
+    "passed": 6,
+    "includedInSoftwareCount": true
+  },
+  "replay": {
+    "publicRows": 184,
+    "rowsIdenticalToBeforeAudit": true,
+    "originalInputsUnchanged": true,
+    "diagnosticPairs": 12,
+    "qualitativeFreshHoldoutReviewed": 0
+  },
+  "browser": {
+    "degreeClarificationFilter": {
+      "models": 49,
+      "allVisibleClaimsDegree": true
+    },
+    "noTopTriage": "Noah audio/weather evidence and neutral followup visible",
+    "freshCohort": {
+      "models": 12,
+      "qualitativelyReviewed": 0
+    },
+    "currentChartIntegration": true,
+    "pinnedChartFirst": true,
+    "narrowViewport": {
+      "width": 390,
+      "height": 844,
+      "horizontalPageOverflow": false
+    }
+  },
+  "limits": [
+    "No real-student or qualified-counselor sessions",
+    "No psychometric or predictive-validity claim",
+    "Truity has2 synthetic sessions with nonidentical item and neutral-proxy limitations"
+  ]
+}

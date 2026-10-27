@@ -1,0 +1,59 @@
+import {accountConfig} from './account-config.js?v=0.31.0';
+let firebaseModule;
+const firebase=()=>firebaseModule??=import('./firebase-client.js?v=0.31.0');
+const authClient={getSession:async()=> (await firebase()).authClient.getSession(),googleSignIn:async()=> (await firebase()).authClient.googleSignIn(),signOut:async()=> (await firebase()).authClient.signOut(),watch:fn=>{let stop,cancelled=false;firebase().then(m=>{if(!cancelled)stop=m.authClient.watch(fn);});return ()=>{cancelled=true;stop?.();};}};
+const guideRequest=async(...args)=>(await firebase()).guideRequest(...args);
+import {SaveQueue,accountKey,scopedStorage,bundleFrom,installBundle,BINDING_KEY} from './account-state.js?v=0.31.0';
+import {STORAGE_KEY,freshState,escapeHTML as h} from './model.js?v=0.31.0';
+import {SAVED_GUIDES_KEY} from './restart-guide.js?v=0.31.0';
+export function createAccount({getState,replaceState,openDialog,dialogHead,toast,onChange,auth=authClient,rawStorage,document=globalThis.document,window=globalThis.window,request=guideRequest,enabled=Boolean(accountConfig.firebase?.projectId)}){
+ let user=null,activeId='',message='',busy=false,needsChoice=false,timer,remote=null,status='browser',started=false,managedAuth=false;
+ let store;try{store=rawStorage||globalThis.localStorage;}catch{const memory=new Map();store={getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v),removeItem:k=>memory.delete(k)};}
+ const storage=scopedStorage(store,()=>activeId);
+ const getBundle=()=>bundleFrom(getState(),storage);
+ function guestState(){try{return JSON.parse(store.getItem(STORAGE_KEY)||'null')||freshState();}catch{return freshState();}}
+ function clearDeviceAccount(id){let cleared=true;for(const key of [STORAGE_KEY,SAVED_GUIDES_KEY,'sync'])try{store.removeItem(accountKey(id,key));}catch{cleared=false;}try{store.removeItem(BINDING_KEY);}catch{cleared=false;}return cleared;}
+ async function api(method,body){return request(method,body,user?.id);}
+ const queue=new SaveQueue({request:async(bundle,revision)=>(await api('PUT',{bundle,revision})).record,onStatus:(value)=>{status=value;try{if(activeId)store.setItem(accountKey(activeId,'sync'),JSON.stringify({revision:queue.revision,pending:value!=='saved'}));}catch{}onChange();}});
+ const labels={browser:'Saved in this browser',checking:'Checking saved guide…',choice:'Choose what to save',unsaved:'Changes on this device · saving soon',saving:'Saving to your account…',saved:'Saved to your account',offline:'Saved on this device · reconnect to sync',conflict:'Two copies need your choice',expired:'Saved on this device · sign in to sync',error:'Account unavailable · browser draft safe'};
+ function changed(){if(!activeId||needsChoice)return;try{queue.enqueue(getBundle());clearTimeout(timer);timer=setTimeout(()=>queue.flush(),1000);}catch{status='error';onChange();}}
+ async function activate(){clearTimeout(timer);const id=user.id;status='checking';needsChoice=true;onChange();const result=await api('GET');if(user?.id!==id)return;remote=result.record;let cached=null,meta=null;try{const raw=store.getItem(accountKey(id,STORAGE_KEY));if(raw)cached={version:1,draft:JSON.parse(raw),guides:JSON.parse(store.getItem(accountKey(id,SAVED_GUIDES_KEY))||'{"guides":[]}').guides};meta=JSON.parse(store.getItem(accountKey(id,'sync'))||'null');}catch{}
+ if(remote&&!(cached&&meta?.pending)){activeId=id;replaceState(installBundle(remote.bundle,storage));queue.reset(remote.revision);needsChoice=false;status='saved';store.setItem(BINDING_KEY,id);onChange();return;}
+ if(cached&&meta?.pending){activeId=id;replaceState(installBundle(cached,storage));queue.reset(meta.revision||0);queue.enqueue(cached);needsChoice=false;store.setItem(BINDING_KEY,id);if((remote?.revision||0)!==queue.revision){queue.blocked=true;status='conflict';}else await queue.flush();onChange();return;}
+ // No saved guide: do not copy any anonymous draft without an explicit choice.
+ activeId='';queue.reset(0);status='choice';needsChoice=true;show();onChange();
+ }
+ async function init(){if(started)return;started=true;if(!enabled){status='browser';return;}try{const {data,error}=await auth.getSession();if(error)throw Error();if(data?.user){user=data.user;await activate();}else{store.removeItem(BINDING_KEY);onChange();}}catch{status='error';onChange();}auth.watch?.(async next=>{if(managedAuth||next?.id===user?.id)return;clearTimeout(timer);queue.reset();activeId='';user=next;needsChoice=false;store.removeItem(BINDING_KEY);replaceState(guestState());status='browser';onChange();if(next)try{await activate();}catch{status='error';onChange();}});}
+ function accountSection(){return `<section class="account-summary"><h3>Keep your guide with you.</h3><p>${user?'Signed in as '+h(user.email)+'.':"Sign in with Google to keep your guide across devices."}</p><button class="button secondary" data-action="account">${user?'My saved results':'Sign in & save'}</button></section>`;}
+ function show(){let content='';
+ if(user){content=`<p class="account-email">${h(user.email)}</p><p role="status">${h(labels[status]||message)}</p>`;
+ if(status==='checking')content+='<p>Please wait while we load your account.</p>';
+ else if(status==='error'&&!activeId)content+='<p>Your browser draft is safe. We couldn’t load your account yet.</p><button class="button" data-account="retry-load">Retry loading my guide</button>';
+ else if(needsChoice)content+='<p>Save the guide open on this browser to your account, or begin a new one. The browser copy stays here.</p><div class="dialog-actions"><button class="button" data-account="use-browser">Save this guide</button><button class="button secondary" data-account="new-guide">Start a new guide</button></div>';
+ else if(status==='conflict')content+='<p>Your account has a newer copy from another device. Export this copy before replacing it.</p><div class="dialog-actions"><button class="button secondary" data-action="export">Export this copy</button><button class="button" data-account="load-cloud">Use account copy</button><button class="button secondary" data-account="keep-local">Keep this device’s copy</button></div>';
+ else if(status==='expired')content+='<p>Your work is safe on this device.</p><button class="button" data-account="reauth">Sign in again</button>';
+ else content+='<div class="dialog-actions"><button class="button" data-account="save">Save now</button><button class="button secondary" data-account="reload-confirm">Reload saved guide</button></div><p>Answers, lifestyle choices, notes, completed steps, and earlier saved guides stay together.</p>';
+ content+='<hr><div class="dialog-actions"><button class="button secondary" data-account="signout">Sign out</button><button class="button secondary" data-account="delete-confirm">Delete account’s saved results…</button></div>';
+ }else content='<p>Save your answers and plan. Pick up where you left off on another device.</p><button class="button google-signin" data-account="google-signin"><span aria-hidden="true">G</span> Continue with Google</button><p>Your results stay private to your account.</p>';
+ openDialog(`${dialogHead(user?'Your saved guide.':'Your guide, wherever you go.')}<div class="account-panel">${content}<p class="account-message" role="status">${h(message)}</p></div>`);if(busy)document.querySelectorAll('[data-account], [data-account-form] button').forEach(b=>b.disabled=true);
+ }
+ async function signout(){clearTimeout(timer);await queue.flush();if(['offline','conflict','expired'].includes(status)&&activeId){message='Your latest changes are still on this device. Export them first, or retry saving before signing out.';return;}managedAuth=true;let error;try{({error}=await auth.signOut());}finally{managedAuth=false;}if(error)throw Error('Sign-out did not finish. Please try again.');const oldId=activeId;queue.reset();activeId='';user=null;needsChoice=false;status='browser';message='';replaceState(guestState());const cleared=oldId?clearDeviceAccount(oldId):true;onChange();toast(cleared?'Signed out. Your account’s guide is saved.':'Signed out. This browser could not clear its private cache.');}
+ async function action(action){if(busy)return;busy=true;message='';document.querySelectorAll('[data-account], [data-account-form] button').forEach(b=>b.disabled=true);try{
+ if(action==='google-signin'){managedAuth=true;let data,error;try{({data,error}=await auth.googleSignIn());}finally{managedAuth=false;}if(error||!data?.user)throw Error('Sign-in did not finish. Please try again.');user=data.user;await activate();}
+ if(action==='retry-load')await activate();
+ if(action==='use-browser'||action==='new-guide'){const bundle=action==='use-browser'?getBundle():{version:1,draft:freshState(),guides:[]};activeId=user.id;replaceState(installBundle(bundle,storage));store.setItem(BINDING_KEY,activeId);needsChoice=false;queue.reset(0);queue.enqueue(bundle);await queue.flush();}
+ if(action==='save'){changed();await queue.flush();}
+ if(action==='reload-confirm'){busy=false;openDialog(`${dialogHead('Load your saved guide?')}<p>This replaces the current device copy. Export it first if you want to keep both.</p><div class="dialog-actions"><button class="button secondary" data-action="export">Export this copy</button><button class="button secondary" data-account="back">Cancel</button><button class="button" data-account="load-cloud">Load saved guide</button></div>`);return;}
+ if(action==='load-cloud'){remote=(await api('GET')).record;if(!remote)throw Error('There is no saved account guide yet.');needsChoice=true;queue.reset(remote.revision);replaceState(installBundle(remote.bundle,storage));needsChoice=false;status='saved';}
+ if(action==='keep-local'){remote=(await api('GET')).record;queue.reset(remote?.revision||0);queue.enqueue(getBundle());await queue.flush();}
+ if(action==='signout')await signout();
+ if(action==='reauth'){user=null;}
+ if(action==='delete-confirm'){busy=false;openDialog(`${dialogHead('Delete saved account results?')}<p>This removes the answers, plans, notes, and saved guides in this account. The anonymous browser draft stays here. Export first if you want a copy.</p><div class="dialog-actions"><button class="button secondary" data-action="export">Export current guide</button><button class="button secondary" data-account="back">Keep results</button><button class="button danger" data-account="delete">Delete saved results</button></div>`);return;}
+ if(action==='delete'){clearTimeout(timer);queue.reset(queue.revision);await api('DELETE',{revision:queue.revision});managedAuth=true;let error;try{({error}=await auth.signOut());}finally{managedAuth=false;}if(error)throw Error('Results deleted. Please retry signing out.');const old=activeId;activeId='';user=null;needsChoice=false;queue.reset();replaceState(guestState());clearDeviceAccount(old);status='browser';toast('Saved account results deleted.');}
+ }catch(error){if(status==='checking')status='error';message=error.code==='auth/popup-closed-by-user'?'Sign-in closed. Your browser draft is safe.':error.code==='auth/popup-blocked'?'Allow the Google sign-in window, then try again.':error.code?.startsWith('auth/')?'Google sign-in is unavailable. Please try again.':error.message||'Please try again.';}finally{busy=false;onChange();if(!['delete-confirm','reload-confirm'].includes(action))show();}}
+ document.addEventListener('click',e=>{const b=e.target.closest('[data-account]');if(b){e.preventDefault();return action(b.dataset.account);}});
+ window.addEventListener('online',()=>{if(activeId&&!queue.blocked)queue.flush();});
+ document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden'&&activeId)queue.flush();});
+ window.addEventListener('beforeunload',e=>{if(activeId&&(queue.pending||queue.running)){e.preventDefault();e.returnValue='';}});
+ return {storage,init,changed,show,accountSection,label:()=>labels[status]||'Saved on this device',signedIn:()=>Boolean(user),active:()=>Boolean(activeId)};
+}

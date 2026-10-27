@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>See a model as the student · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>See a model as the student</h1><p>Retained development record. It may describe an earlier release.</p><a href="./student-model-view-2026-10-18.md" download>Download original Markdown</a><pre class="document"># See a model as the student
+
+Each model review now links to an isolated student preview. After selecting a career comparison, choose **See this plan as the student**. Or open **See results as the student** to start with matches.
+
+The preview calls the actual student match, career-detail, salary/lifestyle and personal-plan renderers. It is not a rewritten summary. Its small example banner identifies the fictional model and the explicit career being previewed. Without an explicit career choice, it shows matches rather than assigning a plan.
+
+Public cases load from the existing public cohort. The six private cases use the existing authenticated owner-only reader; their histories, answers and results are not embedded in the page or bundle. No new storage or service is added. The preview never initializes the real guide's account synchronization or writes its browser-storage key.
+
+Career comparisons, salary-stage choices, step completion and notes remain in the preview's memory. Reloading restores the frozen inputs and the career explicitly named in the URL. Other editing controls are disabled in this example view. A student's own guide continues to support its normal editing and saving.
+
+Checks cover identical output from the real student renderers, unchanged frozen answers and matches, no automatic career choice, preservation of earlier notes/completed work, and isolation from real-guide storage. Representative browser checks cover matches → job → plan and the plan section links. These are interface and regression checks, not real-student validation.
+</pre></main></html>

@@ -1,0 +1,16 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+.cache/
+.wrangler/
+.sites-runtime/
+.sites-checkout/
+.shared-foundation-use.lock/
+/outputs/
+/private-student-models/
+/research-private/

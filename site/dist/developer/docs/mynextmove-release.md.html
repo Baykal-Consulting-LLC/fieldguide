@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Next Move-inspired release · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>My Next Move-inspired release</h1><p>Retained development record. It may describe an earlier release.</p><a href="./mynextmove-release.md" download>Download original Markdown</a><pre class="document"># My Next Move-inspired release
+
+October 16, 2026. Public website; student drafts remain in their own browser.
+
+## Implemented
+
+- Score import records the exact form, raw/provider-display/unknown representation, original scale, all six values, source, date, suitability, and review. Separate raw and display values can coexist. Provider displays are discussion evidence and cannot create raw interest matches. Up to five separately verified provider-returned occupations retain their attribution.
+- Three entry paths support a career in mind, discovery, or existing assessment results. Grouped navigation, resume, title/task/alias search, activity/preparation/setting/pathway filters, explicit active filters and reset, and fields-of-study switching retain the existing tools.
+- The 65 reviewed occupation records include three distinct mental-health roles. Tasks, knowledge, skills, abilities, work styles, available context and preparation distributions, provenance, related roles, safe experiments, saving, and three-career comparison are connected locally. All 923 official directory entries distinguish reviewed profiles from external-only profiles.
+- Quick and full journeys explain the official 30-item online and 60-item paper/existing-result routes. Original reflections remain optional. Each career offers up to six relevant prompts, with response, not-tried/unsure/skipped status, exposure, confidence, evidence, and date kept separate.
+- Student choices, nominations, ordering, questions, and set-aside choices shape a short occupation agenda. Cards distinguish student choices, provider returns, editorial connections, related occupations, and discovery. Evidence IDs, source facts, unknowns, and experiments are inspectable; counselor view expands the evidence.
+- Experiments support dates, help needed, what to notice, completion, and subsequent reflection. Notes and financial context use separate report opt-ins; complete draft backups retain all entries.
+
+## Data and interpretation
+
+O*NET 31.0 data are attributed under CC BY 4.0. `scripts/fetch-occupation-content.py`, normalized source snapshots, and `validation/occupation-source-coverage.json` document retrieval and modifications. Coverage is 64/65 task records, 62/65 context records, 61/65 worker education records, and 62/65 experience/training records. Tattoo's broader SOC has no occupation-level record; other source gaps remain explicitly unavailable. Rows marked Recommend Suppress are withheld. Partial distributions are labeled, and affected settings are not inferred.
+
+The existing 62 local financial/legal records remain a distinct layer. The three added occupations do not invent reviewed Austin wages, program costs, or Texas license rules. Occupational preparation describes work and workers; it does not decide student qualification. Editorial suggestions are not official O*NET matching, aptitude, success predictions, or a validated psychometric model. The official widget/API remains a future integration decision; this release retains explicit external links and manual import.
+
+## Verification
+
+`npm run check`, `npm test`, and `npm run calibrate` provide the reproducible checks. Calibration exhausts all 1,771,561 paper-form score combinations, along with weak orderings, confidence/exposure states, answer paths, evidence routing, import withdrawal, privacy, and financial fixtures: 2,121,161 assertions passed. Additional matrix tests exercise all 65 reviewed careers and 96 reflection-status/exposure/confidence combinations.
+
+Browser checks cover score representation and wrong-scale guards, retained numeric zeros, provider-return attribution, alias search, separate saving/comparison, psychiatric-role comparison, student/counselor views, optional follow-ups, planner fields, persistence, and synthetic backup restoration. See `validation/mynextmove-questionnaire-browser-qa.md` and `validation/mynextmove-release-browser-qa.md` for observations and limits. Phone viewport emulation and an automated export-download event could not be verified in this browser environment. Responsive CSS and export data contracts were checked, but this is not a full accessibility audit or participant usability study. Student and counselor comprehension review remains future work.
+</pre></main></html>

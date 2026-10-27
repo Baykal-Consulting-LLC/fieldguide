@@ -1,0 +1,141 @@
+{
+  "scope": "Isolated interface probes only; no cohort inputs changed",
+  "evidence": [
+    {
+      "id": "evidence071-physical-model",
+      "positiveChoiceConsumed": false
+    },
+    {
+      "id": "evidence071-research-report",
+      "positiveChoiceConsumed": false
+    },
+    {
+      "id": "evidence071-event-commitments",
+      "positiveChoiceConsumed": false
+    },
+    {
+      "id": "evidence071-safety-accountability",
+      "positiveChoiceConsumed": false
+    },
+    {
+      "id": "evidence071-curriculum-review",
+      "positiveChoiceConsumed": false
+    },
+    {
+      "id": "evidence071-educator-coaching",
+      "positiveChoiceConsumed": false
+    },
+    {
+      "id": "evidence071-client-budget",
+      "positiveChoiceConsumed": false
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context071-vision",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "context071-animal-production",
+      "positiveChoiceConsumed": true
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity071-food-compare",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-food-records",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-public-message",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-public-accuracy",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-exercise-measures",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-exercise-records",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-social-sources",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-social-records",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-mechanism-compare",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-mechanism-record",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-circuit-compare",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-circuit-record",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-reference-search",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-reference-access",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-accounts-check",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-accounts-trail",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-audience-evidence",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-audience-sample",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-product-model",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-product-revision",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-footage-sequence",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-footage-check",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-investment-compare",
+      "positiveChoiceConsumed": true
+    },
+    {
+      "id": "activity071-investment-explain",
+      "positiveChoiceConsumed": true
+    }
+  ]
+}

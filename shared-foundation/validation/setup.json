@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-10-23T04:04:58.315002+00:00",
+  "release": "1.0.4",
+  "consumerPins": {
+    "approach1": {
+      "version": "1.0.4",
+      "archiveSHA256": "f026ba51c9c1a2252aa29c02f8e341c1fae14395c953e4fa797396d6cfef8438",
+      "managedFiles": 30,
+      "instructionFragments": 1
+    },
+    "approach2": {
+      "version": "1.0.4",
+      "archiveSHA256": "f026ba51c9c1a2252aa29c02f8e341c1fae14395c953e4fa797396d6cfef8438",
+      "managedFiles": 30,
+      "instructionFragments": 1
+    }
+  },
+  "runtimeAndApproach2GeneratedDataByteIdentical": true,
+  "updateIsolationTestsPassed": 10,
+  "approach2TestsPassed": 12,
+  "approach2BuildPassed": true,
+  "approach1CompatibilityChecksPassed": true,
+  "nestedBuildLeaseChecked": true,
+  "standaloneConsumerWithoutSiblingTested": true,
+  "bothSessionsAcknowledged": true,
+  "publishedSitesChanged": false,
+  "limits": [
+    "Consistency/ownership guard, not an OS sandbox.",
+    "Future data changes still require affected consumer rebuilds and app-specific regression/replay checks before publication."
+  ]
+}

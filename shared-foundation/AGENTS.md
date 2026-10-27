@@ -1,0 +1,3 @@
+# Shared foundation maintainer
+
+Read COORDINATION.md and both consumers' SHARED-FOUNDATION.md. Edit common source/tooling once here, issue a NEW release, plan/adopt both consumers and run the tests. Do not alter an existing release or manually patch generated copies/locks. Keep source dates, suppression flags, licenses, official item wording, scales and scoring intact. No private/student/account data or publishing configuration belongs in source payloads. An app-specific UI, ranking or matching change is not a common-source update. Do not deploy either app from this tooling. Notify both sessions when the contract or release changes.

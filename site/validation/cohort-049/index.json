@@ -1,0 +1,221 @@
+{
+  "version": "0.49.0",
+  "cases": [
+    {
+      "id": "new049-001",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-003",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-005",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-007",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-009",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-011",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-013",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-015",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-017",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-019",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-021",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-023",
+      "phase": "development049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "diag049-001",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-001"
+    },
+    {
+      "id": "diag049-002",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-005"
+    },
+    {
+      "id": "diag049-003",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-007"
+    },
+    {
+      "id": "diag049-004",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-015"
+    },
+    {
+      "id": "diag049-005",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-003"
+    },
+    {
+      "id": "diag049-006",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-011"
+    },
+    {
+      "id": "diag049-007",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-017"
+    },
+    {
+      "id": "diag049-008",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-019"
+    },
+    {
+      "id": "diag049-009",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-009"
+    },
+    {
+      "id": "diag049-010",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-021"
+    },
+    {
+      "id": "diag049-011",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-013"
+    },
+    {
+      "id": "diag049-012",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-023"
+    },
+    {
+      "id": "new049-002",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-004",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-006",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-008",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-010",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-012",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-014",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-016",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-018",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-020",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-022",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    },
+    {
+      "id": "new049-024",
+      "phase": "holdout049",
+      "kind": "base",
+      "baseId": null
+    }
+  ]
+}

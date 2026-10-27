@@ -1,0 +1,22 @@
+{
+  "release": "0.31.13",
+  "fixture": "Isolated fictional medicine student with focused follow-ups and mixed question order",
+  "transitions": ["experience", "priorities"],
+  "observedForBoth": {
+    "crossingShowsExplanation": true,
+    "reloadKeepsPendingExplanation": true,
+    "keepGoingShowsCorrectResponseType": true,
+    "selectedAnswerSurvivesReload": true,
+    "acknowledgedExplanationDoesNotRepeatOnResume": true,
+    "backFromFirstQuestionShowsExplanation": true,
+    "backFromExplanationRestoresPreviousAnswer": true
+  },
+  "phoneLayouts": [
+    {"width":390,"height":844,"bodyFontPx":18,"horizontalOverflow":false,"bothActionsVisible":true},
+    {"width":320,"height":740,"bodyFontPx":18,"horizontalOverflow":false,"bothActionsVisible":true}
+  ],
+  "automatedTests": {"passed":84,"failed":0,"newTransitionTests":12},
+  "unchanged": ["assessment content", "scoring", "matching", "question order", "saved notes", "completed steps"],
+  "realStudentDataModified": false,
+  "scope": "Presentation and navigation, not a student or psychometric validation study."
+}

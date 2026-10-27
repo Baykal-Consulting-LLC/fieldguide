@@ -1,0 +1,893 @@
+{
+  "retail-sales": {
+    "kind": "on-job",
+    "headline": "Learn in the store",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/sales/retail-sales-workers.htm"
+    ],
+    "detail": "Product and sales training usually comes from the employer.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "cashier": {
+    "kind": "on-job",
+    "headline": "Learn at work",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/sales/cashiers.htm"
+    ],
+    "detail": "Employers teach checkout systems and customer service.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "food-counter": {
+    "kind": "on-job",
+    "headline": "Learn on the job",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/food-preparation-and-serving/food-and-beverage-serving-and-related-workers.htm"
+    ],
+    "detail": "Food-safety training and an applicable food-handler credential may add a small separate cost.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "restaurant-server": {
+    "kind": "on-job",
+    "headline": "Train while working",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/food-preparation-and-serving/waiters-and-waitresses.htm"
+    ],
+    "detail": "Food-handler training applies; alcohol-service training may be employer-required. Tips and shifts affect earnings.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "restaurant-cook": {
+    "kind": "on-job",
+    "headline": "Build skills in the kitchen",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/food-preparation-and-serving/cooks.htm"
+    ],
+    "detail": "Kitchen training is a common route. Culinary school is optional; food-safety credentials are separate.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "restaurant-manager": {
+    "kind": "on-job",
+    "headline": "Experience first",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/management/food-service-managers.htm"
+    ],
+    "detail": "Usually reached after restaurant work. A hospitality or business degree can broaden options; food-manager certification may apply.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "customer-service": {
+    "kind": "on-job",
+    "headline": "Employer training",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/office-and-administrative-support/customer-service-representatives.htm"
+    ],
+    "detail": "Employers usually teach their products and systems. Financial or insurance products may require separate licensing.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "office-clerk": {
+    "kind": "on-job",
+    "headline": "Office skills + employer training",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/office-and-administrative-support/general-office-clerks.htm"
+    ],
+    "detail": "Basic software and office skills matter. A college certificate is optional.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "administrative-assistant": {
+    "kind": "on-job",
+    "headline": "Office skills + employer training",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/office-and-administrative-support/secretaries-and-administrative-assistants.htm"
+    ],
+    "detail": "An entry job can begin with strong office skills; executive, medical and legal roles may need additional preparation.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing",
+    "optionalExample": {
+      "institution": "Austin Community College",
+      "label": "Optional CE Administrative Assistant certificate; advertised discounted tuition",
+      "amount": 846,
+      "currency": "USD",
+      "scope": "Selected noncredit training; books/fees may be extra",
+      "sourceURLs": [
+        "https://continue.austincc.edu/event/fast-track-discounted-programs"
+      ]
+    }
+  },
+  "bookkeeping-clerk": {
+    "kind": "certificate",
+    "headline": "Bookkeeping skills; a degree is optional",
+    "amountLabel": "ACC example: $685 discounted training",
+    "scope": "ACC Accounting & Bookkeeping CE certificate; advertised discount, not a licensing requirement",
+    "sourceURLs": [
+      "https://continue.austincc.edu/event/fast-track-discounted-programs",
+      "https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm"
+    ],
+    "detail": "Software skills and workplace practice matter. Course costs and the BLS occupational preparation category are separate from any legal requirement.",
+    "checkedAt": "2026-10-16",
+    "amount": 685,
+    "currency": "USD",
+    "period": "Program; current advertised discount, academic year not stated",
+    "status": "published-undated"
+  },
+  "receptionist": {
+    "kind": "on-job",
+    "headline": "Learn the workplace systems",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/office-and-administrative-support/receptionists.htm"
+    ],
+    "detail": "Employers usually train staff on scheduling and office procedures.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "warehouse-material-mover": {
+    "kind": "on-job",
+    "headline": "Safety training at work",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm"
+    ],
+    "detail": "General hand-moving work has no college requirement. Powered equipment requires employer training and evaluation.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "stock-order-filler": {
+    "kind": "on-job",
+    "headline": "Learn the warehouse or store",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm"
+    ],
+    "detail": "General stocking uses workplace training. Powered equipment requires specific training and evaluation.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "truck-driver": {
+    "kind": "certificate",
+    "headline": "CDL training",
+    "amountLabel": "ACC example: $4,950 tuition",
+    "scope": "ACC Commercial Vehicle Operator Training; books and fees excluded",
+    "sourceURLs": [
+      "https://continue.austincc.edu/TRUCKING",
+      "https://www.dps.texas.gov/section/driver-license/how-do-i-apply-commercial-driver-license",
+      "https://www.dps.texas.gov/section/driver-license/entry-level-driver-training-eldt"
+    ],
+    "detail": "CDL eligibility, permit, required entry-level driver training and skills testing apply. Employer-sponsored routes can have repayment commitments. ACC page conflicts on duration; no duration is inferred.",
+    "checkedAt": "2026-10-16",
+    "amount": 4950,
+    "currency": "USD",
+    "period": "Program tuition; price year not stated",
+    "status": "published-undated"
+  },
+  "delivery-driver": {
+    "kind": "on-job",
+    "headline": "Driving skills + employer training",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/transportation-and-material-moving/delivery-truck-drivers-and-driver-sales-workers.htm"
+    ],
+    "detail": "A suitable driver license and driving record are needed. This light-truck role is separate from the CDL tractor-trailer route.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "nursing-assistant": {
+    "kind": "certificate",
+    "headline": "Short nurse aide training",
+    "amountLabel": "ACC example: $1,108 tuition",
+    "scope": "ACC Certified Nurse Aide CE; books, fees and certification exam excluded",
+    "sourceURLs": [
+      "https://continue.austincc.edu/program/nurseaide",
+      "https://continue.austincc.edu/event/fast-track-discounted-programs"
+    ],
+    "detail": "Current ACC Fast Track page advertises $554 discounted tuition. This is an alternative published price, not guaranteed student aid. Clinical clearance and nurse aide certification expenses are separate.",
+    "checkedAt": "2026-10-16",
+    "amount": 1108,
+    "currency": "USD",
+    "period": "Program tuition; price year not stated",
+    "status": "published-undated",
+    "discountExample": {
+      "amount": 554,
+      "scope": "Advertised 50% Fast Track tuition; books/fees extra",
+      "sourceURL": "https://continue.austincc.edu/event/fast-track-discounted-programs"
+    }
+  },
+  "personal-care-aide": {
+    "kind": "on-job",
+    "headline": "Care skills + employer training",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm"
+    ],
+    "detail": "Personal-care training is often provided at work. Medicare-certified home health aide roles have additional training rules; do not confuse the two.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "medical-assistant": {
+    "kind": "certificate",
+    "headline": "Medical assistant training",
+    "amountLabel": "ACC example: $7,944 tuition",
+    "scope": "ACC Medical Assistant CE; books and fees excluded",
+    "sourceURLs": [
+      "https://continue.austincc.edu/program/medical",
+      "https://continue.austincc.edu/event/fast-track-discounted-programs",
+      "https://www.bls.gov/ooh/healthcare/medical-assistants.htm"
+    ],
+    "detail": "ACC also advertises $3,972 discounted tuition on its Fast Track page. The certificate is a training example; certification eligibility depends on the exam and route.",
+    "checkedAt": "2026-10-16",
+    "amount": 7944,
+    "currency": "USD",
+    "period": "Program tuition; price year not stated",
+    "status": "published-undated",
+    "discountExample": {
+      "amount": 3972,
+      "scope": "Advertised 50% Fast Track tuition; books/fees extra",
+      "sourceURL": "https://continue.austincc.edu/event/fast-track-discounted-programs"
+    }
+  },
+  "vocational-nurse": {
+    "kind": "licensed",
+    "headline": "Nursing certificate + license",
+    "amountLabel": "ACC example: $7,156 program expenses",
+    "scope": "ACC Vocational Nursing Certificate, Traditional Daytime; in-district school estimate",
+    "sourceURLs": [
+      "https://sites.austincc.edu/health/program-costs/",
+      "https://drive.google.com/file/d/0B_scpI8I3A-IRnBybjBjYVI3WUE/view?resourcekey=0-Gxiqnf0V37jVZWzWvxddwQ&usp=sharing",
+      "https://www.bon.texas.gov/licensure_examination.asp.html"
+    ],
+    "detail": "Despite the PDF heading “tuition and fees,” this amount includes listed books, supplies and clinical clearance items. Excludes living costs and variable health insurance. Add $326 listed graduation/licensing costs. Eligibility-based tuition-exempt column is $3,501 before these graduation/licensing costs.",
+    "checkedAt": "2026-10-16",
+    "amount": 7156,
+    "currency": "USD",
+    "period": "Full certificate cost-sheet estimate; academic year not stated",
+    "status": "published-undated",
+    "additionalAmounts": [
+      {
+        "amount": 326,
+        "label": "Listed $26 pin + $200 NCLEX + $100 BON",
+        "scope": "Not included in $7,156"
+      }
+    ],
+    "residentAlternatives": {
+      "TexasOutOfDistrict": 15799,
+      "outOfStateInternational": 18680,
+      "eligibleTuitionExempt": 3501
+    }
+  },
+  "nurse-practitioner": {
+    "kind": "graduate",
+    "headline": "Nursing degree + graduate NP training",
+    "amountLabel": "Graduate cost reference: $8,684–$10,554 tuition",
+    "scope": "General UT Austin Texas-resident graduate reference only; fall + spring at 9 credits per term",
+    "sourceURLs": [
+      "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+      "https://bon.texas.gov/applications_advanced_practice_registered_nurse.asp.html"
+    ],
+    "detail": "Plan undergraduate/RN preparation first, then an approved NP graduate program and national certification. The general UT graduate figure is not an NP program quote or full MSN/DNP total. Undergraduate study, summers, living and professional fees are additional.",
+    "checkedAt": "2026-10-16",
+    "amount": {
+      "min": 8684,
+      "max": 10554,
+      "currency": "USD",
+      "unit": "fall + spring tuition reference"
+    },
+    "period": "2026–27 fall + spring, not full program",
+    "status": "published-reference"
+  },
+  "radiologic-technologist": {
+    "kind": "credit",
+    "headline": "Associate degree + imaging credential",
+    "amountLabel": "ACC example: $10,046 program estimate",
+    "scope": "ACC Radiology AAS grand program total; in-district",
+    "sourceURLs": [
+      "https://sites.austincc.edu/health/program-costs/",
+      "https://drive.google.com/file/d/0B_scpI8I3A-IOWtCMmVZcUZwR0k/view?resourcekey=0-lMkxeCsuYWp61FmdKXKcUQ&usp=sharing",
+      "https://www.tmb.texas.gov/apply-renew/medical-radiologic-technologist/medical-radiologic-technologist-certificate-application"
+    ],
+    "detail": "Includes the sheet’s prerequisites, listed books, clinical items and $200 certification exam. Excludes living costs and variable health insurance. General radiography certification is separate from limited-scope or MRI-only routes.",
+    "checkedAt": "2026-10-16",
+    "amount": 10046,
+    "currency": "USD",
+    "period": "Full AAS cost-sheet estimate; academic year not stated",
+    "status": "published-undated",
+    "residentAlternatives": {
+      "TexasOutOfDistrict": 22910,
+      "outOfStateInDistrict": 18558,
+      "outOfStateOutOfDistrict": 31422,
+      "eligibleTuitionExempt": 4605
+    }
+  },
+  "pharmacy-technician": {
+    "kind": "licensed",
+    "headline": "Work as a registered trainee",
+    "amountLabel": "Texas trainee registration: $55",
+    "scope": "TSBP initial pharmacy technician trainee registration; not tuition or the fingerprint fee",
+    "sourceURLs": [
+      "https://www.pharmacy.texas.gov/applicants/tech-and-trainee.asp",
+      "https://www.pharmacy.texas.gov/files_pdf/fees.pdf"
+    ],
+    "detail": "A registered trainee may work while completing board-approved training. The two-year trainee registration cannot renew. Full technician registration needs an accepted national certification; courses, certification and fingerprints are separate.",
+    "checkedAt": "2026-10-16",
+    "amount": 55,
+    "currency": "USD",
+    "period": "One-time trainee registration; current fee sheet",
+    "status": "published"
+  },
+  "mental-health-counselor": {
+    "kind": "graduate",
+    "headline": "Bachelor’s + counseling graduate degree",
+    "amountLabel": "Graduate cost reference: $8,684–$10,554 tuition",
+    "scope": "General UT Austin Texas-resident graduate reference only; fall + spring at 9 credits per term",
+    "sourceURLs": [
+      "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+      "https://bhec.texas.gov/texas-state-board-of-examiners-of-professional-counselors/applying-for-an-lpc-license/"
+    ],
+    "detail": "Texas LPC preparation includes qualifying graduate coursework, practicum, exams and supervised post-degree practice. Clinical supervision and licensing costs are separate. General UT graduate tuition is not a counseling program quote. Undergraduate study, summers, living and professional fees are additional.",
+    "checkedAt": "2026-10-16",
+    "amount": {
+      "min": 8684,
+      "max": 10554,
+      "currency": "USD",
+      "unit": "fall + spring tuition reference"
+    },
+    "period": "2026–27 fall + spring, not full program",
+    "status": "published-reference"
+  },
+  "school-counselor": {
+    "kind": "graduate",
+    "headline": "Bachelor’s + master’s + counselor preparation",
+    "amountLabel": "Graduate cost reference: $8,684–$10,554 tuition",
+    "scope": "General UT Austin Texas-resident graduate reference only; fall + spring at 9 credits per term",
+    "sourceURLs": [
+      "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+      "https://tea2.tea.texas.gov/educators/certification/additional-certifications/student-services-certificates"
+    ],
+    "detail": "Texas school counselors need a master’s, approved counselor preparation and the appropriate test. Two years of classroom teaching stopped being a state requirement September 1, 2023. General UT graduate tuition is not a school-counselor program quote. Undergraduate study, summers, living and professional fees are additional.",
+    "checkedAt": "2026-10-16",
+    "amount": {
+      "min": 8684,
+      "max": 10554,
+      "currency": "USD",
+      "unit": "fall + spring tuition reference"
+    },
+    "period": "2026–27 fall + spring, not full program",
+    "status": "published-reference"
+  },
+  "elementary-teacher": {
+    "kind": "credit",
+    "headline": "Bachelor’s degree + teacher preparation",
+    "amountLabel": "UT Austin example: $10,858–$13,576 tuition",
+    "scope": "General UT undergraduate Texas-resident reference, fall + spring 2026–27; not a program-specific quote",
+    "sourceURLs": [
+      "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+      "https://tea.texas.gov/educators/certification/initial-certification/becoming-classroom-teacher-texas"
+    ],
+    "detail": "Living, books and certification costs are extra. Standard Texas certification includes an approved educator preparation program, appropriate exams and fingerprints. Degree-embedded preparation and post-degree alternative programs have different extra costs.",
+    "checkedAt": "2026-10-16",
+    "amount": {
+      "min": 10858,
+      "max": 13576,
+      "currency": "USD",
+      "unit": "fall + spring tuition"
+    },
+    "period": "2026–27 fall + spring; 12-hour enrollment reference",
+    "status": "published-reference",
+    "lowerCostStart": {
+      "amount": 85,
+      "currency": "USD",
+      "unit": "ACC in-district semester credit hour",
+      "sourceURLs": [
+        "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/",
+        "https://catalog.austincc.edu/college-entry/paying-for-college/acc-free-tuition-pilot-program/"
+      ],
+      "scope": "Eligible transferable coursework; not full teacher or bachelor program cost"
+    }
+  },
+  "high-school-teacher": {
+    "kind": "credit",
+    "headline": "Degree + subject-specific teacher preparation",
+    "amountLabel": "UT Austin example: $10,858–$13,576 tuition",
+    "scope": "General UT undergraduate Texas-resident reference, fall + spring 2026–27; not a program-specific quote",
+    "sourceURLs": [
+      "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+      "https://tea.texas.gov/educators/certification/initial-certification/becoming-classroom-teacher-texas"
+    ],
+    "detail": "Living, books and certification costs are extra. Standard certification includes an approved preparation program, assignment exams and fingerprints. Select an appropriate teaching field; existing legal exceptions should not be described as the standard route.",
+    "checkedAt": "2026-10-16",
+    "amount": {
+      "min": 10858,
+      "max": 13576,
+      "currency": "USD",
+      "unit": "fall + spring tuition"
+    },
+    "period": "2026–27 fall + spring; 12-hour enrollment reference",
+    "status": "published-reference",
+    "lowerCostStart": {
+      "amount": 85,
+      "currency": "USD",
+      "unit": "ACC in-district semester credit hour",
+      "sourceURLs": [
+        "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/",
+        "https://catalog.austincc.edu/college-entry/paying-for-college/acc-free-tuition-pilot-program/"
+      ],
+      "scope": "Eligible transferable coursework; not full teacher or bachelor program cost"
+    }
+  },
+  "preschool-teacher": {
+    "kind": "credit",
+    "headline": "Early childhood study + classroom practice",
+    "amountLabel": "ACC credit route: $85 per credit",
+    "scope": "2026–27 Texas resident, ACC in-district tuition and general fees",
+    "sourceURLs": [
+      "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/",
+      "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+    ],
+    "detail": "Associate-level study is common; public pre-K teacher roles have separate teacher-certification requirements. Books, materials, program fees and living costs are extra. Texas out-of-district credit tuition/general fees are $286.",
+    "checkedAt": "2026-10-16",
+    "amount": 85,
+    "currency": "USD",
+    "period": "Per semester credit hour, 2026–27",
+    "status": "published-rate"
+  },
+  "childcare-worker": {
+    "kind": "on-job",
+    "headline": "Care training + background clearance",
+    "amountLabel": "No occupation-wide college tuition requirement",
+    "scope": "Employee route in a licensed child-care setting",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/personal-care-and-service/childcare-workers.htm",
+      "https://hhs.texas.gov/services/safety/child-care",
+      "https://www.hhs.texas.gov/sites/default/files/documents/doing-business-with-hhs/provider-portal/protective-services/ccl/min-standards/chapter-746-centers.pdf"
+    ],
+    "detail": "Texas settings require appropriate pre-service/ongoing safety training and clearances. Employer-arranged training and a college credential are different costs. A child development certificate can support progression.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "computer-support": {
+    "kind": "certificate",
+    "headline": "Technical skills + a hands-on certificate",
+    "amountLabel": "ACC PC Technician: $1,931.40 tuition",
+    "scope": "ACC CE PC Technician certificate; books and fees excluded",
+    "sourceURLs": [
+      "https://continue.austincc.edu/PCTECH",
+      "https://continue.austincc.edu/event/fast-track-discounted-programs",
+      "https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm"
+    ],
+    "detail": "ACC advertises a $965.70 discounted version. This course route is an example; employers can accept college, industry certifications or demonstrated support skills.",
+    "checkedAt": "2026-10-16",
+    "amount": 1931.4,
+    "currency": "USD",
+    "period": "Program tuition; price year not stated",
+    "status": "published-undated",
+    "discountExample": {
+      "amount": 965.7,
+      "scope": "Advertised Fast Track tuition; books/fees extra",
+      "sourceURL": "https://continue.austincc.edu/event/fast-track-discounted-programs"
+    }
+  },
+  "web-interface-design": {
+    "kind": "credit",
+    "headline": "Design skills + a strong portfolio",
+    "amountLabel": "ACC credit route: $85 per credit",
+    "scope": "2026–27 Texas resident, ACC in-district tuition and general fees",
+    "sourceURLs": [
+      "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/",
+      "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+    ],
+    "detail": "A degree is common preparation. Relevant ACC design study is a lower-cost route; a certificate is not a guaranteed substitute for employer requirements. Books, materials, program fees and living costs are extra. Texas out-of-district credit tuition/general fees are $286.",
+    "checkedAt": "2026-10-16",
+    "amount": 85,
+    "currency": "USD",
+    "period": "Per semester credit hour, 2026–27",
+    "status": "published-rate"
+  },
+  "web-developer": {
+    "kind": "credit",
+    "headline": "Build websites and a portfolio",
+    "amountLabel": "ACC credit route: $85 per credit",
+    "scope": "2026–27 Texas resident, ACC in-district tuition and general fees",
+    "sourceURLs": [
+      "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/",
+      "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+    ],
+    "detail": "Degree and shorter skills routes both exist. This rate is college credit tuition, not a quote for a bootcamp or the whole credential. Books, materials, program fees and living costs are extra. Texas out-of-district credit tuition/general fees are $286.",
+    "checkedAt": "2026-10-16",
+    "amount": 85,
+    "currency": "USD",
+    "period": "Per semester credit hour, 2026–27",
+    "status": "published-rate"
+  },
+  "police": {
+    "kind": "on-job",
+    "headline": "Austin pays you during its academy",
+    "amountLabel": "Paid academy; uniforms and equipment covered",
+    "scope": "Austin Police Department hiring route; not every Texas academy",
+    "sourceURLs": [
+      "https://www.austintexas.gov/police-recruiting/frequently-asked-questions",
+      "https://www.austintexas.gov/police-recruiting/apd-recruiting-hiring-process"
+    ],
+    "detail": "Selective employment offer required. APD academy attendance is paid work; applicants pay their own moving costs. Do not present optional self-sponsored academy tuition as the cost of the Austin route.",
+    "checkedAt": "2026-10-16",
+    "status": "published-route"
+  },
+  "firefighter": {
+    "kind": "on-job",
+    "headline": "Austin pays fire cadets",
+    "amountLabel": "Paid cadet academy",
+    "scope": "Austin Fire Department hired cadets; not every Texas fire school",
+    "sourceURLs": [
+      "https://www.austintexas.gov/fire/fire-cadet-employment",
+      "https://www.austintexas.gov/fire-recruiting/hiring-process",
+      "https://services.austintexas.gov/hr/jobdesc/jobrptdesc.cfm?codeid=1623"
+    ],
+    "detail": "Austin recruits cadets into a paid academy that prepares them for firefighter and EMT certification. Selection and available positions apply. A separate self-funded fire school is a different route.",
+    "checkedAt": "2026-10-16",
+    "status": "published-route"
+  },
+  "security-guard": {
+    "kind": "licensed",
+    "headline": "Short security training + registration",
+    "amountLabel": "Level II for an unarmed guard",
+    "scope": "Texas noncommissioned security officer route; no occupation-wide course price",
+    "sourceURLs": [
+      "https://www.dps.texas.gov/section/private-security/faq/individual-license-questions",
+      "https://www.dps.texas.gov/section/private-security/licensing-and-registration"
+    ],
+    "detail": "Level II certificate and DPS application/background steps apply. Armed roles need additional preparation. Employer or provider arrangements determine training costs; no generic college tuition belongs in this lead panel.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "welder": {
+    "kind": "credit",
+    "headline": "Learn a practical trade",
+    "amountLabel": "ACC example: $391 per welding course",
+    "scope": "Typical ACC 4-credit welding course; in-district tuition, course and insurance fees",
+    "sourceURLs": [
+      "https://sites.austincc.edu/welding/costs/",
+      "https://dmcat.austincc.edu/welding/our-department/"
+    ],
+    "detail": "Protective gear, tools and books are extra. This is one course, not the full certificate. ACC also lists a separate CE welding program at $1,930 excluding books/fees; Fast Track has a different advertised $900 offering.",
+    "checkedAt": "2026-10-16",
+    "amount": 391,
+    "currency": "USD",
+    "period": "Per 4-credit course; price year not stated",
+    "status": "published-undated",
+    "additionalExamples": [
+      {
+        "amount": 1930,
+        "scope": "Separate CE program tuition, books/fees excluded",
+        "sourceURL": "https://continue.austincc.edu/welding"
+      }
+    ]
+  },
+  "industrial-machinery-mechanic": {
+    "kind": "on-job",
+    "headline": "Paid work + technical training",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/installation-maintenance-and-repair/industrial-machinery-mechanics-and-maintenance-workers-and-millwrights.htm"
+    ],
+    "detail": "Longer workplace training or apprenticeship is common. A technical certificate can strengthen preparation; no single tuition price applies.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "general-maintenance": {
+    "kind": "on-job",
+    "headline": "Build skills on the job",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/installation-maintenance-and-repair/general-maintenance-and-repair-workers.htm"
+    ],
+    "detail": "Employers teach many repairs. Licensed electrical, plumbing and HVAC work follows its own rules.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "construction-laborer": {
+    "kind": "on-job",
+    "headline": "Safety + jobsite training",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/construction-and-extraction/construction-laborers-and-helpers.htm"
+    ],
+    "detail": "Entry laborer jobs commonly train at work. An apprenticeship offers a structured route into a skilled trade.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "landscaping-worker": {
+    "kind": "on-job",
+    "headline": "Outdoor skills + employer training",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/building-and-grounds-cleaning/grounds-maintenance-workers.htm"
+    ],
+    "detail": "General groundskeeping usually trains at work. Licensed pesticide applications and specialist tree work need added preparation.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "janitor-cleaner": {
+    "kind": "on-job",
+    "headline": "Learn cleaning and safety at work",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/building-and-grounds-cleaning/janitors-and-building-cleaners.htm"
+    ],
+    "detail": "Employers teach products, equipment and safe cleaning methods.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "hairdresser": {
+    "kind": "licensed",
+    "headline": "Cosmetology school + Texas license",
+    "amountLabel": "Austin example: $15,700 tuition",
+    "scope": "Aveda Arts Austin 1,000-hour cosmetology program; kit and fees extra",
+    "sourceURLs": [
+      "https://avedaarts.edu/campus/tx/austin/",
+      "https://web1.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-cosmetologist.htm"
+    ],
+    "detail": "School lists a $3,200 kit, $50 application and $25 state registration fee, giving $18,975 listed school charges before licensing exams and the $50 Texas operator application. This is one private school, not a required market price. The campus FAQ and enrollment page disagree on application fee ($50 vs $100); exact total is therefore illustrative pending written enrollment agreement.",
+    "checkedAt": "2026-10-16",
+    "amount": 15700,
+    "currency": "USD",
+    "period": "1,000-hour program tuition; price year not stated",
+    "status": "published-undated-with-fee-conflict",
+    "additionalAmounts": [
+      {
+        "amount": 3200,
+        "label": "School kit"
+      },
+      {
+        "amount": 50,
+        "label": "Application in campus FAQ; separate program page says $100"
+      },
+      {
+        "amount": 25,
+        "label": "School-listed state registration"
+      },
+      {
+        "amount": 50,
+        "label": "TDLR operator license application; exams extra"
+      }
+    ]
+  },
+  "farmworker-crops": {
+    "kind": "on-job",
+    "headline": "Learn with an experienced crew",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/farming-fishing-and-forestry/agricultural-workers.htm"
+    ],
+    "detail": "General crop and nursery labor commonly uses workplace training. Specialized equipment and pesticide tasks add requirements.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  },
+  "real-estate-agent": {
+    "kind": "licensed",
+    "headline": "180 class hours + Texas license",
+    "amountLabel": "Texas application: $206; training extra",
+    "scope": "TREC sales agent original application effective December 15, 2025",
+    "sourceURLs": [
+      "https://www.trec.texas.gov/become-licensed/sales-agent",
+      "https://www.trec.texas.gov/agency-information/fee-schedule",
+      "https://sites.austincc.edu/rele/advising/",
+      "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/"
+    ],
+    "detail": "The application is only one part of the cost. The six required subjects, exam, fingerprints and brokerage/start-up expenses are additional. ACC offers qualifying credit courses at its residency-based credit rate; do not multiply 180 classroom hours by $85 per semester credit.",
+    "checkedAt": "2026-10-16",
+    "amount": 206,
+    "currency": "USD",
+    "period": "Original application, fee schedule effective 2025-12-15",
+    "status": "published"
+  },
+  "insurance-sales-agent": {
+    "kind": "licensed",
+    "headline": "License for the products you sell",
+    "amountLabel": "Texas general-lines application: $50",
+    "scope": "Resident life/accident/health/HMO permanent agent license example",
+    "sourceURLs": [
+      "https://tdi.texas.gov/agent/general-life-apply.html",
+      "https://www.bls.gov/ooh/sales/insurance-sales-agents.htm"
+    ],
+    "detail": "Exam, fingerprints and optional preparation cost extra. The $150 temporary license route includes both temporary and permanent applications and requires sponsor-supervised training; it is not the standard $50 permanent application.",
+    "checkedAt": "2026-10-16",
+    "amount": 50,
+    "currency": "USD",
+    "period": "Permanent resident application; current TDI page",
+    "status": "published"
+  },
+  "marketing-manager": {
+    "kind": "credit",
+    "headline": "College first; management after experience",
+    "amountLabel": "UT Austin example: $10,858–$13,576 tuition",
+    "scope": "General UT undergraduate Texas-resident reference, fall + spring 2026–27; not a program-specific quote",
+    "sourceURLs": [
+      "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+      "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+    ],
+    "detail": "Living, books and certification costs are extra. A bachelor’s degree and relevant work experience are typical. This is not usually a first job out of school.",
+    "checkedAt": "2026-10-16",
+    "amount": {
+      "min": 10858,
+      "max": 13576,
+      "currency": "USD",
+      "unit": "fall + spring tuition"
+    },
+    "period": "2026–27 fall + spring; 12-hour enrollment reference",
+    "status": "published-reference",
+    "lowerCostStart": {
+      "amount": 85,
+      "currency": "USD",
+      "unit": "ACC in-district semester credit hour",
+      "sourceURLs": [
+        "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/",
+        "https://catalog.austincc.edu/college-entry/paying-for-college/acc-free-tuition-pilot-program/"
+      ],
+      "scope": "Eligible transferable coursework; not full teacher or bachelor program cost"
+    }
+  },
+  "personal-financial-advisor": {
+    "kind": "credit",
+    "headline": "College + financial services training",
+    "amountLabel": "UT Austin example: $10,858–$13,576 tuition",
+    "scope": "General UT undergraduate Texas-resident reference, fall + spring 2026–27; not a program-specific quote",
+    "sourceURLs": [
+      "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+      "https://www.bls.gov/ooh/business-and-financial/personal-financial-advisors.htm"
+    ],
+    "detail": "Living, books and certification costs are extra. A bachelor’s degree is typical. Product-specific securities/insurance registrations and optional professional credentials cost extra and depend on the job.",
+    "checkedAt": "2026-10-16",
+    "amount": {
+      "min": 10858,
+      "max": 13576,
+      "currency": "USD",
+      "unit": "fall + spring tuition"
+    },
+    "period": "2026–27 fall + spring; 12-hour enrollment reference",
+    "status": "published-reference",
+    "lowerCostStart": {
+      "amount": 85,
+      "currency": "USD",
+      "unit": "ACC in-district semester credit hour",
+      "sourceURLs": [
+        "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/",
+        "https://catalog.austincc.edu/college-entry/paying-for-college/acc-free-tuition-pilot-program/"
+      ],
+      "scope": "Eligible transferable coursework; not full teacher or bachelor program cost"
+    }
+  },
+  "management-analyst": {
+    "kind": "credit",
+    "headline": "College + practical business experience",
+    "amountLabel": "UT Austin example: $10,858–$13,576 tuition",
+    "scope": "General UT undergraduate Texas-resident reference, fall + spring 2026–27; not a program-specific quote",
+    "sourceURLs": [
+      "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+      "https://www.bls.gov/ooh/business-and-financial/management-analysts.htm"
+    ],
+    "detail": "Living, books and certification costs are extra. A bachelor’s degree and relevant experience are typical; no universal consultant tuition or general analyst license exists.",
+    "checkedAt": "2026-10-16",
+    "amount": {
+      "min": 10858,
+      "max": 13576,
+      "currency": "USD",
+      "unit": "fall + spring tuition"
+    },
+    "period": "2026–27 fall + spring; 12-hour enrollment reference",
+    "status": "published-reference",
+    "lowerCostStart": {
+      "amount": 85,
+      "currency": "USD",
+      "unit": "ACC in-district semester credit hour",
+      "sourceURLs": [
+        "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/",
+        "https://catalog.austincc.edu/college-entry/paying-for-college/acc-free-tuition-pilot-program/"
+      ],
+      "scope": "Eligible transferable coursework; not full teacher or bachelor program cost"
+    }
+  },
+  "general-operations-manager": {
+    "kind": "credit",
+    "headline": "College + years of team experience",
+    "amountLabel": "UT Austin example: $10,858–$13,576 tuition",
+    "scope": "General UT undergraduate Texas-resident reference, fall + spring 2026–27; not a program-specific quote",
+    "sourceURLs": [
+      "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+      "https://www.bls.gov/ooh/management/top-executives.htm"
+    ],
+    "detail": "Living, books and certification costs are extra. Bachelor’s-level preparation is typical, with substantial work experience. Some employers promote experienced staff without that degree.",
+    "checkedAt": "2026-10-16",
+    "amount": {
+      "min": 10858,
+      "max": 13576,
+      "currency": "USD",
+      "unit": "fall + spring tuition"
+    },
+    "period": "2026–27 fall + spring; 12-hour enrollment reference",
+    "status": "published-reference",
+    "lowerCostStart": {
+      "amount": 85,
+      "currency": "USD",
+      "unit": "ACC in-district semester credit hour",
+      "sourceURLs": [
+        "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/",
+        "https://catalog.austincc.edu/college-entry/paying-for-college/acc-free-tuition-pilot-program/"
+      ],
+      "scope": "Eligible transferable coursework; not full teacher or bachelor program cost"
+    }
+  },
+  "medical-services-manager": {
+    "kind": "credit",
+    "headline": "College + health services experience",
+    "amountLabel": "UT Austin example: $10,858–$13,576 tuition",
+    "scope": "General UT undergraduate Texas-resident reference, fall + spring 2026–27; not a program-specific quote",
+    "sourceURLs": [
+      "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/",
+      "https://www.bls.gov/ooh/management/medical-and-health-services-managers.htm"
+    ],
+    "detail": "Living, books and certification costs are extra. A relevant bachelor’s degree and experience are typical. Nursing-home administrator or clinical responsibilities can add separate credential requirements.",
+    "checkedAt": "2026-10-16",
+    "amount": {
+      "min": 10858,
+      "max": 13576,
+      "currency": "USD",
+      "unit": "fall + spring tuition"
+    },
+    "period": "2026–27 fall + spring; 12-hour enrollment reference",
+    "status": "published-reference",
+    "lowerCostStart": {
+      "amount": 85,
+      "currency": "USD",
+      "unit": "ACC in-district semester credit hour",
+      "sourceURLs": [
+        "https://catalog.austincc.edu/college-entry/paying-for-college/tuition-rates-and-fees/",
+        "https://catalog.austincc.edu/college-entry/paying-for-college/acc-free-tuition-pilot-program/"
+      ],
+      "scope": "Eligible transferable coursework; not full teacher or bachelor program cost"
+    }
+  },
+  "photographer": {
+    "kind": "on-job",
+    "headline": "Build a portfolio",
+    "amountLabel": "No occupation-wide tuition requirement",
+    "scope": "Entry preparation; not a promise of zero incidental costs",
+    "sourceURLs": [
+      "https://www.bls.gov/ooh/media-and-communication/photographers.htm"
+    ],
+    "detail": "A degree is optional. Budget separately for equipment, editing tools and self-employment costs; these are business costs, not tuition.",
+    "checkedAt": "2026-10-16",
+    "status": "route-framing"
+  }
+}

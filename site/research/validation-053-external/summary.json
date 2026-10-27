@@ -1,0 +1,99 @@
+{
+  "createdAt": "2026-10-20T04:02:57.623283+00:00",
+  "inputSHA256": "4dfdba23cc8e5fca32519bb7cbd01d357cfbd22c3094a41f7e8c5e1a0ae1caa5",
+  "scope": "Independent formula agreement and live official O*NET Short Form interoperability, not predictive validity or commercial service agreement. Original and fresh holdouts and diagnostic variants remain separate. No actual student data.",
+  "commercialVendorRuns": 0,
+  "local": {
+    "profiles": 184,
+    "baseProfiles": 172,
+    "diagnosticProfiles": 12,
+    "careerRows": 457,
+    "correlationComparisons": 77220,
+    "maxAbsoluteError": 5.533073998975624e-14,
+    "errors": [],
+    "rankComparisonsAvailable": 180,
+    "minimumSpearman": 1.0,
+    "minimumKendallTauB": 1.0,
+    "minimumTopKJaccard": 1.0
+  },
+  "cohorts": [
+    {
+      "phase": "development",
+      "profiles": 70,
+      "comparisons": 30030
+    },
+    {
+      "phase": "development049",
+      "profiles": 12,
+      "comparisons": 4719
+    },
+    {
+      "phase": "diagnostic049",
+      "profiles": 12,
+      "comparisons": 4719
+    },
+    {
+      "phase": "holdout",
+      "profiles": 30,
+      "comparisons": 12870
+    },
+    {
+      "phase": "holdout049",
+      "profiles": 12,
+      "comparisons": 5148
+    },
+    {
+      "phase": "legacy",
+      "profiles": 24,
+      "comparisons": 9438
+    },
+    {
+      "phase": "supplement",
+      "profiles": 24,
+      "comparisons": 10296
+    }
+  ],
+  "live": {
+    "service": "O*NET public API Version 2 demo",
+    "fixtureSHA256": "05572d1c2720a9537b7b1b904641cdf7c3c7d8b2501fb2a60dbe6430ba7e2b70",
+    "questionItemAgreement": true,
+    "scoreProfilesAgree": 18,
+    "profiles": 18,
+    "baseProfiles": 12,
+    "diagnosticProfiles": 2,
+    "edgeProfiles": 4,
+    "sharedReturnedCareerComparisons": 726,
+    "fitCategoryAgreement": 724,
+    "fitCategoryDisagreements": [
+      {
+        "id": "new049-001",
+        "phase": "development049",
+        "soc": "27-2022.00",
+        "remote": "Good",
+        "reference": 2
+      },
+      {
+        "id": "diag049-001",
+        "phase": "diagnostic049",
+        "soc": "27-2022.00",
+        "remote": "Good",
+        "reference": 2
+      }
+    ],
+    "flatInputReturnsAllCareers": [
+      {
+        "id": "all-dislike",
+        "returned": 923
+      },
+      {
+        "id": "all-unsure",
+        "returned": 923
+      },
+      {
+        "id": "all-love",
+        "returned": 923
+      }
+    ],
+    "rankMetricsAgainstService": null
+  }
+}

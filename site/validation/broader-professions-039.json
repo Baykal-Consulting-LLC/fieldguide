@@ -1,0 +1,854 @@
+{
+  "version": "0.39.0",
+  "generatedAt": "2026-10-19T07:11:57.903Z",
+  "scope": "148 frozen public fictional profiles; current presentation replay. Six owner-only profiles remain excluded from static data.",
+  "baselineSourceCommit": "53a9815358df49c2555bad19c6a57c4e5b8bad7a",
+  "originalCounts": {
+    "models": 148,
+    "topCovers": 68,
+    "otherCovers": 57,
+    "noneCover": 23,
+    "notAssessed": 0
+  },
+  "counts": {
+    "models": 148,
+    "topCovers": 68,
+    "otherCovers": 57,
+    "noneCover": 23,
+    "notAssessed": 0
+  },
+  "answersUnchanged": true,
+  "sixScoresUnchanged": true,
+  "originalEngineMatchesUnchanged": true,
+  "publicModels": 148,
+  "privateCasesBundled": 0,
+  "modelsWithDegreeTop": 105,
+  "modelsWithPendingComparisons": 131,
+  "pendingDegreeForNondegreeTop": 20,
+  "topListsChanged": 55,
+  "changes": [
+    {
+      "id": "life-006",
+      "before": [
+        "animation",
+        "film-editing",
+        "photographer"
+      ],
+      "after": [
+        "animation",
+        "writing",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-007",
+      "before": [
+        "web-developer",
+        "statistics",
+        "data-science"
+      ],
+      "after": [
+        "software",
+        "data-science",
+        "web-developer"
+      ]
+    },
+    {
+      "id": "life-009",
+      "before": [
+        "writing",
+        "film-editing",
+        "animation"
+      ],
+      "after": [
+        "animation",
+        "writing",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-011",
+      "before": [
+        "carpentry",
+        "welder",
+        "construction-laborer"
+      ],
+      "after": [
+        "welder",
+        "carpentry",
+        "construction-laborer"
+      ]
+    },
+    {
+      "id": "life-012",
+      "before": [
+        "writing",
+        "film-editing",
+        "graphic-design"
+      ],
+      "after": [
+        "writing",
+        "graphic-design",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-020",
+      "before": [
+        "mechanical-engineering",
+        "electrical-engineering",
+        "biomedical-engineering"
+      ],
+      "after": [
+        "electrical-engineering",
+        "mechanical-engineering",
+        "biomedical-engineering"
+      ]
+    },
+    {
+      "id": "life-025",
+      "before": [
+        "electrical-engineering",
+        "biomedical-engineering",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "electrical-engineering",
+        "mechanical-engineering",
+        "biomedical-engineering"
+      ]
+    },
+    {
+      "id": "life-026",
+      "before": [
+        "geoscience",
+        "environmental-science",
+        "conservation"
+      ],
+      "after": [
+        "environmental-science",
+        "geoscience",
+        "conservation"
+      ]
+    },
+    {
+      "id": "life-030",
+      "before": [
+        "animation",
+        "film-editing",
+        "photographer"
+      ],
+      "after": [
+        "animation",
+        "writing",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-032",
+      "before": [
+        "biomedical-engineering",
+        "mechanical-engineering",
+        "electrical-engineering"
+      ],
+      "after": [
+        "electrical-engineering",
+        "mechanical-engineering",
+        "biomedical-engineering"
+      ]
+    },
+    {
+      "id": "life-037",
+      "before": [
+        "writing",
+        "film-editing",
+        "animation"
+      ],
+      "after": [
+        "animation",
+        "writing",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-040",
+      "before": [
+        "industrial-design",
+        "interpreting",
+        "librarian"
+      ],
+      "after": [
+        "industrial-design",
+        "social-research",
+        "interpreting"
+      ]
+    },
+    {
+      "id": "life-042",
+      "before": [
+        "film-editing",
+        "writing",
+        "photographer"
+      ],
+      "after": [
+        "writing",
+        "film-editing",
+        "photographer"
+      ]
+    },
+    {
+      "id": "life-045",
+      "before": [
+        "film-editing",
+        "writing",
+        "photographer"
+      ],
+      "after": [
+        "writing",
+        "film-editing",
+        "photographer"
+      ]
+    },
+    {
+      "id": "life-048",
+      "before": [
+        "animation",
+        "film-editing",
+        "photographer"
+      ],
+      "after": [
+        "animation",
+        "writing",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-055",
+      "before": [
+        "animation",
+        "film-editing",
+        "writing"
+      ],
+      "after": [
+        "animation",
+        "writing",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-056",
+      "before": [
+        "geoscience",
+        "environmental-science",
+        "conservation"
+      ],
+      "after": [
+        "environmental-science",
+        "geoscience",
+        "conservation"
+      ]
+    },
+    {
+      "id": "life-058",
+      "before": [
+        "film-editing",
+        "writing",
+        "animation"
+      ],
+      "after": [
+        "writing",
+        "film-editing",
+        "animation"
+      ]
+    },
+    {
+      "id": "life-064",
+      "before": [
+        "film-editing",
+        "graphic-design",
+        "writing"
+      ],
+      "after": [
+        "writing",
+        "graphic-design",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-067",
+      "before": [
+        "office-clerk",
+        "administrative-assistant",
+        "receptionist"
+      ],
+      "after": [
+        "administrative-assistant",
+        "office-clerk",
+        "receptionist"
+      ]
+    },
+    {
+      "id": "life-075",
+      "before": [
+        "data-science",
+        "statistics",
+        "systems-analysis"
+      ],
+      "after": [
+        "data-science",
+        "systems-analysis",
+        "statistics"
+      ]
+    },
+    {
+      "id": "life-077",
+      "before": [
+        "mechanical-engineering",
+        "electrical-engineering",
+        "biomedical-engineering"
+      ],
+      "after": [
+        "electrical-engineering",
+        "mechanical-engineering",
+        "biomedical-engineering"
+      ]
+    },
+    {
+      "id": "life-081",
+      "before": [
+        "mechanical-engineering",
+        "electrical-engineering",
+        "biomedical-engineering"
+      ],
+      "after": [
+        "electrical-engineering",
+        "mechanical-engineering",
+        "biomedical-engineering"
+      ]
+    },
+    {
+      "id": "life-082",
+      "before": [
+        "graphic-design",
+        "film-editing",
+        "writing"
+      ],
+      "after": [
+        "animation",
+        "writing",
+        "graphic-design"
+      ]
+    },
+    {
+      "id": "life-084",
+      "before": [
+        "statistics",
+        "data-science",
+        "economics"
+      ],
+      "after": [
+        "data-science",
+        "statistics",
+        "economics"
+      ]
+    },
+    {
+      "id": "life-085",
+      "before": [
+        "film-editing",
+        "writing",
+        "animation"
+      ],
+      "after": [
+        "writing",
+        "film-editing",
+        "animation"
+      ]
+    },
+    {
+      "id": "life-086",
+      "before": [
+        "animation",
+        "film-editing",
+        "graphic-design"
+      ],
+      "after": [
+        "animation",
+        "graphic-design",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-087",
+      "before": [
+        "mechanical-engineering",
+        "electrical-engineering",
+        "biomedical-engineering"
+      ],
+      "after": [
+        "electrical-engineering",
+        "mechanical-engineering",
+        "biomedical-engineering"
+      ]
+    },
+    {
+      "id": "life-100",
+      "before": [
+        "law",
+        "paralegal"
+      ],
+      "after": [
+        "paralegal",
+        "law"
+      ]
+    },
+    {
+      "id": "life-001",
+      "before": [
+        "film-editing",
+        "writing",
+        "photographer"
+      ],
+      "after": [
+        "writing",
+        "film-editing",
+        "photographer"
+      ]
+    },
+    {
+      "id": "life-002",
+      "before": [
+        "stock-order-filler",
+        "warehouse-material-mover",
+        "logistics"
+      ],
+      "after": [
+        "logistics",
+        "stock-order-filler",
+        "warehouse-material-mover"
+      ]
+    },
+    {
+      "id": "life-004",
+      "before": [
+        "film-editing",
+        "writing",
+        "photographer"
+      ],
+      "after": [
+        "writing",
+        "film-editing",
+        "photographer"
+      ]
+    },
+    {
+      "id": "life-028",
+      "before": [
+        "film-editing",
+        "graphic-design",
+        "photographer"
+      ],
+      "after": [
+        "writing",
+        "graphic-design",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-049",
+      "before": [
+        "restaurant-server",
+        "food-counter",
+        "restaurant-manager"
+      ],
+      "after": [
+        "restaurant-cook",
+        "food-counter",
+        "restaurant-server"
+      ]
+    },
+    {
+      "id": "life-059",
+      "before": [
+        "food-counter",
+        "restaurant-cook",
+        "chef"
+      ],
+      "after": [
+        "restaurant-cook",
+        "food-counter",
+        "chef"
+      ]
+    },
+    {
+      "id": "life-060",
+      "before": [
+        "animation",
+        "film-editing",
+        "writing"
+      ],
+      "after": [
+        "animation",
+        "writing",
+        "film-editing"
+      ]
+    },
+    {
+      "id": "life-065",
+      "before": [
+        "writing",
+        "film-editing",
+        "interpreting"
+      ],
+      "after": [
+        "writing",
+        "film-editing",
+        "social-research"
+      ]
+    },
+    {
+      "id": "life-074",
+      "before": [
+        "teaching",
+        "elementary-teacher",
+        "preschool-teacher"
+      ],
+      "after": [
+        "teaching",
+        "elementary-teacher",
+        "high-school-teacher"
+      ]
+    },
+    {
+      "id": "life-076",
+      "before": [
+        "mechanical-engineering",
+        "biomedical-engineering",
+        "electrical-engineering"
+      ],
+      "after": [
+        "electrical-engineering",
+        "mechanical-engineering",
+        "biomedical-engineering"
+      ]
+    },
+    {
+      "id": "life-091",
+      "before": [
+        "preschool-teacher",
+        "teaching",
+        "elementary-teacher"
+      ],
+      "after": [
+        "teaching",
+        "elementary-teacher",
+        "high-school-teacher"
+      ]
+    },
+    {
+      "id": "life-093",
+      "before": [
+        "film-editing",
+        "writing",
+        "photographer"
+      ],
+      "after": [
+        "writing",
+        "film-editing",
+        "photographer"
+      ]
+    },
+    {
+      "id": "life-095",
+      "before": [
+        "farmworker-crops",
+        "landscaping-worker",
+        "biological-technician"
+      ],
+      "after": [
+        "landscaping-worker",
+        "farmworker-crops",
+        "biological-technician"
+      ]
+    },
+    {
+      "id": "gap-003",
+      "before": [
+        "farmworker-crops",
+        "landscaping-worker"
+      ],
+      "after": [
+        "landscaping-worker",
+        "farmworker-crops"
+      ]
+    },
+    {
+      "id": "gap-007",
+      "before": [
+        "environmental-science",
+        "geoscience",
+        "conservation"
+      ],
+      "after": [
+        "food-science",
+        "environmental-science",
+        "geoscience"
+      ]
+    },
+    {
+      "id": "gap-009",
+      "before": [
+        "occupational-therapy",
+        "speech-language",
+        "physical-therapy"
+      ],
+      "after": [
+        "physical-therapy",
+        "occupational-therapy",
+        "speech-language"
+      ]
+    },
+    {
+      "id": "gap-011",
+      "before": [
+        "stock-order-filler",
+        "logistics"
+      ],
+      "after": [
+        "logistics",
+        "stock-order-filler"
+      ]
+    },
+    {
+      "id": "gap-013",
+      "before": [
+        "receptionist",
+        "administrative-assistant",
+        "office-clerk"
+      ],
+      "after": [
+        "administrative-assistant",
+        "office-clerk",
+        "receptionist"
+      ]
+    },
+    {
+      "id": "gap-015",
+      "before": [
+        "chemistry",
+        "food-science",
+        "biological-technician"
+      ],
+      "after": [
+        "food-science",
+        "chemistry",
+        "biological-technician"
+      ]
+    },
+    {
+      "id": "gap-021",
+      "before": [
+        "retail-sales",
+        "receptionist",
+        "administrative-assistant"
+      ],
+      "after": [
+        "retail-sales",
+        "administrative-assistant",
+        "office-clerk"
+      ]
+    },
+    {
+      "id": "gap-022",
+      "before": [
+        "biological-technician",
+        "environmental-science",
+        "conservation"
+      ],
+      "after": [
+        "environmental-science",
+        "conservation",
+        "biological-technician"
+      ]
+    },
+    {
+      "id": "legacy-007",
+      "before": [
+        "geoscience",
+        "environmental-science",
+        "conservation"
+      ],
+      "after": [
+        "environmental-science",
+        "geoscience",
+        "conservation"
+      ]
+    },
+    {
+      "id": "legacy-012",
+      "before": [
+        "geoscience",
+        "environmental-science",
+        "conservation"
+      ],
+      "after": [
+        "environmental-science",
+        "geoscience",
+        "conservation"
+      ]
+    },
+    {
+      "id": "legacy-016",
+      "before": [
+        "chef",
+        "food-counter",
+        "restaurant-cook"
+      ],
+      "after": [
+        "restaurant-cook",
+        "food-counter",
+        "chef"
+      ]
+    },
+    {
+      "id": "legacy-021",
+      "before": [
+        "delivery-driver",
+        "truck-driver",
+        "logistics"
+      ],
+      "after": [
+        "truck-driver",
+        "delivery-driver",
+        "logistics"
+      ]
+    },
+    {
+      "id": "legacy-022",
+      "before": [
+        "administrative-assistant",
+        "receptionist",
+        "office-clerk"
+      ],
+      "after": [
+        "administrative-assistant",
+        "office-clerk",
+        "receptionist"
+      ]
+    }
+  ],
+  "hypotheticals": [
+    {
+      "id": "gap-021",
+      "career": "human-resources",
+      "classification": "Hypothetical additional work answers in an isolated copy; not authored model behavior.",
+      "selected": [
+        {
+          "questionId": "business-people",
+          "optionId": "business-people-3"
+        },
+        {
+          "questionId": "business-evidence",
+          "optionId": "business-evidence-3"
+        },
+        {
+          "questionId": "business-refine-3",
+          "optionId": "business-refine-3-3"
+        },
+        {
+          "questionId": "business-refine-4",
+          "optionId": "business-refine-4-3"
+        }
+      ],
+      "beforeTop": [
+        "retail-sales",
+        "administrative-assistant",
+        "office-clerk"
+      ],
+      "afterTop": [
+        "human-resources",
+        "retail-sales",
+        "administrative-assistant"
+      ],
+      "officialScoresUnchanged": true,
+      "firstFieldUnchanged": true
+    },
+    {
+      "id": "gap-014",
+      "career": "accounting",
+      "classification": "Hypothetical additional work answers in an isolated copy; not authored model behavior.",
+      "selected": [
+        {
+          "questionId": "business-people",
+          "optionId": "business-people-1"
+        },
+        {
+          "questionId": "business-problem",
+          "optionId": "business-problem-1"
+        },
+        {
+          "questionId": "business-refine-3",
+          "optionId": "business-refine-3-1"
+        },
+        {
+          "questionId": "business-refine-4",
+          "optionId": "business-refine-4-1"
+        }
+      ],
+      "beforeTop": [
+        "bookkeeping-clerk",
+        "office-clerk",
+        "administrative-assistant"
+      ],
+      "afterTop": [
+        "bookkeeping-clerk",
+        "accounting",
+        "office-clerk"
+      ],
+      "officialScoresUnchanged": true,
+      "firstFieldUnchanged": true
+    },
+    {
+      "id": "legacy-014",
+      "career": "electrical-engineering",
+      "classification": "Hypothetical additional work answers in an isolated copy; not authored model behavior.",
+      "selected": [
+        {
+          "questionId": "building-design",
+          "optionId": "building-design-2"
+        },
+        {
+          "questionId": "building-refine-3",
+          "optionId": "building-refine-3-1"
+        },
+        {
+          "questionId": "building-refine-4",
+          "optionId": "building-refine-4-1"
+        },
+        {
+          "questionId": "building-workday",
+          "optionId": "building-workday-1"
+        }
+      ],
+      "beforeTop": [
+        "electrician",
+        "industrial-machinery-mechanic",
+        "automotive"
+      ],
+      "afterTop": [
+        "electrician",
+        "electrical-engineering",
+        "industrial-machinery-mechanic"
+      ],
+      "officialScoresUnchanged": true,
+      "firstFieldUnchanged": true
+    }
+  ],
+  "limitations": [
+    "Reused fictional models are regression examples, not independent holdout validation of these rules.",
+    "No unanswered comparison is promoted to a Top match or counted as a lifestyle option.",
+    "Short comparisons reuse four existing task questions and any relevant route question. Original task/profile and clinical gates still apply.",
+    "Task support is compared by answered-question coverage across different question counts; education and first-paid-stage pay order only close evidence groups.",
+    "Related work experience is required before some professional roles; that pay does not receive an entry-level financial ranking preference."
+  ]
+}

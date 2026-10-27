@@ -1,0 +1,6 @@
+// Post-first-pass exact responsibility audit. Original run/rules retained verbatim.
+import{scopedRules as first,probes as firstProbes,decide078,options}from'./bindings.mjs';
+export{decide078,options};
+export const scopedRules={...first,'degree-25903100-047-responsibility':{id:'degree-25903100-047-responsibility',any:[['t:learning','r:assessment','m:coordination','m:explaining','s:educator-coaching']],block:['m:coordination','m:explaining'],reason:'Coaching educators and coordinating curriculum changes is a distinct adult-support responsibility. Course preparation/assessment or helping a child does not establish it; absent explicit educator-coaching interest remains unknown.'}};
+const coach={id:'079-educator-coaching',question:'Would you enjoy coaching educators and coordinating changes to the materials or teaching approaches they use?',targets:['degree-25903100-047-responsibility'],any:[['t:learning','r:assessment','m:coordination','m:explaining','s:educator-coaching']],block:['m:coordination','m:explaining'],reason:'Separate educator-coaching purpose; cannot be invented from course assessment or helping children.'};
+export const probes=[...firstProbes.slice(0,4),coach,...firstProbes.slice(4)];

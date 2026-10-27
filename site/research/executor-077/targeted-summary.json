@@ -1,0 +1,154 @@
+{
+  "version": "targeted-executor-077",
+  "status": "Complete independent narrow follow-up round",
+  "protocol": {
+    "study": "executor-077-targeted",
+    "policy": "Fixed 0.76 invitations, selected before independent responses; no outcome-driven extra questions. Same frozen saved context in both arms; only new targeted answers vary. Missing evidence stays unknown. This is separate from full-survey current-matcher comparison.",
+    "baselineSHA256": "125f5a1eaf4c9b3b04d7357baff37ef898e7a791cf057923717413ea726b6e6f",
+    "consumerSHA256": "7571a4eab9a1b0471d6e0b0d3e2c1840c1b9d534c0cef65b518826f5070bfcae",
+    "contract": "Independently answer ONLY the supplied narrow follow-up questions as each fictional student, using only their frozen profile facts. No career recommendation, scoring, tools, external files, web, subagents or prior context. Old responses and matching outcomes are withheld. Do not optimize a result. Answer the precise activity, not just its broad subject. Skill, confidence, access, demographics, health, family duties, financial means and education aspirations do not independently establish enjoyment. Explicit chosen enjoyed activities are evidence; omitted distinctive activities remain unknown. Never invent missing interests. For each question use 1=Yes, I would like to learn this exact work;2=No, this work does not interest me;3=Unsure/mixed;0=Unfamiliar/insufficient profile evidence. Return {\"responses\":{\"modelId\":{\"opaqueQuestionIndex\":integer,...},...}} only. Exactly each requested question key, every model in order. These are synthetic profiles, not real people.",
+    "models": 2000,
+    "offeredModels": 1402,
+    "questions": 3569,
+    "startedAt": 1792606363.601707
+  },
+  "summary": {
+    "all": {
+      "models": 1000,
+      "questions": 1990,
+      "simulatorTop": 816,
+      "simulatorDegree": 686,
+      "simulatorGraduate": 157,
+      "simulatorCovers": 256,
+      "grokTop": 844,
+      "grokDegree": 718,
+      "grokGraduate": 177,
+      "grokCovers": 275,
+      "gainedTop": 28,
+      "lostTop": 0,
+      "gainedDegree": 32,
+      "lostDegree": 0,
+      "answers": {
+        "0": 1284,
+        "1": 335,
+        "2": 25,
+        "3": 346
+      }
+    },
+    "development": {
+      "models": 758,
+      "questions": 1526,
+      "simulatorTop": 613,
+      "simulatorDegree": 513,
+      "simulatorGraduate": 112,
+      "simulatorCovers": 195,
+      "grokTop": 638,
+      "grokDegree": 539,
+      "grokGraduate": 128,
+      "grokCovers": 212,
+      "gainedTop": 25,
+      "lostTop": 0,
+      "gainedDegree": 26,
+      "lostDegree": 0,
+      "answers": {
+        "0": 979,
+        "1": 267,
+        "2": 15,
+        "3": 265
+      }
+    },
+    "holdout": {
+      "models": 30,
+      "questions": 12,
+      "simulatorTop": 27,
+      "simulatorDegree": 22,
+      "simulatorGraduate": 6,
+      "simulatorCovers": 10,
+      "grokTop": 27,
+      "grokDegree": 22,
+      "grokGraduate": 6,
+      "grokCovers": 10,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "answers": {
+        "0": 9,
+        "1": 2,
+        "2": 0,
+        "3": 1
+      }
+    },
+    "holdout049": {
+      "models": 12,
+      "questions": 15,
+      "simulatorTop": 9,
+      "simulatorDegree": 9,
+      "simulatorGraduate": 4,
+      "simulatorCovers": 2,
+      "grokTop": 9,
+      "grokDegree": 9,
+      "grokGraduate": 4,
+      "grokCovers": 2,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "answers": {
+        "0": 14,
+        "1": 0,
+        "2": 0,
+        "3": 1
+      }
+    },
+    "holdout056": {
+      "models": 200,
+      "questions": 437,
+      "simulatorTop": 167,
+      "simulatorDegree": 142,
+      "simulatorGraduate": 35,
+      "simulatorCovers": 49,
+      "grokTop": 170,
+      "grokDegree": 148,
+      "grokGraduate": 39,
+      "grokCovers": 51,
+      "gainedTop": 3,
+      "lostTop": 0,
+      "gainedDegree": 6,
+      "lostDegree": 0,
+      "answers": {
+        "0": 282,
+        "1": 66,
+        "2": 10,
+        "3": 79
+      }
+    },
+    "grok075": {
+      "models": 1000,
+      "questions": 1579,
+      "simulatorTop": 708,
+      "simulatorDegree": 588,
+      "simulatorGraduate": 208,
+      "simulatorCovers": 275,
+      "grokTop": 759,
+      "grokDegree": 627,
+      "grokGraduate": 236,
+      "grokCovers": 303,
+      "gainedTop": 51,
+      "lostTop": 0,
+      "gainedDegree": 39,
+      "lostDegree": 0,
+      "answers": {
+        "0": 847,
+        "1": 426,
+        "2": 27,
+        "3": 279
+      }
+    }
+  },
+  "limits": [
+    "Only the new narrow follow-up answers vary; all earlier frozen 0.76 context stays fixed. This is distinct from rerunning the entire questionnaire with Grok under current 0.63.",
+    "Questions were selected before their answers. A positive response resolves only its exact target; existing No/Unsure/holds and other missing defining checks remain.",
+    "Grok response plausibility needs independent review. A higher count is not validation. These are synthetic profiles and newly authored diagnostic prompts, not validated scale scores."
+  ]
+}

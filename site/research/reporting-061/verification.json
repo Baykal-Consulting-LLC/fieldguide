@@ -1,0 +1,24 @@
+{
+  "fullBuild": "npm run build passed",
+  "targetedSuite": {
+    "tests": 63,
+    "pass": 63,
+    "fail": 0
+  },
+  "finalReportingChecks": {
+    "tests": 19,
+    "pass": 19,
+    "fail": 0
+  },
+  "unchangedCohortRunId": "e37edc53f50f37e1d316ab467e9051c1480e95eaa9c3a9dcb95d68c7608933a0",
+  "previewChecks": [
+    "all 1000 totals visible",
+    "623 bachelor/graduate Top on both pages",
+    "separate holdout counts",
+    "all five education route filters available",
+    "extra candidate disclosure expands",
+    "candidate drill-down retains unconfirmed status and actual model profession link",
+    "no chart console errors"
+  ],
+  "productionSelector": "explorationRows059; all specifically supported careers excluded from unconfirmed candidates"
+}

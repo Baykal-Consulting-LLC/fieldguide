@@ -1,0 +1,5784 @@
+{
+  "version": "5.1.0",
+  "status": "Original research-informed reflection; not a validated aptitude instrument",
+  "profileQuestions": [
+    {
+      "id": "curiosity-1",
+      "text": "Build a small prototype that makes an everyday task easier.",
+      "theme": "R",
+      "prompt": "Build a small prototype that makes an everyday task easier.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-2",
+      "text": "Look for an explanation when the results of an experiment surprise you.",
+      "theme": "I",
+      "prompt": "Look for an explanation when the results of an experiment surprise you.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-3",
+      "text": "Create a visual story about something your community cares about.",
+      "theme": "A",
+      "prompt": "Create a visual story about something your community cares about.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-4",
+      "text": "Help a classmate understand something they have been struggling with.",
+      "theme": "S",
+      "prompt": "Help a classmate understand something they have been struggling with.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-5",
+      "text": "Bring people together to turn a new idea into a school event.",
+      "theme": "E",
+      "prompt": "Bring people together to turn a new idea into a school event.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-6",
+      "text": "Organize a complicated project so everyone knows what happens next.",
+      "theme": "C",
+      "prompt": "Organize a complicated project so everyone knows what happens next.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-7",
+      "text": "Take apart a broken object to investigate how its pieces work.",
+      "theme": "R",
+      "prompt": "Take apart a broken object to investigate how its pieces work.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-8",
+      "text": "Use a small dataset to explore a question you are curious about.",
+      "theme": "I",
+      "prompt": "Use a small dataset to explore a question you are curious about.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-9",
+      "text": "Invent a character, scene, or design that expresses an original idea.",
+      "theme": "A",
+      "prompt": "Invent a character, scene, or design that expresses an original idea.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-10",
+      "text": "Listen carefully to different perspectives on a difficult issue.",
+      "theme": "S",
+      "prompt": "Listen carefully to different perspectives on a difficult issue.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-11",
+      "text": "Explain an idea to a group and invite them to get involved.",
+      "theme": "E",
+      "prompt": "Explain an idea to a group and invite them to get involved.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-12",
+      "text": "Create a clear system for tracking the details of a shared project.",
+      "theme": "C",
+      "prompt": "Create a clear system for tracking the details of a shared project.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-13",
+      "text": "Repair a small machine and make sure it works safely.",
+      "theme": "R",
+      "prompt": "Repair a small machine and make sure it works safely.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-14",
+      "text": "Find out how the human body works and why people get sick.",
+      "theme": "I",
+      "prompt": "Find out how the human body works and why people get sick.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-15",
+      "text": "Take photos or make a short video that tells a story.",
+      "theme": "A",
+      "prompt": "Take photos or make a short video that tells a story.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-16",
+      "text": "Help someone feel comfortable during a difficult day.",
+      "theme": "S",
+      "prompt": "Help someone feel comfortable during a difficult day.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-17",
+      "text": "Help a customer choose something that meets their needs.",
+      "theme": "E",
+      "prompt": "Help a customer choose something that meets their needs.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-18",
+      "text": "Keep records accurate so bills, orders, or appointments run smoothly.",
+      "theme": "C",
+      "prompt": "Keep records accurate so bills, orders, or appointments run smoothly.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-19",
+      "text": "Grow plants or care for animals through hands-on work.",
+      "theme": "R",
+      "prompt": "Grow plants or care for animals through hands-on work.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-20",
+      "text": "Investigate what is causing a problem in a natural environment.",
+      "theme": "I",
+      "prompt": "Investigate what is causing a problem in a natural environment.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-21",
+      "text": "Make a meal, outfit, or room feel creative and personal.",
+      "theme": "A",
+      "prompt": "Make a meal, outfit, or room feel creative and personal.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-22",
+      "text": "Show a child or group how to learn a new skill.",
+      "theme": "S",
+      "prompt": "Show a child or group how to learn a new skill.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-23",
+      "text": "Negotiate a fair agreement between people with different goals.",
+      "theme": "E",
+      "prompt": "Negotiate a fair agreement between people with different goals.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-24",
+      "text": "Follow a checklist to make sure a delivery or process is correct.",
+      "theme": "C",
+      "prompt": "Follow a checklist to make sure a delivery or process is correct.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-25",
+      "text": "Operate equipment carefully to build, move, or produce something.",
+      "theme": "R",
+      "prompt": "Operate equipment carefully to build, move, or produce something.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-26",
+      "text": "Compare different explanations and find evidence that supports one.",
+      "theme": "I",
+      "prompt": "Compare different explanations and find evidence that supports one.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-27",
+      "text": "Create a performance, piece of music, or original illustration.",
+      "theme": "A",
+      "prompt": "Create a performance, piece of music, or original illustration.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-28",
+      "text": "Help someone work through a problem and decide on their next step.",
+      "theme": "S",
+      "prompt": "Help someone work through a problem and decide on their next step.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-29",
+      "text": "Lead a team through a busy day and help it reach a goal.",
+      "theme": "E",
+      "prompt": "Lead a team through a busy day and help it reach a goal.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "curiosity-30",
+      "text": "Plan a schedule and keep supplies or information organized.",
+      "theme": "C",
+      "prompt": "Plan a schedule and keep supplies or information organized.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-31",
+      "theme": "R",
+      "text": "Measure and assemble pieces so a structure fits securely.",
+      "fields": [
+        "building",
+        "trades"
+      ],
+      "prompt": "Measure and assemble pieces so a structure fits securely.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-32",
+      "theme": "I",
+      "text": "Study a health question and compare the evidence behind treatments.",
+      "fields": [
+        "health",
+        "science"
+      ],
+      "prompt": "Study a health question and compare the evidence behind treatments.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-33",
+      "theme": "A",
+      "text": "Choose colors and type to make a message feel clear and distinctive.",
+      "fields": [
+        "creative"
+      ],
+      "prompt": "Choose colors and type to make a message feel clear and distinctive.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-34",
+      "theme": "S",
+      "text": "Help a patient understand what will happen during a visit.",
+      "fields": [
+        "health"
+      ],
+      "prompt": "Help a patient understand what will happen during a visit.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-35",
+      "theme": "E",
+      "text": "Pitch a useful service and persuade people to give it a try.",
+      "fields": [
+        "business",
+        "sales-office"
+      ],
+      "prompt": "Pitch a useful service and persuade people to give it a try.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-36",
+      "theme": "C",
+      "text": "Check a set of payments and investigate a missing entry.",
+      "fields": [
+        "business",
+        "sales-office"
+      ],
+      "prompt": "Check a set of payments and investigate a missing entry.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-37",
+      "theme": "R",
+      "text": "Follow a diagram to install and test a working system.",
+      "fields": [
+        "trades",
+        "building"
+      ],
+      "prompt": "Follow a diagram to install and test a working system.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-38",
+      "theme": "I",
+      "text": "Work out why a computer system behaves unexpectedly.",
+      "fields": [
+        "technology"
+      ],
+      "prompt": "Work out why a computer system behaves unexpectedly.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-39",
+      "theme": "A",
+      "text": "Shape the sound, pacing, or images of a short scene.",
+      "fields": [
+        "creative"
+      ],
+      "prompt": "Shape the sound, pacing, or images of a short scene.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-40",
+      "theme": "S",
+      "text": "Adapt a lesson when someone needs a different way to learn.",
+      "fields": [
+        "education"
+      ],
+      "prompt": "Adapt a lesson when someone needs a different way to learn.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-41",
+      "theme": "E",
+      "text": "Negotiate with suppliers to keep a small project within budget.",
+      "fields": [
+        "business"
+      ],
+      "prompt": "Negotiate with suppliers to keep a small project within budget.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-42",
+      "theme": "C",
+      "text": "Keep appointments and records accurate for a busy service.",
+      "fields": [
+        "sales-office",
+        "health"
+      ],
+      "prompt": "Keep appointments and records accurate for a busy service.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-43",
+      "theme": "R",
+      "text": "Maintain plants or habitats and notice changes over time.",
+      "fields": [
+        "science",
+        "services"
+      ],
+      "prompt": "Maintain plants or habitats and notice changes over time.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-44",
+      "theme": "I",
+      "text": "Use data to test whether an explanation is convincing.",
+      "fields": [
+        "science",
+        "technology"
+      ],
+      "prompt": "Use data to test whether an explanation is convincing.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-45",
+      "theme": "A",
+      "text": "Sketch several ways a product or space could look and feel.",
+      "fields": [
+        "creative",
+        "building"
+      ],
+      "prompt": "Sketch several ways a product or space could look and feel.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-46",
+      "theme": "S",
+      "text": "Support someone as they practice an everyday skill after an injury.",
+      "fields": [
+        "health"
+      ],
+      "prompt": "Support someone as they practice an everyday skill after an injury.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-47",
+      "theme": "E",
+      "text": "Coordinate a team and make decisions when plans change.",
+      "fields": [
+        "business"
+      ],
+      "prompt": "Coordinate a team and make decisions when plans change.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-48",
+      "theme": "C",
+      "text": "Check stock, labels, and orders so the right goods reach people.",
+      "fields": [
+        "transportation-production",
+        "sales-office"
+      ],
+      "prompt": "Check stock, labels, and orders so the right goods reach people.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-49",
+      "theme": "R",
+      "text": "Find the worn part that is stopping equipment from working.",
+      "fields": [
+        "trades",
+        "transportation-production"
+      ],
+      "prompt": "Find the worn part that is stopping equipment from working.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-50",
+      "theme": "I",
+      "text": "Investigate how materials react under different conditions.",
+      "fields": [
+        "science",
+        "building"
+      ],
+      "prompt": "Investigate how materials react under different conditions.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-51",
+      "theme": "A",
+      "text": "Write a story or script that gives an audience a new perspective.",
+      "fields": [
+        "creative"
+      ],
+      "prompt": "Write a story or script that gives an audience a new perspective.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-52",
+      "theme": "S",
+      "text": "Help someone navigate a difficult personal or family situation.",
+      "fields": [
+        "health",
+        "education"
+      ],
+      "prompt": "Help someone navigate a difficult personal or family situation.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-53",
+      "theme": "E",
+      "text": "Present a case for a community decision and answer objections.",
+      "fields": [
+        "business",
+        "public-safety"
+      ],
+      "prompt": "Present a case for a community decision and answer objections.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-54",
+      "theme": "C",
+      "text": "Follow a precise safety procedure and document each check.",
+      "fields": [
+        "trades",
+        "public-safety",
+        "health"
+      ],
+      "prompt": "Follow a precise safety procedure and document each check.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-55",
+      "theme": "R",
+      "text": "Prepare tools and materials for a practical outdoor project.",
+      "fields": [
+        "building",
+        "science",
+        "services"
+      ],
+      "prompt": "Prepare tools and materials for a practical outdoor project.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-56",
+      "theme": "I",
+      "text": "Compare possible causes of an illness using new information.",
+      "fields": [
+        "health"
+      ],
+      "prompt": "Compare possible causes of an illness using new information.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-57",
+      "theme": "A",
+      "text": "Create an original illustration, piece of music, or performance.",
+      "fields": [
+        "creative"
+      ],
+      "prompt": "Create an original illustration, piece of music, or performance.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-58",
+      "theme": "S",
+      "text": "Coach a group through practice and celebrate their progress.",
+      "fields": [
+        "education"
+      ],
+      "prompt": "Coach a group through practice and celebrate their progress.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-59",
+      "theme": "E",
+      "text": "Find out what customers want and plan how to reach them.",
+      "fields": [
+        "business",
+        "sales-office"
+      ],
+      "prompt": "Find out what customers want and plan how to reach them.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "profile-interest-60",
+      "theme": "C",
+      "text": "Test a digital form and catch details that could confuse its users.",
+      "fields": [
+        "technology",
+        "sales-office"
+      ],
+      "prompt": "Test a digital form and catch details that could confuse its users.",
+      "kind": "interest",
+      "section": "What draws you in"
+    },
+    {
+      "id": "field-profile-creative-1",
+      "family": "creative",
+      "facet": "activity",
+      "prompt": "Turn an original idea into a piece an audience can experience.",
+      "summary": "Creating original work",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-technology-1",
+      "family": "technology",
+      "facet": "activity",
+      "prompt": "Build or improve a digital tool that solves a useful problem.",
+      "summary": "Building useful digital tools",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-health-1",
+      "family": "health",
+      "facet": "activity",
+      "prompt": "Investigate a health concern and explain ways to help.",
+      "summary": "Investigating health concerns",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-business-1",
+      "family": "business",
+      "facet": "activity",
+      "prompt": "Compare costs and evidence before recommending a business decision.",
+      "summary": "Evaluating business decisions",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-science-1",
+      "family": "science",
+      "facet": "activity",
+      "prompt": "Gather measurements and compare them with a possible explanation.",
+      "summary": "Investigating questions with evidence",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-building-1",
+      "family": "building",
+      "facet": "activity",
+      "prompt": "Design a structure or device before it is made.",
+      "summary": "Designing things before they are built",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-trades-1",
+      "family": "trades",
+      "facet": "activity",
+      "prompt": "Install or repair a physical system so it works properly.",
+      "summary": "Installing or repairing physical systems",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-services-1",
+      "family": "services",
+      "facet": "activity",
+      "prompt": "Prepare an everyday service so it feels useful and welcoming.",
+      "summary": "Delivering a well-prepared service",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-education-1",
+      "family": "education",
+      "facet": "activity",
+      "prompt": "Explain an idea in a different way when someone does not understand it.",
+      "summary": "Helping people understand ideas",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-public-safety-1",
+      "family": "public-safety",
+      "facet": "activity",
+      "prompt": "Practise an organized response to an urgent situation.",
+      "summary": "Preparing for urgent situations",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-transportation-production-1",
+      "family": "transportation-production",
+      "facet": "activity",
+      "prompt": "Coordinate materials and equipment so a practical workflow runs smoothly.",
+      "summary": "Keeping materials and work moving",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-sales-office-1",
+      "family": "sales-office",
+      "facet": "activity",
+      "prompt": "Help someone resolve a service question or compare useful options.",
+      "summary": "Resolving service questions",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-creative-2",
+      "family": "creative",
+      "facet": "setting",
+      "prompt": "Try several drafts and improve one after specific feedback.",
+      "summary": "Revising creative ideas",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-technology-2",
+      "family": "technology",
+      "facet": "setting",
+      "prompt": "Spend time tracing why software or a device behaves unexpectedly.",
+      "summary": "Troubleshooting digital systems",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-health-2",
+      "family": "health",
+      "facet": "setting",
+      "prompt": "Help someone understand what is happening during a care visit.",
+      "summary": "Working directly with people receiving care",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-business-2",
+      "family": "business",
+      "facet": "setting",
+      "prompt": "Discuss different needs and work toward a practical agreement.",
+      "summary": "Working through decisions with people",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-science-2",
+      "family": "science",
+      "facet": "setting",
+      "prompt": "Stay with an investigation when the answer is still uncertain.",
+      "summary": "Exploring unanswered questions",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-building-2",
+      "family": "building",
+      "facet": "setting",
+      "prompt": "Use drawings and measurements to compare possible designs.",
+      "summary": "Working through technical designs",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-trades-2",
+      "family": "trades",
+      "facet": "setting",
+      "prompt": "Work with tools and materials in a workshop or at a job site.",
+      "summary": "Working with tools and materials",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-services-2",
+      "family": "services",
+      "facet": "setting",
+      "prompt": "Work directly with a customer to understand the result they want.",
+      "summary": "Understanding customers in person",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-education-2",
+      "family": "education",
+      "facet": "setting",
+      "prompt": "Spend time with learners who have different needs and ways of learning.",
+      "summary": "Working alongside different learners",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-public-safety-2",
+      "family": "public-safety",
+      "facet": "setting",
+      "prompt": "Stay calm while helping people who are facing a safety risk.",
+      "summary": "Helping people during safety emergencies",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-transportation-production-2",
+      "family": "transportation-production",
+      "facet": "setting",
+      "prompt": "Work with a team where goods are stored, moved, or produced.",
+      "summary": "Working in a physical operations setting",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-sales-office-2",
+      "family": "sales-office",
+      "facet": "setting",
+      "prompt": "Organize requests and information so a busy team can keep working.",
+      "summary": "Keeping an office or service organized",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-creative-3",
+      "family": "creative",
+      "facet": "routine",
+      "prompt": "Think about how a design or story will feel to its audience.",
+      "summary": "Understanding an audience",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-technology-3",
+      "family": "technology",
+      "facet": "routine",
+      "prompt": "Test small changes and keep track of what works reliably.",
+      "summary": "Testing and refining solutions",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-health-3",
+      "family": "health",
+      "facet": "routine",
+      "prompt": "Keep health information accurate and follow care and privacy procedures.",
+      "summary": "Handling careful health-related work",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-business-3",
+      "family": "business",
+      "facet": "routine",
+      "prompt": "Check financial or legal details before explaining a recommendation.",
+      "summary": "Checking financial or legal evidence",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-science-3",
+      "family": "science",
+      "facet": "routine",
+      "prompt": "Repeat a method and document the results even when the first attempt is inconclusive.",
+      "summary": "Using careful research methods",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-building-3",
+      "family": "building",
+      "facet": "routine",
+      "prompt": "Revise a design to meet safety rules and practical limits.",
+      "summary": "Balancing design and real-world constraints",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-trades-3",
+      "family": "trades",
+      "facet": "routine",
+      "prompt": "Trace a fault and check a repair using the required safety procedures.",
+      "summary": "Diagnosing faults and checking repairs",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-services-3",
+      "family": "services",
+      "facet": "routine",
+      "prompt": "Follow hygiene and preparation routines while keeping up with a busy service.",
+      "summary": "Handling practical service routines",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-education-3",
+      "family": "education",
+      "facet": "routine",
+      "prompt": "Adjust an activity and give feedback when a learner gets stuck.",
+      "summary": "Adapting lessons and feedback",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-public-safety-3",
+      "family": "public-safety",
+      "facet": "routine",
+      "prompt": "Follow approved procedures while a response team coordinates its actions.",
+      "summary": "Working within an emergency-response team",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-transportation-production-3",
+      "family": "transportation-production",
+      "facet": "routine",
+      "prompt": "Check a practical process for delays, safety issues, and record errors.",
+      "summary": "Checking operations and safety",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-sales-office-3",
+      "family": "sales-office",
+      "facet": "routine",
+      "prompt": "Check transactions and records carefully while responding to requests.",
+      "summary": "Keeping service records accurate",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "reasoning",
+      "prompt": "Work through an unfamiliar problem by comparing possible explanations.",
+      "names": [
+        "Critical Thinking",
+        "Complex Problem Solving",
+        "Judgment and Decision Making"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "numbers",
+      "prompt": "Use numbers, measurements, or a simple chart to make sense of something.",
+      "names": [
+        "Mathematics",
+        "Science",
+        "Operations Analysis"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "words",
+      "prompt": "Explain an idea clearly through writing, speaking, or visuals.",
+      "names": [
+        "Speaking",
+        "Writing",
+        "Reading Comprehension"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "visual",
+      "prompt": "Picture how shapes, objects, or layouts could fit together.",
+      "names": [
+        "Technology Design",
+        "Design",
+        "Visualization"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "practical",
+      "prompt": "Make, repair, or carefully assemble something with your hands.",
+      "names": [
+        "Repairing",
+        "Installation",
+        "Equipment Maintenance",
+        "Operation and Control"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "people",
+      "prompt": "Listen closely and help someone understand or solve a problem.",
+      "names": [
+        "Active Listening",
+        "Social Perceptiveness",
+        "Service Orientation",
+        "Instructing"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "organizing",
+      "prompt": "Plan a project and keep track of its details.",
+      "names": [
+        "Time Management",
+        "Coordination",
+        "Monitoring"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "science",
+      "prompt": "Compare observations, test an explanation, and notice what remains uncertain.",
+      "names": [
+        "Science",
+        "Critical Thinking"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "precision",
+      "prompt": "Make a small, careful adjustment by hand while following instructions.",
+      "names": [
+        "Manual Dexterity",
+        "Finger Dexterity",
+        "Quality Control Analysis"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "collaboration",
+      "prompt": "Work through a disagreement so a team can keep moving.",
+      "names": [
+        "Coordination",
+        "Negotiation",
+        "Social Perceptiveness"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "learning",
+      "prompt": "Learn an unfamiliar subject or tool and decide what to practice next.",
+      "names": [
+        "Active Learning",
+        "Learning Strategies"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "digital",
+      "prompt": "Learn a digital tool, find a problem, or make it work better.",
+      "names": [
+        "Programming",
+        "Troubleshooting",
+        "Systems Analysis",
+        "Technology Design"
+      ],
+      "kind": "skill",
+      "section": "Strength clues"
+    },
+    {
+      "id": "values",
+      "kind": "values",
+      "prompt": "What would you most want your work to give you?",
+      "section": "What matters to you"
+    },
+    {
+      "id": "company",
+      "prompt": "Who would you enjoy working alongside?",
+      "options": [
+        [
+          "team",
+          "A close team"
+        ],
+        [
+          "independent",
+          "Mostly on my own"
+        ],
+        [
+          "mix",
+          "A mix of both"
+        ],
+        [
+          "unknown",
+          "Still exploring"
+        ]
+      ],
+      "kind": "context",
+      "section": "Your working life"
+    },
+    {
+      "id": "rhythm",
+      "prompt": "What would make a good working day?",
+      "options": [
+        [
+          "variety",
+          "Different problems and changing tasks"
+        ],
+        [
+          "routine",
+          "A steady rhythm and clear routines"
+        ],
+        [
+          "mix",
+          "Some of each"
+        ],
+        [
+          "unknown",
+          "Still exploring"
+        ]
+      ],
+      "kind": "context",
+      "section": "Your working life"
+    },
+    {
+      "id": "setting",
+      "prompt": "Where could you picture spending your day?",
+      "multi": true,
+      "options": [
+        [
+          "people",
+          "With people and communities"
+        ],
+        [
+          "desk",
+          "With ideas, information, or digital tools"
+        ],
+        [
+          "active",
+          "Making, moving, or working outdoors"
+        ],
+        [
+          "unknown",
+          "I want to try a few settings"
+        ]
+      ],
+      "kind": "context",
+      "section": "Your working life"
+    },
+    {
+      "id": "education",
+      "prompt": "Which learning routes would you consider?",
+      "multi": true,
+      "options": [
+        [
+          "college",
+          "A college degree"
+        ],
+        [
+          "graduate",
+          "College, then professional or graduate study"
+        ],
+        [
+          "training",
+          "Paid training or a practical qualification"
+        ],
+        [
+          "unknown",
+          "I want to learn about all of them"
+        ]
+      ],
+      "kind": "context",
+      "section": "Your working life"
+    }
+  ],
+  "method": "60 broad activity interests plus 36 field-work preferences. Supported fields require several broad likes and two positive focused responses. Editorial exploration; not validated aptitude.",
+  "pathwayQuestions": {
+    "creative": [
+      {
+        "id": "creative-make",
+        "prompt": "What would you enjoy creating?",
+        "options": [
+          {
+            "id": "creative-make-1",
+            "text": "A visual message that helps people understand an idea",
+            "careerIds": [
+              "graphic-design",
+              "web-interface-design"
+            ]
+          },
+          {
+            "id": "creative-make-2",
+            "text": "A useful object people can hold and use",
+            "careerIds": [
+              "industrial-design"
+            ]
+          },
+          {
+            "id": "creative-make-3",
+            "text": "A story through words, photographs or moving images",
+            "careerIds": [
+              "writing",
+              "photographer",
+              "film-editing",
+              "animation"
+            ]
+          },
+          {
+            "id": "creative-make-4",
+            "text": "A way for people to connect with information or culture",
+            "careerIds": [
+              "librarian",
+              "interpreting",
+              "social-research"
+            ]
+          },
+          {
+            "id": "creative-make-5",
+            "text": "A personal design for someone’s body art",
+            "careerIds": [
+              "tattoo"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creative-revise",
+        "prompt": "Which kind of revision sounds satisfying?",
+        "options": [
+          {
+            "id": "creative-revise-1",
+            "text": "Make a layout easier to read and navigate",
+            "careerIds": [
+              "graphic-design",
+              "web-interface-design"
+            ]
+          },
+          {
+            "id": "creative-revise-2",
+            "text": "Improve how a product looks, feels and works",
+            "careerIds": [
+              "industrial-design"
+            ]
+          },
+          {
+            "id": "creative-revise-3",
+            "text": "Shape the timing, mood or story of a scene",
+            "careerIds": [
+              "film-editing",
+              "animation",
+              "photographer",
+              "writing"
+            ]
+          },
+          {
+            "id": "creative-revise-4",
+            "text": "Find words that carry the right meaning for an audience",
+            "careerIds": [
+              "writing",
+              "public-relations",
+              "interpreting"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creative-people",
+        "prompt": "Who would you enjoy creating with or for?",
+        "options": [
+          {
+            "id": "creative-people-1",
+            "text": "Clients who need a clear visual identity",
+            "careerIds": [
+              "graphic-design",
+              "photographer",
+              "web-interface-design"
+            ]
+          },
+          {
+            "id": "creative-people-2",
+            "text": "A team making a product or digital experience",
+            "careerIds": [
+              "industrial-design",
+              "web-interface-design",
+              "animation"
+            ]
+          },
+          {
+            "id": "creative-people-3",
+            "text": "People sharing a story, language or point of view",
+            "careerIds": [
+              "writing",
+              "interpreting",
+              "film-editing",
+              "public-relations"
+            ]
+          },
+          {
+            "id": "creative-people-4",
+            "text": "A community finding information and learning together",
+            "careerIds": [
+              "librarian",
+              "social-research"
+            ]
+          },
+          {
+            "id": "creative-people-5",
+            "text": "A person choosing a lasting design that feels like them",
+            "careerIds": [
+              "tattoo"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creative-workday",
+        "prompt": "Which parts of a creative workday would you like to try?",
+        "options": [
+          {
+            "id": "creative-workday-1",
+            "text": "Make several drafts and improve them after feedback",
+            "careerIds": [
+              "graphic-design",
+              "writing",
+              "industrial-design",
+              "web-interface-design"
+            ]
+          },
+          {
+            "id": "creative-workday-2",
+            "text": "Work carefully with images, light, movement or sound",
+            "careerIds": [
+              "photographer",
+              "animation",
+              "film-editing"
+            ]
+          },
+          {
+            "id": "creative-workday-3",
+            "text": "Ask people questions before deciding what to make",
+            "careerIds": [
+              "social-research",
+              "public-relations",
+              "industrial-design"
+            ]
+          },
+          {
+            "id": "creative-workday-4",
+            "text": "Research meaning and check that information is accurate",
+            "careerIds": [
+              "interpreting",
+              "librarian",
+              "writing"
+            ]
+          },
+          {
+            "id": "creative-workday-5",
+            "text": "Practice careful techniques while following studio hygiene routines",
+            "careerIds": [
+              "tattoo"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which creative problem would keep you curious?",
+        "options": [
+          {
+            "text": "Make a visual message memorable without making it confusing",
+            "careerIds": [
+              "graphic-design"
+            ],
+            "id": "creative-refine-1-1"
+          },
+          {
+            "text": "Make a website or app easier to understand and use",
+            "careerIds": [
+              "web-interface-design"
+            ],
+            "id": "creative-refine-1-2"
+          },
+          {
+            "text": "Make a physical object more useful and appealing",
+            "careerIds": [
+              "industrial-design"
+            ],
+            "id": "creative-refine-1-3"
+          },
+          {
+            "text": "Make a story, scene, or image more engaging",
+            "careerIds": [
+              "writing",
+              "animation",
+              "film-editing",
+              "photographer"
+            ],
+            "id": "creative-refine-1-4"
+          },
+          {
+            "text": "Help a person or community express something important",
+            "careerIds": [
+              "tattoo",
+              "interpreting",
+              "librarian",
+              "social-research"
+            ],
+            "id": "creative-refine-1-5"
+          }
+        ],
+        "id": "creative-refine-1"
+      },
+      {
+        "prompt": "Which result would you most enjoy finishing?",
+        "options": [
+          {
+            "text": "A visual identity and a set of clear layouts",
+            "careerIds": [
+              "graphic-design"
+            ],
+            "id": "creative-refine-2-1"
+          },
+          {
+            "text": "A tested screen design that people can navigate",
+            "careerIds": [
+              "web-interface-design"
+            ],
+            "id": "creative-refine-2-2"
+          },
+          {
+            "text": "A model of a product people could hold",
+            "careerIds": [
+              "industrial-design"
+            ],
+            "id": "creative-refine-2-3"
+          },
+          {
+            "text": "An edited story, film, animation, or photo series",
+            "careerIds": [
+              "writing",
+              "film-editing",
+              "animation",
+              "photographer"
+            ],
+            "id": "creative-refine-2-4"
+          },
+          {
+            "text": "A message or service shaped for a particular audience",
+            "careerIds": [
+              "public-relations",
+              "interpreting",
+              "librarian",
+              "social-research",
+              "tattoo"
+            ],
+            "id": "creative-refine-2-5"
+          }
+        ],
+        "id": "creative-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "text": "Type, spacing, colour, and the order people read a page",
+            "careerIds": [
+              "graphic-design",
+              "web-interface-design"
+            ],
+            "id": "creative-refine-3-1"
+          },
+          {
+            "text": "Materials, proportions, and how parts fit a user’s hand",
+            "careerIds": [
+              "industrial-design"
+            ],
+            "id": "creative-refine-3-2"
+          },
+          {
+            "text": "Words, meaning, and whether a claim is accurate",
+            "careerIds": [
+              "writing",
+              "public-relations",
+              "interpreting",
+              "librarian",
+              "social-research"
+            ],
+            "id": "creative-refine-3-3"
+          },
+          {
+            "text": "Timing, movement, lighting, and the mood of an image",
+            "careerIds": [
+              "film-editing",
+              "animation",
+              "photographer"
+            ],
+            "id": "creative-refine-3-4"
+          },
+          {
+            "text": "Linework, placement, consent, and hygienic practice",
+            "careerIds": [
+              "tattoo"
+            ],
+            "id": "creative-refine-3-5"
+          }
+        ],
+        "id": "creative-refine-3"
+      },
+      {
+        "prompt": "Which beginner project would you choose?",
+        "options": [
+          {
+            "text": "Design and revise a poster for a real audience",
+            "careerIds": [
+              "graphic-design"
+            ],
+            "id": "creative-refine-4-1"
+          },
+          {
+            "text": "Sketch an app screen and watch someone try it",
+            "careerIds": [
+              "web-interface-design"
+            ],
+            "id": "creative-refine-4-2"
+          },
+          {
+            "text": "Build a simple model and improve how it works",
+            "careerIds": [
+              "industrial-design"
+            ],
+            "id": "creative-refine-4-3"
+          },
+          {
+            "text": "Make a short written, photographic, or moving-image story",
+            "careerIds": [
+              "writing",
+              "film-editing",
+              "animation",
+              "photographer"
+            ],
+            "id": "creative-refine-4-4"
+          },
+          {
+            "text": "Explore design, language, or information with a community",
+            "careerIds": [
+              "tattoo",
+              "interpreting",
+              "librarian",
+              "social-research"
+            ],
+            "id": "creative-refine-4-5"
+          }
+        ],
+        "id": "creative-refine-4"
+      }
+    ],
+    "technology": [
+      {
+        "id": "technology-problem",
+        "prompt": "Which digital problem would you enjoy exploring?",
+        "options": [
+          {
+            "id": "technology-problem-1",
+            "text": "Build a useful app or website",
+            "careerIds": [
+              "software",
+              "web-developer"
+            ]
+          },
+          {
+            "id": "technology-problem-2",
+            "text": "Find a pattern in data and explain what it means",
+            "careerIds": [
+              "data-science",
+              "statistics",
+              "economics"
+            ]
+          },
+          {
+            "id": "technology-problem-3",
+            "text": "Protect information and investigate security risks",
+            "careerIds": [
+              "information-security"
+            ]
+          },
+          {
+            "id": "technology-problem-4",
+            "text": "Help people use technology that works better for them",
+            "careerIds": [
+              "computer-support",
+              "systems-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technology-approach",
+        "prompt": "What would you like to do when a digital tool is not working?",
+        "options": [
+          {
+            "id": "technology-approach-1",
+            "text": "Trace the code and test a possible fix",
+            "careerIds": [
+              "software",
+              "web-developer"
+            ]
+          },
+          {
+            "id": "technology-approach-2",
+            "text": "Study data to see where the problem appears",
+            "careerIds": [
+              "data-science",
+              "statistics"
+            ]
+          },
+          {
+            "id": "technology-approach-3",
+            "text": "Understand how several systems connect",
+            "careerIds": [
+              "systems-analysis",
+              "information-security"
+            ]
+          },
+          {
+            "id": "technology-approach-4",
+            "text": "Talk someone through the issue and try solutions together",
+            "careerIds": [
+              "computer-support",
+              "systems-analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technology-result",
+        "prompt": "Which result would feel satisfying?",
+        "options": [
+          {
+            "id": "technology-result-1",
+            "text": "People can use something I built",
+            "careerIds": [
+              "software",
+              "web-developer"
+            ]
+          },
+          {
+            "id": "technology-result-2",
+            "text": "A team makes a better decision because of my analysis",
+            "careerIds": [
+              "data-science",
+              "statistics",
+              "economics",
+              "systems-analysis"
+            ]
+          },
+          {
+            "id": "technology-result-3",
+            "text": "A system is safer and private information stays protected",
+            "careerIds": [
+              "information-security"
+            ]
+          },
+          {
+            "id": "technology-result-4",
+            "text": "Someone can get back to work after I solve their tech problem",
+            "careerIds": [
+              "computer-support"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technology-workday",
+        "prompt": "Which parts of the work would you like to learn?",
+        "options": [
+          {
+            "id": "technology-workday-1",
+            "text": "Test small changes until a solution works reliably",
+            "careerIds": [
+              "software",
+              "web-developer",
+              "information-security"
+            ]
+          },
+          {
+            "id": "technology-workday-2",
+            "text": "Check whether a data result is trustworthy",
+            "careerIds": [
+              "statistics",
+              "data-science",
+              "economics"
+            ]
+          },
+          {
+            "id": "technology-workday-3",
+            "text": "Turn a team’s needs into a clear technical plan",
+            "careerIds": [
+              "systems-analysis",
+              "software"
+            ]
+          },
+          {
+            "id": "technology-workday-4",
+            "text": "Explain technical steps in simple language",
+            "careerIds": [
+              "computer-support",
+              "systems-analysis",
+              "information-security"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which problem would you want to untangle?",
+        "options": [
+          {
+            "text": "A program that needs new behaviour",
+            "careerIds": [
+              "software",
+              "web-developer"
+            ],
+            "id": "technology-refine-1-1"
+          },
+          {
+            "text": "A pattern hidden in messy data",
+            "careerIds": [
+              "data-science",
+              "statistics",
+              "economics"
+            ],
+            "id": "technology-refine-1-2"
+          },
+          {
+            "text": "A system exposed to a security threat",
+            "careerIds": [
+              "information-security"
+            ],
+            "id": "technology-refine-1-3"
+          },
+          {
+            "text": "A tool that does not meet its users’ needs",
+            "careerIds": [
+              "systems-analysis"
+            ],
+            "id": "technology-refine-1-4"
+          },
+          {
+            "text": "A device or connection someone cannot get working",
+            "careerIds": [
+              "computer-support"
+            ],
+            "id": "technology-refine-1-5"
+          }
+        ],
+        "id": "technology-refine-1"
+      },
+      {
+        "prompt": "Which result would you enjoy producing?",
+        "options": [
+          {
+            "text": "A useful application or website",
+            "careerIds": [
+              "software",
+              "web-developer"
+            ],
+            "id": "technology-refine-2-1"
+          },
+          {
+            "text": "An analysis that explains a pattern and its limits",
+            "careerIds": [
+              "data-science",
+              "statistics",
+              "economics"
+            ],
+            "id": "technology-refine-2-2"
+          },
+          {
+            "text": "A safer system and a response plan",
+            "careerIds": [
+              "information-security"
+            ],
+            "id": "technology-refine-2-3"
+          },
+          {
+            "text": "A clear plan for a better information system",
+            "careerIds": [
+              "systems-analysis"
+            ],
+            "id": "technology-refine-2-4"
+          },
+          {
+            "text": "A solved technical problem and an understandable explanation",
+            "careerIds": [
+              "computer-support"
+            ],
+            "id": "technology-refine-2-5"
+          }
+        ],
+        "id": "technology-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "text": "Code, test cases, and unexpected behaviour",
+            "careerIds": [
+              "software",
+              "web-developer"
+            ],
+            "id": "technology-refine-3-1"
+          },
+          {
+            "text": "Data quality, assumptions, and uncertainty",
+            "careerIds": [
+              "data-science",
+              "statistics",
+              "economics"
+            ],
+            "id": "technology-refine-3-2"
+          },
+          {
+            "text": "Permissions, suspicious activity, and vulnerabilities",
+            "careerIds": [
+              "information-security"
+            ],
+            "id": "technology-refine-3-3"
+          },
+          {
+            "text": "User requirements and how systems connect",
+            "careerIds": [
+              "systems-analysis"
+            ],
+            "id": "technology-refine-3-4"
+          },
+          {
+            "text": "Settings, connections, and a troubleshooting sequence",
+            "careerIds": [
+              "computer-support"
+            ],
+            "id": "technology-refine-3-5"
+          }
+        ],
+        "id": "technology-refine-3"
+      },
+      {
+        "prompt": "Which small project would you try first?",
+        "options": [
+          {
+            "text": "Build and debug a tiny application",
+            "careerIds": [
+              "software",
+              "web-developer"
+            ],
+            "id": "technology-refine-4-1"
+          },
+          {
+            "text": "Explore a public dataset and explain a finding",
+            "careerIds": [
+              "data-science",
+              "statistics",
+              "economics"
+            ],
+            "id": "technology-refine-4-2"
+          },
+          {
+            "text": "Practise security in an authorised training lab",
+            "careerIds": [
+              "information-security"
+            ],
+            "id": "technology-refine-4-3"
+          },
+          {
+            "text": "Map a process and suggest a better system",
+            "careerIds": [
+              "systems-analysis"
+            ],
+            "id": "technology-refine-4-4"
+          },
+          {
+            "text": "Help someone fix a device using a clear checklist",
+            "careerIds": [
+              "computer-support"
+            ],
+            "id": "technology-refine-4-5"
+          }
+        ],
+        "id": "technology-refine-4"
+      }
+    ],
+    "health": [
+      {
+        "id": "health-care",
+        "prompt": "Which parts of health and helping draw you in?",
+        "options": [
+          {
+            "id": "health-care-1",
+            "text": "Investigate symptoms and explain possible treatment",
+            "careerIds": [
+              "physician",
+              "physician-assistant",
+              "nurse-practitioner"
+            ]
+          },
+          {
+            "id": "health-care-2",
+            "text": "Care for people and notice changes in how they feel",
+            "careerIds": [
+              "nursing",
+              "vocational-nurse",
+              "nursing-assistant",
+              "medical-assistant",
+              "personal-care-aide",
+              "psychiatric-aide",
+              "psychiatric-technician"
+            ]
+          },
+          {
+            "id": "health-care-3",
+            "text": "Learn precise hands-on care for teeth and gums",
+            "careerIds": [
+              "dentist",
+              "dental-hygiene",
+              "dental-assisting"
+            ]
+          },
+          {
+            "id": "health-care-4",
+            "text": "Help someone move, communicate or manage daily life",
+            "careerIds": [
+              "physical-therapy",
+              "occupational-therapy",
+              "speech-language",
+              "exercise-physiology"
+            ]
+          },
+          {
+            "id": "health-care-5",
+            "text": "Help people with emotions, relationships or practical support",
+            "careerIds": [
+              "mental-health-counselor",
+              "social-work",
+              "school-psychology",
+              "clinical-psychologist"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "health-investigate",
+        "prompt": "What would you enjoy understanding more deeply?",
+        "options": [
+          {
+            "id": "health-investigate-1",
+            "text": "How symptoms, medical history and tests fit together",
+            "careerIds": [
+              "physician",
+              "physician-assistant",
+              "nurse-practitioner"
+            ]
+          },
+          {
+            "id": "health-investigate-2",
+            "text": "How oral health affects someone’s comfort and health",
+            "careerIds": [
+              "dentist",
+              "dental-hygiene",
+              "dental-assisting"
+            ]
+          },
+          {
+            "id": "health-investigate-3",
+            "text": "How images and medical equipment help care teams",
+            "careerIds": [
+              "sonography",
+              "radiologic-technologist",
+              "respiratory-therapy"
+            ]
+          },
+          {
+            "id": "health-investigate-4",
+            "text": "How medicines, nutrition or food affect health",
+            "careerIds": [
+              "pharmacy",
+              "pharmacy-technician",
+              "nutrition",
+              "food-science"
+            ]
+          },
+          {
+            "id": "health-investigate-5",
+            "text": "Why health or social patterns differ across communities",
+            "careerIds": [
+              "epidemiology",
+              "social-research",
+              "social-work",
+              "clinical-psychologist"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "health-support",
+        "prompt": "How would you like to help someone?",
+        "options": [
+          {
+            "id": "health-support-1",
+            "text": "Listen to their concerns and explain a care plan",
+            "careerIds": [
+              "physician",
+              "nursing",
+              "physician-assistant",
+              "nurse-practitioner",
+              "dentist"
+            ]
+          },
+          {
+            "id": "health-support-2",
+            "text": "Provide practical help and comfort during the day",
+            "careerIds": [
+              "nursing-assistant",
+              "personal-care-aide",
+              "vocational-nurse",
+              "medical-assistant",
+              "psychiatric-aide",
+              "psychiatric-technician"
+            ]
+          },
+          {
+            "id": "health-support-3",
+            "text": "Coach them through recovery or a skill they are building",
+            "careerIds": [
+              "physical-therapy",
+              "occupational-therapy",
+              "speech-language",
+              "exercise-physiology"
+            ]
+          },
+          {
+            "id": "health-support-4",
+            "text": "Work through emotional challenges or connect them with support",
+            "careerIds": [
+              "mental-health-counselor",
+              "social-work",
+              "school-psychology",
+              "clinical-psychologist"
+            ]
+          },
+          {
+            "id": "health-support-5",
+            "text": "Help them use treatment, medicine or nutrition safely",
+            "careerIds": [
+              "pharmacy",
+              "pharmacy-technician",
+              "respiratory-therapy",
+              "nutrition",
+              "dental-hygiene"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "health-workday",
+        "prompt": "Which health-care routines would you like to learn?",
+        "options": [
+          {
+            "id": "health-workday-1",
+            "text": "Use evidence, keep records and review complex decisions",
+            "careerIds": [
+              "physician",
+              "physician-assistant",
+              "nurse-practitioner",
+              "pharmacy"
+            ]
+          },
+          {
+            "id": "health-workday-2",
+            "text": "Carry out careful procedures while helping a patient feel at ease",
+            "careerIds": [
+              "dentist",
+              "dental-hygiene",
+              "dental-assisting",
+              "nursing",
+              "vocational-nurse"
+            ]
+          },
+          {
+            "id": "health-workday-3",
+            "text": "Position people and use equipment to get clear information",
+            "careerIds": [
+              "sonography",
+              "radiologic-technologist",
+              "respiratory-therapy",
+              "medical-assistant"
+            ]
+          },
+          {
+            "id": "health-workday-4",
+            "text": "Track small changes and adapt support over several meetings",
+            "careerIds": [
+              "physical-therapy",
+              "occupational-therapy",
+              "speech-language",
+              "mental-health-counselor",
+              "clinical-psychologist",
+              "psychiatric-technician",
+              "psychiatric-aide"
+            ]
+          },
+          {
+            "id": "health-workday-5",
+            "text": "Collect information and look for ways to improve health in a community",
+            "careerIds": [
+              "epidemiology",
+              "nutrition",
+              "social-research",
+              "food-science"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which problem would you want to understand in more detail?",
+        "options": [
+          {
+            "text": "An illness that could have several causes",
+            "careerIds": [
+              "physician",
+              "physician-assistant",
+              "nurse-practitioner"
+            ],
+            "id": "health-refine-1-1"
+          },
+          {
+            "text": "A problem with teeth, gums, or a patient’s oral health",
+            "careerIds": [
+              "dentist",
+              "dental-hygiene",
+              "dental-assisting"
+            ],
+            "id": "health-refine-1-2"
+          },
+          {
+            "text": "How movement, speech, or breathing can improve",
+            "careerIds": [
+              "physical-therapy",
+              "occupational-therapy",
+              "speech-language",
+              "respiratory-therapy",
+              "exercise-physiology"
+            ],
+            "id": "health-refine-1-3"
+          },
+          {
+            "text": "How emotions and life circumstances affect wellbeing",
+            "careerIds": [
+              "clinical-psychologist",
+              "mental-health-counselor",
+              "social-work",
+              "school-psychology",
+              "psychiatric-aide",
+              "psychiatric-technician"
+            ],
+            "id": "health-refine-1-4"
+          },
+          {
+            "text": "How a test, medicine, or prevention programme can help",
+            "careerIds": [
+              "sonography",
+              "radiologic-technologist",
+              "pharmacy",
+              "pharmacy-technician",
+              "epidemiology",
+              "nutrition",
+              "food-science",
+              "social-research"
+            ],
+            "id": "health-refine-1-5"
+          }
+        ],
+        "id": "health-refine-1"
+      },
+      {
+        "prompt": "Which responsibility would you enjoy learning about?",
+        "options": [
+          {
+            "text": "Diagnose a medical problem and manage treatment over time",
+            "careerIds": [
+              "physician",
+              "physician-assistant",
+              "nurse-practitioner"
+            ],
+            "id": "health-refine-2-1"
+          },
+          {
+            "text": "Provide ongoing nursing care and notice changes",
+            "careerIds": [
+              "nursing",
+              "vocational-nurse",
+              "nursing-assistant",
+              "personal-care-aide",
+              "medical-assistant"
+            ],
+            "id": "health-refine-2-2"
+          },
+          {
+            "text": "Plan and carry out precise dental treatment",
+            "careerIds": [
+              "dentist",
+              "dental-hygiene",
+              "dental-assisting"
+            ],
+            "id": "health-refine-2-3"
+          },
+          {
+            "text": "Guide therapy, rehabilitation, or personal support",
+            "careerIds": [
+              "physical-therapy",
+              "occupational-therapy",
+              "speech-language",
+              "clinical-psychologist",
+              "mental-health-counselor",
+              "social-work",
+              "school-psychology",
+              "psychiatric-aide",
+              "psychiatric-technician"
+            ],
+            "id": "health-refine-2-4"
+          },
+          {
+            "text": "Produce reliable health information or treatment support",
+            "careerIds": [
+              "sonography",
+              "radiologic-technologist",
+              "respiratory-therapy",
+              "pharmacy",
+              "pharmacy-technician",
+              "nutrition",
+              "food-science",
+              "epidemiology",
+              "social-research",
+              "exercise-physiology"
+            ],
+            "id": "health-refine-2-5"
+          }
+        ],
+        "id": "health-refine-2"
+      },
+      {
+        "prompt": "What would you like to explain to someone?",
+        "options": [
+          {
+            "text": "Why symptoms point toward a diagnosis and what comes next",
+            "careerIds": [
+              "physician",
+              "physician-assistant",
+              "nurse-practitioner"
+            ],
+            "id": "health-refine-3-1"
+          },
+          {
+            "text": "How daily care helps someone stay comfortable and recover",
+            "careerIds": [
+              "nursing",
+              "vocational-nurse",
+              "nursing-assistant",
+              "personal-care-aide",
+              "medical-assistant"
+            ],
+            "id": "health-refine-3-2"
+          },
+          {
+            "text": "How to care for teeth and what a dental procedure involves",
+            "careerIds": [
+              "dentist",
+              "dental-hygiene",
+              "dental-assisting"
+            ],
+            "id": "health-refine-3-3"
+          },
+          {
+            "text": "How a medicine, test result, or nutrition change is used",
+            "careerIds": [
+              "pharmacy",
+              "pharmacy-technician",
+              "sonography",
+              "radiologic-technologist",
+              "nutrition",
+              "food-science",
+              "epidemiology"
+            ],
+            "id": "health-refine-3-4"
+          },
+          {
+            "text": "How to build a skill or handle a difficult situation",
+            "careerIds": [
+              "physical-therapy",
+              "occupational-therapy",
+              "speech-language",
+              "respiratory-therapy",
+              "exercise-physiology",
+              "clinical-psychologist",
+              "mental-health-counselor",
+              "social-work",
+              "school-psychology",
+              "psychiatric-aide",
+              "psychiatric-technician",
+              "social-research"
+            ],
+            "id": "health-refine-3-5"
+          }
+        ],
+        "id": "health-refine-3"
+      },
+      {
+        "prompt": "Which supervised experience would you most want to try?",
+        "options": [
+          {
+            "text": "Observe a medical consultation and discuss the reasoning afterward",
+            "careerIds": [
+              "physician",
+              "physician-assistant",
+              "nurse-practitioner"
+            ],
+            "id": "health-refine-4-1"
+          },
+          {
+            "text": "Observe a dental clinic and its careful procedures",
+            "careerIds": [
+              "dentist",
+              "dental-hygiene",
+              "dental-assisting"
+            ],
+            "id": "health-refine-4-2"
+          },
+          {
+            "text": "See how a nursing or daily-care team supports patients",
+            "careerIds": [
+              "nursing",
+              "vocational-nurse",
+              "nursing-assistant",
+              "personal-care-aide",
+              "medical-assistant",
+              "psychiatric-aide",
+              "psychiatric-technician"
+            ],
+            "id": "health-refine-4-3"
+          },
+          {
+            "text": "Visit a therapy, counselling, or rehabilitation service",
+            "careerIds": [
+              "physical-therapy",
+              "occupational-therapy",
+              "speech-language",
+              "respiratory-therapy",
+              "exercise-physiology",
+              "clinical-psychologist",
+              "mental-health-counselor",
+              "social-work",
+              "school-psychology"
+            ],
+            "id": "health-refine-4-4"
+          },
+          {
+            "text": "Visit a diagnostic lab, pharmacy, or public-health project",
+            "careerIds": [
+              "sonography",
+              "radiologic-technologist",
+              "pharmacy",
+              "pharmacy-technician",
+              "nutrition",
+              "food-science",
+              "epidemiology",
+              "social-research"
+            ],
+            "id": "health-refine-4-5"
+          }
+        ],
+        "id": "health-refine-4"
+      }
+    ],
+    "business": [
+      {
+        "id": "business-problem",
+        "prompt": "Which problem would you enjoy working through?",
+        "options": [
+          {
+            "id": "business-problem-1",
+            "text": "The money records do not add up",
+            "careerIds": [
+              "accounting",
+              "bookkeeping-clerk",
+              "financial-analysis"
+            ]
+          },
+          {
+            "id": "business-problem-2",
+            "text": "A team needs a clearer plan or better way to work",
+            "careerIds": [
+              "project-management",
+              "management-analyst",
+              "general-operations-manager",
+              "industrial-engineering"
+            ]
+          },
+          {
+            "id": "business-problem-3",
+            "text": "An organization needs to understand its customers",
+            "careerIds": [
+              "market-research",
+              "marketing-manager"
+            ]
+          },
+          {
+            "id": "business-problem-4",
+            "text": "Someone needs help understanding a right, rule or decision",
+            "careerIds": [
+              "law",
+              "paralegal",
+              "human-resources",
+              "personal-financial-advisor"
+            ]
+          },
+          {
+            "id": "business-problem-5",
+            "text": "Goods or services are not reaching people smoothly",
+            "careerIds": [
+              "logistics",
+              "medical-services-manager",
+              "urban-planning"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "business-evidence",
+        "prompt": "What would you enjoy using to make a recommendation?",
+        "options": [
+          {
+            "id": "business-evidence-1",
+            "text": "Financial reports, costs and investment information",
+            "careerIds": [
+              "accounting",
+              "financial-analysis",
+              "personal-financial-advisor",
+              "bookkeeping-clerk"
+            ]
+          },
+          {
+            "id": "business-evidence-2",
+            "text": "Customer interviews and market patterns",
+            "careerIds": [
+              "market-research",
+              "marketing-manager"
+            ]
+          },
+          {
+            "id": "business-evidence-3",
+            "text": "Policies, legal sources and carefully organized facts",
+            "careerIds": [
+              "law",
+              "paralegal",
+              "human-resources"
+            ]
+          },
+          {
+            "id": "business-evidence-4",
+            "text": "Schedules, workflow data and conversations with a team",
+            "careerIds": [
+              "project-management",
+              "management-analyst",
+              "logistics",
+              "industrial-engineering"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "business-people",
+        "prompt": "Which kind of work with people interests you?",
+        "options": [
+          {
+            "id": "business-people-1",
+            "text": "Help a person understand a financial choice",
+            "careerIds": [
+              "personal-financial-advisor",
+              "financial-analysis",
+              "accounting"
+            ]
+          },
+          {
+            "id": "business-people-2",
+            "text": "Help a team coordinate responsibilities and deadlines",
+            "careerIds": [
+              "project-management",
+              "general-operations-manager",
+              "medical-services-manager"
+            ]
+          },
+          {
+            "id": "business-people-3",
+            "text": "Help colleagues solve a workplace problem",
+            "careerIds": [
+              "human-resources",
+              "management-analyst"
+            ]
+          },
+          {
+            "id": "business-people-4",
+            "text": "Advocate for someone or explain a rule clearly",
+            "careerIds": [
+              "law",
+              "paralegal"
+            ]
+          },
+          {
+            "id": "business-people-5",
+            "text": "Bring different community needs into a shared plan",
+            "careerIds": [
+              "urban-planning",
+              "logistics"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "business-workday",
+        "prompt": "Which parts of the work would you like to try?",
+        "options": [
+          {
+            "id": "business-workday-1",
+            "text": "Check detailed records and explain what changed",
+            "careerIds": [
+              "accounting",
+              "bookkeeping-clerk",
+              "financial-analysis"
+            ]
+          },
+          {
+            "id": "business-workday-2",
+            "text": "Balance deadlines, costs and changing priorities",
+            "careerIds": [
+              "project-management",
+              "general-operations-manager",
+              "logistics",
+              "medical-services-manager"
+            ]
+          },
+          {
+            "id": "business-workday-3",
+            "text": "Research a question and defend a recommendation with evidence",
+            "careerIds": [
+              "law",
+              "market-research",
+              "management-analyst",
+              "urban-planning"
+            ]
+          },
+          {
+            "id": "business-workday-4",
+            "text": "Explain choices and work toward an agreement",
+            "careerIds": [
+              "human-resources",
+              "personal-financial-advisor",
+              "marketing-manager"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which decision would you enjoy investigating?",
+        "options": [
+          {
+            "text": "How money is recorded, invested, or planned",
+            "careerIds": [
+              "accounting",
+              "financial-analysis",
+              "bookkeeping-clerk",
+              "personal-financial-advisor"
+            ],
+            "id": "business-refine-1-1"
+          },
+          {
+            "text": "What customers want and how to reach them",
+            "careerIds": [
+              "market-research",
+              "marketing-manager"
+            ],
+            "id": "business-refine-1-2"
+          },
+          {
+            "text": "How a team or service can work more effectively",
+            "careerIds": [
+              "human-resources",
+              "project-management",
+              "management-analyst",
+              "general-operations-manager",
+              "medical-services-manager"
+            ],
+            "id": "business-refine-1-3"
+          },
+          {
+            "text": "How goods, places, and resources should be organised",
+            "careerIds": [
+              "logistics",
+              "industrial-engineering",
+              "urban-planning"
+            ],
+            "id": "business-refine-1-4"
+          },
+          {
+            "text": "How a rule or legal argument applies to a situation",
+            "careerIds": [
+              "law",
+              "paralegal"
+            ],
+            "id": "business-refine-1-5"
+          }
+        ],
+        "id": "business-refine-1"
+      },
+      {
+        "prompt": "Which result would you like to produce?",
+        "options": [
+          {
+            "text": "Accurate accounts or a clear financial recommendation",
+            "careerIds": [
+              "accounting",
+              "bookkeeping-clerk",
+              "financial-analysis",
+              "personal-financial-advisor"
+            ],
+            "id": "business-refine-2-1"
+          },
+          {
+            "text": "An audience study or a marketing plan",
+            "careerIds": [
+              "market-research",
+              "marketing-manager"
+            ],
+            "id": "business-refine-2-2"
+          },
+          {
+            "text": "A project plan or better way to support employees",
+            "careerIds": [
+              "project-management",
+              "human-resources",
+              "management-analyst",
+              "general-operations-manager",
+              "medical-services-manager"
+            ],
+            "id": "business-refine-2-3"
+          },
+          {
+            "text": "A more effective delivery, production, or city plan",
+            "careerIds": [
+              "logistics",
+              "industrial-engineering",
+              "urban-planning"
+            ],
+            "id": "business-refine-2-4"
+          },
+          {
+            "text": "A well-supported case or legal document",
+            "careerIds": [
+              "law",
+              "paralegal"
+            ],
+            "id": "business-refine-2-5"
+          }
+        ],
+        "id": "business-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "text": "Transactions, forecasts, and financial assumptions",
+            "careerIds": [
+              "accounting",
+              "bookkeeping-clerk",
+              "financial-analysis",
+              "personal-financial-advisor"
+            ],
+            "id": "business-refine-3-1"
+          },
+          {
+            "text": "Customer evidence and whether messages are effective",
+            "careerIds": [
+              "market-research",
+              "marketing-manager"
+            ],
+            "id": "business-refine-3-2"
+          },
+          {
+            "text": "Responsibilities, schedules, and how people are treated",
+            "careerIds": [
+              "human-resources",
+              "project-management",
+              "management-analyst",
+              "general-operations-manager",
+              "medical-services-manager"
+            ],
+            "id": "business-refine-3-3"
+          },
+          {
+            "text": "Bottlenecks, capacity, and the use of space",
+            "careerIds": [
+              "logistics",
+              "industrial-engineering",
+              "urban-planning"
+            ],
+            "id": "business-refine-3-4"
+          },
+          {
+            "text": "Evidence, wording, and legal deadlines",
+            "careerIds": [
+              "law",
+              "paralegal"
+            ],
+            "id": "business-refine-3-5"
+          }
+        ],
+        "id": "business-refine-3"
+      },
+      {
+        "prompt": "Which introduction would you choose?",
+        "options": [
+          {
+            "text": "Make and explain a simple budget",
+            "careerIds": [
+              "accounting",
+              "bookkeeping-clerk",
+              "financial-analysis",
+              "personal-financial-advisor"
+            ],
+            "id": "business-refine-4-1"
+          },
+          {
+            "text": "Research a customer need and test a message",
+            "careerIds": [
+              "market-research",
+              "marketing-manager"
+            ],
+            "id": "business-refine-4-2"
+          },
+          {
+            "text": "Plan a small team project and review what worked",
+            "careerIds": [
+              "human-resources",
+              "project-management",
+              "management-analyst",
+              "general-operations-manager",
+              "medical-services-manager"
+            ],
+            "id": "business-refine-4-3"
+          },
+          {
+            "text": "Improve a delivery route, process, or shared space",
+            "careerIds": [
+              "logistics",
+              "industrial-engineering",
+              "urban-planning"
+            ],
+            "id": "business-refine-4-4"
+          },
+          {
+            "text": "Compare arguments in a public legal case",
+            "careerIds": [
+              "law",
+              "paralegal"
+            ],
+            "id": "business-refine-4-5"
+          }
+        ],
+        "id": "business-refine-4"
+      }
+    ],
+    "science": [
+      {
+        "id": "science-wonder",
+        "prompt": "What would you most enjoy investigating?",
+        "options": [
+          {
+            "id": "science-wonder-1",
+            "text": "Living organisms and how they function",
+            "careerIds": [
+              "biological-technician",
+              "veterinary",
+              "food-science"
+            ]
+          },
+          {
+            "id": "science-wonder-2",
+            "text": "Substances, materials and how they change",
+            "careerIds": [
+              "chemistry",
+              "food-science",
+              "geoscience"
+            ]
+          },
+          {
+            "id": "science-wonder-3",
+            "text": "Air, water, soil and environmental change",
+            "careerIds": [
+              "environmental-science",
+              "geoscience",
+              "conservation"
+            ]
+          },
+          {
+            "id": "science-wonder-4",
+            "text": "Plants, land or animals that people care for",
+            "careerIds": [
+              "conservation",
+              "farmworker-crops",
+              "landscaping-worker",
+              "veterinary"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "science-setting",
+        "prompt": "Where would you enjoy gathering information?",
+        "options": [
+          {
+            "id": "science-setting-1",
+            "text": "A laboratory with samples and careful procedures",
+            "careerIds": [
+              "chemistry",
+              "biological-technician",
+              "food-science"
+            ]
+          },
+          {
+            "id": "science-setting-2",
+            "text": "An outdoor site with observations and measurements",
+            "careerIds": [
+              "environmental-science",
+              "conservation",
+              "geoscience"
+            ]
+          },
+          {
+            "id": "science-setting-3",
+            "text": "A farm, nursery, garden or planted landscape",
+            "careerIds": [
+              "farmworker-crops",
+              "landscaping-worker",
+              "conservation"
+            ]
+          },
+          {
+            "id": "science-setting-4",
+            "text": "An animal-care setting with patients and their owners",
+            "careerIds": [
+              "veterinary"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "science-result",
+        "prompt": "Which result would you like your work to support?",
+        "options": [
+          {
+            "id": "science-result-1",
+            "text": "Understand something about life or a new material",
+            "careerIds": [
+              "biological-technician",
+              "chemistry"
+            ]
+          },
+          {
+            "id": "science-result-2",
+            "text": "Protect natural resources and explain environmental risks",
+            "careerIds": [
+              "environmental-science",
+              "conservation",
+              "geoscience"
+            ]
+          },
+          {
+            "id": "science-result-3",
+            "text": "Make food safer or improve how it is produced",
+            "careerIds": [
+              "food-science",
+              "farmworker-crops"
+            ]
+          },
+          {
+            "id": "science-result-4",
+            "text": "Keep plants, animals or outdoor spaces healthy",
+            "careerIds": [
+              "veterinary",
+              "landscaping-worker",
+              "farmworker-crops"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "science-workday",
+        "prompt": "Which routines would you like to learn?",
+        "options": [
+          {
+            "id": "science-workday-1",
+            "text": "Repeat a procedure and record results carefully",
+            "careerIds": [
+              "chemistry",
+              "biological-technician",
+              "food-science"
+            ]
+          },
+          {
+            "id": "science-workday-2",
+            "text": "Collect samples and connect findings to a real place",
+            "careerIds": [
+              "geoscience",
+              "environmental-science",
+              "conservation"
+            ]
+          },
+          {
+            "id": "science-workday-3",
+            "text": "Notice changes and provide regular practical care",
+            "careerIds": [
+              "veterinary",
+              "landscaping-worker",
+              "farmworker-crops"
+            ]
+          },
+          {
+            "id": "science-workday-4",
+            "text": "Explain evidence and its limits to other people",
+            "careerIds": [
+              "environmental-science",
+              "geoscience",
+              "food-science",
+              "conservation"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which question would you want to investigate?",
+        "options": [
+          {
+            "text": "How habitats and natural resources are changing",
+            "careerIds": [
+              "environmental-science",
+              "conservation",
+              "geoscience"
+            ],
+            "id": "science-refine-1-1"
+          },
+          {
+            "text": "How substances, living cells, or food behave",
+            "careerIds": [
+              "chemistry",
+              "biological-technician",
+              "food-science"
+            ],
+            "id": "science-refine-1-2"
+          },
+          {
+            "text": "Why an animal is unwell and how it can be helped",
+            "careerIds": [
+              "veterinary"
+            ],
+            "id": "science-refine-1-3"
+          },
+          {
+            "text": "How plants grow under different conditions",
+            "careerIds": [
+              "landscaping-worker",
+              "farmworker-crops"
+            ],
+            "id": "science-refine-1-4"
+          }
+        ],
+        "id": "science-refine-1"
+      },
+      {
+        "prompt": "Which result would you enjoy producing?",
+        "options": [
+          {
+            "text": "A careful field study and environmental recommendation",
+            "careerIds": [
+              "environmental-science",
+              "conservation",
+              "geoscience"
+            ],
+            "id": "science-refine-2-1"
+          },
+          {
+            "text": "A reliable laboratory result or food-quality finding",
+            "careerIds": [
+              "chemistry",
+              "biological-technician",
+              "food-science"
+            ],
+            "id": "science-refine-2-2"
+          },
+          {
+            "text": "An animal-care or treatment plan",
+            "careerIds": [
+              "veterinary"
+            ],
+            "id": "science-refine-2-3"
+          },
+          {
+            "text": "Healthy plants, crops, or a maintained landscape",
+            "careerIds": [
+              "landscaping-worker",
+              "farmworker-crops"
+            ],
+            "id": "science-refine-2-4"
+          }
+        ],
+        "id": "science-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "text": "Field measurements, maps, and changes over time",
+            "careerIds": [
+              "environmental-science",
+              "conservation",
+              "geoscience"
+            ],
+            "id": "science-refine-3-1"
+          },
+          {
+            "text": "Samples, lab procedures, and possible sources of error",
+            "careerIds": [
+              "chemistry",
+              "biological-technician",
+              "food-science"
+            ],
+            "id": "science-refine-3-2"
+          },
+          {
+            "text": "An animal’s symptoms, behaviour, and care needs",
+            "careerIds": [
+              "veterinary"
+            ],
+            "id": "science-refine-3-3"
+          },
+          {
+            "text": "Soil, watering, pests, and signs of growth",
+            "careerIds": [
+              "landscaping-worker",
+              "farmworker-crops"
+            ],
+            "id": "science-refine-3-4"
+          }
+        ],
+        "id": "science-refine-3"
+      },
+      {
+        "prompt": "Which safe introduction would you choose?",
+        "options": [
+          {
+            "text": "A local field observation or conservation project",
+            "careerIds": [
+              "environmental-science",
+              "conservation",
+              "geoscience"
+            ],
+            "id": "science-refine-4-1"
+          },
+          {
+            "text": "A supervised laboratory or food-science demonstration",
+            "careerIds": [
+              "chemistry",
+              "biological-technician",
+              "food-science"
+            ],
+            "id": "science-refine-4-2"
+          },
+          {
+            "text": "An approved animal-care visit or veterinary observation",
+            "careerIds": [
+              "veterinary"
+            ],
+            "id": "science-refine-4-3"
+          },
+          {
+            "text": "A supervised garden or planting project",
+            "careerIds": [
+              "landscaping-worker",
+              "farmworker-crops"
+            ],
+            "id": "science-refine-4-4"
+          }
+        ],
+        "id": "science-refine-4"
+      }
+    ],
+    "building": [
+      {
+        "id": "building-design",
+        "prompt": "What would you enjoy designing or improving?",
+        "options": [
+          {
+            "id": "building-design-1",
+            "text": "Machines, moving parts or useful devices",
+            "careerIds": [
+              "mechanical-engineering",
+              "biomedical-engineering"
+            ]
+          },
+          {
+            "id": "building-design-2",
+            "text": "Circuits, electrical devices or power systems",
+            "careerIds": [
+              "electrical-engineering",
+              "biomedical-engineering"
+            ]
+          },
+          {
+            "id": "building-design-3",
+            "text": "Buildings and spaces people use",
+            "careerIds": [
+              "architecture",
+              "civil-engineering"
+            ]
+          },
+          {
+            "id": "building-design-4",
+            "text": "Roads, water systems or community spaces",
+            "careerIds": [
+              "civil-engineering",
+              "urban-planning"
+            ]
+          },
+          {
+            "id": "building-design-5",
+            "text": "How a workplace or building project runs",
+            "careerIds": [
+              "industrial-engineering",
+              "construction-management"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "building-approach",
+        "prompt": "Which way of solving a problem sounds interesting?",
+        "options": [
+          {
+            "id": "building-approach-1",
+            "text": "Make a model and test how it performs",
+            "careerIds": [
+              "mechanical-engineering",
+              "electrical-engineering",
+              "biomedical-engineering"
+            ]
+          },
+          {
+            "id": "building-approach-2",
+            "text": "Work through calculations and technical limits",
+            "careerIds": [
+              "civil-engineering",
+              "electrical-engineering",
+              "mechanical-engineering"
+            ]
+          },
+          {
+            "id": "building-approach-3",
+            "text": "Sketch spaces around people’s needs",
+            "careerIds": [
+              "architecture",
+              "urban-planning"
+            ]
+          },
+          {
+            "id": "building-approach-4",
+            "text": "Coordinate people, materials, time and costs",
+            "careerIds": [
+              "construction-management",
+              "industrial-engineering"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "building-impact",
+        "prompt": "What would you like your work to improve?",
+        "options": [
+          {
+            "id": "building-impact-1",
+            "text": "A product or device people depend on",
+            "careerIds": [
+              "mechanical-engineering",
+              "electrical-engineering",
+              "biomedical-engineering"
+            ]
+          },
+          {
+            "id": "building-impact-2",
+            "text": "A safe, useful building or public structure",
+            "careerIds": [
+              "civil-engineering",
+              "architecture",
+              "construction-management"
+            ]
+          },
+          {
+            "id": "building-impact-3",
+            "text": "How people move through a community",
+            "careerIds": [
+              "urban-planning",
+              "civil-engineering"
+            ]
+          },
+          {
+            "id": "building-impact-4",
+            "text": "A process that wastes time or materials",
+            "careerIds": [
+              "industrial-engineering",
+              "construction-management"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "building-workday",
+        "prompt": "Which routines would you like to learn?",
+        "options": [
+          {
+            "id": "building-workday-1",
+            "text": "Test a design, find a weakness and improve it",
+            "careerIds": [
+              "mechanical-engineering",
+              "electrical-engineering",
+              "biomedical-engineering"
+            ]
+          },
+          {
+            "id": "building-workday-2",
+            "text": "Check plans against safety rules and practical constraints",
+            "careerIds": [
+              "civil-engineering",
+              "architecture",
+              "construction-management"
+            ]
+          },
+          {
+            "id": "building-workday-3",
+            "text": "Talk with people whose needs differ and compare options",
+            "careerIds": [
+              "urban-planning",
+              "architecture",
+              "biomedical-engineering"
+            ]
+          },
+          {
+            "id": "building-workday-4",
+            "text": "Track progress and solve problems across a project team",
+            "careerIds": [
+              "construction-management",
+              "industrial-engineering",
+              "civil-engineering"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which design problem would hold your attention?",
+        "options": [
+          {
+            "text": "How a machine, circuit, or medical device works",
+            "careerIds": [
+              "mechanical-engineering",
+              "electrical-engineering",
+              "biomedical-engineering"
+            ],
+            "id": "building-refine-1-1"
+          },
+          {
+            "text": "How a structure or infrastructure handles its demands",
+            "careerIds": [
+              "civil-engineering"
+            ],
+            "id": "building-refine-1-2"
+          },
+          {
+            "text": "How a building or neighbourhood serves people",
+            "careerIds": [
+              "architecture",
+              "urban-planning"
+            ],
+            "id": "building-refine-1-3"
+          },
+          {
+            "text": "How construction or production can run better",
+            "careerIds": [
+              "construction-management",
+              "industrial-engineering"
+            ],
+            "id": "building-refine-1-4"
+          }
+        ],
+        "id": "building-refine-1"
+      },
+      {
+        "prompt": "Which result would you enjoy producing?",
+        "options": [
+          {
+            "text": "A tested design for a device or mechanism",
+            "careerIds": [
+              "mechanical-engineering",
+              "electrical-engineering",
+              "biomedical-engineering"
+            ],
+            "id": "building-refine-2-1"
+          },
+          {
+            "text": "A safe infrastructure design backed by calculations",
+            "careerIds": [
+              "civil-engineering"
+            ],
+            "id": "building-refine-2-2"
+          },
+          {
+            "text": "Drawings and models for a building or public place",
+            "careerIds": [
+              "architecture",
+              "urban-planning"
+            ],
+            "id": "building-refine-2-3"
+          },
+          {
+            "text": "A coordinated plan for people, materials, and work",
+            "careerIds": [
+              "construction-management",
+              "industrial-engineering"
+            ],
+            "id": "building-refine-2-4"
+          }
+        ],
+        "id": "building-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "text": "Performance, materials, and the way components interact",
+            "careerIds": [
+              "mechanical-engineering",
+              "electrical-engineering",
+              "biomedical-engineering"
+            ],
+            "id": "building-refine-3-1"
+          },
+          {
+            "text": "Loads, ground conditions, and safety margins",
+            "careerIds": [
+              "civil-engineering"
+            ],
+            "id": "building-refine-3-2"
+          },
+          {
+            "text": "Space, access, light, and how a place feels",
+            "careerIds": [
+              "architecture",
+              "urban-planning"
+            ],
+            "id": "building-refine-3-3"
+          },
+          {
+            "text": "Schedules, quality, waste, and resource constraints",
+            "careerIds": [
+              "construction-management",
+              "industrial-engineering"
+            ],
+            "id": "building-refine-3-4"
+          }
+        ],
+        "id": "building-refine-3"
+      },
+      {
+        "prompt": "Which beginner project would you choose?",
+        "options": [
+          {
+            "text": "Build and test a simple device model",
+            "careerIds": [
+              "mechanical-engineering",
+              "electrical-engineering",
+              "biomedical-engineering"
+            ],
+            "id": "building-refine-4-1"
+          },
+          {
+            "text": "Test a small model structure under different loads",
+            "careerIds": [
+              "civil-engineering"
+            ],
+            "id": "building-refine-4-2"
+          },
+          {
+            "text": "Sketch a better building layout or shared space",
+            "careerIds": [
+              "architecture",
+              "urban-planning"
+            ],
+            "id": "building-refine-4-3"
+          },
+          {
+            "text": "Plan a small build or improve an assembly process",
+            "careerIds": [
+              "construction-management",
+              "industrial-engineering"
+            ],
+            "id": "building-refine-4-4"
+          }
+        ],
+        "id": "building-refine-4"
+      }
+    ],
+    "trades": [
+      {
+        "id": "trades-systems",
+        "prompt": "Which systems would you like to work with?",
+        "options": [
+          {
+            "id": "trades-systems-1",
+            "text": "Wiring, electrical equipment and circuits",
+            "careerIds": [
+              "electrician",
+              "industrial-machinery-mechanic"
+            ]
+          },
+          {
+            "id": "trades-systems-2",
+            "text": "Pipes, water, heating or cooling",
+            "careerIds": [
+              "plumbing",
+              "hvac",
+              "general-maintenance"
+            ]
+          },
+          {
+            "id": "trades-systems-3",
+            "text": "Vehicles and mechanical equipment",
+            "careerIds": [
+              "automotive",
+              "industrial-machinery-mechanic"
+            ]
+          },
+          {
+            "id": "trades-systems-4",
+            "text": "Wood, metal and physical structures",
+            "careerIds": [
+              "carpentry",
+              "welder",
+              "construction-laborer"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trades-process",
+        "prompt": "What sounds satisfying to learn?",
+        "options": [
+          {
+            "id": "trades-process-1",
+            "text": "Trace a fault and work out why something stopped working",
+            "careerIds": [
+              "electrician",
+              "hvac",
+              "automotive",
+              "industrial-machinery-mechanic"
+            ]
+          },
+          {
+            "id": "trades-process-2",
+            "text": "Install a new system from drawings and instructions",
+            "careerIds": [
+              "electrician",
+              "plumbing",
+              "hvac"
+            ]
+          },
+          {
+            "id": "trades-process-3",
+            "text": "Measure, shape and assemble something accurately",
+            "careerIds": [
+              "carpentry",
+              "welder"
+            ]
+          },
+          {
+            "id": "trades-process-4",
+            "text": "Maintain a place or equipment before problems grow",
+            "careerIds": [
+              "general-maintenance",
+              "industrial-machinery-mechanic",
+              "automotive"
+            ]
+          },
+          {
+            "id": "trades-process-5",
+            "text": "Help prepare and build a structure with a team",
+            "careerIds": [
+              "construction-laborer",
+              "carpentry"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trades-place",
+        "prompt": "Where would you enjoy learning practical work?",
+        "options": [
+          {
+            "id": "trades-place-1",
+            "text": "A repair workshop with tools and equipment",
+            "careerIds": [
+              "automotive",
+              "welder",
+              "industrial-machinery-mechanic"
+            ]
+          },
+          {
+            "id": "trades-place-2",
+            "text": "Different homes and buildings that need service",
+            "careerIds": [
+              "electrician",
+              "plumbing",
+              "hvac",
+              "general-maintenance"
+            ]
+          },
+          {
+            "id": "trades-place-3",
+            "text": "A construction site where a structure takes shape",
+            "careerIds": [
+              "carpentry",
+              "construction-laborer",
+              "electrician",
+              "plumbing"
+            ]
+          },
+          {
+            "id": "trades-place-4",
+            "text": "A facility where equipment needs regular care",
+            "careerIds": [
+              "industrial-machinery-mechanic",
+              "general-maintenance",
+              "hvac"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trades-workday",
+        "prompt": "Which routines would you like to practice?",
+        "options": [
+          {
+            "id": "trades-workday-1",
+            "text": "Read drawings, measure carefully and check the result",
+            "careerIds": [
+              "electrician",
+              "plumbing",
+              "carpentry",
+              "welder"
+            ]
+          },
+          {
+            "id": "trades-workday-2",
+            "text": "Follow a diagnostic sequence and test a repair",
+            "careerIds": [
+              "hvac",
+              "automotive",
+              "industrial-machinery-mechanic",
+              "electrician"
+            ]
+          },
+          {
+            "id": "trades-workday-3",
+            "text": "Explain a problem and repair options to a customer",
+            "careerIds": [
+              "plumbing",
+              "hvac",
+              "automotive",
+              "general-maintenance"
+            ]
+          },
+          {
+            "id": "trades-workday-4",
+            "text": "Follow safety checks and coordinate physical tasks with a team",
+            "careerIds": [
+              "construction-laborer",
+              "carpentry",
+              "welder",
+              "industrial-machinery-mechanic"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which fault would you most enjoy tracing?",
+        "options": [
+          {
+            "text": "A circuit or electrical component that will not work",
+            "careerIds": [
+              "electrician"
+            ],
+            "id": "trades-refine-1-1"
+          },
+          {
+            "text": "Water flow, a leak, or a pipe connection",
+            "careerIds": [
+              "plumbing"
+            ],
+            "id": "trades-refine-1-2"
+          },
+          {
+            "text": "A heating, cooling, or air-flow problem",
+            "careerIds": [
+              "hvac"
+            ],
+            "id": "trades-refine-1-3"
+          },
+          {
+            "text": "An engine or production machine behaving strangely",
+            "careerIds": [
+              "automotive",
+              "industrial-machinery-mechanic"
+            ],
+            "id": "trades-refine-1-4"
+          },
+          {
+            "text": "A damaged structure, joint, or building fitting",
+            "careerIds": [
+              "carpentry",
+              "welder",
+              "general-maintenance",
+              "construction-laborer"
+            ],
+            "id": "trades-refine-1-5"
+          }
+        ],
+        "id": "trades-refine-1"
+      },
+      {
+        "prompt": "Which finished result would feel satisfying?",
+        "options": [
+          {
+            "text": "An electrical installation that passes the required checks",
+            "careerIds": [
+              "electrician"
+            ],
+            "id": "trades-refine-2-1"
+          },
+          {
+            "text": "A watertight pipe system or a working heating system",
+            "careerIds": [
+              "plumbing",
+              "hvac"
+            ],
+            "id": "trades-refine-2-2"
+          },
+          {
+            "text": "A well-built wooden structure or neatly fitted component",
+            "careerIds": [
+              "carpentry"
+            ],
+            "id": "trades-refine-2-3"
+          },
+          {
+            "text": "A strong metal joint or repaired machine",
+            "careerIds": [
+              "welder",
+              "automotive",
+              "industrial-machinery-mechanic"
+            ],
+            "id": "trades-refine-2-4"
+          },
+          {
+            "text": "A prepared site or a building kept in working condition",
+            "careerIds": [
+              "construction-laborer",
+              "general-maintenance"
+            ],
+            "id": "trades-refine-2-5"
+          }
+        ],
+        "id": "trades-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy learning to check?",
+        "options": [
+          {
+            "text": "Circuits, connections, isolation, and electrical drawings",
+            "careerIds": [
+              "electrician"
+            ],
+            "id": "trades-refine-3-1"
+          },
+          {
+            "text": "Pressure, seals, temperatures, and air or water flow",
+            "careerIds": [
+              "plumbing",
+              "hvac"
+            ],
+            "id": "trades-refine-3-2"
+          },
+          {
+            "text": "Measurements, alignment, and how pieces fit together",
+            "careerIds": [
+              "carpentry",
+              "welder",
+              "construction-laborer"
+            ],
+            "id": "trades-refine-3-3"
+          },
+          {
+            "text": "Wear, vibration, diagnostic readings, and maintenance records",
+            "careerIds": [
+              "automotive",
+              "industrial-machinery-mechanic"
+            ],
+            "id": "trades-refine-3-4"
+          },
+          {
+            "text": "A mix of smaller repairs across a building",
+            "careerIds": [
+              "general-maintenance"
+            ],
+            "id": "trades-refine-3-5"
+          }
+        ],
+        "id": "trades-refine-3"
+      },
+      {
+        "prompt": "Which safe introduction would you choose?",
+        "options": [
+          {
+            "text": "A low-voltage circuit demonstration with an instructor",
+            "careerIds": [
+              "electrician"
+            ],
+            "id": "trades-refine-4-1"
+          },
+          {
+            "text": "A supervised plumbing or heating-system demonstration",
+            "careerIds": [
+              "plumbing",
+              "hvac"
+            ],
+            "id": "trades-refine-4-2"
+          },
+          {
+            "text": "A woodworking or site-layout class",
+            "careerIds": [
+              "carpentry",
+              "construction-laborer"
+            ],
+            "id": "trades-refine-4-3"
+          },
+          {
+            "text": "A supervised welding or machine-maintenance demonstration",
+            "careerIds": [
+              "welder",
+              "industrial-machinery-mechanic",
+              "automotive"
+            ],
+            "id": "trades-refine-4-4"
+          },
+          {
+            "text": "A tour of a building-maintenance workshop",
+            "careerIds": [
+              "general-maintenance"
+            ],
+            "id": "trades-refine-4-5"
+          }
+        ],
+        "id": "trades-refine-4"
+      }
+    ],
+    "services": [
+      {
+        "id": "services-serve",
+        "prompt": "What would you enjoy helping people with?",
+        "options": [
+          {
+            "id": "services-serve-1",
+            "text": "A meal that tastes good and is prepared safely",
+            "careerIds": [
+              "chef",
+              "restaurant-cook",
+              "food-counter"
+            ]
+          },
+          {
+            "id": "services-serve-2",
+            "text": "A welcoming meal, event or customer experience",
+            "careerIds": [
+              "restaurant-server",
+              "restaurant-manager",
+              "food-counter"
+            ]
+          },
+          {
+            "id": "services-serve-3",
+            "text": "A hairstyle or appearance that feels right for them",
+            "careerIds": [
+              "hairdresser"
+            ]
+          },
+          {
+            "id": "services-serve-4",
+            "text": "A clean, cared-for indoor or outdoor place",
+            "careerIds": [
+              "janitor-cleaner",
+              "landscaping-worker",
+              "general-maintenance"
+            ]
+          },
+          {
+            "id": "services-serve-5",
+            "text": "Practical support during a health-care visit or emergency",
+            "careerIds": [
+              "dental-assisting",
+              "emt"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "services-make",
+        "prompt": "Which result sounds satisfying?",
+        "options": [
+          {
+            "id": "services-make-1",
+            "text": "Prepare and time several parts of a meal",
+            "careerIds": [
+              "restaurant-cook",
+              "chef",
+              "food-counter"
+            ]
+          },
+          {
+            "id": "services-make-2",
+            "text": "Help a busy service team work smoothly",
+            "careerIds": [
+              "restaurant-manager",
+              "restaurant-server",
+              "chef"
+            ]
+          },
+          {
+            "id": "services-make-3",
+            "text": "Use careful hands-on techniques for a person’s needs",
+            "careerIds": [
+              "hairdresser",
+              "dental-assisting"
+            ]
+          },
+          {
+            "id": "services-make-4",
+            "text": "Leave a space clean, safe and ready to use",
+            "careerIds": [
+              "janitor-cleaner",
+              "general-maintenance",
+              "landscaping-worker"
+            ]
+          },
+          {
+            "id": "services-make-5",
+            "text": "Help someone get appropriate care quickly",
+            "careerIds": [
+              "emt"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "services-people",
+        "prompt": "Which kind of teamwork interests you?",
+        "options": [
+          {
+            "id": "services-people-1",
+            "text": "Coordinate food preparation and service",
+            "careerIds": [
+              "restaurant-cook",
+              "chef",
+              "restaurant-server",
+              "restaurant-manager",
+              "food-counter"
+            ]
+          },
+          {
+            "id": "services-people-2",
+            "text": "Talk with a client about the result they want",
+            "careerIds": [
+              "hairdresser",
+              "landscaping-worker",
+              "general-maintenance"
+            ]
+          },
+          {
+            "id": "services-people-3",
+            "text": "Prepare tools and support another trained professional",
+            "careerIds": [
+              "dental-assisting",
+              "emt"
+            ]
+          },
+          {
+            "id": "services-people-4",
+            "text": "Keep shared spaces and equipment ready for others",
+            "careerIds": [
+              "janitor-cleaner",
+              "general-maintenance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "services-workday",
+        "prompt": "Which routines would you like to learn?",
+        "options": [
+          {
+            "id": "services-workday-1",
+            "text": "Stay organized while several orders or requests arrive",
+            "careerIds": [
+              "food-counter",
+              "restaurant-server",
+              "restaurant-cook",
+              "restaurant-manager"
+            ]
+          },
+          {
+            "id": "services-workday-2",
+            "text": "Practice hygiene, careful preparation and repeatable techniques",
+            "careerIds": [
+              "chef",
+              "hairdresser",
+              "dental-assisting"
+            ]
+          },
+          {
+            "id": "services-workday-3",
+            "text": "Follow a practical checklist and notice what needs attention",
+            "careerIds": [
+              "janitor-cleaner",
+              "landscaping-worker",
+              "general-maintenance"
+            ]
+          },
+          {
+            "id": "services-workday-4",
+            "text": "Use safety procedures and communicate clearly under pressure",
+            "careerIds": [
+              "emt",
+              "dental-assisting"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which everyday problem would you enjoy solving?",
+        "options": [
+          {
+            "text": "Prepare and serve food people enjoy",
+            "careerIds": [
+              "chef",
+              "restaurant-cook",
+              "food-counter",
+              "restaurant-server"
+            ],
+            "id": "services-refine-1-1"
+          },
+          {
+            "text": "Keep a restaurant team and service running smoothly",
+            "careerIds": [
+              "restaurant-manager"
+            ],
+            "id": "services-refine-1-2"
+          },
+          {
+            "text": "Help someone feel comfortable with their appearance",
+            "careerIds": [
+              "hairdresser"
+            ],
+            "id": "services-refine-1-3"
+          },
+          {
+            "text": "Keep a place clean, safe, and in good condition",
+            "careerIds": [
+              "general-maintenance",
+              "landscaping-worker",
+              "janitor-cleaner"
+            ],
+            "id": "services-refine-1-4"
+          },
+          {
+            "text": "Support someone during a clinical visit or emergency",
+            "careerIds": [
+              "dental-assisting",
+              "emt"
+            ],
+            "id": "services-refine-1-5"
+          }
+        ],
+        "id": "services-refine-1"
+      },
+      {
+        "prompt": "Which result would you enjoy producing?",
+        "options": [
+          {
+            "text": "A well-made meal or welcoming dining experience",
+            "careerIds": [
+              "chef",
+              "restaurant-cook",
+              "food-counter",
+              "restaurant-server"
+            ],
+            "id": "services-refine-2-1"
+          },
+          {
+            "text": "A well-organised shift and supported service team",
+            "careerIds": [
+              "restaurant-manager"
+            ],
+            "id": "services-refine-2-2"
+          },
+          {
+            "text": "A haircut or style that fits the client’s wishes",
+            "careerIds": [
+              "hairdresser"
+            ],
+            "id": "services-refine-2-3"
+          },
+          {
+            "text": "A maintained building, garden, or clean public space",
+            "careerIds": [
+              "general-maintenance",
+              "landscaping-worker",
+              "janitor-cleaner"
+            ],
+            "id": "services-refine-2-4"
+          },
+          {
+            "text": "Prepared clinical equipment or safe emergency support",
+            "careerIds": [
+              "dental-assisting",
+              "emt"
+            ],
+            "id": "services-refine-2-5"
+          }
+        ],
+        "id": "services-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "text": "Ingredients, timing, orders, and food hygiene",
+            "careerIds": [
+              "chef",
+              "restaurant-cook",
+              "food-counter",
+              "restaurant-server"
+            ],
+            "id": "services-refine-3-1"
+          },
+          {
+            "text": "Staffing, supplies, and how customers are treated",
+            "careerIds": [
+              "restaurant-manager"
+            ],
+            "id": "services-refine-3-2"
+          },
+          {
+            "text": "Consultation, technique, and hygienic tools",
+            "careerIds": [
+              "hairdresser"
+            ],
+            "id": "services-refine-3-3"
+          },
+          {
+            "text": "Repairs, cleaning standards, and outdoor maintenance",
+            "careerIds": [
+              "general-maintenance",
+              "landscaping-worker",
+              "janitor-cleaner"
+            ],
+            "id": "services-refine-3-4"
+          },
+          {
+            "text": "Patient needs, equipment, and safety procedures",
+            "careerIds": [
+              "dental-assisting",
+              "emt"
+            ],
+            "id": "services-refine-3-5"
+          }
+        ],
+        "id": "services-refine-3"
+      },
+      {
+        "prompt": "Which supervised introduction would you choose?",
+        "options": [
+          {
+            "text": "A food preparation or hospitality event",
+            "careerIds": [
+              "chef",
+              "restaurant-cook",
+              "food-counter",
+              "restaurant-server",
+              "restaurant-manager"
+            ],
+            "id": "services-refine-4-1"
+          },
+          {
+            "text": "A salon demonstration and client consultation",
+            "careerIds": [
+              "hairdresser"
+            ],
+            "id": "services-refine-4-2"
+          },
+          {
+            "text": "A grounds or facilities service project",
+            "careerIds": [
+              "general-maintenance",
+              "landscaping-worker",
+              "janitor-cleaner"
+            ],
+            "id": "services-refine-4-3"
+          },
+          {
+            "text": "A first-aid class or approved clinic observation",
+            "careerIds": [
+              "emt",
+              "dental-assisting"
+            ],
+            "id": "services-refine-4-4"
+          }
+        ],
+        "id": "services-refine-4"
+      }
+    ],
+    "education": [
+      {
+        "id": "education-help",
+        "prompt": "What would you enjoy helping someone learn?",
+        "options": [
+          {
+            "id": "education-help-1",
+            "text": "Early language, play and everyday routines",
+            "careerIds": [
+              "preschool-teacher",
+              "childcare-worker",
+              "elementary-teacher"
+            ]
+          },
+          {
+            "id": "education-help-2",
+            "text": "School subjects and ways to solve problems",
+            "careerIds": [
+              "teaching",
+              "high-school-teacher",
+              "elementary-teacher"
+            ]
+          },
+          {
+            "id": "education-help-3",
+            "text": "How to find information and learn independently",
+            "careerIds": [
+              "librarian",
+              "teaching",
+              "high-school-teacher"
+            ]
+          },
+          {
+            "id": "education-help-4",
+            "text": "How to understand a challenge and find support",
+            "careerIds": [
+              "school-counselor",
+              "school-psychology"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "education-learners",
+        "prompt": "Who would you like to learn alongside?",
+        "options": [
+          {
+            "id": "education-learners-1",
+            "text": "Young children and their families",
+            "careerIds": [
+              "preschool-teacher",
+              "childcare-worker",
+              "elementary-teacher"
+            ]
+          },
+          {
+            "id": "education-learners-2",
+            "text": "Students exploring a range of school subjects",
+            "careerIds": [
+              "elementary-teacher",
+              "teaching"
+            ]
+          },
+          {
+            "id": "education-learners-3",
+            "text": "Teenagers exploring a subject and their next steps",
+            "careerIds": [
+              "high-school-teacher",
+              "school-counselor"
+            ]
+          },
+          {
+            "id": "education-learners-4",
+            "text": "A community of different ages and interests",
+            "careerIds": [
+              "librarian",
+              "social-research"
+            ]
+          },
+          {
+            "id": "education-learners-5",
+            "text": "Students who need individual learning or wellbeing support",
+            "careerIds": [
+              "school-psychology",
+              "school-counselor"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "education-approach",
+        "prompt": "Which way of supporting learning interests you?",
+        "options": [
+          {
+            "id": "education-approach-1",
+            "text": "Explain an idea in several different ways",
+            "careerIds": [
+              "teaching",
+              "high-school-teacher",
+              "elementary-teacher"
+            ]
+          },
+          {
+            "id": "education-approach-2",
+            "text": "Create activities and routines that encourage growth",
+            "careerIds": [
+              "preschool-teacher",
+              "childcare-worker",
+              "elementary-teacher"
+            ]
+          },
+          {
+            "id": "education-approach-3",
+            "text": "Listen, gather information and plan individual support",
+            "careerIds": [
+              "school-psychology",
+              "school-counselor"
+            ]
+          },
+          {
+            "id": "education-approach-4",
+            "text": "Find useful resources and make information easier to access",
+            "careerIds": [
+              "librarian",
+              "social-research"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "education-workday",
+        "prompt": "Which routines would you like to try?",
+        "options": [
+          {
+            "id": "education-workday-1",
+            "text": "Plan an activity and adapt it when learners need something different",
+            "careerIds": [
+              "teaching",
+              "elementary-teacher",
+              "high-school-teacher",
+              "preschool-teacher"
+            ]
+          },
+          {
+            "id": "education-workday-2",
+            "text": "Notice small changes in a child’s learning and wellbeing",
+            "careerIds": [
+              "childcare-worker",
+              "preschool-teacher",
+              "elementary-teacher"
+            ]
+          },
+          {
+            "id": "education-workday-3",
+            "text": "Meet with a student and work with families or other staff",
+            "careerIds": [
+              "school-counselor",
+              "school-psychology"
+            ]
+          },
+          {
+            "id": "education-workday-4",
+            "text": "Organize resources and answer people’s questions",
+            "careerIds": [
+              "librarian"
+            ]
+          },
+          {
+            "id": "education-workday-5",
+            "text": "Collect information about how people learn or interact",
+            "careerIds": [
+              "social-research",
+              "school-psychology"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which learning problem would you enjoy exploring?",
+        "options": [
+          {
+            "text": "Help young children learn through play and routines",
+            "careerIds": [
+              "preschool-teacher",
+              "childcare-worker",
+              "elementary-teacher"
+            ],
+            "id": "education-refine-1-1"
+          },
+          {
+            "text": "Help older students understand a subject in depth",
+            "careerIds": [
+              "high-school-teacher",
+              "teaching"
+            ],
+            "id": "education-refine-1-2"
+          },
+          {
+            "text": "Understand a learner’s needs or support a difficult decision",
+            "careerIds": [
+              "school-psychology",
+              "school-counselor"
+            ],
+            "id": "education-refine-1-3"
+          },
+          {
+            "text": "Help people find information or understand communities",
+            "careerIds": [
+              "librarian",
+              "social-research"
+            ],
+            "id": "education-refine-1-4"
+          }
+        ],
+        "id": "education-refine-1"
+      },
+      {
+        "prompt": "Which result would feel most satisfying?",
+        "options": [
+          {
+            "text": "A child gaining a skill or feeling secure",
+            "careerIds": [
+              "preschool-teacher",
+              "childcare-worker",
+              "elementary-teacher"
+            ],
+            "id": "education-refine-2-1"
+          },
+          {
+            "text": "A lesson that makes a difficult idea click",
+            "careerIds": [
+              "high-school-teacher",
+              "teaching",
+              "elementary-teacher"
+            ],
+            "id": "education-refine-2-2"
+          },
+          {
+            "text": "A thoughtful support plan for a student",
+            "careerIds": [
+              "school-psychology",
+              "school-counselor"
+            ],
+            "id": "education-refine-2-3"
+          },
+          {
+            "text": "An information resource or study that helps a community",
+            "careerIds": [
+              "librarian",
+              "social-research"
+            ],
+            "id": "education-refine-2-4"
+          }
+        ],
+        "id": "education-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "text": "Children’s needs, safe routines, and engaging activities",
+            "careerIds": [
+              "preschool-teacher",
+              "childcare-worker",
+              "elementary-teacher"
+            ],
+            "id": "education-refine-3-1"
+          },
+          {
+            "text": "Whether examples and feedback help a learner understand",
+            "careerIds": [
+              "high-school-teacher",
+              "teaching",
+              "elementary-teacher"
+            ],
+            "id": "education-refine-3-2"
+          },
+          {
+            "text": "Evidence, individual needs, and appropriate student support",
+            "careerIds": [
+              "school-psychology",
+              "school-counselor"
+            ],
+            "id": "education-refine-3-3"
+          },
+          {
+            "text": "Reliable sources, organisation, and research methods",
+            "careerIds": [
+              "librarian",
+              "social-research"
+            ],
+            "id": "education-refine-3-4"
+          }
+        ],
+        "id": "education-refine-3"
+      },
+      {
+        "prompt": "Which supervised introduction would you choose?",
+        "options": [
+          {
+            "text": "Help with a play-based activity or primary-school lesson",
+            "careerIds": [
+              "preschool-teacher",
+              "childcare-worker",
+              "elementary-teacher"
+            ],
+            "id": "education-refine-4-1"
+          },
+          {
+            "text": "Tutor an older student or make a subject explanation",
+            "careerIds": [
+              "high-school-teacher",
+              "teaching"
+            ],
+            "id": "education-refine-4-2"
+          },
+          {
+            "text": "Observe an approved student-support programme",
+            "careerIds": [
+              "school-psychology",
+              "school-counselor"
+            ],
+            "id": "education-refine-4-3"
+          },
+          {
+            "text": "Help at a library or explore a community research question",
+            "careerIds": [
+              "librarian",
+              "social-research"
+            ],
+            "id": "education-refine-4-4"
+          }
+        ],
+        "id": "education-refine-4"
+      }
+    ],
+    "public-safety": [
+      {
+        "id": "public-safety-purpose",
+        "prompt": "Which kind of safety work draws you in?",
+        "options": [
+          {
+            "id": "public-safety-purpose-1",
+            "text": "Provide trained care when someone has a medical emergency",
+            "careerIds": [
+              "emt",
+              "firefighter"
+            ]
+          },
+          {
+            "id": "public-safety-purpose-2",
+            "text": "Respond to fires, rescue needs or dangerous conditions",
+            "careerIds": [
+              "firefighter"
+            ]
+          },
+          {
+            "id": "public-safety-purpose-3",
+            "text": "Help keep public spaces safe and investigate incidents",
+            "careerIds": [
+              "police",
+              "security-guard"
+            ]
+          },
+          {
+            "id": "public-safety-purpose-4",
+            "text": "Notice risks early and help prevent harm",
+            "careerIds": [
+              "firefighter",
+              "police",
+              "security-guard"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public-safety-action",
+        "prompt": "What would you like to learn to do?",
+        "options": [
+          {
+            "id": "public-safety-action-1",
+            "text": "Assess a situation and provide care within my training",
+            "careerIds": [
+              "emt",
+              "firefighter"
+            ]
+          },
+          {
+            "id": "public-safety-action-2",
+            "text": "Use equipment and coordinate a physical response",
+            "careerIds": [
+              "firefighter",
+              "police"
+            ]
+          },
+          {
+            "id": "public-safety-action-3",
+            "text": "Observe carefully and record what happened",
+            "careerIds": [
+              "police",
+              "security-guard",
+              "emt"
+            ]
+          },
+          {
+            "id": "public-safety-action-4",
+            "text": "Speak calmly with someone who is worried or upset",
+            "careerIds": [
+              "emt",
+              "police",
+              "security-guard"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public-safety-team",
+        "prompt": "Which kind of teamwork interests you?",
+        "options": [
+          {
+            "id": "public-safety-team-1",
+            "text": "A medical response team helping a patient reach care",
+            "careerIds": [
+              "emt",
+              "firefighter"
+            ]
+          },
+          {
+            "id": "public-safety-team-2",
+            "text": "A response crew practicing equipment and rescue procedures",
+            "careerIds": [
+              "firefighter"
+            ]
+          },
+          {
+            "id": "public-safety-team-3",
+            "text": "Colleagues responding to calls and following up on incidents",
+            "careerIds": [
+              "police"
+            ]
+          },
+          {
+            "id": "public-safety-team-4",
+            "text": "A team monitoring a site and communicating concerns",
+            "careerIds": [
+              "security-guard",
+              "police"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public-safety-workday",
+        "prompt": "Which routines would you like to learn?",
+        "options": [
+          {
+            "id": "public-safety-workday-1",
+            "text": "Practice procedures repeatedly so the team is ready",
+            "careerIds": [
+              "emt",
+              "firefighter"
+            ]
+          },
+          {
+            "id": "public-safety-workday-2",
+            "text": "Document decisions and explain events clearly",
+            "careerIds": [
+              "police",
+              "emt",
+              "security-guard"
+            ]
+          },
+          {
+            "id": "public-safety-workday-3",
+            "text": "Notice changes in a place and respond according to a plan",
+            "careerIds": [
+              "security-guard",
+              "firefighter",
+              "police"
+            ]
+          },
+          {
+            "id": "public-safety-workday-4",
+            "text": "Support people during a difficult or urgent moment",
+            "careerIds": [
+              "emt",
+              "police",
+              "firefighter"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which responsibility would you want to learn about?",
+        "options": [
+          {
+            "text": "Provide immediate medical care in an emergency",
+            "careerIds": [
+              "emt"
+            ],
+            "id": "public-safety-refine-1-1"
+          },
+          {
+            "text": "Investigate incidents and uphold the law",
+            "careerIds": [
+              "police"
+            ],
+            "id": "public-safety-refine-1-2"
+          },
+          {
+            "text": "Respond to fires and rescue people",
+            "careerIds": [
+              "firefighter"
+            ],
+            "id": "public-safety-refine-1-3"
+          },
+          {
+            "text": "Prevent problems by observing and protecting a site",
+            "careerIds": [
+              "security-guard"
+            ],
+            "id": "public-safety-refine-1-4"
+          }
+        ],
+        "id": "public-safety-refine-1"
+      },
+      {
+        "prompt": "Which result would feel most worthwhile?",
+        "options": [
+          {
+            "text": "A patient safely assessed and taken to further care",
+            "careerIds": [
+              "emt"
+            ],
+            "id": "public-safety-refine-2-1"
+          },
+          {
+            "text": "An incident carefully investigated and documented",
+            "careerIds": [
+              "police"
+            ],
+            "id": "public-safety-refine-2-2"
+          },
+          {
+            "text": "People brought safely out of a hazardous situation",
+            "careerIds": [
+              "firefighter"
+            ],
+            "id": "public-safety-refine-2-3"
+          },
+          {
+            "text": "A secure location and a calmly handled concern",
+            "careerIds": [
+              "security-guard"
+            ],
+            "id": "public-safety-refine-2-4"
+          }
+        ],
+        "id": "public-safety-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy learning to check?",
+        "options": [
+          {
+            "text": "Patient signs and approved emergency procedures",
+            "careerIds": [
+              "emt"
+            ],
+            "id": "public-safety-refine-3-1"
+          },
+          {
+            "text": "Evidence, statements, and legal procedures",
+            "careerIds": [
+              "police"
+            ],
+            "id": "public-safety-refine-3-2"
+          },
+          {
+            "text": "Equipment, hazards, and team response plans",
+            "careerIds": [
+              "firefighter"
+            ],
+            "id": "public-safety-refine-3-3"
+          },
+          {
+            "text": "Access, unusual activity, and incident records",
+            "careerIds": [
+              "security-guard"
+            ],
+            "id": "public-safety-refine-3-4"
+          }
+        ],
+        "id": "public-safety-refine-3"
+      },
+      {
+        "prompt": "Which safe introduction would you choose?",
+        "options": [
+          {
+            "text": "A first-aid course and approved emergency-care visit",
+            "careerIds": [
+              "emt"
+            ],
+            "id": "public-safety-refine-4-1"
+          },
+          {
+            "text": "A public police careers or community-safety session",
+            "careerIds": [
+              "police"
+            ],
+            "id": "public-safety-refine-4-2"
+          },
+          {
+            "text": "A fire-station visit and public safety demonstration",
+            "careerIds": [
+              "firefighter"
+            ],
+            "id": "public-safety-refine-4-3"
+          },
+          {
+            "text": "An introduction to site safety and de-escalation",
+            "careerIds": [
+              "security-guard"
+            ],
+            "id": "public-safety-refine-4-4"
+          }
+        ],
+        "id": "public-safety-refine-4"
+      }
+    ],
+    "transportation-production": [
+      {
+        "id": "transportation-production-move",
+        "prompt": "What would you enjoy helping make happen?",
+        "options": [
+          {
+            "id": "transportation-production-move-1",
+            "text": "Deliver goods safely to the right place",
+            "careerIds": [
+              "truck-driver",
+              "delivery-driver",
+              "logistics"
+            ]
+          },
+          {
+            "id": "transportation-production-move-2",
+            "text": "Keep stock and warehouse materials organized",
+            "careerIds": [
+              "stock-order-filler",
+              "warehouse-material-mover",
+              "logistics"
+            ]
+          },
+          {
+            "id": "transportation-production-move-3",
+            "text": "Make, join or shape a physical product",
+            "careerIds": [
+              "welder",
+              "industrial-engineering"
+            ]
+          },
+          {
+            "id": "transportation-production-move-4",
+            "text": "Keep production equipment working reliably",
+            "careerIds": [
+              "industrial-machinery-mechanic",
+              "general-maintenance",
+              "industrial-engineering"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "transportation-production-problem",
+        "prompt": "Which problem would you like to solve?",
+        "options": [
+          {
+            "id": "transportation-production-problem-1",
+            "text": "A route or delivery plan needs to change",
+            "careerIds": [
+              "logistics",
+              "truck-driver",
+              "delivery-driver"
+            ]
+          },
+          {
+            "id": "transportation-production-problem-2",
+            "text": "The right item is not where the team expects it",
+            "careerIds": [
+              "stock-order-filler",
+              "warehouse-material-mover",
+              "logistics"
+            ]
+          },
+          {
+            "id": "transportation-production-problem-3",
+            "text": "A process takes too long or wastes materials",
+            "careerIds": [
+              "industrial-engineering",
+              "logistics"
+            ]
+          },
+          {
+            "id": "transportation-production-problem-4",
+            "text": "A machine is not running as it should",
+            "careerIds": [
+              "industrial-machinery-mechanic",
+              "general-maintenance"
+            ]
+          },
+          {
+            "id": "transportation-production-problem-5",
+            "text": "A joint or finished piece needs careful improvement",
+            "careerIds": [
+              "welder"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "transportation-production-setting",
+        "prompt": "Where would you enjoy practical work?",
+        "options": [
+          {
+            "id": "transportation-production-setting-1",
+            "text": "On the road with a planned route and safety checks",
+            "careerIds": [
+              "truck-driver",
+              "delivery-driver"
+            ]
+          },
+          {
+            "id": "transportation-production-setting-2",
+            "text": "A warehouse where materials move through a team",
+            "careerIds": [
+              "warehouse-material-mover",
+              "stock-order-filler",
+              "logistics"
+            ]
+          },
+          {
+            "id": "transportation-production-setting-3",
+            "text": "A workshop or production facility",
+            "careerIds": [
+              "welder",
+              "industrial-machinery-mechanic",
+              "industrial-engineering"
+            ]
+          },
+          {
+            "id": "transportation-production-setting-4",
+            "text": "Different parts of a facility that need maintenance",
+            "careerIds": [
+              "general-maintenance",
+              "industrial-machinery-mechanic"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "transportation-production-workday",
+        "prompt": "Which routines would you like to learn?",
+        "options": [
+          {
+            "id": "transportation-production-workday-1",
+            "text": "Check a vehicle, route and delivery information",
+            "careerIds": [
+              "truck-driver",
+              "delivery-driver",
+              "logistics"
+            ]
+          },
+          {
+            "id": "transportation-production-workday-2",
+            "text": "Track items and move them carefully and accurately",
+            "careerIds": [
+              "stock-order-filler",
+              "warehouse-material-mover"
+            ]
+          },
+          {
+            "id": "transportation-production-workday-3",
+            "text": "Measure output and improve how a process runs",
+            "careerIds": [
+              "industrial-engineering",
+              "logistics"
+            ]
+          },
+          {
+            "id": "transportation-production-workday-4",
+            "text": "Follow a technical procedure and check the finished result",
+            "careerIds": [
+              "welder",
+              "industrial-machinery-mechanic",
+              "general-maintenance"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which problem would you enjoy solving?",
+        "options": [
+          {
+            "text": "Get goods where they need to be efficiently",
+            "careerIds": [
+              "logistics",
+              "truck-driver",
+              "delivery-driver"
+            ],
+            "id": "transportation-production-refine-1-1"
+          },
+          {
+            "text": "Keep stock and materials in the right place",
+            "careerIds": [
+              "warehouse-material-mover",
+              "stock-order-filler"
+            ],
+            "id": "transportation-production-refine-1-2"
+          },
+          {
+            "text": "Make production work more smoothly",
+            "careerIds": [
+              "industrial-engineering"
+            ],
+            "id": "transportation-production-refine-1-3"
+          },
+          {
+            "text": "Keep machinery and equipment working",
+            "careerIds": [
+              "industrial-machinery-mechanic",
+              "general-maintenance",
+              "welder"
+            ],
+            "id": "transportation-production-refine-1-4"
+          }
+        ],
+        "id": "transportation-production-refine-1"
+      },
+      {
+        "prompt": "Which result would feel satisfying?",
+        "options": [
+          {
+            "text": "A reliable delivery plan or completed route",
+            "careerIds": [
+              "logistics",
+              "truck-driver",
+              "delivery-driver"
+            ],
+            "id": "transportation-production-refine-2-1"
+          },
+          {
+            "text": "Correctly stored goods and accurately filled orders",
+            "careerIds": [
+              "warehouse-material-mover",
+              "stock-order-filler"
+            ],
+            "id": "transportation-production-refine-2-2"
+          },
+          {
+            "text": "A production process with less delay or waste",
+            "careerIds": [
+              "industrial-engineering"
+            ],
+            "id": "transportation-production-refine-2-3"
+          },
+          {
+            "text": "A sound repair or strong fabricated component",
+            "careerIds": [
+              "industrial-machinery-mechanic",
+              "general-maintenance",
+              "welder"
+            ],
+            "id": "transportation-production-refine-2-4"
+          }
+        ],
+        "id": "transportation-production-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "text": "Routes, timing, regulations, and delivery records",
+            "careerIds": [
+              "logistics",
+              "truck-driver",
+              "delivery-driver"
+            ],
+            "id": "transportation-production-refine-3-1"
+          },
+          {
+            "text": "Labels, stock counts, and safe handling",
+            "careerIds": [
+              "warehouse-material-mover",
+              "stock-order-filler"
+            ],
+            "id": "transportation-production-refine-3-2"
+          },
+          {
+            "text": "Capacity, quality, and where a process slows down",
+            "careerIds": [
+              "industrial-engineering"
+            ],
+            "id": "transportation-production-refine-3-3"
+          },
+          {
+            "text": "Wear, alignment, joints, and maintenance procedures",
+            "careerIds": [
+              "industrial-machinery-mechanic",
+              "general-maintenance",
+              "welder"
+            ],
+            "id": "transportation-production-refine-3-4"
+          }
+        ],
+        "id": "transportation-production-refine-3"
+      },
+      {
+        "prompt": "Which safe introduction would you choose?",
+        "options": [
+          {
+            "text": "Plan a delivery route or observe a distribution team",
+            "careerIds": [
+              "logistics",
+              "truck-driver",
+              "delivery-driver"
+            ],
+            "id": "transportation-production-refine-4-1"
+          },
+          {
+            "text": "Help organise supplies using a stock system",
+            "careerIds": [
+              "warehouse-material-mover",
+              "stock-order-filler"
+            ],
+            "id": "transportation-production-refine-4-2"
+          },
+          {
+            "text": "Measure and improve a small production process",
+            "careerIds": [
+              "industrial-engineering"
+            ],
+            "id": "transportation-production-refine-4-3"
+          },
+          {
+            "text": "Watch a supervised repair or welding demonstration",
+            "careerIds": [
+              "industrial-machinery-mechanic",
+              "general-maintenance",
+              "welder"
+            ],
+            "id": "transportation-production-refine-4-4"
+          }
+        ],
+        "id": "transportation-production-refine-4"
+      }
+    ],
+    "sales-office": [
+      {
+        "id": "sales-office-help",
+        "prompt": "How would you enjoy helping people?",
+        "options": [
+          {
+            "id": "sales-office-help-1",
+            "text": "Understand what they need and explain useful options",
+            "careerIds": [
+              "retail-sales",
+              "insurance-sales-agent",
+              "real-estate-agent"
+            ]
+          },
+          {
+            "id": "sales-office-help-2",
+            "text": "Resolve a question or a problem with a service",
+            "careerIds": [
+              "customer-service",
+              "receptionist"
+            ]
+          },
+          {
+            "id": "sales-office-help-3",
+            "text": "Arrange appointments, information and daily details",
+            "careerIds": [
+              "administrative-assistant",
+              "receptionist",
+              "office-clerk"
+            ]
+          },
+          {
+            "id": "sales-office-help-4",
+            "text": "Keep payments and financial records accurate",
+            "careerIds": [
+              "cashier",
+              "bookkeeping-clerk",
+              "office-clerk"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sales-office-problem",
+        "prompt": "Which situation would you enjoy working through?",
+        "options": [
+          {
+            "id": "sales-office-problem-1",
+            "text": "Someone needs to compare products or services",
+            "careerIds": [
+              "retail-sales",
+              "insurance-sales-agent",
+              "real-estate-agent"
+            ]
+          },
+          {
+            "id": "sales-office-problem-2",
+            "text": "A customer is frustrated and needs a clear next step",
+            "careerIds": [
+              "customer-service",
+              "receptionist",
+              "retail-sales"
+            ]
+          },
+          {
+            "id": "sales-office-problem-3",
+            "text": "Several requests and appointments need coordinating",
+            "careerIds": [
+              "administrative-assistant",
+              "receptionist",
+              "office-clerk"
+            ]
+          },
+          {
+            "id": "sales-office-problem-4",
+            "text": "A payment or record needs checking",
+            "careerIds": [
+              "cashier",
+              "bookkeeping-clerk",
+              "office-clerk"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sales-office-result",
+        "prompt": "Which result would feel satisfying?",
+        "options": [
+          {
+            "id": "sales-office-result-1",
+            "text": "A person makes a well-informed purchase or agreement",
+            "careerIds": [
+              "retail-sales",
+              "insurance-sales-agent",
+              "real-estate-agent"
+            ]
+          },
+          {
+            "id": "sales-office-result-2",
+            "text": "Someone leaves with their question answered",
+            "careerIds": [
+              "customer-service",
+              "receptionist"
+            ]
+          },
+          {
+            "id": "sales-office-result-3",
+            "text": "A team has the information it needs when it needs it",
+            "careerIds": [
+              "administrative-assistant",
+              "office-clerk",
+              "receptionist"
+            ]
+          },
+          {
+            "id": "sales-office-result-4",
+            "text": "The numbers, transactions and records reconcile",
+            "careerIds": [
+              "bookkeeping-clerk",
+              "cashier"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sales-office-workday",
+        "prompt": "Which routines would you like to learn?",
+        "options": [
+          {
+            "id": "sales-office-workday-1",
+            "text": "Listen carefully and explain options in everyday language",
+            "careerIds": [
+              "retail-sales",
+              "customer-service",
+              "insurance-sales-agent",
+              "real-estate-agent"
+            ]
+          },
+          {
+            "id": "sales-office-workday-2",
+            "text": "Follow up until a request or issue is resolved",
+            "careerIds": [
+              "customer-service",
+              "administrative-assistant",
+              "insurance-sales-agent"
+            ]
+          },
+          {
+            "id": "sales-office-workday-3",
+            "text": "Switch between requests while keeping clear records",
+            "careerIds": [
+              "receptionist",
+              "office-clerk",
+              "administrative-assistant"
+            ]
+          },
+          {
+            "id": "sales-office-workday-4",
+            "text": "Check details and use payment or record systems accurately",
+            "careerIds": [
+              "cashier",
+              "bookkeeping-clerk",
+              "office-clerk"
+            ]
+          }
+        ]
+      },
+      {
+        "prompt": "Which problem would you enjoy helping with?",
+        "options": [
+          {
+            "text": "Help a customer find a useful everyday product",
+            "careerIds": [
+              "retail-sales",
+              "cashier"
+            ],
+            "id": "sales-office-refine-1-1"
+          },
+          {
+            "text": "Resolve a customer question or service problem",
+            "careerIds": [
+              "customer-service"
+            ],
+            "id": "sales-office-refine-1-2"
+          },
+          {
+            "text": "Keep an office or appointment system running smoothly",
+            "careerIds": [
+              "office-clerk",
+              "administrative-assistant",
+              "receptionist"
+            ],
+            "id": "sales-office-refine-1-3"
+          },
+          {
+            "text": "Make financial records accurate",
+            "careerIds": [
+              "bookkeeping-clerk"
+            ],
+            "id": "sales-office-refine-1-4"
+          },
+          {
+            "text": "Help someone compare a home or insurance decision",
+            "careerIds": [
+              "real-estate-agent",
+              "insurance-sales-agent"
+            ],
+            "id": "sales-office-refine-1-5"
+          }
+        ],
+        "id": "sales-office-refine-1"
+      },
+      {
+        "prompt": "Which result would feel satisfying?",
+        "options": [
+          {
+            "text": "A customer making a suitable purchase",
+            "careerIds": [
+              "retail-sales",
+              "cashier"
+            ],
+            "id": "sales-office-refine-2-1"
+          },
+          {
+            "text": "A resolved concern and a clear next step",
+            "careerIds": [
+              "customer-service"
+            ],
+            "id": "sales-office-refine-2-2"
+          },
+          {
+            "text": "An organised schedule and prepared information",
+            "careerIds": [
+              "office-clerk",
+              "administrative-assistant",
+              "receptionist"
+            ],
+            "id": "sales-office-refine-2-3"
+          },
+          {
+            "text": "Balanced records and a corrected discrepancy",
+            "careerIds": [
+              "bookkeeping-clerk"
+            ],
+            "id": "sales-office-refine-2-4"
+          },
+          {
+            "text": "A client understanding a property or insurance option",
+            "careerIds": [
+              "real-estate-agent",
+              "insurance-sales-agent"
+            ],
+            "id": "sales-office-refine-2-5"
+          }
+        ],
+        "id": "sales-office-refine-2"
+      },
+      {
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "text": "Product information, prices, and payments",
+            "careerIds": [
+              "retail-sales",
+              "cashier"
+            ],
+            "id": "sales-office-refine-3-1"
+          },
+          {
+            "text": "Service history and what a customer needs",
+            "careerIds": [
+              "customer-service"
+            ],
+            "id": "sales-office-refine-3-2"
+          },
+          {
+            "text": "Appointments, messages, and document accuracy",
+            "careerIds": [
+              "office-clerk",
+              "administrative-assistant",
+              "receptionist"
+            ],
+            "id": "sales-office-refine-3-3"
+          },
+          {
+            "text": "Transactions, categories, and reconciliations",
+            "careerIds": [
+              "bookkeeping-clerk"
+            ],
+            "id": "sales-office-refine-3-4"
+          },
+          {
+            "text": "Client needs, contract terms, and required disclosures",
+            "careerIds": [
+              "real-estate-agent",
+              "insurance-sales-agent"
+            ],
+            "id": "sales-office-refine-3-5"
+          }
+        ],
+        "id": "sales-office-refine-3"
+      },
+      {
+        "prompt": "Which introduction would you choose?",
+        "options": [
+          {
+            "text": "Help at a shop or a school sales event",
+            "careerIds": [
+              "retail-sales",
+              "cashier"
+            ],
+            "id": "sales-office-refine-4-1"
+          },
+          {
+            "text": "Practise explaining and resolving a service question",
+            "careerIds": [
+              "customer-service"
+            ],
+            "id": "sales-office-refine-4-2"
+          },
+          {
+            "text": "Organise an event schedule and its communications",
+            "careerIds": [
+              "office-clerk",
+              "administrative-assistant",
+              "receptionist"
+            ],
+            "id": "sales-office-refine-4-3"
+          },
+          {
+            "text": "Keep a small project’s financial records",
+            "careerIds": [
+              "bookkeeping-clerk"
+            ],
+            "id": "sales-office-refine-4-4"
+          },
+          {
+            "text": "Compare example property or insurance information",
+            "careerIds": [
+              "real-estate-agent",
+              "insurance-sales-agent"
+            ],
+            "id": "sales-office-refine-4-5"
+          }
+        ],
+        "id": "sales-office-refine-4"
+      }
+    ]
+  },
+  "calibrationRelease": "0.20.0",
+  "pathwayProfileQuestions": [
+    {
+      "id": "field-profile-creative-1",
+      "family": "creative",
+      "facet": "activity",
+      "prompt": "Turn an original idea into a piece an audience can experience.",
+      "summary": "Creating original work",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-technology-1",
+      "family": "technology",
+      "facet": "activity",
+      "prompt": "Build or improve a digital tool that solves a useful problem.",
+      "summary": "Building useful digital tools",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-health-1",
+      "family": "health",
+      "facet": "activity",
+      "prompt": "Investigate a health concern and explain ways to help.",
+      "summary": "Investigating health concerns",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-business-1",
+      "family": "business",
+      "facet": "activity",
+      "prompt": "Compare costs and evidence before recommending a business decision.",
+      "summary": "Evaluating business decisions",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-science-1",
+      "family": "science",
+      "facet": "activity",
+      "prompt": "Gather measurements and compare them with a possible explanation.",
+      "summary": "Investigating questions with evidence",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-building-1",
+      "family": "building",
+      "facet": "activity",
+      "prompt": "Design a structure or device before it is made.",
+      "summary": "Designing things before they are built",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-trades-1",
+      "family": "trades",
+      "facet": "activity",
+      "prompt": "Install or repair a physical system so it works properly.",
+      "summary": "Installing or repairing physical systems",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-services-1",
+      "family": "services",
+      "facet": "activity",
+      "prompt": "Prepare an everyday service so it feels useful and welcoming.",
+      "summary": "Delivering a well-prepared service",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-education-1",
+      "family": "education",
+      "facet": "activity",
+      "prompt": "Explain an idea in a different way when someone does not understand it.",
+      "summary": "Helping people understand ideas",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-public-safety-1",
+      "family": "public-safety",
+      "facet": "activity",
+      "prompt": "Practise an organized response to an urgent situation.",
+      "summary": "Preparing for urgent situations",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-transportation-production-1",
+      "family": "transportation-production",
+      "facet": "activity",
+      "prompt": "Coordinate materials and equipment so a practical workflow runs smoothly.",
+      "summary": "Keeping materials and work moving",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-sales-office-1",
+      "family": "sales-office",
+      "facet": "activity",
+      "prompt": "Help someone resolve a service question or compare useful options.",
+      "summary": "Resolving service questions",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-creative-2",
+      "family": "creative",
+      "facet": "setting",
+      "prompt": "Try several drafts and improve one after specific feedback.",
+      "summary": "Revising creative ideas",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-technology-2",
+      "family": "technology",
+      "facet": "setting",
+      "prompt": "Spend time tracing why software or a device behaves unexpectedly.",
+      "summary": "Troubleshooting digital systems",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-health-2",
+      "family": "health",
+      "facet": "setting",
+      "prompt": "Help someone understand what is happening during a care visit.",
+      "summary": "Working directly with people receiving care",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-business-2",
+      "family": "business",
+      "facet": "setting",
+      "prompt": "Discuss different needs and work toward a practical agreement.",
+      "summary": "Working through decisions with people",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-science-2",
+      "family": "science",
+      "facet": "setting",
+      "prompt": "Stay with an investigation when the answer is still uncertain.",
+      "summary": "Exploring unanswered questions",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-building-2",
+      "family": "building",
+      "facet": "setting",
+      "prompt": "Use drawings and measurements to compare possible designs.",
+      "summary": "Working through technical designs",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-trades-2",
+      "family": "trades",
+      "facet": "setting",
+      "prompt": "Work with tools and materials in a workshop or at a job site.",
+      "summary": "Working with tools and materials",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-services-2",
+      "family": "services",
+      "facet": "setting",
+      "prompt": "Work directly with a customer to understand the result they want.",
+      "summary": "Understanding customers in person",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-education-2",
+      "family": "education",
+      "facet": "setting",
+      "prompt": "Spend time with learners who have different needs and ways of learning.",
+      "summary": "Working alongside different learners",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-public-safety-2",
+      "family": "public-safety",
+      "facet": "setting",
+      "prompt": "Stay calm while helping people who are facing a safety risk.",
+      "summary": "Helping people during safety emergencies",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-transportation-production-2",
+      "family": "transportation-production",
+      "facet": "setting",
+      "prompt": "Work with a team where goods are stored, moved, or produced.",
+      "summary": "Working in a physical operations setting",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-sales-office-2",
+      "family": "sales-office",
+      "facet": "setting",
+      "prompt": "Organize requests and information so a busy team can keep working.",
+      "summary": "Keeping an office or service organized",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-creative-3",
+      "family": "creative",
+      "facet": "routine",
+      "prompt": "Think about how a design or story will feel to its audience.",
+      "summary": "Understanding an audience",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-technology-3",
+      "family": "technology",
+      "facet": "routine",
+      "prompt": "Test small changes and keep track of what works reliably.",
+      "summary": "Testing and refining solutions",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-health-3",
+      "family": "health",
+      "facet": "routine",
+      "prompt": "Keep health information accurate and follow care and privacy procedures.",
+      "summary": "Handling careful health-related work",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-business-3",
+      "family": "business",
+      "facet": "routine",
+      "prompt": "Check financial or legal details before explaining a recommendation.",
+      "summary": "Checking financial or legal evidence",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-science-3",
+      "family": "science",
+      "facet": "routine",
+      "prompt": "Repeat a method and document the results even when the first attempt is inconclusive.",
+      "summary": "Using careful research methods",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-building-3",
+      "family": "building",
+      "facet": "routine",
+      "prompt": "Revise a design to meet safety rules and practical limits.",
+      "summary": "Balancing design and real-world constraints",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-trades-3",
+      "family": "trades",
+      "facet": "routine",
+      "prompt": "Trace a fault and check a repair using the required safety procedures.",
+      "summary": "Diagnosing faults and checking repairs",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-services-3",
+      "family": "services",
+      "facet": "routine",
+      "prompt": "Follow hygiene and preparation routines while keeping up with a busy service.",
+      "summary": "Handling practical service routines",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-education-3",
+      "family": "education",
+      "facet": "routine",
+      "prompt": "Adjust an activity and give feedback when a learner gets stuck.",
+      "summary": "Adapting lessons and feedback",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-public-safety-3",
+      "family": "public-safety",
+      "facet": "routine",
+      "prompt": "Follow approved procedures while a response team coordinates its actions.",
+      "summary": "Working within an emergency-response team",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-transportation-production-3",
+      "family": "transportation-production",
+      "facet": "routine",
+      "prompt": "Check a practical process for delays, safety issues, and record errors.",
+      "summary": "Checking operations and safety",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    },
+    {
+      "id": "field-profile-sales-office-3",
+      "family": "sales-office",
+      "facet": "routine",
+      "prompt": "Check transactions and records carefully while responding to requests.",
+      "summary": "Keeping service records accurate",
+      "kind": "pathway",
+      "section": "Picture the everyday work"
+    }
+  ],
+  "skillResponseOptions": [
+    {
+      "id": "new",
+      "label": "This is new to me."
+    },
+    {
+      "id": "supported",
+      "label": "I’ve tried it and would want some help."
+    },
+    {
+      "id": "independent",
+      "label": "I can usually do it on my own."
+    },
+    {
+      "id": "teach",
+      "label": "I could show someone else how."
+    }
+  ],
+  "presentationOrder": {
+    "newJourneys": "Persisted order; one of each RIASEC theme per six-question block and one of each field per twelve-question block; experience, values, and context stay in separate sections.",
+    "existingJourneys": "Keep earlier order and answers.",
+    "scoring": "Stable IDs; presentation order does not change scoring."
+  }
+}

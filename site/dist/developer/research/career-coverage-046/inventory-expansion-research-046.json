@@ -1,0 +1,1747 @@
+{
+  "version": "inventory-expansion-research-046",
+  "checkedAt": "2026-10-19",
+  "scope": "28 further roles outside the original 117 and prior 41 deduplicated proposed occupations. Research artifact only; no engine, model, catalog or private-record edits.",
+  "method": "Official BLS duties/preparation and selected current O*NET detailed-code checks. Editorial work objects/task tags are explanations, not validated scores or required discovery questions.",
+  "sources": [
+    {
+      "id": "expand-computer",
+      "title": "BLS: Computer and Information Research Scientists",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s typical, some federal bachelor’s roles. Research new computing methods."
+    },
+    {
+      "id": "expand-db",
+      "title": "BLS: Database Administrators and Architects",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical. Architecture and administration are different SOCs; experience varies."
+    },
+    {
+      "id": "expand-network",
+      "title": "BLS: Computer Network Architects",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s plus related experience; BLS five years or more."
+    },
+    {
+      "id": "expand-physics",
+      "title": "BLS: Physicists and Astronomers",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/physicists-and-astronomers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "PhD for most research/academia; some federal entry physicist jobs bachelor’s."
+    },
+    {
+      "id": "expand-weather",
+      "title": "BLS: Atmospheric Scientists, Including Meteorologists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/atmospheric-scientists-including-meteorologists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical; research often master’s/PhD."
+    },
+    {
+      "id": "expand-math",
+      "title": "BLS: Mathematicians and Statisticians",
+      "url": "https://www.bls.gov/ooh/math/mathematicians-and-statisticians.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s typical; some bachelor’s positions. Distinct mathematics/statistics SOCs."
+    },
+    {
+      "id": "expand-geo",
+      "title": "BLS: Geographers",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/geographers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical, some roles graduate; study people/place/environment relationships."
+    },
+    {
+      "id": "expand-politics",
+      "title": "BLS: Political Scientists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/political-scientists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s typical, some bachelor’s jobs. Study political systems and policy."
+    },
+    {
+      "id": "expand-history",
+      "title": "BLS: Historians",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/historians.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s typical, some bachelor’s jobs. Investigate past through sources."
+    },
+    {
+      "id": "expand-psych",
+      "title": "BLS: Psychologists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "I/O psychologists typically master’s; psychological research about workplace issues. License/title depends on state/position."
+    },
+    {
+      "id": "expand-socio",
+      "title": "BLS: Sociologists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/sociologists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s typical. Research groups, institutions and social processes."
+    },
+    {
+      "id": "expand-adult",
+      "title": "BLS: Adult Basic and Secondary Education and ESL Teachers",
+      "url": "https://www.bls.gov/ooh/education-training-and-library/adult-literacy-and-ged-teachers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical; public-school license/certification. Part-time common."
+    },
+    {
+      "id": "expand-curriculum",
+      "title": "BLS: Instructional Coordinators",
+      "url": "https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s plus related teaching/administration experience; BLS five years or more."
+    },
+    {
+      "id": "expand-editor",
+      "title": "BLS: Editors",
+      "url": "https://www.bls.gov/ooh/media-and-communication/editors.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s with writing/proofreading experience; BLS less than five years related work."
+    },
+    {
+      "id": "expand-fashion",
+      "title": "BLS: Fashion Designers",
+      "url": "https://www.bls.gov/ooh/arts-and-design/fashion-designers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical; portfolio and production knowledge important."
+    },
+    {
+      "id": "expand-music",
+      "title": "BLS: Music Directors and Composers",
+      "url": "https://www.bls.gov/ooh/entertainment-and-sports/music-directors-and-composers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical aggregate, routes vary from no formal degree to graduate; related experience usual, part-time common."
+    },
+    {
+      "id": "expand-archive",
+      "title": "BLS: Archivists, Curators, and Museum Workers",
+      "url": "https://www.bls.gov/ooh/education-training-and-library/curators-museum-technicians-and-conservators.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Archivists typically master’s; internship/volunteering helpful. Different SOC from curator."
+    },
+    {
+      "id": "expand-ortho",
+      "title": "BLS: Orthotists and Prosthetists",
+      "url": "https://www.bls.gov/ooh/healthcare/orthotists-and-prosthetists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s plus residency; some states license; employer certification commonly preferred."
+    },
+    {
+      "id": "expand-recreation",
+      "title": "BLS: Recreational Therapists",
+      "url": "https://www.bls.gov/ooh/healthcare/recreational-therapists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s, internship; certification often required/preferred, a few states license/certify."
+    },
+    {
+      "id": "expand-rehab",
+      "title": "BLS: Rehabilitation Counselors",
+      "url": "https://www.bls.gov/ooh/community-and-social-service/rehabilitation-counselors.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s typical; bachelor’s some limited services. License depends on services/state."
+    },
+    {
+      "id": "expand-healthdata",
+      "title": "BLS: Health Information Technologists and Medical Registrars",
+      "url": "https://www.bls.gov/ooh/healthcare/health-information-technologists-and-medical-registrars.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Associate’s typical aggregate, some bachelor’s/higher jobs. Certification may be preferred/required."
+    },
+    {
+      "id": "expand-compliance",
+      "title": "BLS: Compliance Officers",
+      "url": "https://www.bls.gov/ooh/business-and-financial/compliance-officers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s and on-job training; some employers require/prefer related experience."
+    },
+    {
+      "id": "expand-budget",
+      "title": "BLS: Budget Analysts",
+      "url": "https://www.bls.gov/ooh/business-and-financial/budget-analysts.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical; analyze proposals, plan budgets and monitor spending."
+    },
+    {
+      "id": "expand-event",
+      "title": "BLS: Meeting, Convention, and Event Planners",
+      "url": "https://www.bls.gov/ooh/business-and-financial/meeting-convention-and-event-planners.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical; practical experience helpful; travel/irregular hours."
+    },
+    {
+      "id": "expand-forest",
+      "title": "BLS: Conservation Scientists and Foresters",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/conservation-scientists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s forestry/natural resources typical; some state credentialing. Distinct forester SOC."
+    },
+    {
+      "id": "expand-survey",
+      "title": "BLS: Surveyors",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/surveyors.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical; supervised practice, state licensure before public services/legal certification."
+    },
+    {
+      "id": "expand-chiro",
+      "title": "BLS: Chiropractors",
+      "url": "https://www.bls.gov/ooh/healthcare/chiropractors.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Doctor of Chiropractic after undergraduate preparation; every state licenses."
+    },
+    {
+      "id": "expand-podiatry",
+      "title": "BLS: Podiatrists",
+      "url": "https://www.bls.gov/ooh/healthcare/podiatrists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "DPM plus three-year residency; every state licenses."
+    }
+  ],
+  "discoveryRecommendations": [
+    "Search the complete officially profiled inventory using the full broad interest pattern first. The 12 fields are navigational, overlapping tags, not closed eligibility boundaries.",
+    "Do not require novices to recognize/affirm every profession's functions before a strong match. Use converging broad-interest evidence and valid task analogues; preserve uncertainty and genuine domain conflicts.",
+    "Keep interest strength, preparation, experience, conditions and affordability separate. Degree willingness and high income cannot generate interest support.",
+    "Import current official whole interest profiles and where available specific interest areas; do not convert authored tags into claimed aptitude scores.",
+    "Prevent synonym/industry/subtype inflation and multiple counting of the same evidence. New SOC alone does not guarantee new coverage.",
+    "Use task descriptions in explanations and optional later exploration, explicitly not a replacement profession-by-profession question bank."
+  ],
+  "implementationCautions": [
+    "Priority means distinct useful breadth, not guaranteed matches or mandatory launch order.",
+    "Only activate with verified codes, official interest data, scope/route mapping and first-paid-stage budgets. O*NET partial profiles remain explicit gaps.",
+    "Network/database architecture, editing and curriculum roles carry experience concerns. Do not treat inventory inclusion as direct post-degree readiness.",
+    "Health information and music have mixed routes; do not inflate bachelor-required inventory by relabeling aggregates.",
+    "Small research occupations can fit while having few openings; market demand and starting compensation remain separate.",
+    "Evaluate precision and recall on unseen profiles; larger catalog must not turn each weak neighbor into a strong match."
+  ],
+  "occupations": [
+    {
+      "id": "computing-research",
+      "title": "Computer and Information Research Scientists",
+      "soc": "15-1221",
+      "onetSoc": "15-1221.00",
+      "priority": 1,
+      "fields": [
+        "Technology & data",
+        "Science & environment"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Master’s typical; some federal bachelor’s jobs",
+      "experiencePrerequisite": "No BLS related-work prerequisite",
+      "licensingCertification": "No universal license asserted",
+      "workObjects": [
+        "computation",
+        "algorithms",
+        "scientific questions"
+      ],
+      "taskProfileTags": [
+        "theoretical inquiry",
+        "experimental computing"
+      ],
+      "taskDescriptors": [
+        "Develop/test new computing theories, algorithms or systems.",
+        "Compare experiments and explain findings."
+      ],
+      "nearbyExistingProfessionIds": [
+        "software",
+        "data-science"
+      ],
+      "coverageAdded": "Computing invention/research, beyond implementing an application or analyzing one dataset.",
+      "cautions": [],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-15122100",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "database-architecture",
+      "title": "Database Architects",
+      "soc": "15-1243",
+      "onetSoc": "15-1243.00",
+      "priority": 1,
+      "fields": [
+        "Technology & data"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s typical; some graduate preference",
+      "experiencePrerequisite": "Related database/software experience often expected; verify entry stage",
+      "licensingCertification": "Vendor credentials may matter; not a general license",
+      "workObjects": [
+        "structured information",
+        "data systems"
+      ],
+      "taskProfileTags": [
+        "information organization",
+        "systems design"
+      ],
+      "taskDescriptors": [
+        "Design how data are structured, connected and stored.",
+        "Test system performance, reliability and access."
+      ],
+      "nearbyExistingProfessionIds": [
+        "software",
+        "systems-analysis",
+        "data-science"
+      ],
+      "coverageAdded": "Infrastructure/data architecture rather than statistical interpretation. Data engineer is a reported title, not an extra invented SOC.",
+      "cautions": [
+        "Use junior database/software paid stage where architecture requires experience."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-15124300",
+        "educationGroup": "college",
+        "relatedExperience": "Less than 5 years"
+      }
+    },
+    {
+      "id": "network-architecture",
+      "title": "Computer Network Architects",
+      "soc": "15-1241",
+      "onetSoc": "15-1241.00",
+      "priority": 2,
+      "fields": [
+        "Technology & data"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s",
+      "experiencePrerequisite": "BLS five years or more related IT experience",
+      "licensingCertification": "Employer/vendor requirements vary",
+      "workObjects": [
+        "connectivity",
+        "communication networks"
+      ],
+      "taskProfileTags": [
+        "systems design",
+        "capacity planning"
+      ],
+      "taskDescriptors": [
+        "Design data communication networks.",
+        "Evaluate technologies and network design trade-offs."
+      ],
+      "nearbyExistingProfessionIds": [
+        "computer-support",
+        "information-security",
+        "systems-analysis"
+      ],
+      "coverageAdded": "Communication infrastructure rather than user support, app building or security analysis.",
+      "cautions": [
+        "Longer route; never use mature architect pay as graduate starting pay."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-15124100",
+        "educationGroup": "college",
+        "relatedExperience": "5 years or more"
+      }
+    },
+    {
+      "id": "physics",
+      "title": "Physicists",
+      "soc": "19-2012",
+      "onetSoc": "19-2012.00",
+      "priority": 1,
+      "fields": [
+        "Science & environment",
+        "Technology & data"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Doctorate typical research/academia; some federal bachelor’s entry",
+      "experiencePrerequisite": "Postdoctoral paid stage common for research pathways",
+      "licensingCertification": "Research role does not confer clinical medical-physics authority",
+      "workObjects": [
+        "matter",
+        "energy",
+        "natural laws"
+      ],
+      "taskProfileTags": [
+        "fundamental inquiry",
+        "mathematical modeling",
+        "experimental measurement"
+      ],
+      "taskDescriptors": [
+        "Develop explanations of physical behavior.",
+        "Design measurements and compare experiments with theory."
+      ],
+      "nearbyExistingProfessionIds": [
+        "chemistry",
+        "mechanical-engineering",
+        "electrical-engineering"
+      ],
+      "coverageAdded": "Fundamental physical investigation, distinct from an engineered product.",
+      "cautions": [
+        "Space/gadget fascination can invite; it cannot establish research interest alone."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/physicists-and-astronomers.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-19201200",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "atmospheric-science",
+      "title": "Atmospheric Scientists, Including Meteorologists",
+      "soc": "19-2021",
+      "onetSoc": "19-2021.00",
+      "priority": 1,
+      "fields": [
+        "Science & environment",
+        "Technology & data"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s; research often master’s/PhD",
+      "experiencePrerequisite": "None in BLS typical classification",
+      "licensingCertification": "Broadcast credentials separate from scientific entry",
+      "workObjects": [
+        "weather",
+        "climate",
+        "atmosphere"
+      ],
+      "taskProfileTags": [
+        "observation",
+        "forecast modeling",
+        "science communication"
+      ],
+      "taskDescriptors": [
+        "Analyze atmospheric observations and models.",
+        "Produce forecasts and communicate uncertainty."
+      ],
+      "nearbyExistingProfessionIds": [
+        "environmental-science",
+        "geoscience",
+        "data-science"
+      ],
+      "coverageAdded": "Weather/climate physics and forecasting beyond pollution or rock studies.",
+      "cautions": [],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/atmospheric-scientists-including-meteorologists.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-19202100",
+        "educationGroup": "college",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "mathematics",
+      "title": "Mathematicians",
+      "soc": "15-2021",
+      "onetSoc": "15-2021.00",
+      "priority": 2,
+      "fields": [
+        "Technology & data",
+        "Science & environment"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Master’s typical; some bachelor’s; doctorate some research",
+      "experiencePrerequisite": "None in BLS typical classification",
+      "licensingCertification": "No universal practice license asserted",
+      "workObjects": [
+        "abstract relationships",
+        "mathematical structures"
+      ],
+      "taskProfileTags": [
+        "proof and reasoning",
+        "abstract problem solving"
+      ],
+      "taskDescriptors": [
+        "Investigate mathematical principles.",
+        "Develop or evaluate models for quantitative problems."
+      ],
+      "nearbyExistingProfessionIds": [
+        "statistics",
+        "operations-research",
+        "data-science"
+      ],
+      "coverageAdded": "Mathematical theory/structure distinct from statistical inference and operational optimization.",
+      "cautions": [
+        "School math achievement alone is not interest."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/math/mathematicians-and-statisticians.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-15202100",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "geography",
+      "title": "Geographers",
+      "soc": "19-3092",
+      "onetSoc": "19-3092.00",
+      "priority": 2,
+      "fields": [
+        "Science & environment",
+        "Technology & data",
+        "Business & law"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s typical; some graduate roles",
+      "experiencePrerequisite": "None in BLS typical classification",
+      "licensingCertification": "No universal practice license asserted",
+      "workObjects": [
+        "places",
+        "human environment relationships"
+      ],
+      "taskProfileTags": [
+        "spatial analysis",
+        "field research"
+      ],
+      "taskDescriptors": [
+        "Investigate how people and physical features are distributed.",
+        "Combine social/environmental data to explain regional patterns."
+      ],
+      "nearbyExistingProfessionIds": [
+        "environmental-science",
+        "urban-planning",
+        "cartography"
+      ],
+      "coverageAdded": "Spatial research rather than map production or public planning decisions.",
+      "cautions": [
+        "Small occupation; geography degree does not automatically map to geographer employment."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/geographers.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-19309200",
+        "educationGroup": "college",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "political-science",
+      "title": "Political Scientists",
+      "soc": "19-3094",
+      "onetSoc": "19-3094.00",
+      "priority": 1,
+      "fields": [
+        "Business & law",
+        "Science & environment",
+        "Teaching & learning"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Master’s typical; some bachelor’s roles",
+      "experiencePrerequisite": "None in BLS typical classification",
+      "licensingCertification": "Research distinct from legal practice/elected office",
+      "workObjects": [
+        "government",
+        "institutions",
+        "public decisions"
+      ],
+      "taskProfileTags": [
+        "institutional inquiry",
+        "policy analysis"
+      ],
+      "taskDescriptors": [
+        "Study political systems and policy processes.",
+        "Compare evidence about policies or political behavior."
+      ],
+      "nearbyExistingProfessionIds": [
+        "law",
+        "economics",
+        "social-research"
+      ],
+      "coverageAdded": "Public institutional/policy inquiry without assuming client legal advocacy.",
+      "cautions": [
+        "Small occupation, projected decline; broader policy titles can map elsewhere."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/political-scientists.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-19309400",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "history",
+      "title": "Historians",
+      "soc": "19-3093",
+      "onetSoc": "19-3093.00",
+      "priority": 1,
+      "fields": [
+        "Design & creativity",
+        "Teaching & learning",
+        "Science & environment"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Master’s typical; some bachelor’s roles",
+      "experiencePrerequisite": "None in BLS typical classification",
+      "licensingCertification": "No universal historian license asserted",
+      "workObjects": [
+        "past events",
+        "sources",
+        "interpretations"
+      ],
+      "taskProfileTags": [
+        "source criticism",
+        "historical inquiry"
+      ],
+      "taskDescriptors": [
+        "Investigate past events using historical evidence.",
+        "Explain interpretations while accounting for conflicting sources."
+      ],
+      "nearbyExistingProfessionIds": [
+        "writing",
+        "librarian",
+        "museum-curation",
+        "anthropology-archaeology"
+      ],
+      "coverageAdded": "Historical analysis, distinct from creative writing or collections management.",
+      "cautions": [],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/historians.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-19309300",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "industrial-organizational-psychology",
+      "title": "Industrial-Organizational Psychologists",
+      "soc": "19-3032",
+      "onetSoc": "19-3032.00",
+      "priority": 1,
+      "fields": [
+        "Science & environment",
+        "Business & law",
+        "Health & helping"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Master’s typical; doctorate some research",
+      "experiencePrerequisite": "Supervised experience may apply for licensed practice/title",
+      "licensingCertification": "Psychology service/title rules vary by state and position",
+      "workObjects": [
+        "people at work",
+        "motivation",
+        "organizational dynamics"
+      ],
+      "taskProfileTags": [
+        "behavioral research",
+        "assessment evaluation"
+      ],
+      "taskDescriptors": [
+        "Research how work settings affect people.",
+        "Evaluate selection, learning and organizational practices using evidence."
+      ],
+      "nearbyExistingProfessionIds": [
+        "clinical-psychologist",
+        "human-resources",
+        "social-research"
+      ],
+      "coverageAdded": "Nonclinical behavioral science for work, avoiding default therapy for psychology interests.",
+      "cautions": [
+        "Small specialist population; do not use high median as entry pay."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-19303200",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "sociology",
+      "title": "Sociologists",
+      "soc": "19-3041",
+      "onetSoc": "19-3041.00",
+      "priority": 2,
+      "fields": [
+        "Science & environment",
+        "Health & helping",
+        "Business & law"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Master’s typical",
+      "experiencePrerequisite": "None in BLS typical classification",
+      "licensingCertification": "Research does not confer clinical authority",
+      "workObjects": [
+        "institutions",
+        "groups",
+        "social change"
+      ],
+      "taskProfileTags": [
+        "social inquiry",
+        "research design"
+      ],
+      "taskDescriptors": [
+        "Design studies of institutions and social behavior.",
+        "Analyze patterns and communicate findings."
+      ],
+      "nearbyExistingProfessionIds": [
+        "social-research",
+        "economics",
+        "anthropology-archaeology"
+      ],
+      "coverageAdded": "Professional social research beyond assistant tasks; focus institutions/social processes.",
+      "cautions": [
+        "Small named occupation; degree major alone not occupation fit."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/sociologists.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-19304100",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "adult-education-esl",
+      "title": "Adult Basic and Secondary Education and ESL Teachers",
+      "soc": "25-3011",
+      "onetSoc": "25-3011.00",
+      "priority": 1,
+      "fields": [
+        "Teaching & learning",
+        "Health & helping"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s typical; some graduate preferences",
+      "experiencePrerequisite": "Preparation/student teaching depends on route",
+      "licensingCertification": "Public-school license/certification typically required",
+      "workObjects": [
+        "adult learners",
+        "language",
+        "foundational skills"
+      ],
+      "taskProfileTags": [
+        "instruction",
+        "learning adaptation"
+      ],
+      "taskDescriptors": [
+        "Teach adult literacy, English or equivalency content.",
+        "Adapt lessons to learners' goals and progress."
+      ],
+      "nearbyExistingProfessionIds": [
+        "teaching",
+        "interpreting",
+        "workplace-learning"
+      ],
+      "coverageAdded": "Adult foundational education rather than childhood schooling, translation or employer skills training.",
+      "cautions": [
+        "Part-time common; do not assume full-year full-time pay."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/education-training-and-library/adult-literacy-and-ged-teachers.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-25301100",
+        "educationGroup": "college",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "instructional-coordination",
+      "title": "Instructional Coordinators",
+      "soc": "25-9031",
+      "onetSoc": "25-9031.00",
+      "priority": 2,
+      "fields": [
+        "Teaching & learning",
+        "Technology & data"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Master’s",
+      "experiencePrerequisite": "BLS five years or more related teaching/administration",
+      "licensingCertification": "Public-school license may be required",
+      "workObjects": [
+        "curriculum",
+        "learning materials",
+        "teaching effectiveness"
+      ],
+      "taskProfileTags": [
+        "learning design",
+        "program evaluation"
+      ],
+      "taskDescriptors": [
+        "Develop and assess curriculum/materials.",
+        "Use evidence to support improvements with teachers."
+      ],
+      "nearbyExistingProfessionIds": [
+        "teaching",
+        "high-school-teacher",
+        "workplace-learning"
+      ],
+      "coverageAdded": "Curriculum research/design distinct from direct teaching or school management.",
+      "cautions": [
+        "Longer experience route, not immediate post-degree placement."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-25903100",
+        "educationGroup": "graduate",
+        "relatedExperience": "5 years or more"
+      }
+    },
+    {
+      "id": "editing",
+      "title": "Editors",
+      "soc": "27-3041",
+      "onetSoc": "27-3041.00",
+      "priority": 1,
+      "fields": [
+        "Design & creativity"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s",
+      "experiencePrerequisite": "BLS less than five years related writing/proofreading experience",
+      "licensingCertification": "No universal editor license asserted",
+      "workObjects": [
+        "text",
+        "accuracy",
+        "audiences"
+      ],
+      "taskProfileTags": [
+        "critical reading",
+        "revision"
+      ],
+      "taskDescriptors": [
+        "Evaluate and revise content for publication.",
+        "Work with authors on clarity, structure and accuracy."
+      ],
+      "nearbyExistingProfessionIds": [
+        "writing",
+        "journalism",
+        "technical-writing"
+      ],
+      "coverageAdded": "Improving/evaluating others' writing rather than only generating original text.",
+      "cautions": [
+        "Preserve prior-experience flag."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/media-and-communication/editors.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-27304100",
+        "educationGroup": "college",
+        "relatedExperience": "Less than 5 years"
+      }
+    },
+    {
+      "id": "fashion-design",
+      "title": "Fashion Designers",
+      "soc": "27-1022",
+      "onetSoc": "27-1022.00",
+      "priority": 1,
+      "fields": [
+        "Design & creativity"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s typical; portfolio important",
+      "experiencePrerequisite": "No BLS related-work prerequisite; practical experience helps",
+      "licensingCertification": "No universal fashion-design license asserted",
+      "workObjects": [
+        "clothing",
+        "wearable form",
+        "materials"
+      ],
+      "taskProfileTags": [
+        "creative design",
+        "prototyping"
+      ],
+      "taskDescriptors": [
+        "Develop clothing, footwear or accessory ideas.",
+        "Test/revise samples for appearance, fit and production."
+      ],
+      "nearbyExistingProfessionIds": [
+        "industrial-design",
+        "graphic-design",
+        "hairdresser"
+      ],
+      "coverageAdded": "Wearable/material creation distinct from graphics, functional products or grooming.",
+      "cautions": [
+        "Fashion consumption alone is weaker than creating/testing designs."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/arts-and-design/fashion-designers.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-27102200",
+        "educationGroup": "college",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "music-direction-composition",
+      "title": "Music Directors and Composers",
+      "soc": "27-2041",
+      "onetSoc": "27-2041.00",
+      "priority": 1,
+      "fields": [
+        "Design & creativity",
+        "Teaching & learning"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s typical aggregate; some no formal degree, some graduate",
+      "experiencePrerequisite": "Related work usual; BLS less than five years",
+      "licensingCertification": "School teaching credentials separate; no universal composition license",
+      "workObjects": [
+        "music",
+        "sound structure",
+        "ensembles"
+      ],
+      "taskProfileTags": [
+        "artistic composition",
+        "musical interpretation"
+      ],
+      "taskDescriptors": [
+        "Create or arrange music.",
+        "Interpret scores and guide rehearsals/performances."
+      ],
+      "nearbyExistingProfessionIds": [
+        "writing",
+        "film-editing",
+        "teaching"
+      ],
+      "coverageAdded": "Adds a missing artistic medium; composer/director are variants in one SOC.",
+      "cautions": [
+        "Mixed routes, not bachelor-required across all jobs.",
+        "Do not require every composer to direct an ensemble.",
+        "Part-time/self-employed income differs from employee wage estimates."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/entertainment-and-sports/music-directors-and-composers.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-27204100",
+        "educationGroup": "college",
+        "relatedExperience": "Less than 5 years"
+      }
+    },
+    {
+      "id": "archival-science",
+      "title": "Archivists",
+      "soc": "25-4011",
+      "onetSoc": "25-4011.00",
+      "priority": 1,
+      "fields": [
+        "Teaching & learning",
+        "Design & creativity",
+        "Technology & data"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Master’s typical",
+      "experiencePrerequisite": "Internship/volunteering helpful",
+      "licensingCertification": "Certification may be useful; no universal state license asserted",
+      "workObjects": [
+        "records",
+        "authenticity",
+        "preservation"
+      ],
+      "taskProfileTags": [
+        "information organization",
+        "source evaluation"
+      ],
+      "taskDescriptors": [
+        "Appraise and organize significant records.",
+        "Preserve records and maintain reliable public/research access."
+      ],
+      "nearbyExistingProfessionIds": [
+        "librarian",
+        "museum-curation",
+        "history"
+      ],
+      "coverageAdded": "Records provenance/preservation/access, distinct from exhibitions, reference or historical interpretation.",
+      "cautions": [],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/education-training-and-library/curators-museum-technicians-and-conservators.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-25401100",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "orthotics-prosthetics",
+      "title": "Orthotists and Prosthetists",
+      "soc": "29-2091",
+      "onetSoc": "29-2091.00",
+      "priority": 1,
+      "fields": [
+        "Health & helping",
+        "Engineering & building",
+        "Design & creativity"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Master’s plus residency",
+      "experiencePrerequisite": "Residency generally about one year per discipline after degree",
+      "licensingCertification": "Some states license; certification employers commonly prefer",
+      "workObjects": [
+        "patient mobility",
+        "body-device fit",
+        "assistive devices"
+      ],
+      "taskProfileTags": [
+        "clinical assessment",
+        "custom design",
+        "fit adjustment"
+      ],
+      "taskDescriptors": [
+        "Assess needs and specify braces or artificial limbs.",
+        "Fit/adjust devices and monitor function with patients."
+      ],
+      "nearbyExistingProfessionIds": [
+        "biomedical-engineering",
+        "physical-therapy",
+        "occupational-therapy"
+      ],
+      "coverageAdded": "Direct patient-facing custom device practice, beyond engineering general devices or movement therapy.",
+      "cautions": [
+        "Generic gadgets/design is insufficient for patient-care fit.",
+        "Budget residency separately."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/healthcare/orthotists-and-prosthetists.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-29209100",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "recreational-therapy",
+      "title": "Recreational Therapists",
+      "soc": "29-1125",
+      "onetSoc": "29-1125.00",
+      "priority": 1,
+      "fields": [
+        "Health & helping",
+        "Design & creativity"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s; supervised internship usually included",
+      "experiencePrerequisite": "Internship part of preparation",
+      "licensingCertification": "Certification often required/preferred; a few states license/certify",
+      "workObjects": [
+        "rehabilitation",
+        "activities",
+        "patient well-being"
+      ],
+      "taskProfileTags": [
+        "therapeutic planning",
+        "activity adaptation"
+      ],
+      "taskDescriptors": [
+        "Plan recreation-based medical treatment.",
+        "Adapt activities and evaluate therapeutic progress."
+      ],
+      "nearbyExistingProfessionIds": [
+        "occupational-therapy",
+        "exercise-physiology",
+        "mental-health-counselor"
+      ],
+      "coverageAdded": "Clinical use of recreation/arts, distinct from entertainment or daily-function OT.",
+      "cautions": [
+        "Enjoying activities alone not evidence of clinical responsibility.",
+        "Do not require every technique/medium."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/healthcare/recreational-therapists.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-29112500",
+        "educationGroup": "college",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "rehabilitation-counseling",
+      "title": "Rehabilitation Counselors",
+      "soc": "21-1015",
+      "onetSoc": "21-1015.00",
+      "priority": 1,
+      "fields": [
+        "Health & helping",
+        "Teaching & learning"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Master’s typical; bachelor’s some limited services",
+      "experiencePrerequisite": "Supervised clinical preparation for licensed counseling",
+      "licensingCertification": "Depends on services/state; vocational placement may be exempt",
+      "workObjects": [
+        "disability",
+        "employment participation",
+        "independence"
+      ],
+      "taskProfileTags": [
+        "support planning",
+        "counseling",
+        "barrier solving"
+      ],
+      "taskDescriptors": [
+        "Support disability-related employment/independent-living goals.",
+        "Coordinate counseling, accommodations and access."
+      ],
+      "nearbyExistingProfessionIds": [
+        "school-counselor",
+        "occupational-therapy",
+        "social-work"
+      ],
+      "coverageAdded": "Psychosocial/vocational rehabilitation rather than medical functional treatment or generic career guidance.",
+      "cautions": [
+        "Keep service scope/degree differences explicit."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/community-and-social-service/rehabilitation-counselors.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-21101500",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "health-information",
+      "title": "Health Information Technologists and Medical Registrars",
+      "soc": "29-9021",
+      "onetSoc": "29-9021.00",
+      "priority": 1,
+      "fields": [
+        "Technology & data",
+        "Health & helping"
+      ],
+      "routes": [
+        {
+          "key": "program",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Associate’s typical aggregate; bachelor’s/higher variants",
+      "experiencePrerequisite": "None in BLS typical classification",
+      "licensingCertification": "Certification may be required/preferred depending on role",
+      "workObjects": [
+        "clinical data",
+        "information systems",
+        "data quality"
+      ],
+      "taskProfileTags": [
+        "information analysis",
+        "system improvement"
+      ],
+      "taskDescriptors": [
+        "Organize/analyze clinical or registry information.",
+        "Improve healthcare information systems and data usefulness."
+      ],
+      "nearbyExistingProfessionIds": [
+        "data-science",
+        "systems-analysis",
+        "medical-services-manager"
+      ],
+      "coverageAdded": "Non-bedside health-data path distinct from patient treatment and management.",
+      "cautions": [
+        "Do not count entire occupation as bachelor-required.",
+        "Current O*NET profile is partially populated; do not fabricate absent scores.",
+        "Registrar/informatics variants should not share a universal task gate."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/healthcare/health-information-technologists-and-medical-registrars.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": false,
+        "hasOfficialVector": false,
+        "directoryId": null,
+        "educationGroup": null,
+        "relatedExperience": null
+      }
+    },
+    {
+      "id": "compliance",
+      "title": "Compliance Officers",
+      "soc": "13-1041",
+      "onetSoc": "13-1041.00",
+      "priority": 1,
+      "fields": [
+        "Business & law",
+        "Safety & emergency response"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s typical",
+      "experiencePrerequisite": "Some employers require/prefer experience; BLS none universally; on-job training",
+      "licensingCertification": "Specialty credentials vary; not equivalent to attorney license",
+      "workObjects": [
+        "rules",
+        "conduct",
+        "public protection"
+      ],
+      "taskProfileTags": [
+        "regulatory interpretation",
+        "investigation"
+      ],
+      "taskDescriptors": [
+        "Assess whether activities meet regulatory requirements.",
+        "Investigate gaps and explain procedures/improvements."
+      ],
+      "nearbyExistingProfessionIds": [
+        "law",
+        "financial-examination",
+        "accounting"
+      ],
+      "coverageAdded": "Cross-industry compliance beyond legal representation or financial institution examination.",
+      "cautions": [
+        "Do not create duplicate rows for every regulated industry."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/business-and-financial/compliance-officers.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-13104100",
+        "educationGroup": "college",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "budget-analysis",
+      "title": "Budget Analysts",
+      "soc": "13-2031",
+      "onetSoc": "13-2031.00",
+      "priority": 1,
+      "fields": [
+        "Business & law",
+        "Technology & data"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s",
+      "experiencePrerequisite": "None in BLS typical classification",
+      "licensingCertification": "Optional/employer-specific credentials; no universal practice license asserted",
+      "workObjects": [
+        "resources",
+        "program costs",
+        "organizational finances"
+      ],
+      "taskProfileTags": [
+        "quantitative comparison",
+        "planning"
+      ],
+      "taskDescriptors": [
+        "Review funding proposals and prepare budgets.",
+        "Monitor spending and explain resource trade-offs."
+      ],
+      "nearbyExistingProfessionIds": [
+        "accounting",
+        "financial-analysis",
+        "project-management"
+      ],
+      "coverageAdded": "Prospective resource allocation distinct from recording accounts and choosing investments.",
+      "cautions": [],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/business-and-financial/budget-analysts.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-13203100",
+        "educationGroup": "college",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "event-planning",
+      "title": "Meeting, Convention, and Event Planners",
+      "soc": "13-1121",
+      "onetSoc": "13-1121.00",
+      "priority": 1,
+      "fields": [
+        "Business & law",
+        "Food, hospitality & personal care",
+        "Design & creativity"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s typical",
+      "experiencePrerequisite": "Practical event experience helpful; BLS no related-work prerequisite",
+      "licensingCertification": "Professional certification optional/employer-specific",
+      "workObjects": [
+        "gatherings",
+        "participants",
+        "live logistics"
+      ],
+      "taskProfileTags": [
+        "coordination",
+        "supplier comparison",
+        "contingency planning"
+      ],
+      "taskDescriptors": [
+        "Plan venues/services/schedules around client goals.",
+        "Coordinate suppliers and resolve live changes."
+      ],
+      "nearbyExistingProfessionIds": [
+        "project-management",
+        "public-relations",
+        "restaurant-manager"
+      ],
+      "coverageAdded": "Gathering/participant-centered coordination distinct from generic delivery projects.",
+      "cautions": [
+        "Social outings justify exploration but do not establish full client/supplier accountability.",
+        "Travel/irregular hours are separate conditions."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/business-and-financial/meeting-convention-and-event-planners.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-13112100",
+        "educationGroup": "college",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "forestry",
+      "title": "Foresters",
+      "soc": "19-1032",
+      "onetSoc": "19-1032.00",
+      "priority": 2,
+      "fields": [
+        "Science & environment"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s forestry/natural resources",
+      "experiencePrerequisite": "None in BLS typical classification",
+      "licensingCertification": "Some states require credentials/licensing; optional certification also exists",
+      "workObjects": [
+        "forests",
+        "tree populations",
+        "land use"
+      ],
+      "taskProfileTags": [
+        "ecological assessment",
+        "resource planning"
+      ],
+      "taskDescriptors": [
+        "Assess forest growth, health and resources.",
+        "Plan regeneration, habitat, fire and timber/resource uses."
+      ],
+      "nearbyExistingProfessionIds": [
+        "conservation",
+        "soil-plant-science",
+        "wildlife-biology"
+      ],
+      "coverageAdded": "Forest management science distinct detailed SOC from conservation/agronomy.",
+      "cautions": [
+        "Avoid double-counting identical conservation evidence as independent support."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/conservation-scientists.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-19103200",
+        "educationGroup": "college",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "surveying",
+      "title": "Surveyors",
+      "soc": "17-1022",
+      "onetSoc": "17-1022.00",
+      "priority": 1,
+      "fields": [
+        "Engineering & building",
+        "Science & environment",
+        "Technology & data"
+      ],
+      "routes": [
+        {
+          "key": "college",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "Bachelor’s typical; some associate/technician alternatives",
+      "experiencePrerequisite": "Several supervised years commonly before independent licensure",
+      "licensingCertification": "All states license public surveying/legal certification",
+      "workObjects": [
+        "land boundaries",
+        "measurement",
+        "places"
+      ],
+      "taskProfileTags": [
+        "precision measurement",
+        "spatial reasoning"
+      ],
+      "taskDescriptors": [
+        "Measure features and reconcile evidence with records.",
+        "Determine/document boundaries or site measurements."
+      ],
+      "nearbyExistingProfessionIds": [
+        "civil-engineering",
+        "cartography",
+        "construction-management"
+      ],
+      "coverageAdded": "Precision field/boundary measurement rather than map communication or infrastructure design.",
+      "cautions": [
+        "Budget supervised entry work separately from licensed services."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/surveyors.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-17102200",
+        "educationGroup": "college",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "chiropractic",
+      "title": "Chiropractors",
+      "soc": "29-1011",
+      "onetSoc": "29-1011.00",
+      "priority": 2,
+      "fields": [
+        "Health & helping"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "D.C. after undergraduate preparation",
+      "experiencePrerequisite": "Clinical preparation within route; BLS no related-work prerequisite",
+      "licensingCertification": "All states license",
+      "workObjects": [
+        "musculoskeletal function",
+        "patient care"
+      ],
+      "taskProfileTags": [
+        "clinical assessment",
+        "manual care"
+      ],
+      "taskDescriptors": [
+        "Assess musculoskeletal complaints and provide chiropractic care.",
+        "Monitor response and referral needs within scope."
+      ],
+      "nearbyExistingProfessionIds": [
+        "physical-therapy",
+        "physician"
+      ],
+      "coverageAdded": "Distinct credential/manual-care scope; inventory completeness, not synonym for physician/PT.",
+      "cautions": [
+        "Do not imply medical physician scope/training.",
+        "Treatment-benefit claims need separate clinical evidence review.",
+        "Self-employed income not established by employee wage."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/healthcare/chiropractors.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-29101100",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    },
+    {
+      "id": "podiatry",
+      "title": "Podiatrists",
+      "soc": "29-1081",
+      "onetSoc": "29-1081.00",
+      "priority": 2,
+      "fields": [
+        "Health & helping"
+      ],
+      "routes": [
+        {
+          "key": "graduate",
+          "primary": true
+        }
+      ],
+      "typicalEntryEducation": "DPM plus three-year residency",
+      "experiencePrerequisite": "Residency before full practice",
+      "licensingCertification": "All states license",
+      "workObjects": [
+        "foot/ankle health",
+        "clinical problems"
+      ],
+      "taskProfileTags": [
+        "diagnosis",
+        "medical and surgical care"
+      ],
+      "taskDescriptors": [
+        "Diagnose/treat foot, ankle and lower-leg conditions.",
+        "Plan treatment and monitor recovery within podiatric scope."
+      ],
+      "nearbyExistingProfessionIds": [
+        "physician",
+        "physical-therapy"
+      ],
+      "coverageAdded": "Distinct DPM profession and training, not another duplicated MD specialty.",
+      "cautions": [
+        "Keep broad medicine exploration before narrow specialty commitment.",
+        "Budget residency separately."
+      ],
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/healthcare/podiatrists.htm"
+      ],
+      "discoveryUse": "Whole-profile broad interest discovery first; descriptors explain later. They are not mandatory novice job-function question gates.",
+      "profileDataRequirement": "Import complete official O*NET RIASEC by exact code; do not author numerical interest or ability values. Expose missing data.",
+      "currentSystematicDirectory": {
+        "included": true,
+        "hasOfficialVector": true,
+        "directoryId": "degree-29108100",
+        "educationGroup": "graduate",
+        "relatedExperience": "None"
+      }
+    }
+  ],
+  "systematicDirectoryAudit": {
+    "release": "O*NET31.0 / BLS2025–35",
+    "occupations": 404,
+    "interpretation": "This research uses the frozen117 as the gap baseline. Roles already included by the new systematic404-entry directory are annotations/priorities, not additional unique inventory increments.",
+    "reviewedRolesIncluded": 27,
+    "reviewedRolesWithVector": 27,
+    "notIncluded": [
+      {
+        "id": "health-information",
+        "soc": "29-9021.00",
+        "title": "Health Information Technologists and Medical Registrars"
+      }
+    ]
+  }
+}

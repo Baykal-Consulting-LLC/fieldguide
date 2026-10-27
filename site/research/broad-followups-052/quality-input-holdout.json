@@ -1,0 +1,575 @@
+{
+  "scope": "Judge whether the specific defining work interests are established by the biography and supplied reflections. A career label is context, not evidence of student interest. Do not tune to counts or desired outcomes. Prior professional experience is not required; transferable skill alone is not sufficient.",
+  "rows": [
+    {
+      "modelId": "life-060",
+      "biography": {
+        "id": "life-060",
+        "name": "Amara Knox",
+        "age": 16,
+        "pronouns": "she/her",
+        "background": {
+          "family": "Lives with parents and a younger sister; everyone has household tasks and negotiates who needs assistance with what.",
+          "finances": "Middle income from legal support and equipment sales; accessibility costs influence housing and travel decisions.",
+          "geography": "Georgetown, Texas, in an accessible single-story house.",
+          "cultureLanguages": "Black American family with English at home and close relationships across several Texas cities.",
+          "school": "Public high school; fictional cerebral palsy affects lower-body mobility, and she uses a wheelchair with an accessibility and transport plan.",
+          "accessOpportunities": "Accessible school media spaces and family advocacy offer opportunities; some off-campus venues still require advance checking."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Amara loved sorting costume jewelry and announcing pretend auctions with extravagant descriptions. Her wheelchair was part of daily movement, while her family’s clearest memory from that period was how seriously she took imaginary bidding rules."
+          },
+          {
+            "ages": "6–7",
+            "story": "At school she enjoyed reading aloud and making classmates laugh with dramatic character voices. A playground redesign let her join more games, and she insisted on helping choose rules instead of only being assigned a spectator role."
+          },
+          {
+            "ages": "8–9",
+            "story": "She started photographing neighborhood details from angles adults overlooked. A relative gave her a small camera, and she discovered that an ordinary curb or window could look different when she waited for the right light."
+          },
+          {
+            "ages": "10–11",
+            "story": "During remote learning she made a family photo archive and interviewed relatives by phone. She liked their stories but learned to ask permission before sharing photographs, especially when someone’s favorite memory involved another person’s embarrassment."
+          },
+          {
+            "ages": "12–13",
+            "story": "Joining the school news team introduced caption editing and careful fact checking. She enjoyed preparing an interview more than being on camera, though classmates sometimes pushed her toward public inspiration stories she had never volunteered to tell."
+          },
+          {
+            "ages": "14–15",
+            "story": "Amara helped evaluate access for a school trip while another student handled the main itinerary. The trip went well, but she resented the extra planning labor and asked adults to make access checks a standard responsibility next time."
+          },
+          {
+            "ages": "16",
+            "story": "She edits school news, takes photographs, and attends occasional accessible recreation sessions. She is investigating Texas study options through actual routes and housing details, while keeping questions about courses and friendships equally central to her decisions."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Photographic light",
+            "Interview preparation",
+            "Character voices"
+          ],
+          "avoids": [
+            "Unrequested inspiration stories",
+            "Always owning access logistics"
+          ],
+          "activities": [
+            "School news",
+            "Photography",
+            "Accessible recreation"
+          ],
+          "demonstratedSkills": [
+            "Checks factual details",
+            "Organizes archives",
+            "Conducts respectful interviews"
+          ],
+          "unfamiliarActivities": [
+            "Ceramics",
+            "Advanced coding",
+            "Overnight independent travel"
+          ],
+          "motivations": [
+            "Accurate representation",
+            "Ordinary freedom to participate"
+          ],
+          "ambitions": [
+            "Wants further education and independent housing",
+            "Imagines a connected neighborhood where getting out to meet friends takes little negotiation."
+          ],
+          "struggles": [
+            "Extra planning work",
+            "Others underestimating her range"
+          ],
+          "supports": [
+            "Family",
+            "Media adviser",
+            "Access coordinator",
+            "Friends"
+          ],
+          "practicalConstraints": [
+            "Accessible transportation and housing",
+            "Venue checks",
+            "Physical fatigue on long days"
+          ]
+        },
+        "selfDescription": "I like asking the questions more than being the interview subject. I want people to remember access before I arrive, so I can spend more time thinking about the same interesting things everyone else came for.",
+        "openQuestions": [
+          "Would she enjoy reporting unfamiliar or contentious subjects?",
+          "Which environments distribute access work reliably?"
+        ],
+        "variationTags": [
+          "wheelchair user",
+          "cerebral palsy accommodations",
+          "photography",
+          "school news",
+          "access labor"
+        ]
+      },
+      "career": {
+        "id": "graphic-design",
+        "title": "Graphic Designers",
+        "summary": "Design or create graphics to meet specific commercial or promotional needs, such as packaging, displays, or logos. May use a variety of mediums to achieve artistic or decorative effects.",
+        "confirmation": {
+          "version": "0.44.0",
+          "confirmed": true,
+          "declined": false,
+          "inferred": true,
+          "code": "confirmed",
+          "headline": "Profile supports defining work interests",
+          "detail": "Two separate defining interests have profile evidence, alongside the broader task and role checks. These simulated answers support an interest match, not a recorded student choice or proof of readiness.",
+          "nextQuestionId": "graphic-design-interest-044-1",
+          "questions": [
+            {
+              "id": "graphic-design-interest-044-1",
+              "prompt": "Would you like to learn to arrange words, images, and visual styles to communicate a message in a poster, publication, or digital design?",
+              "activity": "Arrange words, images, and visual styles to communicate a message in a poster, publication, or digital design.",
+              "source": "https://www.onetonline.org/link/summary/27-1024.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "graphic-design"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "high",
+                "evidence": "Amara edits school news and captions, takes photographs and values accurate representation, directly supporting visual publication work.",
+                "biographyPaths": [
+                  "timeline.4.story",
+                  "timeline.6.story",
+                  "currentLife.motivations"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            },
+            {
+              "id": "graphic-design-interest-044-2",
+              "prompt": "Would you like to learn to review a visual design with others and revise its layout so the message is clearer and fits the project’s needs?",
+              "activity": "Review a visual design with others and revise its layout so the message is clearer and fits the project’s needs.",
+              "source": "https://www.onetonline.org/link/summary/27-1024.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "graphic-design"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "medium",
+                "evidence": "Her school news editing, caption work and photography support learning to revise visual communication with collaborators.",
+                "biographyPaths": [
+                  "timeline.4.story",
+                  "timeline.6.story",
+                  "currentLife.enjoys"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "questionId": "creative-make",
+            "question": "What would you enjoy creating?",
+            "text": "A visual message that helps people understand an idea",
+            "id": "creative-make-1",
+            "scope": 2,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-revise",
+            "question": "Which kind of revision sounds satisfying?",
+            "text": "Make a layout easier to read and navigate",
+            "id": "creative-revise-1",
+            "scope": 2,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-workday",
+            "question": "Which parts of a creative workday would you like to try?",
+            "text": "Make several drafts and improve them after feedback",
+            "id": "creative-workday-1",
+            "scope": 4,
+            "kind": "task",
+            "domain": "context"
+          },
+          {
+            "questionId": "creative-refine-1",
+            "question": "Which creative problem would keep you curious?",
+            "text": "Make a visual message memorable without making it confusing",
+            "id": "creative-refine-1-1",
+            "scope": 1,
+            "kind": "task",
+            "domain": "tasks"
+          }
+        ],
+        "routes": [
+          {
+            "key": "college",
+            "label": "College · bachelor’s degree"
+          }
+        ]
+      },
+      "newReflections": [
+        {
+          "questionId": "graphic-design-interest-044-1",
+          "careerId": "graphic-design",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to arrange words, images, and visual styles to communicate a message in a poster, publication, or digital design?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "high",
+          "evidence": "Amara edits school news and captions, takes photographs and values accurate representation, directly supporting visual publication work.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.6.story",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        },
+        {
+          "questionId": "graphic-design-interest-044-2",
+          "careerId": "graphic-design",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to review a visual design with others and revise its layout so the message is clearer and fits the project’s needs?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her school news editing, caption work and photography support learning to revise visual communication with collaborators.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.6.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        }
+      ]
+    },
+    {
+      "modelId": "life-066",
+      "biography": {
+        "id": "life-066",
+        "name": "Lucía Benítez",
+        "age": 16,
+        "pronouns": "she/her",
+        "background": {
+          "family": "Lives with parents and three siblings on a small leased farm; adults divide work and protect children’s study hours.",
+          "finances": "Income from produce sales and a parent’s part-time clinic job covers basics but changes with weather and demand.",
+          "geography": "Near Uvalde, Texas, with monthly trips to San Antonio for extended-family visits and events.",
+          "cultureLanguages": "Mexican immigrant parents; Spanish and English are used throughout daily life, with relatives holding several different educational histories.",
+          "school": "Homeschooled through an accredited distance program, with a local co-op for labs and group projects.",
+          "accessOpportunities": "Has outdoor practical experience, borrowed instruments, and reliable but limited rural internet; wider opportunities require substantial travel."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Lucía helped sort tomatoes by color while inventing names for the misshapen ones. She liked talking with customers at a farm stand but also hid under the table to draw when conversations went on too long."
+          },
+          {
+            "ages": "6–7",
+            "story": "She learned to read in both household languages and enjoyed comparing how relatives told the same joke. A neighbor introduced her to a battered accordion, and she liked discovering tunes by testing buttons rather than reading notation."
+          },
+          {
+            "ages": "8–9",
+            "story": "A co-op experiment about soil drainage connected familiar field observations to a more formal question. Lucía enjoyed comparing jars but grew impatient with a classmate who recorded slowly, then realized that the slower notes were easier to understand later."
+          },
+          {
+            "ages": "10–11",
+            "story": "During remote community gatherings she recorded songs for relatives and learned to trim the beginning and end of clips. Farm routines continued, giving structure to days when screen lessons seemed detached from weather and seasons outside."
+          },
+          {
+            "ages": "12–13",
+            "story": "She tried a city music workshop during a family visit and found ensemble timing difficult. Instead of quitting, she asked the instructor for a recording to practice with at home and returned more prepared the following month."
+          },
+          {
+            "ages": "14–15",
+            "story": "A produce-order mix-up led her to help redesign the farm’s pickup sheet with clearer names and quantities. She liked the improvement but did not want every skill she learned to become another permanent family business duty."
+          },
+          {
+            "ages": "16",
+            "story": "Lucía studies chemistry through the co-op, practices borrowed accordion, and helps at selected market shifts. Texas colleges and technical programs are possibilities she can name, though she wants more firsthand experience before deciding whether to stay near land, music, both, or neither."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Accordion tunes",
+            "Soil experiments",
+            "Bilingual wordplay"
+          ],
+          "avoids": [
+            "Unlimited family-job expectations",
+            "Being rushed through recording details"
+          ],
+          "activities": [
+            "Distance coursework",
+            "Co-op labs",
+            "Accordion",
+            "Market shifts"
+          ],
+          "demonstratedSkills": [
+            "Compares physical samples",
+            "Revises pickup forms",
+            "Practices from recordings"
+          ],
+          "unfamiliarActivities": [
+            "Large lecture halls",
+            "Formal coding",
+            "Indoor team sports"
+          ],
+          "motivations": [
+            "Combining curiosity with practical independence",
+            "Having choices beyond inherited work"
+          ],
+          "ambitions": [
+            "Wants firsthand postsecondary exploration",
+            "Imagines a home with music and outdoor access, while remaining unsure how rural it should be."
+          ],
+          "struggles": [
+            "Long trips for groups",
+            "Protecting time",
+            "Uneven internet"
+          ],
+          "supports": [
+            "Parents",
+            "Co-op teacher",
+            "Neighbor musician",
+            "Relatives in San Antonio"
+          ],
+          "practicalConstraints": [
+            "Travel costs",
+            "Seasonal work",
+            "Limited broadband",
+            "Education funding"
+          ]
+        },
+        "selfDescription": "I like knowing what the weather changed, and I also like making a sound that has nothing to do with the farm. I want to learn more before deciding which parts of home I want to carry into my own daily life.",
+        "openQuestions": [
+          "Would she enjoy formal scientific work away from familiar land?",
+          "How much group music can she sustain with travel constraints?"
+        ],
+        "variationTags": [
+          "rural bilingual household",
+          "distance homeschool",
+          "accordion",
+          "soil observation",
+          "seasonal work"
+        ]
+      },
+      "career": {
+        "id": "graphic-design",
+        "title": "Graphic Designers",
+        "summary": "Design or create graphics to meet specific commercial or promotional needs, such as packaging, displays, or logos. May use a variety of mediums to achieve artistic or decorative effects.",
+        "confirmation": {
+          "version": "0.44.0",
+          "confirmed": true,
+          "declined": false,
+          "inferred": true,
+          "code": "confirmed",
+          "headline": "Profile supports defining work interests",
+          "detail": "Two separate defining interests have profile evidence, alongside the broader task and role checks. These simulated answers support an interest match, not a recorded student choice or proof of readiness.",
+          "nextQuestionId": "graphic-design-interest-044-1",
+          "questions": [
+            {
+              "id": "graphic-design-interest-044-1",
+              "prompt": "Would you like to learn to arrange words, images, and visual styles to communicate a message in a poster, publication, or digital design?",
+              "activity": "Arrange words, images, and visual styles to communicate a message in a poster, publication, or digital design.",
+              "source": "https://www.onetonline.org/link/summary/27-1024.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "graphic-design"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "medium",
+                "evidence": "Lucía liked redesigning the pickup sheet with clearer names and quantities, supporting visual information design.",
+                "biographyPaths": [
+                  "timeline.5.story",
+                  "currentLife.demonstratedSkills"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            },
+            {
+              "id": "graphic-design-interest-044-2",
+              "prompt": "Would you like to learn to review a visual design with others and revise its layout so the message is clearer and fits the project’s needs?",
+              "activity": "Review a visual design with others and revise its layout so the message is clearer and fits the project’s needs.",
+              "source": "https://www.onetonline.org/link/summary/27-1024.00",
+              "kind": "core-work",
+              "editorialPrompt": true,
+              "options": [
+                {
+                  "id": "yes",
+                  "text": "Yes, I would like to learn this work",
+                  "careerIds": [
+                    "graphic-design"
+                  ]
+                },
+                {
+                  "id": "no",
+                  "text": "This work does not interest me",
+                  "careerIds": []
+                }
+              ],
+              "answer": {
+                "response": "yes",
+                "source": "profile-inferred",
+                "confidence": "medium",
+                "evidence": "She already enjoyed revising a pickup form to communicate information more clearly after an order mix-up.",
+                "biographyPaths": [
+                  "timeline.5.story",
+                  "currentLife.demonstratedSkills"
+                ],
+                "constructSupport": "direct",
+                "reflectionVersion": "0.52.0"
+              }
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "questionId": "creative-make",
+            "question": "What would you enjoy creating?",
+            "text": "A visual message that helps people understand an idea",
+            "id": "creative-make-1",
+            "scope": 2,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-workday",
+            "question": "Which parts of a creative workday would you like to try?",
+            "text": "Make several drafts and improve them after feedback",
+            "id": "creative-workday-1",
+            "scope": 4,
+            "kind": "task",
+            "domain": "context"
+          },
+          {
+            "questionId": "creative-refine-1",
+            "question": "Which creative problem would keep you curious?",
+            "text": "Make a visual message memorable without making it confusing",
+            "id": "creative-refine-1-1",
+            "scope": 1,
+            "kind": "task",
+            "domain": "tasks"
+          },
+          {
+            "questionId": "creative-refine-3",
+            "question": "Which details would you enjoy checking?",
+            "text": "Type, spacing, colour, and the order people read a page",
+            "id": "creative-refine-3-1",
+            "scope": 2,
+            "kind": "task",
+            "domain": "process"
+          },
+          {
+            "questionId": "creative-refine-4",
+            "question": "Which beginner project would you choose?",
+            "text": "Design and revise a poster for a real audience",
+            "id": "creative-refine-4-1",
+            "scope": 1,
+            "kind": "task",
+            "domain": "introduction"
+          }
+        ],
+        "routes": [
+          {
+            "key": "college",
+            "label": "College · bachelor’s degree"
+          }
+        ]
+      },
+      "newReflections": [
+        {
+          "questionId": "graphic-design-interest-044-1",
+          "careerId": "graphic-design",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to arrange words, images, and visual styles to communicate a message in a poster, publication, or digital design?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Lucía liked redesigning the pickup sheet with clearer names and quantities, supporting visual information design.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        },
+        {
+          "questionId": "graphic-design-interest-044-2",
+          "careerId": "graphic-design",
+          "kind": "core",
+          "family": "creative",
+          "prompt": "Would you like to learn to review a visual design with others and revise its layout so the message is clearer and fits the project’s needs?",
+          "options": [],
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She already enjoyed revising a pickup form to communicate information more clearly after an order mix-up.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {},
+          "applied": true
+        }
+      ]
+    }
+  ]
+}

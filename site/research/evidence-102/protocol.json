@@ -1,0 +1,14 @@
+{
+  "version": "0.102",
+  "arms": [
+    "current",
+    "activity1",
+    "activity3"
+  ],
+  "populationForSelection": "development758 only",
+  "selection": "highest development Top + bachelor/graduate Top, then fewer coverage losses, then name; current excluded from candidate ranking",
+  "opening": "1 or 3 existing multi-select activity questions, diverse fields, ranked using observed answers and existing linked-career utility; then unchanged choose100",
+  "cap": "fresh official60 + at most24 total follow-up items",
+  "adoption": "research comparison only; no live-flow change; individual regressions visible",
+  "answerPolicy": "unchanged answer100; unknowns stay unknown; no new profile facts"
+}

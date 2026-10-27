@@ -1,0 +1,18 @@
+{
+  "version": "0.53.0",
+  "amendments": [
+    {
+      "kind": "development-evidence-review",
+      "detail": "16 older inferred answers across13 offers in9 original-development models receive separate review holds. Raw responses preserved; holdouts not tuned; direct student clarification can supersede."
+    },
+    {
+      "kind": "partial-evidence-ranking",
+      "trigger": "Synthetic browser questionnaire test, before final release",
+      "detail": "Supported first, then no contrary defining evidence, then meaningful partial evidence (at least1 independent defining interest or2 task contexts), then raw correlation, then distinct domain breadth, stableID. One generic checkbox cannot outrank every broad-interest connection."
+    },
+    {
+      "kind": "user-confirmed-sequence",
+      "detail": "Lifestyle remains first in the guide, followed by broad interests and open exploration. A separate budget lens highlights supported college/graduate routes, broad degree connections to clarify and other supported interest fits with budget gaps. Budget does not alter correlations/support or block exploration."
+    }
+  ]
+}

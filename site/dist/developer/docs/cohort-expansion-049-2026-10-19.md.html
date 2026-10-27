@@ -1,0 +1,73 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cohort expansion, paired diagnostics and fresh holdout · 0.49 · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Cohort expansion, paired diagnostics and fresh holdout · 0.49</h1><p>Retained development record. It may describe an earlier release.</p><a href="./cohort-expansion-049-2026-10-19.md" download>Download original Markdown</a><pre class="document"># Cohort expansion, paired diagnostics and fresh holdout · 0.49
+
+The original 148 public profiles and six owner-only profiles remain intact. This release adds 24 life-first fictional biographies and 12 separately labeled diagnostic variants. It changes cohort presentation and reporting, not matching rules, scores or occupational thresholds.
+
+The default population is 172 public base profiles, or 178 including the six authenticated owner-only profiles. The twelve diagnostic rows are excluded. An explicit “Base profiles + diagnostic variants” selection includes 184 public rows, or 190 after authorized private loading. A diagnostic row is a paired test, not an additional independent student.
+
+## New biographies and split
+
+Three isolated authoring agents wrote eight biographies each, without the questionnaire, occupational mappings, scoring code or matching results. Each biography retains seven developmental age bands from 4–5 to 16, household and access context, voluntary interests, described skills, unfamiliar activities, motivations, constraints, supports and uncertainty. All remain fictional age-16 cases.
+
+The planned blocks were persuasion and coordination (8), abstract or investigative activity (6), biological/evidence/explanation interests (4), contrasting skill/interest/exposure (4), and strong dislikes or changing direction (2). The split was frozen before answer inference: odd IDs are the twelve development profiles, even IDs are the twelve fresh holdout profiles. Every block is represented in both. This deliberate gap coverage is not population sampling or a demographic weighting scheme.
+
+Two separate answer-authoring agents inferred initial answers using only biographies and question/response text. Initial answers were frozen before selecting later comparisons. Authors then swapped base-profile assignments for later reflections. The later packets contained anonymous questions and biographies, with no scores, career labels, occupation mappings or desired results. Every invited probe was reviewed. Unsupported reflections default to Unsure with low inference confidence; explicit negative evidence is retained. Transferable curiosity may support learning interest, but a strong subject grade, a related hobby, wealth, diagnosis or salary ambition does not establish every distinctive interest in a profession.
+
+All answers were frozen before final matching. The engine was frozen before biography authoring and remained unchanged. No holdout result was used to tune it. First and final 0.49 offers use the current rules throughout. The new cases have no 0.41, 0.42 or 0.46 history. Stored field selections are simulated exploration choices; no final career is assigned.
+
+## Separate inference-quality review
+
+The first uncensored rerun is retained in the validation history. Inspection found some inferred Yes answers carrying a general method into an unestablished subject or responsibility. Two fresh reviewers then assessed every newly confirmed work-interest group using biographies, anonymous question text and the existing answer evidence. They had no occupation titles, scores, salary, Top status or development/holdout labels.
+
+That editorial review is separately frozen before the reviewed rerun. Raw answers are never rewritten. A question-level evidence hold lowers its applied inference confidence under the existing confirmation rules; it is not a student No, a new professional-experience requirement or a matching-rule change. The chart retains the pre-review Top list, shows the hold reason, and asks the specific follow-up that can resolve it. Direct student reflections can replace the inferred uncertainty in a student copy. The same parent review applies to a diagnostic variant.
+
+This is a reviewed synthetic holdout evaluation, not a blinded real-student accuracy trial. The raw first run and the later evidence review remain distinguishable; no holdout result is used to tune the matching engine.
+
+## Twelve paired variants
+
+All parents belong to the new development cohort. No fresh-holdout derivative enters development or diagnostics.
+
+- Four identity/background variants alter a name and cultural-language context while retaining behavioral interest responses.
+- Four variants mask an ADHD, depression, autism or dyslexia label while retaining described experiences, behavior and supports.
+- Two opportunity variants add supported, accessible tryout access. Exposure alone does not establish enjoyment, competence or a changed work interest. Parent responses and reflections remain fixed.
+- Two financial variants introduce a first-degree tuition grant and a shared-housing adult budget. Interest answers and willingness to pursue longer study remain fixed. The grant is a stated funding assumption, not an invented financial-aid award or an adjustment to catalog tuition. Education funding and starting-pay lifestyle coverage remain separate. The grant remains a narrative assumption until a particular program and amount are entered; the paired lifestyle calculation applies the shared-housing choice and leaves other financial inputs fixed. Financial coverage may reorder comparably supported offers, but it must not create a new work interest.
+
+Controls reuse their parent's initial interests, branch answers, invitations and later reflections. Fixed responses isolate what the matching engine does. Separate initial answers independently inferred from the variant biographies are preserved in an upstream sensitivity review; they do not replace controlled inputs. Different blind authors can disagree, so those differences are not a causal measure of demographic or health bias.
+
+## Corrected matrix labels
+
+“Authored optional experience available” and “Optional experience applied in main replay” are separate rows. All original public cases already contained twelve authored familiarity answers. The required main route omitted the optional experience module. These are simulated experience descriptions, not measured aptitude; they do not justify labeling those original profiles as lacking authored skill answers.
+
+The matrix now exposes the actual applied priority selections separately from narrative motivation themes. Recognition and influence wording have explicit narrative rows. Accessible text/communication formats and accessible opportunity wording are separated from wheelchair/mobility topics; generic “accessible workshops” no longer counts as a mobility condition. Bengali is included among named language contexts. All coded rows remain editorial indexes to exact text, not diagnoses, demographic inference, validated strengths or prevalence estimates.
+
+## Reading the updated views
+
+Use the new development, fresh holdout or diagnostic cohort filters in the matrix, model match chart, model library and frequency view. Default counts and CSVs exclude variants. Variant details identify the intervention and link to the parent. Matrix details retain the complete source biography; chart details show initial offers, frozen later answers, current Top offers, unresolved questions, Other options and starting-pay coverage. College/graduate filters remain available.
+
+New expanded professions without verified pay remain “Not assessed” for lifestyle. An interest-supported Top match does not automatically establish affordability, professional qualification, admission or future earnings. No career is forced when evidence is thin or conflicting.
+
+## Public provenance and checks
+
+- [Biography and split manifest](../research/cohort-049/biography-manifest.json)
+- [Initial-answer freeze](../research/cohort-049/initial-answer-freeze.json)
+- [Invited comparison manifest](../research/cohort-049/offered-manifest.json)
+- [Question freeze](../research/cohort-049/question-freeze.json)
+- [Follow-up answer freeze](../research/cohort-049/followup-answer-freeze.json)
+- [Inference-quality review](../research/cohort-049/quality-review.json)
+- [Inference-quality review freeze](../research/cohort-049/quality-review-freeze.json)
+- [Controlled rerun report](../research/cohort-049/rerun-report.json)
+- [Independent variant interpretation sensitivity](../research/cohort-049/independent-variant-inference-review.json)
+
+The local checks compare all original source and answer hashes, preserve the original 148 public Top/Other/lifestyle/pending results, verify paired-control invariance, reconcile chart/matrix/frequency denominators, and compare new chart offers with the student matching engine. Private records and their derived rows remain authenticated and are not bundled publicly. These synthetic checks establish regression coverage, not real-student predictive validity or proof that remaining cohort biases are solved. Separate authoring sessions can still share model assumptions; the agents are not an independent human sample.
+
+## Reviewed rerun result
+
+| Cohort | Base profiles / controls | Profiles with Top | Top offers | Profiles with displayed starting-pay option |
+|---|---:|---:|---:|---:|
+| development049 | 12 | 9 | 16 | 7 |
+| diagnostic049 | 12 | 9 | 16 | 7 |
+| holdout049 | 12 | 8 | 17 | 7 |
+
+The 24 new base profiles have 33 reviewed Top offers across 17 profiles. Seven profiles remain without a supported Top match. Of 95 originally confirmed work-interest groups reviewed anonymously, 49 remain supported and 46 have at least one question-level evidence hold (69 held questions). These are editorial simulation judgments, not rates of student accuracy. All twelve paired controls preserve official scores and interest eligibility; nonfinancial controls also preserve the displayed matching outputs. The original 148 public Top, Other, pending and lifestyle lists are unchanged.
+
+The public chart snapshot is a manifest containing the original public cohort and references to three versioned new-cohort files. Browser and frequency builds load all parts together; each part carries the same release timestamp and a recorded hash. This keeps individual assets within hosting limits without reducing profiles, evidence or history.
+</pre></main></html>

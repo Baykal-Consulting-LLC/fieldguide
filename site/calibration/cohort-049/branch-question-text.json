@@ -1,0 +1,2415 @@
+{
+  "creative": [
+    {
+      "id": "creative-make",
+      "prompt": "What would you enjoy creating?",
+      "options": [
+        {
+          "id": "creative-make-1",
+          "label": "A visual message that helps people understand an idea"
+        },
+        {
+          "id": "creative-make-2",
+          "label": "A useful object people can hold and use"
+        },
+        {
+          "id": "creative-make-3",
+          "label": "A story through words, photographs or moving images"
+        },
+        {
+          "id": "creative-make-4",
+          "label": "A way for people to connect with information or culture"
+        },
+        {
+          "id": "creative-make-5",
+          "label": "A personal design for someone’s body art"
+        }
+      ]
+    },
+    {
+      "id": "creative-revise",
+      "prompt": "Which kind of revision sounds satisfying?",
+      "options": [
+        {
+          "id": "creative-revise-1",
+          "label": "Make a layout easier to read and navigate"
+        },
+        {
+          "id": "creative-revise-2",
+          "label": "Improve how a product looks, feels and works"
+        },
+        {
+          "id": "creative-revise-3",
+          "label": "Shape the timing, mood or story of a scene"
+        },
+        {
+          "id": "creative-revise-4",
+          "label": "Find words that carry the right meaning for an audience"
+        }
+      ]
+    },
+    {
+      "id": "creative-people",
+      "prompt": "Who would you enjoy creating with or for?",
+      "options": [
+        {
+          "id": "creative-people-1",
+          "label": "Clients who need a clear visual identity"
+        },
+        {
+          "id": "creative-people-2",
+          "label": "A team making a product or digital experience"
+        },
+        {
+          "id": "creative-people-3",
+          "label": "People sharing a story, language or point of view"
+        },
+        {
+          "id": "creative-people-4",
+          "label": "A community finding information and learning together"
+        },
+        {
+          "id": "creative-people-5",
+          "label": "A person choosing a lasting design that feels like them"
+        }
+      ]
+    },
+    {
+      "id": "creative-workday",
+      "prompt": "Which parts of a creative workday would you like to try?",
+      "options": [
+        {
+          "id": "creative-workday-1",
+          "label": "Make several drafts and improve them after feedback"
+        },
+        {
+          "id": "creative-workday-2",
+          "label": "Work carefully with images, light, movement or sound"
+        },
+        {
+          "id": "creative-workday-3",
+          "label": "Ask people questions before deciding what to make"
+        },
+        {
+          "id": "creative-workday-4",
+          "label": "Research meaning and check that information is accurate"
+        },
+        {
+          "id": "creative-workday-5",
+          "label": "Practice careful techniques while following studio hygiene routines"
+        }
+      ]
+    },
+    {
+      "id": "creative-refine-1",
+      "prompt": "Which creative problem would keep you curious?",
+      "options": [
+        {
+          "id": "creative-refine-1-1",
+          "label": "Make a visual message memorable without making it confusing"
+        },
+        {
+          "id": "creative-refine-1-2",
+          "label": "Make a website or app easier to understand and use"
+        },
+        {
+          "id": "creative-refine-1-3",
+          "label": "Make a physical object more useful and appealing"
+        },
+        {
+          "id": "creative-refine-1-4",
+          "label": "Make a story, scene, or image more engaging"
+        },
+        {
+          "id": "creative-refine-1-5",
+          "label": "Help a person or community express something important"
+        }
+      ]
+    },
+    {
+      "id": "creative-refine-2",
+      "prompt": "Which result would you most enjoy finishing?",
+      "options": [
+        {
+          "id": "creative-refine-2-1",
+          "label": "A visual identity and a set of clear layouts"
+        },
+        {
+          "id": "creative-refine-2-2",
+          "label": "A tested screen design that people can navigate"
+        },
+        {
+          "id": "creative-refine-2-3",
+          "label": "A model of a product people could hold"
+        },
+        {
+          "id": "creative-refine-2-4",
+          "label": "An edited story, film, animation, or photo series"
+        },
+        {
+          "id": "creative-refine-2-5",
+          "label": "A message or service shaped for a particular audience"
+        }
+      ]
+    },
+    {
+      "id": "creative-refine-3",
+      "prompt": "Which details would you enjoy checking?",
+      "options": [
+        {
+          "id": "creative-refine-3-1",
+          "label": "Type, spacing, colour, and the order people read a page"
+        },
+        {
+          "id": "creative-refine-3-2",
+          "label": "Materials, proportions, and how parts fit a user’s hand"
+        },
+        {
+          "id": "creative-refine-3-3",
+          "label": "Words, meaning, and whether a claim is accurate"
+        },
+        {
+          "id": "creative-refine-3-4",
+          "label": "Timing, movement, lighting, and the mood of an image"
+        },
+        {
+          "id": "creative-refine-3-5",
+          "label": "Linework, placement, consent, and hygienic practice"
+        }
+      ]
+    },
+    {
+      "id": "creative-refine-4",
+      "prompt": "Which beginner project would you choose?",
+      "options": [
+        {
+          "id": "creative-refine-4-1",
+          "label": "Design and revise a poster for a real audience"
+        },
+        {
+          "id": "creative-refine-4-2",
+          "label": "Sketch an app screen and watch someone try it"
+        },
+        {
+          "id": "creative-refine-4-3",
+          "label": "Build a simple model and improve how it works"
+        },
+        {
+          "id": "creative-refine-4-4",
+          "label": "Make a short written, photographic, or moving-image story"
+        },
+        {
+          "id": "creative-refine-4-5",
+          "label": "Explore design, language, or information with a community"
+        }
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "id": "technology-problem",
+      "prompt": "Which digital problem would you enjoy exploring?",
+      "options": [
+        {
+          "id": "technology-problem-1",
+          "label": "Build a useful app or website"
+        },
+        {
+          "id": "technology-problem-2",
+          "label": "Find a pattern in data and explain what it means"
+        },
+        {
+          "id": "technology-problem-3",
+          "label": "Protect information and investigate security risks"
+        },
+        {
+          "id": "technology-problem-4",
+          "label": "Help people use technology that works better for them"
+        }
+      ]
+    },
+    {
+      "id": "technology-approach",
+      "prompt": "What would you like to do when a digital tool is not working?",
+      "options": [
+        {
+          "id": "technology-approach-1",
+          "label": "Trace the code and test a possible fix"
+        },
+        {
+          "id": "technology-approach-2",
+          "label": "Study data to see where the problem appears"
+        },
+        {
+          "id": "technology-approach-3",
+          "label": "Understand how several systems connect"
+        },
+        {
+          "id": "technology-approach-4",
+          "label": "Talk someone through the issue and try solutions together"
+        }
+      ]
+    },
+    {
+      "id": "technology-result",
+      "prompt": "Which result would feel satisfying?",
+      "options": [
+        {
+          "id": "technology-result-1",
+          "label": "People can use something I built"
+        },
+        {
+          "id": "technology-result-2",
+          "label": "A team makes a better decision because of my analysis"
+        },
+        {
+          "id": "technology-result-3",
+          "label": "A system is safer and private information stays protected"
+        },
+        {
+          "id": "technology-result-4",
+          "label": "Someone can get back to work after I solve their tech problem"
+        }
+      ]
+    },
+    {
+      "id": "technology-workday",
+      "prompt": "Which parts of the work would you like to learn?",
+      "options": [
+        {
+          "id": "technology-workday-1",
+          "label": "Test small changes until a solution works reliably"
+        },
+        {
+          "id": "technology-workday-2",
+          "label": "Check whether a data result is trustworthy"
+        },
+        {
+          "id": "technology-workday-3",
+          "label": "Turn a team’s needs into a clear technical plan"
+        },
+        {
+          "id": "technology-workday-4",
+          "label": "Explain technical steps in simple language"
+        }
+      ]
+    },
+    {
+      "id": "technology-refine-1",
+      "prompt": "Which problem would you want to untangle?",
+      "options": [
+        {
+          "id": "technology-refine-1-1",
+          "label": "A program that needs new behaviour"
+        },
+        {
+          "id": "technology-refine-1-2",
+          "label": "A pattern hidden in messy data"
+        },
+        {
+          "id": "technology-refine-1-3",
+          "label": "A system exposed to a security threat"
+        },
+        {
+          "id": "technology-refine-1-4",
+          "label": "A tool that does not meet its users’ needs"
+        },
+        {
+          "id": "technology-refine-1-5",
+          "label": "A device or connection someone cannot get working"
+        }
+      ]
+    },
+    {
+      "id": "technology-refine-2",
+      "prompt": "Which result would you enjoy producing?",
+      "options": [
+        {
+          "id": "technology-refine-2-1",
+          "label": "A useful application or website"
+        },
+        {
+          "id": "technology-refine-2-2",
+          "label": "An analysis that explains a pattern and its limits"
+        },
+        {
+          "id": "technology-refine-2-3",
+          "label": "A safer system and a response plan"
+        },
+        {
+          "id": "technology-refine-2-4",
+          "label": "A clear plan for a better information system"
+        },
+        {
+          "id": "technology-refine-2-5",
+          "label": "A solved technical problem and an understandable explanation"
+        }
+      ]
+    },
+    {
+      "id": "technology-refine-3",
+      "prompt": "Which details would you enjoy checking?",
+      "options": [
+        {
+          "id": "technology-refine-3-1",
+          "label": "Code, test cases, and unexpected behaviour"
+        },
+        {
+          "id": "technology-refine-3-2",
+          "label": "Data quality, assumptions, and uncertainty"
+        },
+        {
+          "id": "technology-refine-3-3",
+          "label": "Permissions, suspicious activity, and vulnerabilities"
+        },
+        {
+          "id": "technology-refine-3-4",
+          "label": "User requirements and how systems connect"
+        },
+        {
+          "id": "technology-refine-3-5",
+          "label": "Settings, connections, and a troubleshooting sequence"
+        }
+      ]
+    },
+    {
+      "id": "technology-refine-4",
+      "prompt": "Which small project would you try first?",
+      "options": [
+        {
+          "id": "technology-refine-4-1",
+          "label": "Build and debug a tiny application"
+        },
+        {
+          "id": "technology-refine-4-2",
+          "label": "Explore a public dataset and explain a finding"
+        },
+        {
+          "id": "technology-refine-4-3",
+          "label": "Practise security in an authorised training lab"
+        },
+        {
+          "id": "technology-refine-4-4",
+          "label": "Map a process and suggest a better system"
+        },
+        {
+          "id": "technology-refine-4-5",
+          "label": "Help someone fix a device using a clear checklist"
+        }
+      ]
+    }
+  ],
+  "health": [
+    {
+      "id": "health-care",
+      "prompt": "Which parts of health and helping draw you in?",
+      "options": [
+        {
+          "id": "health-care-1",
+          "label": "Investigate symptoms and explain possible treatment"
+        },
+        {
+          "id": "health-care-2",
+          "label": "Care for people and notice changes in how they feel"
+        },
+        {
+          "id": "health-care-3",
+          "label": "Learn precise hands-on care for teeth and gums"
+        },
+        {
+          "id": "health-care-4",
+          "label": "Help someone move, communicate or manage daily life"
+        },
+        {
+          "id": "health-care-5",
+          "label": "Help people with emotions, relationships or practical support"
+        }
+      ]
+    },
+    {
+      "id": "health-investigate",
+      "prompt": "What would you enjoy understanding more deeply?",
+      "options": [
+        {
+          "id": "health-investigate-1",
+          "label": "How symptoms, medical history and tests fit together"
+        },
+        {
+          "id": "health-investigate-2",
+          "label": "How oral health affects someone’s comfort and health"
+        },
+        {
+          "id": "health-investigate-3",
+          "label": "How images and medical equipment help care teams"
+        },
+        {
+          "id": "health-investigate-4",
+          "label": "How medicines, nutrition or food affect health"
+        },
+        {
+          "id": "health-investigate-5",
+          "label": "Why health or social patterns differ across communities"
+        }
+      ]
+    },
+    {
+      "id": "health-support",
+      "prompt": "How would you like to help someone?",
+      "options": [
+        {
+          "id": "health-support-1",
+          "label": "Listen to their concerns and explain a care plan"
+        },
+        {
+          "id": "health-support-2",
+          "label": "Provide practical help and comfort during the day"
+        },
+        {
+          "id": "health-support-3",
+          "label": "Coach them through recovery or a skill they are building"
+        },
+        {
+          "id": "health-support-4",
+          "label": "Work through emotional challenges or connect them with support"
+        },
+        {
+          "id": "health-support-5",
+          "label": "Help them use treatment, medicine or nutrition safely"
+        }
+      ]
+    },
+    {
+      "id": "health-workday",
+      "prompt": "Which health-care routines would you like to learn?",
+      "options": [
+        {
+          "id": "health-workday-1",
+          "label": "Use evidence, keep records and review complex decisions"
+        },
+        {
+          "id": "health-workday-2",
+          "label": "Carry out careful procedures while helping a patient feel at ease"
+        },
+        {
+          "id": "health-workday-3",
+          "label": "Position people and use equipment to get clear information"
+        },
+        {
+          "id": "health-workday-4",
+          "label": "Track small changes and adapt support over several meetings"
+        },
+        {
+          "id": "health-workday-5",
+          "label": "Collect information and look for ways to improve health in a community"
+        }
+      ]
+    },
+    {
+      "id": "health-refine-1",
+      "prompt": "Which problem would you want to understand in more detail?",
+      "options": [
+        {
+          "id": "health-refine-1-1",
+          "label": "An illness that could have several causes"
+        },
+        {
+          "id": "health-refine-1-2",
+          "label": "A problem with teeth, gums, or a patient’s oral health"
+        },
+        {
+          "id": "health-refine-1-3",
+          "label": "How movement, speech, or breathing can improve"
+        },
+        {
+          "id": "health-refine-1-4",
+          "label": "How emotions and life circumstances affect wellbeing"
+        },
+        {
+          "id": "health-refine-1-5",
+          "label": "How a test, medicine, or prevention programme can help"
+        }
+      ]
+    },
+    {
+      "id": "health-refine-2",
+      "prompt": "Which responsibility would you enjoy learning about?",
+      "options": [
+        {
+          "id": "health-refine-2-1",
+          "label": "Diagnose a medical problem and manage treatment over time"
+        },
+        {
+          "id": "health-refine-2-2",
+          "label": "Provide ongoing nursing care and notice changes"
+        },
+        {
+          "id": "health-refine-2-3",
+          "label": "Plan and carry out precise dental treatment"
+        },
+        {
+          "id": "health-refine-2-4",
+          "label": "Guide therapy, rehabilitation, or personal support"
+        },
+        {
+          "id": "health-refine-2-5",
+          "label": "Produce reliable health information or treatment support"
+        }
+      ]
+    },
+    {
+      "id": "health-refine-3",
+      "prompt": "What would you like to explain to someone?",
+      "options": [
+        {
+          "id": "health-refine-3-1",
+          "label": "Why symptoms point toward a diagnosis and what comes next"
+        },
+        {
+          "id": "health-refine-3-2",
+          "label": "How daily care helps someone stay comfortable and recover"
+        },
+        {
+          "id": "health-refine-3-3",
+          "label": "How to care for teeth and what a dental procedure involves"
+        },
+        {
+          "id": "health-refine-3-4",
+          "label": "How a medicine, test result, or nutrition change is used"
+        },
+        {
+          "id": "health-refine-3-5",
+          "label": "How to build a skill or handle a difficult situation"
+        }
+      ]
+    },
+    {
+      "id": "health-refine-4",
+      "prompt": "Which supervised experience would you most want to try?",
+      "options": [
+        {
+          "id": "health-refine-4-1",
+          "label": "Observe a medical consultation and discuss the reasoning afterward"
+        },
+        {
+          "id": "health-refine-4-2",
+          "label": "Observe a dental clinic and its careful procedures"
+        },
+        {
+          "id": "health-refine-4-3",
+          "label": "See how a nursing or daily-care team supports patients"
+        },
+        {
+          "id": "health-refine-4-4",
+          "label": "Visit a therapy, counselling, or rehabilitation service"
+        },
+        {
+          "id": "health-refine-4-5",
+          "label": "Visit a diagnostic lab, pharmacy, or public-health project"
+        }
+      ]
+    },
+    {
+      "id": "health-role-work",
+      "prompt": "Which responsibility would you most want to learn about?",
+      "options": [
+        {
+          "id": "health-role-work-physician",
+          "label": "Investigate a broad medical problem and plan treatment as a physician."
+        },
+        {
+          "id": "health-role-work-nurse-practitioner",
+          "label": "Assess and treat patients through advanced nursing practice."
+        },
+        {
+          "id": "health-role-work-physician-assistant",
+          "label": "Examine and treat patients as a physician assistant (PA) on a medical team."
+        },
+        {
+          "id": "health-role-work-nursing",
+          "label": "Monitor patients and coordinate their day-to-day nursing care."
+        },
+        {
+          "id": "health-role-work-dentist",
+          "label": "Diagnose oral disease and plan restorative dental treatment."
+        },
+        {
+          "id": "health-role-work-dental-hygiene",
+          "label": "Clean teeth, assess gum health, and teach preventive oral care."
+        },
+        {
+          "id": "health-role-work-dental-assisting",
+          "label": "Prepare instruments and help the dentist during treatment."
+        }
+      ],
+      "kind": "role-task"
+    },
+    {
+      "id": "health-role-observe",
+      "prompt": "Which professional would you like to follow for a day?",
+      "options": [
+        {
+          "id": "health-role-observe-physician",
+          "label": "Follow a physician evaluating a complex new patient."
+        },
+        {
+          "id": "health-role-observe-nurse-practitioner",
+          "label": "Follow a nurse practitioner (NP) assessing patients and providing advanced nursing care."
+        },
+        {
+          "id": "health-role-observe-physician-assistant",
+          "label": "Follow a physician assistant (PA) conducting medical assessments with a physician team."
+        },
+        {
+          "id": "health-role-observe-nursing",
+          "label": "Follow a registered nurse (RN) monitoring patients and responding to changes."
+        },
+        {
+          "id": "health-role-observe-dentist",
+          "label": "Watch a dentist diagnose a problem and restore a tooth."
+        },
+        {
+          "id": "health-role-observe-dental-hygiene",
+          "label": "Watch a hygienist provide preventive care and explain home care."
+        },
+        {
+          "id": "health-role-observe-dental-assisting",
+          "label": "Watch an assistant prepare the room and support a dental procedure."
+        }
+      ],
+      "kind": "role-task"
+    },
+    {
+      "id": "health-role-learning",
+      "prompt": "Which preparation route would you like to explore?",
+      "options": [
+        {
+          "id": "health-role-learning-physician",
+          "label": "College, medical school, then a medical residency."
+        },
+        {
+          "id": "health-role-learning-nurse-practitioner",
+          "label": "Nursing preparation and RN licensure, then graduate NP education."
+        },
+        {
+          "id": "health-role-learning-physician-assistant",
+          "label": "College and prerequisites, then graduate PA education."
+        },
+        {
+          "id": "health-role-learning-nursing",
+          "label": "An approved nursing program and RN licensure."
+        },
+        {
+          "id": "health-role-learning-dentist",
+          "label": "College prerequisites, then dental school."
+        },
+        {
+          "id": "health-role-learning-dental-hygiene",
+          "label": "An accredited dental hygiene program and licensure."
+        },
+        {
+          "id": "health-role-learning-dental-assisting",
+          "label": "Dental assisting training and the credentials needed for assigned duties."
+        }
+      ],
+      "kind": "route"
+    }
+  ],
+  "business": [
+    {
+      "id": "business-problem",
+      "prompt": "Which problem would you enjoy working through?",
+      "options": [
+        {
+          "id": "business-problem-1",
+          "label": "The money records do not add up"
+        },
+        {
+          "id": "business-problem-2",
+          "label": "A team needs a clearer plan or better way to work"
+        },
+        {
+          "id": "business-problem-3",
+          "label": "An organization needs to understand its customers"
+        },
+        {
+          "id": "business-problem-4",
+          "label": "Someone needs help understanding a right, rule or decision"
+        },
+        {
+          "id": "business-problem-5",
+          "label": "Goods or services are not reaching people smoothly"
+        }
+      ]
+    },
+    {
+      "id": "business-evidence",
+      "prompt": "What would you enjoy using to make a recommendation?",
+      "options": [
+        {
+          "id": "business-evidence-1",
+          "label": "Financial reports, costs and investment information"
+        },
+        {
+          "id": "business-evidence-2",
+          "label": "Customer interviews and market patterns"
+        },
+        {
+          "id": "business-evidence-3",
+          "label": "Policies, legal sources and carefully organized facts"
+        },
+        {
+          "id": "business-evidence-4",
+          "label": "Schedules, workflow data and conversations with a team"
+        }
+      ]
+    },
+    {
+      "id": "business-people",
+      "prompt": "Which kind of work with people interests you?",
+      "options": [
+        {
+          "id": "business-people-1",
+          "label": "Help a person understand a financial choice"
+        },
+        {
+          "id": "business-people-2",
+          "label": "Help a team coordinate responsibilities and deadlines"
+        },
+        {
+          "id": "business-people-3",
+          "label": "Help colleagues solve a workplace problem"
+        },
+        {
+          "id": "business-people-4",
+          "label": "Advocate for someone or explain a rule clearly"
+        },
+        {
+          "id": "business-people-5",
+          "label": "Bring different community needs into a shared plan"
+        }
+      ]
+    },
+    {
+      "id": "business-workday",
+      "prompt": "Which parts of the work would you like to try?",
+      "options": [
+        {
+          "id": "business-workday-1",
+          "label": "Check detailed records and explain what changed"
+        },
+        {
+          "id": "business-workday-2",
+          "label": "Balance deadlines, costs and changing priorities"
+        },
+        {
+          "id": "business-workday-3",
+          "label": "Research a question and defend a recommendation with evidence"
+        },
+        {
+          "id": "business-workday-4",
+          "label": "Explain choices and work toward an agreement"
+        }
+      ]
+    },
+    {
+      "id": "business-refine-1",
+      "prompt": "Which decision would you enjoy investigating?",
+      "options": [
+        {
+          "id": "business-refine-1-1",
+          "label": "How money is recorded, invested, or planned"
+        },
+        {
+          "id": "business-refine-1-2",
+          "label": "What customers want and how to reach them"
+        },
+        {
+          "id": "business-refine-1-3",
+          "label": "How a team or service can work more effectively"
+        },
+        {
+          "id": "business-refine-1-4",
+          "label": "How goods, places, and resources should be organised"
+        },
+        {
+          "id": "business-refine-1-5",
+          "label": "How a rule or legal argument applies to a situation"
+        }
+      ]
+    },
+    {
+      "id": "business-refine-2",
+      "prompt": "Which result would you like to produce?",
+      "options": [
+        {
+          "id": "business-refine-2-1",
+          "label": "Accurate accounts or a clear financial recommendation"
+        },
+        {
+          "id": "business-refine-2-2",
+          "label": "An audience study or a marketing plan"
+        },
+        {
+          "id": "business-refine-2-3",
+          "label": "A project plan or better way to support employees"
+        },
+        {
+          "id": "business-refine-2-4",
+          "label": "A more effective delivery, production, or city plan"
+        },
+        {
+          "id": "business-refine-2-5",
+          "label": "A well-supported case or legal document"
+        }
+      ]
+    },
+    {
+      "id": "business-refine-3",
+      "prompt": "Which details would you enjoy checking?",
+      "options": [
+        {
+          "id": "business-refine-3-1",
+          "label": "Transactions, forecasts, and financial assumptions"
+        },
+        {
+          "id": "business-refine-3-2",
+          "label": "Customer evidence and whether messages are effective"
+        },
+        {
+          "id": "business-refine-3-3",
+          "label": "Responsibilities, schedules, and how people are treated"
+        },
+        {
+          "id": "business-refine-3-4",
+          "label": "Bottlenecks, capacity, and the use of space"
+        },
+        {
+          "id": "business-refine-3-5",
+          "label": "Evidence, wording, and legal deadlines"
+        }
+      ]
+    },
+    {
+      "id": "business-refine-4",
+      "prompt": "Which introduction would you choose?",
+      "options": [
+        {
+          "id": "business-refine-4-1",
+          "label": "Make and explain a simple budget"
+        },
+        {
+          "id": "business-refine-4-2",
+          "label": "Research a customer need and test a message"
+        },
+        {
+          "id": "business-refine-4-3",
+          "label": "Plan a small team project and review what worked"
+        },
+        {
+          "id": "business-refine-4-4",
+          "label": "Improve a delivery route, process, or shared space"
+        },
+        {
+          "id": "business-refine-4-5",
+          "label": "Compare arguments in a public legal case"
+        }
+      ]
+    }
+  ],
+  "science": [
+    {
+      "id": "science-wonder",
+      "prompt": "What would you most enjoy investigating?",
+      "options": [
+        {
+          "id": "science-wonder-1",
+          "label": "Living organisms and how they function"
+        },
+        {
+          "id": "science-wonder-2",
+          "label": "Substances, materials and how they change"
+        },
+        {
+          "id": "science-wonder-3",
+          "label": "Air, water, soil and environmental change"
+        },
+        {
+          "id": "science-wonder-4",
+          "label": "Plants, land or animals that people care for"
+        }
+      ]
+    },
+    {
+      "id": "science-setting",
+      "prompt": "Where would you enjoy gathering information?",
+      "options": [
+        {
+          "id": "science-setting-1",
+          "label": "A laboratory with samples and careful procedures"
+        },
+        {
+          "id": "science-setting-2",
+          "label": "An outdoor site with observations and measurements"
+        },
+        {
+          "id": "science-setting-3",
+          "label": "A farm, nursery, garden or planted landscape"
+        },
+        {
+          "id": "science-setting-4",
+          "label": "An animal-care setting with patients and their owners"
+        }
+      ]
+    },
+    {
+      "id": "science-result",
+      "prompt": "Which result would you like your work to support?",
+      "options": [
+        {
+          "id": "science-result-1",
+          "label": "Understand something about life or a new material"
+        },
+        {
+          "id": "science-result-2",
+          "label": "Protect natural resources and explain environmental risks"
+        },
+        {
+          "id": "science-result-3",
+          "label": "Make food safer or improve how it is produced"
+        },
+        {
+          "id": "science-result-4",
+          "label": "Keep plants, animals or outdoor spaces healthy"
+        }
+      ]
+    },
+    {
+      "id": "science-workday",
+      "prompt": "Which routines would you like to learn?",
+      "options": [
+        {
+          "id": "science-workday-1",
+          "label": "Repeat a procedure and record results carefully"
+        },
+        {
+          "id": "science-workday-2",
+          "label": "Collect samples and connect findings to a real place"
+        },
+        {
+          "id": "science-workday-3",
+          "label": "Notice changes and provide regular practical care"
+        },
+        {
+          "id": "science-workday-4",
+          "label": "Explain evidence and its limits to other people"
+        }
+      ]
+    },
+    {
+      "id": "science-refine-1",
+      "prompt": "Which question would you want to investigate?",
+      "options": [
+        {
+          "id": "science-refine-1-1",
+          "label": "How habitats and natural resources are changing"
+        },
+        {
+          "id": "science-refine-1-2",
+          "label": "How substances, living cells, or food behave"
+        },
+        {
+          "id": "science-refine-1-3",
+          "label": "Why an animal is unwell and how it can be helped"
+        },
+        {
+          "id": "science-refine-1-4",
+          "label": "How plants grow under different conditions"
+        }
+      ]
+    },
+    {
+      "id": "science-refine-2",
+      "prompt": "Which result would you enjoy producing?",
+      "options": [
+        {
+          "id": "science-refine-2-1",
+          "label": "A careful field study and environmental recommendation"
+        },
+        {
+          "id": "science-refine-2-2",
+          "label": "A reliable laboratory result or food-quality finding"
+        },
+        {
+          "id": "science-refine-2-3",
+          "label": "An animal-care or treatment plan"
+        },
+        {
+          "id": "science-refine-2-4",
+          "label": "Healthy plants, crops, or a maintained landscape"
+        }
+      ]
+    },
+    {
+      "id": "science-refine-3",
+      "prompt": "Which details would you enjoy checking?",
+      "options": [
+        {
+          "id": "science-refine-3-1",
+          "label": "Field measurements, maps, and changes over time"
+        },
+        {
+          "id": "science-refine-3-2",
+          "label": "Samples, lab procedures, and possible sources of error"
+        },
+        {
+          "id": "science-refine-3-3",
+          "label": "An animal’s symptoms, behaviour, and care needs"
+        },
+        {
+          "id": "science-refine-3-4",
+          "label": "Soil, watering, pests, and signs of growth"
+        }
+      ]
+    },
+    {
+      "id": "science-refine-4",
+      "prompt": "Which safe introduction would you choose?",
+      "options": [
+        {
+          "id": "science-refine-4-1",
+          "label": "A local field observation or conservation project"
+        },
+        {
+          "id": "science-refine-4-2",
+          "label": "A supervised laboratory or food-science demonstration"
+        },
+        {
+          "id": "science-refine-4-3",
+          "label": "An approved animal-care visit or veterinary observation"
+        },
+        {
+          "id": "science-refine-4-4",
+          "label": "A supervised garden or planting project"
+        }
+      ]
+    }
+  ],
+  "building": [
+    {
+      "id": "building-design",
+      "prompt": "What would you enjoy designing or improving?",
+      "options": [
+        {
+          "id": "building-design-1",
+          "label": "Machines, moving parts or useful devices"
+        },
+        {
+          "id": "building-design-2",
+          "label": "Circuits, electrical devices or power systems"
+        },
+        {
+          "id": "building-design-3",
+          "label": "Buildings and spaces people use"
+        },
+        {
+          "id": "building-design-4",
+          "label": "Roads, water systems or community spaces"
+        },
+        {
+          "id": "building-design-5",
+          "label": "How a workplace or building project runs"
+        }
+      ]
+    },
+    {
+      "id": "building-approach",
+      "prompt": "Which way of solving a problem sounds interesting?",
+      "options": [
+        {
+          "id": "building-approach-1",
+          "label": "Make a model and test how it performs"
+        },
+        {
+          "id": "building-approach-2",
+          "label": "Work through calculations and technical limits"
+        },
+        {
+          "id": "building-approach-3",
+          "label": "Sketch spaces around people’s needs"
+        },
+        {
+          "id": "building-approach-4",
+          "label": "Coordinate people, materials, time and costs"
+        }
+      ]
+    },
+    {
+      "id": "building-impact",
+      "prompt": "What would you like your work to improve?",
+      "options": [
+        {
+          "id": "building-impact-1",
+          "label": "A product or device people depend on"
+        },
+        {
+          "id": "building-impact-2",
+          "label": "A safe, useful building or public structure"
+        },
+        {
+          "id": "building-impact-3",
+          "label": "How people move through a community"
+        },
+        {
+          "id": "building-impact-4",
+          "label": "A process that wastes time or materials"
+        }
+      ]
+    },
+    {
+      "id": "building-workday",
+      "prompt": "Which routines would you like to learn?",
+      "options": [
+        {
+          "id": "building-workday-1",
+          "label": "Test a design, find a weakness and improve it"
+        },
+        {
+          "id": "building-workday-2",
+          "label": "Check plans against safety rules and practical constraints"
+        },
+        {
+          "id": "building-workday-3",
+          "label": "Talk with people whose needs differ and compare options"
+        },
+        {
+          "id": "building-workday-4",
+          "label": "Track progress and solve problems across a project team"
+        }
+      ]
+    },
+    {
+      "id": "building-refine-1",
+      "prompt": "Which design problem would hold your attention?",
+      "options": [
+        {
+          "id": "building-refine-1-1",
+          "label": "How a machine, circuit, or medical device works"
+        },
+        {
+          "id": "building-refine-1-2",
+          "label": "How a structure or infrastructure handles its demands"
+        },
+        {
+          "id": "building-refine-1-3",
+          "label": "How a building or neighbourhood serves people"
+        },
+        {
+          "id": "building-refine-1-4",
+          "label": "How construction or production can run better"
+        }
+      ]
+    },
+    {
+      "id": "building-refine-2",
+      "prompt": "Which result would you enjoy producing?",
+      "options": [
+        {
+          "id": "building-refine-2-1",
+          "label": "A tested design for a device or mechanism"
+        },
+        {
+          "id": "building-refine-2-2",
+          "label": "A safe infrastructure design backed by calculations"
+        },
+        {
+          "id": "building-refine-2-3",
+          "label": "Drawings and models for a building or public place"
+        },
+        {
+          "id": "building-refine-2-4",
+          "label": "A coordinated plan for people, materials, and work"
+        }
+      ]
+    },
+    {
+      "id": "building-refine-3",
+      "prompt": "Which details would you enjoy checking?",
+      "options": [
+        {
+          "id": "building-refine-3-1",
+          "label": "Performance, materials, and the way components interact"
+        },
+        {
+          "id": "building-refine-3-2",
+          "label": "Loads, ground conditions, and safety margins"
+        },
+        {
+          "id": "building-refine-3-3",
+          "label": "Space, access, light, and how a place feels"
+        },
+        {
+          "id": "building-refine-3-4",
+          "label": "Schedules, quality, waste, and resource constraints"
+        }
+      ]
+    },
+    {
+      "id": "building-refine-4",
+      "prompt": "Which beginner project would you choose?",
+      "options": [
+        {
+          "id": "building-refine-4-1",
+          "label": "Build and test a simple device model"
+        },
+        {
+          "id": "building-refine-4-2",
+          "label": "Test a small model structure under different loads"
+        },
+        {
+          "id": "building-refine-4-3",
+          "label": "Sketch a better building layout or shared space"
+        },
+        {
+          "id": "building-refine-4-4",
+          "label": "Plan a small build or improve an assembly process"
+        }
+      ]
+    }
+  ],
+  "trades": [
+    {
+      "id": "trades-systems",
+      "prompt": "Which systems would you like to work with?",
+      "options": [
+        {
+          "id": "trades-systems-1",
+          "label": "Wiring, electrical equipment and circuits"
+        },
+        {
+          "id": "trades-systems-2",
+          "label": "Pipes, water, heating or cooling"
+        },
+        {
+          "id": "trades-systems-3",
+          "label": "Vehicles and mechanical equipment"
+        },
+        {
+          "id": "trades-systems-4",
+          "label": "Wood, metal and physical structures"
+        }
+      ]
+    },
+    {
+      "id": "trades-process",
+      "prompt": "What sounds satisfying to learn?",
+      "options": [
+        {
+          "id": "trades-process-1",
+          "label": "Trace a fault and work out why something stopped working"
+        },
+        {
+          "id": "trades-process-2",
+          "label": "Install a new system from drawings and instructions"
+        },
+        {
+          "id": "trades-process-3",
+          "label": "Measure, shape and assemble something accurately"
+        },
+        {
+          "id": "trades-process-4",
+          "label": "Maintain a place or equipment before problems grow"
+        },
+        {
+          "id": "trades-process-5",
+          "label": "Help prepare and build a structure with a team"
+        }
+      ]
+    },
+    {
+      "id": "trades-place",
+      "prompt": "Where would you enjoy learning practical work?",
+      "options": [
+        {
+          "id": "trades-place-1",
+          "label": "A repair workshop with tools and equipment"
+        },
+        {
+          "id": "trades-place-2",
+          "label": "Different homes and buildings that need service"
+        },
+        {
+          "id": "trades-place-3",
+          "label": "A construction site where a structure takes shape"
+        },
+        {
+          "id": "trades-place-4",
+          "label": "A facility where equipment needs regular care"
+        }
+      ]
+    },
+    {
+      "id": "trades-workday",
+      "prompt": "Which routines would you like to practice?",
+      "options": [
+        {
+          "id": "trades-workday-1",
+          "label": "Read drawings, measure carefully and check the result"
+        },
+        {
+          "id": "trades-workday-2",
+          "label": "Follow a diagnostic sequence and test a repair"
+        },
+        {
+          "id": "trades-workday-3",
+          "label": "Explain a problem and repair options to a customer"
+        },
+        {
+          "id": "trades-workday-4",
+          "label": "Follow safety checks and coordinate physical tasks with a team"
+        }
+      ]
+    },
+    {
+      "id": "trades-refine-1",
+      "prompt": "Which fault would you most enjoy tracing?",
+      "options": [
+        {
+          "id": "trades-refine-1-1",
+          "label": "A circuit or electrical component that will not work"
+        },
+        {
+          "id": "trades-refine-1-2",
+          "label": "Water flow, a leak, or a pipe connection"
+        },
+        {
+          "id": "trades-refine-1-3",
+          "label": "A heating, cooling, or air-flow problem"
+        },
+        {
+          "id": "trades-refine-1-4",
+          "label": "An engine or production machine behaving strangely"
+        },
+        {
+          "id": "trades-refine-1-5",
+          "label": "A damaged structure, joint, or building fitting"
+        }
+      ]
+    },
+    {
+      "id": "trades-refine-2",
+      "prompt": "Which finished result would feel satisfying?",
+      "options": [
+        {
+          "id": "trades-refine-2-1",
+          "label": "An electrical installation that passes the required checks"
+        },
+        {
+          "id": "trades-refine-2-2",
+          "label": "A watertight pipe system or a working heating system"
+        },
+        {
+          "id": "trades-refine-2-3",
+          "label": "A well-built wooden structure or neatly fitted component"
+        },
+        {
+          "id": "trades-refine-2-4",
+          "label": "A strong metal joint or repaired machine"
+        },
+        {
+          "id": "trades-refine-2-5",
+          "label": "A prepared site or a building kept in working condition"
+        }
+      ]
+    },
+    {
+      "id": "trades-refine-3",
+      "prompt": "Which details would you enjoy learning to check?",
+      "options": [
+        {
+          "id": "trades-refine-3-1",
+          "label": "Circuits, connections, isolation, and electrical drawings"
+        },
+        {
+          "id": "trades-refine-3-2",
+          "label": "Pressure, seals, temperatures, and air or water flow"
+        },
+        {
+          "id": "trades-refine-3-3",
+          "label": "Measurements, alignment, and how pieces fit together"
+        },
+        {
+          "id": "trades-refine-3-4",
+          "label": "Wear, vibration, diagnostic readings, and maintenance records"
+        },
+        {
+          "id": "trades-refine-3-5",
+          "label": "A mix of smaller repairs across a building"
+        }
+      ]
+    },
+    {
+      "id": "trades-refine-4",
+      "prompt": "Which safe introduction would you choose?",
+      "options": [
+        {
+          "id": "trades-refine-4-1",
+          "label": "A low-voltage circuit demonstration with an instructor"
+        },
+        {
+          "id": "trades-refine-4-2",
+          "label": "A supervised plumbing or heating-system demonstration"
+        },
+        {
+          "id": "trades-refine-4-3",
+          "label": "A woodworking or site-layout class"
+        },
+        {
+          "id": "trades-refine-4-4",
+          "label": "A supervised welding or machine-maintenance demonstration"
+        },
+        {
+          "id": "trades-refine-4-5",
+          "label": "A tour of a building-maintenance workshop"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "services-serve",
+      "prompt": "What would you enjoy helping people with?",
+      "options": [
+        {
+          "id": "services-serve-1",
+          "label": "A meal that tastes good and is prepared safely"
+        },
+        {
+          "id": "services-serve-2",
+          "label": "A welcoming meal, event or customer experience"
+        },
+        {
+          "id": "services-serve-3",
+          "label": "A hairstyle or appearance that feels right for them"
+        },
+        {
+          "id": "services-serve-4",
+          "label": "A clean, cared-for indoor or outdoor place"
+        },
+        {
+          "id": "services-serve-5",
+          "label": "Practical support during a health-care visit or emergency"
+        }
+      ]
+    },
+    {
+      "id": "services-make",
+      "prompt": "Which result sounds satisfying?",
+      "options": [
+        {
+          "id": "services-make-1",
+          "label": "Prepare and time several parts of a meal"
+        },
+        {
+          "id": "services-make-2",
+          "label": "Help a busy service team work smoothly"
+        },
+        {
+          "id": "services-make-3",
+          "label": "Use careful hands-on techniques for a person’s needs"
+        },
+        {
+          "id": "services-make-4",
+          "label": "Leave a space clean, safe and ready to use"
+        },
+        {
+          "id": "services-make-5",
+          "label": "Help someone get appropriate care quickly"
+        }
+      ]
+    },
+    {
+      "id": "services-people",
+      "prompt": "Which kind of teamwork interests you?",
+      "options": [
+        {
+          "id": "services-people-1",
+          "label": "Coordinate food preparation and service"
+        },
+        {
+          "id": "services-people-2",
+          "label": "Talk with a client about the result they want"
+        },
+        {
+          "id": "services-people-3",
+          "label": "Prepare tools and support another trained professional"
+        },
+        {
+          "id": "services-people-4",
+          "label": "Keep shared spaces and equipment ready for others"
+        }
+      ]
+    },
+    {
+      "id": "services-workday",
+      "prompt": "Which routines would you like to learn?",
+      "options": [
+        {
+          "id": "services-workday-1",
+          "label": "Stay organized while several orders or requests arrive"
+        },
+        {
+          "id": "services-workday-2",
+          "label": "Practice hygiene, careful preparation and repeatable techniques"
+        },
+        {
+          "id": "services-workday-3",
+          "label": "Follow a practical checklist and notice what needs attention"
+        },
+        {
+          "id": "services-workday-4",
+          "label": "Use safety procedures and communicate clearly under pressure"
+        }
+      ]
+    },
+    {
+      "id": "services-refine-1",
+      "prompt": "Which everyday problem would you enjoy solving?",
+      "options": [
+        {
+          "id": "services-refine-1-1",
+          "label": "Prepare and serve food people enjoy"
+        },
+        {
+          "id": "services-refine-1-2",
+          "label": "Keep a restaurant team and service running smoothly"
+        },
+        {
+          "id": "services-refine-1-3",
+          "label": "Help someone feel comfortable with their appearance"
+        },
+        {
+          "id": "services-refine-1-4",
+          "label": "Keep a place clean, safe, and in good condition"
+        },
+        {
+          "id": "services-refine-1-5",
+          "label": "Support someone during a clinical visit or emergency"
+        }
+      ]
+    },
+    {
+      "id": "services-refine-2",
+      "prompt": "Which result would you enjoy producing?",
+      "options": [
+        {
+          "id": "services-refine-2-1",
+          "label": "A well-made meal or welcoming dining experience"
+        },
+        {
+          "id": "services-refine-2-2",
+          "label": "A well-organised shift and supported service team"
+        },
+        {
+          "id": "services-refine-2-3",
+          "label": "A haircut or style that fits the client’s wishes"
+        },
+        {
+          "id": "services-refine-2-4",
+          "label": "A maintained building, garden, or clean public space"
+        },
+        {
+          "id": "services-refine-2-5",
+          "label": "Prepared clinical equipment or safe emergency support"
+        }
+      ]
+    },
+    {
+      "id": "services-refine-3",
+      "prompt": "Which details would you enjoy checking?",
+      "options": [
+        {
+          "id": "services-refine-3-1",
+          "label": "Ingredients, timing, orders, and food hygiene"
+        },
+        {
+          "id": "services-refine-3-2",
+          "label": "Staffing, supplies, and how customers are treated"
+        },
+        {
+          "id": "services-refine-3-3",
+          "label": "Consultation, technique, and hygienic tools"
+        },
+        {
+          "id": "services-refine-3-4",
+          "label": "Repairs, cleaning standards, and outdoor maintenance"
+        },
+        {
+          "id": "services-refine-3-5",
+          "label": "Patient needs, equipment, and safety procedures"
+        }
+      ]
+    },
+    {
+      "id": "services-refine-4",
+      "prompt": "Which supervised introduction would you choose?",
+      "options": [
+        {
+          "id": "services-refine-4-1",
+          "label": "A food preparation or hospitality event"
+        },
+        {
+          "id": "services-refine-4-2",
+          "label": "A salon demonstration and client consultation"
+        },
+        {
+          "id": "services-refine-4-3",
+          "label": "A grounds or facilities service project"
+        },
+        {
+          "id": "services-refine-4-4",
+          "label": "A first-aid class or approved clinic observation"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "education-help",
+      "prompt": "What would you enjoy helping someone learn?",
+      "options": [
+        {
+          "id": "education-help-1",
+          "label": "Early language, play and everyday routines"
+        },
+        {
+          "id": "education-help-2",
+          "label": "School subjects and ways to solve problems"
+        },
+        {
+          "id": "education-help-3",
+          "label": "How to find information and learn independently"
+        },
+        {
+          "id": "education-help-4",
+          "label": "How to understand a challenge and find support"
+        }
+      ]
+    },
+    {
+      "id": "education-learners",
+      "prompt": "Who would you like to learn alongside?",
+      "options": [
+        {
+          "id": "education-learners-1",
+          "label": "Young children and their families"
+        },
+        {
+          "id": "education-learners-2",
+          "label": "Students exploring a range of school subjects"
+        },
+        {
+          "id": "education-learners-3",
+          "label": "Teenagers exploring a subject and their next steps"
+        },
+        {
+          "id": "education-learners-4",
+          "label": "A community of different ages and interests"
+        },
+        {
+          "id": "education-learners-5",
+          "label": "Students who need individual learning or wellbeing support"
+        }
+      ]
+    },
+    {
+      "id": "education-approach",
+      "prompt": "Which way of supporting learning interests you?",
+      "options": [
+        {
+          "id": "education-approach-1",
+          "label": "Explain an idea in several different ways"
+        },
+        {
+          "id": "education-approach-2",
+          "label": "Create activities and routines that encourage growth"
+        },
+        {
+          "id": "education-approach-3",
+          "label": "Listen, gather information and plan individual support"
+        },
+        {
+          "id": "education-approach-4",
+          "label": "Find useful resources and make information easier to access"
+        }
+      ]
+    },
+    {
+      "id": "education-workday",
+      "prompt": "Which routines would you like to try?",
+      "options": [
+        {
+          "id": "education-workday-1",
+          "label": "Plan an activity and adapt it when learners need something different"
+        },
+        {
+          "id": "education-workday-2",
+          "label": "Notice small changes in a child’s learning and wellbeing"
+        },
+        {
+          "id": "education-workday-3",
+          "label": "Meet with a student and work with families or other staff"
+        },
+        {
+          "id": "education-workday-4",
+          "label": "Organize resources and answer people’s questions"
+        },
+        {
+          "id": "education-workday-5",
+          "label": "Collect information about how people learn or interact"
+        }
+      ]
+    },
+    {
+      "id": "education-refine-1",
+      "prompt": "Which learning problem would you enjoy exploring?",
+      "options": [
+        {
+          "id": "education-refine-1-1",
+          "label": "Help young children learn through play and routines"
+        },
+        {
+          "id": "education-refine-1-2",
+          "label": "Help older students understand a subject in depth"
+        },
+        {
+          "id": "education-refine-1-3",
+          "label": "Understand a learner’s needs or support a difficult decision"
+        },
+        {
+          "id": "education-refine-1-4",
+          "label": "Help people find information or understand communities"
+        }
+      ]
+    },
+    {
+      "id": "education-refine-2",
+      "prompt": "Which result would feel most satisfying?",
+      "options": [
+        {
+          "id": "education-refine-2-1",
+          "label": "A child gaining a skill or feeling secure"
+        },
+        {
+          "id": "education-refine-2-2",
+          "label": "A lesson that makes a difficult idea click"
+        },
+        {
+          "id": "education-refine-2-3",
+          "label": "A thoughtful support plan for a student"
+        },
+        {
+          "id": "education-refine-2-4",
+          "label": "An information resource or study that helps a community"
+        }
+      ]
+    },
+    {
+      "id": "education-refine-3",
+      "prompt": "Which details would you enjoy checking?",
+      "options": [
+        {
+          "id": "education-refine-3-1",
+          "label": "Children’s needs, safe routines, and engaging activities"
+        },
+        {
+          "id": "education-refine-3-2",
+          "label": "Whether examples and feedback help a learner understand"
+        },
+        {
+          "id": "education-refine-3-3",
+          "label": "Evidence, individual needs, and appropriate student support"
+        },
+        {
+          "id": "education-refine-3-4",
+          "label": "Reliable sources, organisation, and research methods"
+        }
+      ]
+    },
+    {
+      "id": "education-refine-4",
+      "prompt": "Which supervised introduction would you choose?",
+      "options": [
+        {
+          "id": "education-refine-4-1",
+          "label": "Help with a play-based activity or primary-school lesson"
+        },
+        {
+          "id": "education-refine-4-2",
+          "label": "Tutor an older student or make a subject explanation"
+        },
+        {
+          "id": "education-refine-4-3",
+          "label": "Observe an approved student-support programme"
+        },
+        {
+          "id": "education-refine-4-4",
+          "label": "Help at a library or explore a community research question"
+        }
+      ]
+    }
+  ],
+  "public-safety": [
+    {
+      "id": "public-safety-purpose",
+      "prompt": "Which kind of safety work draws you in?",
+      "options": [
+        {
+          "id": "public-safety-purpose-1",
+          "label": "Provide trained care when someone has a medical emergency"
+        },
+        {
+          "id": "public-safety-purpose-2",
+          "label": "Respond to fires, rescue needs or dangerous conditions"
+        },
+        {
+          "id": "public-safety-purpose-3",
+          "label": "Help keep public spaces safe and investigate incidents"
+        },
+        {
+          "id": "public-safety-purpose-4",
+          "label": "Notice risks early and help prevent harm"
+        }
+      ]
+    },
+    {
+      "id": "public-safety-action",
+      "prompt": "What would you like to learn to do?",
+      "options": [
+        {
+          "id": "public-safety-action-1",
+          "label": "Assess a situation and provide care within my training"
+        },
+        {
+          "id": "public-safety-action-2",
+          "label": "Use equipment and coordinate a physical response"
+        },
+        {
+          "id": "public-safety-action-3",
+          "label": "Observe carefully and record what happened"
+        },
+        {
+          "id": "public-safety-action-4",
+          "label": "Speak calmly with someone who is worried or upset"
+        }
+      ]
+    },
+    {
+      "id": "public-safety-team",
+      "prompt": "Which kind of teamwork interests you?",
+      "options": [
+        {
+          "id": "public-safety-team-1",
+          "label": "A medical response team helping a patient reach care"
+        },
+        {
+          "id": "public-safety-team-2",
+          "label": "A response crew practicing equipment and rescue procedures"
+        },
+        {
+          "id": "public-safety-team-3",
+          "label": "Colleagues responding to calls and following up on incidents"
+        },
+        {
+          "id": "public-safety-team-4",
+          "label": "A team monitoring a site and communicating concerns"
+        }
+      ]
+    },
+    {
+      "id": "public-safety-workday",
+      "prompt": "Which routines would you like to learn?",
+      "options": [
+        {
+          "id": "public-safety-workday-1",
+          "label": "Practice procedures repeatedly so the team is ready"
+        },
+        {
+          "id": "public-safety-workday-2",
+          "label": "Document decisions and explain events clearly"
+        },
+        {
+          "id": "public-safety-workday-3",
+          "label": "Notice changes in a place and respond according to a plan"
+        },
+        {
+          "id": "public-safety-workday-4",
+          "label": "Support people during a difficult or urgent moment"
+        }
+      ]
+    },
+    {
+      "id": "public-safety-refine-1",
+      "prompt": "Which responsibility would you want to learn about?",
+      "options": [
+        {
+          "id": "public-safety-refine-1-1",
+          "label": "Provide immediate medical care in an emergency"
+        },
+        {
+          "id": "public-safety-refine-1-2",
+          "label": "Investigate incidents and uphold the law"
+        },
+        {
+          "id": "public-safety-refine-1-3",
+          "label": "Respond to fires and rescue people"
+        },
+        {
+          "id": "public-safety-refine-1-4",
+          "label": "Prevent problems by observing and protecting a site"
+        }
+      ]
+    },
+    {
+      "id": "public-safety-refine-2",
+      "prompt": "Which result would feel most worthwhile?",
+      "options": [
+        {
+          "id": "public-safety-refine-2-1",
+          "label": "A patient safely assessed and taken to further care"
+        },
+        {
+          "id": "public-safety-refine-2-2",
+          "label": "An incident carefully investigated and documented"
+        },
+        {
+          "id": "public-safety-refine-2-3",
+          "label": "People brought safely out of a hazardous situation"
+        },
+        {
+          "id": "public-safety-refine-2-4",
+          "label": "A secure location and a calmly handled concern"
+        }
+      ]
+    },
+    {
+      "id": "public-safety-refine-3",
+      "prompt": "Which details would you enjoy learning to check?",
+      "options": [
+        {
+          "id": "public-safety-refine-3-1",
+          "label": "Patient signs and approved emergency procedures"
+        },
+        {
+          "id": "public-safety-refine-3-2",
+          "label": "Evidence, statements, and legal procedures"
+        },
+        {
+          "id": "public-safety-refine-3-3",
+          "label": "Equipment, hazards, and team response plans"
+        },
+        {
+          "id": "public-safety-refine-3-4",
+          "label": "Access, unusual activity, and incident records"
+        }
+      ]
+    },
+    {
+      "id": "public-safety-refine-4",
+      "prompt": "Which safe introduction would you choose?",
+      "options": [
+        {
+          "id": "public-safety-refine-4-1",
+          "label": "A first-aid course and approved emergency-care visit"
+        },
+        {
+          "id": "public-safety-refine-4-2",
+          "label": "A public police careers or community-safety session"
+        },
+        {
+          "id": "public-safety-refine-4-3",
+          "label": "A fire-station visit and public safety demonstration"
+        },
+        {
+          "id": "public-safety-refine-4-4",
+          "label": "An introduction to site safety and de-escalation"
+        }
+      ]
+    }
+  ],
+  "transportation-production": [
+    {
+      "id": "transportation-production-move",
+      "prompt": "What would you enjoy helping make happen?",
+      "options": [
+        {
+          "id": "transportation-production-move-1",
+          "label": "Deliver goods safely to the right place"
+        },
+        {
+          "id": "transportation-production-move-2",
+          "label": "Keep stock and warehouse materials organized"
+        },
+        {
+          "id": "transportation-production-move-3",
+          "label": "Make, join or shape a physical product"
+        },
+        {
+          "id": "transportation-production-move-4",
+          "label": "Keep production equipment working reliably"
+        }
+      ]
+    },
+    {
+      "id": "transportation-production-problem",
+      "prompt": "Which problem would you like to solve?",
+      "options": [
+        {
+          "id": "transportation-production-problem-1",
+          "label": "A route or delivery plan needs to change"
+        },
+        {
+          "id": "transportation-production-problem-2",
+          "label": "The right item is not where the team expects it"
+        },
+        {
+          "id": "transportation-production-problem-3",
+          "label": "A process takes too long or wastes materials"
+        },
+        {
+          "id": "transportation-production-problem-4",
+          "label": "A machine is not running as it should"
+        },
+        {
+          "id": "transportation-production-problem-5",
+          "label": "A joint or finished piece needs careful improvement"
+        }
+      ]
+    },
+    {
+      "id": "transportation-production-setting",
+      "prompt": "Where would you enjoy practical work?",
+      "options": [
+        {
+          "id": "transportation-production-setting-1",
+          "label": "On the road with a planned route and safety checks"
+        },
+        {
+          "id": "transportation-production-setting-2",
+          "label": "A warehouse where materials move through a team"
+        },
+        {
+          "id": "transportation-production-setting-3",
+          "label": "A workshop or production facility"
+        },
+        {
+          "id": "transportation-production-setting-4",
+          "label": "Different parts of a facility that need maintenance"
+        }
+      ]
+    },
+    {
+      "id": "transportation-production-workday",
+      "prompt": "Which routines would you like to learn?",
+      "options": [
+        {
+          "id": "transportation-production-workday-1",
+          "label": "Check a vehicle, route and delivery information"
+        },
+        {
+          "id": "transportation-production-workday-2",
+          "label": "Track items and move them carefully and accurately"
+        },
+        {
+          "id": "transportation-production-workday-3",
+          "label": "Measure output and improve how a process runs"
+        },
+        {
+          "id": "transportation-production-workday-4",
+          "label": "Follow a technical procedure and check the finished result"
+        }
+      ]
+    },
+    {
+      "id": "transportation-production-refine-1",
+      "prompt": "Which problem would you enjoy solving?",
+      "options": [
+        {
+          "id": "transportation-production-refine-1-1",
+          "label": "Get goods where they need to be efficiently"
+        },
+        {
+          "id": "transportation-production-refine-1-2",
+          "label": "Keep stock and materials in the right place"
+        },
+        {
+          "id": "transportation-production-refine-1-3",
+          "label": "Make production work more smoothly"
+        },
+        {
+          "id": "transportation-production-refine-1-4",
+          "label": "Keep machinery and equipment working"
+        }
+      ]
+    },
+    {
+      "id": "transportation-production-refine-2",
+      "prompt": "Which result would feel satisfying?",
+      "options": [
+        {
+          "id": "transportation-production-refine-2-1",
+          "label": "A reliable delivery plan or completed route"
+        },
+        {
+          "id": "transportation-production-refine-2-2",
+          "label": "Correctly stored goods and accurately filled orders"
+        },
+        {
+          "id": "transportation-production-refine-2-3",
+          "label": "A production process with less delay or waste"
+        },
+        {
+          "id": "transportation-production-refine-2-4",
+          "label": "A sound repair or strong fabricated component"
+        }
+      ]
+    },
+    {
+      "id": "transportation-production-refine-3",
+      "prompt": "Which details would you enjoy checking?",
+      "options": [
+        {
+          "id": "transportation-production-refine-3-1",
+          "label": "Routes, timing, regulations, and delivery records"
+        },
+        {
+          "id": "transportation-production-refine-3-2",
+          "label": "Labels, stock counts, and safe handling"
+        },
+        {
+          "id": "transportation-production-refine-3-3",
+          "label": "Capacity, quality, and where a process slows down"
+        },
+        {
+          "id": "transportation-production-refine-3-4",
+          "label": "Wear, alignment, joints, and maintenance procedures"
+        }
+      ]
+    },
+    {
+      "id": "transportation-production-refine-4",
+      "prompt": "Which safe introduction would you choose?",
+      "options": [
+        {
+          "id": "transportation-production-refine-4-1",
+          "label": "Plan a delivery route or observe a distribution team"
+        },
+        {
+          "id": "transportation-production-refine-4-2",
+          "label": "Help organise supplies using a stock system"
+        },
+        {
+          "id": "transportation-production-refine-4-3",
+          "label": "Measure and improve a small production process"
+        },
+        {
+          "id": "transportation-production-refine-4-4",
+          "label": "Watch a supervised repair or welding demonstration"
+        }
+      ]
+    }
+  ],
+  "sales-office": [
+    {
+      "id": "sales-office-help",
+      "prompt": "How would you enjoy helping people?",
+      "options": [
+        {
+          "id": "sales-office-help-1",
+          "label": "Understand what they need and explain useful options"
+        },
+        {
+          "id": "sales-office-help-2",
+          "label": "Resolve a question or a problem with a service"
+        },
+        {
+          "id": "sales-office-help-3",
+          "label": "Arrange appointments, information and daily details"
+        },
+        {
+          "id": "sales-office-help-4",
+          "label": "Keep payments and financial records accurate"
+        }
+      ]
+    },
+    {
+      "id": "sales-office-problem",
+      "prompt": "Which situation would you enjoy working through?",
+      "options": [
+        {
+          "id": "sales-office-problem-1",
+          "label": "Someone needs to compare products or services"
+        },
+        {
+          "id": "sales-office-problem-2",
+          "label": "A customer is frustrated and needs a clear next step"
+        },
+        {
+          "id": "sales-office-problem-3",
+          "label": "Several requests and appointments need coordinating"
+        },
+        {
+          "id": "sales-office-problem-4",
+          "label": "A payment or record needs checking"
+        }
+      ]
+    },
+    {
+      "id": "sales-office-result",
+      "prompt": "Which result would feel satisfying?",
+      "options": [
+        {
+          "id": "sales-office-result-1",
+          "label": "A person makes a well-informed purchase or agreement"
+        },
+        {
+          "id": "sales-office-result-2",
+          "label": "Someone leaves with their question answered"
+        },
+        {
+          "id": "sales-office-result-3",
+          "label": "A team has the information it needs when it needs it"
+        },
+        {
+          "id": "sales-office-result-4",
+          "label": "The numbers, transactions and records reconcile"
+        }
+      ]
+    },
+    {
+      "id": "sales-office-workday",
+      "prompt": "Which routines would you like to learn?",
+      "options": [
+        {
+          "id": "sales-office-workday-1",
+          "label": "Listen carefully and explain options in everyday language"
+        },
+        {
+          "id": "sales-office-workday-2",
+          "label": "Follow up until a request or issue is resolved"
+        },
+        {
+          "id": "sales-office-workday-3",
+          "label": "Switch between requests while keeping clear records"
+        },
+        {
+          "id": "sales-office-workday-4",
+          "label": "Check details and use payment or record systems accurately"
+        }
+      ]
+    },
+    {
+      "id": "sales-office-refine-1",
+      "prompt": "Which problem would you enjoy helping with?",
+      "options": [
+        {
+          "id": "sales-office-refine-1-1",
+          "label": "Help a customer find a useful everyday product"
+        },
+        {
+          "id": "sales-office-refine-1-2",
+          "label": "Resolve a customer question or service problem"
+        },
+        {
+          "id": "sales-office-refine-1-3",
+          "label": "Keep an office or appointment system running smoothly"
+        },
+        {
+          "id": "sales-office-refine-1-4",
+          "label": "Make financial records accurate"
+        },
+        {
+          "id": "sales-office-refine-1-5",
+          "label": "Help someone compare a home or insurance decision"
+        }
+      ]
+    },
+    {
+      "id": "sales-office-refine-2",
+      "prompt": "Which result would feel satisfying?",
+      "options": [
+        {
+          "id": "sales-office-refine-2-1",
+          "label": "A customer making a suitable purchase"
+        },
+        {
+          "id": "sales-office-refine-2-2",
+          "label": "A resolved concern and a clear next step"
+        },
+        {
+          "id": "sales-office-refine-2-3",
+          "label": "An organised schedule and prepared information"
+        },
+        {
+          "id": "sales-office-refine-2-4",
+          "label": "Balanced records and a corrected discrepancy"
+        },
+        {
+          "id": "sales-office-refine-2-5",
+          "label": "A client understanding a property or insurance option"
+        }
+      ]
+    },
+    {
+      "id": "sales-office-refine-3",
+      "prompt": "Which details would you enjoy checking?",
+      "options": [
+        {
+          "id": "sales-office-refine-3-1",
+          "label": "Product information, prices, and payments"
+        },
+        {
+          "id": "sales-office-refine-3-2",
+          "label": "Service history and what a customer needs"
+        },
+        {
+          "id": "sales-office-refine-3-3",
+          "label": "Appointments, messages, and document accuracy"
+        },
+        {
+          "id": "sales-office-refine-3-4",
+          "label": "Transactions, categories, and reconciliations"
+        },
+        {
+          "id": "sales-office-refine-3-5",
+          "label": "Client needs, contract terms, and required disclosures"
+        }
+      ]
+    },
+    {
+      "id": "sales-office-refine-4",
+      "prompt": "Which introduction would you choose?",
+      "options": [
+        {
+          "id": "sales-office-refine-4-1",
+          "label": "Help at a shop or a school sales event"
+        },
+        {
+          "id": "sales-office-refine-4-2",
+          "label": "Practise explaining and resolving a service question"
+        },
+        {
+          "id": "sales-office-refine-4-3",
+          "label": "Organise an event schedule and its communications"
+        },
+        {
+          "id": "sales-office-refine-4-4",
+          "label": "Keep a small project’s financial records"
+        },
+        {
+          "id": "sales-office-refine-4-5",
+          "label": "Compare example property or insurance information"
+        }
+      ]
+    }
+  ]
+}

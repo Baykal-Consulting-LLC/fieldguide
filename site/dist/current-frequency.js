@@ -1,0 +1,2 @@
+import{currentOffers}from'./current-match-chart.js';
+export function currentFrequencyInput(row){const offers=currentOffers(row),ids=ps=>[...new Set(ps.map(p=>p.id))],displayed=new Set(row.first12.map(p=>p.id));return{id:row.id,name:row.name,phase:row.phase,top:ids(offers.top),other:ids(offers.other),sustaining:ids(offers.sustaining),pending:[],invitations:[],beyondLists:ids((row.supported||[]).filter(p=>!displayed.has(p.id)))};}

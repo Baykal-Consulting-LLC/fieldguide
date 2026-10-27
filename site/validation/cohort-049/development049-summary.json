@@ -1,0 +1,963 @@
+{
+  "phase": "development049",
+  "models": [
+    {
+      "id": "new049-001",
+      "name": "Marisol Vega",
+      "scores": [
+        20,
+        20,
+        13,
+        21,
+        28,
+        11
+      ],
+      "firstTop": [],
+      "finalTop": [
+        {
+          "id": "market-research",
+          "title": "Market researcher",
+          "expanded": false
+        }
+      ],
+      "pending": [
+        {
+          "id": "marketing-manager",
+          "title": "Marketing Managers"
+        }
+      ],
+      "sustaining": [],
+      "reviewHolds": 0,
+      "noTop": false
+    },
+    {
+      "id": "new049-003",
+      "name": "Colton Reed",
+      "scores": [
+        21,
+        20,
+        19,
+        20,
+        23,
+        19
+      ],
+      "firstTop": [],
+      "finalTop": [
+        {
+          "id": "financial-analysis",
+          "title": "Financial and Investment Analysts",
+          "expanded": false
+        }
+      ],
+      "pending": [
+        {
+          "id": "personal-financial-advisor",
+          "title": "Personal Financial Advisors"
+        },
+        {
+          "id": "accounting",
+          "title": "Accountant"
+        },
+        {
+          "id": "degree-11919910",
+          "title": "Wind Energy Development Managers"
+        },
+        {
+          "id": "degree-41401107",
+          "title": "Solar Sales Representatives and Assessors"
+        },
+        {
+          "id": "degree-41903100",
+          "title": "Sales Engineers"
+        }
+      ],
+      "sustaining": [
+        {
+          "id": "financial-analysis",
+          "title": "Financial and Investment Analysts"
+        },
+        {
+          "id": "project-management",
+          "title": "Project manager"
+        }
+      ],
+      "reviewHolds": 0,
+      "noTop": false
+    },
+    {
+      "id": "new049-005",
+      "name": "Evan Liang",
+      "scores": [
+        20,
+        20,
+        20,
+        21,
+        19,
+        20
+      ],
+      "firstTop": [],
+      "finalTop": [],
+      "pending": [],
+      "sustaining": [],
+      "reviewHolds": 0,
+      "noTop": true
+    },
+    {
+      "id": "new049-007",
+      "name": "Gabriel Soto",
+      "scores": [
+        20,
+        22,
+        19,
+        19,
+        20,
+        21
+      ],
+      "firstTop": [],
+      "finalTop": [
+        {
+          "id": "paralegal",
+          "title": "Paralegal",
+          "expanded": false
+        }
+      ],
+      "pending": [
+        {
+          "id": "degree-13104101",
+          "title": "Environmental Compliance Inspectors"
+        },
+        {
+          "id": "degree-13119905",
+          "title": "Sustainability Specialists"
+        },
+        {
+          "id": "degree-13205400",
+          "title": "Financial Risk Specialists"
+        },
+        {
+          "id": "degree-13209904",
+          "title": "Fraud Examiners, Investigators and Analysts"
+        },
+        {
+          "id": "degree-15129902",
+          "title": "Geographic Information Systems Technologists and Technicians"
+        },
+        {
+          "id": "degree-15129903",
+          "title": "Document Management Specialists"
+        },
+        {
+          "id": "degree-15129906",
+          "title": "Digital Forensics Analysts"
+        },
+        {
+          "id": "degree-15202100",
+          "title": "Mathematicians"
+        },
+        {
+          "id": "degree-15205101",
+          "title": "Business Intelligence Analysts"
+        },
+        {
+          "id": "degree-17102200",
+          "title": "Surveyors"
+        },
+        {
+          "id": "degree-19204101",
+          "title": "Climate Change Policy Analysts"
+        },
+        {
+          "id": "degree-19301101",
+          "title": "Environmental Economists"
+        },
+        {
+          "id": "degree-19302200",
+          "title": "Survey Researchers"
+        },
+        {
+          "id": "degree-19309200",
+          "title": "Geographers"
+        },
+        {
+          "id": "degree-19309300",
+          "title": "Historians"
+        },
+        {
+          "id": "degree-19409200",
+          "title": "Forensic Science Technicians"
+        },
+        {
+          "id": "degree-43911100",
+          "title": "Statistical Assistants"
+        }
+      ],
+      "sustaining": [
+        {
+          "id": "law",
+          "title": "Lawyers"
+        },
+        {
+          "id": "urban-planning",
+          "title": "City planner"
+        }
+      ],
+      "reviewHolds": 6,
+      "noTop": false
+    },
+    {
+      "id": "new049-009",
+      "name": "Elena Vela",
+      "scores": [
+        20,
+        22,
+        20,
+        20,
+        20,
+        22
+      ],
+      "firstTop": [],
+      "finalTop": [],
+      "pending": [],
+      "sustaining": [],
+      "reviewHolds": 0,
+      "noTop": true
+    },
+    {
+      "id": "new049-011",
+      "name": "Jordan Fuentes",
+      "scores": [
+        20,
+        20,
+        18,
+        20,
+        17,
+        22
+      ],
+      "firstTop": [],
+      "finalTop": [
+        {
+          "id": "computer-support",
+          "title": "Computer support specialist",
+          "expanded": false
+        },
+        {
+          "id": "degree-15125100",
+          "title": "Computer Programmers",
+          "expanded": true
+        },
+        {
+          "id": "degree-15125300",
+          "title": "Software Quality Assurance Analysts and Testers",
+          "expanded": true
+        }
+      ],
+      "pending": [
+        {
+          "id": "degree-15121101",
+          "title": "Health Informatics Specialists"
+        },
+        {
+          "id": "degree-15124101",
+          "title": "Telecommunications Engineering Specialists"
+        },
+        {
+          "id": "degree-15124200",
+          "title": "Database Administrators"
+        },
+        {
+          "id": "degree-15124300",
+          "title": "Database Architects"
+        },
+        {
+          "id": "degree-15124301",
+          "title": "Data Warehousing Specialists"
+        },
+        {
+          "id": "degree-15124400",
+          "title": "Network and Computer Systems Administrators"
+        },
+        {
+          "id": "degree-15129903",
+          "title": "Document Management Specialists"
+        },
+        {
+          "id": "degree-15129904",
+          "title": "Penetration Testers"
+        },
+        {
+          "id": "degree-15129905",
+          "title": "Information Security Engineers"
+        },
+        {
+          "id": "degree-15129906",
+          "title": "Digital Forensics Analysts"
+        },
+        {
+          "id": "degree-15129908",
+          "title": "Computer Systems Engineers/Architects"
+        },
+        {
+          "id": "degree-15209901",
+          "title": "Bioinformatics Technicians"
+        },
+        {
+          "id": "degree-17207201",
+          "title": "Radio Frequency Identification Device Specialists"
+        },
+        {
+          "id": "degree-17211202",
+          "title": "Validation Engineers"
+        },
+        {
+          "id": "degree-19409200",
+          "title": "Forensic Science Technicians"
+        },
+        {
+          "id": "degree-43911100",
+          "title": "Statistical Assistants"
+        }
+      ],
+      "sustaining": [
+        {
+          "id": "software",
+          "title": "Software developers"
+        },
+        {
+          "id": "web-developer",
+          "title": "Web Developers"
+        },
+        {
+          "id": "systems-analysis",
+          "title": "Computer systems analyst"
+        },
+        {
+          "id": "data-science",
+          "title": "Data Scientists"
+        },
+        {
+          "id": "statistics",
+          "title": "Statisticians"
+        }
+      ],
+      "reviewHolds": 1,
+      "noTop": false
+    },
+    {
+      "id": "new049-013",
+      "name": "Mateo Rios",
+      "scores": [
+        20,
+        20,
+        20,
+        20,
+        10,
+        34
+      ],
+      "firstTop": [],
+      "finalTop": [
+        {
+          "id": "bookkeeping-clerk",
+          "title": "Bookkeeper",
+          "expanded": false
+        },
+        {
+          "id": "degree-15124301",
+          "title": "Data Warehousing Specialists",
+          "expanded": true
+        }
+      ],
+      "pending": [
+        {
+          "id": "degree-15124200",
+          "title": "Database Administrators"
+        },
+        {
+          "id": "degree-15124300",
+          "title": "Database Architects"
+        },
+        {
+          "id": "degree-15125100",
+          "title": "Computer Programmers"
+        },
+        {
+          "id": "degree-15125300",
+          "title": "Software Quality Assurance Analysts and Testers"
+        },
+        {
+          "id": "degree-15129902",
+          "title": "Geographic Information Systems Technologists and Technicians"
+        },
+        {
+          "id": "degree-15129903",
+          "title": "Document Management Specialists"
+        },
+        {
+          "id": "degree-15209901",
+          "title": "Bioinformatics Technicians"
+        },
+        {
+          "id": "degree-17102100",
+          "title": "Cartographers and Photogrammetrists"
+        },
+        {
+          "id": "degree-19309300",
+          "title": "Historians"
+        },
+        {
+          "id": "degree-25401100",
+          "title": "Archivists"
+        },
+        {
+          "id": "degree-27304200",
+          "title": "Technical Writers"
+        },
+        {
+          "id": "degree-43908100",
+          "title": "Proofreaders and Copy Markers"
+        },
+        {
+          "id": "degree-43911100",
+          "title": "Statistical Assistants"
+        }
+      ],
+      "sustaining": [
+        {
+          "id": "financial-analysis",
+          "title": "Financial and Investment Analysts"
+        }
+      ],
+      "reviewHolds": 6,
+      "noTop": false
+    },
+    {
+      "id": "new049-015",
+      "name": "Marisol Peña",
+      "scores": [
+        21,
+        28,
+        20,
+        20,
+        20,
+        20
+      ],
+      "firstTop": [],
+      "finalTop": [
+        {
+          "id": "degree-19104200",
+          "title": "Medical Scientists, Except Epidemiologists",
+          "expanded": true
+        },
+        {
+          "id": "degree-19102904",
+          "title": "Biologists",
+          "expanded": true
+        },
+        {
+          "id": "degree-19102100",
+          "title": "Biochemists and Biophysicists",
+          "expanded": true
+        }
+      ],
+      "pending": [
+        {
+          "id": "food-science",
+          "title": "Food Scientists and Technologists"
+        },
+        {
+          "id": "degree-11904101",
+          "title": "Biofuels/Biodiesel Technology and Product Development Managers"
+        },
+        {
+          "id": "degree-11912102",
+          "title": "Water Resource Specialists"
+        },
+        {
+          "id": "degree-15122100",
+          "title": "Computer and Information Research Scientists"
+        },
+        {
+          "id": "degree-15204101",
+          "title": "Biostatisticians"
+        },
+        {
+          "id": "degree-15209901",
+          "title": "Bioinformatics Technicians"
+        },
+        {
+          "id": "degree-17202100",
+          "title": "Agricultural Engineers"
+        },
+        {
+          "id": "degree-17211201",
+          "title": "Human Factors Engineers and Ergonomists"
+        },
+        {
+          "id": "degree-19101100",
+          "title": "Animal Scientists"
+        },
+        {
+          "id": "degree-19102300",
+          "title": "Zoologists and Wildlife Biologists"
+        },
+        {
+          "id": "degree-19102901",
+          "title": "Bioinformatics Scientists"
+        },
+        {
+          "id": "degree-19102903",
+          "title": "Geneticists"
+        },
+        {
+          "id": "degree-19203200",
+          "title": "Materials Scientists"
+        },
+        {
+          "id": "degree-19204300",
+          "title": "Hydrologists"
+        },
+        {
+          "id": "degree-19209901",
+          "title": "Remote Sensing Scientists and Technologists"
+        },
+        {
+          "id": "degree-19302200",
+          "title": "Survey Researchers"
+        },
+        {
+          "id": "degree-19303902",
+          "title": "Neuropsychologists"
+        },
+        {
+          "id": "degree-19303903",
+          "title": "Clinical Neuropsychologists"
+        },
+        {
+          "id": "degree-29121200",
+          "title": "Cardiologists"
+        },
+        {
+          "id": "degree-29121300",
+          "title": "Dermatologists"
+        },
+        {
+          "id": "degree-29121600",
+          "title": "General Internal Medicine Physicians"
+        },
+        {
+          "id": "degree-29121700",
+          "title": "Neurologists"
+        },
+        {
+          "id": "degree-29122200",
+          "title": "Physicians, Pathologists"
+        },
+        {
+          "id": "degree-29122400",
+          "title": "Radiologists"
+        },
+        {
+          "id": "degree-29122901",
+          "title": "Allergists and Immunologists"
+        },
+        {
+          "id": "degree-29201101",
+          "title": "Cytogenetic Technologists"
+        },
+        {
+          "id": "degree-29201104",
+          "title": "Histotechnologists"
+        }
+      ],
+      "sustaining": [
+        {
+          "id": "pharmacy",
+          "title": "Pharmacists"
+        },
+        {
+          "id": "veterinary",
+          "title": "Veterinarians"
+        }
+      ],
+      "reviewHolds": 7,
+      "noTop": false
+    },
+    {
+      "id": "new049-017",
+      "name": "Elena Ríos",
+      "scores": [
+        20,
+        24,
+        21,
+        23,
+        20,
+        20
+      ],
+      "firstTop": [],
+      "finalTop": [
+        {
+          "id": "degree-25105400",
+          "title": "Physics Teachers, Postsecondary",
+          "expanded": true
+        },
+        {
+          "id": "degree-25102200",
+          "title": "Mathematical Science Teachers, Postsecondary",
+          "expanded": true
+        },
+        {
+          "id": "degree-25105100",
+          "title": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
+          "expanded": true
+        }
+      ],
+      "pending": [
+        {
+          "id": "physical-therapy",
+          "title": "Physical Therapists"
+        },
+        {
+          "id": "speech-language",
+          "title": "Speech and language therapist"
+        },
+        {
+          "id": "degree-19103103",
+          "title": "Park Naturalists"
+        },
+        {
+          "id": "degree-19303902",
+          "title": "Neuropsychologists"
+        },
+        {
+          "id": "degree-19303903",
+          "title": "Clinical Neuropsychologists"
+        },
+        {
+          "id": "degree-19304100",
+          "title": "Sociologists"
+        },
+        {
+          "id": "degree-19309100",
+          "title": "Anthropologists and Archeologists"
+        },
+        {
+          "id": "degree-19309400",
+          "title": "Political Scientists"
+        },
+        {
+          "id": "degree-21109100",
+          "title": "Health Education Specialists"
+        },
+        {
+          "id": "degree-25101100",
+          "title": "Business Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25102100",
+          "title": "Computer Science Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25103100",
+          "title": "Architecture Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25103200",
+          "title": "Engineering Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25104100",
+          "title": "Agricultural Sciences Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25104200",
+          "title": "Biological Science Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25104300",
+          "title": "Forestry and Conservation Science Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25105200",
+          "title": "Chemistry Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25105300",
+          "title": "Environmental Science Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25106100",
+          "title": "Anthropology and Archeology Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25106200",
+          "title": "Area, Ethnic, and Cultural Studies Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25106300",
+          "title": "Economics Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25106400",
+          "title": "Geography Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25106500",
+          "title": "Political Science Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25106600",
+          "title": "Psychology Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25106700",
+          "title": "Sociology Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25107100",
+          "title": "Health Specialties Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25108100",
+          "title": "Education Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25108200",
+          "title": "Library Science Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25111100",
+          "title": "Criminal Justice and Law Enforcement Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25111200",
+          "title": "Law Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25111300",
+          "title": "Social Work Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25112100",
+          "title": "Art, Drama, and Music Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25112200",
+          "title": "Communications Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25112300",
+          "title": "English Language and Literature Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25112400",
+          "title": "Foreign Language and Literature Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25112500",
+          "title": "History Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25112600",
+          "title": "Philosophy and Religion Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25119200",
+          "title": "Family and Consumer Sciences Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25119300",
+          "title": "Recreation and Fitness Studies Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25119400",
+          "title": "Career/Technical Education Teachers, Postsecondary"
+        },
+        {
+          "id": "degree-25205500",
+          "title": "Special Education Teachers, Kindergarten"
+        },
+        {
+          "id": "degree-25205600",
+          "title": "Special Education Teachers, Elementary School"
+        },
+        {
+          "id": "degree-25205700",
+          "title": "Special Education Teachers, Middle School"
+        },
+        {
+          "id": "degree-25205800",
+          "title": "Special Education Teachers, Secondary School"
+        },
+        {
+          "id": "degree-29112201",
+          "title": "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists"
+        }
+      ],
+      "sustaining": [
+        {
+          "id": "teaching",
+          "title": "Middle school teachers"
+        },
+        {
+          "id": "high-school-teacher",
+          "title": "High school teacher"
+        },
+        {
+          "id": "elementary-teacher",
+          "title": "Elementary school teacher"
+        },
+        {
+          "id": "physical-therapy",
+          "title": "Physical Therapists"
+        },
+        {
+          "id": "speech-language",
+          "title": "Speech and language therapist"
+        },
+        {
+          "id": "occupational-therapy",
+          "title": "Occupational Therapists"
+        },
+        {
+          "id": "school-psychology",
+          "title": "School Psychologists"
+        },
+        {
+          "id": "physician",
+          "title": "Doctor (family medicine)"
+        }
+      ],
+      "reviewHolds": 0,
+      "noTop": false
+    },
+    {
+      "id": "new049-019",
+      "name": "Nadia Shah",
+      "scores": [
+        22,
+        20,
+        23,
+        20,
+        20,
+        21
+      ],
+      "firstTop": [],
+      "finalTop": [
+        {
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "expanded": false
+        }
+      ],
+      "pending": [
+        {
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators"
+        },
+        {
+          "id": "degree-27102200",
+          "title": "Fashion Designers"
+        },
+        {
+          "id": "degree-27102500",
+          "title": "Interior Designers"
+        },
+        {
+          "id": "degree-27102700",
+          "title": "Set and Exhibit Designers"
+        }
+      ],
+      "sustaining": [],
+      "reviewHolds": 0,
+      "noTop": false
+    },
+    {
+      "id": "new049-021",
+      "name": "Tessa Walker",
+      "scores": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "firstTop": [],
+      "finalTop": [],
+      "pending": [],
+      "sustaining": [],
+      "reviewHolds": 0,
+      "noTop": true
+    },
+    {
+      "id": "new049-023",
+      "name": "Diego Moreno",
+      "scores": [
+        20,
+        20,
+        18,
+        17,
+        9,
+        20
+      ],
+      "firstTop": [],
+      "finalTop": [
+        {
+          "id": "animation",
+          "title": "Animator and visual-effects artist",
+          "expanded": false
+        }
+      ],
+      "pending": [
+        {
+          "id": "photographer",
+          "title": "Photographers"
+        },
+        {
+          "id": "film-editing",
+          "title": "Film and video editor"
+        },
+        {
+          "id": "writing",
+          "title": "Writers & authors"
+        },
+        {
+          "id": "degree-15125100",
+          "title": "Computer Programmers"
+        },
+        {
+          "id": "degree-15125300",
+          "title": "Software Quality Assurance Analysts and Testers"
+        },
+        {
+          "id": "degree-17213100",
+          "title": "Materials Engineers"
+        },
+        {
+          "id": "degree-17219907",
+          "title": "Photonics Engineers"
+        },
+        {
+          "id": "degree-19201200",
+          "title": "Physicists"
+        },
+        {
+          "id": "degree-29209100",
+          "title": "Orthotists and Prosthetists"
+        }
+      ],
+      "sustaining": [
+        {
+          "id": "animation",
+          "title": "Animator and visual-effects artist"
+        },
+        {
+          "id": "web-interface-design",
+          "title": "Website and app designer"
+        }
+      ],
+      "reviewHolds": 2,
+      "noTop": false
+    }
+  ],
+  "scope": "New development profiles. No matching rule changes."
+}

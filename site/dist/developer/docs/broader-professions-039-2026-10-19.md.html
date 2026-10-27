@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Broader profession comparisons · 0.39.0 · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Broader profession comparisons · 0.39.0</h1><p>Retained development record. It may describe an earlier release.</p><a href="./broader-professions-039-2026-10-19.md" download>Download original Markdown</a><pre class="document"># Broader profession comparisons · 0.39.0
+
+The first explored field no longer defines the entire Top-match pool. Completed work questions from earlier fields and completed focused profession comparisons can contribute direct matches. A college or graduate profession must earn support from the student's answers; an unanswered invitation is kept separate.
+
+## Student experience
+
+After the first field's work questions, “Explore a wider range of professions” offers up to three visible comparisons, with further options inside a disclosure. Relevant college or graduate routes are represented when the student is considering those routes or is still exploring. Each option shows the existing education and first-paid-stage reference. Roles requiring prior experience say so.
+
+A comparison reuses four questions from the existing profession bank, prioritizing distinct kinds of work and specific duties. Clinical roles retain role-responsibility questions and the preparation-route question. The student chooses among the existing contrasting options and can skip. Existing answers are shown. Editing a shared question changes other comparisons that use it; the screen explains this.
+
+The first field, official assessment answers, scores, chosen career, saved notes and completed actions are preserved. Comparison responses use the normal private saved guide and survive sanitization, pause/resume and account save. A comparison does not select a career or apply for a training program.
+
+The six-score interest check, minimum task evidence, distinct evidence domains, indiscriminate-answer guard, explicit field conflicts, clinical responsibility and clinical training-route gates remain. A weaker whole-profile connection may still need the full field's questions to meet the existing repeated-task route.
+
+## Ranking
+
+Direct candidates come from every fully explored field and professions whose focused checks are complete and meet the existing support gates. Careers are deduplicated. Task support is compared as a share of answered work-question groups so a four-question comparison is not automatically penalized against an eight-question field review. Clinical responsibility and route evidence retain their ordering.
+
+Within a close evidence group, education willingness, first-paid-stage lifestyle coverage, and first-paid-stage pay affect ordering. “Close” retains the prior one-of-eight task-question tolerance and 0.1 whole-profile-correlation tolerance. A higher salary cannot turn an unsupported profession into a direct match. Roles requiring prior experience receive no first-job financial preference.
+
+Related-career relevance scores still use work connections. Their `usesEducationToRank` and `usesIncomeToRank` flags refer to those relevance scores; separate Top-ordering flags describe the new preference ordering.
+
+## Developer chart
+
+The pinned chart rebuilds with the site. It shows “Further professions · questions pending” separately from Top, Other and lifestyle-qualified matches. These invitations are not counted as confirmed matches or added to coverage totals. Links open the existing isolated student preview, where work answers can be tried in a copy without changing frozen records or a real saved guide.
+
+The CSV includes an explicit unanswered-comparisons column. Authenticated owner-only profiles remain in private storage and are replayed in memory; no raw private records are in the static output.
+
+## Replay and checks
+
+The current replay is in `validation/broader-professions-039.json`. Its preserved baseline is source commit `53a9815358df49c2555bad19c6a57c4e5b8bad7a`.
+
+- 148 frozen public models retain every input, all six official scores and their historical core-engine results.
+- 55 Top lists change in order or membership under the new presentation ranking.
+- 105 models still have a bachelor/graduate profession in Top. No fictional answers have been added to force a different outcome.
+- 131 models receive unanswered comparison invitations. For 20 of the 29 models whose current nonempty Top list has no bachelor/graduate profession, one of the first three invitations is a degree profession.
+- Starting-pay lifestyle counts remain 68 with a covering Top match, 57 with another covering option and 23 without one.
+- Three explicitly hypothetical copies show that additional focused answers can place HR in Audrey's Top list, accounting in Esme's and electrical engineering in Ash's, without changing official scores or their first field. Those new answers are test scenarios, not authored model behavior.
+- Regression checks cover unknown/skipped/all-option answers, partial saves and reloads, earlier-field retention, comparative preference ranking, flat profiles and clinical route conflicts.
+
+These reused fictional cases are software regression examples. They do not independently validate the revised editorial matching rules. Fresh untouched cases and real student review remain necessary.
+
+Reproduce with `npm run review:professions`, `npm run build`, and `npm test`. The dated 0.38 no-match review remains a historical case review.
+</pre></main></html>

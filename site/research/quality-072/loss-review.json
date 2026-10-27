@@ -1,0 +1,97 @@
+[
+  {
+    "modelId": "scale056-0031",
+    "name": "Charlie Bennett",
+    "cohort": "development",
+    "lostTop": false,
+    "lostDegree": true,
+    "prior": [
+      "Pharmacy Technicians",
+      "Optometrists",
+      "Farmworkers & Laborers, Crop, Nursery, & Greenhouse"
+    ],
+    "after": [
+      "Pharmacy Technicians",
+      "Farmworkers & Laborers, Crop, Nursery, & Greenhouse",
+      "Landscaping & Groundskeeping Workers"
+    ],
+    "degreeAlternatives": [
+      "Social science research assistants"
+    ],
+    "review": "Optometry needed vision evidence that is absent. Keep the supported social-research degree alternative visible outside Top three; this is not a model with no degree option."
+  },
+  {
+    "modelId": "scale056-0307",
+    "name": "Cameron Jones",
+    "cohort": "development",
+    "lostTop": true,
+    "lostDegree": true,
+    "prior": [
+      "Animal Scientists"
+    ],
+    "after": [],
+    "degreeAlternatives": [],
+    "review": "Removing Animal Scientist is justified: animal care is not farm-animal production research. Circuit/design/testing interest remains genuine. Electronics Engineers has two defining domains and an unknown safety responsibility. A scoped safety follow-up is sensible; the current shared safety item does not include this career in its routing list."
+  },
+  {
+    "modelId": "scale056-0576",
+    "name": "Alexis Reed",
+    "cohort": "holdout056",
+    "lostTop": false,
+    "lostDegree": true,
+    "prior": [
+      "Hairdressers, Hairstylists, & Cosmetologists",
+      "Optometrists",
+      "Cooks, Restaurant"
+    ],
+    "after": [
+      "Hairdressers, Hairstylists, & Cosmetologists",
+      "Cooks, Restaurant",
+      "Carpenters"
+    ],
+    "degreeAlternatives": [],
+    "review": "Vision interest is unrecorded. Personal care, cooking and carpentry remain supported. Education interests warrant a classroom/assessment distinction, not replacement with an unrelated medical profession."
+  },
+  {
+    "modelId": "scale056-0595",
+    "name": "Cameron Singh",
+    "cohort": "development",
+    "lostTop": true,
+    "lostDegree": true,
+    "prior": [
+      "Animal Scientists"
+    ],
+    "after": [],
+    "degreeAlternatives": [],
+    "review": "Animal behavior/care and research willingness are real, but farm production is unstated. Do not restore Animal Scientist. Explore observational animal behavior and care before deciding whether a professional research or clinical route fits; health is explicitly disliked."
+  },
+  {
+    "modelId": "scale056-0603",
+    "name": "Blair Singh",
+    "cohort": "development",
+    "lostTop": false,
+    "lostDegree": true,
+    "prior": [
+      "Paralegals and Legal Assistants",
+      "Optometrists"
+    ],
+    "after": [
+      "Paralegals and Legal Assistants"
+    ],
+    "degreeAlternatives": [],
+    "review": "Vision interest is unrecorded. Paralegal remains supported and aligns with written rules/arguments. Other finance or compliance routes need their own quantitative, leadership or accountability evidence."
+  },
+  {
+    "modelId": "scale056-0731",
+    "name": "Jamie Walker",
+    "cohort": "development",
+    "lostTop": true,
+    "lostDegree": true,
+    "prior": [
+      "Animal Scientists"
+    ],
+    "after": [],
+    "degreeAlternatives": [],
+    "review": "Removing Animal Scientist is justified. Food comparison/testing/research remains a plausible path with one activity domain; precision/records interest is unknown. Technical design and safety interests are also unresolved. No automatic replacement Top is justified."
+  }
+]

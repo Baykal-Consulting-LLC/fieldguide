@@ -1,0 +1,406 @@
+{
+  "version": "0.49.0",
+  "at": "2026-10-20T00:20:05.987Z",
+  "engineUnchanged": true,
+  "originalFilesUnchanged": true,
+  "baseProfiles": 24,
+  "diagnosticVariants": 12,
+  "phases": [
+    {
+      "phase": "development049",
+      "models": 12,
+      "modelsWithTop": 9,
+      "topOffers": 16,
+      "modelsWithSustaining": 7,
+      "noTop": [
+        "new049-005",
+        "new049-009",
+        "new049-021"
+      ]
+    },
+    {
+      "phase": "diagnostic049",
+      "models": 12,
+      "modelsWithTop": 9,
+      "topOffers": 16,
+      "modelsWithSustaining": 7,
+      "noTop": [
+        "diag049-002",
+        "diag049-009",
+        "diag049-010"
+      ]
+    },
+    {
+      "phase": "holdout049",
+      "models": 12,
+      "modelsWithTop": 8,
+      "topOffers": 17,
+      "modelsWithSustaining": 7,
+      "noTop": [
+        "new049-006",
+        "new049-016",
+        "new049-020",
+        "new049-024"
+      ]
+    }
+  ],
+  "pairedChecks": [
+    {
+      "id": "diag049-001",
+      "baseId": "new049-001",
+      "intervention": "identity",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": true,
+      "parentBudgetGoal": {
+        "minimum": 214276.74445029176,
+        "breathingRoom": 271068.336291858,
+        "low": 220000,
+        "high": 280000,
+        "buffer": 0.2,
+        "spending": 11951.149685421846
+      },
+      "variantBudgetGoal": {
+        "minimum": 214276.74445029176,
+        "breathingRoom": 271068.336291858,
+        "low": 220000,
+        "high": 280000,
+        "buffer": 0.2,
+        "spending": 11951.149685421846
+      }
+    },
+    {
+      "id": "diag049-002",
+      "baseId": "new049-005",
+      "intervention": "identity",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": true,
+      "parentBudgetGoal": {
+        "minimum": 70681.83917151738,
+        "breathingRoom": 90338.59050194857,
+        "low": 75000,
+        "high": 95000,
+        "buffer": 0.2,
+        "spending": 4249.738024719949
+      },
+      "variantBudgetGoal": {
+        "minimum": 70681.83917151738,
+        "breathingRoom": 90338.59050194857,
+        "low": 75000,
+        "high": 95000,
+        "buffer": 0.2,
+        "spending": 4249.738024719949
+      }
+    },
+    {
+      "id": "diag049-003",
+      "baseId": "new049-007",
+      "intervention": "identity",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": true,
+      "parentBudgetGoal": {
+        "minimum": 61239.93998090301,
+        "breathingRoom": 76842.53626579317,
+        "low": 65000,
+        "high": 80000,
+        "buffer": 0.2,
+        "spending": 3672.9166666666665
+      },
+      "variantBudgetGoal": {
+        "minimum": 61239.93998090301,
+        "breathingRoom": 76842.53626579317,
+        "low": 65000,
+        "high": 80000,
+        "buffer": 0.2,
+        "spending": 3672.9166666666665
+      }
+    },
+    {
+      "id": "diag049-004",
+      "baseId": "new049-015",
+      "intervention": "identity",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": true,
+      "parentBudgetGoal": {
+        "minimum": 75786.7045650279,
+        "breathingRoom": 97006.81698767623,
+        "low": 80000,
+        "high": 100000,
+        "buffer": 0.2,
+        "spending": 4534.738024719949
+      },
+      "variantBudgetGoal": {
+        "minimum": 75786.7045650279,
+        "breathingRoom": 97006.81698767623,
+        "low": 80000,
+        "high": 100000,
+        "buffer": 0.2,
+        "spending": 4534.738024719949
+      }
+    },
+    {
+      "id": "diag049-005",
+      "baseId": "new049-003",
+      "intervention": "health-label",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": true,
+      "parentBudgetGoal": {
+        "minimum": 65198.27621966907,
+        "breathingRoom": 82500.49972047925,
+        "low": 70000,
+        "high": 85000,
+        "buffer": 0.2,
+        "spending": 3914.7380247199494
+      },
+      "variantBudgetGoal": {
+        "minimum": 65198.27621966907,
+        "breathingRoom": 82500.49972047925,
+        "low": 70000,
+        "high": 85000,
+        "buffer": 0.2,
+        "spending": 3914.7380247199494
+      }
+    },
+    {
+      "id": "diag049-006",
+      "baseId": "new049-011",
+      "intervention": "health-label",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": true,
+      "parentBudgetGoal": {
+        "minimum": 57884.32683126449,
+        "breathingRoom": 72075.77410994406,
+        "low": 60000,
+        "high": 75000,
+        "buffer": 0.2,
+        "spending": 3467.9166666666665
+      },
+      "variantBudgetGoal": {
+        "minimum": 57884.32683126449,
+        "breathingRoom": 72075.77410994406,
+        "low": 60000,
+        "high": 75000,
+        "buffer": 0.2,
+        "spending": 3467.9166666666665
+      }
+    },
+    {
+      "id": "diag049-007",
+      "baseId": "new049-017",
+      "intervention": "health-label",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": true,
+      "parentBudgetGoal": {
+        "minimum": 56574.81926067385,
+        "breathingRoom": 70438.88964670576,
+        "low": 60000,
+        "high": 75000,
+        "buffer": 0.2,
+        "spending": 3387.9166666666665
+      },
+      "variantBudgetGoal": {
+        "minimum": 56574.81926067385,
+        "breathingRoom": 70438.88964670576,
+        "low": 60000,
+        "high": 75000,
+        "buffer": 0.2,
+        "spending": 3387.9166666666665
+      }
+    },
+    {
+      "id": "diag049-008",
+      "baseId": "new049-019",
+      "intervention": "health-label",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": true,
+      "parentBudgetGoal": {
+        "minimum": 86830.2235168295,
+        "breathingRoom": 110811.2156774282,
+        "low": 90000,
+        "high": 120000,
+        "buffer": 0.2,
+        "spending": 5124.738024719949
+      },
+      "variantBudgetGoal": {
+        "minimum": 86830.2235168295,
+        "breathingRoom": 110811.2156774282,
+        "low": 90000,
+        "high": 120000,
+        "buffer": 0.2,
+        "spending": 5124.738024719949
+      }
+    },
+    {
+      "id": "diag049-009",
+      "baseId": "new049-009",
+      "intervention": "experience",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": true,
+      "parentBudgetGoal": {
+        "minimum": 66275.89182463428,
+        "breathingRoom": 84040.82104320581,
+        "low": 70000,
+        "high": 85000,
+        "buffer": 0.2,
+        "spending": 3980.571358053283
+      },
+      "variantBudgetGoal": {
+        "minimum": 66275.89182463428,
+        "breathingRoom": 84040.82104320581,
+        "low": 70000,
+        "high": 85000,
+        "buffer": 0.2,
+        "spending": 3980.571358053283
+      }
+    },
+    {
+      "id": "diag049-010",
+      "baseId": "new049-021",
+      "intervention": "experience",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": true,
+      "parentBudgetGoal": {
+        "minimum": 65771.18578180249,
+        "breathingRoom": 83319.40472749842,
+        "low": 70000,
+        "high": 85000,
+        "buffer": 0.2,
+        "spending": 3949.7380247199494
+      },
+      "variantBudgetGoal": {
+        "minimum": 65771.18578180249,
+        "breathingRoom": 83319.40472749842,
+        "low": 70000,
+        "high": 85000,
+        "buffer": 0.2,
+        "spending": 3949.7380247199494
+      }
+    },
+    {
+      "id": "diag049-011",
+      "baseId": "new049-013",
+      "intervention": "education-budget",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": false,
+      "parentBudgetGoal": {
+        "minimum": 67214.56827172282,
+        "breathingRoom": 85382.54562470752,
+        "low": 70000,
+        "high": 90000,
+        "buffer": 0.2,
+        "spending": 4037.9166666666665
+      },
+      "variantBudgetGoal": {
+        "minimum": 60806.165598144864,
+        "breathingRoom": 76222.50818905006,
+        "low": 65000,
+        "high": 80000,
+        "buffer": 0.2,
+        "spending": 3646.4166666666665
+      }
+    },
+    {
+      "id": "diag049-012",
+      "baseId": "new049-023",
+      "intervention": "education-budget",
+      "scoresEqual": true,
+      "interestEligibilityEqual": true,
+      "topEqual": true,
+      "pendingEqual": true,
+      "sustainingEqual": false,
+      "parentBudgetGoal": {
+        "minimum": 58389.0328740963,
+        "breathingRoom": 72767.5089689596,
+        "low": 60000,
+        "high": 75000,
+        "buffer": 0.2,
+        "spending": 3498.75
+      },
+      "variantBudgetGoal": {
+        "minimum": 48215.79593507025,
+        "breathingRoom": 59990.11048970126,
+        "low": 49000,
+        "high": 60000,
+        "buffer": 0.2,
+        "spending": 2877.25
+      }
+    }
+  ],
+  "preReviewPhases": [
+    {
+      "phase": "development049",
+      "models": 12,
+      "modelsWithTop": 9,
+      "topOffers": 20,
+      "modelsWithSustaining": 7,
+      "noTop": [
+        "new049-005",
+        "new049-009",
+        "new049-021"
+      ]
+    },
+    {
+      "phase": "diagnostic049",
+      "models": 12,
+      "modelsWithTop": 9,
+      "topOffers": 20,
+      "modelsWithSustaining": 7,
+      "noTop": [
+        "diag049-002",
+        "diag049-009",
+        "diag049-010"
+      ]
+    },
+    {
+      "phase": "holdout049",
+      "models": 12,
+      "modelsWithTop": 9,
+      "topOffers": 22,
+      "modelsWithSustaining": 7,
+      "noTop": [
+        "new049-006",
+        "new049-016",
+        "new049-024"
+      ]
+    }
+  ],
+  "qualityReview": {
+    "reviewedOffers": 95,
+    "heldOffers": 46,
+    "holds": 69,
+    "reviewSHA256": "2bb8c8bd0a321084d875444a49621caaf3c6c2838f622b420d0820c3c720e7fc"
+  },
+  "reviewedAt": "2026-10-20T00:26:08.173Z"
+}

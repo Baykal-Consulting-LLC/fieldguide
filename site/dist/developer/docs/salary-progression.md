@@ -1,0 +1,28 @@
+# Salary milestones · current method
+
+Updated 17 October 2026 for Fieldguide 0.31. All 117 reviewed careers have entry and 5/10/20-year comparisons. Exact values are calculated before display rounding. Salaries are not individual forecasts.
+
+Entry is the first qualified full-time role. Years start there, after education or paid training. Chef, management and other experience-dependent occupations retain their role prerequisites. Academy, residency and apprentice pay are separate and selected first where relevant.
+
+## Sources before assumptions
+
+112 exact-occupation TWC experienced-wage anchors use the same selected metro geography as the career’s reviewed wage source. “Entry” means the mean of the lowest-paid third; “experienced” means the mean of the upper-paid two-thirds. Neither series observes people at exact years. Suppressed experienced values fall back to the sourced local median. No national fallback is silently substituted.
+
+Without an employer schedule, five, ten and twenty years move 45%, 75%, 100% of the gap from entry to the experienced anchor. The mature anchor is capped by the local upper-quartile boundary and cannot be below entry. These fractions are explicit Fieldguide planning assumptions, not statistical estimates by experience. Similar rounded milestones remain similar; no growth is invented for appearance.
+
+Austin ISD teacher placement, Austin Police and Austin Fire use published employer examples where available. Police selected milestones use published 0, 2, 10, 16-year values for entry/5/10/20, retaining the actual source step in details. Fire post-academy entry is $66,019; academy $46,904 is shown separately. Police academy $67,000 is separate from qualified entry $78,627. Dell residency shows actualPGY 1–3 rates $69,528/$71,747/$74,652. Austin ETA shows first-period apprenticeship separately from qualified work.
+
+Today’s dollars means constant purchasing-power source-year comparisons, without adding future inflation, exceptional success, promotion, business revenue, owner profit, overtime or equity. Tattoo remains a low-confidence small-posting scenario with its actual scope, never a fabricated occupation-wide estimate.
+
+## Display
+
+Entry pay is prominent; three later milestones sit below it. Every figure links to its matching Austin lifestyle. Rounding: nearest $1K below $50K; nearest $5K below $100K; nearest $10K at/above $100K. Sources, actual employer steps, percentiles and assumptions remain in More info.
+
+## Reproducible evidence
+
+- `research/financial-evidence-upgrade-2026-10-17.md`
+- `dist/earnings-evidence.js` and its builder, source URLs and source hash
+- `dist/salary-progression.js` and salary progression tests
+- `validation/upgrade-sensitivity-2026-10-17.json`
+
+Primary sources: [TWC wage definitions](https://texaswages.com/), [Austin Police](https://www.austintexas.gov/police-recruiting/pay-benefits), [Austin Fire](https://www.austintexas.gov/fire/fire-cadet-employment), [Dell residency](https://dellmed.utexas.edu/education/academics/graduate-medical-education/resources/salary-and-benefits), [BLS pay methodology](https://www.bls.gov/oes/earnings.htm).

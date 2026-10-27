@@ -1,0 +1,66 @@
+{
+  "id": "onet-led-coverage-059",
+  "frozenAt": "2026-10-20T19:16:04.993Z",
+  "currentRunId": null,
+  "baselineCounts": {
+    "models": 1000,
+    "top": 769,
+    "degreeTop": 628,
+    "topCovers": 192,
+    "anySupportedCovers": 228,
+    "noTop": 231
+  },
+  "source": "https://www.onetcenter.org/dl_files/IP_Manual.pdf",
+  "sourcePages": "128–130 (printed), Chapter 7",
+  "scope": "Current paired replay after versioned structured coverage and pay changes; discovery union is presentation only. Original O*NET thresholds and all 60 answers unchanged.",
+  "rule": {
+    "correlation": "Pearson across six official RIASEC raw totals and existing occupation vectors",
+    "best": 0.729,
+    "great": 0.608,
+    "good": 0,
+    "perJobZoneMinimumTarget": 10,
+    "strongUpperCap": null,
+    "fill": "Only nonnegative correlations, highest first; final display by band then alphabetical",
+    "eligibility": "Primary keeps current complete, nonflat, non-near-flat guard. Manual-only nonflat sensitivity is separate.",
+    "unknownJobZone": "Reported separately; excluded from official-zone returned counts.",
+    "education": "All five existing education-route groups; Job Zone is separate.",
+    "income": "Never used in interest scoring or selection",
+    "specificAnswers": "Not used in official interest similarity; contrary and reviewHold flags displayed separately",
+    "scoreMeaning": "Correlation is not probability, aptitude, admission, readiness or confirmed profession fit"
+  },
+  "splits": {
+    "base": 1000,
+    "original": 172,
+    "added": 828,
+    "diagnosticExcluded": 12,
+    "ownerOnlyExcluded": 6,
+    "holdouts": [
+      "holdout",
+      "holdout049",
+      "holdout056"
+    ],
+    "holdoutLimitation": "Split fixed before original outcomes; previous aggregate results have been seen. No threshold tuning in this benchmark."
+  },
+  "hashes": {
+    "dist/open-explorer.js": "285eb07d656ddc95e7cf616121cc65d133490ccde90d65579983996f234cd84b",
+    "dist/open-explorer-056.js": "a4c3e00881042fdd1cb54acede51882d29fe9b983c2c86998cfec7c972061900",
+    "dist/onet-assessment.js": "dd20e013ccde0fea24cd223b2770abba08d4cec56b05f931a673d0e73b7eb1ed",
+    "dist/explorer-053-budget.js": "418ed8b8ef93336b540dd17cdc8282227f6dd57f617e41f69480e5b3ae21e3fc",
+    "calibration/cohort-056/profiles.json": "c57b0f4f6b3c894cec8cd4343a27859152dee241477018ba4029565a7f94bc2c",
+    "calibration/cohort-056/question-bindings.json": "f627264bfb85bc3f109f71a2619e8490a32110699b40b5fe8ccc80c8d3dd7189",
+    "data-sources/twc-2025-msa-median.json": "d5c6342339d1bb7bde642ac43e72df15d560340c873f4c0ef60246b29c942af8",
+    "data-sources/twc-2025-msa-entrywg.json": "3a67164dc8cde235b91b85790586ff1affaf59ac8566f9321b9d98a73505e2bf",
+    "data-sources/twc-2025-msa-experience.json": "3ac6ac945b8ef35a0d3564c9c2a39d0e65d54a5a648c628b3a09c20b0647f488",
+    "calibration/cohort-059/bindings.mjs": "81cf3ac619259d6c1bb26c4d797ee8fabb4d1ca655d0429d9125d6f3ddf93bc0",
+    "research/improvements-059/pay-policy.mjs": "6dd4314d493cac6f81e39663ef99ec90b4b3d6a24f610cfdcb9b91766660d520",
+    "scripts/prepare-pay-059.mjs": "bc4a690b583b321016c685b4d48298c68582c19488c4e1913b79c22dd47cd05e",
+    "dist/pay-059-data.js": "1b0313e0ffb1ca98631589b7f1cb3defe7c8c4cb0c157e114d645235141f44b5",
+    "dist/expanded-pay-data.js": "7f49fbdd0ac4e25d66ecfc9927ed089badff38003d17dd33e27e82d04c493d4d",
+    "dist/expanded-pay.js": "f39a7bbff08899df5f8f073eaef4e7983626a00bd86f4780e02f90cb33a3061b",
+    "scripts/build-current-cohort-056.mjs": "56cfc02e1ae746fed4206f955debac2a32522aa7098839756104c486fa58ac3d",
+    "scripts/rerun-cohort-056.mjs": "927b4d3d18cf580c28dda5bcc554ff17bcb4432fc90a140ee18d7a37c22d9af4"
+  },
+  "baselineRunId": "6d5980364897db5610f874c66da49528909f07bd8d18262d15b6fcf88a18b45a",
+  "baselinePolicy": "research/onet-benchmark-057/policy.json",
+  "runBinding": "Current run is computed from the exact replay of these pre-outcome hashed inputs; baseline run remains immutable."
+}

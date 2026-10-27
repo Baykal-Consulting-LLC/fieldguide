@@ -1,0 +1,19 @@
+{
+  "version": "0.49.0",
+  "at": "2026-10-20T00:20:05.740Z",
+  "answersSHA256": "7c92a6d3654b4802607604d77532e6942dd46cd3763731509cf12e1cf7a2ff5e",
+  "questionFreezeSHA256": "1fc1042174162a97f927eb0e874e94238106c30e22fd18b372fae4f00d82e7f1",
+  "authors": [
+    {
+      "author": "a",
+      "sha256": "3bffbbd3f407ced6fe1d53d8de09ffe7c13b5e170c0346e7a916364c3486dee3"
+    },
+    {
+      "author": "b",
+      "sha256": "d9b6ac92412829eba60deb604153688ee004a96de98f78e67733d18c71831fb0"
+    }
+  ],
+  "models": 24,
+  "controlledVariants": 12,
+  "policy": "Every invited probe reviewed; unsupported prompts default unsure/low, never automatic No. All later answers frozen before final evaluation. Diagnostic variants reuse parent invitations and reflections. No matching rules tuned to this cohort."
+}

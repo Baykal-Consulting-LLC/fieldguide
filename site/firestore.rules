@@ -1,0 +1,33 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function owner(uid) { return request.auth != null && request.auth.uid == uid; }
+  function guide(uid) { return getAfter(/databases/$(database)/documents/studentGuides/$(uid)).data; }
+  match /developerReviews/{caseId} {
+   allow read: if request.auth != null && request.auth.token.email == 'murumoto@gmail.com' && request.auth.token.email_verified == true;
+   allow write: if false;
+  }
+  match /studentGuides/{uid} {
+   allow read, delete: if owner(uid);
+   allow create, update: if owner(uid)
+    && request.resource.data.keys().hasOnly(['version','revision','chunkCount','updatedAt'])
+    && request.resource.data.version == 1
+    && request.resource.data.revision is int
+    && request.resource.data.revision == (resource == null ? 1 : resource.data.revision + 1)
+    && request.resource.data.chunkCount is int
+    && request.resource.data.chunkCount >= 1 && request.resource.data.chunkCount <= 40
+    && request.resource.data.updatedAt is string;
+   match /chunks/{chunkId} {
+    allow read, delete: if owner(uid);
+    allow create, update: if owner(uid)
+     && request.resource.data.keys().hasOnly(['index','revision','payload'])
+     && request.resource.data.index is int && request.resource.data.index >= 0
+     && request.resource.data.index < guide(uid).chunkCount
+     && chunkId == string(request.resource.data.index)
+     && request.resource.data.revision == guide(uid).revision
+     && request.resource.data.payload is string
+     && request.resource.data.payload.size() <= 600000;
+   }
+  }
+ }
+}

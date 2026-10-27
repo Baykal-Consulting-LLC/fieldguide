@@ -1,0 +1,756 @@
+[
+  {
+    "id": "scale056-0059",
+    "before": [
+      "Art Directors",
+      "Film and Video Editors",
+      "Interior Designers"
+    ],
+    "after": [
+      "Producers and Directors",
+      "Art Directors",
+      "Film and Video Editors"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-27201200",
+        "title": "Producers and Directors",
+        "degree": true,
+        "r": 0.8979691688950102,
+        "evidence": [
+          {
+            "questionId": "degree-27201200-047-domain",
+            "prompt": "Would you like to learn to shape how a story or message is presented through actors, scenes, sound, and images in a film, broadcast, or live production?",
+            "domain": "domain",
+            "text": "Would you like to learn to shape how a story or message is presented through actors, scenes, sound, and images in a film, broadcast, or live production?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing camera angles, recording a short sequence and revising the edit or animation timing \u00b7 Trying several original drawings, compositions or designs and choosing how materials express an idea",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-27201200-047-method",
+            "prompt": "Would you like to learn to interpret a script or production idea and experiment with staging, framing, or performance choices to produce the intended audience experience?",
+            "domain": "method",
+            "text": "Would you like to learn to interpret a script or production idea and experiment with staging, framing, or performance choices to produce the intended audience experience?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing camera angles, recording a short sequence and revising the edit or animation timing \u00b7 Trying several original drawings, compositions or designs and choosing how materials express an idea \u00b7 Revising an original form until it expresses the intended idea \u00b7 Trying alternative designs and comparing their trade-offs \u00b7 Comparing two explanations using a repeatable fair test",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-27201200-047-responsibility",
+            "prompt": "Would you like to learn to direct collaborators and make creative decisions during rehearsals or recording while coordinating the production's practical limits and overall artistic direction?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to direct collaborators and make creative decisions during rehearsals or recording while coordinating the production's practical limits and overall artistic direction?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing camera angles, recording a short sequence and revising the edit or animation timing \u00b7 Trying several original drawings, compositions or designs and choosing how materials express an idea \u00b7 Coordinating people, deadlines and resources while asking for feedback \u00b7 Organizing information and keeping a sequence or record consistent \u00b7 I want to compare allocating work and handling disagreements with contributing as an individual",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0179",
+    "before": [
+      "Biological Technicians",
+      "Remote Sensing Scientists and Technologists",
+      "Cartographers and Photogrammetrists"
+    ],
+    "after": [
+      "Biological Technicians",
+      "Remote Sensing Scientists and Technologists",
+      "Geodetic Surveyors"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-17102201",
+        "title": "Geodetic Surveyors",
+        "degree": true,
+        "r": 0.7902498767292556,
+        "evidence": [
+          {
+            "questionId": "degree-17102201-047-domain",
+            "prompt": "Would you like to learn to measure large areas of the Earth's surface to establish precise positions, heights, and reference points for other work?",
+            "domain": "domain",
+            "text": "Would you like to learn to measure large areas of the Earth's surface to establish precise positions, heights, and reference points for other work?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing rock samples, terrain maps and changes in water moving across the ground \u00b7 Inventing a number puzzle, checking counterexamples and trying to explain why a rule always works",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-17102201-047-method",
+            "prompt": "Would you like to learn to combine repeated measurements and geographic observations to calculate positions and investigate differences between sources of survey information?",
+            "domain": "method",
+            "text": "Would you like to learn to combine repeated measurements and geographic observations to calculate positions and investigate differences between sources of survey information?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing rock samples, terrain maps and changes in water moving across the ground \u00b7 Inventing a number puzzle, checking counterexamples and trying to explain why a rule always works \u00b7 Collecting observations outside and comparing places over time \u00b7 Using graphs and uncertain numerical evidence to compare possibilities \u00b7 Checking small details without guessing what missing information means",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-17102201-047-responsibility",
+            "prompt": "Would you like to learn to check that precise location measurements meet agreed standards and clearly communicate their accuracy to people using them for other projects?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to check that precise location measurements meet agreed standards and clearly communicate their accuracy to people using them for other projects?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing rock samples, terrain maps and changes in water moving across the ground \u00b7 Inventing a number puzzle, checking counterexamples and trying to explain why a rule always works \u00b7 Checking small details without guessing what missing information means \u00b7 Finding a second example when an explanation is confusing",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0216",
+    "before": [
+      "Preschool Teachers",
+      "Elementary School Teachers",
+      "Middle school teachers"
+    ],
+    "after": [
+      "Preschool Teachers",
+      "Elementary School Teachers",
+      "Career/Technical Education Teachers, Postsecondary"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-25119400",
+        "title": "Career/Technical Education Teachers, Postsecondary",
+        "degree": true,
+        "r": 0.7699811823059337,
+        "evidence": [
+          {
+            "questionId": "degree-25119400-047-domain",
+            "prompt": "Would you like to learn to teach adult or college learners the practical methods of a skilled occupation so they can prepare for real work?",
+            "domain": "domain",
+            "text": "Would you like to learn to teach adult or college learners the practical methods of a skilled occupation so they can prepare for real work?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Preparing an optional workshop for adults and asking what explanation would help them learn \u00b7 Revising a short learning guide, checking understanding and choosing a clearer sequence of examples \u00b7 Writing a small program, testing unexpected behavior and checking how its data moves",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-25119400-047-method",
+            "prompt": "Would you like to learn to develop demonstrations and supervised practice that connect explanations with the tools, materials, and processes used in the occupation being taught?",
+            "domain": "method",
+            "text": "Would you like to learn to develop demonstrations and supervised practice that connect explanations with the tools, materials, and processes used in the occupation being taught?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Preparing an optional workshop for adults and asking what explanation would help them learn \u00b7 Revising a short learning guide, checking understanding and choosing a clearer sequence of examples \u00b7 Writing a small program, testing unexpected behavior and checking how its data moves \u00b7 Assembling, shaping or repairing physical materials \u00b7 Trying alternative designs and comparing their trade-offs \u00b7 Finding a second example when an explanation is confusing",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-25119400-047-responsibility",
+            "prompt": "Would you like to learn to observe learners' practical performance, provide corrective feedback, and protect their safety while judging whether they are ready for greater independence?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to observe learners' practical performance, provide corrective feedback, and protect their safety while judging whether they are ready for greater independence?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Preparing an optional workshop for adults and asking what explanation would help them learn \u00b7 Revising a short learning guide, checking understanding and choosing a clearer sequence of examples \u00b7 Writing a small program, testing unexpected behavior and checking how its data moves \u00b7 Checking small details without guessing what missing information means \u00b7 Finding a second example when an explanation is confusing \u00b7 I want to compare preparing a course, assessing learning and responding to different learners over time \u00b7 I want to learn how to check safety rules, recognize a limit and be accountable for careful work",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0283",
+    "before": [
+      "Athletic Trainers",
+      "Physician \u00b7 family medicine",
+      "Nurse Practitioners"
+    ],
+    "after": [
+      "Recreational Therapists",
+      "Athletic Trainers",
+      "Physician \u00b7 family medicine"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-29112500",
+        "title": "Recreational Therapists",
+        "degree": true,
+        "r": 0.9057361539155513,
+        "evidence": [
+          {
+            "questionId": "degree-29112500-047-domain",
+            "prompt": "Would you like to learn to use recreation or creative activities as part of a treatment plan that helps people recover functioning and participate more fully in daily life?",
+            "domain": "domain",
+            "text": "Would you like to learn to use recreation or creative activities as part of a treatment plan that helps people recover functioning and participate more fully in daily life?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing a supervised health-science introduction, learning about symptoms and asking how evidence guides care \u00b7 Comparing movement techniques, adapting a practice routine and recording what makes it easier to repeat",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-29112500-047-method",
+            "prompt": "Would you like to learn to choose and adapt activities based on a patient's needs and assess whether participation is helping them work toward therapeutic goals?",
+            "domain": "method",
+            "text": "Would you like to learn to choose and adapt activities based on a patient's needs and assess whether participation is helping them work toward therapeutic goals?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing a supervised health-science introduction, learning about symptoms and asking how evidence guides care \u00b7 Comparing movement techniques, adapting a practice routine and recording what makes it easier to repeat \u00b7 Trying alternative designs and comparing their trade-offs \u00b7 Comparing two explanations using a repeatable fair test \u00b7 Listening and adapting individual support after asking what helps",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-29112500-047-responsibility",
+            "prompt": "Would you like to learn to lead medically approved recreational treatment sessions and document progress while coordinating with the people responsible for the patient's broader rehabilitation?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to lead medically approved recreational treatment sessions and document progress while coordinating with the people responsible for the patient's broader rehabilitation?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing a supervised health-science introduction, learning about symptoms and asking how evidence guides care \u00b7 Comparing movement techniques, adapting a practice routine and recording what makes it easier to repeat \u00b7 Coordinating people, deadlines and resources while asking for feedback \u00b7 Checking small details without guessing what missing information means \u00b7 I would choose a supervised introduction to how clinicians compare symptoms, choose treatments and monitor their consequences \u00b7 I would choose a supported introduction to direct patient care and careful follow-through with a care plan",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0380",
+    "before": [
+      "Advertising and Promotions Managers",
+      "Marketing Managers",
+      "Financial Managers"
+    ],
+    "after": [
+      "Advertising and Promotions Managers",
+      "Marketing Managers",
+      "Investment Fund Managers"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-11303103",
+        "title": "Investment Fund Managers",
+        "degree": true,
+        "r": 0.6009059561134229,
+        "evidence": [
+          {
+            "questionId": "degree-11303103-047-domain",
+            "prompt": "Would you like to learn to choose how a shared investment fund should use clients\u2019 money while balancing potential gains and financial risks?",
+            "domain": "domain",
+            "text": "Would you like to learn to choose how a shared investment fund should use clients\u2019 money while balancing potential gains and financial risks?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Voluntarily comparing a mock company report, uncertain future returns and the risk of losing an investment \u00b7 Reconciling club receipts, separating estimates from actual spending and checking a financial explanation",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-11303103-047-method",
+            "prompt": "Would you like to learn to compare investments and follow their changing performance to decide whether a fund\u2019s mix should change?",
+            "domain": "method",
+            "text": "Would you like to learn to compare investments and follow their changing performance to decide whether a fund\u2019s mix should change?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Voluntarily comparing a mock company report, uncertain future returns and the risk of losing an investment \u00b7 Reconciling club receipts, separating estimates from actual spending and checking a financial explanation \u00b7 Using graphs and uncertain numerical evidence to compare possibilities \u00b7 Comparing sources and asking what would change an explanation",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-11303103-047-responsibility",
+            "prompt": "Would you like to learn to make investment decisions within a fund\u2019s agreed limits and explain performance and risks to its clients?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to make investment decisions within a fund\u2019s agreed limits and explain performance and risks to its clients?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Voluntarily comparing a mock company report, uncertain future returns and the risk of losing an investment \u00b7 Reconciling club receipts, separating estimates from actual spending and checking a financial explanation \u00b7 Checking small details without guessing what missing information means \u00b7 Finding a second example when an explanation is confusing \u00b7 I want to learn how recommendations affect another person\u2019s money and how to explain uncertain financial risks \u00b7 I want to compare allocating work and handling disagreements with contributing as an individual",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0436",
+    "before": [
+      "Retail Salespersons",
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Credit Counselors"
+    ],
+    "after": [
+      "Retail Salespersons",
+      "Loan Officers",
+      "Compensation, Benefits, and Job Analysis Specialists"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-13207200",
+        "title": "Loan Officers",
+        "degree": true,
+        "r": 0.6080662588805359,
+        "evidence": [
+          {
+            "questionId": "degree-13207200-047-domain",
+            "prompt": "Would you like to learn to help people or organizations obtain loans by examining whether their financial circumstances support the proposed borrowing?",
+            "domain": "domain",
+            "text": "Would you like to learn to help people or organizations obtain loans by examining whether their financial circumstances support the proposed borrowing?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation \u00b7 Choosing to explain an item to a customer and ask what would make it useful to them",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-13207200-047-method",
+            "prompt": "Would you like to learn to compare an applicant\u2019s income, credit information, and repayment plans to evaluate whether a loan is feasible?",
+            "domain": "method",
+            "text": "Would you like to learn to compare an applicant\u2019s income, credit information, and repayment plans to evaluate whether a loan is feasible?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation \u00b7 Choosing to explain an item to a customer and ask what would make it useful to them \u00b7 Using graphs and uncertain numerical evidence to compare possibilities \u00b7 Comparing sources and asking what would change an explanation \u00b7 Checking small details without guessing what missing information means",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-13207200-047-responsibility",
+            "prompt": "Would you like to learn to explain borrowing terms clearly and make or recommend lending decisions within the institution\u2019s rules and approval limits?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to explain borrowing terms clearly and make or recommend lending decisions within the institution\u2019s rules and approval limits?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation \u00b7 Choosing to explain an item to a customer and ask what would make it useful to them \u00b7 Checking small details without guessing what missing information means \u00b7 Finding a second example when an explanation is confusing \u00b7 I want to learn how recommendations affect another person\u2019s money and how to explain uncertain financial risks",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0450",
+    "before": [
+      "Film and Video Editors",
+      "Photographers",
+      "Camera Operators, Television, Video, and Film"
+    ],
+    "after": [
+      "Film and Video Editors",
+      "Producers and Directors",
+      "Photographers"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-27201200",
+        "title": "Producers and Directors",
+        "degree": true,
+        "r": 0.6858426849238861,
+        "evidence": [
+          {
+            "questionId": "degree-27201200-047-domain",
+            "prompt": "Would you like to learn to shape how a story or message is presented through actors, scenes, sound, and images in a film, broadcast, or live production?",
+            "domain": "domain",
+            "text": "Would you like to learn to shape how a story or message is presented through actors, scenes, sound, and images in a film, broadcast, or live production?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing camera angles, recording a short sequence and revising the edit or animation timing \u00b7 Rehearsing a dance or dramatic scene and revising how movement communicates to an audience \u00b7 Writing original scenes or essays and revising structure after a reader gives feedback",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-27201200-047-method",
+            "prompt": "Would you like to learn to interpret a script or production idea and experiment with staging, framing, or performance choices to produce the intended audience experience?",
+            "domain": "method",
+            "text": "Would you like to learn to interpret a script or production idea and experiment with staging, framing, or performance choices to produce the intended audience experience?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing camera angles, recording a short sequence and revising the edit or animation timing \u00b7 Rehearsing a dance or dramatic scene and revising how movement communicates to an audience \u00b7 Writing original scenes or essays and revising structure after a reader gives feedback \u00b7 Revising an original form until it expresses the intended idea \u00b7 Trying alternative designs and comparing their trade-offs \u00b7 Comparing two explanations using a repeatable fair test",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-27201200-047-responsibility",
+            "prompt": "Would you like to learn to direct collaborators and make creative decisions during rehearsals or recording while coordinating the production's practical limits and overall artistic direction?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to direct collaborators and make creative decisions during rehearsals or recording while coordinating the production's practical limits and overall artistic direction?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing camera angles, recording a short sequence and revising the edit or animation timing \u00b7 Rehearsing a dance or dramatic scene and revising how movement communicates to an audience \u00b7 Writing original scenes or essays and revising structure after a reader gives feedback \u00b7 Coordinating people, deadlines and resources while asking for feedback \u00b7 Organizing information and keeping a sequence or record consistent \u00b7 I want to compare allocating work and handling disagreements with contributing as an individual",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0468",
+    "before": [
+      "Logistics Analysts",
+      "Logisticians",
+      "Stockers & Order Fillers"
+    ],
+    "after": [
+      "Logistics Analysts",
+      "Customs Brokers",
+      "Logisticians"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-13104108",
+        "title": "Customs Brokers",
+        "degree": true,
+        "r": 0.5431003232784982,
+        "evidence": [
+          {
+            "questionId": "degree-13104108-047-domain",
+            "prompt": "Would you like to learn to help goods move between countries by working through the customs requirements that apply to different products and shipments?",
+            "domain": "domain",
+            "text": "Would you like to learn to help goods move between countries by working through the customs requirements that apply to different products and shipments?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing written rules and source evidence about a disagreement and considering arguments on both sides \u00b7 Comparing delivery routes, schedules and stock records and checking what changed after a delay",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-13104108-047-method",
+            "prompt": "Would you like to learn to investigate how imported goods should be classified and calculate the duties, taxes, and documents required for a shipment?",
+            "domain": "method",
+            "text": "Would you like to learn to investigate how imported goods should be classified and calculate the duties, taxes, and documents required for a shipment?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing written rules and source evidence about a disagreement and considering arguments on both sides \u00b7 Comparing delivery routes, schedules and stock records and checking what changed after a delay \u00b7 Comparing sources and asking what would change an explanation \u00b7 Using graphs and uncertain numerical evidence to compare possibilities \u00b7 Organizing information and keeping a sequence or record consistent",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-13104108-047-responsibility",
+            "prompt": "Would you like to learn to represent a client in customs transactions and take responsibility for accurate declarations, required payments, and resolving shipment clearance problems?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to represent a client in customs transactions and take responsibility for accurate declarations, required payments, and resolving shipment clearance problems?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing written rules and source evidence about a disagreement and considering arguments on both sides \u00b7 Comparing delivery routes, schedules and stock records and checking what changed after a delay \u00b7 Checking small details without guessing what missing information means \u00b7 Finding a second example when an explanation is confusing \u00b7 I want to compare representing another person in a formal dispute with merely discussing a fair rule",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0483",
+    "before": [
+      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "Validation Engineers",
+      "Tax Examiners and Collectors, and Revenue Agents"
+    ],
+    "after": [
+      "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "Validation Engineers",
+      "Appraisers of Personal and Business Property"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-13202200",
+        "title": "Appraisers of Personal and Business Property",
+        "degree": true,
+        "r": 0.406592474086265,
+        "evidence": [
+          {
+            "questionId": "degree-13202200-047-domain",
+            "prompt": "Would you like to learn to investigate what belongings, equipment, artwork, or business property are worth for a particular decision or transaction?",
+            "domain": "domain",
+            "text": "Would you like to learn to investigate what belongings, equipment, artwork, or business property are worth for a particular decision or transaction?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing supplier offers including hidden costs and checking whether items meet agreed requirements \u00b7 Reconciling club receipts, separating estimates from actual spending and checking a financial explanation",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-13202200-047-method",
+            "prompt": "Would you like to learn to examine an item's condition and characteristics and compare relevant evidence to develop a reasoned estimate of its value?",
+            "domain": "method",
+            "text": "Would you like to learn to examine an item's condition and characteristics and compare relevant evidence to develop a reasoned estimate of its value?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing supplier offers including hidden costs and checking whether items meet agreed requirements \u00b7 Reconciling club receipts, separating estimates from actual spending and checking a financial explanation \u00b7 Comparing sources and asking what would change an explanation \u00b7 Using graphs and uncertain numerical evidence to compare possibilities \u00b7 Checking small details without guessing what missing information means",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-13202200-047-responsibility",
+            "prompt": "Would you like to learn to prepare a clearly documented valuation and explain its assumptions to people who may rely on it for important financial decisions?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to prepare a clearly documented valuation and explain its assumptions to people who may rely on it for important financial decisions?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing supplier offers including hidden costs and checking whether items meet agreed requirements \u00b7 Reconciling club receipts, separating estimates from actual spending and checking a financial explanation \u00b7 Checking small details without guessing what missing information means \u00b7 Finding a second example when an explanation is confusing \u00b7 I want to learn how recommendations affect another person\u2019s money and how to explain uncertain financial risks",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0634",
+    "before": [
+      "Logistics Analysts",
+      "Stockers & Order Fillers",
+      "Office Clerks, General"
+    ],
+    "after": [
+      "Logistics Analysts",
+      "Stockers & Order Fillers",
+      "Customs Brokers"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-13104108",
+        "title": "Customs Brokers",
+        "degree": true,
+        "r": 0.7865718599048245,
+        "evidence": [
+          {
+            "questionId": "degree-13104108-047-domain",
+            "prompt": "Would you like to learn to help goods move between countries by working through the customs requirements that apply to different products and shipments?",
+            "domain": "domain",
+            "text": "Would you like to learn to help goods move between countries by working through the customs requirements that apply to different products and shipments?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing written rules and source evidence about a disagreement and considering arguments on both sides \u00b7 Comparing delivery routes, schedules and stock records and checking what changed after a delay",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-13104108-047-method",
+            "prompt": "Would you like to learn to investigate how imported goods should be classified and calculate the duties, taxes, and documents required for a shipment?",
+            "domain": "method",
+            "text": "Would you like to learn to investigate how imported goods should be classified and calculate the duties, taxes, and documents required for a shipment?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing written rules and source evidence about a disagreement and considering arguments on both sides \u00b7 Comparing delivery routes, schedules and stock records and checking what changed after a delay \u00b7 Comparing sources and asking what would change an explanation \u00b7 Using graphs and uncertain numerical evidence to compare possibilities \u00b7 Organizing information and keeping a sequence or record consistent",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-13104108-047-responsibility",
+            "prompt": "Would you like to learn to represent a client in customs transactions and take responsibility for accurate declarations, required payments, and resolving shipment clearance problems?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to represent a client in customs transactions and take responsibility for accurate declarations, required payments, and resolving shipment clearance problems?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Comparing written rules and source evidence about a disagreement and considering arguments on both sides \u00b7 Comparing delivery routes, schedules and stock records and checking what changed after a delay \u00b7 Checking small details without guessing what missing information means \u00b7 Finding a second example when an explanation is confusing \u00b7 I want to compare representing another person in a formal dispute with merely discussing a fair rule",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0736",
+    "before": [
+      "Computer Programmers",
+      "Web Developers"
+    ],
+    "after": [
+      "Computer Programmers",
+      "Web Developers",
+      "Telecommunications Engineering Specialists"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-15124101",
+        "title": "Telecommunications Engineering Specialists",
+        "degree": true,
+        "r": 0.8430632861845567,
+        "evidence": [
+          {
+            "questionId": "degree-15124101-047-domain",
+            "prompt": "Would you like to learn to design connections that carry voice, video, or data reliably between people, devices, or places using communication networks?",
+            "domain": "domain",
+            "text": "Would you like to learn to design connections that carry voice, video, or data reliably between people, devices, or places using communication networks?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Assembling a low-voltage circuit, tracing a failed connection and recording repeatable tests \u00b7 Writing a small program, testing unexpected behavior and checking how its data moves",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-15124101-047-method",
+            "prompt": "Would you like to learn to investigate how a communication network's parts interact when service quality or reliability falls below what users need?",
+            "domain": "method",
+            "text": "Would you like to learn to investigate how a communication network's parts interact when service quality or reliability falls below what users need?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Assembling a low-voltage circuit, tracing a failed connection and recording repeatable tests \u00b7 Writing a small program, testing unexpected behavior and checking how its data moves \u00b7 Trying alternative designs and comparing their trade-offs \u00b7 Comparing sources and asking what would change an explanation \u00b7 Comparing two explanations using a repeatable fair test",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-15124101-047-responsibility",
+            "prompt": "Would you like to learn to coordinate changes to communication equipment and document how the network should be installed, operated, and maintained?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to coordinate changes to communication equipment and document how the network should be installed, operated, and maintained?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Assembling a low-voltage circuit, tracing a failed connection and recording repeatable tests \u00b7 Writing a small program, testing unexpected behavior and checking how its data moves \u00b7 Coordinating people, deadlines and resources while asking for feedback \u00b7 Organizing information and keeping a sequence or record consistent",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0748",
+    "before": [
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Chief Executives",
+      "Credit Counselors"
+    ],
+    "after": [
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Loan Officers",
+      "Chief Executives"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-13207200",
+        "title": "Loan Officers",
+        "degree": true,
+        "r": 0.9110514883519484,
+        "evidence": [
+          {
+            "questionId": "degree-13207200-047-domain",
+            "prompt": "Would you like to learn to help people or organizations obtain loans by examining whether their financial circumstances support the proposed borrowing?",
+            "domain": "domain",
+            "text": "Would you like to learn to help people or organizations obtain loans by examining whether their financial circumstances support the proposed borrowing?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation \u00b7 Choosing to explain an item to a customer and ask what would make it useful to them",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-13207200-047-method",
+            "prompt": "Would you like to learn to compare an applicant\u2019s income, credit information, and repayment plans to evaluate whether a loan is feasible?",
+            "domain": "method",
+            "text": "Would you like to learn to compare an applicant\u2019s income, credit information, and repayment plans to evaluate whether a loan is feasible?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation \u00b7 Choosing to explain an item to a customer and ask what would make it useful to them \u00b7 Using graphs and uncertain numerical evidence to compare possibilities \u00b7 Comparing sources and asking what would change an explanation \u00b7 Checking small details without guessing what missing information means",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-13207200-047-responsibility",
+            "prompt": "Would you like to learn to explain borrowing terms clearly and make or recommend lending decisions within the institution\u2019s rules and approval limits?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to explain borrowing terms clearly and make or recommend lending decisions within the institution\u2019s rules and approval limits?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation \u00b7 Choosing to explain an item to a customer and ask what would make it useful to them \u00b7 Checking small details without guessing what missing information means \u00b7 Finding a second example when an explanation is confusing \u00b7 I want to learn how recommendations affect another person\u2019s money and how to explain uncertain financial risks",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0772",
+    "before": [
+      "Health Education Specialists",
+      "Health Specialties Teachers, Postsecondary",
+      "Education Administrators, Kindergarten through Secondary"
+    ],
+    "after": [
+      "Health Education Specialists",
+      "Teaching Assistants, Postsecondary",
+      "Health Specialties Teachers, Postsecondary"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-25904400",
+        "title": "Teaching Assistants, Postsecondary",
+        "degree": true,
+        "r": 0.0045252871145685354,
+        "evidence": [
+          {
+            "questionId": "degree-25904400-047-domain",
+            "prompt": "Would you like to learn to help college students understand course material through tutorials, discussion groups, laboratory sessions, or other teaching support alongside a course instructor?",
+            "domain": "domain",
+            "text": "Would you like to learn to help college students understand course material through tutorials, discussion groups, laboratory sessions, or other teaching support alongside a course instructor?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Preparing an optional workshop for adults and asking what explanation would help them learn \u00b7 Revising a short learning guide, checking understanding and choosing a clearer sequence of examples",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-25904400-047-method",
+            "prompt": "Would you like to learn to prepare learning activities and respond to students\u2019 questions by finding where their understanding breaks down and trying a clearer explanation?",
+            "domain": "method",
+            "text": "Would you like to learn to prepare learning activities and respond to students\u2019 questions by finding where their understanding breaks down and trying a clearer explanation?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Preparing an optional workshop for adults and asking what explanation would help them learn \u00b7 Revising a short learning guide, checking understanding and choosing a clearer sequence of examples \u00b7 Trying alternative designs and comparing their trade-offs \u00b7 Finding a second example when an explanation is confusing \u00b7 Comparing sources and asking what would change an explanation",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-25904400-047-responsibility",
+            "prompt": "Would you like to learn to assess assigned student work consistently and coordinate feedback or classroom support with the instructor responsible for the overall course?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to assess assigned student work consistently and coordinate feedback or classroom support with the instructor responsible for the overall course?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Preparing an optional workshop for adults and asking what explanation would help them learn \u00b7 Revising a short learning guide, checking understanding and choosing a clearer sequence of examples \u00b7 Checking small details without guessing what missing information means \u00b7 Coordinating people, deadlines and resources while asking for feedback \u00b7 I want to compare preparing a course, assessing learning and responding to different learners over time",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scale056-0795",
+    "before": [
+      "Poets, Lyricists and Creative Writers",
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+    ],
+    "after": [
+      "Poets, Lyricists and Creative Writers",
+      "Producers and Directors",
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+    ],
+    "firstTop": false,
+    "new": [
+      {
+        "id": "degree-27201200",
+        "title": "Producers and Directors",
+        "degree": true,
+        "r": 0.6309810826475688,
+        "evidence": [
+          {
+            "questionId": "degree-27201200-047-domain",
+            "prompt": "Would you like to learn to shape how a story or message is presented through actors, scenes, sound, and images in a film, broadcast, or live production?",
+            "domain": "domain",
+            "text": "Would you like to learn to shape how a story or message is presented through actors, scenes, sound, and images in a film, broadcast, or live production?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing camera angles, recording a short sequence and revising the edit or animation timing \u00b7 Rehearsing a dance or dramatic scene and revising how movement communicates to an audience \u00b7 Writing original scenes or essays and revising structure after a reader gives feedback",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-27201200-047-method",
+            "prompt": "Would you like to learn to interpret a script or production idea and experiment with staging, framing, or performance choices to produce the intended audience experience?",
+            "domain": "method",
+            "text": "Would you like to learn to interpret a script or production idea and experiment with staging, framing, or performance choices to produce the intended audience experience?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing camera angles, recording a short sequence and revising the edit or animation timing \u00b7 Rehearsing a dance or dramatic scene and revising how movement communicates to an audience \u00b7 Writing original scenes or essays and revising structure after a reader gives feedback \u00b7 Revising an original form until it expresses the intended idea \u00b7 Trying alternative designs and comparing their trade-offs \u00b7 Comparing two explanations using a repeatable fair test",
+            "kind": "specific"
+          },
+          {
+            "questionId": "degree-27201200-047-responsibility",
+            "prompt": "Would you like to learn to direct collaborators and make creative decisions during rehearsals or recording while coordinating the production's practical limits and overall artistic direction?",
+            "domain": "responsibility",
+            "text": "Would you like to learn to direct collaborators and make creative decisions during rehearsals or recording while coordinating the production's practical limits and overall artistic direction?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Choosing camera angles, recording a short sequence and revising the edit or animation timing \u00b7 Rehearsing a dance or dramatic scene and revising how movement communicates to an audience \u00b7 Writing original scenes or essays and revising structure after a reader gives feedback \u00b7 Coordinating people, deadlines and resources while asking for feedback \u00b7 Organizing information and keeping a sequence or record consistent \u00b7 I want to compare allocating work and handling disagreements with contributing as an individual",
+            "kind": "specific"
+          }
+        ]
+      }
+    ]
+  }
+]

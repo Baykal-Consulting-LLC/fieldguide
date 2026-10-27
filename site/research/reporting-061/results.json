@@ -1,0 +1,78 @@
+{
+  "runId": "835f3e9eeb139692035e7672805c414bf104f557fb5983856e6928d9b0fc7a87",
+  "definitions": {
+    "population": "1,000 public base models. Development and three holdout groups remain separate; diagnostic and owner-only models excluded from headline totals.",
+    "supportedTop": "At least one specifically supported career in the current Top three.",
+    "degree": "At least one bachelor or graduate route in the shared catalog; associate/specialist programs counted separately. A recognized route is not a claim every job requires that degree.",
+    "followup": "Two eligible specific interests, one unresolved check or insufficient activity contexts; no recorded No or review hold. Independent of broad correlation; never establishes support.",
+    "exploration": "Current production explorationRows059 output excluding every specifically supported career. Candidates may have unknown or conflicting specific answers and never count as supported Top.",
+    "system": "Actual current Fieldguide explorer replay. The separate O*NET reference benchmark is not used for these membership counts."
+  },
+  "summary": {
+    "all": {
+      "models": 1000,
+      "top": 789,
+      "degreeTop": 653,
+      "topCovers": 236,
+      "degreeTopCovers": 213,
+      "exploration": 961,
+      "degreeExploration": 948,
+      "followup": 777,
+      "degreeFollowup": 768,
+      "explorationOnly": 191,
+      "degreeExplorationOnly": 319
+    },
+    "development": {
+      "models": 758,
+      "top": 594,
+      "degreeTop": 490,
+      "topCovers": 183,
+      "degreeTopCovers": 166,
+      "exploration": 730,
+      "degreeExploration": 722,
+      "followup": 578,
+      "degreeFollowup": 572,
+      "explorationOnly": 149,
+      "degreeExplorationOnly": 246
+    },
+    "holdout": {
+      "models": 30,
+      "top": 26,
+      "degreeTop": 21,
+      "topCovers": 10,
+      "degreeTopCovers": 10,
+      "exploration": 30,
+      "degreeExploration": 30,
+      "followup": 13,
+      "degreeFollowup": 12,
+      "explorationOnly": 4,
+      "degreeExplorationOnly": 9
+    },
+    "holdout049": {
+      "models": 12,
+      "top": 11,
+      "degreeTop": 11,
+      "topCovers": 3,
+      "degreeTopCovers": 3,
+      "exploration": 8,
+      "degreeExploration": 8,
+      "followup": 8,
+      "degreeFollowup": 8,
+      "explorationOnly": 1,
+      "degreeExplorationOnly": 1
+    },
+    "holdout056": {
+      "models": 200,
+      "top": 158,
+      "degreeTop": 131,
+      "topCovers": 40,
+      "degreeTopCovers": 34,
+      "exploration": 193,
+      "degreeExploration": 188,
+      "followup": 178,
+      "degreeFollowup": 176,
+      "explorationOnly": 37,
+      "degreeExplorationOnly": 63
+    }
+  }
+}

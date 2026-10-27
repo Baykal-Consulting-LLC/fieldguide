@@ -1,0 +1,48 @@
+# Expanded career-match calibration · 0.54 audit
+
+The full public base cohort outside the fresh holdout has now received a biography-led AI review:160 profiles, all307 currentTop claims, and all1,920 first12 discovery appearances. Two AI judgments cover every currentTop claim. Fifty-two initial disagreements received a third AI judgment, blind to the earlier labels. This is a larger synthetic evidence audit, not exhaustive human or psychometric calibration.
+
+## Completed work
+
+- Freeze plausible family expectations from all160 biographies before revealing the current outcomes. Retain the existing24-case review and all historical answers separately.
+- Review each first12 discovery list for supported directions, plausible transfers, unresolved contexts, actual contradictions and omitted plausible interests. A window omission is not proof of absence from the457 catalog.
+- Independently review all307 Top claims twice, then adjudicate52 disagreements. Initial agreement255/307,83.1%; Cohen's kappa0.603. Shared AI model family and subjective coding limit independence; neither figure is a career-accuracy statistic.
+- Apply a primary source-based triage to all18 noTop profiles outside the fresh holdout: six have clear exploration gaps, seven mix gaps with unresolved preferences, and five appropriately retain uncertainty.
+- Replay184 saved public histories unchanged. All184 context substitutions preserve interest rankings/support and all12 paired diagnostic variants preserve the parent interest results. Diagnostics are not independent students.
+- Execute the six previously authored engineering/health counterexamples as regression fixtures. These test the manually encoded software implications, not the entire psychological meaning of the scenarios.
+- Stress-test each valid official answer one step up/down. Broad connection cutoffs and first12 correlation ranks can change substantially; do not treat small score differences as decisive.
+- Complete two actual guest Truity sessions with94 synthetic proxy responses each, frozen before either result. This adds a nonidentical questionnaire/implementation, not a full independent validity benchmark.
+- Audit every one of the13 external inventory gaps with official scope/education sources. Seven merit discovery content, four later-stage pathways, two scope review; none became an automatic match.
+- Prepare a student/counselor pilot protocol and blank collection template. No actual participants or qualified counselor sessions were recruited or tested.
+
+## Findings
+
+Majority review supports225 of307 currentTop claims as reasonable exploratory directions;82 need direct clarification, including64 of236 college/graduate claims. These82 claims occur in62 profiles. They remain visible with both initial judgments, any third judgment, exact saved evidence and follow-up questions. An AI majority does not establish a true preference or justify rewriting an answer.
+
+The first12 review found295 supported directions,1,002 plausible adjacent discoveries,614 needing clarification and9 actual preference conflicts. There are220 underrepresented-direction nominations across130 profiles. This purposive synthetic cohort and the review rubric do not support a population false-match rate. Broad discovery is intentionally permissive; a relevant unfamiliar career need not already have specific-positive answers.
+
+The recurrent problem is transfer calibration: reasoning about records can justify investigating statistics or data, but does not necessarily establish investment advice or data warehousing; informal explanations can justify teaching exploration without selecting a particular academic subject or age group. Conversely, requiring prior professional tasks would be too conservative. The disagreements demonstrate why these must remain separate questions.
+
+NoTop is often appropriate for low-exposure, all-unsure or broadly enthusiastic profiles. It is less satisfactory when chosen interests such as Noah's electronic sound/weather, Aisha's repeatable technical testing, Chinedu's dance/astronomy or Sadie's electronics are buried under a single broad family. Nadia's historical verification is an original-holdout evaluation finding; it was not used to change her responses or the engine.
+
+The fixed engine coverage remains153/172 with any supportedTop,132/172 with a college/graduateTop, and63/172 with a Top covering the assessed lifestyle budget. Those are unadjusted engine coverage figures, not validated-fit counts. The review layer deliberately does not silently replace them with its own judgments.
+
+## Other services
+
+Earlier official O*NET and CareerOneStop comparisons strongly agree on broad arithmetic/categories in their limited panels; both use O*NET. Truity's artistic case led with Creating and its mechanical case with Building, coherent with our corresponding broad leads. Its free suggestions also span unconfirmed domains. For the mechanical case it offers electrical engineering while our supportedTop is mechanical engineering; neither service establishes the student's electrical preference.
+
+Truity's free output is partial and appears ordered by displayed earnings; no numerical relevance-rank correlation or full paid-list recall is claimed. Most unfamiliar/preferences not settled by the biographies had to be entered as neutral because this provider requires a rating. This is a major response-imputation limitation. Provider display scores are not our raw O*NET sums, match probabilities or commensurate correlations. We did not buy a report or create an account, and submitted no real student records. See the frozen assignments and result facts in the audit download. [Provider description](https://www.truity.com/test/career-personality-profiler-test).
+
+The13 earlier gaps were reviewed against [official O*NET occupation descriptions](https://www.onetonline.org/) and occupation-specific BLS sources listed in each record. Dance, music performance, acting, costume and pattern work merit distinct discovery content. They are not universally bachelor's-required roles. Supervisory emergency-service roles, wellness coordination and funeral management need honest experience pathways. Elected office and modeling require additional scope decisions. No new personal match was inferred from the vendor label alone.
+
+## Remaining limits and next work
+
+The12 fresh holdout profiles remain sealed for qualitative review and rule tuning, with automated fixed-rule results shown separately. The older30 have been used repeatedly and are historical evaluation cases, not pristine external validation. A new untouched panel will be needed if these later outcomes guide rule changes.
+
+There are no actual student responses to the disputed follow-ups, no counselor panel, no test–retest or predictive-validity evidence, and no psychometric validation of the24 added reflections. Full paid/proprietary provider comparisons remain unexecuted. The pilot kit defines the next collection and review process; it is not a completed study.
+
+Original biographies, answer histories, scores, ranking weights, eligibility rules and support rules are unchanged by this audit. The public chart adds a separate review layer, concrete clarification questions, omitted-direction nominations and explicit completion status. Further changes must use justified new evidence rather than a target number of college matches.
+
+## Reproduce
+
+Run `node scripts/analyze-calibration-054.mjs` for fixed-rule perturbation and invariance results, `node scripts/build-calibration-054.mjs` for the joined review/chart data, and `node --test tests/calibration-054-counterexamples.test.js tests/calibration-054-report.test.js` for the new regression and report checks. A normal `npm run build` refreshes the existing model chart and this audit from preserved inputs. Original external053 fixtures and subjective review hashes are not overwritten.

@@ -1,0 +1,25 @@
+import test from'node:test';import assert from'node:assert/strict';import fs from'node:fs';
+import{resultsPlanPage,resultCareerPanel,educationFundingPage}from'../dist/results-plan-ui.js';import{selectTopPlanMatches,planMatchCandidates}from'../dist/plan-matches.js';import{studyCostSummary}from'../dist/study-cost-summary.js';import{occupations,occupationById}from'../dist/occupation-data.js';import{walkthroughState}from'../dist/journey-walkthroughs.js';import{professionSuggestions,journeyInterestPicture}from'../dist/profile-journey.js';import{salaryPreviewInputs}from'../dist/guide-state.js';import{calculateLifestyle}from'../dist/lifestyle.js';
+test('lifestyle breaks close evidence ties without promoting a weaker task or six-score match',()=>{
+ const row=(id,score,fit,r=.8)=>({id,score,meetsLifestyle:fit,specificSupport:0,routeSupport:false,basis:'profile-and-tasks',interestMatch:{r}});
+ const a=[row('a',8,false),row('b',8,true),row('c',8,true),row('d',8,true)];assert.deepEqual(selectTopPlanMatches(a).map(x=>x.id),['b','c','d']);assert.equal(a[0].id,'a');
+ assert.equal(selectTopPlanMatches([row('strong',10,false),row('weak',7,true)])[0].id,'strong');assert.equal(selectTopPlanMatches([row('strong',8,false,.92),row('different',8,true,.65)])[0].id,'strong');assert.equal(selectTopPlanMatches(a.slice(0,1)).length,1);
+});
+test('the comparison page starts with at most three name-only accordions and keeps short reasons on other matches',()=>{
+ const s=walkthroughState('creative',{plan:true}),before=JSON.stringify(s),html=resultsPlanPage(s);assert.equal(JSON.stringify(s),before);assert.ok((html.match(/class="result-career top-career"/g)||[]).length<=3);const block=html.split('class="top-matches"')[1].split('id="other-matches"')[0];for(const summary of block.matchAll(/<summary>(.*?)<\/summary>/gs)){if(summary[1].includes('<span>'))assert.doesNotMatch(summary[1],/match-rating|\$\d/);}
+ assert.match(html,/other-match-reason/);assert.match(html,/Why this matches you/);assert.match(html,/Your Austin lifestyle/);assert.match(html,/Review my lifestyle preferences/);assert.match(html,/No match/);assert.doesNotMatch(html,/See the lifestyle|More info · work preferences|More info · my interests and skills|Keep an alternative|More info · college benefits|More info · entry &amp; cost|MY NEXT STEPS|Training still needs funding|More info · see the budget|Planning estimate/);
+});
+test('hairdressing costs clearly separate the original tuition from living and other costs',()=>{
+ const b=studyCostSummary('hairdresser');assert.equal(b.tuition,15700);assert.equal(b.living,23648);assert.equal(b.other,5325);assert.equal(b.cost,44673);assert.equal(b.rows.reduce((a,r)=>a+r.amount,0),b.cost);
+ const s=walkthroughState('creative',{plan:true}),html=resultCareerPanel(s,{id:'hairdresser',o:occupationById('hairdresser'),kind:'chosen',rating:'Your choice',reasons:[]});assert.match(html,/\$15,700/);assert.match(html,/\$23,648/);assert.match(html,/\$5,325/);assert.match(html,/What these costs include/);assert.doesNotMatch(html,/data-career-scenario|Your loan payment|After grants|still needs funding/);assert.ok(!html.includes('<summary>More info · college benefits'));
+});
+test('all117 study-cost breakdowns reconcile; the calculator is separate and does not change a saved budget while rendering',()=>{
+ for(const o of occupations){const b=studyCostSummary(o.id);assert.ok(b.rows.every(r=>Number.isFinite(r.amount)&&r.amount>=0),o.id);assert.ok(Math.abs(b.rows.reduce((n,r)=>n+r.amount,0)-b.cost)<.001,o.id);}
+ const s=walkthroughState('trades',{plan:true}),before=JSON.stringify(s),html=educationFundingPage(s,'electrician');assert.equal(JSON.stringify(s),before);assert.match(html,/\$860/);assert.match(html,/Edit grants, savings and loans/);assert.match(html,/2025–26/);
+});
+test('visible match explanations draw from different answered questions and earnings keep all four stages',()=>{
+ const s=walkthroughState('medicine',{plan:true}),data=planMatchCandidates(s);for(const r of data.top){const html=resultCareerPanel(s,r);assert.match(html,/Estimated yearly pay/);assert.match(html,/Entry level/);assert.match(html,/5 years/);assert.match(html,/10 years/);assert.match(html,/20 years/);assert.match(html,/Pay sources/);assert.doesNotMatch(html,/Planning estimate|guaranteed raises/);}
+});
+test('all148 frozen public lives keep answers, six scores and engine matches while using the new presentation',()=>{
+ let count=0;for(const phase of['development','holdout','supplement','legacy'])for(const row of JSON.parse(fs.readFileSync('validation/blind-2026-10-18/'+phase+'-summary.json')).students){const c=JSON.parse(fs.readFileSync('validation/blind-2026-10-18/'+row.id+'.json')),s=c.experimentState,before=JSON.stringify(s),scores=journeyInterestPicture(s).raw,core=professionSuggestions(s).top.map(r=>r.o.id),r=planMatchCandidates(s);assert.deepEqual(core,c.results.professions.map(x=>x.id),row.id);assert.deepEqual(journeyInterestPicture(s).raw,scores);assert.equal(JSON.stringify(s),before);assert.ok(r.top.length<=3);for(const item of r.top)assert.ok(item.supported&&!item.routeConflict);count++;}assert.equal(count,148);
+});

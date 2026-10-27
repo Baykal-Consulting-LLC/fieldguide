@@ -1,0 +1,144 @@
+{
+  "freeze": {
+    "count": 100,
+    "candidateFrozenAt": "2026-10-24T06:25:36.235Z",
+    "selectorSHA256": "5534cd39cb022c98e0f22ecf9018725546ab21f9c24319aed0fe6442865e89cc",
+    "profileSHA256": "0fcfdea60d68216cc8a306fb27d6841a8c95bf38b9c1f509f2b258e3c982ff53",
+    "questionnaireSHA256": "458c97ea6af9ed17bf9e7d9616928752f88eca1068e90e46257da577affa4814",
+    "contractSHA256": "b687e687c0303946c152423a4bf2f15894c3114c362e7a1cd2586ecfd546fce0",
+    "sealedAt": "2026-10-24T06:50:44.286Z",
+    "blindness": "Isolated Grok CLI sessions received only neutral questionnaire, synthetic profile contract and roster. No engine, catalog, previous models, recommendation outputs or performance targets. No tools/web/subagents.",
+    "selection": "All 100 schema-valid generated cases retained before first outcomes. Selector frozen; no post-evaluation tuning."
+  },
+  "summary": [
+    {
+      "budget": 0,
+      "models": 100,
+      "unknownReasons": {},
+      "beforeTop": 0,
+      "top": 0,
+      "beforeDegree": 0,
+      "degree": 0,
+      "allDegree": 0,
+      "beforeAsked": 0,
+      "beforeUnknown": 0,
+      "unknown": 0,
+      "asked": 0,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0
+    },
+    {
+      "budget": 4,
+      "models": 100,
+      "unknownReasons": {
+        "unmeasured-preference": 161,
+        "conflicting-evidence": 2
+      },
+      "beforeTop": 6,
+      "top": 6,
+      "beforeDegree": 0,
+      "degree": 0,
+      "allDegree": 0,
+      "beforeAsked": 400,
+      "beforeUnknown": 185,
+      "unknown": 163,
+      "asked": 400,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0
+    },
+    {
+      "budget": 8,
+      "models": 100,
+      "unknownReasons": {
+        "unmeasured-preference": 351,
+        "conflicting-evidence": 2
+      },
+      "beforeTop": 45,
+      "top": 52,
+      "beforeDegree": 31,
+      "degree": 37,
+      "allDegree": 37,
+      "beforeAsked": 800,
+      "beforeUnknown": 403,
+      "unknown": 353,
+      "asked": 800,
+      "gainedTop": 7,
+      "lostTop": 0,
+      "gainedDegree": 6,
+      "lostDegree": 0
+    },
+    {
+      "budget": 12,
+      "models": 100,
+      "unknownReasons": {
+        "unmeasured-preference": 568,
+        "conflicting-evidence": 2
+      },
+      "beforeTop": 57,
+      "top": 63,
+      "beforeDegree": 42,
+      "degree": 46,
+      "allDegree": 46,
+      "beforeAsked": 1200,
+      "beforeUnknown": 631,
+      "unknown": 570,
+      "asked": 1200,
+      "gainedTop": 9,
+      "lostTop": 3,
+      "gainedDegree": 8,
+      "lostDegree": 4
+    },
+    {
+      "budget": 16,
+      "models": 100,
+      "unknownReasons": {
+        "unmeasured-preference": 817,
+        "conflicting-evidence": 2
+      },
+      "beforeTop": 66,
+      "top": 66,
+      "beforeDegree": 50,
+      "degree": 49,
+      "allDegree": 49,
+      "beforeAsked": 1600,
+      "beforeUnknown": 878,
+      "unknown": 819,
+      "asked": 1600,
+      "gainedTop": 3,
+      "lostTop": 3,
+      "gainedDegree": 3,
+      "lostDegree": 4
+    },
+    {
+      "budget": 24,
+      "models": 100,
+      "unknownReasons": {
+        "unmeasured-preference": 1403,
+        "conflicting-evidence": 2
+      },
+      "beforeTop": 70,
+      "top": 71,
+      "beforeDegree": 54,
+      "degree": 57,
+      "allDegree": 57,
+      "beforeAsked": 2400,
+      "beforeUnknown": 1476,
+      "unknown": 1405,
+      "asked": 2400,
+      "gainedTop": 3,
+      "lostTop": 2,
+      "gainedDegree": 5,
+      "lostDegree": 2
+    }
+  ],
+  "limits": [
+    "New synthetic Grok-authored sample; not actual students or a representative US sample.",
+    "No matching outcomes supplied to the generator. All schema-valid profiles retained before outcomes.",
+    "Frozen selector evaluated once; no changes after inspecting results.",
+    "No unknown interests filled. Same structured bindings for both arms. Live flow unchanged."
+  ]
+}

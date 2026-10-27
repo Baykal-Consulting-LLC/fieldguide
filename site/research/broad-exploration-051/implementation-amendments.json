@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-20T02:04:41.935Z",
+  "changes": [
+    {
+      "file": "dist/broad-exploration.js",
+      "beforeSHA256": "70e4ddf0929aea78d8a057a5bbf73cda2850114ee1adc51314ac2e2ab1c8bd1f",
+      "afterSHA256": "4ba194f775c6b1d7fd6cf843db4158a22653d0e485c77b0ad1386a3067b647b9",
+      "reason": "Catalog completeness fix during structural testing before publication: expanded occupations carry their authoritative interest vector on the record. The guided occupational-essentials accessor does not contain those SOCs. Use the same vector and existing correlation threshold as expandedMatchCandidates. No outcome targets, thresholds or frozen answers changed.",
+      "schedulingFix": "Freeze and persist the initial question queue/cursor so live answers preserve cross-career breadth. Skip already-answered IDs and newly declined defining interests. Exact same candidate eligibility and Top gates. Save/resume schema adds only round metadata."
+    },
+    {
+      "file": "dist/profile-journey.js",
+      "beforeSHA256": "5765cdab243df2fb92c9c8719d98cf817fe17e4686ade8e9b5713119a58ef4dc",
+      "afterSHA256": "e553ddec1714249ff0f88bfaf2bda97537bff0275be87a34d48b0bfd78f9c6aa",
+      "schedulingFix": "Freeze and persist the initial question queue/cursor so live answers preserve cross-career breadth. Skip already-answered IDs and newly declined defining interests. Exact same candidate eligibility and Top gates. Save/resume schema adds only round metadata."
+    }
+  ]
+}

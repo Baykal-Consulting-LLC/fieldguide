@@ -1,0 +1,925 @@
+{
+  "date": "2026-10-17",
+  "release": "0.27.0",
+  "profileVersion": "6.0.0",
+  "instrument": {
+    "id": "onet-short-form-60",
+    "version": "2018-05-01",
+    "name": "O*NET® Interest Profiler Short Form",
+    "itemCount": 60,
+    "responseEncoding": "1–5 API responses; raw theme score is sum(response − 1), 0–40",
+    "sourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fquestions%3Fstart%3D1%26end%3D60",
+    "sourceSHA256": "a1776ba36bd308afc808296814110692a092b5a0d01a524b39f160713e5fdd43",
+    "checkedAt": "2026-10-17",
+    "licenseURL": "https://creativecommons.org/licenses/by-nd/4.0/",
+    "licenseInfoURL": "https://www.onetcenter.org/license_tools.html",
+    "scoringURL": "https://www.onetcenter.org/dl_files/IP_Manual.pdf",
+    "linkageURL": "https://www.onetcenter.org/dl_files/IP_Career_Returns.pdf",
+    "attribution": "Includes the O*NET® Interest Profiler Short Form by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). Used under CC BY-ND 4.0. O*NET® is a trademark of USDOL/ETA.",
+    "integration": "Verbatim item text, response labels and API sequence; technical presentation changes only. Fieldguide follow-ups and career presentation are separate, original components. No USDOL endorsement."
+  },
+  "scope": "Twelve authored fictional student stories, public official scorer comparisons and independent correlation arithmetic. Software/linkage verification, not an independent student psychometric or predictive validity study.",
+  "careerCoverage": {
+    "catalog": 117,
+    "completeSixValueProfiles": 116,
+    "withoutDirectProfile": [
+      "tattoo"
+    ]
+  },
+  "policy": "All 60 original answers required. No conversion of legacy answers. Exact six-dimension Pearson correlation; separate profile-and-task and repeated-task routes for career suggestions. No forced recommendations for flat or weakly differentiated profiles. Fields average three closest distinct occupational profiles. Only strong profile alignment plus at least two endorsed daily-work preferences can be featured; two disliked preferences exclude a featured pathway. Zero to three pathways, without filler. Eight base task questions refine professions; health adds two specific role tasks and one separate preparation preference. A selected clinical role must have both specific task supports; other roles remain available to read. Conflicting preparation is flagged. Strong task support with nonnegative profile correlation can feature a career under a task-interest label: at least six questions, three refinements and four focused selections. Suggestions prioritize role-specific evidence and task support; the correlation and official interest label stay unchanged. Opposing, flat or missing profiles remain exploration options. No combined aptitude or success percentage.",
+  "referenceScorer": {
+    "date": "2026-10-17",
+    "scope": "Fictional activity-level student profiles. Official server scoring comparison and independent arithmetic checks; not a human validation study.",
+    "instrument": "O*NET Interest Profiler Short Form, 60 items",
+    "profiles": [
+      {
+        "id": "care-and-diagnosis",
+        "officialScores": [
+          11,
+          31,
+          12,
+          32,
+          11,
+          26
+        ],
+        "localScores": [
+          11,
+          31,
+          12,
+          32,
+          11,
+          26
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D225422452244215223452233225332432344323531452234234513442243",
+        "officialPageSHA256": "cd723796a197fdc269aadea0b0e1c7e7e34baaa20053b7e322b9fbdbb1fc416b"
+      },
+      {
+        "id": "precision-and-dental-care",
+        "officialScores": [
+          27,
+          32,
+          10,
+          21,
+          10,
+          28
+        ],
+        "localScores": [
+          27,
+          32,
+          10,
+          21,
+          10,
+          28
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D435422342244515222352243525422322244553522332244524522232243",
+        "officialPageSHA256": "cb78e0a203b850bbc11d218acfd8a26ec135a59b8f8f229088109ebae14c5016"
+      },
+      {
+        "id": "visual-not-performance",
+        "officialScores": [
+          10,
+          10,
+          29,
+          20,
+          10,
+          24
+        ],
+        "localScores": [
+          10,
+          10,
+          29,
+          20,
+          10,
+          24
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D222243332244222235332233222255332244222252332233222225332233",
+        "officialPageSHA256": "7c90d7abe42032bd1654d8f80e2fe3450e5d26d72ebb77c0fcf9b3052f3380dc"
+      },
+      {
+        "id": "story-and-media",
+        "officialScores": [
+          10,
+          10,
+          29,
+          16,
+          10,
+          10
+        ],
+        "localScores": [
+          10,
+          10,
+          29,
+          16,
+          10,
+          10
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D222253332222222234322222222255322222222252232222222225232222",
+        "officialPageSHA256": "21deb379cc623cccad5863bbbeee259f0d3b4034ca1c697fbc0c433f30d8b448"
+      },
+      {
+        "id": "hands-on-diagnostics",
+        "officialScores": [
+          32,
+          15,
+          4,
+          10,
+          10,
+          25
+        ],
+        "localScores": [
+          32,
+          15,
+          4,
+          10,
+          10,
+          25
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D552211222234513212222234533422222243552211222243532312222243",
+        "officialPageSHA256": "e226dddd45643a8083099db288df8a72d25fe0f68598e808e20fce18274690df"
+      },
+      {
+        "id": "data-without-sales",
+        "officialScores": [
+          10,
+          31,
+          10,
+          10,
+          0,
+          38
+        ],
+        "localScores": [
+          10,
+          31,
+          10,
+          10,
+          0,
+          38
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D214422221155214422221154314422221155425422221154314422221155",
+        "officialPageSHA256": "325fb192d897a1f25b540dc2fbdf712535fb38d50499a904bf80ac0e25050b47"
+      },
+      {
+        "id": "records-not-persuasion",
+        "officialScores": [
+          10,
+          20,
+          10,
+          10,
+          10,
+          38
+        ],
+        "localScores": [
+          10,
+          20,
+          10,
+          10,
+          10,
+          38
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D223322222255223322222245223322222255223322222245223322222255",
+        "officialPageSHA256": "59caea6ef6d4a3e99fafec59352ece931d570b01ad262fba3fba61dd79b308b6"
+      },
+      {
+        "id": "helping-not-clinical",
+        "officialScores": [
+          0,
+          10,
+          20,
+          37,
+          10,
+          20
+        ],
+        "localScores": [
+          0,
+          10,
+          20,
+          37,
+          10,
+          20
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D112233552233112233532233112233552233112233542233112233552233",
+        "officialPageSHA256": "242d710e0b9b65a8b25ebdb3c4c513a728e0c39ce54c26e5d46142e9387a8d13"
+      },
+      {
+        "id": "environment-and-evidence",
+        "officialScores": [
+          23,
+          35,
+          10,
+          10,
+          10,
+          20
+        ],
+        "localScores": [
+          23,
+          35,
+          10,
+          10,
+          10,
+          20
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D334522222233355522222233324422222233435522222233434422222233",
+        "officialPageSHA256": "e8a034e175e188521e54f680acf104b154979f5fc076e5274ff77996b73a33a4"
+      },
+      {
+        "id": "design-and-technology",
+        "officialScores": [
+          10,
+          31,
+          29,
+          10,
+          10,
+          31
+        ],
+        "localScores": [
+          10,
+          31,
+          29,
+          10,
+          10,
+          31
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D224443222244224435222254224455222244225452222244224425222244",
+        "officialPageSHA256": "df34f22491ba1f981875f06a68d013a4bdfd8fd5e58f2b84e092202871544832"
+      },
+      {
+        "id": "people-and-business",
+        "officialScores": [
+          0,
+          20,
+          20,
+          28,
+          38,
+          30
+        ],
+        "localScores": [
+          0,
+          20,
+          20,
+          28,
+          38,
+          30
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 116,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D113333445544113333434544113333445544113333445544113333344544",
+        "officialPageSHA256": "df6974a219d43c3f9d760a0d91056f8c618ef10b7fca31401081fb01d6c16b7f"
+      },
+      {
+        "id": "mostly-unfamiliar",
+        "officialScores": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "localScores": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "officialScoresAgree": true,
+        "correlationsIndependentlyChecked": 0,
+        "correlationErrors": [],
+        "officialSourceURL": "https://services.onetcenter.org/demo?url=mnm%2Finterestprofiler%2Fresults%3Fanswers%3D333333333333333333333333333333333333333333333333333333333333",
+        "officialPageSHA256": "8a6aa314d8733702062180e2284c40848abb77c2cbe551ebe9cd1e3603711c9f"
+      }
+    ],
+    "issues": []
+  },
+  "stories": [
+    {
+      "id": "care-and-diagnosis",
+      "name": "Biology volunteer",
+      "story": "Enjoys biology investigations and explaining things to people. Wants to observe patient care before committing to medicine.",
+      "fictional": true,
+      "rawScores": [
+        11,
+        31,
+        12,
+        32,
+        11,
+        26
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "health",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.9216198469876294,
+          "workPreferencesConfirmed": true
+        },
+        {
+          "id": "education",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.7469547743078638,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "physician",
+          "profileCorrelation": 0.8797271698535014,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 10
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "physician",
+      "plan": {
+        "career": "physician",
+        "salaryStage": "residency",
+        "annualGross": 69528
+      },
+      "issues": []
+    },
+    {
+      "id": "precision-and-dental-care",
+      "name": "Careful maker drawn to dentistry",
+      "story": "Likes careful handwork, human biology and reassuring patients. Dislikes sales and public performance. Wants to compare dentistry with dental hygiene.",
+      "fictional": true,
+      "rawScores": [
+        27,
+        32,
+        10,
+        21,
+        10,
+        28
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "health",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.9309604048260844,
+          "workPreferencesConfirmed": true
+        },
+        {
+          "id": "science",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.9055387024430567,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "dentist",
+          "profileCorrelation": 0.9117919250804961,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 10
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "dentist",
+      "plan": {
+        "career": "dentist",
+        "salaryStage": "entry",
+        "annualGross": 121174
+      },
+      "issues": []
+    },
+    {
+      "id": "visual-not-performance",
+      "name": "Visual designer, not a performer",
+      "story": "Loves posters, visual layouts, photographs and product sketches. Does not enjoy music, acting, creative writing or selling. An arts score must not erase that visual interest.",
+      "fictional": true,
+      "rawScores": [
+        10,
+        10,
+        29,
+        20,
+        10,
+        24
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "creative",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.7383590025525711,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "graphic-design",
+          "profileCorrelation": 0.6612040552004772,
+          "interestCategory": "Strong interest alignment",
+          "distinctTaskQuestions": 8
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "graphic-design",
+      "plan": {
+        "career": "graphic-design",
+        "salaryStage": "entry",
+        "annualGross": 46122
+      },
+      "issues": []
+    },
+    {
+      "id": "story-and-media",
+      "name": "School filmmaker",
+      "story": "Edits short films and experiments with pacing and images. Likes stories; has little interest in persuading customers or maintaining business records.",
+      "fictional": true,
+      "rawScores": [
+        10,
+        10,
+        29,
+        16,
+        10,
+        10
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "creative",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.7878520659495676,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "film-editing",
+          "profileCorrelation": 0.7141515034906283,
+          "interestCategory": "Strong interest alignment",
+          "distinctTaskQuestions": 8
+        },
+        {
+          "id": "animation",
+          "profileCorrelation": 0.8454418614119928,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 7
+        },
+        {
+          "id": "photographer",
+          "profileCorrelation": 0.42570380583360706,
+          "interestCategory": "Some interest overlap",
+          "distinctTaskQuestions": 7
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "film-editing",
+      "plan": {
+        "career": "film-editing",
+        "salaryStage": "entry",
+        "annualGross": 41608
+      },
+      "issues": []
+    },
+    {
+      "id": "hands-on-diagnostics",
+      "name": "Repair-club student",
+      "story": "Repairs objects and likes wiring, diagrams and diagnosing faults. Prefers learning by doing and wants to compare paid training with engineering.",
+      "fictional": true,
+      "rawScores": [
+        32,
+        15,
+        4,
+        10,
+        10,
+        25
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "trades",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.9704462794341245,
+          "workPreferencesConfirmed": true
+        },
+        {
+          "id": "transportation-production",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.9659870331731829,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "electrician",
+          "profileCorrelation": 0.9630511602321972,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 8
+        },
+        {
+          "id": "plumbing",
+          "profileCorrelation": 0.9511979829504282,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 3
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "electrician",
+      "plan": {
+        "career": "electrician",
+        "salaryStage": "apprenticeship",
+        "annualGross": 43825
+      },
+      "issues": []
+    },
+    {
+      "id": "data-without-sales",
+      "name": "Quiet data investigator",
+      "story": "Enjoys data, checking assumptions and debugging. Likes organized work but dislikes sales and leading an event. Quiet must not imply unsuitable for college.",
+      "fictional": true,
+      "rawScores": [
+        10,
+        31,
+        10,
+        10,
+        0,
+        38
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "technology",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.9261445088715486,
+          "workPreferencesConfirmed": true
+        },
+        {
+          "id": "science",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.68974687738264,
+          "workPreferencesConfirmed": true
+        },
+        {
+          "id": "business",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.6857580206144025,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "statistics",
+          "profileCorrelation": 0.9387082555486006,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 8
+        },
+        {
+          "id": "data-science",
+          "profileCorrelation": 0.9019864759874232,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 8
+        },
+        {
+          "id": "economics",
+          "profileCorrelation": 0.6349059588768745,
+          "interestCategory": "Strong interest alignment",
+          "distinctTaskQuestions": 7
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "data-science",
+      "plan": {
+        "career": "data-science",
+        "salaryStage": "entry",
+        "annualGross": 77556
+      },
+      "issues": []
+    },
+    {
+      "id": "records-not-persuasion",
+      "name": "Detail-oriented organizer",
+      "story": "Enjoys budgets, records, schedules and finding discrepancies. Does not enjoy persuasion, sales or leading teams.",
+      "fictional": true,
+      "rawScores": [
+        10,
+        20,
+        10,
+        10,
+        10,
+        38
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "sales-office",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.8040622114465843,
+          "workPreferencesConfirmed": true
+        },
+        {
+          "id": "business",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.860159414378606,
+          "workPreferencesConfirmed": true
+        },
+        {
+          "id": "transportation-production",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.6176178741945223,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "accounting",
+          "profileCorrelation": 0.8907624306017843,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 8
+        },
+        {
+          "id": "financial-analysis",
+          "profileCorrelation": 0.6586865748306961,
+          "interestCategory": "Strong interest alignment",
+          "distinctTaskQuestions": 8
+        },
+        {
+          "id": "bookkeeping-clerk",
+          "profileCorrelation": 0.9231088784512285,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 7
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "accounting",
+      "plan": {
+        "career": "accounting",
+        "salaryStage": "entry",
+        "annualGross": 61339
+      },
+      "issues": []
+    },
+    {
+      "id": "helping-not-clinical",
+      "name": "Tutor and listener",
+      "story": "Enjoys helping younger students learn, adapting explanations and listening. Does not want clinical procedures or repairing equipment.",
+      "fictional": true,
+      "rawScores": [
+        0,
+        10,
+        20,
+        37,
+        10,
+        20
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "education",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.9282181214167871,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "high-school-teacher",
+          "profileCorrelation": 0.9210076945566072,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 8
+        },
+        {
+          "id": "teaching",
+          "profileCorrelation": 0.9329653426923942,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 7
+        },
+        {
+          "id": "elementary-teacher",
+          "profileCorrelation": 0.9306813270013599,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 5
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "high-school-teacher",
+      "plan": {
+        "career": "high-school-teacher",
+        "salaryStage": "entry",
+        "annualGross": 58069
+      },
+      "issues": []
+    },
+    {
+      "id": "environment-and-evidence",
+      "name": "Creek-restoration volunteer",
+      "story": "Enjoys water quality, habitats, field observations and evidence. Does not enjoy selling products or providing personal care.",
+      "fictional": true,
+      "rawScores": [
+        23,
+        35,
+        10,
+        10,
+        10,
+        20
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "science",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.9754191417450109,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "environmental-science",
+          "profileCorrelation": 0.9876432338496212,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 8
+        },
+        {
+          "id": "geoscience",
+          "profileCorrelation": 0.9723069745098392,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 8
+        },
+        {
+          "id": "conservation",
+          "profileCorrelation": 0.9286425523152938,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 8
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "environmental-science",
+      "plan": {
+        "career": "environmental-science",
+        "salaryStage": "entry",
+        "annualGross": 67262
+      },
+      "issues": []
+    },
+    {
+      "id": "design-and-technology",
+      "name": "Art-and-coding student",
+      "story": "Enjoys both visual design and making digital tools usable. Wants to compare design with computing, not be forced into only one.",
+      "fictional": true,
+      "rawScores": [
+        10,
+        31,
+        29,
+        10,
+        10,
+        31
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "creative",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.7937211126368385,
+          "workPreferencesConfirmed": true
+        },
+        {
+          "id": "technology",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.7861908899849128,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "web-interface-design",
+          "profileCorrelation": 0.9548347448935146,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 7
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "web-interface-design",
+      "plan": {
+        "career": "web-interface-design",
+        "salaryStage": "entry",
+        "annualGross": 72671
+      },
+      "issues": []
+    },
+    {
+      "id": "people-and-business",
+      "name": "School-event organizer",
+      "story": "Enjoys coordinating people, finding audience needs and presenting a case. Interested in business and communication, not only making visual art.",
+      "fictional": true,
+      "rawScores": [
+        0,
+        20,
+        20,
+        28,
+        38,
+        30
+      ],
+      "flat": false,
+      "nearFlat": false,
+      "pathways": [
+        {
+          "id": "business",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.8926102621549399,
+          "workPreferencesConfirmed": true
+        },
+        {
+          "id": "sales-office",
+          "supported": true,
+          "meanTopThreeCorrelation": 0.7626710984664123,
+          "workPreferencesConfirmed": true
+        }
+      ],
+      "professions": [
+        {
+          "id": "marketing-manager",
+          "profileCorrelation": 0.8820304128389258,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 7
+        },
+        {
+          "id": "market-research",
+          "profileCorrelation": 0.8003065828976706,
+          "interestCategory": "Very strong interest alignment",
+          "distinctTaskQuestions": 6
+        }
+      ],
+      "status": "suggestions",
+      "chosen": "market-research",
+      "plan": {
+        "career": "market-research",
+        "salaryStage": "entry",
+        "annualGross": 51496
+      },
+      "issues": []
+    },
+    {
+      "id": "mostly-unfamiliar",
+      "name": "Student with little exposure",
+      "story": "Has not tried most work-like activities. Mild curiosity about helping a classmate and making a visual idea. Needs experiences, not a career verdict.",
+      "fictional": true,
+      "rawScores": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "flat": true,
+      "nearFlat": false,
+      "pathways": [],
+      "professions": [],
+      "status": "open-profile",
+      "chosen": null,
+      "plan": null,
+      "issues": []
+    }
+  ],
+  "issues": [],
+  "sourceHashes": {
+    "dist/onet-assessment.js": "f9f131387d65a0e22c53d09c7d42a58aa780a3f0502527dee21ed4fa21bc7c6e",
+    "dist/profile-journey.js": "58a6a83c9134363c46124701d2c736a36a5d18647b6dd00d87606df164942f90",
+    "dist/profile-journey-ui.js": "fc1fe89cde93eae1a08c1b34ae3f72182691266751e02df29e75ea9a1fee2beb",
+    "dist/occupation-essentials.js": "4ca19e5ba15a3577687250dad42a94d93cd86b0262e9625f0a2a9c6fb83d2305",
+    "dist/fictional-interest-profiles.js": "3b5c25ba6968d3233c111eefcc757984b0644d3c2287c9c1b379c599cea73d16",
+    "data-sources/onet-short-form-60-official.json": "a1776ba36bd308afc808296814110692a092b5a0d01a524b39f160713e5fdd43"
+  }
+}

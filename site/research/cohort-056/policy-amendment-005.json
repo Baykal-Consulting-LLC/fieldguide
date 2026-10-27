@@ -1,0 +1,52 @@
+{
+  "version": 5,
+  "at": "2026-10-20T15:56:56.379Z",
+  "reason": "Correct an actual replay bug: profession-specific Yes/No questions were misclassified as activity checkboxes because their options contain career IDs. Dispatch by question kind first. Replace the arbitrary three-comparison cap with uniform coverage of all mapped subject-aligned professions. Shared activity questions are answered once. No changes to profiles, answer bindings, numeric scoring, Top support gates, or education/salary ranking.",
+  "profileSHA256": "c57b0f4f6b3c894cec8cd4343a27859152dee241477018ba4029565a7f94bc2c",
+  "policyHashes": {
+    "calibration/cohort-056/spec.mjs": "10740b3da853f20f7dac8bf9ca2892c4b5995bd77e1c2a8fb785cca0284d7847",
+    "calibration/cohort-056/response-policy.mjs": "032ff1306f9f1edfa0726e1de7d2206ae5a950e874cb0d1da046f871c9d89d56",
+    "scripts/generate-cohort-056.mjs": "496c1959de7b6f1518aa5d971e079660e8cba056597b485ec0c7d796d93f40dc",
+    "research/cohort-056/protocol.json": "470f4baf02a244a0c3eea75d9dcf8f7cd7d0ca0db152c97dc027fbe177b031f5"
+  },
+  "runtimeHashes": {
+    "dist/open-explorer-056.js": "a4c3e00881042fdd1cb54acede51882d29fe9b983c2c86998cfec7c972061900",
+    "dist/exploration-056-data.js": "2f569a7e2d36f6f1e114e99917d2b0a7bbf2df71e65132a08c5a52c44f04e039",
+    "scripts/rerun-cohort-056.mjs": "066ea0b71b6a30ad66624f5338d9cea481a7373961fca5e55201f28f65dbd4df"
+  },
+  "bindingHashes": {
+    "calibration/cohort-056/constructs.mjs": "e77c3ce705195e1f2d2b2fc706e725d57aed332aaaf97f006238d693a19943b6",
+    "calibration/cohort-056/question-bindings.json": "5ee0c84e440a0f14378a75139b2654206ffe47bb8dc631f6ec1c34f33e824049",
+    "calibration/cohort-056/discovery-links.mjs": "bfaad24bb4f0113770e2903305ae87d06b1ccbb8629344185e978c56d106c74f",
+    "research/cohort-056/activity-inputs-003.json": "ea8b8805d7457b631700f9c19dcf7e4bbb9e13ae33955d67dc63b00d168ea159",
+    "scripts/prepare-construct-bindings-056.mjs": "495929bfc4ae1691d8cd1b4a39718f919c4a985822c878d61623fe79bd32b550",
+    "scripts/prepare-exploration-056.mjs": "29ec3514b48205075c2a447eb6c08a8216aa4dab79e7f76167bf3dd825be944f",
+    "dist/task-evidence-domains.js": "2e5e8fa71fe4f766992bb01003d0ac9364c53d6333e9f9b27b9980049b092d26",
+    "calibration/cohort-056/replay-policy.mjs": "fdf16b2157ea5b26e0f344d3523f77270f6b2cff3cb64a45d1853bf22a9ef25e"
+  },
+  "limitations": [
+    "Bindings are authored test assumptions, not learned weights or independent validation.",
+    "Unmapped or unstated specialist preferences remain unfamiliar; unknown official 60-item responses use neutral 3 and are explicitly marked as simulation conventions. Positive official responses use Like (4), negative responses Dislike (2), with no invented intensity.",
+    "Option answers are simulated only when every linked career has an authored binding and its shared constructs are known.",
+    "Original 172 profiles retain their existing structured answers and provenance; original data is not rewritten.",
+    "200 additional holdouts were assigned before outcome runs and receive no case-specific edits. Earlier aggregate results have been seen, so this is not an untouched final validation set. Original 30 and fresh 12 holdouts remain separately identified.",
+    "Historical failed policies are preserved in research only; no historical word classifier is imported in the release pipeline."
+  ],
+  "coverage": {
+    "mappedCareers": 214,
+    "accessibleCareers": 457,
+    "mappedSpecificQuestions": 533,
+    "mappedOptions": 333
+  },
+  "priorSourceCommit": "29e7cd2cd5b33dfa335ff33625e96226ce3ad639",
+  "developmentDiagnostic": {
+    "beforeTop": 107,
+    "beforeDegree": 107,
+    "n": 628,
+    "correctedFullKnownExposureTop": 456,
+    "correctedFullKnownExposureDegree": 408,
+    "scope": "Development-only diagnostic before this policy freeze; not a released result. Holdout cases not inspected or customized.",
+    "degreeMetricNote": "The diagnostic degree count includes any supported degree career. The chart retains the first-three Top cap and separately reports supported degree options outside that cap."
+  },
+  "exposureProtocol": "All mapped careers whose required subject constructs are explicitly positive receive their available questions; no salary, degree, match quota or successful-outcome stopping. This is comprehensive questionnaire coverage, not typical student behavior."
+}

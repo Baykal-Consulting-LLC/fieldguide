@@ -1,0 +1,512 @@
+{
+  "version": 1,
+  "policy": "Research only; exact choice-ID semantic corrections. Preserve raw transcripts, profiles, Yes/No/Unsure/holds, ranking, three-Top cap, earnings, routes and live matcher. Withdraw inferred support whose required evidence disappears; report losses honestly. No invented preferences. New six authored diagnostic items use exact structured evidence only; otherwise unknown. Up to four targeted items, first pair then continuation only if interested. New Grok holdout independently authored without rules/catalog/outcomes; no outcome-based acceptance or retuning. Same frozen policy in every split.",
+  "baselineRunId": "835f3e9eeb139692035e7672805c414bf104f557fb5983856e6928d9b0fc7a87",
+  "files": {
+    "scripts/benchmark-evidence-075.mjs": "6d1f07e12c4fc1223abadbff55ad2cc841d46c509a527beebcdf7010392b812b",
+    "prototypes/evidence-075/engine.mjs": "f849e2f0f48034ce63254e4bf969e409a5ea70328a3c53ce9e233a8260875593",
+    "research/evidence-075/replay-base.mjs": "64f52f7da5068eb7d788ac9a8d3bcc5f101a4bd5ccc6eeb7e5e11dde6f761547",
+    "research/evidence-075/grok-adapter.mjs": "abf0c451e44b741e9ee813f8d6e026bfe44d90ca5d1172596c49b376d8792597",
+    "research/evidence-073/results.json.gz": "fe13179b18a03a0f8831a2032d1fa603e89403fb2d80c128b544dae10ef33c0a",
+    "research/evidence-071/results.json.gz": "a2b6ad519f66a3747c29d76ef2fcc99d323e620618c7a2d943d108f586558bf6",
+    "research/evidence-069/results.json.gz": "2894e8dbe31099785ce8469e97d23bac7b20a2dc743b5664aec41863c978499d",
+    "calibration/cohort-056/profiles.json": "c57b0f4f6b3c894cec8cd4343a27859152dee241477018ba4029565a7f94bc2c",
+    "calibration/cohort-056/question-bindings.json": "4f5d2f7cc475e45930b4954eaef5feacbe3ec6be32837cf2c759345a405dcf20",
+    "dist/open-explorer.js": "285eb07d656ddc95e7cf616121cc65d133490ccde90d65579983996f234cd84b",
+    "dist/open-explorer-056.js": "62b7f63607c9334c350a30d1747a7333adf03f853cb6707f5ddb7e810650554b",
+    "dist/explorer-053-state.js": "ff70d62a66664c0e20eb151864b4a678d7d36202a2ef47b430640d0772a3c463",
+    "dist/explorer-053-budget.js": "418ed8b8ef93336b540dd17cdc8282227f6dd57f617e41f69480e5b3ae21e3fc",
+    "dist/education-routes.js": "4322f1b90ed0c77d9d278b9b40dc6dbbbef01fa55a9eac217cbea882fcdf6427"
+  },
+  "corrections": [
+    {
+      "optionId": "business-problem-3",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-evidence-2",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-people-1",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-people-5",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-refine-1-2",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-refine-1-4",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-refine-2-2",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-refine-2-4",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-refine-3-2",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-refine-3-4",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-refine-4-2",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "business-refine-4-4",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "technology-result-2",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "Understanding people, planning, persuasion or an unspecified analysis does not establish numerical analysis. Retain the original substantive interests."
+    },
+    {
+      "optionId": "building-design-4",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "A structure, movement pattern or physical model is not itself a stated preference for calculations; explicit calculation choices remain available."
+    },
+    {
+      "optionId": "building-impact-3",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "A structure, movement pattern or physical model is not itself a stated preference for calculations; explicit calculation choices remain available."
+    },
+    {
+      "optionId": "building-refine-1-2",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "A structure, movement pattern or physical model is not itself a stated preference for calculations; explicit calculation choices remain available."
+    },
+    {
+      "optionId": "building-refine-3-2",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "A structure, movement pattern or physical model is not itself a stated preference for calculations; explicit calculation choices remain available."
+    },
+    {
+      "optionId": "building-refine-4-2",
+      "remove": [
+        "m:quantitative"
+      ],
+      "reason": "A structure, movement pattern or physical model is not itself a stated preference for calculations; explicit calculation choices remain available."
+    },
+    {
+      "optionId": "transportation-production-problem-3",
+      "remove": [
+        "m:quantitative",
+        "m:testing"
+      ],
+      "reason": "A goal of smoother production does not establish numerical measurement or controlled testing. The explicit measure-and-improve option is retained."
+    },
+    {
+      "optionId": "transportation-production-refine-1-3",
+      "remove": [
+        "m:quantitative",
+        "m:testing"
+      ],
+      "reason": "A goal of smoother production does not establish numerical measurement or controlled testing. The explicit measure-and-improve option is retained."
+    },
+    {
+      "optionId": "transportation-production-refine-2-3",
+      "remove": [
+        "m:quantitative",
+        "m:testing"
+      ],
+      "reason": "A goal of smoother production does not establish numerical measurement or controlled testing. The explicit measure-and-improve option is retained."
+    },
+    {
+      "optionId": "transportation-production-refine-3-3",
+      "remove": [
+        "m:quantitative",
+        "m:testing"
+      ],
+      "reason": "A goal of smoother production does not establish numerical measurement or controlled testing. The explicit measure-and-improve option is retained."
+    },
+    {
+      "optionId": "creative-workday-2",
+      "remove": [
+        "t:media"
+      ],
+      "reason": "A disjunction of images, movement, light or sound does not establish filmed-media interest specifically."
+    },
+    {
+      "optionId": "creative-refine-3-4",
+      "remove": [
+        "t:media"
+      ],
+      "reason": "A disjunction of images, movement, light or sound does not establish filmed-media interest specifically."
+    },
+    {
+      "optionId": "creative-make-2",
+      "remove": [
+        "t:mechanics"
+      ],
+      "reason": "Useful-object and product design need not concern a moving mechanical system. Physical-product/design evidence remains."
+    },
+    {
+      "optionId": "creative-revise-2",
+      "remove": [
+        "t:mechanics"
+      ],
+      "reason": "Useful-object and product design need not concern a moving mechanical system. Physical-product/design evidence remains."
+    },
+    {
+      "optionId": "creative-refine-1-3",
+      "remove": [
+        "t:mechanics"
+      ],
+      "reason": "Useful-object and product design need not concern a moving mechanical system. Physical-product/design evidence remains."
+    },
+    {
+      "optionId": "creative-refine-2-3",
+      "remove": [
+        "t:mechanics"
+      ],
+      "reason": "Useful-object and product design need not concern a moving mechanical system. Physical-product/design evidence remains."
+    },
+    {
+      "optionId": "creative-refine-3-2",
+      "remove": [
+        "t:mechanics"
+      ],
+      "reason": "Useful-object and product design need not concern a moving mechanical system. Physical-product/design evidence remains."
+    },
+    {
+      "optionId": "creative-refine-4-3",
+      "remove": [
+        "t:mechanics"
+      ],
+      "reason": "Useful-object and product design need not concern a moving mechanical system. Physical-product/design evidence remains."
+    },
+    {
+      "optionId": "technology-workday-1",
+      "remove": [
+        "f:code-test"
+      ],
+      "reason": "Testing small digital changes does not specify writing or tracing code. Explicit code/debug choices remain."
+    },
+    {
+      "optionId": "building-design-1",
+      "remove": [
+        "f:physical-prototype"
+      ],
+      "reason": "Interest in machines and moving parts does not itself report making or testing a prototype."
+    },
+    {
+      "optionId": "science-workday-1",
+      "remove": [
+        "f:lab-procedure"
+      ],
+      "reason": "Repeating a procedure and keeping records does not specify a laboratory, sample preparation or controlled biological experiment."
+    }
+  ],
+  "questions": [
+    {
+      "id": "followup075-workflow-delays",
+      "key": "workflow-delays",
+      "careerId": "management-analyst",
+      "targetQuestionId": "management-analyst-interest-044-1",
+      "prompt": "An event has recurring delays. How appealing would it be to compare waiting times and staffing notes across several events to find where the delays begin?",
+      "feature": "f:workflow-delay-measures075",
+      "pair": "first",
+      "after": null,
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:workflow-delay-measures075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    },
+    {
+      "id": "followup075-workflow-revision",
+      "key": "workflow-revision",
+      "careerId": "management-analyst",
+      "targetQuestionId": "management-analyst-interest-044-2",
+      "prompt": "How appealing would it be to test a different arrangement with the team, track the results, and revise your recommendation if it did not help?",
+      "feature": "f:workflow-change-trial075",
+      "pair": "second",
+      "after": "followup075-workflow-delays",
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:workflow-change-trial075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    },
+    {
+      "id": "followup075-data-validation",
+      "key": "data-validation",
+      "careerId": "degree-43911100",
+      "targetQuestionId": "degree-43911100-047-domain",
+      "prompt": "An attendance chart suggests an activity is becoming more popular. How appealing would it be to check missing counts and changed recording methods before deciding what the pattern means?",
+      "feature": "f:data-definition-check075",
+      "pair": "first",
+      "after": null,
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:data-definition-check075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    },
+    {
+      "id": "followup075-data-preparation",
+      "key": "data-preparation",
+      "careerId": "degree-43911100",
+      "targetQuestionId": "degree-43911100-047-method",
+      "prompt": "How appealing would it be to regularly prepare the attendance records, run a specified calculation, and check the tables so the group can rely on the results?",
+      "feature": "f:statistical-preparation075",
+      "pair": "second",
+      "after": "followup075-data-validation",
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:statistical-preparation075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    },
+    {
+      "id": "followup075-plant-comparison",
+      "key": "plant-comparison",
+      "careerId": "biological-technician",
+      "targetQuestionId": "biological-technician-interest-044-1",
+      "prompt": "How appealing would it be to compare two ways of growing plant cuttings, keep other conditions similar, and record measurements for several weeks even if no clear pattern appears?",
+      "feature": "f:controlled-plant-comparison075",
+      "pair": "first",
+      "after": null,
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:controlled-plant-comparison075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    },
+    {
+      "id": "followup075-plant-samples",
+      "key": "plant-samples",
+      "careerId": "biological-technician",
+      "targetQuestionId": "biological-technician-interest-044-2",
+      "prompt": "How appealing would it be to prepare, label and measure plant or soil samples using a written procedure, then check the records for a research team?",
+      "feature": "f:plant-sample-procedure075",
+      "pair": "second",
+      "after": "followup075-plant-comparison",
+      "kind": "scoped-interest",
+      "choices": [
+        {
+          "value": 5,
+          "text": "Very interested"
+        },
+        {
+          "value": 4,
+          "text": "Interested"
+        },
+        {
+          "value": 3,
+          "text": "Neither interested nor uninterested"
+        },
+        {
+          "value": 2,
+          "text": "Uninterested"
+        },
+        {
+          "value": 1,
+          "text": "Very uninterested"
+        },
+        {
+          "value": 0,
+          "text": "Not sure / would need a preview"
+        }
+      ],
+      "simulation": {
+        "requiresExactFeature": "f:plant-sample-procedure075",
+        "missing": "unknown"
+      },
+      "status": "Authored diagnostic draft grounded in reviewed occupational tasks; not an independently validated scale item."
+    }
+  ]
+}

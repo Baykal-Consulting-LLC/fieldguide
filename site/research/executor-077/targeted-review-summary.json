@@ -1,0 +1,92 @@
+{
+  "reviewType": "Selected qualitative review by Codex; not independent human or student validation",
+  "scope": "All five newly accepted Instructional Coordinator claims in the targeted-round replay",
+  "policy": "Preserve the raw Grok responses and raw matcher outputs. Annotate overreach separately; do not tune profiles, responses, or live rules to improve counts. The screened sensitivity is limited to these observed claims and is not an exhaustive fit validation.",
+  "summary": {
+    "all": {
+      "models": 1000,
+      "rawTop": 844,
+      "screenedTop": 842,
+      "rawDegree": 718,
+      "screenedDegree": 716,
+      "heldClaims": 4
+    },
+    "development": {
+      "models": 758,
+      "rawTop": 638,
+      "screenedTop": 636,
+      "rawDegree": 539,
+      "screenedDegree": 537,
+      "heldClaims": 4
+    },
+    "holdout": {
+      "models": 30,
+      "rawTop": 27,
+      "screenedTop": 27,
+      "rawDegree": 22,
+      "screenedDegree": 22,
+      "heldClaims": 0
+    },
+    "holdout049": {
+      "models": 12,
+      "rawTop": 9,
+      "screenedTop": 9,
+      "rawDegree": 9,
+      "screenedDegree": 9,
+      "heldClaims": 0
+    },
+    "holdout056": {
+      "models": 200,
+      "rawTop": 170,
+      "screenedTop": 170,
+      "rawDegree": 148,
+      "screenedDegree": 148,
+      "heldClaims": 0
+    },
+    "grok075": {
+      "models": 1000,
+      "rawTop": 759,
+      "screenedTop": 758,
+      "rawDegree": 627,
+      "screenedDegree": 626,
+      "heldClaims": 1
+    }
+  },
+  "holds": [
+    {
+      "modelId": "scale056-0248",
+      "careerId": "degree-25903100",
+      "questionId": "followup076-education-coaching",
+      "verdict": "Needs direct confirmation",
+      "reason": "Teen explanations, learning-guide revision, coordination and organizational accountability are present. Interest in coaching educators or managing curriculum changes with teachers is not stated."
+    },
+    {
+      "modelId": "scale056-0746",
+      "careerId": "degree-25903100",
+      "questionId": "followup076-education-coaching",
+      "verdict": "Needs direct confirmation",
+      "reason": "Adult workshops and revised learning guides support working with learners. They do not establish a preference for coaching educators rather than direct instruction."
+    },
+    {
+      "modelId": "scale056-0750",
+      "careerId": "degree-25903100",
+      "questionId": "followup076-education-coaching",
+      "verdict": "Needs direct confirmation",
+      "reason": "The profile explicitly enjoys helping children, teenagers and adult learners and revising learning guides. No educator-coaching preference is supplied; this new Yes creates the sole raw Top."
+    },
+    {
+      "modelId": "scale056-0758",
+      "careerId": "degree-25903100",
+      "questionId": "followup076-education-coaching",
+      "verdict": "Needs direct confirmation",
+      "reason": "Learner explanations, learning-guide revision, research and team leadership do not establish a wish to coach educators. The sole new Top requires an unstated audience and responsibility."
+    },
+    {
+      "modelId": "grok075-0948",
+      "careerId": "degree-25903100",
+      "questionId": "followup076-education-coaching",
+      "verdict": "Needs direct confirmation",
+      "reason": "Tess adapts dance warmups and explanations for teammates. Her profile explicitly leaves future training uncertain and supplies no interest in coaching educators or coordinating curriculum changes. This new Yes creates the sole raw Top."
+    }
+  ]
+}

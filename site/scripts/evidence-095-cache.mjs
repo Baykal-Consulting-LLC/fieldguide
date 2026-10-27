@@ -1,0 +1,2 @@
+import fs from'node:fs';import{createHash}from'node:crypto';import{signature094}from'./evidence-094-cache.mjs';
+export function signature095(){const h=createHash('sha256').update(signature094());for(const p of['scripts/rerun-evidence-095.mjs','prototypes/evidence-095/targeting.mjs','prototypes/evidence-095/fast-rows.mjs','research/evidence-094/results.json.gz'])h.update(fs.readFileSync(p));return h.digest('hex');}

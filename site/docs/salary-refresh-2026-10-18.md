@@ -1,0 +1,43 @@
+# Salary source and presentation refresh
+
+Release: October 18, 2026. Scope: the salary progression and salary panel modules, plus salary regression checks. Career coverage, geographic wage inputs, TWC experienced anchors, milestone keys, rounding thresholds and lifestyle links remain intact.
+
+## Published source checks
+
+| Example | Verified source and scope | Result |
+|---|---|---|
+| Austin ISD teachers | [2026–27 compensation page](https://www.austinisd.org/hc/careers/compensation) and its [linked compensation manual](https://docs.google.com/document/d/1zEQ3aEXDNrm28i8w_Vt-mkq9BEQJIGHVtE_dmi13lDc/edit). The public document text export was retrieved on October 18. | Existing certified/new-hire amounts agree: 0–2 credited years $58,069; 5 $59,772; 10 $63,944; 20 $68,844; 187-day base salary. The separate uncertified zero-year row is $57,969 and is not used. Placement is an employer example; incumbent PPfT/incentives and future raises are separate. Amounts unchanged. |
+| Austin Police | [Recruiting pay page](https://www.austintexas.gov/police-recruiting/pay-benefits), Regular Academy, salary range for 160th applicants; base pay excludes overtime/incentives. Checked October 18; salary effective date not stated. | Existing amounts agree: academy annual rate $67,000; graduation $78,627; two-year anniversary $106,344; ten $121,754; sixteen $139,396. The five-/twenty-year planning cards retain the two-/sixteen-year source steps, now visibly labeled as carried steps. These are not exact-year observations. |
+| Austin Fire | [Official cadet overview](https://www.austintexas.gov/fire/fire-cadet-employment), checked October 18; salary effective date not stated. | Current public text says $22.55/hour / $46,904 annual cadet pay and $67,999 probationary pay after successful completion of the approximately six-month academy. Entry changed from the saved $66,019 example to $67,999. The prior runtime cited an October 17 review; the undated page cannot establish when the source changed. |
+| Austin ETA | [Program wage table](https://austineta.org/apprentice-program-2/), effective January 5, 2026, Inside CBA 2025–28. Checked October 18. | First-period $21.07/hour / published annual $43,825; journeyman $38.30/hour / $79,664. Annual examples assume forty hours/week; advancement depends on performance. Four-year/8,000-hour training is not six years merely because six pay periods are displayed. Retained amounts unchanged. |
+| Dell residency | [Salary and benefits](https://dellmed.utexas.edu/education/academics/graduate-medical-education/resources/salary-and-benefits), updated September 16, 2026, checked October 18. | Current academic year 2026–27 PGY-1/2/3 is $69,528/$71,747/$74,652; retained amounts agree. Separately published 2027–28 amounts are not substituted. These are postgraduate training stages, not independently qualified practice years. |
+
+## Calculation and evidence changes
+
+Austin Fire's actual published entry now supplies the minimum for all later Fire scenarios. Its TWC 2025 experienced anchor remains **$67,726** in the original source data. Because that anchor is below the refreshed employer entry, the four amounts are **$67,999 / $67,999 / $67,999 / $67,999**, rather than inventing increases. All display as **$70K** under the existing presentation rule; lifestyle calculations continue to use the exact amount. Academy pay remains a separate $46,904 stage.
+
+Generic five-/ten-/twenty-year amounts retain their explicit 45%/75%/100% gap assumptions and source-year inputs. They are planning estimates, not observed wages at exact years or guaranteed raises. TWC defines entry as the mean of the lowest-paid third and experienced as the mean of the upper-paid two-thirds; those are cross-sectional groups, not experience bands. The panel now links directly to the [TWC definitions](https://texaswages.com/Home/About).
+
+Police carried steps now have `evidence: 'employer_step_carried'`, `estimate: true`, `sourceYears` and a brief `sourceLabel`. Other exact current employer-placement examples retain their source classification. Every stage carries its geography, source/reference period and dollar year; published employer stages add the review date and URL. Fire's later-stage reference explicitly distinguishes the 2025 occupational wage input from the 2026 published entry floor.
+
+Training objects and preview stages include review/reference metadata. Source dates are review dates where an effective date is unavailable; no effective date is inferred from the access date. There are no new exports or route/state keys.
+
+## Student presentation
+
+The existing entry headline, entry/5/10/20 cards, requested rounding and “See the lifestyle” routes remain. Generic later cards say **Planning estimate**. Police five-/twenty-year cards say **2-year step carried forward** / **16-year step carried forward**. One short sentence explains the comparison, while formula, occupation definitions, placement scope, source dates and provenance stay under **More info · salary sources**.
+
+The AISD wording identifies new-hire placement and the certified 0–2 row. Fire details identify the source-year mixture and the entry floor. A flat rounded series is allowed. Paid academy, apprenticeship and residency remain separate from qualified entry.
+
+## Verification and integration
+
+Both edited modules pass `node --check`. All **48** tests passed in:
+
+```sh
+node --test tests/salary-progression.test.js tests/upgrade-guidance.test.js tests/catalog-expansion.test.js tests/guide.test.js
+```
+
+Checks cover all 117 careers, complete nondecreasing milestones, bounds and exact calculation inputs, teacher placement, Fire source/floor separation, police carried-step provenance and visible labels, training reference metadata, rounding, lifestyle route keys, plans and retained data.
+
+Changed files: `dist/salary-progression.js`, `dist/salary-ui.js`, `tests/salary-progression.test.js`, the Fire salary assertion in `tests/upgrade-guidance.test.js`, and this note. No financial source JSON, education files, package files or generated bundles were edited.
+
+Root integration should rebuild the student bundle and generated developer/research snapshots using the normal project process, regenerate salary/calibration outputs that serialize runtime amounts, run the full suite, and visually verify the refreshed card in the final built application. The older `docs/salary-progression.md` and October 17 evidence note retain the prior Fire value as history; this refresh supersedes it for the current runtime. Visual verification and full integration builds were outside this delegated file scope.

@@ -1,0 +1,2847 @@
+[
+  {
+    "modelId": "life-069",
+    "name": "Evan Rourke",
+    "cohort": "all",
+    "careerId": "film-editing",
+    "career": "Film and Video Editors",
+    "frequency": {
+      "before": 55,
+      "after": 107,
+      "delta": 52
+    },
+    "beforeTop": [
+      "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "Special Effects Artists and Animators",
+      "Photographers"
+    ],
+    "afterTop": [
+      "Special Effects Artists and Animators",
+      "Film and Video Editors"
+    ],
+    "beforeSupported": true,
+    "afterSupported": true,
+    "profile": {
+      "id": "life-069",
+      "name": "Evan Rourke",
+      "age": 16,
+      "pronouns": "he/him",
+      "background": {
+        "family": "Lives with two parents and a younger sister; family weekends often include grandparents and elaborate board games.",
+        "finances": "Affluent household with tutoring and equipment available, although parents expect him to explain expensive requests.",
+        "geography": "Frisco, Texas, in a car-dependent subdivision.",
+        "cultureLanguages": "English-speaking household with Irish American family traditions that matter more to his grandparents than to him.",
+        "school": "Public high school; diagnosed dyslexia is supported through accessible texts, extra reading time, and explicit literacy instruction.",
+        "accessOpportunities": "Can attend Collin College workshops and university open houses across North Texas; family transport and internet are dependable."
+      },
+      "timeline": [
+        {
+          "ages": "4–5",
+          "story": "Evan narrated complicated rescue stories for toy animals and remembered entire picture books. His parents initially mistook memorized pages for reading and were surprised when unfamiliar words stopped him."
+        },
+        {
+          "ages": "6–7",
+          "story": "Reading instruction became exhausting, while measuring ingredients with his father felt straightforward. A dyslexia evaluation led to specialized instruction; he worried that leaving class meant everyone thought he was incapable."
+        },
+        {
+          "ages": "8–9",
+          "story": "Audiobooks let him discuss long novels with his sister. He assembled a marble course over several weekends, recording slow-motion failures, but refused to enter a spelling competition his friends enjoyed."
+        },
+        {
+          "ages": "10–11",
+          "story": "He made a stop-motion film with neighborhood children. Editing thrilled him; negotiating who could touch the camera did not. A library instructor noticed that he could explain why one cut made a joke work."
+        },
+        {
+          "ages": "12–13",
+          "story": "He joined robotics expecting constant building and discovered lengthy documentation. Speech-to-text helped, but he still felt conspicuous using it. He left after one season and took up swimming with a cousin."
+        },
+        {
+          "ages": "14–15",
+          "story": "A history teacher accepted a carefully sourced audio documentary alongside written notes. Evan spent days revising its sequence. He also began cooking full meals, though he abandoned several ambitious recipes when cleanup accumulated."
+        },
+        {
+          "ages": "16",
+          "story": "He films swim meets and is trying robotics again with a smaller team that shares documentation duties. His grades are solid, yet he describes himself as behind whenever classmates finish reading first; unfamiliar practical work sometimes restores his confidence."
+        }
+      ],
+      "currentLife": {
+        "enjoys": [
+          "Audio storytelling",
+          "Troubleshooting physical mechanisms",
+          "Cooking for a small group"
+        ],
+        "avoids": [
+          "Reading aloud without preparation",
+          "Competitive spelling"
+        ],
+        "activities": [
+          "Swim team video volunteer",
+          "Small robotics team",
+          "Weekly literacy support"
+        ],
+        "demonstratedSkills": [
+          "Film sequencing",
+          "Spatial assembly",
+          "Using evidence in spoken explanations"
+        ],
+        "unfamiliarActivities": [
+          "Paid customer work",
+          "Long independent research projects",
+          "Outdoor camping"
+        ],
+        "motivations": [
+          "Making an audience understand something",
+          "Being trusted with real responsibilities"
+        ],
+        "ambitions": [
+          "Finish a longer documentary",
+          "Try a workshop without a friend accompanying him",
+          "He imagines adult independence with a place to edit films, cook for friends, and use reading tools without embarrassment."
+        ],
+        "struggles": [
+          "Slow decoding remains tiring",
+          "Compares reading speed with overall competence"
+        ],
+        "supports": [
+          "Literacy specialist",
+          "Parents",
+          "Teacher who plans accessible assignments"
+        ],
+        "practicalConstraints": [
+          "Needs accessible reading formats",
+          "Practices compete with project time"
+        ]
+      },
+      "selfDescription": "I can see how a scene should fit together before I can explain it on paper. People say I have lots of options, but sometimes options sound like more chances to find out what I cannot do.",
+      "openQuestions": [
+        "How much did documentation versus team size influence leaving robotics?",
+        "Will confidence improve when access tools feel ordinary?"
+      ],
+      "variationTags": [
+        "fictional dyslexia diagnosis",
+        "affluent suburb",
+        "accessible literacy",
+        "media and mechanisms",
+        "low confidence with demonstrated competence"
+      ]
+    },
+    "questions": [
+      {
+        "index": 60,
+        "id": "creative-make",
+        "type": "multi",
+        "prompt": "What would you enjoy creating?",
+        "options": [
+          {
+            "id": "creative-make-1",
+            "text": "A visual message that helps people understand an idea"
+          },
+          {
+            "id": "creative-make-2",
+            "text": "A useful object people can hold and use"
+          },
+          {
+            "id": "creative-make-3",
+            "text": "A story through words, photographs or moving images"
+          },
+          {
+            "id": "creative-make-4",
+            "text": "A way for people to connect with information or culture"
+          },
+          {
+            "id": "creative-make-5",
+            "text": "A personal design for someone’s body art"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 15
+      },
+      {
+        "index": 61,
+        "id": "creative-people",
+        "type": "multi",
+        "prompt": "Who would you enjoy creating with or for?",
+        "options": [
+          {
+            "id": "creative-people-1",
+            "text": "Clients who need a clear visual identity"
+          },
+          {
+            "id": "creative-people-2",
+            "text": "A team making a product or digital experience"
+          },
+          {
+            "id": "creative-people-3",
+            "text": "People sharing a story, language or point of view"
+          },
+          {
+            "id": "creative-people-4",
+            "text": "A community finding information and learning together"
+          },
+          {
+            "id": "creative-people-5",
+            "text": "A person choosing a lasting design that feels like them"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 14
+      },
+      {
+        "index": 62,
+        "id": "creative-refine-3",
+        "type": "multi",
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "id": "creative-refine-3-1",
+            "text": "Type, spacing, colour, and the order people read a page"
+          },
+          {
+            "id": "creative-refine-3-2",
+            "text": "Materials, proportions, and how parts fit a user’s hand"
+          },
+          {
+            "id": "creative-refine-3-3",
+            "text": "Words, meaning, and whether a claim is accurate"
+          },
+          {
+            "id": "creative-refine-3-4",
+            "text": "Timing, movement, lighting, and the mood of an image"
+          },
+          {
+            "id": "creative-refine-3-5",
+            "text": "Linework, placement, consent, and hygienic practice"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 12,
+        "after": 14
+      },
+      {
+        "index": 63,
+        "id": "creative-refine-4",
+        "type": "multi",
+        "prompt": "Which beginner project would you choose?",
+        "options": [
+          {
+            "id": "creative-refine-4-1",
+            "text": "Design and revise a poster for a real audience"
+          },
+          {
+            "id": "creative-refine-4-2",
+            "text": "Sketch an app screen and watch someone try it"
+          },
+          {
+            "id": "creative-refine-4-3",
+            "text": "Build a simple model and improve how it works"
+          },
+          {
+            "id": "creative-refine-4-4",
+            "text": "Make a short written, photographic, or moving-image story"
+          },
+          {
+            "id": "creative-refine-4-5",
+            "text": "Explore design, language, or information with a community"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 28
+      },
+      {
+        "index": 64,
+        "id": "creative-revise",
+        "type": "multi",
+        "prompt": "Which kind of revision sounds satisfying?",
+        "options": [
+          {
+            "id": "creative-revise-1",
+            "text": "Make a layout easier to read and navigate"
+          },
+          {
+            "id": "creative-revise-2",
+            "text": "Improve how a product looks, feels and works"
+          },
+          {
+            "id": "creative-revise-3",
+            "text": "Shape the timing, mood or story of a scene"
+          },
+          {
+            "id": "creative-revise-4",
+            "text": "Find words that carry the right meaning for an audience"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 6
+      },
+      {
+        "index": 65,
+        "id": "creative-workday",
+        "type": "multi",
+        "prompt": "Which parts of a creative workday would you like to try?",
+        "options": [
+          {
+            "id": "creative-workday-1",
+            "text": "Make several drafts and improve them after feedback"
+          },
+          {
+            "id": "creative-workday-2",
+            "text": "Work carefully with images, light, movement or sound"
+          },
+          {
+            "id": "creative-workday-3",
+            "text": "Ask people questions before deciding what to make"
+          },
+          {
+            "id": "creative-workday-4",
+            "text": "Research meaning and check that information is accurate"
+          },
+          {
+            "id": "creative-workday-5",
+            "text": "Practice careful techniques while following studio hygiene routines"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 11,
+        "after": 11
+      },
+      {
+        "index": 66,
+        "id": "creative-refine-1",
+        "type": "multi",
+        "prompt": "Which creative problem would keep you curious?",
+        "options": [
+          {
+            "id": "creative-refine-1-1",
+            "text": "Make a visual message memorable without making it confusing"
+          },
+          {
+            "id": "creative-refine-1-2",
+            "text": "Make a website or app easier to understand and use"
+          },
+          {
+            "id": "creative-refine-1-3",
+            "text": "Make a physical object more useful and appealing"
+          },
+          {
+            "id": "creative-refine-1-4",
+            "text": "Make a story, scene, or image more engaging"
+          },
+          {
+            "id": "creative-refine-1-5",
+            "text": "Help a person or community express something important"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 29
+      },
+      {
+        "index": 67,
+        "id": "creative-refine-2",
+        "type": "multi",
+        "prompt": "Which result would you most enjoy finishing?",
+        "options": [
+          {
+            "id": "creative-refine-2-1",
+            "text": "A visual identity and a set of clear layouts"
+          },
+          {
+            "id": "creative-refine-2-2",
+            "text": "A tested screen design that people can navigate"
+          },
+          {
+            "id": "creative-refine-2-3",
+            "text": "A model of a product people could hold"
+          },
+          {
+            "id": "creative-refine-2-4",
+            "text": "An edited story, film, animation, or photo series"
+          },
+          {
+            "id": "creative-refine-2-5",
+            "text": "A message or service shaped for a particular audience"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 28
+      },
+      {
+        "index": 76,
+        "id": "film-editing-interest-044-1",
+        "type": "specific",
+        "prompt": "Would you like to learn to select and arrange video footage so a scene or story is clear and engaging?",
+        "kind": "profession",
+        "scope": "film-editing",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "index": 77,
+        "id": "film-editing-interest-044-2",
+        "type": "specific",
+        "prompt": "Would you like to learn to combine picture, dialogue, music, and sound effects and refine the timing of a video?",
+        "kind": "profession",
+        "scope": "film-editing",
+        "before": 1,
+        "after": 1
+      }
+    ]
+  },
+  {
+    "modelId": "life-055",
+    "name": "Elena Ward",
+    "cohort": "all",
+    "careerId": "degree-27204100",
+    "career": "Music Directors and Composers",
+    "frequency": {
+      "before": 66,
+      "after": 17,
+      "delta": -49
+    },
+    "beforeTop": [
+      "Music Directors and Composers"
+    ],
+    "afterTop": [],
+    "beforeSupported": true,
+    "afterSupported": false,
+    "profile": {
+      "id": "life-055",
+      "name": "Elena Ward",
+      "age": 16,
+      "pronouns": "she/her",
+      "background": {
+        "family": "Lives with father, stepfather, and an older sister; family relationships are steady and disagreements usually get discussed after everyone cools down.",
+        "finances": "Stable middle income; mental-health visits are insured, though copayments and missed work require budgeting.",
+        "geography": "Denton, Texas, near music venues and public libraries.",
+        "cultureLanguages": "White, English-speaking family; adopted family traditions include a yearly camping trip and informal neighborhood suppers.",
+        "school": "Public high school; fictional depression diagnosed at fifteen, with therapy, clinician-managed medication, and a school reentry plan.",
+        "accessOpportunities": "Has music lessons and library volunteering available; adults support gradual return without tying recovery to productivity."
+      },
+      "timeline": [
+        {
+          "ages": "4–5",
+          "story": "Elena liked gathering household objects to make percussion ensembles and assigning each adult an instrument. She could conduct for twenty minutes, then abandon the concert because she wanted everyone to go outside together."
+        },
+        {
+          "ages": "6–7",
+          "story": "She learned piano and enjoyed figuring out familiar melodies by ear. Reading music came more slowly, and a patient teacher alternated written practice with playful experiments so lessons did not become arguments about the right way."
+        },
+        {
+          "ages": "8–9",
+          "story": "She organized backyard scavenger hunts and illustrated clue cards. Friends often followed her plans, but one summer disagreement taught her that designing the game did not give her the right to decide who could join."
+        },
+        {
+          "ages": "10–11",
+          "story": "During remote school she recorded short piano pieces for relatives and enjoyed their responses. Later, when gatherings resumed, she found herself wanting more quiet than before but still returned to camping and neighborhood meals."
+        },
+        {
+          "ages": "12–13",
+          "story": "Elena began editing the school literary magazine and discovered pleasure in helping another writer clarify an image. She also tried cross-country, disliked the competition, and left after the season without regretting having tested it."
+        },
+        {
+          "ages": "14–15",
+          "story": "A depressive episode brought low energy, reduced enjoyment, and missed assignments. Her family sought care; treatment and a reduced initial workload helped her reengage, while the adults explicitly avoided treating ordinary unproductive days as a failure."
+        },
+        {
+          "ages": "16",
+          "story": "She now attends regularly, plays piano in short sessions, and edits a few submissions rather than leading everything. Some days still feel flat; she is exploring future study slowly and learning which commitments feel nourishing instead of merely evidence that she is improving."
+        }
+      ],
+      "currentLife": {
+        "enjoys": [
+          "Piano improvisation",
+          "Gentle editing",
+          "Familiar outdoor places"
+        ],
+        "avoids": [
+          "Recovery being measured by achievements",
+          "Overcommitted weeks"
+        ],
+        "activities": [
+          "Therapy",
+          "Literary magazine",
+          "Short piano practice"
+        ],
+        "demonstratedSkills": [
+          "Hears melodic patterns",
+          "Gives specific written feedback",
+          "Communicates workload limits"
+        ],
+        "unfamiliarActivities": [
+          "Technical workshops",
+          "Organized debate",
+          "Paid service work"
+        ],
+        "motivations": [
+          "Recovering enjoyment",
+          "Making honest connections"
+        ],
+        "ambitions": [
+          "Wants to continue learning without rushing a specialization",
+          "Imagines steady days with music, close relationships, and room to rest."
+        ],
+        "struggles": [
+          "Variable energy",
+          "Occasional numbness",
+          "Worry about disappointing people"
+        ],
+        "supports": [
+          "Family",
+          "Clinician",
+          "Therapist",
+          "School counselor",
+          "Piano teacher"
+        ],
+        "practicalConstraints": [
+          "Needs continued care",
+          "Workload pacing",
+          "Treatment appointments"
+        ]
+      },
+      "selfDescription": "I used to answer everything by saying I could do more. I'm learning to notice when I actually enjoy something, even if it's only ten minutes at the piano and nobody hears it.",
+      "openQuestions": [
+        "Which older interests will return, change, or fade?",
+        "How can she explore new settings while maintaining care and manageable demands?"
+      ],
+      "variationTags": [
+        "depression treatment",
+        "two fathers",
+        "music",
+        "literary editing",
+        "gradual reengagement"
+      ]
+    },
+    "questions": [
+      {
+        "index": 60,
+        "id": "creative-make",
+        "type": "multi",
+        "prompt": "What would you enjoy creating?",
+        "options": [
+          {
+            "id": "creative-make-1",
+            "text": "A visual message that helps people understand an idea"
+          },
+          {
+            "id": "creative-make-2",
+            "text": "A useful object people can hold and use"
+          },
+          {
+            "id": "creative-make-3",
+            "text": "A story through words, photographs or moving images"
+          },
+          {
+            "id": "creative-make-4",
+            "text": "A way for people to connect with information or culture"
+          },
+          {
+            "id": "creative-make-5",
+            "text": "A personal design for someone’s body art"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 13
+      },
+      {
+        "index": 61,
+        "id": "creative-people",
+        "type": "multi",
+        "prompt": "Who would you enjoy creating with or for?",
+        "options": [
+          {
+            "id": "creative-people-1",
+            "text": "Clients who need a clear visual identity"
+          },
+          {
+            "id": "creative-people-2",
+            "text": "A team making a product or digital experience"
+          },
+          {
+            "id": "creative-people-3",
+            "text": "People sharing a story, language or point of view"
+          },
+          {
+            "id": "creative-people-4",
+            "text": "A community finding information and learning together"
+          },
+          {
+            "id": "creative-people-5",
+            "text": "A person choosing a lasting design that feels like them"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 12
+      },
+      {
+        "index": 62,
+        "id": "creative-refine-3",
+        "type": "multi",
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "id": "creative-refine-3-1",
+            "text": "Type, spacing, colour, and the order people read a page"
+          },
+          {
+            "id": "creative-refine-3-2",
+            "text": "Materials, proportions, and how parts fit a user’s hand"
+          },
+          {
+            "id": "creative-refine-3-3",
+            "text": "Words, meaning, and whether a claim is accurate"
+          },
+          {
+            "id": "creative-refine-3-4",
+            "text": "Timing, movement, lighting, and the mood of an image"
+          },
+          {
+            "id": "creative-refine-3-5",
+            "text": "Linework, placement, consent, and hygienic practice"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 12,
+        "after": 4
+      },
+      {
+        "index": 63,
+        "id": "creative-refine-4",
+        "type": "multi",
+        "prompt": "Which beginner project would you choose?",
+        "options": [
+          {
+            "id": "creative-refine-4-1",
+            "text": "Design and revise a poster for a real audience"
+          },
+          {
+            "id": "creative-refine-4-2",
+            "text": "Sketch an app screen and watch someone try it"
+          },
+          {
+            "id": "creative-refine-4-3",
+            "text": "Build a simple model and improve how it works"
+          },
+          {
+            "id": "creative-refine-4-4",
+            "text": "Make a short written, photographic, or moving-image story"
+          },
+          {
+            "id": "creative-refine-4-5",
+            "text": "Explore design, language, or information with a community"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 24
+      },
+      {
+        "index": 64,
+        "id": "creative-revise",
+        "type": "multi",
+        "prompt": "Which kind of revision sounds satisfying?",
+        "options": [
+          {
+            "id": "creative-revise-1",
+            "text": "Make a layout easier to read and navigate"
+          },
+          {
+            "id": "creative-revise-2",
+            "text": "Improve how a product looks, feels and works"
+          },
+          {
+            "id": "creative-revise-3",
+            "text": "Shape the timing, mood or story of a scene"
+          },
+          {
+            "id": "creative-revise-4",
+            "text": "Find words that carry the right meaning for an audience"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 12,
+        "after": 12
+      },
+      {
+        "index": 65,
+        "id": "creative-workday",
+        "type": "multi",
+        "prompt": "Which parts of a creative workday would you like to try?",
+        "options": [
+          {
+            "id": "creative-workday-1",
+            "text": "Make several drafts and improve them after feedback"
+          },
+          {
+            "id": "creative-workday-2",
+            "text": "Work carefully with images, light, movement or sound"
+          },
+          {
+            "id": "creative-workday-3",
+            "text": "Ask people questions before deciding what to make"
+          },
+          {
+            "id": "creative-workday-4",
+            "text": "Research meaning and check that information is accurate"
+          },
+          {
+            "id": "creative-workday-5",
+            "text": "Practice careful techniques while following studio hygiene routines"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 3,
+        "after": 11
+      },
+      {
+        "index": 66,
+        "id": "creative-refine-1",
+        "type": "multi",
+        "prompt": "Which creative problem would keep you curious?",
+        "options": [
+          {
+            "id": "creative-refine-1-1",
+            "text": "Make a visual message memorable without making it confusing"
+          },
+          {
+            "id": "creative-refine-1-2",
+            "text": "Make a website or app easier to understand and use"
+          },
+          {
+            "id": "creative-refine-1-3",
+            "text": "Make a physical object more useful and appealing"
+          },
+          {
+            "id": "creative-refine-1-4",
+            "text": "Make a story, scene, or image more engaging"
+          },
+          {
+            "id": "creative-refine-1-5",
+            "text": "Help a person or community express something important"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 24
+      },
+      {
+        "index": 67,
+        "id": "creative-refine-2",
+        "type": "multi",
+        "prompt": "Which result would you most enjoy finishing?",
+        "options": [
+          {
+            "id": "creative-refine-2-1",
+            "text": "A visual identity and a set of clear layouts"
+          },
+          {
+            "id": "creative-refine-2-2",
+            "text": "A tested screen design that people can navigate"
+          },
+          {
+            "id": "creative-refine-2-3",
+            "text": "A model of a product people could hold"
+          },
+          {
+            "id": "creative-refine-2-4",
+            "text": "An edited story, film, animation, or photo series"
+          },
+          {
+            "id": "creative-refine-2-5",
+            "text": "A message or service shaped for a particular audience"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 24
+      },
+      {
+        "index": 778,
+        "id": "degree-27204100-047-domain",
+        "type": "specific",
+        "prompt": "Would you like to learn to create or shape musical works and performances by exploring how melody, rhythm, harmony, and interpretation affect what listeners experience?",
+        "kind": "profession",
+        "scope": "degree-27204100",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "index": 779,
+        "id": "degree-27204100-047-method",
+        "type": "specific",
+        "prompt": "Would you like to learn to develop musical ideas through composing, arranging, or interpreting scores, then revise them by listening carefully to how they sound?",
+        "kind": "profession",
+        "scope": "degree-27204100",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "index": 780,
+        "id": "degree-27204100-047-responsibility",
+        "type": "specific",
+        "prompt": "Would you like to learn to communicate musical intentions clearly and take responsibility for the coherence of a finished work or the preparation of a group performance?",
+        "kind": "profession",
+        "scope": "degree-27204100",
+        "before": 1,
+        "after": 3
+      }
+    ]
+  },
+  {
+    "modelId": "scale056-0007",
+    "name": "Morgan Bennett",
+    "cohort": "all",
+    "careerId": "writing",
+    "career": "Writers & authors",
+    "frequency": {
+      "before": 42,
+      "after": 88,
+      "delta": 46
+    },
+    "beforeTop": [
+      "Poets, Lyricists and Creative Writers",
+      "Film and Video Editors",
+      "Camera Operators, Television, Video, and Film"
+    ],
+    "afterTop": [
+      "Poets, Lyricists and Creative Writers",
+      "Film and Video Editors",
+      "Writers & authors"
+    ],
+    "beforeSupported": false,
+    "afterSupported": true,
+    "profile": {
+      "id": "scale056-0007",
+      "name": "Morgan Bennett",
+      "phase": "development056",
+      "biography": {
+        "id": "scale056-0007",
+        "name": "Morgan Bennett",
+        "age": 16,
+        "pronouns": "pronouns not stated",
+        "background": {
+          "geography": "rural Montana",
+          "family": "Shares time between two households",
+          "cultureLanguages": "The household uses English and another language that the profile does not name",
+          "finances": "Income varies month to month; free activities and shared transport help",
+          "school": "Public high school with limited elective places",
+          "accessOpportunities": "Prefers written instructions and a predictable schedule"
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Early opportunities were uneven and did not settle a career preference. Writing original scenes or essays and revising structure after a reader gives feedback. A familiar adult provided encouragement, and this is a chosen activity rather than a claim of advanced ability."
+          },
+          {
+            "ages": "6–7",
+            "story": "Early opportunities were uneven and did not settle a career preference. Rehearsing a dance or dramatic scene and revising how movement communicates to an audience. A familiar adult provided encouragement, and this is a chosen activity rather than a claim of advanced ability."
+          },
+          {
+            "ages": "8–9",
+            "story": "A self-chosen project provided another opportunity: Revising a short learning guide, checking understanding and choosing a clearer sequence of examples. Checking small details without guessing what missing information means. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "10–11",
+            "story": "A self-chosen project provided another opportunity: Trying a simple hair or fabric design and asking how to make a personal-care experience comfortable. Listening and adapting individual support after asking what helps. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "12–13",
+            "story": "A self-chosen project provided another opportunity: Choosing camera angles, recording a short sequence and revising the edit or animation timing. Assembling, shaping or repairing physical materials. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "14–15",
+            "story": "Current interests remain mixed. Layering a short recording, changing rhythm or timbre and comparing the result by listening. I want to learn how recommendations affect another person’s money and how to explain uncertain financial risks. Has reliable daytime transport but limited weekend access. Unknown work remains open to learn about."
+          },
+          {
+            "ages": "16",
+            "story": "Current interests remain mixed. Drawing alternative layouts for a shared space and comparing access, light and how people move. I would choose a supervised introduction to how clinicians compare symptoms, choose treatments and monitor their consequences. Prefers to try a short introduction before making a long commitment. Unknown work remains open to learn about."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Writing original scenes or essays and revising structure after a reader gives feedback",
+            "Rehearsing a dance or dramatic scene and revising how movement communicates to an audience",
+            "Revising a short learning guide, checking understanding and choosing a clearer sequence of examples",
+            "Trying a simple hair or fabric design and asking how to make a personal-care experience comfortable",
+            "Choosing camera angles, recording a short sequence and revising the edit or animation timing",
+            "Layering a short recording, changing rhythm or timbre and comparing the result by listening",
+            "Drawing alternative layouts for a shared space and comparing access, light and how people move"
+          ],
+          "avoids": [
+            "Does not currently enjoy: Financial records",
+            "Does not currently enjoy: Circuits",
+            "Does not currently enjoy: Purchasing comparisons",
+            "Does not currently enjoy: Initiative and organizations",
+            "Does not currently enjoy: Finding a second example when an explanation is confusing"
+          ],
+          "activities": [
+            "Writing original scenes or essays and revising structure after a reader gives feedback",
+            "Rehearsing a dance or dramatic scene and revising how movement communicates to an audience",
+            "Revising a short learning guide, checking understanding and choosing a clearer sequence of examples"
+          ],
+          "demonstratedSkills": [
+            "Explains a familiar idea clearly after preparation",
+            "Finds physical assembly easier than long written instructions",
+            "Notices patterns but sometimes rushes the last check"
+          ],
+          "unfamiliarActivities": [
+            "Wood and joinery is untried",
+            "Mechanisms is untried",
+            "Digital systems is untried",
+            "Physical space and matter is untried"
+          ],
+          "motivations": [
+            "Feel connected to a community",
+            "Make a useful difference",
+            "Make something original"
+          ],
+          "ambitions": [
+            "Wants to compare several interests before choosing a career",
+            "I want to learn to design an investigation, tolerate uncertain results and explain the limits of a conclusion",
+            "I want to learn how recommendations affect another person’s money and how to explain uncertain financial risks",
+            "I would choose a supervised introduction to how clinicians compare symptoms, choose treatments and monitor their consequences",
+            "I want to learn about accountability for an entire organization, including difficult resource and workforce decisions"
+          ],
+          "struggles": [
+            "Worries about family responsibilities; prefers a manageable pace",
+            "Sometimes finds it difficult to choose between enjoyable activities"
+          ],
+          "supports": [
+            "Has access to a library and a weekly supported activity"
+          ],
+          "practicalConstraints": [
+            "Prefers to try a short introduction before making a long commitment",
+            "Has reliable daytime transport but limited weekend access"
+          ]
+        },
+        "selfDescription": "I have several interests and want to compare them without having to pick an occupation first. Revising an original form until it expresses the intended idea. Coordinating people, deadlines and resources while asking for feedback. Checking small details without guessing what missing information means.",
+        "openQuestions": [
+          "Which unfamiliar activities would I choose after a fair introduction?",
+          "Would I enjoy a profession’s distinctive responsibilities beyond these broad activities?"
+        ],
+        "variationTags": [
+          "Structured synthetic coverage case",
+          "Not a representative population draw",
+          "Background and health labels do not generate career answers"
+        ]
+      },
+      "selectedFields": [
+        "creative"
+      ],
+      "lifestyleLevel": 1,
+      "studyOpenness": "Short training first",
+      "uncertainty": "mixed-interests",
+      "statedEnjoyedActivities": [
+        "Revising a short learning guide, checking understanding and choosing a clearer sequence of examples",
+        "Writing original scenes or essays and revising structure after a reader gives feedback",
+        "Choosing camera angles, recording a short sequence and revising the edit or animation timing",
+        "Layering a short recording, changing rhythm or timbre and comparing the result by listening",
+        "Rehearsing a dance or dramatic scene and revising how movement communicates to an audience",
+        "Drawing alternative layouts for a shared space and comparing access, light and how people move",
+        "Trying a simple hair or fabric design and asking how to make a personal-care experience comfortable"
+      ],
+      "statedDislikedActivities": [
+        "Assembling a low-voltage circuit, tracing a failed connection and recording repeatable tests",
+        "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation",
+        "Comparing supplier offers including hidden costs and checking whether items meet agreed requirements",
+        "Choosing to plan a small venture and discuss how people, priorities and spending affect its goals"
+      ],
+      "statedEnjoyedMethods": [
+        "Comparing two explanations using a repeatable fair test",
+        "Trying alternative designs and comparing their trade-offs",
+        "Checking small details without guessing what missing information means",
+        "Looking for a counterexample and explaining a general argument",
+        "Tracing a program or digital workflow and testing a change",
+        "Assembling, shaping or repairing physical materials",
+        "Collecting observations outside and comparing places over time",
+        "Listening and adapting individual support after asking what helps",
+        "Revising an original form until it expresses the intended idea",
+        "Coordinating people, deadlines and resources while asking for feedback"
+      ],
+      "statedDislikedMethods": [
+        "Finding a second example when an explanation is confusing"
+      ],
+      "statedResponsibilities": [
+        "I would choose a supervised introduction to how clinicians compare symptoms, choose treatments and monitor their consequences",
+        "I want to learn about accountability for an entire organization, including difficult resource and workforce decisions",
+        "I want to learn to design an investigation, tolerate uncertain results and explain the limits of a conclusion",
+        "I want to learn how recommendations affect another person’s money and how to explain uncertain financial risks"
+      ]
+    },
+    "questions": [
+      {
+        "index": 60,
+        "id": "creative-make",
+        "type": "multi",
+        "prompt": "What would you enjoy creating?",
+        "options": [
+          {
+            "id": "creative-make-1",
+            "text": "A visual message that helps people understand an idea"
+          },
+          {
+            "id": "creative-make-2",
+            "text": "A useful object people can hold and use"
+          },
+          {
+            "id": "creative-make-3",
+            "text": "A story through words, photographs or moving images"
+          },
+          {
+            "id": "creative-make-4",
+            "text": "A way for people to connect with information or culture"
+          },
+          {
+            "id": "creative-make-5",
+            "text": "A personal design for someone’s body art"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 13
+      },
+      {
+        "index": 61,
+        "id": "creative-people",
+        "type": "multi",
+        "prompt": "Who would you enjoy creating with or for?",
+        "options": [
+          {
+            "id": "creative-people-1",
+            "text": "Clients who need a clear visual identity"
+          },
+          {
+            "id": "creative-people-2",
+            "text": "A team making a product or digital experience"
+          },
+          {
+            "id": "creative-people-3",
+            "text": "People sharing a story, language or point of view"
+          },
+          {
+            "id": "creative-people-4",
+            "text": "A community finding information and learning together"
+          },
+          {
+            "id": "creative-people-5",
+            "text": "A person choosing a lasting design that feels like them"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 29
+      },
+      {
+        "index": 62,
+        "id": "creative-refine-3",
+        "type": "multi",
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "id": "creative-refine-3-1",
+            "text": "Type, spacing, colour, and the order people read a page"
+          },
+          {
+            "id": "creative-refine-3-2",
+            "text": "Materials, proportions, and how parts fit a user’s hand"
+          },
+          {
+            "id": "creative-refine-3-3",
+            "text": "Words, meaning, and whether a claim is accurate"
+          },
+          {
+            "id": "creative-refine-3-4",
+            "text": "Timing, movement, lighting, and the mood of an image"
+          },
+          {
+            "id": "creative-refine-3-5",
+            "text": "Linework, placement, consent, and hygienic practice"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 12,
+        "after": 13
+      },
+      {
+        "index": 63,
+        "id": "creative-refine-4",
+        "type": "multi",
+        "prompt": "Which beginner project would you choose?",
+        "options": [
+          {
+            "id": "creative-refine-4-1",
+            "text": "Design and revise a poster for a real audience"
+          },
+          {
+            "id": "creative-refine-4-2",
+            "text": "Sketch an app screen and watch someone try it"
+          },
+          {
+            "id": "creative-refine-4-3",
+            "text": "Build a simple model and improve how it works"
+          },
+          {
+            "id": "creative-refine-4-4",
+            "text": "Make a short written, photographic, or moving-image story"
+          },
+          {
+            "id": "creative-refine-4-5",
+            "text": "Explore design, language, or information with a community"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 25
+      },
+      {
+        "index": 64,
+        "id": "creative-revise",
+        "type": "multi",
+        "prompt": "Which kind of revision sounds satisfying?",
+        "options": [
+          {
+            "id": "creative-revise-1",
+            "text": "Make a layout easier to read and navigate"
+          },
+          {
+            "id": "creative-revise-2",
+            "text": "Improve how a product looks, feels and works"
+          },
+          {
+            "id": "creative-revise-3",
+            "text": "Shape the timing, mood or story of a scene"
+          },
+          {
+            "id": "creative-revise-4",
+            "text": "Find words that carry the right meaning for an audience"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 12,
+        "after": 13
+      },
+      {
+        "index": 65,
+        "id": "creative-workday",
+        "type": "multi",
+        "prompt": "Which parts of a creative workday would you like to try?",
+        "options": [
+          {
+            "id": "creative-workday-1",
+            "text": "Make several drafts and improve them after feedback"
+          },
+          {
+            "id": "creative-workday-2",
+            "text": "Work carefully with images, light, movement or sound"
+          },
+          {
+            "id": "creative-workday-3",
+            "text": "Ask people questions before deciding what to make"
+          },
+          {
+            "id": "creative-workday-4",
+            "text": "Research meaning and check that information is accurate"
+          },
+          {
+            "id": "creative-workday-5",
+            "text": "Practice careful techniques while following studio hygiene routines"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 7,
+        "after": 15
+      },
+      {
+        "index": 66,
+        "id": "creative-refine-1",
+        "type": "multi",
+        "prompt": "Which creative problem would keep you curious?",
+        "options": [
+          {
+            "id": "creative-refine-1-1",
+            "text": "Make a visual message memorable without making it confusing"
+          },
+          {
+            "id": "creative-refine-1-2",
+            "text": "Make a website or app easier to understand and use"
+          },
+          {
+            "id": "creative-refine-1-3",
+            "text": "Make a physical object more useful and appealing"
+          },
+          {
+            "id": "creative-refine-1-4",
+            "text": "Make a story, scene, or image more engaging"
+          },
+          {
+            "id": "creative-refine-1-5",
+            "text": "Help a person or community express something important"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 24,
+        "after": 25
+      },
+      {
+        "index": 67,
+        "id": "creative-refine-2",
+        "type": "multi",
+        "prompt": "Which result would you most enjoy finishing?",
+        "options": [
+          {
+            "id": "creative-refine-2-1",
+            "text": "A visual identity and a set of clear layouts"
+          },
+          {
+            "id": "creative-refine-2-2",
+            "text": "A tested screen design that people can navigate"
+          },
+          {
+            "id": "creative-refine-2-3",
+            "text": "A model of a product people could hold"
+          },
+          {
+            "id": "creative-refine-2-4",
+            "text": "An edited story, film, animation, or photo series"
+          },
+          {
+            "id": "creative-refine-2-5",
+            "text": "A message or service shaped for a particular audience"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 25
+      },
+      {
+        "index": 72,
+        "id": "writing-interest-044-1",
+        "type": "specific",
+        "prompt": "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+        "kind": "profession",
+        "scope": "writing",
+        "before": 0,
+        "after": 1
+      },
+      {
+        "index": 73,
+        "id": "writing-interest-044-2",
+        "type": "specific",
+        "prompt": "Would you like to learn to revise your writing after feedback so its message, structure, and style work better for its intended readers?",
+        "kind": "profession",
+        "scope": "writing",
+        "before": 0,
+        "after": 1
+      }
+    ]
+  },
+  {
+    "modelId": "scale056-0015",
+    "name": "Noor Bennett",
+    "cohort": "all",
+    "careerId": "bookkeeping-clerk",
+    "career": "Bookkeeping, Accounting, & Auditing Clerks",
+    "frequency": {
+      "before": 42,
+      "after": 117,
+      "delta": 75
+    },
+    "beforeTop": [
+      "Compensation, Benefits, and Job Analysis Specialists",
+      "Credit Analysts",
+      "Credit Counselors"
+    ],
+    "afterTop": [
+      "Office Clerks, General",
+      "Bookkeeping, Accounting, & Auditing Clerks",
+      "Interpreters and Translators"
+    ],
+    "beforeSupported": false,
+    "afterSupported": true,
+    "profile": {
+      "id": "scale056-0015",
+      "name": "Noor Bennett",
+      "phase": "development056",
+      "biography": {
+        "id": "scale056-0015",
+        "name": "Noor Bennett",
+        "age": 16,
+        "pronouns": "pronouns not stated",
+        "background": {
+          "geography": "small-town Ohio",
+          "family": "Lives with one parent and a younger sibling",
+          "cultureLanguages": "English and Vietnamese are heard in the household; no ethnicity is inferred",
+          "finances": "Family budgeting is tight; the student wants paid work while studying",
+          "school": "High school with a library club but few after-school transport options",
+          "accessOpportunities": "Has access to a library and a weekly supported activity"
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Early opportunities were uneven and did not settle a career preference. Reconciling club receipts, separating estimates from actual spending and checking a financial explanation. A familiar adult provided encouragement, and this is a chosen activity rather than a claim of advanced ability."
+          },
+          {
+            "ages": "6–7",
+            "story": "Early opportunities were uneven and did not settle a career preference. Comparing the meaning of a passage in two languages and checking whether a translation preserves its tone. A familiar adult provided encouragement, and this is a chosen activity rather than a claim of advanced ability."
+          },
+          {
+            "ages": "8–9",
+            "story": "A self-chosen project provided another opportunity: Comparing supplier offers including hidden costs and checking whether items meet agreed requirements. Comparing two explanations using a repeatable fair test. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "10–11",
+            "story": "A self-chosen project provided another opportunity: Layering a short recording, changing rhythm or timbre and comparing the result by listening. Looking for a counterexample and explaining a general argument. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "12–13",
+            "story": "A self-chosen project provided another opportunity: Trying several original drawings, compositions or designs and choosing how materials express an idea. Coordinating people, deadlines and resources while asking for feedback. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "14–15",
+            "story": "Current interests remain mixed. Organizing reference materials, checking their accuracy and helping someone find the source they need. I want to learn about accountability for an entire organization, including difficult resource and workforce decisions. Needs to compare study costs before committing. Unknown work remains open to learn about."
+          },
+          {
+            "ages": "16",
+            "story": "Current interests remain mixed. Writing original scenes or essays and revising structure after a reader gives feedback. I want to compare preparing a course, assessing learning and responding to different learners over time. Prefers to try a short introduction before making a long commitment. Unknown work remains open to learn about."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation",
+            "Comparing the meaning of a passage in two languages and checking whether a translation preserves its tone",
+            "Comparing supplier offers including hidden costs and checking whether items meet agreed requirements",
+            "Layering a short recording, changing rhythm or timbre and comparing the result by listening",
+            "Trying several original drawings, compositions or designs and choosing how materials express an idea",
+            "Organizing reference materials, checking their accuracy and helping someone find the source they need",
+            "Writing original scenes or essays and revising structure after a reader gives feedback"
+          ],
+          "avoids": [
+            "Does not currently enjoy: Performance and dance",
+            "Does not currently enjoy: Film and photography",
+            "Does not currently enjoy: Living mechanisms",
+            "Does not currently enjoy: Personal care and style",
+            "Does not currently enjoy: Revising an original form until it expresses the intended idea"
+          ],
+          "activities": [
+            "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation",
+            "Comparing the meaning of a passage in two languages and checking whether a translation preserves its tone",
+            "Comparing supplier offers including hidden costs and checking whether items meet agreed requirements"
+          ],
+          "demonstratedSkills": [
+            "Keeps records when a checklist is available",
+            "Works patiently on a self-chosen project",
+            "Finds physical assembly easier than long written instructions"
+          ],
+          "unfamiliarActivities": [
+            "Wood and joinery is untried",
+            "Mechanisms is untried",
+            "Circuits is untried",
+            "Digital systems is untried"
+          ],
+          "motivations": [
+            "Have variety",
+            "Work independently with support when needed",
+            "Build a steady foundation"
+          ],
+          "ambitions": [
+            "Wants to compare several interests before choosing a career",
+            "I want to learn how recommendations affect another person’s money and how to explain uncertain financial risks",
+            "I want to learn about accountability for an entire organization, including difficult resource and workforce decisions",
+            "I want to compare preparing a course, assessing learning and responding to different learners over time",
+            "I want to compare allocating work and handling disagreements with contributing as an individual"
+          ],
+          "struggles": [
+            "A reading difference is named dyslexia; audio and extra time help",
+            "Sometimes finds it difficult to choose between enjoyable activities"
+          ],
+          "supports": [
+            "Has access to a library and a weekly supported activity"
+          ],
+          "practicalConstraints": [
+            "Prefers to try a short introduction before making a long commitment",
+            "Needs to compare study costs before committing"
+          ]
+        },
+        "selfDescription": "I have several interests and want to compare them without having to pick an occupation first. Assembling, shaping or repairing physical materials. Using graphs and uncertain numerical evidence to compare possibilities. Comparing two explanations using a repeatable fair test.",
+        "openQuestions": [
+          "Which unfamiliar activities would I choose after a fair introduction?",
+          "Would I enjoy a profession’s distinctive responsibilities beyond these broad activities?"
+        ],
+        "variationTags": [
+          "Structured synthetic coverage case",
+          "Not a representative population draw",
+          "Background and health labels do not generate career answers"
+        ]
+      },
+      "selectedFields": [
+        "business"
+      ],
+      "lifestyleLevel": 4,
+      "studyOpenness": "Open to graduate study after learning more",
+      "uncertainty": "mixed-interests",
+      "statedEnjoyedActivities": [
+        "Comparing the meaning of a passage in two languages and checking whether a translation preserves its tone",
+        "Writing original scenes or essays and revising structure after a reader gives feedback",
+        "Trying several original drawings, compositions or designs and choosing how materials express an idea",
+        "Layering a short recording, changing rhythm or timbre and comparing the result by listening",
+        "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation",
+        "Comparing supplier offers including hidden costs and checking whether items meet agreed requirements",
+        "Organizing reference materials, checking their accuracy and helping someone find the source they need"
+      ],
+      "statedDislikedActivities": [
+        "Voluntarily reading about cells and body systems and diagramming how a biological process changes",
+        "Choosing camera angles, recording a short sequence and revising the edit or animation timing",
+        "Rehearsing a dance or dramatic scene and revising how movement communicates to an audience",
+        "Trying a simple hair or fabric design and asking how to make a personal-care experience comfortable"
+      ],
+      "statedEnjoyedMethods": [
+        "Comparing two explanations using a repeatable fair test",
+        "Checking small details without guessing what missing information means",
+        "Using graphs and uncertain numerical evidence to compare possibilities",
+        "Looking for a counterexample and explaining a general argument",
+        "Tracing a program or digital workflow and testing a change",
+        "Assembling, shaping or repairing physical materials",
+        "Listening and adapting individual support after asking what helps",
+        "Finding a second example when an explanation is confusing",
+        "Coordinating people, deadlines and resources while asking for feedback",
+        "Comparing sources and asking what would change an explanation"
+      ],
+      "statedDislikedMethods": [
+        "Revising an original form until it expresses the intended idea"
+      ],
+      "statedResponsibilities": [
+        "I want to learn about accountability for an entire organization, including difficult resource and workforce decisions",
+        "I want to compare preparing a course, assessing learning and responding to different learners over time",
+        "I want to learn how recommendations affect another person’s money and how to explain uncertain financial risks",
+        "I want to compare allocating work and handling disagreements with contributing as an individual"
+      ]
+    },
+    "questions": [
+      {
+        "index": 123,
+        "id": "business-problem",
+        "type": "multi",
+        "prompt": "Which problem would you enjoy working through?",
+        "options": [
+          {
+            "id": "business-problem-1",
+            "text": "The money records do not add up"
+          },
+          {
+            "id": "business-problem-2",
+            "text": "A team needs a clearer plan or better way to work"
+          },
+          {
+            "id": "business-problem-3",
+            "text": "An organization needs to understand its customers"
+          },
+          {
+            "id": "business-problem-4",
+            "text": "Someone needs help understanding a right, rule or decision"
+          },
+          {
+            "id": "business-problem-5",
+            "text": "Goods or services are not reaching people smoothly"
+          }
+        ],
+        "kind": "field",
+        "scope": "business",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "index": 124,
+        "id": "business-people",
+        "type": "multi",
+        "prompt": "Which kind of work with people interests you?",
+        "options": [
+          {
+            "id": "business-people-1",
+            "text": "Help a person understand a financial choice"
+          },
+          {
+            "id": "business-people-2",
+            "text": "Help a team coordinate responsibilities and deadlines"
+          },
+          {
+            "id": "business-people-3",
+            "text": "Help colleagues solve a workplace problem"
+          },
+          {
+            "id": "business-people-4",
+            "text": "Advocate for someone or explain a rule clearly"
+          },
+          {
+            "id": "business-people-5",
+            "text": "Bring different community needs into a shared plan"
+          }
+        ],
+        "kind": "field",
+        "scope": "business",
+        "before": 17,
+        "after": 3
+      },
+      {
+        "index": 125,
+        "id": "business-refine-3",
+        "type": "multi",
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "id": "business-refine-3-1",
+            "text": "Transactions, forecasts, and financial assumptions"
+          },
+          {
+            "id": "business-refine-3-2",
+            "text": "Customer evidence and whether messages are effective"
+          },
+          {
+            "id": "business-refine-3-3",
+            "text": "Responsibilities, schedules, and how people are treated"
+          },
+          {
+            "id": "business-refine-3-4",
+            "text": "Bottlenecks, capacity, and the use of space"
+          },
+          {
+            "id": "business-refine-3-5",
+            "text": "Evidence, wording, and legal deadlines"
+          }
+        ],
+        "kind": "field",
+        "scope": "business",
+        "before": 9,
+        "after": 1
+      },
+      {
+        "index": 126,
+        "id": "business-refine-4",
+        "type": "multi",
+        "prompt": "Which introduction would you choose?",
+        "options": [
+          {
+            "id": "business-refine-4-1",
+            "text": "Make and explain a simple budget"
+          },
+          {
+            "id": "business-refine-4-2",
+            "text": "Research a customer need and test a message"
+          },
+          {
+            "id": "business-refine-4-3",
+            "text": "Plan a small team project and review what worked"
+          },
+          {
+            "id": "business-refine-4-4",
+            "text": "Improve a delivery route, process, or shared space"
+          },
+          {
+            "id": "business-refine-4-5",
+            "text": "Compare arguments in a public legal case"
+          }
+        ],
+        "kind": "field",
+        "scope": "business",
+        "before": 8,
+        "after": 5
+      },
+      {
+        "index": 473,
+        "id": "business-evidence",
+        "type": "multi",
+        "prompt": "What would you enjoy using to make a recommendation?",
+        "options": [
+          {
+            "id": "business-evidence-1",
+            "text": "Financial reports, costs and investment information"
+          },
+          {
+            "id": "business-evidence-2",
+            "text": "Customer interviews and market patterns"
+          },
+          {
+            "id": "business-evidence-3",
+            "text": "Policies, legal sources and carefully organized facts"
+          },
+          {
+            "id": "business-evidence-4",
+            "text": "Schedules, workflow data and conversations with a team"
+          }
+        ],
+        "kind": "field",
+        "scope": "business",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "index": 474,
+        "id": "business-workday",
+        "type": "multi",
+        "prompt": "Which parts of the work would you like to try?",
+        "options": [
+          {
+            "id": "business-workday-1",
+            "text": "Check detailed records and explain what changed"
+          },
+          {
+            "id": "business-workday-2",
+            "text": "Balance deadlines, costs and changing priorities"
+          },
+          {
+            "id": "business-workday-3",
+            "text": "Research a question and defend a recommendation with evidence"
+          },
+          {
+            "id": "business-workday-4",
+            "text": "Explain choices and work toward an agreement"
+          }
+        ],
+        "kind": "field",
+        "scope": "business",
+        "before": 1,
+        "after": 5
+      },
+      {
+        "index": 475,
+        "id": "business-refine-1",
+        "type": "multi",
+        "prompt": "Which decision would you enjoy investigating?",
+        "options": [
+          {
+            "id": "business-refine-1-1",
+            "text": "How money is recorded, invested, or planned"
+          },
+          {
+            "id": "business-refine-1-2",
+            "text": "What customers want and how to reach them"
+          },
+          {
+            "id": "business-refine-1-3",
+            "text": "How a team or service can work more effectively"
+          },
+          {
+            "id": "business-refine-1-4",
+            "text": "How goods, places, and resources should be organised"
+          },
+          {
+            "id": "business-refine-1-5",
+            "text": "How a rule or legal argument applies to a situation"
+          }
+        ],
+        "kind": "field",
+        "scope": "business",
+        "before": 9,
+        "after": 5
+      },
+      {
+        "index": 476,
+        "id": "business-refine-2",
+        "type": "multi",
+        "prompt": "Which result would you like to produce?",
+        "options": [
+          {
+            "id": "business-refine-2-1",
+            "text": "Accurate accounts or a clear financial recommendation"
+          },
+          {
+            "id": "business-refine-2-2",
+            "text": "An audience study or a marketing plan"
+          },
+          {
+            "id": "business-refine-2-3",
+            "text": "A project plan or better way to support employees"
+          },
+          {
+            "id": "business-refine-2-4",
+            "text": "A more effective delivery, production, or city plan"
+          },
+          {
+            "id": "business-refine-2-5",
+            "text": "A well-supported case or legal document"
+          }
+        ],
+        "kind": "field",
+        "scope": "business",
+        "before": 9,
+        "after": 1
+      },
+      {
+        "index": 787,
+        "id": "sales-office-help",
+        "type": "multi",
+        "prompt": "How would you enjoy helping people?",
+        "options": [
+          {
+            "id": "sales-office-help-1",
+            "text": "Understand what they need and explain useful options"
+          },
+          {
+            "id": "sales-office-help-2",
+            "text": "Resolve a question or a problem with a service"
+          },
+          {
+            "id": "sales-office-help-3",
+            "text": "Arrange appointments, information and daily details"
+          },
+          {
+            "id": "sales-office-help-4",
+            "text": "Keep payments and financial records accurate"
+          }
+        ],
+        "kind": "field",
+        "scope": "sales-office",
+        "before": 0,
+        "after": 11
+      },
+      {
+        "index": 131,
+        "id": "sales-office-workday",
+        "type": "multi",
+        "prompt": "Which routines would you like to learn?",
+        "options": [
+          {
+            "id": "sales-office-workday-1",
+            "text": "Listen carefully and explain options in everyday language"
+          },
+          {
+            "id": "sales-office-workday-2",
+            "text": "Follow up until a request or issue is resolved"
+          },
+          {
+            "id": "sales-office-workday-3",
+            "text": "Switch between requests while keeping clear records"
+          },
+          {
+            "id": "sales-office-workday-4",
+            "text": "Check details and use payment or record systems accurately"
+          }
+        ],
+        "kind": "field",
+        "scope": "sales-office",
+        "before": 0,
+        "after": 13
+      },
+      {
+        "index": 132,
+        "id": "sales-office-refine-3",
+        "type": "multi",
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "id": "sales-office-refine-3-1",
+            "text": "Product information, prices, and payments"
+          },
+          {
+            "id": "sales-office-refine-3-2",
+            "text": "Service history and what a customer needs"
+          },
+          {
+            "id": "sales-office-refine-3-3",
+            "text": "Appointments, messages, and document accuracy"
+          },
+          {
+            "id": "sales-office-refine-3-4",
+            "text": "Transactions, categories, and reconciliations"
+          },
+          {
+            "id": "sales-office-refine-3-5",
+            "text": "Client needs, contract terms, and required disclosures"
+          }
+        ],
+        "kind": "field",
+        "scope": "sales-office",
+        "before": 0,
+        "after": 9
+      },
+      {
+        "index": 135,
+        "id": "bookkeeping-clerk-interest-044-1",
+        "type": "specific",
+        "prompt": "Would you like to learn to keep an organization’s records of money coming in and going out, using bookkeeping tools you would be taught?",
+        "kind": "profession",
+        "scope": "bookkeeping-clerk",
+        "before": 0,
+        "after": 1
+      },
+      {
+        "index": 136,
+        "id": "bookkeeping-clerk-interest-044-2",
+        "type": "specific",
+        "prompt": "Would you like to learn to check business bills, payments, and account entries and correct records that do not add up?",
+        "kind": "profession",
+        "scope": "bookkeeping-clerk",
+        "before": 0,
+        "after": 1
+      }
+    ]
+  },
+  {
+    "modelId": "grok075-0007",
+    "name": "Ruby Callahan",
+    "cohort": "grok075",
+    "careerId": "environmental-science",
+    "career": "Environmental scientists & specialists",
+    "frequency": {
+      "before": 16,
+      "after": 77,
+      "delta": 61
+    },
+    "beforeTop": [],
+    "afterTop": [
+      "Environmental scientists & specialists",
+      "Geoscientists"
+    ],
+    "beforeSupported": false,
+    "afterSupported": true,
+    "profile": {
+      "id": "grok075-0007",
+      "name": "Ruby Callahan",
+      "age": 16,
+      "gender": "girl",
+      "raceEthnicity": "White non-Hispanic",
+      "region": "South",
+      "locale": "rural",
+      "household": "Family pasture with goats, parents, and a grandfather. Income swings with the season. One shared truck. She does morning feeding before the bus. No nearby college; the community college is 40 minutes away.",
+      "school": "County public high school, grade 11. Agriculture and a basic biology class. No advanced science. 4-H is the main formal project. Broadband at the house is weak.",
+      "wellbeing": "Unstated. Early mornings are tiring in kidding season and she still attends. No counselor and no requested accommodation.",
+      "motivation": [
+        "Keep the animals on a steady routine",
+        "Notice what changed at the creek",
+        "Find training that does not require giving up the herd"
+      ],
+      "strengths": [
+        "Keeps feeding and milk notes consistent",
+        "Compares the bank after rain without rushing",
+        "Developing: asking what a campus week would actually cost"
+      ],
+      "confidence": 3,
+      "exposure": "limited",
+      "education": "associate",
+      "workContext": "Outdoors, physical, early hours, mostly with family or a small 4-H group. Needs a truck or a program within a bus ride. Fine with mud and weather.",
+      "constraints": [
+        "Shared truck",
+        "Herd chores at dawn",
+        "Aid needed for any campus term"
+      ],
+      "narrative": "Ruby checks the creek behind the pasture twice a week, noting muddy banks and which birds stay after rain. She likes the routine of feeding goats more than fair showing and has no interest in ads or performances. The county has no advanced science class, and transport is a shared truck. She wants further training if aid appears, and she is unsure about leaving the animals for a full-time campus.",
+      "lifestyleChoices": {
+        "home": 0,
+        "transport": 0,
+        "groceries": 0,
+        "dining": 0,
+        "travel": 0,
+        "entertainment": 0,
+        "recreation": 1,
+        "clothing": 0,
+        "saving": 1
+      },
+      "statedEnjoyedActivities": [
+        "Comparing rock samples, terrain maps and changes in water moving across the ground",
+        "Observing animal behavior carefully and choosing to help with routine animal care",
+        "Monitoring a stream or habitat, comparing changes and discussing ways to reduce waste"
+      ],
+      "statedDislikedActivities": [
+        "Rehearsing a dance or dramatic scene and revising how movement communicates to an audience",
+        "Trying different messages for a voluntary project and comparing how people interpret them"
+      ],
+      "statedEnjoyedMethods": [
+        "Collecting observations outside and comparing places over time",
+        "Organizing information and keeping a sequence or record consistent"
+      ],
+      "statedDislikedMethods": [],
+      "statedResponsibilities": [
+        "I want to learn to design an investigation, tolerate uncertain results and explain the limits of a conclusion"
+      ]
+    },
+    "questions": [
+      {
+        "index": 384,
+        "id": "science-wonder",
+        "type": "multi",
+        "prompt": "What would you most enjoy investigating?",
+        "options": [
+          {
+            "id": "science-wonder-1",
+            "text": "Living organisms and how they function"
+          },
+          {
+            "id": "science-wonder-2",
+            "text": "Substances, materials and how they change"
+          },
+          {
+            "id": "science-wonder-3",
+            "text": "Air, water, soil and environmental change"
+          },
+          {
+            "id": "science-wonder-4",
+            "text": "Plants, land or animals that people care for"
+          }
+        ],
+        "kind": "field",
+        "scope": "science",
+        "before": 8,
+        "after": 13
+      },
+      {
+        "index": 321,
+        "id": "science-setting",
+        "type": "multi",
+        "prompt": "Where would you enjoy gathering information?",
+        "options": [
+          {
+            "id": "science-setting-1",
+            "text": "A laboratory with samples and careful procedures"
+          },
+          {
+            "id": "science-setting-2",
+            "text": "An outdoor site with observations and measurements"
+          },
+          {
+            "id": "science-setting-3",
+            "text": "A farm, nursery, garden or planted landscape"
+          },
+          {
+            "id": "science-setting-4",
+            "text": "An animal-care setting with patients and their owners"
+          }
+        ],
+        "kind": "field",
+        "scope": "science",
+        "before": 4,
+        "after": 14
+      },
+      {
+        "index": 201,
+        "id": "science-refine-3",
+        "type": "multi",
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "id": "science-refine-3-1",
+            "text": "Field measurements, maps, and changes over time"
+          },
+          {
+            "id": "science-refine-3-2",
+            "text": "Samples, lab procedures, and possible sources of error"
+          },
+          {
+            "id": "science-refine-3-3",
+            "text": "An animal’s symptoms, behaviour, and care needs"
+          },
+          {
+            "id": "science-refine-3-4",
+            "text": "Soil, watering, pests, and signs of growth"
+          }
+        ],
+        "kind": "field",
+        "scope": "science",
+        "before": 0,
+        "after": 1
+      },
+      {
+        "index": 322,
+        "id": "science-refine-4",
+        "type": "multi",
+        "prompt": "Which safe introduction would you choose?",
+        "options": [
+          {
+            "id": "science-refine-4-1",
+            "text": "A local field observation or conservation project"
+          },
+          {
+            "id": "science-refine-4-2",
+            "text": "A supervised laboratory or food-science demonstration"
+          },
+          {
+            "id": "science-refine-4-3",
+            "text": "An approved animal-care visit or veterinary observation"
+          },
+          {
+            "id": "science-refine-4-4",
+            "text": "A supervised garden or planting project"
+          }
+        ],
+        "kind": "field",
+        "scope": "science",
+        "before": 0,
+        "after": 5
+      },
+      {
+        "index": 385,
+        "id": "science-result",
+        "type": "multi",
+        "prompt": "Which result would you like your work to support?",
+        "options": [
+          {
+            "id": "science-result-1",
+            "text": "Understand something about life or a new material"
+          },
+          {
+            "id": "science-result-2",
+            "text": "Protect natural resources and explain environmental risks"
+          },
+          {
+            "id": "science-result-3",
+            "text": "Make food safer or improve how it is produced"
+          },
+          {
+            "id": "science-result-4",
+            "text": "Keep plants, animals or outdoor spaces healthy"
+          }
+        ],
+        "kind": "field",
+        "scope": "science",
+        "before": 8,
+        "after": 11
+      },
+      {
+        "index": 386,
+        "id": "science-workday",
+        "type": "multi",
+        "prompt": "Which routines would you like to learn?",
+        "options": [
+          {
+            "id": "science-workday-1",
+            "text": "Repeat a procedure and record results carefully"
+          },
+          {
+            "id": "science-workday-2",
+            "text": "Collect samples and connect findings to a real place"
+          },
+          {
+            "id": "science-workday-3",
+            "text": "Notice changes and provide regular practical care"
+          },
+          {
+            "id": "science-workday-4",
+            "text": "Explain evidence and its limits to other people"
+          }
+        ],
+        "kind": "field",
+        "scope": "science",
+        "before": 0,
+        "after": 15
+      },
+      {
+        "index": 202,
+        "id": "science-refine-1",
+        "type": "multi",
+        "prompt": "Which question would you want to investigate?",
+        "options": [
+          {
+            "id": "science-refine-1-1",
+            "text": "How habitats and natural resources are changing"
+          },
+          {
+            "id": "science-refine-1-2",
+            "text": "How substances, living cells, or food behave"
+          },
+          {
+            "id": "science-refine-1-3",
+            "text": "Why an animal is unwell and how it can be helped"
+          },
+          {
+            "id": "science-refine-1-4",
+            "text": "How plants grow under different conditions"
+          }
+        ],
+        "kind": "field",
+        "scope": "science",
+        "before": 0,
+        "after": 1
+      },
+      {
+        "index": 387,
+        "id": "science-refine-2",
+        "type": "multi",
+        "prompt": "Which result would you enjoy producing?",
+        "options": [
+          {
+            "id": "science-refine-2-1",
+            "text": "A careful field study and environmental recommendation"
+          },
+          {
+            "id": "science-refine-2-2",
+            "text": "A reliable laboratory result or food-quality finding"
+          },
+          {
+            "id": "science-refine-2-3",
+            "text": "An animal-care or treatment plan"
+          },
+          {
+            "id": "science-refine-2-4",
+            "text": "Healthy plants, crops, or a maintained landscape"
+          }
+        ],
+        "kind": "field",
+        "scope": "science",
+        "before": 0,
+        "after": 13
+      },
+      {
+        "index": 392,
+        "id": "environmental-science-interest-044-1",
+        "type": "specific",
+        "prompt": "Would you like to learn to investigate how pollution affects land, air, or water and suggest ways to prevent harm as a regular part of your work?",
+        "kind": "profession",
+        "scope": "environmental-science",
+        "before": 0,
+        "after": 1
+      },
+      {
+        "index": 393,
+        "id": "environmental-science-interest-044-2",
+        "type": "specific",
+        "prompt": "Would you like to learn to collect environmental observations or samples and compare the results to understand what is changing as a regular part of your work?",
+        "kind": "profession",
+        "scope": "environmental-science",
+        "before": 0,
+        "after": 1
+      }
+    ]
+  },
+  {
+    "modelId": "grok075-0001",
+    "name": "Amara Ellison",
+    "cohort": "grok075",
+    "careerId": "degree-27204100",
+    "career": "Music Directors and Composers",
+    "frequency": {
+      "before": 85,
+      "after": 26,
+      "delta": -59
+    },
+    "beforeTop": [
+      "Poets, Lyricists and Creative Writers",
+      "Music Directors and Composers"
+    ],
+    "afterTop": [
+      "Poets, Lyricists and Creative Writers",
+      "Writers & authors"
+    ],
+    "beforeSupported": true,
+    "afterSupported": false,
+    "profile": {
+      "id": "grok075-0001",
+      "name": "Amara Ellison",
+      "age": 17,
+      "gender": "girl",
+      "raceEthnicity": "Black non-Hispanic",
+      "region": "South",
+      "locale": "urban",
+      "household": "Lives with her aunt and two younger cousins in a rented Atlanta duplex. The aunt's evening shift keeps cash tight, and Amara covers the walk home and dinner. A nearby youth arts program is free; travel for programs is not.",
+      "school": "Large public high school, grade 11. Theater elective and a small writing club; few hands-on tech courses. She drafts on the bus between pickup and homework.",
+      "wellbeing": "No named concern. She prefers small rehearsal rooms and can skip a loud gym assembly without other support.",
+      "motivation": [
+        "Hear whether a rewritten line lands",
+        "Keep a promise to the cousins",
+        "See if a low-cost writing program is realistic"
+      ],
+      "strengths": [
+        "Revises scenes after hearing them aloud",
+        "Keeps rehearsals moving when adults are late",
+        "Developing: asking for aid information before ruling a program out"
+      ],
+      "confidence": 3,
+      "exposure": "mixed",
+      "education": "open",
+      "workContext": "Small indoor group, unhurried, with quiet time to rewrite. No access equipment. Evenings must stay free for caregiving.",
+      "constraints": [
+        "Cousin care after school",
+        "Aid needed to leave the city",
+        "Evenings largely unavailable"
+      ],
+      "narrative": "Amara rewrites dialogue for a small church youth play and stays after rehearsal to adjust timing when a scene feels flat. She likes hearing how a line lands. Her aunt's evening shift means Amara walks two cousins home and finishes drafts on the bus. She has no interest in tracking money or repairing gear. She is unsure a writing program away from the city is realistic without aid.",
+      "lifestyleChoices": {
+        "home": 1,
+        "transport": 1,
+        "groceries": 1,
+        "dining": 0,
+        "travel": 1,
+        "entertainment": 1,
+        "recreation": 1,
+        "clothing": 1,
+        "saving": 1
+      },
+      "statedEnjoyedActivities": [
+        "Writing original scenes or essays and revising structure after a reader gives feedback",
+        "Layering a short recording, changing rhythm or timbre and comparing the result by listening"
+      ],
+      "statedDislikedActivities": [
+        "Building a small moving mechanism, comparing its motion and testing a revised part",
+        "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation"
+      ],
+      "statedEnjoyedMethods": [
+        "Revising an original form until it expresses the intended idea"
+      ],
+      "statedDislikedMethods": [],
+      "statedResponsibilities": []
+    },
+    "questions": [
+      {
+        "index": 60,
+        "id": "creative-make",
+        "type": "multi",
+        "prompt": "What would you enjoy creating?",
+        "options": [
+          {
+            "id": "creative-make-1",
+            "text": "A visual message that helps people understand an idea"
+          },
+          {
+            "id": "creative-make-2",
+            "text": "A useful object people can hold and use"
+          },
+          {
+            "id": "creative-make-3",
+            "text": "A story through words, photographs or moving images"
+          },
+          {
+            "id": "creative-make-4",
+            "text": "A way for people to connect with information or culture"
+          },
+          {
+            "id": "creative-make-5",
+            "text": "A personal design for someone’s body art"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 4
+      },
+      {
+        "index": 61,
+        "id": "creative-people",
+        "type": "multi",
+        "prompt": "Who would you enjoy creating with or for?",
+        "options": [
+          {
+            "id": "creative-people-1",
+            "text": "Clients who need a clear visual identity"
+          },
+          {
+            "id": "creative-people-2",
+            "text": "A team making a product or digital experience"
+          },
+          {
+            "id": "creative-people-3",
+            "text": "People sharing a story, language or point of view"
+          },
+          {
+            "id": "creative-people-4",
+            "text": "A community finding information and learning together"
+          },
+          {
+            "id": "creative-people-5",
+            "text": "A person choosing a lasting design that feels like them"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 4
+      },
+      {
+        "index": 62,
+        "id": "creative-refine-3",
+        "type": "multi",
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "id": "creative-refine-3-1",
+            "text": "Type, spacing, colour, and the order people read a page"
+          },
+          {
+            "id": "creative-refine-3-2",
+            "text": "Materials, proportions, and how parts fit a user’s hand"
+          },
+          {
+            "id": "creative-refine-3-3",
+            "text": "Words, meaning, and whether a claim is accurate"
+          },
+          {
+            "id": "creative-refine-3-4",
+            "text": "Timing, movement, lighting, and the mood of an image"
+          },
+          {
+            "id": "creative-refine-3-5",
+            "text": "Linework, placement, consent, and hygienic practice"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 0
+      },
+      {
+        "index": 63,
+        "id": "creative-refine-4",
+        "type": "multi",
+        "prompt": "Which beginner project would you choose?",
+        "options": [
+          {
+            "id": "creative-refine-4-1",
+            "text": "Design and revise a poster for a real audience"
+          },
+          {
+            "id": "creative-refine-4-2",
+            "text": "Sketch an app screen and watch someone try it"
+          },
+          {
+            "id": "creative-refine-4-3",
+            "text": "Build a simple model and improve how it works"
+          },
+          {
+            "id": "creative-refine-4-4",
+            "text": "Make a short written, photographic, or moving-image story"
+          },
+          {
+            "id": "creative-refine-4-5",
+            "text": "Explore design, language, or information with a community"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 8
+      },
+      {
+        "index": 64,
+        "id": "creative-revise",
+        "type": "multi",
+        "prompt": "Which kind of revision sounds satisfying?",
+        "options": [
+          {
+            "id": "creative-revise-1",
+            "text": "Make a layout easier to read and navigate"
+          },
+          {
+            "id": "creative-revise-2",
+            "text": "Improve how a product looks, feels and works"
+          },
+          {
+            "id": "creative-revise-3",
+            "text": "Shape the timing, mood or story of a scene"
+          },
+          {
+            "id": "creative-revise-4",
+            "text": "Find words that carry the right meaning for an audience"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 12,
+        "after": 12
+      },
+      {
+        "index": 65,
+        "id": "creative-workday",
+        "type": "multi",
+        "prompt": "Which parts of a creative workday would you like to try?",
+        "options": [
+          {
+            "id": "creative-workday-1",
+            "text": "Make several drafts and improve them after feedback"
+          },
+          {
+            "id": "creative-workday-2",
+            "text": "Work carefully with images, light, movement or sound"
+          },
+          {
+            "id": "creative-workday-3",
+            "text": "Ask people questions before deciding what to make"
+          },
+          {
+            "id": "creative-workday-4",
+            "text": "Research meaning and check that information is accurate"
+          },
+          {
+            "id": "creative-workday-5",
+            "text": "Practice careful techniques while following studio hygiene routines"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "index": 66,
+        "id": "creative-refine-1",
+        "type": "multi",
+        "prompt": "Which creative problem would keep you curious?",
+        "options": [
+          {
+            "id": "creative-refine-1-1",
+            "text": "Make a visual message memorable without making it confusing"
+          },
+          {
+            "id": "creative-refine-1-2",
+            "text": "Make a website or app easier to understand and use"
+          },
+          {
+            "id": "creative-refine-1-3",
+            "text": "Make a physical object more useful and appealing"
+          },
+          {
+            "id": "creative-refine-1-4",
+            "text": "Make a story, scene, or image more engaging"
+          },
+          {
+            "id": "creative-refine-1-5",
+            "text": "Help a person or community express something important"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 8
+      },
+      {
+        "index": 67,
+        "id": "creative-refine-2",
+        "type": "multi",
+        "prompt": "Which result would you most enjoy finishing?",
+        "options": [
+          {
+            "id": "creative-refine-2-1",
+            "text": "A visual identity and a set of clear layouts"
+          },
+          {
+            "id": "creative-refine-2-2",
+            "text": "A tested screen design that people can navigate"
+          },
+          {
+            "id": "creative-refine-2-3",
+            "text": "A model of a product people could hold"
+          },
+          {
+            "id": "creative-refine-2-4",
+            "text": "An edited story, film, animation, or photo series"
+          },
+          {
+            "id": "creative-refine-2-5",
+            "text": "A message or service shaped for a particular audience"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 24
+      },
+      {
+        "index": 778,
+        "id": "degree-27204100-047-domain",
+        "type": "specific",
+        "prompt": "Would you like to learn to create or shape musical works and performances by exploring how melody, rhythm, harmony, and interpretation affect what listeners experience?",
+        "kind": "profession",
+        "scope": "degree-27204100",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "index": 779,
+        "id": "degree-27204100-047-method",
+        "type": "specific",
+        "prompt": "Would you like to learn to develop musical ideas through composing, arranging, or interpreting scores, then revise them by listening carefully to how they sound?",
+        "kind": "profession",
+        "scope": "degree-27204100",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "index": 780,
+        "id": "degree-27204100-047-responsibility",
+        "type": "specific",
+        "prompt": "Would you like to learn to communicate musical intentions clearly and take responsibility for the coherence of a finished work or the preparation of a group performance?",
+        "kind": "profession",
+        "scope": "degree-27204100",
+        "before": 1,
+        "after": 0
+      }
+    ]
+  },
+  {
+    "modelId": "grok075-0001",
+    "name": "Amara Ellison",
+    "cohort": "grok075",
+    "careerId": "writing",
+    "career": "Writers & authors",
+    "frequency": {
+      "before": 49,
+      "after": 101,
+      "delta": 52
+    },
+    "beforeTop": [
+      "Poets, Lyricists and Creative Writers",
+      "Music Directors and Composers"
+    ],
+    "afterTop": [
+      "Poets, Lyricists and Creative Writers",
+      "Writers & authors"
+    ],
+    "beforeSupported": false,
+    "afterSupported": true,
+    "profile": {
+      "id": "grok075-0001",
+      "name": "Amara Ellison",
+      "age": 17,
+      "gender": "girl",
+      "raceEthnicity": "Black non-Hispanic",
+      "region": "South",
+      "locale": "urban",
+      "household": "Lives with her aunt and two younger cousins in a rented Atlanta duplex. The aunt's evening shift keeps cash tight, and Amara covers the walk home and dinner. A nearby youth arts program is free; travel for programs is not.",
+      "school": "Large public high school, grade 11. Theater elective and a small writing club; few hands-on tech courses. She drafts on the bus between pickup and homework.",
+      "wellbeing": "No named concern. She prefers small rehearsal rooms and can skip a loud gym assembly without other support.",
+      "motivation": [
+        "Hear whether a rewritten line lands",
+        "Keep a promise to the cousins",
+        "See if a low-cost writing program is realistic"
+      ],
+      "strengths": [
+        "Revises scenes after hearing them aloud",
+        "Keeps rehearsals moving when adults are late",
+        "Developing: asking for aid information before ruling a program out"
+      ],
+      "confidence": 3,
+      "exposure": "mixed",
+      "education": "open",
+      "workContext": "Small indoor group, unhurried, with quiet time to rewrite. No access equipment. Evenings must stay free for caregiving.",
+      "constraints": [
+        "Cousin care after school",
+        "Aid needed to leave the city",
+        "Evenings largely unavailable"
+      ],
+      "narrative": "Amara rewrites dialogue for a small church youth play and stays after rehearsal to adjust timing when a scene feels flat. She likes hearing how a line lands. Her aunt's evening shift means Amara walks two cousins home and finishes drafts on the bus. She has no interest in tracking money or repairing gear. She is unsure a writing program away from the city is realistic without aid.",
+      "lifestyleChoices": {
+        "home": 1,
+        "transport": 1,
+        "groceries": 1,
+        "dining": 0,
+        "travel": 1,
+        "entertainment": 1,
+        "recreation": 1,
+        "clothing": 1,
+        "saving": 1
+      },
+      "statedEnjoyedActivities": [
+        "Writing original scenes or essays and revising structure after a reader gives feedback",
+        "Layering a short recording, changing rhythm or timbre and comparing the result by listening"
+      ],
+      "statedDislikedActivities": [
+        "Building a small moving mechanism, comparing its motion and testing a revised part",
+        "Reconciling club receipts, separating estimates from actual spending and checking a financial explanation"
+      ],
+      "statedEnjoyedMethods": [
+        "Revising an original form until it expresses the intended idea"
+      ],
+      "statedDislikedMethods": [],
+      "statedResponsibilities": []
+    },
+    "questions": [
+      {
+        "index": 60,
+        "id": "creative-make",
+        "type": "multi",
+        "prompt": "What would you enjoy creating?",
+        "options": [
+          {
+            "id": "creative-make-1",
+            "text": "A visual message that helps people understand an idea"
+          },
+          {
+            "id": "creative-make-2",
+            "text": "A useful object people can hold and use"
+          },
+          {
+            "id": "creative-make-3",
+            "text": "A story through words, photographs or moving images"
+          },
+          {
+            "id": "creative-make-4",
+            "text": "A way for people to connect with information or culture"
+          },
+          {
+            "id": "creative-make-5",
+            "text": "A personal design for someone’s body art"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 4
+      },
+      {
+        "index": 61,
+        "id": "creative-people",
+        "type": "multi",
+        "prompt": "Who would you enjoy creating with or for?",
+        "options": [
+          {
+            "id": "creative-people-1",
+            "text": "Clients who need a clear visual identity"
+          },
+          {
+            "id": "creative-people-2",
+            "text": "A team making a product or digital experience"
+          },
+          {
+            "id": "creative-people-3",
+            "text": "People sharing a story, language or point of view"
+          },
+          {
+            "id": "creative-people-4",
+            "text": "A community finding information and learning together"
+          },
+          {
+            "id": "creative-people-5",
+            "text": "A person choosing a lasting design that feels like them"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 4,
+        "after": 4
+      },
+      {
+        "index": 62,
+        "id": "creative-refine-3",
+        "type": "multi",
+        "prompt": "Which details would you enjoy checking?",
+        "options": [
+          {
+            "id": "creative-refine-3-1",
+            "text": "Type, spacing, colour, and the order people read a page"
+          },
+          {
+            "id": "creative-refine-3-2",
+            "text": "Materials, proportions, and how parts fit a user’s hand"
+          },
+          {
+            "id": "creative-refine-3-3",
+            "text": "Words, meaning, and whether a claim is accurate"
+          },
+          {
+            "id": "creative-refine-3-4",
+            "text": "Timing, movement, lighting, and the mood of an image"
+          },
+          {
+            "id": "creative-refine-3-5",
+            "text": "Linework, placement, consent, and hygienic practice"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 0
+      },
+      {
+        "index": 63,
+        "id": "creative-refine-4",
+        "type": "multi",
+        "prompt": "Which beginner project would you choose?",
+        "options": [
+          {
+            "id": "creative-refine-4-1",
+            "text": "Design and revise a poster for a real audience"
+          },
+          {
+            "id": "creative-refine-4-2",
+            "text": "Sketch an app screen and watch someone try it"
+          },
+          {
+            "id": "creative-refine-4-3",
+            "text": "Build a simple model and improve how it works"
+          },
+          {
+            "id": "creative-refine-4-4",
+            "text": "Make a short written, photographic, or moving-image story"
+          },
+          {
+            "id": "creative-refine-4-5",
+            "text": "Explore design, language, or information with a community"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 8
+      },
+      {
+        "index": 64,
+        "id": "creative-revise",
+        "type": "multi",
+        "prompt": "Which kind of revision sounds satisfying?",
+        "options": [
+          {
+            "id": "creative-revise-1",
+            "text": "Make a layout easier to read and navigate"
+          },
+          {
+            "id": "creative-revise-2",
+            "text": "Improve how a product looks, feels and works"
+          },
+          {
+            "id": "creative-revise-3",
+            "text": "Shape the timing, mood or story of a scene"
+          },
+          {
+            "id": "creative-revise-4",
+            "text": "Find words that carry the right meaning for an audience"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 12,
+        "after": 12
+      },
+      {
+        "index": 65,
+        "id": "creative-workday",
+        "type": "multi",
+        "prompt": "Which parts of a creative workday would you like to try?",
+        "options": [
+          {
+            "id": "creative-workday-1",
+            "text": "Make several drafts and improve them after feedback"
+          },
+          {
+            "id": "creative-workday-2",
+            "text": "Work carefully with images, light, movement or sound"
+          },
+          {
+            "id": "creative-workday-3",
+            "text": "Ask people questions before deciding what to make"
+          },
+          {
+            "id": "creative-workday-4",
+            "text": "Research meaning and check that information is accurate"
+          },
+          {
+            "id": "creative-workday-5",
+            "text": "Practice careful techniques while following studio hygiene routines"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 3,
+        "after": 3
+      },
+      {
+        "index": 66,
+        "id": "creative-refine-1",
+        "type": "multi",
+        "prompt": "Which creative problem would keep you curious?",
+        "options": [
+          {
+            "id": "creative-refine-1-1",
+            "text": "Make a visual message memorable without making it confusing"
+          },
+          {
+            "id": "creative-refine-1-2",
+            "text": "Make a website or app easier to understand and use"
+          },
+          {
+            "id": "creative-refine-1-3",
+            "text": "Make a physical object more useful and appealing"
+          },
+          {
+            "id": "creative-refine-1-4",
+            "text": "Make a story, scene, or image more engaging"
+          },
+          {
+            "id": "creative-refine-1-5",
+            "text": "Help a person or community express something important"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 8
+      },
+      {
+        "index": 67,
+        "id": "creative-refine-2",
+        "type": "multi",
+        "prompt": "Which result would you most enjoy finishing?",
+        "options": [
+          {
+            "id": "creative-refine-2-1",
+            "text": "A visual identity and a set of clear layouts"
+          },
+          {
+            "id": "creative-refine-2-2",
+            "text": "A tested screen design that people can navigate"
+          },
+          {
+            "id": "creative-refine-2-3",
+            "text": "A model of a product people could hold"
+          },
+          {
+            "id": "creative-refine-2-4",
+            "text": "An edited story, film, animation, or photo series"
+          },
+          {
+            "id": "creative-refine-2-5",
+            "text": "A message or service shaped for a particular audience"
+          }
+        ],
+        "kind": "field",
+        "scope": "creative",
+        "before": 8,
+        "after": 24
+      },
+      {
+        "index": 72,
+        "id": "writing-interest-044-1",
+        "type": "specific",
+        "prompt": "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+        "kind": "profession",
+        "scope": "writing",
+        "before": 0,
+        "after": 1
+      },
+      {
+        "index": 73,
+        "id": "writing-interest-044-2",
+        "type": "specific",
+        "prompt": "Would you like to learn to revise your writing after feedback so its message, structure, and style work better for its intended readers?",
+        "kind": "profession",
+        "scope": "writing",
+        "before": 0,
+        "after": 1
+      }
+    ]
+  }
+]

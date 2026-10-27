@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>O*NET to Fieldguide transition · 0.31.12 · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>O*NET to Fieldguide transition · 0.31.12</h1><p>Retained development record. It may describe an earlier release.</p><a href="./followup-transition-2026-10-18.md" download>Download original Markdown</a><pre class="document"># O*NET to Fieldguide transition · 0.31.12
+
+A short screen now separates the 60 official O*NET items from Fieldguide's everyday-work follow-ups. It uses the approved wording:
+
+&gt; Let’s get more specific.
+&gt;
+&gt; You’ve finished the O*NET interest questions. Next, we’ll explore everyday work in more detail.
+&gt;
+&gt; The choices now run from “Really not for me” to “I’d love this.” Keep focusing on what you’d enjoy—not your skills, training, or pay.
+
+## Behavior
+
+- After the last official answer, Keep going opens the first required follow-up.
+- Back returns to the final official question and preserves the answer. Back from the first follow-up returns to this explanation.
+- Reloading on the transition keeps the transition. Continuing is saved, so reloading a follow-up does not repeat it.
+- Existing drafts with follow-up answers resume without interruption.
+- O*NET wording, labels, scores, question order and matching remain unchanged. This is a navigation and presentation update.
+
+## Verification
+
+40 relevant automated tests passed, covering the transition, questionnaire, encouragement, restart, student rendering and Developer links. Five new transition tests cover section boundaries, stored state, legacy drafts, incomplete profiles and approved copy.
+
+An isolated fictional medicine student was tested in the browser from question 60 through the transition and first follow-up, including Back and reload. Viewports: 390 × 844 and 320 × 740. No horizontal overflow; body copy 18px; both actions visible. No real account or student data was modified.
+
+Record: [Phone checks](../validation/followup-transition-phone-2026-10-18.json).
+</pre></main></html>

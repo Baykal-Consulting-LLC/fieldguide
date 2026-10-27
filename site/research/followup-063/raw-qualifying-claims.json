@@ -1,0 +1,145 @@
+{
+  "runId": "1ca302bea33dc96c42ad12ff9cf7bf2cfea250204548ebe616095d158af2e0d9",
+  "classification": "Raw pre-review support claims, before the evidence review overlay. These are not accepted new matches.",
+  "claims": [
+    {
+      "modelId": "life-036",
+      "offer": {
+        "id": "food-counter",
+        "title": "Fast Food & Counter Workers",
+        "fields": [
+          "services"
+        ],
+        "r": 0.6256174702965333,
+        "degree": false,
+        "band": "Specific interests supported",
+        "supported": true,
+        "inferred": true,
+        "budget": {
+          "covers": false,
+          "amount": 24085,
+          "reason": "First paid stage under stated assumptions"
+        },
+        "activityTopics": [],
+        "evidence": [
+          {
+            "questionId": "services-serve",
+            "prompt": "What would you enjoy helping people with?",
+            "domain": "tasks",
+            "text": "A welcoming meal, event or customer experience",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "She sold ceramic planters at a school fair and discovered that pricing, packaging, and talking to buyers interested her as much as making them.",
+            "kind": "task"
+          },
+          {
+            "questionId": "services-workday",
+            "prompt": "Which routines would you like to learn?",
+            "domain": "context",
+            "text": "Practice hygiene, careful preparation and repeatable techniques",
+            "source": "student",
+            "confidence": "high",
+            "evidence": "",
+            "kind": "task"
+          },
+          {
+            "questionId": "food-counter-interest-044-1",
+            "prompt": "Would you like to learn to take customers' food orders and payments accurately in a quick-service restaurant or food counter as a regular part of your work?",
+            "domain": "food-counter-interest-044-1",
+            "text": "Would you like to learn to take customers' food orders and payments accurately in a quick-service restaurant or food counter as a regular part of your work?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "She built elaborate pretend restaurants and remembered guests’ orders; later she enjoyed talking with buyers at a fair.",
+            "kind": "specific"
+          },
+          {
+            "questionId": "food-counter-interest-044-2",
+            "prompt": "Would you like to learn to prepare or serve customers' orders while keeping the food service area organized and clean as a regular part of your work?",
+            "domain": "food-counter-interest-044-2",
+            "text": "Would you like to learn to prepare or serve customers' orders while keeping the food service area organized and clean as a regular part of your work?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Her elaborate restaurant play included serving orders and assigning washing-up, and she now enjoys buyer interaction.",
+            "kind": "specific"
+          }
+        ],
+        "contrary": [],
+        "missing": [],
+        "taskDomains": [
+          "tasks",
+          "context"
+        ]
+      }
+    },
+    {
+      "modelId": "new049-017",
+      "offer": {
+        "id": "librarian",
+        "title": "Librarians & media specialists",
+        "fields": [
+          "creative",
+          "education"
+        ],
+        "r": 0.08778453426312269,
+        "degree": true,
+        "band": "Specific interests supported",
+        "supported": true,
+        "inferred": true,
+        "budget": {
+          "covers": false,
+          "amount": 56904,
+          "reason": "First paid stage under stated assumptions"
+        },
+        "activityTopics": [],
+        "evidence": [
+          {
+            "questionId": "creative-people",
+            "prompt": "Who would you enjoy creating with or for?",
+            "domain": "context",
+            "text": "A community finding information and learning together",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "Elena now shares short annotated examples in a class chat when someone requests help.",
+            "kind": "task"
+          },
+          {
+            "questionId": "creative-refine-3",
+            "prompt": "Which details would you enjoy checking?",
+            "domain": "process",
+            "text": "Words, meaning, and whether a claim is accurate",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "She voluntarily helped two classmates understand density by comparing containers from home. When one example failed, she asked the teacher and rewrote it.",
+            "kind": "task"
+          },
+          {
+            "questionId": "librarian-interest-044-1",
+            "prompt": "Would you like to learn to help someone work out what information they need and search reliable sources to answer their question as a regular part of your work?",
+            "domain": "librarian-interest-044-1",
+            "text": "Would you like to learn to help someone work out what information they need and search reliable sources to answer their question as a regular part of your work?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "She checked a failed density example with a teacher and likes finding a clearer explanation, supporting learning to define and answer an information need.",
+            "kind": "specific"
+          },
+          {
+            "questionId": "librarian-interest-044-2",
+            "prompt": "Would you like to learn to guide library users in finding and using books, reference materials, or online information for their own purposes as a regular part of your work?",
+            "domain": "librarian-interest-044-2",
+            "text": "Would you like to learn to guide library users in finding and using books, reference materials, or online information for their own purposes as a regular part of your work?",
+            "source": "profile-inferred",
+            "confidence": "medium",
+            "evidence": "She wants a usable explanation booklet and shares annotated help on request, supporting tentative interest in helping someone find useful information, while library operations are new.",
+            "kind": "specific"
+          }
+        ],
+        "contrary": [],
+        "missing": [],
+        "taskDomains": [
+          "context",
+          "process"
+        ]
+      }
+    }
+  ]
+}

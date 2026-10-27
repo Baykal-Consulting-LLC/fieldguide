@@ -1,0 +1,63 @@
+{
+  "reviewDate": "2026-10-18",
+  "scope": "Developer research publication only; student assets and behavior unchanged",
+  "mainReport": "competitive-services-review-2026-10-18.md.html",
+  "services": 27,
+  "researchAgents": 3,
+  "reports": [
+    {
+      "file": "dist/developer/research/competitive-additional-services-2026-10-18.md.html",
+      "internalLinksResolve": true,
+      "formattedReport": true,
+      "tables": 0
+    },
+    {
+      "file": "dist/developer/research/competitive-assessments-2026-10-18.md.html",
+      "internalLinksResolve": true,
+      "formattedReport": true,
+      "tables": 0
+    },
+    {
+      "file": "dist/developer/research/competitive-consumer-finance-2026-10-18.md.html",
+      "internalLinksResolve": true,
+      "formattedReport": true,
+      "tables": 2
+    },
+    {
+      "file": "dist/developer/research/competitive-financial-methods-2026-10-18.md.html",
+      "internalLinksResolve": true,
+      "formattedReport": true,
+      "tables": 1
+    },
+    {
+      "file": "dist/developer/research/competitive-school-platforms-2026-10-18.md.html",
+      "internalLinksResolve": true,
+      "formattedReport": true,
+      "tables": 1
+    },
+    {
+      "file": "dist/developer/research/competitive-services-review-2026-10-18.md.html",
+      "internalLinksResolve": true,
+      "formattedReport": true,
+      "tables": 5
+    },
+    {
+      "file": "dist/developer/research/competitive-student-outcomes-2026-10-18.md.html",
+      "internalLinksResolve": true,
+      "formattedReport": true,
+      "tables": 0
+    }
+  ],
+  "checks": {
+    "developerLinkAndStudentRenderingAudit": "3 tests passed before final prose addenda; student code unchanged",
+    "scriptSyntax": "passed",
+    "reportInternalLinks": "all seven reports checked",
+    "studentTrackedAssetsUnchanged": true
+  },
+  "limitations": [
+    "No authenticated competitor student walkthroughs",
+    "No student pilot or predictive validation performed in this research task",
+    "One anonymous Princeton Review opening screen observed by research agent",
+    "Financial discrepancy recorded for correction; salary code unchanged"
+  ]
+}

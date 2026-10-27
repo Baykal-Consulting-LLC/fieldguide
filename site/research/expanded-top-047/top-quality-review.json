@@ -1,0 +1,972 @@
+{
+  "version": "0.47.0-post-freeze-quality-review",
+  "reviewedAt": "2026-10-19",
+  "scope": "All 60 public new-inventory Top offers across 49 public models. Reviewed frozen prompts, answers and evidence against original public biography timelines, current activities and self-descriptions. No private files and no changes to answers, code, outcomes or frozen artifacts.",
+  "reviewerLimit": "One qualitative reviewer, not independent psychometric validation. The reviewer authored one subset of the earlier blinded annotations and explicitly flags an overread in that subset (life-075 music). No target count was used.",
+  "summary": {
+    "offers": 60,
+    "models": 49,
+    "verdictCounts": {
+      "supported-learning-transfer": 41,
+      "exploratory-caveat": 16,
+      "unsupported-promotion": 3
+    },
+    "definiteUnsupportedKeys": [
+      "life-075:degree-27204100",
+      "gap-006:degree-43908100",
+      "legacy-021:degree-43908100"
+    ],
+    "interpretation": "Most offers have a defensible novice learning-interest basis. Three promotions have a clear gap in distinctive work-interest confirmation and justify targeted direct-confirmation holds. Sixteen additional offers have softer scope caveats and suggested follow-ups; they are not recommended for automatic demotion or rejection. Research and destination roles should not be rejected for advanced education, limited experience or unknown professional competence."
+  },
+  "findings": [
+    {
+      "key": "life-020:degree-27101300",
+      "modelId": "life-020",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Artistic intention is not separated from functional mixed-material construction.",
+      "biographyEvidence": "The biography describes puppet lighting, simple circuits and visual scavenger clues; the frozen method evidence also cites a failed ramp, which demonstrates functional testing rather than visual composition.",
+      "resolvingQuestion": "Would you want to develop the visual form and meaning of original artworks, or is making a mechanism or performance scene work the part that interests you most?",
+      "recommendation": "Keep art and scenic/maker exploration open; do not treat the ramp test itself as evidence of artistic composition.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-021:degree-19309300",
+      "modelId": "life-021",
+      "careerId": "degree-19309300",
+      "title": "Historians",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Archival identification and historical curiosity are not yet clearly historical investigation.",
+      "biographyEvidence": "She collects old postcards, writes stories about ordinary lives and identifies school photographs. The annotation says she investigates the people behind messages, but the biography establishes curiosity and story-writing more clearly than comparison of original records.",
+      "resolvingQuestion": "Would you enjoy testing an explanation about how people lived in the past by comparing original records, even when the sources contradict an appealing story?",
+      "recommendation": "Archive stewardship is strongly grounded. Keep historical research available with one inquiry-specific follow-up rather than require academic publication.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-069:degree-27101300",
+      "modelId": "life-069",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Moving-image editing is being counted as the fine-artist medium without a distinguishing reflection.",
+      "biographyEvidence": "His repeated interests are stop-motion cuts, a sourced audio documentary, swim-meet filming and sequence editing. The annotation explicitly treats these as visual artwork as the prompt is worded.",
+      "resolvingQuestion": "Would you like to make original drawings, sculptures or other visual art pieces, as well as films, or is shaping moving-image stories the work you want to explore?",
+      "recommendation": "Broaden media opportunities while distinguishing the intended occupation. Do not infer dislike of fine art.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-075:degree-27204100",
+      "modelId": "life-075",
+      "careerId": "degree-27204100",
+      "title": "Music Directors and Composers",
+      "verdict": "unsupported-promotion",
+      "priority": "high",
+      "issue": "Performing an ensemble part is not evidence of composing, arranging or directing music.",
+      "biographyEvidence": "The original biography describes recorder, school percussion, listening within a group and a sound-map ambition. It does not describe writing music, arranging scores or directing performers. The three frozen Yes answers were supported by participation rather than the distinctive activity.",
+      "resolvingQuestion": "Would you enjoy creating or arranging music, or guiding other performers in how a piece should sound, rather than mainly playing your own part?",
+      "recommendation": "Retain musical performance and sound exploration; require direct confirmation before calling composition/direction Top.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": true
+    },
+    {
+      "key": "life-082:degree-27101300",
+      "modelId": "life-082",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Commercial visual layout and styling are not clearly a personal fine-art practice.",
+      "biographyEvidence": "Photo edits, haircut designs, publicity posters, readable layouts and costume experiments are explicit. Original fine-art objects or illustration as a chosen medium are less clear.",
+      "resolvingQuestion": "Would you like to create original visual artworks or illustrations, or is designing useful publicity, styling and readable layouts the more appealing work?",
+      "recommendation": "Keep applied-design opportunities prominent and ask which creative object matters. Do not require a professional portfolio.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-085:degree-27101300",
+      "modelId": "life-085",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Original filming is being generalized to Fine Artists without checking the desired medium.",
+      "biographyEvidence": "He makes films about everyday places, enjoys framing bus stops and has earlier insect photographs and paper animals. Current sustained creative work is filmmaking, not demonstrated interest in pursuing another fine-art medium.",
+      "resolvingQuestion": "Beyond filming everyday places, would you choose to develop drawings, sculptures or other original visual art pieces as regular work?",
+      "recommendation": "Camera work has direct support. Distinguish an additional fine-art interest before treating both occupations as separately confirmed.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-087:degree-27403100",
+      "modelId": "life-087",
+      "careerId": "degree-27403100",
+      "title": "Camera Operators, Television, Video, and Film",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Deciding which joke stays in an edit does not establish camera-shot design.",
+      "biographyEvidence": "The biography describes short comedy videos, sharing creative choices and negotiating the final joke. It does not identify an interest in framing, lighting, camera placement or camera movement.",
+      "resolvingQuestion": "Which part of making a video would you like to learn more deeply: designing and recording the shots, performing, writing, or editing the result?",
+      "recommendation": "Continue media exploration; ask the missing medium-specific activity rather than demand professional camera experience.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-094:degree-27101300",
+      "modelId": "life-094",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Paper-mechanism precision is not yet clearly visual-art intention.",
+      "biographyEvidence": "She repeatedly likes paper engineering and made pop-up cards for relatives. Enjoying precise folds and moving forms can support engineering, craft or art; the biography does not resolve which purpose attracts her.",
+      "resolvingQuestion": "Would you want to use paper forms to express visual ideas, or are the folds, movement and mechanical problem-solving the main appeal?",
+      "recommendation": "Keep the creative possibility open and distinguish art expression from functional mechanism interest.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-100:degree-27101300",
+      "modelId": "life-100",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Wearable craft design is plausible, but the exact Fine Artists identity is unresolved.",
+      "biographyEvidence": "He deliberately creates small wearable jewelry and has long arranged jewelry into patterns. This is real visual making, not merely a generic hobby, but it more directly supports jewelry/craft design than the whole fine-artist occupation.",
+      "resolvingQuestion": "Would you like to develop original visual art pieces across a personal style, or focus on designing and making wearable objects?",
+      "recommendation": "Offer the relevant craft/applied-art variant. This is a taxonomy clarification, not a reason to remove creative opportunities.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-022:degree-19309100",
+      "modelId": "life-022",
+      "careerId": "degree-19309100",
+      "title": "Anthropologists and Archeologists",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Respectful interviewing about a place is not alone evidence of anthropological inquiry.",
+      "biographyEvidence": "He interviews volunteers for stream documentation and cares about consent and attribution. The underlying question is environmental-media storytelling; no systematic question about culture or human social practices is explicit.",
+      "resolvingQuestion": "Would you like to investigate how a community lives and makes meaning by comparing interviews, observations and cultural evidence, rather than mainly recording an engaging account of a place?",
+      "recommendation": "Maintain qualitative research as an opportunity; distinguish research purpose from general interviewing.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-060:degree-27101300",
+      "modelId": "life-060",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Photographic composition is genuine, but a second Fine Artists label needs a medium or variant explanation.",
+      "biographyEvidence": "She repeatedly seeks particular light and unusual angles in photographs and now works on school news. That is strong photography evidence. It does not by itself establish painting, sculpture or illustration, though fine-art photography is a plausible variant.",
+      "resolvingQuestion": "Would you want to create a personal artistic photographic series, or is documenting people and events accurately the work you would most like to develop?",
+      "recommendation": "Do not reject art because photography is the medium; explicitly name the photographic variant and avoid an unexplained duplicate occupational identity.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-072:degree-19309300",
+      "modelId": "life-072",
+      "careerId": "degree-19309300",
+      "title": "Historians",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Comparing family recollections and consent practices does not fully establish historical analysis.",
+      "biographyEvidence": "They listen to relatives tell events differently and collected audio interviews, then honored a removal request. Consent is good evidence of ethical recording, but not the same as reconstructing historical context or qualifying competing explanations.",
+      "resolvingQuestion": "Would you like to investigate a question about the past using several kinds of original evidence, even if the work is not part of making an audio story?",
+      "recommendation": "Preserve oral-history exploration; ask about the analytical purpose rather than require written academic research experience.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "life-093:degree-27101300",
+      "modelId": "life-093",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Following crochet patterns is not clearly the same interest as developing original visual artworks.",
+      "biographyEvidence": "Crochet gifts, repeated stitch patterns and undoing mistakes are well established. The annotation also uses imaginative rock labels, which are writing rather than evidence of original visual composition.",
+      "resolvingQuestion": "Would you enjoy inventing and revising your own visual designs in yarn or other materials, or do you mainly enjoy making useful gifts from established patterns?",
+      "recommendation": "Craft can be an authentic opportunity. Clarify original design and medium rather than treating all handwork as Fine Artists.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "gap-006:degree-43908100",
+      "modelId": "gap-006",
+      "careerId": "degree-43908100",
+      "title": "Proofreaders and Copy Markers",
+      "verdict": "unsupported-promotion",
+      "priority": "high",
+      "issue": "Numeric record reconciliation is being mistaken for proofreading publication text.",
+      "biographyEvidence": "He copies shelf labels and checks purchases against receipts. No sustained interest in spelling, grammar, wording, typeset copy or textual revisions appears. Numerical and routine accuracy are not enough to confirm the distinct object of this work.",
+      "resolvingQuestion": "Would you enjoy checking written pages for wording, spelling, punctuation and layout errors, as distinct from checking quantities, receipts and lists?",
+      "recommendation": "Keep records/bookkeeping/administrative interests; leave text proofreading pending until the student confirms it.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": true,
+      "sourceNuance": "O*NET includes comparing figures across records and verifying transactional data. Those facts support a real transferable method. The unsupported step is treating that method as full confirmation of the publication-text domain in the frozen question, not claiming numeric checking is irrelevant to the occupation."
+    },
+    {
+      "key": "gap-012:degree-19104200",
+      "modelId": "gap-012",
+      "careerId": "degree-19104200",
+      "title": "Medical Scientists, Except Epidemiologists",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Disease-mechanism interest is real, but research design and sustained evidence handling are uncertain.",
+      "biographyEvidence": "She likes illness mechanisms, prepared slides and checking conflicting explainers. She explicitly finds recording every observation tedious and avoids long repetitive logs. The third Yes cites a planned defensible source-comparison assignment and supervised safety, not an expressed interest in planning experimental health research.",
+      "resolvingQuestion": "Would you like to test an illness explanation through a planned study and keep enough careful records to judge the result, or would you mainly prefer learning and explaining established biology?",
+      "recommendation": "Keep this graduate/science opportunity. Ask about research activity after a neutral preview; lack of previous research competence is not the reason for the question.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "legacy-009:degree-15124400",
+      "modelId": "legacy-009",
+      "careerId": "degree-15124400",
+      "title": "Network and Computer Systems Administrators",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Device troubleshooting does not establish interest in administering shared services over time.",
+      "biographyEvidence": "They reconnect relatives' devices, test one change and record fixes. The frozen responsibility answer extrapolates to organizational access, backups and upgrades without a distinct expression of interest in those ongoing responsibilities.",
+      "resolvingQuestion": "Would you like to maintain shared networks, user access and backups over time, or mainly help someone diagnose and fix a particular device problem?",
+      "recommendation": "Keep practical technology exploration, including the destination role; do not require enterprise experience, but resolve the support-versus-system-stewardship interest.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "legacy-013:degree-19201200",
+      "modelId": "legacy-013",
+      "careerId": "degree-19201200",
+      "title": "Physicists",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Physics interest and disciplined testing are genuine; the research-versus-design purpose remains unresolved.",
+      "biographyEvidence": "Her repeated work is constrained bridge design, load testing and improving failed structures. She explicitly wants engineering study. This supports learning experimental methods, but does not establish a preference for investigating physical principles independently of designing a useful structure.",
+      "resolvingQuestion": "Would you enjoy investigating a physical principle even when the aim is a new explanation rather than improving a particular structure or product?",
+      "recommendation": "Keep physics as a serious possibility alongside engineering. Do not reject for missing advanced mathematics or research experience; clarify the aim of the inquiry.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "legacy-020:degree-13108102",
+      "modelId": "legacy-020",
+      "careerId": "degree-13108102",
+      "title": "Logistics Analysts",
+      "verdict": "exploratory-caveat",
+      "priority": "medium",
+      "issue": "Supply-room routine is not yet evidence of analyzing delivery performance.",
+      "biographyEvidence": "He likes counts, labels and setup so others can find supplies. The method Yes is based on clearer box labels, rather than examining shipment records or delays. This is a real supply-domain connection with an unresolved analytical activity.",
+      "resolvingQuestion": "Would you enjoy comparing movement and delivery records to investigate delays and recommend a better flow, or mainly keep stock and locations accurate?",
+      "recommendation": "Keep logistics analysis available as further exploration; do not assume either that routine interest caps education or that stock counts establish analytical interest.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": false
+    },
+    {
+      "key": "legacy-021:degree-43908100",
+      "modelId": "legacy-021",
+      "careerId": "degree-43908100",
+      "title": "Proofreaders and Copy Markers",
+      "verdict": "unsupported-promotion",
+      "priority": "high",
+      "issue": "Address verification is being generalized to text proofreading.",
+      "biographyEvidence": "They check destination details and ambiguous abbreviations to make deliveries work. No repeated correction of text wording, spelling, grammar, layout or publication proofs appears.",
+      "resolvingQuestion": "Would checking written pages for language and layout errors appeal beyond verifying that an address identifies the right destination?",
+      "recommendation": "Keep transport, spatial and delivery-planning matches; require a direct textual-interest reflection for proofreading.",
+      "notACompetenceRejection": true,
+      "automaticDemotionRecommended": true,
+      "sourceNuance": "O*NET includes comparing figures across records and verifying transactional data. Those facts support a real transferable method. The unsupported step is treating that method as full confirmation of the publication-text domain in the frozen question, not claiming numeric checking is irrelevant to the occupation."
+    }
+  ],
+  "experiencedDestinationRoles": [
+    {
+      "modelId": "life-055",
+      "careerId": "degree-27204100",
+      "assessment": "Supported composition interest: repeated improvisation and recorded pieces. Show as a learning destination with preparation and experience caveats,not an immediate employment outcome. Do not require a wish to direct ensembles when composition is an allowed variant."
+    },
+    {
+      "modelId": "life-075",
+      "careerId": "degree-27204100",
+      "assessment": "Unsupported distinctive activity: ensemble participation is not composing or directing. Experience status is separate from this missing interest evidence."
+    },
+    {
+      "modelId": "life-060",
+      "careerId": "degree-27304100",
+      "assessment": "Supported editorial interest from current school news,caption editing and fact checking. Preserve destination/experience labeling and do not imply first-job readiness."
+    }
+  ],
+  "patternFindings": [
+    {
+      "pattern": "Broad visual-creation wording",
+      "assessment": "Fine Artists appears20times. Twelve are defensible from original visual making; eight need clarification of medium or purpose. Film,photography,commercial layouts,paper mechanisms and repeated craft patterns can be genuine interests without automatically resolving one Fine Artists identity. Clarify variants and adjacent roles rather than narrowing all creativity to drawing."
+    },
+    {
+      "pattern": "Generic accuracy projected into textual proofreading",
+      "assessment": "Both proofreading promotions rely on receipt/label or address accuracy. Ask about editing words and publication copy; numerical checking and destination verification support different work objects."
+    },
+    {
+      "pattern": "Participation projected into compositional leadership",
+      "assessment": "One of two music-direction/composition offers has recorded improvisation;the other has ensemble participation only. Make the distinct creating/arranging/directing activity explicit."
+    },
+    {
+      "pattern": "Inquiry purpose versus competence",
+      "assessment": "Disease curiosity and bridge physics justify research exploration. The remaining question is whether testing new explanations and handling evidence appeals,not whether a16-year-old can already conduct professional research. Historical interviewing likewise needs its analytic purpose separated from privacy-conscious storytelling."
+    },
+    {
+      "pattern": "Routine-domain overlap with analytical destinations",
+      "assessment": "Supply-room and device-support activity create real exploration links. Where the only evidence for analysis or ongoing system governance is accurate routine work,keep the advanced role available and ask that missing activity directly."
+    }
+  ],
+  "generalRecommendations": [
+    "Preserve the frozen answers and output. Add these qualitative review flags alongside them; do not silently rewrite the replay.",
+    "Apply a direct-confirmation hold only to the three clearly unsupported full promotions identified here. The sixteen softer cases are advisory exploration caveats, not automatic demotions. Preserve legitimate medium-confidence learning-interest transfers.",
+    "Use a short neutral preview and the exact scope question for uncertain offers. A direct confirmation can resolve them; unfamiliarity is neither No nor Yes.",
+    "Keep supported medium-confidence transfers. Do not demand a professional portfolio,paid job,advanced laboratory competence or prior management before a learner can have a Top interest match.",
+    "Where a question bank covers adjacent activities too broadly,version the clarification and run a fresh response round rather than retroactively reinterpret the earlier Yes.",
+    "Keep all new-career lifestyle feasibility unknown until source-backed costs and first-paid-stage pay are available; none of this review supplies financial evidence."
+  ],
+  "sources": [
+    {
+      "url": "https://www.onetonline.org/link/summary/27-1013.00",
+      "title": "O*NET Fine Artists",
+      "relevance": "Wide original-art media and visual-element tasks;also lists separate related occupations for craft,photography,set design andanimation. Occupational overlap warrants explicit variants,not blanket rejection of nonpainting art."
+    },
+    {
+      "url": "https://www.onetonline.org/link/summary/27-2041.00",
+      "title": "O*NET Music Directors and Composers",
+      "relevance": "Creating/arranging music or directing musical performance is the relevant object;ensemble participation alone does not establish it."
+    },
+    {
+      "url": "https://www.onetonline.org/link/summary/43-9081.00",
+      "title": "O*NET Proofreaders and Copy Markers",
+      "relevance": "Text/copy checking is the unresolved distinctive interest here. O*NET also includes comparing record figures and verifying transactional accuracy, so existing numeric/address checking legitimately supports a transferable method and an exploration invitation."
+    },
+    {
+      "url": "https://www.onetonline.org/link/summary/19-1042.00",
+      "title": "O*NET Medical Scientists",
+      "relevance": "Disease and treatment research gives a domain-specific destination;experimental inquiry must be distinguished from only consuming established health explanations."
+    },
+    {
+      "url": "https://www.onetonline.org/link/summary/19-2012.00",
+      "title": "O*NET Physicists",
+      "relevance": "Physical investigation is real learning-interest territory;clarify inquiry purpose versus solely improving a practical structure."
+    },
+    {
+      "url": "https://www.onetonline.org/link/summary/19-3093.00",
+      "title": "O*NET Historians",
+      "relevance": "Historical investigation andinterpretation distinguish the work from recording an engaging narrative alone."
+    }
+  ],
+  "reviewedPairs": [
+    {
+      "key": "life-005:degree-27101300",
+      "modelId": "life-005",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-005.json"
+    },
+    {
+      "key": "life-009:degree-27101300",
+      "modelId": "life-009",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-009.json"
+    },
+    {
+      "key": "life-012:degree-27304305",
+      "modelId": "life-012",
+      "careerId": "degree-27304305",
+      "title": "Poets, Lyricists and Creative Writers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original scenes, dialogue or explanatory fiction plus purposeful revision support the actual writing activity, including private or school work.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-012.json"
+    },
+    {
+      "key": "life-012:degree-27101300",
+      "modelId": "life-012",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-012.json"
+    },
+    {
+      "key": "life-013:degree-27101300",
+      "modelId": "life-013",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-013.json"
+    },
+    {
+      "key": "life-015:degree-27101300",
+      "modelId": "life-015",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-015.json"
+    },
+    {
+      "key": "life-020:degree-27101300",
+      "modelId": "life-020",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "rationale": "Artistic intention is not separated from functional mixed-material construction.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-020.json"
+    },
+    {
+      "key": "life-021:degree-25401100",
+      "modelId": "life-021",
+      "careerId": "degree-25401100",
+      "title": "Archivists",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Voluntary school-photo archiving and careful identification/cataloging directly support the work object and method; advanced privacy rules can be learned.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-021.json"
+    },
+    {
+      "key": "life-021:degree-19309300",
+      "modelId": "life-021",
+      "careerId": "degree-19309300",
+      "title": "Historians",
+      "verdict": "exploratory-caveat",
+      "rationale": "Archival identification and historical curiosity are not yet clearly historical investigation.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-021.json"
+    },
+    {
+      "key": "life-037:degree-27304305",
+      "modelId": "life-037",
+      "careerId": "degree-27304305",
+      "title": "Poets, Lyricists and Creative Writers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original scenes, dialogue or explanatory fiction plus purposeful revision support the actual writing activity, including private or school work.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-037.json"
+    },
+    {
+      "key": "life-042:degree-27304305",
+      "modelId": "life-042",
+      "careerId": "degree-27304305",
+      "title": "Poets, Lyricists and Creative Writers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original scenes, dialogue or explanatory fiction plus purposeful revision support the actual writing activity, including private or school work.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-042.json"
+    },
+    {
+      "key": "life-055:degree-27204100",
+      "modelId": "life-055",
+      "careerId": "degree-27204100",
+      "title": "Music Directors and Composers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated piano improvisation and creating recorded short pieces support composition; professional ensemble leadership is not mandatory for the composition variant.",
+      "requiresExperience": true,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-055.json"
+    },
+    {
+      "key": "life-058:degree-27101300",
+      "modelId": "life-058",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-058.json"
+    },
+    {
+      "key": "life-061:degree-27304305",
+      "modelId": "life-061",
+      "careerId": "degree-27304305",
+      "title": "Poets, Lyricists and Creative Writers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original scenes, dialogue or explanatory fiction plus purposeful revision support the actual writing activity, including private or school work.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-061.json"
+    },
+    {
+      "key": "life-064:degree-27101300",
+      "modelId": "life-064",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-064.json"
+    },
+    {
+      "key": "life-068:degree-27102700",
+      "modelId": "life-068",
+      "careerId": "degree-27102700",
+      "title": "Set and Exhibit Designers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated backstage/set activity or iterative spatial drawings plus a demanding set assignment support a specific scenic-design transfer; industry leadership is not assumed.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-068.json"
+    },
+    {
+      "key": "life-069:degree-27101300",
+      "modelId": "life-069",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "rationale": "Moving-image editing is being counted as the fine-artist medium without a distinguishing reflection.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-069.json"
+    },
+    {
+      "key": "life-070:degree-27101300",
+      "modelId": "life-070",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-070.json"
+    },
+    {
+      "key": "life-075:degree-27204100",
+      "modelId": "life-075",
+      "careerId": "degree-27204100",
+      "title": "Music Directors and Composers",
+      "verdict": "unsupported-promotion",
+      "rationale": "Performing an ensemble part is not evidence of composing, arranging or directing music.",
+      "requiresExperience": true,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-075.json"
+    },
+    {
+      "key": "life-078:degree-13105100",
+      "modelId": "life-078",
+      "careerId": "degree-13105100",
+      "title": "Cost Estimators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Actual expense comparisons, handmade-item pricing and interest in practical cost decisions support learning estimating; existing construction estimation competence is not required.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-078.json"
+    },
+    {
+      "key": "life-082:degree-27101300",
+      "modelId": "life-082",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "rationale": "Commercial visual layout and styling are not clearly a personal fine-art practice.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-082.json"
+    },
+    {
+      "key": "life-082:degree-27102500",
+      "modelId": "life-082",
+      "careerId": "degree-27102500",
+      "title": "Interior Designers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Deliberately redesigning a usable table and accessible audience seating supports interior spatial-use decisions, not an inference from disability alone.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-082.json"
+    },
+    {
+      "key": "life-085:degree-27101300",
+      "modelId": "life-085",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "rationale": "Original filming is being generalized to Fine Artists without checking the desired medium.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-085.json"
+    },
+    {
+      "key": "life-085:degree-27403100",
+      "modelId": "life-085",
+      "careerId": "degree-27403100",
+      "title": "Camera Operators, Television, Video, and Film",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Current repeated filmmaking with deliberate framing of ordinary places supports the camera-work object and method, with collaboration and permission awareness.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-085.json"
+    },
+    {
+      "key": "life-086:degree-27101300",
+      "modelId": "life-086",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-086.json"
+    },
+    {
+      "key": "life-087:degree-27403100",
+      "modelId": "life-087",
+      "careerId": "degree-27403100",
+      "title": "Camera Operators, Television, Video, and Film",
+      "verdict": "exploratory-caveat",
+      "rationale": "Deciding which joke stays in an edit does not establish camera-shot design.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-087.json"
+    },
+    {
+      "key": "life-089:degree-27101300",
+      "modelId": "life-089",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-089.json"
+    },
+    {
+      "key": "life-094:degree-27101300",
+      "modelId": "life-094",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "rationale": "Paper-mechanism precision is not yet clearly visual-art intention.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-094.json"
+    },
+    {
+      "key": "life-100:degree-27101300",
+      "modelId": "life-100",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "rationale": "Wearable craft design is plausible, but the exact Fine Artists identity is unresolved.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-100.json"
+    },
+    {
+      "key": "life-003:degree-27101300",
+      "modelId": "life-003",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-003.json"
+    },
+    {
+      "key": "life-022:degree-19309100",
+      "modelId": "life-022",
+      "careerId": "degree-19309100",
+      "title": "Anthropologists and Archeologists",
+      "verdict": "exploratory-caveat",
+      "rationale": "Respectful interviewing about a place is not alone evidence of anthropological inquiry.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-022.json"
+    },
+    {
+      "key": "life-057:degree-15125501",
+      "modelId": "life-057",
+      "careerId": "degree-15125501",
+      "title": "Video Game Designers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated rule design and playtesting of tabletop games transfer to game mechanics. Digital tools remain to explore; lack of programming experience is not disqualifying.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-057.json"
+    },
+    {
+      "key": "life-057:degree-27304305",
+      "modelId": "life-057",
+      "careerId": "degree-27304305",
+      "title": "Poets, Lyricists and Creative Writers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original scenes, dialogue or explanatory fiction plus purposeful revision support the actual writing activity, including private or school work.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-057.json"
+    },
+    {
+      "key": "life-060:degree-27101300",
+      "modelId": "life-060",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "rationale": "Photographic composition is genuine, but a second Fine Artists label needs a medium or variant explanation.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-060.json"
+    },
+    {
+      "key": "life-060:degree-27304100",
+      "modelId": "life-060",
+      "careerId": "degree-27304100",
+      "title": "Editors",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Current school-news editing, caption checks and factual verification directly support editorial work; prior professional editorial experience is not needed for an interest destination.",
+      "requiresExperience": true,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-060.json"
+    },
+    {
+      "key": "life-072:degree-27304305",
+      "modelId": "life-072",
+      "careerId": "degree-27304305",
+      "title": "Poets, Lyricists and Creative Writers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original scenes, dialogue or explanatory fiction plus purposeful revision support the actual writing activity, including private or school work.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-072.json"
+    },
+    {
+      "key": "life-072:degree-19309300",
+      "modelId": "life-072",
+      "careerId": "degree-19309300",
+      "title": "Historians",
+      "verdict": "exploratory-caveat",
+      "rationale": "Comparing family recollections and consent practices does not fully establish historical analysis.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-072.json"
+    },
+    {
+      "key": "life-079:degree-27102700",
+      "modelId": "life-079",
+      "careerId": "degree-27102700",
+      "title": "Set and Exhibit Designers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated backstage/set activity or iterative spatial drawings plus a demanding set assignment support a specific scenic-design transfer; industry leadership is not assumed.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-079.json"
+    },
+    {
+      "key": "life-092:degree-27101300",
+      "modelId": "life-092",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original drawing, painting, miniature/model art, murals, prints or expressive stitched work supports a genuine learning-interest transfer. A paid portfolio or public exhibition is not a prerequisite.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-092.json"
+    },
+    {
+      "key": "life-093:degree-27101300",
+      "modelId": "life-093",
+      "careerId": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "verdict": "exploratory-caveat",
+      "rationale": "Following crochet patterns is not clearly the same interest as developing original visual artworks.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/life-093.json"
+    },
+    {
+      "key": "gap-003:degree-13108102",
+      "modelId": "gap-003",
+      "careerId": "degree-13108102",
+      "title": "Logistics Analysts",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Specific supply-flow, order, route or bottleneck comparisons go beyond generic organization and support a medium-confidence learning transfer to logistics analysis.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/gap-003.json"
+    },
+    {
+      "key": "gap-006:degree-43908100",
+      "modelId": "gap-006",
+      "careerId": "degree-43908100",
+      "title": "Proofreaders and Copy Markers",
+      "verdict": "unsupported-promotion",
+      "rationale": "Numeric record reconciliation is being mistaken for proofreading publication text.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/gap-006.json"
+    },
+    {
+      "key": "gap-007:degree-19102904",
+      "modelId": "gap-007",
+      "careerId": "degree-19102904",
+      "title": "Biologists",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Sustained questions about living systems, repeated comparisons, careful observations and correction of claims provide genuine biological inquiry evidence. Quietness and beginner laboratory experience are not negative interest evidence.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/gap-007.json"
+    },
+    {
+      "key": "gap-011:degree-13108102",
+      "modelId": "gap-011",
+      "careerId": "degree-13108102",
+      "title": "Logistics Analysts",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Specific supply-flow, order, route or bottleneck comparisons go beyond generic organization and support a medium-confidence learning transfer to logistics analysis.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/gap-011.json"
+    },
+    {
+      "key": "gap-012:degree-19104200",
+      "modelId": "gap-012",
+      "careerId": "degree-19104200",
+      "title": "Medical Scientists, Except Epidemiologists",
+      "verdict": "exploratory-caveat",
+      "rationale": "Disease-mechanism interest is real, but research design and sustained evidence handling are uncertain.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/gap-012.json"
+    },
+    {
+      "key": "gap-015:degree-19102200",
+      "modelId": "gap-015",
+      "careerId": "degree-19102200",
+      "title": "Microbiologists",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated microscopy and a supervised handwashing comparison give a specific biological/microscopic inquiry connection. Do not require pathogen handling or independent laboratory competence.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/gap-015.json"
+    },
+    {
+      "key": "gap-015:degree-19102904",
+      "modelId": "gap-015",
+      "careerId": "degree-19102904",
+      "title": "Biologists",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Sustained questions about living systems, repeated comparisons, careful observations and correction of claims provide genuine biological inquiry evidence. Quietness and beginner laboratory experience are not negative interest evidence.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/gap-015.json"
+    },
+    {
+      "key": "gap-022:degree-19102904",
+      "modelId": "gap-022",
+      "careerId": "degree-19102904",
+      "title": "Biologists",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Sustained questions about living systems, repeated comparisons, careful observations and correction of claims provide genuine biological inquiry evidence. Quietness and beginner laboratory experience are not negative interest evidence.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/gap-022.json"
+    },
+    {
+      "key": "gap-024:degree-19202100",
+      "modelId": "gap-024",
+      "careerId": "degree-19202100",
+      "title": "Atmospheric and Space Scientists",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated weather maps, sky questions, instrument observations and preparedness communication support atmospheric inquiry as a learning-interest destination, not a claim of forecasting competence.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/gap-024.json"
+    },
+    {
+      "key": "legacy-001:degree-19102904",
+      "modelId": "legacy-001",
+      "careerId": "degree-19102904",
+      "title": "Biologists",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Sustained questions about living systems, repeated comparisons, careful observations and correction of claims provide genuine biological inquiry evidence. Quietness and beginner laboratory experience are not negative interest evidence.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-001.json"
+    },
+    {
+      "key": "legacy-007:degree-27304305",
+      "modelId": "legacy-007",
+      "careerId": "degree-27304305",
+      "title": "Poets, Lyricists and Creative Writers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated original scenes, dialogue or explanatory fiction plus purposeful revision support the actual writing activity, including private or school work.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-007.json"
+    },
+    {
+      "key": "legacy-008:degree-15125300",
+      "modelId": "legacy-008",
+      "careerId": "degree-15125300",
+      "title": "Software Quality Assurance Analysts and Testers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated bug lists, user trials and deliberate testing of fixes directly support systematic software verification.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-008.json"
+    },
+    {
+      "key": "legacy-008:degree-15125100",
+      "modelId": "legacy-008",
+      "careerId": "degree-15125100",
+      "title": "Computer Programmers",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated code changes and a working club site establish genuine interest in program behavior and implementation beyond general liking for technology.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-008.json"
+    },
+    {
+      "key": "legacy-009:degree-15124400",
+      "modelId": "legacy-009",
+      "careerId": "degree-15124400",
+      "title": "Network and Computer Systems Administrators",
+      "verdict": "exploratory-caveat",
+      "rationale": "Device troubleshooting does not establish interest in administering shared services over time.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-009.json"
+    },
+    {
+      "key": "legacy-012:degree-19204300",
+      "modelId": "legacy-012",
+      "careerId": "degree-19204300",
+      "title": "Hydrologists",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated creek/rain investigations, inconsistent-reading checks and location/condition records directly support water-science inquiry and uncertainty handling.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-012.json"
+    },
+    {
+      "key": "legacy-013:degree-19201200",
+      "modelId": "legacy-013",
+      "careerId": "degree-19201200",
+      "title": "Physicists",
+      "verdict": "exploratory-caveat",
+      "rationale": "Physics interest and disciplined testing are genuine; the research-versus-design purpose remains unresolved.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-013.json"
+    },
+    {
+      "key": "legacy-020:degree-13108102",
+      "modelId": "legacy-020",
+      "careerId": "degree-13108102",
+      "title": "Logistics Analysts",
+      "verdict": "exploratory-caveat",
+      "rationale": "Supply-room routine is not yet evidence of analyzing delivery performance.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-020.json"
+    },
+    {
+      "key": "legacy-021:degree-13108102",
+      "modelId": "legacy-021",
+      "careerId": "degree-13108102",
+      "title": "Logistics Analysts",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Specific supply-flow, order, route or bottleneck comparisons go beyond generic organization and support a medium-confidence learning transfer to logistics analysis.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-021.json"
+    },
+    {
+      "key": "legacy-021:degree-15129902",
+      "modelId": "legacy-021",
+      "careerId": "degree-15129902",
+      "title": "Geographic Information Systems Technologists and Technicians",
+      "verdict": "supported-learning-transfer",
+      "rationale": "Repeated maps, route relationships, geographic ambiguities and timing comparisons support spatial-information exploration; current GIS software proficiency is not required.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-021.json"
+    },
+    {
+      "key": "legacy-021:degree-43908100",
+      "modelId": "legacy-021",
+      "careerId": "degree-43908100",
+      "title": "Proofreaders and Copy Markers",
+      "verdict": "unsupported-promotion",
+      "rationale": "Address verification is being generalized to text proofreading.",
+      "requiresExperience": false,
+      "sourceBiography": "site/validation/blind-2026-10-18/legacy-021.json"
+    }
+  ]
+}

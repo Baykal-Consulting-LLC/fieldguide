@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-23",
+  "scope": "Bounded companion audit of A2 pathway earning illustrations",
+  "sourceGrain": "one wage record per six-digit SOC and location, not per O*NET specialty",
+  "preparationRows": 1112,
+  "preparationDetailed": 831,
+  "pathways": 26,
+  "selectedPathwayExamples": 129,
+  "uniqueWageGroups": 110,
+  "missingWageExamples": [
+    {
+      "pathway": "data",
+      "soc": "15-2021",
+      "entryMissing": true,
+      "medianMissing": true
+    },
+    {
+      "pathway": "environment",
+      "soc": "19-1013",
+      "entryMissing": true,
+      "medianMissing": true
+    },
+    {
+      "pathway": "movement",
+      "soc": "29-1125",
+      "entryMissing": true,
+      "medianMissing": true
+    },
+    {
+      "pathway": "movement",
+      "soc": "29-2051",
+      "entryMissing": true,
+      "medianMissing": true
+    },
+    {
+      "pathway": "society",
+      "soc": "19-3041",
+      "entryMissing": true,
+      "medianMissing": true
+    },
+    {
+      "pathway": "arts",
+      "soc": "27-2042",
+      "entryMissing": true,
+      "medianMissing": true
+    },
+    {
+      "pathway": "arts",
+      "soc": "27-2011",
+      "entryMissing": true,
+      "medianMissing": true
+    },
+    {
+      "pathway": "marketing",
+      "soc": "19-3022",
+      "entryMissing": true,
+      "medianMissing": true
+    }
+  ],
+  "joinChecks": "Exact base O*NET code must exist in the pathway CIP links; detailed BLS SOC must exist; unique wage SOC within each pathway; no national/state fallback",
+  "staging": "Graduate education or a reviewed graduate credential requirement before related-experience stage, otherwise qualifying-route. Qualifications, licensing and training remain explicit; national typical preparation is not a guarantee.",
+  "rangeMeaning": "Min/max of selected examples only. No weighting, earnings probability, degree estimate or time progression. Missing/zero/suppressed wages are unknown, never zero.",
+  "inputs": [
+    {
+      "file": "dist/data/pathways.json",
+      "sha256": "34a630632da921eef99953193a026a24c8e254eb0e045a986b4e1bbf7722033f"
+    },
+    {
+      "file": "dist/data/occupations.json",
+      "sha256": "e450419754bb957d7fa5df74b8a6ef310f68e259a9d9c3002bb96cfa236afab9"
+    },
+    {
+      "file": "shared-data/wages/entry.json",
+      "sha256": "3a67164dc8cde235b91b85790586ff1affaf59ac8566f9321b9d98a73505e2bf"
+    },
+    {
+      "file": "shared-data/wages/median.json",
+      "sha256": "d5c6342339d1bb7bde642ac43e72df15d560340c873f4c0ef60246b29c942af8"
+    },
+    {
+      "file": "shared-data/education/bls-preparation-2025.json",
+      "sha256": "3573a2531772d7e22894b3b68de5d3d33f0eb014208d202f7922c4dd2c55f00c"
+    },
+    {
+      "file": "scripts/pathway-earning-examples.json",
+      "sha256": "b835a2373cdc6a5c03aff82d9830782470e4ca046fe451dd8d5561e6662cae9f"
+    },
+    {
+      "file": "shared-data/education/catalog-education.json",
+      "sha256": "3c2c10906e75dc03e50b9d8de0f1dcc5310fa1fe588a8f5d00f1f55abd4ee06e"
+    }
+  ],
+  "adoptionException": "User requests A1 unchanged. Additive public preparation release 1.2.0 adopted only by A2; A1 remains on 1.0.4. No A1 files, builds or deployment touched.",
+  "sharedCompatibilityChecks": "A2 12 official assessment, pin, boundary and pathway compatibility tests passed at adoption. A1 pin intentionally unchanged; no A1 build run."
+}

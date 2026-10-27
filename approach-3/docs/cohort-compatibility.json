@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-25",
+  "cases": 2000,
+  "method": "Historical compatibility replay. No fresh performance/accuracy or holdout claim. No new career answers inferred.",
+  "groups": [
+    {
+      "collection": "Original 1,000",
+      "cohort": "development",
+      "models": 758,
+      "officialScoresPreserved": 758,
+      "pathwayOrderPreserved": 758
+    },
+    {
+      "collection": "Original 1,000",
+      "cohort": "holdout",
+      "models": 30,
+      "officialScoresPreserved": 30,
+      "pathwayOrderPreserved": 30
+    },
+    {
+      "collection": "Original 1,000",
+      "cohort": "holdout049",
+      "models": 12,
+      "officialScoresPreserved": 12,
+      "pathwayOrderPreserved": 12
+    },
+    {
+      "collection": "Original 1,000",
+      "cohort": "holdout056",
+      "models": 200,
+      "officialScoresPreserved": 200,
+      "pathwayOrderPreserved": 200
+    },
+    {
+      "collection": "Grok-authored 1,000",
+      "cohort": "grok075",
+      "models": 1000,
+      "officialScoresPreserved": 1000,
+      "pathwayOrderPreserved": 1000
+    }
+  ],
+  "failures": 0
+}

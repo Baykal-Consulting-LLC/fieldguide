@@ -1,0 +1,2 @@
+// UI progress only. This record never supplies interest evidence.
+export function cleanAutomaticRound083(raw){const id=v=>typeof v==='string'&&/^[a-z0-9-]{1,120}$/.test(v);if(!raw||typeof raw.profileKey!=='string'||raw.profileKey.length>=2400||!Array.isArray(raw.queue))return null;const queue=raw.queue.slice(0,12).filter(q=>id(q?.careerId)&&id(q?.questionId)).map(q=>({careerId:q.careerId,questionId:q.questionId}));return{profileKey:raw.profileKey,queue,cursor:Math.max(0,Math.min(queue.length,Number.isInteger(raw.cursor)?raw.cursor:0))};}

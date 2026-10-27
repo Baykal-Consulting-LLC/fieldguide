@@ -1,0 +1,3250 @@
+{
+  "createdAt": "2026-10-20T04:17:42.182617+00:00",
+  "inputSHA256": "4dfdba23cc8e5fca32519bb7cbd01d357cfbd22c3094a41f7e8c5e1a0ae1caa5",
+  "scope": "Independent formula agreement and live official O*NET Short Form interoperability, not predictive validity or commercial service agreement. Original and fresh holdouts and diagnostic variants remain separate. No actual student data.",
+  "local": {
+    "profiles": 184,
+    "baseProfiles": 172,
+    "diagnosticProfiles": 12,
+    "careerRows": 457,
+    "correlationComparisons": 77220,
+    "maxAbsoluteError": 5.533073998975624e-14,
+    "errors": [],
+    "rows": [
+      {
+        "id": "life-005",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-006",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-007",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-009",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-011",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-012",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-013",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-014",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-015",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-016",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-018",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-020",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-021",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-023",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-024",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-025",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-026",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-027",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-029",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-030",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-031",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-032",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-033",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-034",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-035",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-036",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-037",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-038",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-040",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-041",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-042",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-043",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-044",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-045",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-048",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-050",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-051",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-052",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-054",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-055",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-056",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-058",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-061",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-062",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-063",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-064",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-067",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-068",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-069",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-070",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-071",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-073",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-075",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-077",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-078",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-080",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-081",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-082",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-083",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-084",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-085",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-086",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-087",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-088",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-089",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-090",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-094",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-096",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-098",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-100",
+        "phase": "development",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-001",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-002",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-003",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-004",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-005",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-006",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-007",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-008",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-009",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-010",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-011",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-012",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-013",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-014",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-015",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-016",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-017",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-018",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-019",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-020",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-021",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-022",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-023",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "gap-024",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-001",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-002",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-003",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-004",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-005",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-006",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-007",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-008",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-009",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-010",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-011",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-012",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-013",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-014",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-015",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-016",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-017",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-018",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-019",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-020",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-021",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-022",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-023",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 0,
+        "spearman": null,
+        "kendallTauB": null,
+        "topKJaccard": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "50": null
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "legacy-024",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "comparisons": 0,
+        "spearman": null,
+        "kendallTauB": null,
+        "topKJaccard": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "50": null
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-001",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-002",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-003",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-004",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-008",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-010",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-017",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-019",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-022",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-028",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-039",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-046",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-047",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-049",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-053",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-057",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-059",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-060",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-065",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-066",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-072",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-074",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-076",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-079",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-091",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-092",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-093",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-095",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-097",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "life-099",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-001",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-003",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-005",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-007",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-009",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-011",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-013",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-015",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-017",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-019",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-021",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 0,
+        "spearman": null,
+        "kendallTauB": null,
+        "topKJaccard": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "50": null
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-023",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-001",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-002",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-003",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-004",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-005",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-006",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-007",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-008",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-009",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-010",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 0,
+        "spearman": null,
+        "kendallTauB": null,
+        "topKJaccard": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "50": null
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-011",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "diag049-012",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-002",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-004",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-006",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-008",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-010",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-012",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-014",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-016",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-018",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-020",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-022",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      },
+      {
+        "id": "new049-024",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "comparisons": 429,
+        "spearman": 1.0,
+        "kendallTauB": 1.0,
+        "topKJaccard": {
+          "5": 1.0,
+          "10": 1.0,
+          "20": 1.0,
+          "50": 1.0
+        },
+        "conflictingDuplicateSOC": []
+      }
+    ]
+  },
+  "live": {
+    "service": "O*NET public API Version 2 demo",
+    "fixtureSHA256": "05572d1c2720a9537b7b1b904641cdf7c3c7d8b2501fb2a60dbe6430ba7e2b70",
+    "questionItemAgreement": true,
+    "profiles": [
+      {
+        "id": "life-005",
+        "phase": "development",
+        "scoreAgreement": true,
+        "officialScores": [
+          21,
+          20,
+          30,
+          21,
+          14,
+          21
+        ],
+        "returned": 38,
+        "total": 38,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 23,
+        "fitCategoryAgreement": 23,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 6,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "life-006",
+        "phase": "development",
+        "scoreAgreement": true,
+        "officialScores": [
+          21,
+          24,
+          30,
+          23,
+          12,
+          17
+        ],
+        "returned": 38,
+        "total": 38,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 24,
+        "fitCategoryAgreement": 24,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 0,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "gap-001",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "officialScores": [
+          25,
+          22,
+          21,
+          19,
+          20,
+          23
+        ],
+        "returned": 422,
+        "total": 422,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 104,
+        "fitCategoryAgreement": 104,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 318,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "gap-002",
+        "phase": "supplement",
+        "scoreAgreement": true,
+        "officialScores": [
+          20,
+          23,
+          24,
+          22,
+          20,
+          17
+        ],
+        "returned": 32,
+        "total": 32,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 23,
+        "fitCategoryAgreement": 23,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 1,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "legacy-001",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "officialScores": [
+          20,
+          29,
+          20,
+          24,
+          20,
+          20
+        ],
+        "returned": 113,
+        "total": 113,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 98,
+        "fitCategoryAgreement": 98,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 0,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "legacy-002",
+        "phase": "legacy",
+        "scoreAgreement": true,
+        "officialScores": [
+          23,
+          25,
+          20,
+          23,
+          20,
+          20
+        ],
+        "returned": 121,
+        "total": 121,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 102,
+        "fitCategoryAgreement": 102,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 11,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "life-001",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "officialScores": [
+          20,
+          24,
+          30,
+          22,
+          12,
+          19
+        ],
+        "returned": 39,
+        "total": 39,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 23,
+        "fitCategoryAgreement": 23,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 0,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "life-002",
+        "phase": "holdout",
+        "scoreAgreement": true,
+        "officialScores": [
+          24,
+          20,
+          27,
+          16,
+          19,
+          31
+        ],
+        "returned": 53,
+        "total": 53,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 20,
+        "fitCategoryAgreement": 20,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 32,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "new049-001",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "officialScores": [
+          20,
+          20,
+          13,
+          21,
+          28,
+          11
+        ],
+        "returned": 37,
+        "total": 37,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 19,
+        "fitCategoryAgreement": 18,
+        "fitCategoryDisagreements": [
+          {
+            "soc": "27-2022.00",
+            "remote": "Good",
+            "reference": 2
+          }
+        ],
+        "strongSetJaccardOnSharedCatalog": 0.0,
+        "localStrongMissingRemote": [
+          "27-2022.00"
+        ],
+        "officialStrongOutsideCatalog": 1,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "new049-003",
+        "phase": "development049",
+        "scoreAgreement": true,
+        "officialScores": [
+          21,
+          20,
+          19,
+          20,
+          23,
+          19
+        ],
+        "returned": 37,
+        "total": 37,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 18,
+        "fitCategoryAgreement": 18,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 17,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "diag049-001",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "officialScores": [
+          20,
+          20,
+          13,
+          21,
+          28,
+          11
+        ],
+        "returned": 37,
+        "total": 37,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 19,
+        "fitCategoryAgreement": 18,
+        "fitCategoryDisagreements": [
+          {
+            "soc": "27-2022.00",
+            "remote": "Good",
+            "reference": 2
+          }
+        ],
+        "strongSetJaccardOnSharedCatalog": 0.0,
+        "localStrongMissingRemote": [
+          "27-2022.00"
+        ],
+        "officialStrongOutsideCatalog": 1,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "diag049-002",
+        "phase": "diagnostic049",
+        "scoreAgreement": true,
+        "officialScores": [
+          20,
+          20,
+          20,
+          21,
+          19,
+          20
+        ],
+        "returned": 107,
+        "total": 107,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 89,
+        "fitCategoryAgreement": 89,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 16,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "new049-002",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "officialScores": [
+          20,
+          21,
+          20,
+          23,
+          21,
+          20
+        ],
+        "returned": 107,
+        "total": 107,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 87,
+        "fitCategoryAgreement": 87,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 15,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "new049-004",
+        "phase": "holdout049",
+        "scoreAgreement": true,
+        "officialScores": [
+          20,
+          20,
+          18,
+          21,
+          24,
+          20
+        ],
+        "returned": 100,
+        "total": 100,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 55,
+        "fitCategoryAgreement": 55,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 45,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "all-dislike",
+        "phase": "edge",
+        "scoreAgreement": true,
+        "officialScores": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "returned": 923,
+        "total": 923,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 0,
+        "fitCategoryAgreement": 0,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": null,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 0,
+        "flatProfile": true,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "all-unsure",
+        "phase": "edge",
+        "scoreAgreement": true,
+        "officialScores": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "returned": 923,
+        "total": 923,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 0,
+        "fitCategoryAgreement": 0,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": null,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 0,
+        "flatProfile": true,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "all-love",
+        "phase": "edge",
+        "scoreAgreement": true,
+        "officialScores": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "returned": 923,
+        "total": 923,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 0,
+        "fitCategoryAgreement": 0,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": null,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 0,
+        "flatProfile": true,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      },
+      {
+        "id": "one-item-change",
+        "phase": "edge",
+        "scoreAgreement": true,
+        "officialScores": [
+          22,
+          20,
+          30,
+          21,
+          14,
+          21
+        ],
+        "returned": 38,
+        "total": 38,
+        "paginationComplete": true,
+        "sharedReturnedSOC": 22,
+        "fitCategoryAgreement": 22,
+        "fitCategoryDisagreements": [],
+        "strongSetJaccardOnSharedCatalog": 1.0,
+        "localStrongMissingRemote": [],
+        "officialStrongOutsideCatalog": 8,
+        "flatProfile": false,
+        "rankMetrics": null,
+        "rankMetricsReason": "Service returns fit categories then alphabetical order, not numeric correlations. Do not pretend its display order is correlation rank."
+      }
+    ]
+  },
+  "commercialVendorRuns": 0
+}

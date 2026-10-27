@@ -1,0 +1,28 @@
+# Priority 50 preparation review — 16 October 2026
+
+The companion JSON is keyed to the exact 50 selected additions. Each record separates BLS typical education from Texas legal minimums and optional educational connections. All 50 have two original, short work examples and a concise summary. No educational connection implies a measured salary premium.
+
+## Implementation distinctions to preserve
+
+- **Experienced roles:** marketing manager and general operations manager typically follow 5+ years of related experience. Restaurant manager, management analyst and medical-services manager also commonly require related experience. “Entry” cannot mean a new high-school or college graduate for every occupation.
+- **School counselor:** Texas removed its two-year classroom-teaching requirement effective September 2023. A master's, approved preparation and certification requirements remain.
+- **Preschool:** national typical preparation is an associate degree. Texas public-school teaching and childcare-center preschool have different legal preparation. Do not make one universal minimum.
+- **Medical assistant:** ordinary medical assisting has no Texas general professional license. Clinical delegation and competency still matter. It is not licensed nursing.
+- **Nursing assistant:** standard Texas nursing-facility CNA preparation is 100 hours, split 60 classroom/40 clinical, with written/skills exams and registry certification. This is separate from LVN/RN preparation.
+- **Personal-care aide:** individual aide credentials differ from home-care agency licensing. Do not apply home-health aide rules universally to ordinary personal-care support. BLS data may combine both occupations.
+- **Pharmacy technician:** active Texas registration is required even for a trainee. Full technician registration requires approved national certification. A trainee registration is issued once and lasts up to two years.
+- **NP:** RN and graduate specialty preparation, national certification and APRN authorization precede qualified NP work. Prescribing has further rules.
+- **Counselor:** the Texas LPC route has graduate study, Associate licensure and at least 3,000 supervised hours before independent LPC licensure. School counseling, social work and psychology remain distinct.
+- **Maintenance/construction/grounds:** ordinary general work does not authorize regulated electrical, plumbing, HVAC, pesticide or irrigation activities.
+- **Warehouse:** a hand-material-moving job is not the same as forklift qualification. OSHA requires employer-specific training/evaluation; an online card alone is insufficient.
+- **Truck/delivery:** heavy-truck CDL preparation is distinct from light delivery. Keep employee income separate from owner-operator receipts and app-gig revenue.
+- **Food work:** covered Texas food handlers train within 30 days. Austin generally requires a certified food manager onsite during hours of operation. This is more useful than a generic instruction to research local rules.
+- **Cosmetology:** the Texas operator route requires 1,000 school hours and written/practical exams; minimum licensing age is 17. The canonical TDLR URL uses `www.tdlr.texas.gov`, not the search result's unresolvable `web1` alias.
+- **Real estate/insurance/advice:** product/service-specific authorization matters. A degree and voluntary CFP credential do not replace required licenses or adviser registration.
+- **Photography:** ordinary employee work, self-employed business income and drone work differ. FAA Part 107 authorization is separate from a photography degree.
+
+## Source diagnostics
+
+The separate source-link diagnostic tested 138 distinct source URLs. All 50 O*NET occupation pages returned HTTP 200. Many BLS, HHSC and OSHA endpoints reject direct Python requests with HTTP 403 while the research browser can read them. BON has intermittent TLS/retrieval problems. These are recorded as retrieval limitations rather than interpreted as factual or link failures. The TDLR alias was corrected. Content review used official agency pages and BLS/O*NET sources, including previously reviewed licensing evidence in the project's 18-candidate receipt.
+
+No app code was changed by this research task.

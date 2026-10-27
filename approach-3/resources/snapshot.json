@@ -1,0 +1,649 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-25",
+  "sharedPin": "1.3.1",
+  "commits": {
+    "approach1": "6159013b192724a8e2e6a8461a4f9f3793c5cbc1",
+    "approach2": "81a862c3e1431ae30df9bd217e9e27f31222ebb4"
+  },
+  "files": [
+    {
+      "path": "upstreams/approach1/dist/model.js",
+      "source": "site/dist/model.js",
+      "sha256": "c0ba2228c94be6a3388cdb74ee82dc66fddff141d3c2baf1698b4c42c9987562",
+      "bytes": 6930,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/noncollege-087-data.js",
+      "source": "site/dist/noncollege-087-data.js",
+      "sha256": "808a869a49a320a8433ee36891888324863cc6e9a05774166fb31bc0ada74ad5",
+      "bytes": 28042,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/automatic-round-state-083.js",
+      "source": "site/dist/automatic-round-state-083.js",
+      "sha256": "d1e73726bf15a82b21da35ff57dc44c8c5f3d6c8d55838e97be6152f78215d4a",
+      "bytes": 545,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/explorer-053-state.js",
+      "source": "site/dist/explorer-053-state.js",
+      "sha256": "ff70d62a66664c0e20eb151864b4a678d7d36202a2ef47b430640d0772a3c463",
+      "bytes": 2370,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/profile-journey.js",
+      "source": "site/dist/profile-journey.js",
+      "sha256": "e553ddec1714249ff0f88bfaf2bda97537bff0275be87a34d48b0bfd78f9c6aa",
+      "bytes": 35109,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/expanded-interest.js",
+      "source": "site/dist/expanded-interest.js",
+      "sha256": "a36ea21f9d30377d1a52607c9e6c4b09344a60dc5e93cd475090ae39c65f19bc",
+      "bytes": 5533,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/expanded-top-review-data.js",
+      "source": "site/dist/expanded-top-review-data.js",
+      "sha256": "3a7b2d508df9af181f6ecad10d34f3fc989541dd4f3da668856f38780800b04a",
+      "bytes": 8880,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/expanded-occupation-data.js",
+      "source": "site/dist/expanded-occupation-data.js",
+      "sha256": "88eea179d570a3649a5602130b9ebf33581424a18e78b991bdf09c2c15bd2884",
+      "bytes": 598932,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/expanded-question-bank.js",
+      "source": "site/dist/expanded-question-bank.js",
+      "sha256": "dd5a62f705b587d5d2f0911c13a60bb96e5e2ab1694bd9216814c939e9684760",
+      "bytes": 317790,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/onet-assessment.js",
+      "source": "site/dist/onet-assessment.js",
+      "sha256": "dd20e013ccde0fea24cd223b2770abba08d4cec56b05f931a673d0e73b7eb1ed",
+      "bytes": 11783,
+      "origin": "foundation:1.3.1:assessment/onet-assessment.js"
+    },
+    {
+      "path": "upstreams/approach1/dist/core-work.js",
+      "source": "site/dist/core-work.js",
+      "sha256": "e34f2efdbec056a074fa340fda4b149b51091b4e65fcb97426ba01655dbdd750",
+      "bytes": 2783,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/core-work-042.js",
+      "source": "site/dist/core-work-042.js",
+      "sha256": "c43ccbe718b43ee57666920eae833e3d04102975160d4f7087ce4d2def5a14cc",
+      "bytes": 82509,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/defining-work-bank.js",
+      "source": "site/dist/defining-work-bank.js",
+      "sha256": "32d10c079530e975ece6dd228716befcba2909d7e5cfa99adfaf1c1ef751d982",
+      "bytes": 127970,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/career-check-questions.js",
+      "source": "site/dist/career-check-questions.js",
+      "sha256": "dd91b12929d331d9b4244f0a75f86af139105ec46a125b0abb22c6927cba842f",
+      "bytes": 4782,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/profession-questions.js",
+      "source": "site/dist/profession-questions.js",
+      "sha256": "77e97c83b20f6fe98a27859ab6cf3be286b8ba600ee9e1a6a2006ca36140dd0d",
+      "bytes": 103709,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/guide-state.js",
+      "source": "site/dist/guide-state.js",
+      "sha256": "b54d89292c8b94e3c088ed851eb45544dc3297d00e1cd98d5d48648ea4a9a50e",
+      "bytes": 24389,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/career-presentation.js",
+      "source": "site/dist/career-presentation.js",
+      "sha256": "83c989db5ec2b8fc472752451cb21c57cbe732ee8283ec2bce592cfe3aa338cf",
+      "bytes": 16529,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/texas-requirements.js",
+      "source": "site/dist/texas-requirements.js",
+      "sha256": "fa657e8397647c124e8c6d747454cb40f157be2736f681f6fbf7b8ebe54d925f",
+      "bytes": 42446,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/common-career-data.js",
+      "source": "site/dist/common-career-data.js",
+      "sha256": "261ecfcff469b7a155443cbf1c9bb9bd24100dc53613713f5b19ae8e9e5d5b09",
+      "bytes": 295784,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/professional-data.js",
+      "source": "site/dist/professional-data.js",
+      "sha256": "c70dbe46faf85f5b6beb4df7c0988f58c78d13be38e7562ed66d1470cab21682",
+      "bytes": 6109,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/catalog-extra.js",
+      "source": "site/dist/catalog-extra.js",
+      "sha256": "ed1804eda3844ff02c0e97a5728bbe9f077a29215bce31f2a11ca8d5b3881e7c",
+      "bytes": 43731,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/html.js",
+      "source": "site/dist/html.js",
+      "sha256": "d0b7929e39802258f21adb43285df5c3cd2d4be00b566ec5b4d11fd937640288",
+      "bytes": 169,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/financial-math.js",
+      "source": "site/dist/financial-math.js",
+      "sha256": "9e3c80c09af05a75d9b300c56396cbb21e0ac2fd9839ae3367935b1685e7b523",
+      "bytes": 2899,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/career-planning.js",
+      "source": "site/dist/career-planning.js",
+      "sha256": "7bd621ac86f6c8a06e09e07ab1297027a235c20073f63eaf04877b50d3a6fb1a",
+      "bytes": 2971,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/career-review-logic.js",
+      "source": "site/dist/career-review-logic.js",
+      "sha256": "795cf7f387e75c869877c7f3d5d468e2ff9ee83fa996c98cc92d487c979b5fba",
+      "bytes": 2386,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/occupation-essentials.js",
+      "source": "site/dist/occupation-essentials.js",
+      "sha256": "4ca19e5ba15a3577687250dad42a94d93cd86b0262e9625f0a2a9c6fb83d2305",
+      "bytes": 348850,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/career-language.js",
+      "source": "site/dist/career-language.js",
+      "sha256": "bf39f07abef84de1eae802218ffee1b1afb763bb75d2b26560413337f494b57f",
+      "bytes": 9509,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/planning-guidance.js",
+      "source": "site/dist/planning-guidance.js",
+      "sha256": "06bb909ce7171a22901286482fabfc3eee6df28f24e0cc24734cb9633aa6fc6e",
+      "bytes": 4577,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/career-insights.js",
+      "source": "site/dist/career-insights.js",
+      "sha256": "9ad69c9c66a8cc8ecde9e20a1e598e12147d9b933f6f84c59062a3caa302f338",
+      "bytes": 6593,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/exploration-plan.js",
+      "source": "site/dist/exploration-plan.js",
+      "sha256": "d9a05094c0ef1cc570c29be3a1ceb177ccf489204419688886f668088ae95271",
+      "bytes": 6143,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/content.js",
+      "source": "site/dist/content.js",
+      "sha256": "54f107cf2e8bb54785a13c465917fbe323f18598d4eca17019965e3ce748bbda",
+      "bytes": 15497,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/common-fields.js",
+      "source": "site/dist/common-fields.js",
+      "sha256": "ae479df11be314e4a12dc4df064550226bc043ce38189b579beddd6601ca7e32",
+      "bytes": 4586,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/matching.js",
+      "source": "site/dist/matching.js",
+      "sha256": "ff294e1669289a73e2a800c18638ab5777c5c8ec6a41c54edc8f32cca22dd81f",
+      "bytes": 8335,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/lifestyle-builder.js",
+      "source": "site/dist/lifestyle-builder.js",
+      "sha256": "d7d2830f762750addbfbc08fcddc65d2c141db8471359bc7c1a5f3267c67c3e1",
+      "bytes": 9453,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/lifestyle.js",
+      "source": "site/dist/lifestyle.js",
+      "sha256": "c94a3167be55f29fcf89456b302c564145579eb519dc0a3c7c55591d6bd5b6cb",
+      "bytes": 8100,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/occupation-data.js",
+      "source": "site/dist/occupation-data.js",
+      "sha256": "ed79e39dd3e2598a3f186425d47eacdc2478dadd5d72bd56915b678b44a15ee1",
+      "bytes": 279788,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/finance-data.js",
+      "source": "site/dist/finance-data.js",
+      "sha256": "6698a816165427a2669867412c1679ff7eb52c13d8a705423c2cbf17085dea35",
+      "bytes": 20280,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/austin-wages.js",
+      "source": "site/dist/austin-wages.js",
+      "sha256": "2f51e3d70fc5048c6f796e2874bc6c408bfe2941ad89dc08718d7e0e7f478346",
+      "bytes": 39333,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/catalog-wages.js",
+      "source": "site/dist/catalog-wages.js",
+      "sha256": "5d001a645b014ea8768615a78c11d73ee33e6eff2af7435d9b9b42ec7434ea81",
+      "bytes": 4235,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/onet-occupation-data.js",
+      "source": "site/dist/onet-occupation-data.js",
+      "sha256": "450ec12d970db2ba587cec71b893a263c37875b1703393090e0827773fc5daac",
+      "bytes": 1535374,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/directory-data.js",
+      "source": "site/dist/directory-data.js",
+      "sha256": "e38c02dddfc84aa47c9399acfcc58be794de28a02caa8947b6fb92779921d0b7",
+      "bytes": 151342,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/analysis.js",
+      "source": "site/dist/analysis.js",
+      "sha256": "b66f15ca8b6aac0e1be5bc72f166553b6162ee28f36170bc5b1bf5172a8715a3",
+      "bytes": 16715,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/salary-progression.js",
+      "source": "site/dist/salary-progression.js",
+      "sha256": "10eccb63f065838ec0aef4fd9ac3cab82e45bddc85ecfe68ba535193fb48e531",
+      "bytes": 18300,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/earnings-evidence.js",
+      "source": "site/dist/earnings-evidence.js",
+      "sha256": "668f44dcbd0c3220fab326ba043661828995df76857d9ee0810c816c423b0db9",
+      "bytes": 29231,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/twc-entry-wages.js",
+      "source": "site/dist/twc-entry-wages.js",
+      "sha256": "85b9396d97ee51337a7a687a4e4d7945b39da12d2b6a0ea1c56a707453e23c08",
+      "bytes": 35152,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/pathway-profile-bank.js",
+      "source": "site/dist/pathway-profile-bank.js",
+      "sha256": "22ba713875682ad337342930c8ee3ae662e33243e1f7e3ebc209d642c921b2cd",
+      "bytes": 5062,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/profile-interest-bank.js",
+      "source": "site/dist/profile-interest-bank.js",
+      "sha256": "d39a4a05b2c293928a5a92c9db763a1a0d8992a1322b8918fe3a44494fd72080",
+      "bytes": 3701,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/finance.js",
+      "source": "site/dist/finance.js",
+      "sha256": "5f4c0cf1ad4398dcfbe035de91a9c50f9d065c31cc791e1a87a8c17056f6cedb",
+      "bytes": 8873,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/catalog-data.js",
+      "source": "site/dist/catalog-data.js",
+      "sha256": "2f2147698b6d4c2f9d5f3972052f33dee5c4be21e4eb64441e95d92f9f211433",
+      "bytes": 1621,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/exploration.js",
+      "source": "site/dist/exploration.js",
+      "sha256": "de2fa09f58cae77a79ac364c58668b4cdb0c3d6cec9e858b988a27117f2f6d7a",
+      "bytes": 14212,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/open-explorer-090.js",
+      "source": "site/dist/open-explorer-090.js",
+      "sha256": "f26f72cb472b34b428699f7da3aeebdd7e0b2e7ad3ef79ff1f5a3839b73f35a5",
+      "bytes": 2412,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/open-explorer-088.js",
+      "source": "site/dist/open-explorer-088.js",
+      "sha256": "5ecef3dfb77eb45c796aefb63072411ef78152b286a79a28f6646ae1eaa01362",
+      "bytes": 1310,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/open-explorer-087.js",
+      "source": "site/dist/open-explorer-087.js",
+      "sha256": "0da577e3d881dbc05a6fcf2e6389762e23a9582c94aed73b203e351ef0711ca4",
+      "bytes": 4931,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/open-explorer-056.js",
+      "source": "site/dist/open-explorer-056.js",
+      "sha256": "62b7f63607c9334c350a30d1747a7333adf03f853cb6707f5ddb7e810650554b",
+      "bytes": 5388,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/followup-063-replay.js",
+      "source": "site/dist/followup-063-replay.js",
+      "sha256": "8309fefebd015bae00b9b3739085ca63fa969fba3b03ef05b2bb3f473c8c5e36",
+      "bytes": 1699,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/followup-063-data.js",
+      "source": "site/dist/followup-063-data.js",
+      "sha256": "7fc71a76adbfb9ba2acb734cf1f3e1944f7a85d7969be843dac61ba25393b016",
+      "bytes": 5399,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/open-explorer.js",
+      "source": "site/dist/open-explorer.js",
+      "sha256": "285eb07d656ddc95e7cf616121cc65d133490ccde90d65579983996f234cd84b",
+      "bytes": 9635,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/explorer-053-membership-data.js",
+      "source": "site/dist/explorer-053-membership-data.js",
+      "sha256": "4ad2a75e9677f360e60eb6e4ed8394b9a7516a7c8860e8d1f40ffb8d2a5e6410",
+      "bytes": 112062,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/explorer-053-questions.js",
+      "source": "site/dist/explorer-053-questions.js",
+      "sha256": "b93ab7c470d8a021e57420be5a432bde444dc5f8ef1f22e3276c4d8aa19ced5b",
+      "bytes": 4652,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/exploration-056-data.js",
+      "source": "site/dist/exploration-056-data.js",
+      "sha256": "2f569a7e2d36f6f1e114e99917d2b0a7bbf2df71e65132a08c5a52c44f04e039",
+      "bytes": 51002,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/evidence-088-data.js",
+      "source": "site/dist/evidence-088-data.js",
+      "sha256": "196e5b34154d1cd5dcd888f5a1eb47d56121889894dada5ee0ebfbc4557cb769",
+      "bytes": 8582,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/plant-science-090.js",
+      "source": "site/dist/plant-science-090.js",
+      "sha256": "15b3ee26b5081f478636e73ac3796638055cd5cf8478d4a8daef1053cadcfb44",
+      "bytes": 834,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/complete-salaries-084.js",
+      "source": "site/dist/complete-salaries-084.js",
+      "sha256": "0cf32721fccf125e6caae3fc8d522dd9d827a6cf8a8403be707066ee526ed89c",
+      "bytes": 2460,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/complete-salary-data-084.js",
+      "source": "site/dist/complete-salary-data-084.js",
+      "sha256": "2fac4dd20736cbff7b164993d055e71ccf01771ee96f8be6ae19e31dc631d95e",
+      "bytes": 137538,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/education-routes.js",
+      "source": "site/dist/education-routes.js",
+      "sha256": "4322f1b90ed0c77d9d278b9b40dc6dbbbef01fa55a9eac217cbea882fcdf6427",
+      "bytes": 4323,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/explorer-053-budget.js",
+      "source": "site/dist/explorer-053-budget.js",
+      "sha256": "418ed8b8ef93336b540dd17cdc8282227f6dd57f617e41f69480e5b3ae21e3fc",
+      "bytes": 1414,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/lifestyle-story.js",
+      "source": "site/dist/lifestyle-story.js",
+      "sha256": "173169adc514f16e9a180a3f32a53e5b7450ffe888707d406bc7419a786f735a",
+      "bytes": 6128,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/expanded-pay.js",
+      "source": "site/dist/expanded-pay.js",
+      "sha256": "f39a7bbff08899df5f8f073eaef4e7983626a00bd86f4780e02f90cb33a3061b",
+      "bytes": 1799,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/expanded-pay-data.js",
+      "source": "site/dist/expanded-pay-data.js",
+      "sha256": "7f49fbdd0ac4e25d66ecfc9927ed089badff38003d17dd33e27e82d04c493d4d",
+      "bytes": 373665,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/dist/automatic-followups-083.js",
+      "source": "site/dist/automatic-followups-083.js",
+      "sha256": "012a68f1dcbafdc73e79cfb911da77cfc7250a3f9a0eb9ba3df8e2d63fd5efe8",
+      "bytes": 5619,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/prototypes/evidence-094/targeting.mjs",
+      "source": "site/prototypes/evidence-094/targeting.mjs",
+      "sha256": "b60ccb912c2859c79cdf2e42b3ea110e3c45680057eda673028eae7d9196aa31",
+      "bytes": 587,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/prototypes/evidence-093/targeting.mjs",
+      "source": "site/prototypes/evidence-093/targeting.mjs",
+      "sha256": "bd49023c4b5787452f1fa283f2ff3d692ae63ef9aea3c165b505f5ca0bbbf519",
+      "bytes": 1192,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/prototypes/evidence-090/targeting.mjs",
+      "source": "site/prototypes/evidence-090/targeting.mjs",
+      "sha256": "b0298feeda8fd503210db7aee54267b781a7a265b5c5854982cc914a45d47283",
+      "bytes": 2207,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/prototypes/evidence-100/questions.mjs",
+      "source": "site/prototypes/evidence-100/questions.mjs",
+      "sha256": "d62827d3f73751ec09524b5ac5806193f2aef86e3560236ef2a32c658df9092a",
+      "bytes": 815,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/prototypes/evidence-100/targeting.mjs",
+      "source": "site/prototypes/evidence-100/targeting.mjs",
+      "sha256": "c3ffe9b44b0c7176470aec0d0d6dd60ef5899d628ea31ea055f9dd4e8cd8caf9",
+      "bytes": 1479,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/prototypes/evidence-099/targeting.mjs",
+      "source": "site/prototypes/evidence-099/targeting.mjs",
+      "sha256": "bef0b3ed97c363e39328b492e0ca09de01eb9e9da3d660193577be23226a0bb7",
+      "bytes": 3855,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach1/prototypes/evidence-095/targeting.mjs",
+      "source": "site/prototypes/evidence-095/targeting.mjs",
+      "sha256": "7d8799f035ebe88063344cb60a3af3abe38cae3b1eae4e9338693fcc850b5016",
+      "bytes": 2020,
+      "origin": "approach1"
+    },
+    {
+      "path": "upstreams/approach2/dist/engine.js",
+      "source": "approach-2/dist/engine.js",
+      "sha256": "f2823b5426fba3f0979189b7bebb0b98c73915997cfd5e6395318207f50f93af",
+      "bytes": 6922,
+      "origin": "approach2"
+    },
+    {
+      "path": "upstreams/approach2/dist/study-intent.js",
+      "source": "approach-2/dist/study-intent.js",
+      "sha256": "b0c4c84ab682b121b9d35933a7259cb6cd97013eb57f986ae41824f1db312aba",
+      "bytes": 1787,
+      "origin": "approach2"
+    },
+    {
+      "path": "upstreams/approach2/dist/subject-reflection.js",
+      "source": "approach-2/dist/subject-reflection.js",
+      "sha256": "7b1a34ea44101b70457e215823660890ab11933f7103a19e89f2781b21af614e",
+      "bytes": 20904,
+      "origin": "approach2"
+    },
+    {
+      "path": "upstreams/approach2/dist/lifestyle-state.js",
+      "source": "approach-2/dist/lifestyle-state.js",
+      "sha256": "8e702f87dbb49258433c239c20839cbcceed04bb8b018b9cfb0a18d9b86c996c",
+      "bytes": 6360,
+      "origin": "approach2"
+    },
+    {
+      "path": "upstreams/approach2/dist/shared-lifestyle/lifestyle-builder.js",
+      "source": "approach-2/dist/shared-lifestyle/lifestyle-builder.js",
+      "sha256": "d7d2830f762750addbfbc08fcddc65d2c141db8471359bc7c1a5f3267c67c3e1",
+      "bytes": 9453,
+      "origin": "foundation:1.3.1:lifestyle/lifestyle-builder.js"
+    },
+    {
+      "path": "upstreams/approach2/dist/shared-lifestyle/lifestyle.js",
+      "source": "approach-2/dist/shared-lifestyle/lifestyle.js",
+      "sha256": "c94a3167be55f29fcf89456b302c564145579eb519dc0a3c7c55591d6bd5b6cb",
+      "bytes": 8100,
+      "origin": "foundation:1.3.1:lifestyle/lifestyle.js"
+    },
+    {
+      "path": "upstreams/approach2/dist/shared-lifestyle/financial-math.js",
+      "source": "approach-2/dist/shared-lifestyle/financial-math.js",
+      "sha256": "9e3c80c09af05a75d9b300c56396cbb21e0ac2fd9839ae3367935b1685e7b523",
+      "bytes": 2899,
+      "origin": "foundation:1.3.1:lifestyle/financial-math.js"
+    },
+    {
+      "path": "upstreams/approach2/dist/shared-lifestyle/income-target.js",
+      "source": "approach-2/dist/shared-lifestyle/income-target.js",
+      "sha256": "7162cbe95f7ceee21f1717a15a39dfd8e2646a7bac04b11602539b686cb8dc62",
+      "bytes": 1012,
+      "origin": "foundation:1.3.1:lifestyle/income-target.js"
+    },
+    {
+      "path": "upstreams/approach2/dist/earnings.js",
+      "source": "approach-2/dist/earnings.js",
+      "sha256": "1f03f597910877c35aa13f04d7240935bfc85fbd6dda6c2ef1a772da3242699d",
+      "bytes": 2418,
+      "origin": "approach2"
+    },
+    {
+      "path": "resources/upstream-data/pathways.json",
+      "source": "approach-2/dist/data/pathways.json",
+      "sha256": "bb95ad57562d7747e1fb9e231fc58b1fcc9628facd94bd6fb45e504f9c8b6949",
+      "bytes": 384157,
+      "origin": "approach2-public-projection"
+    },
+    {
+      "path": "resources/upstream-data/occupations.json",
+      "source": "approach-2/dist/data/occupations.json",
+      "sha256": "62a29f736a729c399c3dc91b0580691b6a5db57dd025145e1a61b8c43e19ef10",
+      "bytes": 3034723,
+      "origin": "approach2-public-projection"
+    },
+    {
+      "path": "resources/upstream-data/coverage.json",
+      "source": "approach-2/dist/data/coverage.json",
+      "sha256": "69d7420a167c93fe2b61ac80266ab0e33f8c8040d3d2d8385059fc30d22948bd",
+      "bytes": 242869,
+      "origin": "approach2-public-projection"
+    },
+    {
+      "path": "resources/upstream-data/pathway-earnings.json",
+      "source": "approach-2/dist/data/pathway-earnings.json",
+      "sha256": "102a9bf055d3b74ab72304a27dd5abed43256b155944724a4c2cc4f0301a0de9",
+      "bytes": 112413,
+      "origin": "approach2-public-projection"
+    },
+    {
+      "path": "resources/upstream-data/sources.json",
+      "source": "approach-2/dist/data/sources.json",
+      "sha256": "a4f52149e379f337d34ccedae3f0ead9d38cbe3e926cc82ef3a636ef9a9cf848",
+      "bytes": 3163,
+      "origin": "approach2-public-projection"
+    }
+  ],
+  "refresh": "Explicitly run scripts/import-resources.py after coordinating; never edit generated upstreams."
+}

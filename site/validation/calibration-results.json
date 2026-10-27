@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "executedAt": "2026-10-17T02:54:14.690Z",
+  "baselineCommit": "550bde7d232916c76374afb4487c05e93e4ec8f0",
+  "currentHead": "2862a76621129d65c0d4a3e60a7ae86a6f7173ae",
+  "primaryHousehold": "One adult living alone in Austin, Texas; single employee, no dependents, under 50, 2026 tax assumptions",
+  "elapsedMs": 17774,
+  "coverageClaim": "Exhaustive for the finite subspaces explicitly named. No exhaustive claim for cross-product of all modules, free text, all financial numbers, user interaction order, or psychometric validity.",
+  "counts": {
+    "checks": 18,
+    "cases": 2122923,
+    "failures": 0,
+    "careers": 114,
+    "pathways": 34
+  },
+  "baselineRegressionFindings": [
+    {
+      "id": "official-form-scale-guards",
+      "firstRunFailingAssertions": 4,
+      "currentStatus": "pass"
+    },
+    {
+      "id": "ability-date-validation",
+      "firstRunFailingAssertions": 4,
+      "currentStatus": "pass"
+    },
+    {
+      "id": "amortization-independent-present-value",
+      "firstRunFailingAssertions": 15,
+      "currentStatus": "pass"
+    }
+  ],
+  "checks": [
+    {
+      "id": "paper-all-score-profiles",
+      "scope": "Exhaustive 11^6 permitted paper score profiles, including ties and all 11 flat profiles",
+      "cases": 1771561,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 8646
+    },
+    {
+      "id": "full-analysis-all-weak-orders",
+      "scope": "All 4,683 weak orderings of six RIASEC scores; real analyze(), every direction, tie preservation, agenda partition",
+      "cases": 4684,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 392
+    },
+    {
+      "id": "curiosity-response-and-storage-transitions",
+      "scope": "Every question × seven states (blank, 1–5, untried); add, change, erase, storage, summary; global combinations are not enumerated",
+      "cases": 420,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 22
+    },
+    {
+      "id": "ordered-priority-states",
+      "scope": "All 401 ordered selections of zero through three of eight priorities, persistence and movement boundaries",
+      "cases": 803,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 18
+    },
+    {
+      "id": "confidence-all-states",
+      "scope": "All 24^4 = 331,776 exposure/confidence states, including each partial response; completion independent of confidence level",
+      "cases": 331776,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 7997
+    },
+    {
+      "id": "challenges-all-answer-paths",
+      "scope": "All 5^4 = 625 blank/answer combinations, completion, persistence; keys independently fixed, not re-derived from implementation",
+      "cases": 629,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 22
+    },
+    {
+      "id": "per-direction-all-routing-lanes",
+      "scope": "Each pathway × 5 experience states × 4 choice states × saved/unsaved × preparation absent/present × interest linked/unlinked = 160 contexts per path",
+      "cases": 5440,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 496
+    },
+    {
+      "id": "result-input-withdrawal-and-form-switch",
+      "scope": "Each score/source/date/scale edit withdraws verification; switching form clears scores and source approval",
+      "cases": 14,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 3
+    },
+    {
+      "id": "official-form-scale-guards",
+      "scope": "Manual p32: paper 0–10 whole counts, online Short 0–40 whole sums, Mini 0–20 whole sums; imported values must not route on incompatible scales",
+      "cases": 12,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 0
+    },
+    {
+      "id": "ability-date-validation",
+      "scope": "Malformed and impossible dates remain supporting records needing review",
+      "cases": 4,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 1
+    },
+    {
+      "id": "narrative-boundaries-and-report-privacy",
+      "scope": "Boundary values, escaped malicious markup, opt-in notes, fictional isolation; representative narrative equivalence classes, not every possible string",
+      "cases": 14,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 49
+    },
+    {
+      "id": "single-adult-2026-tax-fixtures",
+      "scope": "Independent IRS Schedule X and SSA cap; each threshold below/at/above, gross 0–1m, retirement variations",
+      "cases": 111,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 1
+    },
+    {
+      "id": "college-price-and-funding-arithmetic",
+      "scope": "Independent cents arithmetic; all 3^8 = 6,561 zero/cent/dollar combinations for cost, grant and three loan fields; plus blank and total-mode branches",
+      "cases": 6567,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 56
+    },
+    {
+      "id": "austin-college-published-source-fixtures",
+      "scope": "Current official 2026–27 UT Austin and ACC tables; every displayed published cost field, no aid deducted",
+      "cases": 42,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 0
+    },
+    {
+      "id": "amortization-independent-present-value",
+      "scope": "Payment schedule independently discounted to principal; zero, ordinary and near-zero rates must be finite and continuous",
+      "cases": 72,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 1
+    },
+    {
+      "id": "lifestyle-mode-and-budget-conservation",
+      "scope": "192 mode/gross/retirement cases; exact cash-flow identity, positive/negative balances visible, manual net independent of gross",
+      "cases": 192,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 8
+    },
+    {
+      "id": "catalog-financial-field-coverage",
+      "scope": "Every career/path/major has coverage; available wages finite and ordered; scope integrity checked separately",
+      "cases": 468,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 1
+    },
+    {
+      "id": "austin-career-localization",
+      "scope": "Every sourced career wage is Austin metro data, exact occupation; all careers have an observed median or explicitly labeled posting estimate without a national fallback",
+      "cases": 114,
+      "failures": 0,
+      "examples": [],
+      "status": "pass",
+      "elapsedMs": 0
+    }
+  ],
+  "sourceHashes": {
+    "analysis.js": "28128bfbdbce70dd57080e36eceb62dfc6c5a4052a61e1078a2184434c0f493d",
+    "app.js": "5916604d81c4af260d5649fee8a9403ac1783d785fa5a00f7015ca67416463c5",
+    "austin-wages.js": "2f51e3d70fc5048c6f796e2874bc6c408bfe2941ad89dc08718d7e0e7f478346",
+    "career-language.js": "7499017984f20d084edc95585e53afc03562f9bb67885864f5475717af44c302",
+    "career-report.js": "cac0efdf6faa7eb34b07e9d789be1ad8f7c07151bc5badba9bf173f9ea5be770",
+    "career-tree.js": "9590d00853674af11c36262f4b12846c5e6ec5f340bd58494d225d1f3016caba",
+    "catalog-coverage-data.js": "7d1bb55949017ee0f5057c8e4bcba66d2a5a89d43a63fa75c0222eda73fd2c9e",
+    "catalog-coverage.js": "d60723997bbf924c3c27d4a656d82687a88c46c9a9e769cef094aa564551b4cb",
+    "catalog-data.js": "f0c5421b9e7c3126ab4ed0c320fffd570da2be9134ede7d41cc63e79a96bb2da",
+    "catalog-extra.js": "ed1804eda3844ff02c0e97a5728bbe9f077a29215bce31f2a11ca8d5b3881e7c",
+    "catalog-grouping-data.js": "ae2f1ff5d7e5f11eca6afd8828fb71ed331ed4460d16187dd29f040b435188d7",
+    "catalog-ui.js": "ce85caa70fb01c951f4d4e49c64118300dbc162beddc6353e1eea82e1cf02a26",
+    "catalog-wages.js": "5d001a645b014ea8768615a78c11d73ee33e6eff2af7435d9b9b42ec7434ea81",
+    "catalog.css": "1bc61779a0ce31f6d5b8aabc6e0298ea352131627ea0d7a1414c0b82dcb49cd0",
+    "color.css": "fbc527b8c2d29edb3d3a7f931b07fc3113ec5601319b95d766dd226a3f26f85c",
+    "common-career-data.js": "ba35907e4713cf2003ba06e9f2cb97e7b313725dcad25c9d8968ad769f99d960",
+    "common-cost-data.js": "87b7a9ba9e7d59f56c7051d55238142428de5d9a16d9b682d45696e511833951",
+    "common-fields.js": "ae479df11be314e4a12dc4df064550226bc043ce38189b579beddd6601ca7e32",
+    "content.js": "61d6ea2b34c8e78701c4c80705c80e23124f8357fdecda2f4ee8e575bb8de4bf",
+    "context-ui.js": "9866a5c53baccc0cfb524d210489a91d2ab9ab3fc8a058f801f64311c77f4f89",
+    "directory-data.js": "e38c02dddfc84aa47c9399acfcc58be794de28a02caa8947b6fb92779921d0b7",
+    "education-cost-evidence.js": "7427a366d19c748ae66f56e329ea3f6bfeab129dc42842968fe1fa9128fe63a6",
+    "education-evidence-ui.js": "128d83f0f1fc5a1d4e9cb6e4f5832b40c46f058571e52bcc2b9f0a15e23970f6",
+    "exploration-plan.js": "4404a5cc46d2c2d5f09664b4919a3af6cb703f5f55e79113db36dfb0224f703f",
+    "exploration-ui.js": "6d9a38cffb3108876d572ecb7aed0ca9b383ffc183952b674feee135b227fd8f",
+    "exploration.css": "9ad51320ee0009c28a21b0dc4a278a4b54ff66594d2938e66ac954d63d48dbf8",
+    "exploration.js": "a0e0ed189b52da26ba66bd43cd78ac27203bba6292e39b6bf8bb667f16ebe221",
+    "finance-data.js": "0d73b9543913b0bf0bfb397368c072765860248f5215935c2f9ee3912a3237cf",
+    "finance-ui.js": "92154dbaec74636d9687ce1c698453d3e2a1ffb0084550623092b26436e113dd",
+    "finance.css": "de9d4ebebcc136c4776447783b97a358b43f5387e95ee8091e96bb87b49756e8",
+    "finance.js": "c82ad37a04e14c6db42fb9180d90f0bd50a162510d7bce5ed45d26a747379145",
+    "fonts.css": "332c2238c6e5aadaf339fcef549d1f0b031109bbd30fe7a6dc474e236f18d799",
+    "guide-state.js": "ad1e8263a564f5816d553fc8addbb90d7c4d14a2b9dc1e1189ee7d07fb6643ce",
+    "guide-ui.js": "ac0f73d72df4f7a808c5fd5ce2c4186e54437ac6909087194d9b674dc5e543c1",
+    "guide.css": "0fa76ac51bb6b447f059b2f7233d93720b89c7654b253fbcd512d94abacdd9ab",
+    "index.html": "79138566e194998e78c0d7ac891ff94efc05c1afec50a8c7acfaf093376d265f",
+    "journey-ui.js": "dcc6f648d1a925f59d8a39ee8929285808efb89d49bd2f50314243a9d487db57",
+    "journey.css": "abba87ec982008f7957b12567ff1ac98496d03be59f649639022b6c58ee568aa",
+    "lifestyle-builder.js": "61be5fb0b0e63f0cdb354ff3bd39e560fdc1a8083f864cdb470a52a961c8c515",
+    "lifestyle-story.js": "9930dbfdb92b0c890cfa7721996954d1633f3a00f2c2063ccec85d089758c74d",
+    "lifestyle-ui.js": "782ae0f880423e7295afb21bda4337e267a5496f8162eedc9c18f9f22384ed3f",
+    "lifestyle.css": "1b3a138b343538543748834c027e7450403c96bd3a872aad602fd4a5b9eb8e4b",
+    "lifestyle.js": "628a6822efed30a38db2b01752e77bd4a234aac9dff4e3d616735c67e7d01e87",
+    "matching.js": "184fd313c286adae0934f2fb4664f3e753423164855f1e2e621fd3857385d423",
+    "model.js": "e1f469d2d77f6906be4b33249d96506f3b8f2663ecd42592fddcb38e72d8cc90",
+    "occupation-data.js": "708c042c14c2af2ae2408aa1205f534ef795e1f45224887d0c671ef09b80032b",
+    "occupation-essentials.js": "4ca19e5ba15a3577687250dad42a94d93cd86b0262e9625f0a2a9c6fb83d2305",
+    "occupation-ui.js": "006996cf339b82962e3652ff6026f9a7a8aa9590bbc1059d59731886164eb96e",
+    "occupation.css": "985603afd4fefd91c8b8cf343d822fa51e3ef81dc2e44c8c9f376368159f9d81",
+    "onet-occupation-data.js": "450ec12d970db2ba587cec71b893a263c37875b1703393090e0827773fc5daac",
+    "planning-guidance.js": "08dc4d3d526b8fdf31e7fda7f3e21e6cd676617b6d5951241a3c798d771bfd1d",
+    "professional-data.js": "c70dbe46faf85f5b6beb4df7c0988f58c78d13be38e7562ed66d1470cab21682",
+    "profile-ui.js": "1695d0850890e946d2213084594bb4cc86ca38961f916d0be4eff64ee32893f8",
+    "readability.css": "5fafad2c7a59c6f0537e133e370c7e660e198510767549e96cae243a47213ede",
+    "results-ui.js": "02df766979eecdef0bdd2e4023924b5d3fc3b2615c03f406f015013c5a9309f0",
+    "results.css": "d41d6e44742c203cd1d6e7def35826539accc6179831189c09175e165c198718",
+    "salary-progression.js": "dfd801d0816d985ac96fe1472d5a08a5d5a0c178347b361803d7c390c04b5f46",
+    "salary-ui.js": "5541862ebf5194a19539b356ec515c38f2524f76fb3da150f868fdcc51239a13",
+    "source-review.js": "70d7cafdcf981635affb1b1a131ab8e10f7676f791bfa0df5ef2096d45b3afd5",
+    "student-examples.js": "bf21da2756291443448c2a7d6598941347e61a8814211823c265747dd5239c76",
+    "styles.css": "e41ecc3da97136715da7f052e3b8d189ce3e45b490169d397d77ae0e13c2a875",
+    "texas-requirements.js": "0f8192576ec49ad3f22f84bad71aa41b6b6979e412e95c64b5452815e62a886a",
+    "tone.css": "ba8dd349ca1150009a6843dd855cf953db8537e0343aa3beb869b4abc4ccb468",
+    "twc-entry-wages.js": "d29d77a1a8be64b969fce22db2998af7702832b357b3dae9f9d441974606111b",
+    "uncertainty-examples.js": "e6e2f09120cd926f019b4d11e95f566269376b25759f2d78c749384655844112"
+  },
+  "externalCalibration": {
+    "status": "See testing-and-calibration-plan.md and wage-source-audit.json; source agreement is distinct from independent validation.",
+    "localization": "See austin-career-localization check; a source transcription audit does not establish individual earnings."
+  }
+}

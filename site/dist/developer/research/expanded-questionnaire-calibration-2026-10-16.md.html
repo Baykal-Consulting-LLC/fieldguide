@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A deeper questionnaire, with a clear boundary around its claims · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>A deeper questionnaire, with a clear boundary around its claims</h1><p>Retained development record. It may describe an earlier release.</p><a href="./expanded-questionnaire-calibration-2026-10-16.md" download>Download original Markdown</a><pre class="document"># A deeper questionnaire, with a clear boundary around its claims
+
+Updated October 16, 2026. Implemented in release 0.18.0, profile version 4.0.0.
+
+## What established tools ask
+
+O*NET's Interest Profiler asks how much a person would enjoy work activities across six RIASEC themes. Its 60-item Short Form and 30-item Mini-IP have their own development, reliability, validity, and occupational-linkage research. The manual describes item selection using coverage, response performance, and content/gender balance—not merely adding more similar questions. Its short and long forms are research products; a custom form does not acquire that evidence by using the same number of questions.
+
+- [Official Interest Profiler formats](https://www.onetcenter.org/IP.html)
+- [Technical manual, particularly chapters 3–7](https://www.onetcenter.org/dl_files/IP_Manual.pdf)
+- [Official developer guidance on the 30-item versus 60-item form](https://services.onetcenter.org/reference/mpp/ip/ip_questions_30)
+
+CareerOneStop's Skills Matcher uses 40 skill statements. Its Work Values Matcher separately sorts 20 workplace statements into importance categories and relates them to six work values. These are different questions from liking an activity. A teenager who has never had a chance to practise a task should not receive a low ability label because of limited exposure.
+
+- [Official Skills Matcher project](https://github.com/CareerOneStop/Skills-Matcher)
+- [Work Values Matcher method](https://cloudfront.careeronestop.org/Toolkit/Careers/work-values-matcher-help.aspx)
+- [O*NET Content Model: interests, skills, abilities, work activities, context, education](https://www.onetcenter.org/content.html)
+
+## What was implemented
+
+The required lifestyle builder stays first. The profile now has **60 original interest activities**, ten per theme, covering a wider set of basic interests: physical construction, repair, outdoors, medical investigation, laboratory inquiry, computing, visual design, stories/performance, patient support, teaching, influence, customers, records, and organised systems.
+
+Students answer likes/dislikes, neutral, or unfamiliar. Unfamiliar is excluded from averages; it is not a low rating. At least six numerical answers per theme are needed before treating the overall picture as sufficiently covered. A well-covered individual theme can still provide a starting clue when other themes are unfamiliar; the overall result stays labelled incomplete rather than erasing the known interest. A positive theme needs several liked activities, a mean of at least 3.5, and a non-flat overall pattern. These thresholds are provisional editorial rules, not validated cut scores.
+
+Twelve practice/confidence pairs follow. Four new areas cover scientific evidence, precise handwork, collaboration, and independent learning. Practice and confidence remain separate. They do not change the interest ranking or close career doors. Values and four work/education prompts are retained. No free-text essay is required. Earlier notes remain saved, but no text analysis is implied.
+
+Each of 12 pathway families now has **eight original multi-select follow-ups**. The first four remain stable for old drafts. Four additional questions ask about a problem to investigate, a work result, details to check, and a safe introductory experience. These are contextual variations across actual work—not intelligence questions, personality diagnoses, or questions about prestige and desired salary. The full bank contains 96 branching prompts. A student sees the eight relevant to the field they choose.
+
+A profession needs selected connections from at least three different questions before joining the shortlist. Multiple choices on one question count once. Shared answers can support several professions; the guide says to compare them. No rule pretends to distinguish physician, PA, and NP purely from a general wish to diagnose and help people. Educational routes and legal scopes are shown for an explicit student choice.
+
+## Calibration completed
+
+1. Actual browser walkthroughs: medicine, visual creative work, and electrical trades. Each completed nine lifestyle choices, 60 interests, 12 practice/confidence pairs, values, four contexts, eight follow-ups, and an explicit plan choice. Full browser exports were compared with the analysis model.
+2. Broad domain checks against the current O*NET occupational descriptor dataset for family medicine, graphic design, and electricians. This is a semantic sanity check, not proof of agreement with the official Interest Profiler's career algorithm.
+3. Six canonical theme profiles; mixed A/I/S; all unknown; all disliked; uniform neutral; uniform high liking; modest confidence; income/education independence; one- and two-question profession clues; restoration and career switching.
+4. Every reviewed career must be represented across at least three independent branch questions. All 117 remain accessible, including physician and dentist.
+5. Fixes: related creative alternatives replace unrelated fillers; multi-theme field ordering reduces overly broad one-theme recommendations; organising-only profiles still reach office/business possibilities; one/two task clues no longer become suggested professions; training pay precedes qualified work; NP cards name the RN-to-graduate route; existing notes are preserved.
+
+The medicine example yields Science &amp; environment, Health &amp; helping, and Technology &amp; data. The creative example has one clear interest connection and two explicitly labelled related options. The trades example yields Trades, Transport &amp; production, and Engineering &amp; building. These are outputs of the disclosed fictional answers, not expected results for every student with the same career aspiration.
+
+## What still requires real students
+
+More questions can increase fatigue or repeat the same idea. Before claiming validated matching, conduct student cognitive interviews, test completion/drop-off and unclear wording, and pilot alongside an unmodified official O*NET assessment in a separate administration. Compare theme ordering and broad-field agreement, inspect disagreements, and obtain counselor review of the reasons shown. Do not require identical occupation lists because the methods differ.
+
+With a sufficiently diverse sample, estimate reliability, retest stability, construct evidence, and item behavior across exposure levels and demographic groups. Use held-out cases when changing mappings or thresholds. Review whether inexperienced students receive narrower options, whether almost-identical prompts dominate a branch, and whether a single changed answer causes an implausible jump. Retire or rewrite weak items. Follow-up activity feedback can assess usefulness; career satisfaction, admission, employment, and income cannot be inferred from these synthetic checks.
+
+This release is a research-informed guidance tool with behavioral calibration. It is **not a newly validated aptitude or predictive career assessment**.
+</pre></main></html>

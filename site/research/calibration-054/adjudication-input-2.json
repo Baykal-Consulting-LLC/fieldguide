@@ -1,0 +1,2835 @@
+{
+  "note": "Third AI claim judgment, blind to earlier labels/reasons. Cases selected because two reviews disagreed. Accept reasonable learning interests without professional experience; distinguish clear occupational subject/method evidence from generic transfer. Do not tune any actual engine/answers.",
+  "cases": [
+    {
+      "id": "life-050",
+      "phase": "development",
+      "biography": {
+        "id": "life-050",
+        "name": "Tessa Redbird",
+        "age": 16,
+        "pronouns": "she/her",
+        "background": {
+          "family": "Lives with father, grandmother, and younger brother; mother lives across town and remains closely involved.",
+          "finances": "Stable income from municipal maintenance and retail management; careful budgeting covers classes and sports.",
+          "geography": "Oklahoma City, Oklahoma, with extended family in north Texas and planned visits to Texas campuses.",
+          "cultureLanguages": "Citizen of the Cherokee Nation; English-speaking, with family-supported Cherokee language learning and varied participation in community events.",
+          "school": "Public high school with a strong shop program and an after-school newspaper.",
+          "accessOpportunities": "Access to tools, a library, and regional youth events; eligible options and financial support for college are being researched rather than assumed."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Tessa spent afternoons beside her grandmother making picture labels for pantry shelves. She liked deciding what a useful picture needed to show and happily explained the entire system to visitors who only wanted a cup."
+          },
+          {
+            "ages": "6–7",
+            "story": "She learned to ride a bicycle in a school parking lot and wanted to understand why the chain sometimes slipped. Her father let her turn the pedals while the bicycle stood upside down and watched her test ideas."
+          },
+          {
+            "ages": "8–9",
+            "story": "A family language class introduced greetings and songs she could practice with her brother. She enjoyed the shared activity but resented classmates later assuming she could translate anything they found online about Native people."
+          },
+          {
+            "ages": "10–11",
+            "story": "During remote school she repaired two donated bicycles with her father. Sorting usable parts appealed to her, while writing descriptions for the eventual recipients revealed how much knowledge her first explanations had taken for granted."
+          },
+          {
+            "ages": "12–13",
+            "story": "She joined the newspaper to photograph sports, then discovered an interest in interviewing people who maintained school facilities. Her first article needed major revision because she had collected vivid quotations without explaining what had happened."
+          },
+          {
+            "ages": "14–15",
+            "story": "Shop class gave her structured practice with safety and measurement. She also attended family language activities less regularly during basketball season, then chose to return without turning a missed month into a permanent abandonment."
+          },
+          {
+            "ages": "16",
+            "story": "Tessa repairs bikes, writes occasional school articles, and plays basketball for pleasure. Family in Texas makes several colleges and technical programs feel geographically imaginable, but she wants to compare actual classes rather than follow the first route an adult suggests."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Bicycle mechanisms",
+            "Interviewing overlooked people",
+            "Casual basketball"
+          ],
+          "avoids": [
+            "Being made a cultural spokesperson",
+            "Instructions that skip basics"
+          ],
+          "activities": [
+            "Bike repairs",
+            "School newspaper",
+            "Language learning"
+          ],
+          "demonstratedSkills": [
+            "Checks mechanical wear",
+            "Revises explanations",
+            "Uses shop tools safely"
+          ],
+          "unfamiliarActivities": [
+            "Formal programming",
+            "Dance performance",
+            "Long field research"
+          ],
+          "motivations": [
+            "Useful work",
+            "Accurate stories",
+            "Staying connected without performing identity"
+          ],
+          "ambitions": [
+            "Comparing several educational routes",
+            "Imagines an independent place close enough for regular family visits and projects with her brother."
+          ],
+          "struggles": [
+            "Balancing writing and practical projects",
+            "Occasional frustration with assumptions"
+          ],
+          "supports": [
+            "Both parents",
+            "Grandmother",
+            "Shop teacher",
+            "Newspaper adviser"
+          ],
+          "practicalConstraints": [
+            "Limited travel budget",
+            "School and activity schedule"
+          ]
+        },
+        "selfDescription": "I like finding out who actually keeps a place running. I'm also allowed to be interested in something just because it's fun, without having to explain what it means about my family or community.",
+        "openQuestions": [
+          "Would interviewing remain appealing outside familiar institutions?",
+          "Does she prefer repairing existing systems or designing new ones?"
+        ],
+        "variationTags": [
+          "Cherokee family",
+          "Oklahoma with Texas ties",
+          "bicycle repair",
+          "school reporting",
+          "language learning"
+        ]
+      },
+      "top": [
+        {
+          "id": "industrial-machinery-mechanic",
+          "title": "Industrial Machinery Mechanics",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "trades-systems",
+              "prompt": "Which systems would you like to work with?",
+              "domain": "tasks",
+              "text": "Vehicles and mechanical equipment",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-process",
+              "prompt": "What sounds satisfying to learn?",
+              "domain": "tasks",
+              "text": "Trace a fault and work out why something stopped working",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-place",
+              "prompt": "Where would you enjoy learning practical work?",
+              "domain": "tasks",
+              "text": "A repair workshop with tools and equipment",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-workday",
+              "prompt": "Which routines would you like to practice?",
+              "domain": "context",
+              "text": "Follow a diagnostic sequence and test a repair",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-refine-1",
+              "prompt": "Which fault would you most enjoy tracing?",
+              "domain": "tasks",
+              "text": "An engine or production machine behaving strangely",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-refine-2",
+              "prompt": "Which finished result would feel satisfying?",
+              "domain": "tasks",
+              "text": "A strong metal joint or repaired machine",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-refine-3",
+              "prompt": "Which details would you enjoy learning to check?",
+              "domain": "process",
+              "text": "Wear, vibration, diagnostic readings, and maintenance records",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-refine-4",
+              "prompt": "Which safe introduction would you choose?",
+              "domain": "introduction",
+              "text": "A supervised welding or machine-maintenance demonstration",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "industrial-machinery-mechanic-interest-044-1",
+              "prompt": "Would you like to learn to investigate why production machinery is not working and work out what needs repairing as a regular part of your work?",
+              "domain": "industrial-machinery-mechanic-interest-044-1",
+              "text": "Would you like to learn to investigate why production machinery is not working and work out what needs repairing as a regular part of your work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "She repeatedly investigates bicycle mechanisms and wear; learning larger production-machine troubleshooting is a plausible mechanical extension.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "industrial-machinery-mechanic-interest-044-2",
+              "prompt": "Would you like to learn to repair or replace machine parts and maintain equipment so it can run reliably as a regular part of your work?",
+              "domain": "industrial-machinery-mechanic-interest-044-2",
+              "text": "Would you like to learn to repair or replace machine parts and maintain equipment so it can run reliably as a regular part of your work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "She repairs donated bikes and safely uses shop tools; larger equipment maintenance is inferred scope, not missing basic interest.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        },
+        {
+          "id": "automotive",
+          "title": "Automotive Service Technicians and Mechanics",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "trades-systems",
+              "prompt": "Which systems would you like to work with?",
+              "domain": "tasks",
+              "text": "Vehicles and mechanical equipment",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-process",
+              "prompt": "What sounds satisfying to learn?",
+              "domain": "tasks",
+              "text": "Trace a fault and work out why something stopped working",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-place",
+              "prompt": "Where would you enjoy learning practical work?",
+              "domain": "tasks",
+              "text": "A repair workshop with tools and equipment",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-workday",
+              "prompt": "Which routines would you like to practice?",
+              "domain": "context",
+              "text": "Follow a diagnostic sequence and test a repair; Explain a problem and repair options to a customer",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-refine-1",
+              "prompt": "Which fault would you most enjoy tracing?",
+              "domain": "tasks",
+              "text": "An engine or production machine behaving strangely",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-refine-2",
+              "prompt": "Which finished result would feel satisfying?",
+              "domain": "tasks",
+              "text": "A strong metal joint or repaired machine",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-refine-3",
+              "prompt": "Which details would you enjoy learning to check?",
+              "domain": "process",
+              "text": "Wear, vibration, diagnostic readings, and maintenance records",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "trades-refine-4",
+              "prompt": "Which safe introduction would you choose?",
+              "domain": "introduction",
+              "text": "A supervised welding or machine-maintenance demonstration",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "automotive-interest-044-1",
+              "prompt": "Would you like to learn to inspect cars and trace the cause of problems in their engines, brakes, or other systems?",
+              "domain": "automotive-interest-044-1",
+              "text": "Would you like to learn to inspect cars and trace the cause of problems in their engines, brakes, or other systems?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "Bike-chain investigation and repeated mechanical repair support learning vehicle fault-finding; car systems are not yet tested.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "automotive-interest-044-2",
+              "prompt": "Would you like to learn to repair or adjust vehicle parts and test the vehicle to check that the repair works safely?",
+              "domain": "automotive-interest-044-2",
+              "text": "Would you like to learn to repair or adjust vehicle parts and test the vehicle to check that the repair works safely?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "She repairs bicycles, checks wear, and cares about useful working results; safe car-part repair is a plausible extension.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-052",
+      "phase": "development",
+      "biography": {
+        "id": "life-052",
+        "name": "Maya Fenwick",
+        "age": 16,
+        "pronouns": "she/her",
+        "background": {
+          "family": "Lives with an aunt and uncle under a stable kinship guardianship, alongside their son; she has supervised contact with her mother when arrangements permit.",
+          "finances": "Modest but reliable household income; guardianship costs reduced savings, and school supplies are planned together.",
+          "geography": "Lubbock, Texas, after several earlier moves within the state.",
+          "cultureLanguages": "White and Mexican American extended family; English at home with some Spanish from her aunt’s relatives.",
+          "school": "Public high school; a counselor coordinates records from previous schools and helps her catch gaps without repeating entire subjects.",
+          "accessOpportunities": "Library access, a supportive dance studio scholarship, and local college outreach provide continuity."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Maya loved making up dance steps with a neighbor and teaching them to anyone who would watch. She also memorized picture-book jokes and delighted in delivering the punch line before adults reached the final page."
+          },
+          {
+            "ages": "6–7",
+            "story": "Changes in her mother’s housing meant switching classrooms more than once. Maya became quick at spotting which children welcomed newcomers, while sometimes keeping her favorite belongings packed after everyone else considered a move finished."
+          },
+          {
+            "ages": "8–9",
+            "story": "She stayed with several relatives before settling with her aunt and uncle. A predictable bedtime and permission to keep a lamp on helped, but she still needed time before asking for things she thought might be inconvenient."
+          },
+          {
+            "ages": "10–11",
+            "story": "Remote school at her aunt’s table revealed uneven math preparation alongside strong reading. Rather than treating everything as missing, a tutor checked specific concepts and helped her build a short, manageable practice routine."
+          },
+          {
+            "ages": "12–13",
+            "story": "A community dance scholarship gave Maya the same classmates every week. She enjoyed rehearsal and disliked public fundraising stories about her circumstances, so her aunt helped ask organizers to discuss the program without identifying recipients."
+          },
+          {
+            "ages": "14–15",
+            "story": "She joined the library’s teen advisory group and suggested less formal ways for newcomers to enter meetings. A disagreement about event spending taught her that welcoming people still required decisions that could disappoint someone."
+          },
+          {
+            "ages": "16",
+            "story": "Maya now attends school regularly, dances twice weekly, and helps plan library events. Family contact can still disrupt her concentration, but trusted adults help her recover routines; she is exploring local postsecondary options while allowing herself to imagine staying somewhere by choice."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Dance rehearsals",
+            "Funny books",
+            "Welcoming newcomers"
+          ],
+          "avoids": [
+            "Public hardship narratives",
+            "Promises without specifics"
+          ],
+          "activities": [
+            "Dance scholarship",
+            "Library advisory group",
+            "Math practice"
+          ],
+          "demonstratedSkills": [
+            "Learns choreography",
+            "Identifies participation barriers",
+            "Asks for clarification"
+          ],
+          "unfamiliarActivities": [
+            "Mechanical repair",
+            "Camping",
+            "Formal coding"
+          ],
+          "motivations": [
+            "Reliable belonging",
+            "Having choices that last"
+          ],
+          "ambitions": [
+            "Wants to continue learning after high school",
+            "Imagines a predictable home where friends can visit and belongings do not need to stay packed."
+          ],
+          "struggles": [
+            "Concentration around family-contact changes",
+            "Some curriculum gaps"
+          ],
+          "supports": [
+            "Aunt and uncle",
+            "Tutor",
+            "Counselor",
+            "Dance teacher"
+          ],
+          "practicalConstraints": [
+            "Limited college savings",
+            "Transportation coordination",
+            "Contact schedule changes"
+          ]
+        },
+        "selfDescription": "I can be really excited about a new person and still take a while to trust that they'll come back. I like dancing because you have to practice, but you also get another try tomorrow.",
+        "openQuestions": [
+          "Will she prefer familiar local study or a fresh setting with dependable support?",
+          "How much event planning would she choose without a welcoming role?"
+        ],
+        "variationTags": [
+          "kinship care",
+          "school interruptions",
+          "dance",
+          "library participation",
+          "growing continuity"
+        ]
+      },
+      "top": [
+        {
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "education-help",
+              "prompt": "What would you enjoy helping someone learn?",
+              "domain": "tasks",
+              "text": "How to find information and learn independently",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "education-learners",
+              "prompt": "Who would you like to learn alongside?",
+              "domain": "tasks",
+              "text": "A community of different ages and interests",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "education-approach",
+              "prompt": "Which way of supporting learning interests you?",
+              "domain": "tasks",
+              "text": "Find useful resources and make information easier to access",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "education-workday",
+              "prompt": "Which routines would you like to try?",
+              "domain": "context",
+              "text": "Organize resources and answer people’s questions",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "education-refine-1",
+              "prompt": "Which learning problem would you enjoy exploring?",
+              "domain": "tasks",
+              "text": "Help people find information or understand communities",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "education-refine-2",
+              "prompt": "Which result would feel most satisfying?",
+              "domain": "tasks",
+              "text": "An information resource or study that helps a community",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "education-refine-3",
+              "prompt": "Which details would you enjoy checking?",
+              "domain": "process",
+              "text": "Reliable sources, organisation, and research methods",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "education-refine-4",
+              "prompt": "Which supervised introduction would you choose?",
+              "domain": "introduction",
+              "text": "Help at a library or explore a community research question",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "librarian-interest-044-1",
+              "prompt": "Would you like to learn to help someone work out what information they need and search reliable sources to answer their question as a regular part of your work?",
+              "domain": "librarian-interest-044-1",
+              "text": "Would you like to learn to help someone work out what information they need and search reliable sources to answer their question as a regular part of your work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "Her library advisory work, love of books, and careful clarification provide some basis for learning library information assistance.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "librarian-interest-044-2",
+              "prompt": "Would you like to learn to guide library users in finding and using books, reference materials, or online information for their own purposes as a regular part of your work?",
+              "domain": "librarian-interest-044-2",
+              "text": "Would you like to learn to guide library users in finding and using books, reference materials, or online information for their own purposes as a regular part of your work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "She actively plans library events and welcomes newcomers; guiding users toward books or information is a plausible extension, not an observed reference role.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-058",
+      "phase": "development",
+      "biography": {
+        "id": "life-058",
+        "name": "Sofia Delaney",
+        "age": 16,
+        "pronouns": "she/her",
+        "background": {
+          "family": "Lives with father and younger brother; her mother died from illness when Sofia was twelve, and an aunt remains closely involved.",
+          "finances": "Father’s teaching salary covers a small home; reduced household earnings and medical costs limited savings.",
+          "geography": "Tyler, Texas, with extended family nearby.",
+          "cultureLanguages": "Mexican American and Irish American family; English at home with Spanish songs and phrases from maternal relatives.",
+          "school": "Public high school; teachers know family circumstances but generally let her decide when to discuss them.",
+          "accessOpportunities": "School art studio, local parks, and an aunt’s transportation support exploration; residential options require careful financial planning."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Sofia spent preschool mornings arranging leaves and pebbles into pretend meals. Her mother photographed some arrangements, and Sofia preferred describing the guests who would eat them rather than naming every plant she had collected."
+          },
+          {
+            "ages": "6–7",
+            "story": "She began a children’s art class and liked large shared murals better than individual competitions. Her younger brother often interrupted home projects, so they negotiated a separate box of materials he could use freely."
+          },
+          {
+            "ages": "8–9",
+            "story": "When her mother’s illness changed family routines, Sofia stayed with an aunt more often and learned several simple dinners. She still joined art class and playground games; adults made a point of preserving ordinary childhood activities."
+          },
+          {
+            "ages": "10–11",
+            "story": "She drew a comic about a family living in a tree during remote schooling. It was funny rather than autobiographical, and her mother helped scan the pages while reminding her that she did not owe anyone a meaningful story."
+          },
+          {
+            "ages": "12–13",
+            "story": "After her mother died, Sofia alternated between wanting company and wanting privacy. A school counselor and bereavement group offered support, while her father took over household planning instead of treating her as a replacement adult."
+          },
+          {
+            "ages": "14–15",
+            "story": "She returned to mural projects and began noticing plants along walking routes. Some family anniversaries disrupted concentration, but she learned to request an extension before work piled up; she also started keeping sketches nobody else needed to see."
+          },
+          {
+            "ages": "16",
+            "story": "Sofia paints, walks with her aunt, and helps her brother with occasional homework. She wants to explore education beyond town without assuming distance will resolve grief, and remains undecided about whether her love of collaborative art extends to formal study."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Shared murals",
+            "Private sketches",
+            "Plant walks"
+          ],
+          "avoids": [
+            "Being praised for growing up fast",
+            "Forced personal storytelling"
+          ],
+          "activities": [
+            "School art",
+            "Walking",
+            "Occasional sibling homework help"
+          ],
+          "demonstratedSkills": [
+            "Plans mural sections",
+            "Mixes colors",
+            "Requests support before deadlines"
+          ],
+          "unfamiliarActivities": [
+            "Coding",
+            "Organized sports",
+            "Long solo travel"
+          ],
+          "motivations": [
+            "Keeping joy alongside loss",
+            "Making things with other people"
+          ],
+          "ambitions": [
+            "Wants room to explore beyond town",
+            "Imagines a home with close relationships, regular outdoor time, and permission for changing feelings."
+          ],
+          "struggles": [
+            "Anniversary-related concentration changes",
+            "Worry about leaving family"
+          ],
+          "supports": [
+            "Father",
+            "Aunt",
+            "Counselor",
+            "Bereavement peers",
+            "Art teacher"
+          ],
+          "practicalConstraints": [
+            "Education costs",
+            "Transport",
+            "Occasional flexible deadlines"
+          ]
+        },
+        "selfDescription": "I can have a really good week and still miss my mom. I don't want that to explain every drawing I make, but I also don't want to pretend it isn't part of how I think about leaving home.",
+        "openQuestions": [
+          "What kinds of distance from family feel manageable?",
+          "Does she enjoy art critique as much as collaborative making?"
+        ],
+        "variationTags": [
+          "parental bereavement",
+          "supported grief",
+          "murals",
+          "nature walks",
+          "bounded family responsibilities"
+        ]
+      },
+      "top": [
+        {
+          "id": "writing",
+          "title": "Writers & authors",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "creative-make",
+              "prompt": "What would you enjoy creating?",
+              "domain": "tasks",
+              "text": "A story through words, photographs or moving images",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-revise",
+              "prompt": "Which kind of revision sounds satisfying?",
+              "domain": "tasks",
+              "text": "Shape the timing, mood or story of a scene",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-people",
+              "prompt": "Who would you enjoy creating with or for?",
+              "domain": "context",
+              "text": "People sharing a story, language or point of view",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-workday",
+              "prompt": "Which parts of a creative workday would you like to try?",
+              "domain": "context",
+              "text": "Make several drafts and improve them after feedback",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-refine-1",
+              "prompt": "Which creative problem would keep you curious?",
+              "domain": "tasks",
+              "text": "Make a story, scene, or image more engaging",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-refine-2",
+              "prompt": "Which result would you most enjoy finishing?",
+              "domain": "tasks",
+              "text": "An edited story, film, animation, or photo series",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-refine-4",
+              "prompt": "Which beginner project would you choose?",
+              "domain": "introduction",
+              "text": "Make a short written, photographic, or moving-image story",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "writing-interest-044-1",
+              "prompt": "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+              "domain": "writing-interest-044-1",
+              "text": "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "She created a funny family-in-a-tree comic and enjoys inventing characters; learning longer written storytelling is plausible beyond her mostly visual practice.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "writing-interest-044-2",
+              "prompt": "Would you like to learn to revise your writing after feedback so its message, structure, and style work better for its intended readers?",
+              "domain": "writing-interest-044-2",
+              "text": "Would you like to learn to revise your writing after feedback so its message, structure, and style work better for its intended readers?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "Collaborative mural planning and creating a scanned comic support thoughtful project revision; feedback on written structure is still an inference.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-062",
+      "phase": "development",
+      "biography": {
+        "id": "life-062",
+        "name": "Alex Nowak",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with parents and an older sister; coming out as a trans boy led to conversations and practical changes while family relationships remained affectionate.",
+          "finances": "Stable middle income from bakery management and electrical work; college costs will require comparison and some aid.",
+          "geography": "Albuquerque, New Mexico, with an aunt in El Paso who hosts visits to Texas programs.",
+          "cultureLanguages": "Polish American household using English and Polish with grandparents; family observes some Catholic traditions without expecting identical beliefs.",
+          "school": "Public high school with a greenhouse and strong language-arts electives.",
+          "accessOpportunities": "Community gardens, a used-book store, and visits to El Paso make several education and training routes tangible."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Alex liked arranging toy animals into families and drawing maps of their journeys. He wanted bedtime stories repeated until he could tell them himself, then changed one detail to see whether anyone noticed the difference."
+          },
+          {
+            "ages": "6–7",
+            "story": "He helped his mother roll dough on quiet bakery mornings and enjoyed watching familiar customers greet each other. He disliked the loud mixer, but loved reading handwritten notes tucked beside recipes from older relatives."
+          },
+          {
+            "ages": "8–9",
+            "story": "A neighbor gave him a small cactus cutting and taught him not to water it constantly. Alex began noticing how patient care differed from constant intervention, and he kept a notebook of changes that were often barely visible."
+          },
+          {
+            "ages": "10–11",
+            "story": "During remote school he read fantasy novels and exchanged long messages about characters with a friend. He also became more deliberate about his name and clothing, trying possibilities privately before asking others to change how they addressed him."
+          },
+          {
+            "ages": "12–13",
+            "story": "Alex told his family he was a boy and requested his current name. Most relatives adjusted with practice; his parents helped coordinate school records and protected his choice about who needed personal information beyond the immediate school team."
+          },
+          {
+            "ages": "14–15",
+            "story": "He volunteered at a community garden and joined a literary discussion group. He liked both plant routines and arguments about unreliable narrators, discovering that a quiet manner did not prevent him from disagreeing firmly when the text supported him."
+          },
+          {
+            "ages": "16",
+            "story": "He now maintains greenhouse plants, reads widely, and visits his aunt in El Paso during breaks. He is curious about continued study but wants to evaluate ordinary daily life on campuses as carefully as their brochures and welcoming statements."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Plant propagation",
+            "Character discussions",
+            "Family recipe notes"
+          ],
+          "avoids": [
+            "Personal information shared without consent",
+            "Loud enclosed machinery"
+          ],
+          "activities": [
+            "Greenhouse care",
+            "Literary group",
+            "Community garden"
+          ],
+          "demonstratedSkills": [
+            "Recognizes care changes",
+            "Supports textual arguments",
+            "Keeps patient records"
+          ],
+          "unfamiliarActivities": [
+            "Team sports",
+            "Mechanical fabrication",
+            "Public performance"
+          ],
+          "motivations": [
+            "Privacy and belonging",
+            "Understanding slow change"
+          ],
+          "ambitions": [
+            "Considering study in New Mexico or Texas",
+            "Imagines a home with plants, good books, trusted people, and no need to explain himself constantly."
+          ],
+          "struggles": [
+            "Choosing how much to disclose",
+            "Comparing appealing subjects"
+          ],
+          "supports": [
+            "Parents",
+            "Sister",
+            "School contact",
+            "Aunt",
+            "Garden mentor"
+          ],
+          "practicalConstraints": [
+            "Travel costs",
+            "Aid planning",
+            "Program climate and record coordination"
+          ]
+        },
+        "selfDescription": "I can be quiet and still have a pretty strong opinion about a book. I want to get to know new places as a whole person, not spend every introduction deciding how much explaining somebody expects.",
+        "openQuestions": [
+          "Would he enjoy plant study at a more technical level?",
+          "Which campus routines would help him feel both private and connected?"
+        ],
+        "variationTags": [
+          "trans boy",
+          "Polish and English",
+          "New Mexico with Texas ties",
+          "plant care",
+          "literary discussion"
+        ]
+      },
+      "top": [
+        {
+          "id": "landscaping-worker",
+          "title": "Landscaping & Groundskeeping Workers",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "science-wonder",
+              "prompt": "What would you most enjoy investigating?",
+              "domain": "tasks",
+              "text": "Plants, land or animals that people care for",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-setting",
+              "prompt": "Where would you enjoy gathering information?",
+              "domain": "context",
+              "text": "A farm, nursery, garden or planted landscape",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-result",
+              "prompt": "Which result would you like your work to support?",
+              "domain": "tasks",
+              "text": "Keep plants, animals or outdoor spaces healthy",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-workday",
+              "prompt": "Which routines would you like to learn?",
+              "domain": "context",
+              "text": "Notice changes and provide regular practical care",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-refine-1",
+              "prompt": "Which question would you want to investigate?",
+              "domain": "tasks",
+              "text": "How plants grow under different conditions",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-refine-2",
+              "prompt": "Which result would you enjoy producing?",
+              "domain": "tasks",
+              "text": "Healthy plants, crops, or a maintained landscape",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-refine-3",
+              "prompt": "Which details would you enjoy checking?",
+              "domain": "process",
+              "text": "Soil, watering, pests, and signs of growth",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-refine-4",
+              "prompt": "Which safe introduction would you choose?",
+              "domain": "introduction",
+              "text": "A supervised garden or planting project",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "landscaping-worker-interest-044-1",
+              "prompt": "Would you like to learn to care for lawns, plants, and outdoor grounds through hands-on tasks such as mowing or pruning as a regular part of your work?",
+              "domain": "landscaping-worker-interest-044-1",
+              "text": "Would you like to learn to care for lawns, plants, and outdoor grounds through hands-on tasks such as mowing or pruning as a regular part of your work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "Repeated community gardening, greenhouse care, and plant propagation support learning broader hands-on grounds care.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "landscaping-worker-interest-044-2",
+              "prompt": "Would you like to learn to use tools and outdoor equipment to maintain a landscape and keep the grounds in good condition as a regular part of your work?",
+              "domain": "landscaping-worker-interest-044-2",
+              "text": "Would you like to learn to use tools and outdoor equipment to maintain a landscape and keep the grounds in good condition as a regular part of your work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "He sustains plant care and recognizes care changes; learning landscape tools is plausible, although loud enclosed machinery is an avoided setting.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-069",
+      "phase": "development",
+      "biography": {
+        "id": "life-069",
+        "name": "Evan Rourke",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with two parents and a younger sister; family weekends often include grandparents and elaborate board games.",
+          "finances": "Affluent household with tutoring and equipment available, although parents expect him to explain expensive requests.",
+          "geography": "Frisco, Texas, in a car-dependent subdivision.",
+          "cultureLanguages": "English-speaking household with Irish American family traditions that matter more to his grandparents than to him.",
+          "school": "Public high school; diagnosed dyslexia is supported through accessible texts, extra reading time, and explicit literacy instruction.",
+          "accessOpportunities": "Can attend Collin College workshops and university open houses across North Texas; family transport and internet are dependable."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Evan narrated complicated rescue stories for toy animals and remembered entire picture books. His parents initially mistook memorized pages for reading and were surprised when unfamiliar words stopped him."
+          },
+          {
+            "ages": "6–7",
+            "story": "Reading instruction became exhausting, while measuring ingredients with his father felt straightforward. A dyslexia evaluation led to specialized instruction; he worried that leaving class meant everyone thought he was incapable."
+          },
+          {
+            "ages": "8–9",
+            "story": "Audiobooks let him discuss long novels with his sister. He assembled a marble course over several weekends, recording slow-motion failures, but refused to enter a spelling competition his friends enjoyed."
+          },
+          {
+            "ages": "10–11",
+            "story": "He made a stop-motion film with neighborhood children. Editing thrilled him; negotiating who could touch the camera did not. A library instructor noticed that he could explain why one cut made a joke work."
+          },
+          {
+            "ages": "12–13",
+            "story": "He joined robotics expecting constant building and discovered lengthy documentation. Speech-to-text helped, but he still felt conspicuous using it. He left after one season and took up swimming with a cousin."
+          },
+          {
+            "ages": "14–15",
+            "story": "A history teacher accepted a carefully sourced audio documentary alongside written notes. Evan spent days revising its sequence. He also began cooking full meals, though he abandoned several ambitious recipes when cleanup accumulated."
+          },
+          {
+            "ages": "16",
+            "story": "He films swim meets and is trying robotics again with a smaller team that shares documentation duties. His grades are solid, yet he describes himself as behind whenever classmates finish reading first; unfamiliar practical work sometimes restores his confidence."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Audio storytelling",
+            "Troubleshooting physical mechanisms",
+            "Cooking for a small group"
+          ],
+          "avoids": [
+            "Reading aloud without preparation",
+            "Competitive spelling"
+          ],
+          "activities": [
+            "Swim team video volunteer",
+            "Small robotics team",
+            "Weekly literacy support"
+          ],
+          "demonstratedSkills": [
+            "Film sequencing",
+            "Spatial assembly",
+            "Using evidence in spoken explanations"
+          ],
+          "unfamiliarActivities": [
+            "Paid customer work",
+            "Long independent research projects",
+            "Outdoor camping"
+          ],
+          "motivations": [
+            "Making an audience understand something",
+            "Being trusted with real responsibilities"
+          ],
+          "ambitions": [
+            "Finish a longer documentary",
+            "Try a workshop without a friend accompanying him",
+            "He imagines adult independence with a place to edit films, cook for friends, and use reading tools without embarrassment."
+          ],
+          "struggles": [
+            "Slow decoding remains tiring",
+            "Compares reading speed with overall competence"
+          ],
+          "supports": [
+            "Literacy specialist",
+            "Parents",
+            "Teacher who plans accessible assignments"
+          ],
+          "practicalConstraints": [
+            "Needs accessible reading formats",
+            "Practices compete with project time"
+          ]
+        },
+        "selfDescription": "I can see how a scene should fit together before I can explain it on paper. People say I have lots of options, but sometimes options sound like more chances to find out what I cannot do.",
+        "openQuestions": [
+          "How much did documentation versus team size influence leaving robotics?",
+          "Will confidence improve when access tools feel ordinary?"
+        ],
+        "variationTags": [
+          "fictional dyslexia diagnosis",
+          "affluent suburb",
+          "accessible literacy",
+          "media and mechanisms",
+          "low confidence with demonstrated competence"
+        ]
+      },
+      "top": [
+        {
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "degree-27101300-047-domain",
+              "prompt": "Would you like to learn to express ideas, emotions, or observations through original visual artwork whose form and materials are part of its meaning?",
+              "domain": "domain",
+              "text": "Would you like to learn to express ideas, emotions, or observations through original visual artwork whose form and materials are part of its meaning?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Repeated stop-motion, documentary and swim-meet filming are original visual expression, as the anonymous prompt is worded.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "degree-27101300-047-method",
+              "prompt": "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?",
+              "domain": "method",
+              "text": "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Chooses sequencing and camera effects and revises until an audience understands the intended scene or joke.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "degree-27101300-047-responsibility",
+              "prompt": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?",
+              "domain": "responsibility",
+              "text": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Spent days revising a sourced documentary and aims to finish a longer one; artistic purpose and finished presentation recur.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-078",
+      "phase": "development",
+      "biography": {
+        "id": "life-078",
+        "name": "Hana Qureshi",
+        "age": 16,
+        "pronouns": "she/her",
+        "background": {
+          "family": "Lives with her parents, younger sister, and an aunt; the family negotiates crowded kitchen space with considerable humor.",
+          "finances": "Stable middle income from logistics and dental-office work.",
+          "geography": "Arlington, Texas, close to a park but far from convenient transit.",
+          "cultureLanguages": "Muslim Pakistani American household using English and Urdu; relatives vary widely in religious practice and expectations.",
+          "school": "Public high school with accounting, environmental science, and theater electives.",
+          "accessOpportunities": "Tarrant County College workshops, UT Arlington events, mosque service projects, and city trail days offer several entry points."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Hana made pretend shops from food containers and insisted customers receive tiny paper receipts. She also enjoyed climbing low trees, surprising adults who remembered her mostly as a child who liked tidy indoor games."
+          },
+          {
+            "ages": "6–7",
+            "story": "Her aunt taught her basic stitching, and she made uneven bags for stones collected in the park. She liked stories read aloud but resisted performing them for visiting relatives."
+          },
+          {
+            "ages": "8–9",
+            "story": "She helped at a community food distribution day, first sorting cans and later asking visitors what they needed. The conversations interested her more than she expected, although she was tired afterward."
+          },
+          {
+            "ages": "10–11",
+            "story": "A bicycle puncture became a weekend repair lesson with her father. She preferred the practical puzzle to riding long distances. At school she joined a book discussion group and changed her opinion when another student defended an unpopular character."
+          },
+          {
+            "ages": "12–13",
+            "story": "She tried theater lighting, found the equipment interesting, and left because rehearsals conflicted with family evenings. An accounting elective appealed because errors could be tracked, but she disliked exercises with no connection to actual decisions."
+          },
+          {
+            "ages": "14–15",
+            "story": "Trail volunteers taught her to mend drainage channels and identify invasive plants. She enjoyed the muddy work and began recording supply costs. Friends joked that she could turn any outing into a spreadsheet, which was partly true and sometimes annoying."
+          },
+          {
+            "ages": "16",
+            "story": "Hana now alternates service shifts and trail days, occasionally helping her aunt price handmade items. She wants to explore subjects beyond familiar community settings. She is unsure whether her satisfaction comes from nature, practical coordination, or seeing a useful result with other people."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Trail repair",
+            "Real expense puzzles",
+            "Talking with people during purposeful work"
+          ],
+          "avoids": [
+            "Being volunteered for family performances",
+            "Long recreational cycling"
+          ],
+          "activities": [
+            "Food distribution shifts",
+            "City trail days",
+            "Accounting elective"
+          ],
+          "demonstratedSkills": [
+            "Simple bicycle repairs",
+            "Reconciling small expense records",
+            "Listening to requests without rushing"
+          ],
+          "unfamiliarActivities": [
+            "Advanced laboratory work",
+            "Solo travel",
+            "Creative writing workshops"
+          ],
+          "motivations": [
+            "Useful visible results",
+            "Understanding people outside familiar circles"
+          ],
+          "ambitions": [
+            "Take a summer class with new classmates",
+            "Organize supplies for a complete trail day",
+            "She imagines living close enough for family meals while having independence and regular time outdoors."
+          ],
+          "struggles": [
+            "Can over-organize shared activities",
+            "Unsure which interests deserve deeper commitment"
+          ],
+          "supports": [
+            "Aunt",
+            "Parents",
+            "Trail coordinator"
+          ],
+          "practicalConstraints": [
+            "Family schedules",
+            "Car-dependent area",
+            "Weekend commitments"
+          ]
+        },
+        "selfDescription": "I like getting my hands dirty if I can tell what we are fixing. I also like a good set of records, but I do not want every enjoyable thing to become a task list.",
+        "openQuestions": [
+          "Would she enjoy bookkeeping without a personally meaningful project?",
+          "How does she respond when shared work has no immediate visible outcome?"
+        ],
+        "variationTags": [
+          "ordinary supportive suburb",
+          "Muslim family variation",
+          "outdoor repair and accounting",
+          "purposeful customer interaction",
+          "mixed practical interests"
+        ]
+      },
+      "top": [
+        {
+          "id": "office-clerk",
+          "title": "Office Clerks, General",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "sales-office-help",
+              "prompt": "How would you enjoy helping people?",
+              "domain": "tasks",
+              "text": "Keep payments and financial records accurate",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "sales-office-workday",
+              "prompt": "Which routines would you like to learn?",
+              "domain": "context",
+              "text": "Check details and use payment or record systems accurately",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "office-clerk-interest-044-1",
+              "prompt": "Would you like to learn to keep an office’s records and routine paperwork organized and accurate?",
+              "domain": "office-clerk-interest-044-1",
+              "text": "Would you like to learn to keep an office’s records and routine paperwork organized and accurate?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "She enjoys useful records, supply organization, and purposeful conversations during service shifts. Routine office information work is a reasonable extension, though an office setting is untested.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "office-clerk-interest-044-2",
+              "prompt": "Would you like to learn to help an office run smoothly by handling routine information requests, messages, and documents?",
+              "domain": "office-clerk-interest-044-2",
+              "text": "Would you like to learn to help an office run smoothly by handling routine information requests, messages, and documents?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "She enjoys useful records, supply organization, and purposeful conversations during service shifts. Routine office information work is a reasonable extension, though an office setting is untested.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-082",
+      "phase": "development",
+      "biography": {
+        "id": "life-082",
+        "name": "Malik Harbin",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with his mother and stepfather, with regular weekends at his father's home; all three adults coordinate school and medical needs.",
+          "finances": "Middle income; specialist care creates costs but essentials and activities remain stable.",
+          "geography": "Pearland, Texas.",
+          "cultureLanguages": "Black and white extended family, English-speaking, with contrasting preferences for very quiet and very crowded celebrations.",
+          "school": "Public high school; juvenile idiopathic arthritis is supported with flexible seating, extra passing time, and remote participation during significant flares.",
+          "accessOpportunities": "Community college events and Houston-area programs are available; he asks about seating, walking distances, and schedules before committing."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Malik liked running obstacle courses and arranging his mother's scarves into costumes. Adults remember him as a child who could turn a cardboard box into a stage within minutes."
+          },
+          {
+            "ages": "6–7",
+            "story": "He developed joint pain and was eventually diagnosed with juvenile arthritis. Treatment and physical therapy became familiar routines. He kept playing with friends, though he sometimes needed to stop earlier than everyone else."
+          },
+          {
+            "ages": "8–9",
+            "story": "A flare interrupted a soccer season. While resting, he began editing photos and designing outrageous haircuts on printed portraits. He returned to recreational kicking later but no longer wanted the team's schedule."
+          },
+          {
+            "ages": "10–11",
+            "story": "He helped a neighbor make posters for a yard sale and discovered that readable prices mattered more than dramatic fonts. Standing all morning was tiring, so he redesigned the table setup to work seated for part of the event."
+          },
+          {
+            "ages": "12–13",
+            "story": "An introductory coding class bored him until he could change a page's appearance. He enjoyed visual experimentation but found debugging tedious. At a family event he confidently introduced speakers while sitting on a high stool."
+          },
+          {
+            "ages": "14–15",
+            "story": "He began assisting with hair and costume preparation for school performances, using adapted grips on difficult days. He also liked chemistry lessons about mixtures, although his actual laboratory experience remained limited to ordinary school experiments."
+          },
+          {
+            "ages": "16",
+            "story": "Malik designs publicity for a student production and helps plan seating for audience members with access needs. His symptoms fluctuate. He wants opportunities that allow flexibility without assuming his interests must stay indoors or that every activity should be easy."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Visual design",
+            "Hair and costume experiments",
+            "Presenting to an audience"
+          ],
+          "avoids": [
+            "Long periods of unsupported standing",
+            "Debugging code without a visible goal"
+          ],
+          "activities": [
+            "Theater preparation",
+            "Publicity design",
+            "Physical therapy routines"
+          ],
+          "demonstratedSkills": [
+            "Readable layouts",
+            "Adapting a work setup",
+            "Confident prepared introductions"
+          ],
+          "unfamiliarActivities": [
+            "Extended laboratory work",
+            "Paid salon work",
+            "Long outdoor expeditions"
+          ],
+          "motivations": [
+            "Making people feel included",
+            "Being judged on actual work"
+          ],
+          "ambitions": [
+            "Try an accessible summer workshop",
+            "He imagines an adult routine with interesting people, flexible hours, and energy left for spontaneous outings"
+          ],
+          "struggles": [
+            "Unpredictable pain and fatigue",
+            "Dislikes repeatedly explaining changing limits"
+          ],
+          "supports": [
+            "Coordinating parents",
+            "Rheumatology team",
+            "School accommodations"
+          ],
+          "practicalConstraints": [
+            "Medical appointments",
+            "Variable mobility and grip strength",
+            "Needs seating and rest options"
+          ]
+        },
+        "selfDescription": "Some days I can do a lot, and other days I need a different setup. I like making something look exciting, but I care whether people can actually use it too.",
+        "openQuestions": [
+          "Which activities remain satisfying during symptom changes?",
+          "Does his interest in chemistry persist beyond visually striking experiments?"
+        ],
+        "variationTags": [
+          "fluctuating physical health",
+          "mobility accommodations",
+          "visual design and chemistry curiosity",
+          "public speaking",
+          "cooperative separated parents"
+        ]
+      },
+      "top": [
+        {
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "degree-27101300-047-domain",
+              "prompt": "Would you like to learn to express ideas, emotions, or observations through original visual artwork whose form and materials are part of its meaning?",
+              "domain": "domain",
+              "text": "Would you like to learn to express ideas, emotions, or observations through original visual artwork whose form and materials are part of its meaning?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Repeated photo editing, haircut designs and publicity demonstrate sustained visual creation.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "degree-27101300-047-method",
+              "prompt": "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?",
+              "domain": "method",
+              "text": "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Experiments with appearance and readability and revises designs around use.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "degree-27101300-047-responsibility",
+              "prompt": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?",
+              "domain": "responsibility",
+              "text": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "Carries posters/publicity to a real audience; a personal coherent body of artwork is less explicit than practical production.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-085",
+      "phase": "development",
+      "biography": {
+        "id": "life-085",
+        "name": "Diego Alvarenga",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with his father and younger sister; his mother lives in Honduras after an immigration-related removal when he was twelve, and they speak frequently by video.",
+          "finances": "Low but usually steady income from warehouse work, supplemented by nearby relatives during difficult months.",
+          "geography": "Brownsville, Texas; born in the United States.",
+          "cultureLanguages": "Spanish and English, with Honduran family traditions and South Texas neighborhood ties.",
+          "school": "Public high school with media electives and a supportive bilingual family liaison.",
+          "accessOpportunities": "Texas Southmost College events, UTRGV outreach, and library equipment are local possibilities; family schedules and costs limit travel."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Diego liked making paper animals and asking adults to describe their childhood homes. He would recreate those places with cushions, combining details that could never have belonged to the same room."
+          },
+          {
+            "ages": "6–7",
+            "story": "He began photographing insects with a borrowed phone and drawing labels in both languages. Reading aloud was enjoyable when the audience was his sister; formal school presentations made him speak very quickly."
+          },
+          {
+            "ages": "8–9",
+            "story": "A teacher showed him basic video editing. He made a funny family cooking clip and discovered that relatives disagreed about what should be shared. He learned to ask before posting and kept several favorite recordings private."
+          },
+          {
+            "ages": "10–11",
+            "story": "Family worries occupied more adult conversation, and he noticed changes without understanding the legal situation. He kept playing soccer and started helping his sister organize school materials, appreciating routines that felt manageable."
+          },
+          {
+            "ages": "12–13",
+            "story": "His mother's removal separated the household across countries. Video calls sustained their relationship but did not replace everyday contact. A school liaison helped his father arrange communication with teachers, while an uncle made sure Diego could continue soccer."
+          },
+          {
+            "ages": "14–15",
+            "story": "Diego joined media club and made a short film about bus stops rather than family separation. He enjoyed framing ordinary places on their own terms. He also tried electronics repair, becoming competent at replacing a controller cable with supervision."
+          },
+          {
+            "ages": "16",
+            "story": "He balances school, sibling pickup, and weekend soccer. He has begun mapping shaded walking routes for a class project and is unsure whether he likes the technology, neighborhood conversations, or the visual choices most. Family uncertainty remains, alongside ordinary jokes, friendships, and plans."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Filming everyday places",
+            "Soccer with familiar friends",
+            "Small supervised repairs"
+          ],
+          "avoids": [
+            "Being expected to tell a hardship story",
+            "Posting people without agreement"
+          ],
+          "activities": [
+            "Media club",
+            "Sibling pickup",
+            "Soccer",
+            "Walking-route project"
+          ],
+          "demonstratedSkills": [
+            "Visual framing",
+            "Bilingual interviewing",
+            "Following repair instructions carefully"
+          ],
+          "unfamiliarActivities": [
+            "Overnight college programs",
+            "Advanced laboratory work",
+            "Formal customer sales"
+          ],
+          "motivations": [
+            "Showing places beyond stereotypes",
+            "Keeping family relationships active"
+          ],
+          "ambitions": [
+            "Complete a film with shared authorship",
+            "He imagines adult independence that still leaves time and practical means to maintain close family contact"
+          ],
+          "struggles": [
+            "Missing everyday time with his mother",
+            "Overcommits when relatives need help"
+          ],
+          "supports": [
+            "Father",
+            "Mother by regular calls",
+            "Uncle",
+            "School family liaison"
+          ],
+          "practicalConstraints": [
+            "Sibling responsibilities",
+            "Limited travel funds",
+            "Uncertain family travel arrangements"
+          ]
+        },
+        "selfDescription": "My family is part of everything, but not every film I make has to explain us. I like noticing something on an ordinary street that people usually pass without seeing.",
+        "openQuestions": [
+          "How much creative time can he protect alongside family duties?",
+          "Would mapping remain interesting without the visual and social parts?"
+        ],
+        "variationTags": [
+          "significant cross-border family separation",
+          "South Texas",
+          "bilingual media",
+          "ordinary neighborhood observation",
+          "family connection and independence"
+        ]
+      },
+      "top": [
+        {
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "degree-27101300-047-domain",
+              "prompt": "Would you like to learn to express ideas, emotions, or observations through original visual artwork whose form and materials are part of its meaning?",
+              "domain": "domain",
+              "text": "Would you like to learn to express ideas, emotions, or observations through original visual artwork whose form and materials are part of its meaning?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Original films of ordinary places are visual artwork within the anonymous wording, alongside paper animals and photography.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "degree-27101300-047-method",
+              "prompt": "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?",
+              "domain": "method",
+              "text": "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Makes deliberate visual framing choices to show places beyond stereotypes.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "degree-27101300-047-responsibility",
+              "prompt": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?",
+              "domain": "responsibility",
+              "text": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Carries films to completion and deliberately chooses what can be shared with an audience.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-100",
+      "phase": "development",
+      "biography": {
+        "id": "life-100",
+        "name": "Micah Baptiste",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with his parents and older sister, with grandparents nearby; the family shares responsibilities and encourages interests beyond their small auto-parts business.",
+          "finances": "Steady middle income with seasonal business pressures but no recent disruption to essentials.",
+          "geography": "El Paso, Texas.",
+          "cultureLanguages": "Black American and Trinidadian family connections; English at home and conversational Spanish learned through school, neighbors, and customers.",
+          "school": "Public high school with mock trial, robotics, choir, and ordinary laboratory science.",
+          "accessOpportunities": "El Paso Community College events, UTEP outreach, libraries, and desert education programs are nearby; business shifts limit some weekends."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Micah liked making up trials in which stuffed animals argued about missing snacks. He was equally happy quietly arranging his sister's old costume jewelry into patterns, a habit adults rarely saw outside home."
+          },
+          {
+            "ages": "6–7",
+            "story": "He helped count inexpensive parts at the family shop and enjoyed asking what each item did. He disliked greasy equipment and learned that understanding a catalog did not require wanting to work on an engine."
+          },
+          {
+            "ages": "8–9",
+            "story": "A choir director noticed his sense of rhythm, and he liked the group sound. He also read mystery stories alone, often guessing an ending confidently and then defending the wrong guess long after new clues appeared."
+          },
+          {
+            "ages": "10–11",
+            "story": "He tried robotics with a friend and enjoyed building but lost patience with code. A teacher gave him a short public explanation to deliver; he sounded confident despite relying heavily on a teammate's understanding of the software."
+          },
+          {
+            "ages": "12–13",
+            "story": "Mock trial gave him enjoyable scripts and arguments. He began noticing that listening carefully could be more useful than speaking first. At the shop he learned to ask customers clarifying questions instead of guessing what they needed."
+          },
+          {
+            "ages": "14–15",
+            "story": "Micah left robotics for a season, then returned for a design challenge with more hands-on assembly. He made simple jewelry from discarded safe materials at home and showed it to friends only after they asked about a bracelet."
+          },
+          {
+            "ages": "16",
+            "story": "He balances mock trial, occasional choir projects, and shop shifts. A desert field outing has made him curious about outdoor science, though he has little camping experience. He is increasingly willing to say that an appealing possibility is something he has not actually tested."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Prepared arguments",
+            "Small wearable designs",
+            "Clarifying a customer's practical problem"
+          ],
+          "avoids": [
+            "Greasy equipment without gloves",
+            "Long coding tasks with no visible change"
+          ],
+          "activities": [
+            "Mock trial",
+            "Family shop shifts",
+            "Jewelry making",
+            "Occasional choir projects"
+          ],
+          "demonstratedSkills": [
+            "Prepared oral delivery",
+            "Catalog organization",
+            "Patient small-object assembly",
+            "Asking useful follow-up questions"
+          ],
+          "unfamiliarActivities": [
+            "Camping",
+            "Sustained outdoor fieldwork",
+            "Advanced software development"
+          ],
+          "motivations": [
+            "Understanding rather than merely sounding convincing",
+            "Keeping private creativity alongside public activity"
+          ],
+          "ambitions": [
+            "Try a supervised overnight outdoor program",
+            "He imagines an adult life with a close circle, a place for creative work, and occasional travel beyond familiar landscapes"
+          ],
+          "struggles": [
+            "Can defend first impressions too long",
+            "Assumes new activities will be easy before trying them"
+          ],
+          "supports": [
+            "Family",
+            "Mock-trial adviser",
+            "Friend who shares making projects"
+          ],
+          "practicalConstraints": [
+            "Shop shifts",
+            "Heat limits timing of outdoor activities",
+            "Limited camping equipment"
+          ]
+        },
+        "selfDescription": "I can sound certain while I am still figuring something out. I like talking things through, but some of my favorite work happens quietly at a table with tiny parts.",
+        "openQuestions": [
+          "Will outdoor curiosity persist through heat, routine recording, and early starts?",
+          "How will he distinguish enjoyment of public argument from enjoyment of detailed inquiry?"
+        ],
+        "variationTags": [
+          "ordinary stable border-city life",
+          "family business without required match",
+          "public argument and private jewelry",
+          "changing robotics participation",
+          "unpracticed outdoor confidence"
+        ]
+      },
+      "top": [
+        {
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "degree-27101300-047-domain",
+              "prompt": "Would you like to learn to express ideas, emotions, or observations through original visual artwork whose form and materials are part of its meaning?",
+              "domain": "domain",
+              "text": "Would you like to learn to express ideas, emotions, or observations through original visual artwork whose form and materials are part of its meaning?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Makes jewelry from safe discarded materials and enjoys small wearable designs.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "degree-27101300-047-method",
+              "prompt": "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?",
+              "domain": "method",
+              "text": "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Patient small-object assembly and deliberate visual patterns recur from childhood into current jewelry work.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "degree-27101300-047-responsibility",
+              "prompt": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?",
+              "domain": "responsibility",
+              "text": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "Shows finished bracelets to friends; coherent sustained presentation is plausible but less explicit than making.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-004",
+      "phase": "holdout",
+      "biography": {
+        "id": "life-004",
+        "name": "Jordan Keene",
+        "age": 16,
+        "pronouns": "they/them",
+        "background": {
+          "family": "Lives with their mother and stepfather; visits their father during school breaks.",
+          "finances": "Stable moderate income; medical and school supports are budgeted.",
+          "geography": "Waco, Texas.",
+          "cultureLanguages": "English-speaking family; involved in a welcoming community choir.",
+          "school": "Public high school; documented dyslexia and reading accommodations since age nine.",
+          "accessOpportunities": "Audiobooks, accessible course materials, and a supportive learning specialist."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "In 2014, Jordan learned songs quickly and invented endings to familiar stories. They loved being read to and often asked to hear a chapter twice, especially when a character made a confusing decision."
+          },
+          {
+            "ages": "6–7",
+            "story": "During first grade in 2016, printed directions became a source of arguments. Jordan could explain an experiment aloud but sometimes copied the wrong line, and adults initially treated the uneven work as carelessness."
+          },
+          {
+            "ages": "8–9",
+            "story": "In 2019, an evaluation identified dyslexia. Audiobooks and explicit reading instruction reduced nightly battles. Jordan remained embarrassed about reading aloud in front of classmates while eagerly volunteering to explain a terrarium they had assembled."
+          },
+          {
+            "ages": "10–11",
+            "story": "In 2020, remote schooling made some materials easier to enlarge and replay, but inaccessible scanned worksheets still took too long. Jordan and their mother learned to request editable files before an assignment became overdue."
+          },
+          {
+            "ages": "12–13",
+            "story": "By 2023, Jordan was singing with a community choir and building simple props for performances. They befriended another student through repairing a broken music stand, discovering that shared work made introductions less awkward."
+          },
+          {
+            "ages": "14–15",
+            "story": "During 2024 and 2025, they helped record oral histories with older neighbors. They listened closely and noticed contradictions between interviews, then worked with a partner to turn their audio notes into carefully checked captions."
+          },
+          {
+            "ages": "16",
+            "story": "At sixteen in 2026, Jordan is investigating accessibility offices at Texas colleges and a local fabrication certificate. They want to compare actual course materials before visiting, and they are still deciding how openly to discuss their reading needs. They recently tested an audiobook platform with their specialist rather than relying on its advertised features."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Harmony singing",
+            "Repairing props",
+            "Listening to family stories"
+          ],
+          "avoids": [
+            "Unannounced reading aloud",
+            "Poorly scanned handouts"
+          ],
+          "activities": [
+            "Choir",
+            "Oral-history project",
+            "Backyard construction"
+          ],
+          "demonstratedSkills": [
+            "Audio editing",
+            "Mechanical improvisation",
+            "Identifies inconsistencies in accounts"
+          ],
+          "unfamiliarActivities": [
+            "Advanced chemistry",
+            "Competitive debate"
+          ],
+          "motivations": [
+            "Making things people can use",
+            "Being understood without repeated explanations"
+          ],
+          "ambitions": [
+            "Study away from home with reliable access",
+            "Keep performing with others",
+            "They imagine an independent home with accessible routines, room to make things, and people to sing with regularly."
+          ],
+          "struggles": [
+            "Reading fatigue",
+            "Hesitates to request help early"
+          ],
+          "supports": [
+            "Learning specialist",
+            "Mother",
+            "Choir mentor"
+          ],
+          "practicalConstraints": [
+            "Accessible materials require advance coordination",
+            "Limited funds for duplicate equipment"
+          ]
+        },
+        "selfDescription": "I can hear when a story does not quite add up, even when I need extra time to read the transcript. I like working with people who let me show what I mean before deciding what I can do.",
+        "openQuestions": [
+          "Would independent coursework increase freedom or reading fatigue?",
+          "Which access arrangements work without constant advocacy?"
+        ],
+        "variationTags": [
+          "dyslexia",
+          "audio strengths",
+          "supportive accommodations",
+          "mixed practical and verbal interests"
+        ]
+      },
+      "top": [
+        {
+          "id": "writing",
+          "title": "Writers & authors",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "creative-make",
+              "prompt": "What would you enjoy creating?",
+              "domain": "tasks",
+              "text": "A story through words, photographs or moving images",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-revise",
+              "prompt": "Which kind of revision sounds satisfying?",
+              "domain": "tasks",
+              "text": "Shape the timing, mood or story of a scene; Find words that carry the right meaning for an audience",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-people",
+              "prompt": "Who would you enjoy creating with or for?",
+              "domain": "context",
+              "text": "People sharing a story, language or point of view",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-workday",
+              "prompt": "Which parts of a creative workday would you like to try?",
+              "domain": "context",
+              "text": "Research meaning and check that information is accurate",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-refine-1",
+              "prompt": "Which creative problem would keep you curious?",
+              "domain": "tasks",
+              "text": "Make a story, scene, or image more engaging",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-refine-2",
+              "prompt": "Which result would you most enjoy finishing?",
+              "domain": "tasks",
+              "text": "An edited story, film, animation, or photo series",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-refine-3",
+              "prompt": "Which details would you enjoy checking?",
+              "domain": "process",
+              "text": "Words, meaning, and whether a claim is accurate",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-refine-4",
+              "prompt": "Which beginner project would you choose?",
+              "domain": "introduction",
+              "text": "Make a short written, photographic, or moving-image story",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "writing-interest-044-1",
+              "prompt": "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+              "domain": "writing-interest-044-1",
+              "text": "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "They invent story endings and help create checked oral-history captions; longer written pieces are a plausible extension using accessible tools.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "writing-interest-044-2",
+              "prompt": "Would you like to learn to revise your writing after feedback so its message, structure, and style work better for its intended readers?",
+              "domain": "writing-interest-044-2",
+              "text": "Would you like to learn to revise your writing after feedback so its message, structure, and style work better for its intended readers?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "They identify contradictions between interviews and refine captions with a partner; careful revision is clearly supported.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-028",
+      "phase": "holdout",
+      "biography": {
+        "id": "life-028",
+        "name": "Malik Thompson",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with his mother and stepfather; older sister attends a Texas college.",
+          "finances": "Steady middle income; travel and access costs require planning.",
+          "geography": "Tacoma, Washington; sister and aunt live near Denton, Texas.",
+          "cultureLanguages": "ASL and written English; Deaf community involvement and hearing extended family.",
+          "school": "Public high school; Deaf student with interpreters and accessible media arrangements.",
+          "accessOpportunities": "Deaf youth programs, captioned resources, and relatives supporting Texas visits."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "In 2014, Malik enjoyed large block structures and energetic pretend cooking with his sister. His mother used ASL with him, and he loved stories that transformed an ordinary kitchen spoon into several different dramatic characters."
+          },
+          {
+            "ages": "6–7",
+            "story": "At six, he entered a mainstream classroom with interpreting support. During 2017, he befriended two classmates through drawing games, while family and school worked to make incidental classroom announcements as accessible as formal lessons."
+          },
+          {
+            "ages": "8–9",
+            "story": "In 2018, Malik joined a Deaf youth outdoor group and tried kayaking. He liked watching the water change around the boat, though he preferred planned routes to open-ended paddling competitions that some other children enjoyed."
+          },
+          {
+            "ages": "10–11",
+            "story": "During 2020, inaccessible video captions sometimes interrupted online learning. Malik learned to report specific problems and also began making short signed comedy clips with friends, enjoying visual timing and collaborative revision across several takes."
+          },
+          {
+            "ages": "12–13",
+            "story": "At twelve, he took an introductory design class and became interested in wayfinding. In 2023, he photographed confusing entrances around the city and compared his interpretations with those of friends who noticed entirely different obstacles."
+          },
+          {
+            "ages": "14–15",
+            "story": "Across 2024 and 2025, Malik helped plan an accessible recreation event and joined a school chess group despite disliking chess competitions. He enjoyed informal analysis, while the event taught him how often an apparently small access detail affected participation."
+          },
+          {
+            "ages": "16",
+            "story": "At sixteen in 2026, Malik is exploring Texas campus visits near his sister and asking specific questions about interpreting and captioning. He wants access to both Deaf peers and broad electives, without assuming one campus feature can answer every daily-life question."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Signed comedy",
+            "Wayfinding photographs",
+            "Informal chess analysis"
+          ],
+          "avoids": [
+            "Uncaptioned required media",
+            "Being treated as the automatic access spokesperson"
+          ],
+          "activities": [
+            "Deaf youth outdoors",
+            "Design class",
+            "Recreation planning"
+          ],
+          "demonstratedSkills": [
+            "Visual timing",
+            "Clear access requests",
+            "Compares layouts carefully"
+          ],
+          "unfamiliarActivities": [
+            "Campus living",
+            "Advanced fabrication equipment"
+          ],
+          "motivations": [
+            "Shared participation",
+            "Visual clarity",
+            "Independent travel"
+          ],
+          "ambitions": [
+            "Visit several different campus settings",
+            "He imagines an adult community with easy communication, close friends, and opportunities to explore new places."
+          ],
+          "struggles": [
+            "Advocacy workload",
+            "Uneven access outside scheduled classes"
+          ],
+          "supports": [
+            "Mother",
+            "Stepfather",
+            "Sister",
+            "Deaf youth mentors"
+          ],
+          "practicalConstraints": [
+            "Interpreter arrangements",
+            "Travel costs",
+            "Access quality must be checked in context"
+          ]
+        },
+        "selfDescription": "I want to find out what a place is like after the official tour ends. I like making people laugh and figuring out why signs confuse them, but I do not want every conversation to become a lesson about access.",
+        "openQuestions": [
+          "Which settings offer reliable everyday communication?",
+          "Would design interest persist through technical production requirements?"
+        ],
+        "variationTags": [
+          "Deaf ASL user",
+          "Pacific Northwest home",
+          "Texas sibling connection",
+          "visual comedy and design"
+        ]
+      },
+      "top": [
+        {
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "creative-make",
+              "prompt": "What would you enjoy creating?",
+              "domain": "tasks",
+              "text": "A visual message that helps people understand an idea",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-revise",
+              "prompt": "Which kind of revision sounds satisfying?",
+              "domain": "tasks",
+              "text": "Make a layout easier to read and navigate",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-workday",
+              "prompt": "Which parts of a creative workday would you like to try?",
+              "domain": "context",
+              "text": "Make several drafts and improve them after feedback",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "creative-refine-3",
+              "prompt": "Which details would you enjoy checking?",
+              "domain": "process",
+              "text": "Type, spacing, colour, and the order people read a page",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "web-interface-design-interest-044-1",
+              "prompt": "Would you like to learn to design the appearance and controls of websites or digital screens so people can use them easily as a regular part of your work?",
+              "domain": "web-interface-design-interest-044-1",
+              "text": "Would you like to learn to design the appearance and controls of websites or digital screens so people can use them easily as a regular part of your work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "Design classes, wayfinding analysis, and precise identification of caption-access problems support learning usable screen design.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "web-interface-design-interest-044-2",
+              "prompt": "Would you like to learn to try out a website or digital interface with users and improve the design when something is confusing or difficult as a regular part of your work?",
+              "domain": "web-interface-design-interest-044-2",
+              "text": "Would you like to learn to try out a website or digital interface with users and improve the design when something is confusing or difficult as a regular part of your work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "He compares others’ interpretations of layouts and diagnoses access barriers; testing digital usability is a plausible extension.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-057",
+      "phase": "holdout",
+      "biography": {
+        "id": "life-057",
+        "name": "Rowan Mercer",
+        "age": 16,
+        "pronouns": "they/them",
+        "background": {
+          "family": "Lives with their mother, father, and younger brother; one parent’s military service has prompted several planned moves.",
+          "finances": "Steady military pay and benefits; family saves for education while tracking possible transfers.",
+          "geography": "Killeen, Texas, after living in Virginia and Colorado.",
+          "cultureLanguages": "White, English-speaking, nonreligious family; friendships span several regions and online group chats.",
+          "school": "Secular homeschool program with online courses and a local co-op; chosen partly to maintain curriculum continuity through moves.",
+          "accessOpportunities": "Has base recreation facilities and library resources, but starting new friendships repeatedly can limit participation."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Rowan liked making tiny towns from boxes and dictating rules for their imaginary residents. Their mother preserved photographs before packing, helping Rowan see that an activity could matter even if the structure could not move."
+          },
+          {
+            "ages": "6–7",
+            "story": "A move to Colorado brought snow and new neighbors. Rowan learned to sled, then spent indoor afternoons designing board games whose rules changed whenever younger children found an unexpected way to win them."
+          },
+          {
+            "ages": "8–9",
+            "story": "Online classes fit a later relocation, but Rowan missed spontaneous playground contact. A co-op board-game afternoon became important because the same people returned and nobody needed to summarize their entire history each week."
+          },
+          {
+            "ages": "10–11",
+            "story": "During remote activities they organized a family video-call game night with cousins in several states. Technical problems annoyed them, yet they learned to keep a simpler backup game ready rather than cancel when one tool failed."
+          },
+          {
+            "ages": "12–13",
+            "story": "In Texas they tried archery through a recreation program and appreciated patient repetition. They also experimented with different clothes and they/them pronouns, finding most family conversations supportive even when relatives needed reminders."
+          },
+          {
+            "ages": "14–15",
+            "story": "Rowan helped a co-op group create a tabletop mystery. Writing clues was enjoyable, but testing showed that players interpreted them differently; Rowan cut a favorite scene to make the shared experience less confusing."
+          },
+          {
+            "ages": "16",
+            "story": "They now study history and algebra online, practice archery, and maintain a distant friend group. They are comparing local dual-credit options with residential possibilities and wondering what it would feel like to choose a location without already knowing a departure date."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Game rules",
+            "Archery practice",
+            "Long-distance friendships"
+          ],
+          "avoids": [
+            "Explaining every move to newcomers",
+            "Rigid plans with no backup"
+          ],
+          "activities": [
+            "Homeschool co-op",
+            "Tabletop mystery design",
+            "Archery"
+          ],
+          "demonstratedSkills": [
+            "Tests rules with players",
+            "Prepares alternatives",
+            "Coordinates remote meetings"
+          ],
+          "unfamiliarActivities": [
+            "Large lecture courses",
+            "Shift employment",
+            "Laboratory research"
+          ],
+          "motivations": [
+            "Continuity",
+            "Choosing rather than inheriting the next move"
+          ],
+          "ambitions": [
+            "Considering dual credit and residential study",
+            "Imagines a lasting home base with space for visiting friends and occasional travel."
+          ],
+          "struggles": [
+            "Initiating local friendships",
+            "Uncertain timing of the next transfer"
+          ],
+          "supports": [
+            "Parents",
+            "Co-op facilitator",
+            "Remote friends",
+            "Archery instructor"
+          ],
+          "practicalConstraints": [
+            "Transportation",
+            "Potential relocation",
+            "Course-record planning"
+          ]
+        },
+        "selfDescription": "I'm pretty good at being new, but that doesn't mean I always enjoy it. I like making games people can enter together, and I would also like a place where I don't have to keep starting the introduction again.",
+        "openQuestions": [
+          "Would a fixed location feel freeing or limiting after several moves?",
+          "Do they enjoy facilitation as much as design?"
+        ],
+        "variationTags": [
+          "military family",
+          "secular homeschool",
+          "nonbinary teenager",
+          "game design",
+          "geographic continuity questions"
+        ]
+      },
+      "top": [
+        {
+          "id": "degree-15125501",
+          "title": "Video Game Designers",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "degree-15125501-047-domain",
+              "prompt": "Would you like to learn to create the rules, challenges, and choices that make an interactive game engaging for the people playing it?",
+              "domain": "domain",
+              "text": "Would you like to learn to create the rules, challenges, and choices that make an interactive game engaging for the people playing it?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "They repeatedly design board games and a tabletop mystery with rules intended to let people enter together.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "degree-15125501-047-method",
+              "prompt": "Would you like to learn to build and try alternative game mechanics, then revise them when playtesting reveals confusing, unfair, or uninteresting experiences?",
+              "domain": "method",
+              "text": "Would you like to learn to build and try alternative game mechanics, then revise them when playtesting reveals confusing, unfair, or uninteresting experiences?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "Playtesting revealed confusing clues and unexpected interpretations; they cut a favorite scene to improve the experience.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "degree-15125501-047-responsibility",
+              "prompt": "Would you like to learn to balance a game’s difficulty and features while documenting how its rules should work for the team building it?",
+              "domain": "responsibility",
+              "text": "Would you like to learn to balance a game’s difficulty and features while documenting how its rules should work for the team building it?",
+              "source": "profile-inferred",
+              "confidence": "high",
+              "evidence": "They revise rules for fairness and clarity and coordinate a group project around how the game should work for players.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "life-095",
+      "phase": "holdout",
+      "biography": {
+        "id": "life-095",
+        "name": "Noah Gentry",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with his grandmother under a stable kinship-care arrangement; his mother is in sustained substance-use recovery and contact has become more predictable over the past year.",
+          "finances": "Limited fixed income supplemented by an aunt; essentials are stable, but optional expenses require advance saving.",
+          "geography": "Lufkin, Texas, after earlier moves between relatives in East Texas.",
+          "cultureLanguages": "English-speaking family with church ties and several distinct views about forgiveness and privacy.",
+          "school": "Public high school; a counselor and designated teacher provide continuity without requiring him to discuss family history publicly.",
+          "accessOpportunities": "Angelina College events, a library, and a community recreation center are accessible when school or relatives provide rides."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Noah liked building towers and giving toy animals elaborate names. His mother read to him regularly, and he remembers the funny voices more clearly than the stories' endings."
+          },
+          {
+            "ages": "6–7",
+            "story": "He learned to swim at a recreation center and became proud of floating without help. A classroom plant project interested him, although he forgot watering until the teacher put a visible chart beside the pot."
+          },
+          {
+            "ages": "8–9",
+            "story": "Adult routines became less reliable during his mother's substance use. He stayed with relatives for stretches and learned to pack a familiar book. He still enjoyed school jokes and swimming when someone could take him."
+          },
+          {
+            "ages": "10–11",
+            "story": "Moves between relatives interrupted attendance and friendships. Adults eventually established care with his grandmother, who handled practical decisions. A school counselor helped him settle; nobody expected him to repair the adults' situation or explain it to classmates."
+          },
+          {
+            "ages": "12–13",
+            "story": "Predictable meals, transport, and bedtimes made room for ordinary interests again. He joined a garden group and discovered he liked compost experiments more than decorative planting. Swimming returned as recreation rather than another achievement to pursue."
+          },
+          {
+            "ages": "14–15",
+            "story": "Noah began helping at a community pool's supervised family days and learned to greet visitors. He was not yet qualified for safety responsibility. His mother's recovery brought hopeful contact and some uncertainty; his grandmother maintained boundaries and discussed changes before they happened."
+          },
+          {
+            "ages": "16",
+            "story": "He studies biology, helps with the community garden, and enjoys swimming with friends. He is curious about photography but has only used a phone. Stable routines support his participation, while sudden plan changes can still make him withdraw before asking what actually happened."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Swimming with friends",
+            "Compost experiments",
+            "Quiet phone photography"
+          ],
+          "avoids": [
+            "Public family-history questions",
+            "Making commitments without transport details"
+          ],
+          "activities": [
+            "Community garden",
+            "Supervised pool events",
+            "School biology"
+          ],
+          "demonstratedSkills": [
+            "Tracking garden changes",
+            "Welcoming families",
+            "Following agreed safety boundaries"
+          ],
+          "unfamiliarActivities": [
+            "Formal photography equipment",
+            "College laboratories",
+            "Independent overnight travel"
+          ],
+          "motivations": [
+            "Keeping ordinary reliable connections",
+            "Trying something simply because it interests him"
+          ],
+          "ambitions": [
+            "Borrow a camera and complete a small photo series",
+            "He imagines an adult home with predictable routines, friends welcome at the table, and space to make his own plans"
+          ],
+          "struggles": [
+            "Unexpected changes revive uncertainty",
+            "Sometimes withdraws rather than clarifies"
+          ],
+          "supports": [
+            "Grandmother",
+            "Aunt",
+            "School counselor",
+            "Garden coordinator"
+          ],
+          "practicalConstraints": [
+            "Transport coordination",
+            "Limited optional spending",
+            "Care arrangements shape travel permissions"
+          ]
+        },
+        "selfDescription": "I like knowing what is going to happen, but I do not want every day to be exactly the same. It feels good to start something because I want to, not because somebody needs me to handle it.",
+        "openQuestions": [
+          "How will he build trust in new settings without abandoning useful boundaries?",
+          "Which new interests develop when access expands?"
+        ],
+        "variationTags": [
+          "significant early caregiving instability",
+          "stable kinship care",
+          "garden science and swimming",
+          "family recovery with boundaries",
+          "ordinary interests alongside adversity"
+        ]
+      },
+      "top": [
+        {
+          "id": "landscaping-worker",
+          "title": "Landscaping & Groundskeeping Workers",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "science-wonder",
+              "prompt": "What would you most enjoy investigating?",
+              "domain": "tasks",
+              "text": "Plants, land or animals that people care for",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-setting",
+              "prompt": "Where would you enjoy gathering information?",
+              "domain": "context",
+              "text": "A farm, nursery, garden or planted landscape",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-result",
+              "prompt": "Which result would you like your work to support?",
+              "domain": "tasks",
+              "text": "Keep plants, animals or outdoor spaces healthy",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-workday",
+              "prompt": "Which routines would you like to learn?",
+              "domain": "context",
+              "text": "Notice changes and provide regular practical care",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-refine-1",
+              "prompt": "Which question would you want to investigate?",
+              "domain": "tasks",
+              "text": "How plants grow under different conditions",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-refine-2",
+              "prompt": "Which result would you enjoy producing?",
+              "domain": "tasks",
+              "text": "Healthy plants, crops, or a maintained landscape",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-refine-3",
+              "prompt": "Which details would you enjoy checking?",
+              "domain": "process",
+              "text": "Soil, watering, pests, and signs of growth",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "science-refine-4",
+              "prompt": "Which safe introduction would you choose?",
+              "domain": "introduction",
+              "text": "A supervised garden or planting project",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "landscaping-worker-interest-044-1",
+              "prompt": "Would you like to learn to care for lawns, plants, and outdoor grounds through hands-on tasks such as mowing or pruning as a regular part of your work?",
+              "domain": "landscaping-worker-interest-044-1",
+              "text": "Would you like to learn to care for lawns, plants, and outdoor grounds through hands-on tasks such as mowing or pruning as a regular part of your work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "Sustained community garden work and tracking changes support hands-on plant and grounds care, although compost interests him more than decorative planting.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "landscaping-worker-interest-044-2",
+              "prompt": "Would you like to learn to use tools and outdoor equipment to maintain a landscape and keep the grounds in good condition as a regular part of your work?",
+              "domain": "landscaping-worker-interest-044-2",
+              "text": "Would you like to learn to use tools and outdoor equipment to maintain a landscape and keep the grounds in good condition as a regular part of your work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "He reliably participates in garden routines; learning broader landscape equipment is plausible but not yet experienced.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    },
+    {
+      "id": "new049-007",
+      "phase": "development049",
+      "biography": {
+        "id": "new049-007",
+        "name": "Gabriel Soto",
+        "age": 16,
+        "pronouns": "he/him",
+        "background": {
+          "family": "Lives with his mother and aunt; an older cousin nearby is his usual sounding board.",
+          "finances": "Modest but predictable household income; optional purchases and trips need advance saving.",
+          "geography": "El Paso, Texas, in a neighborhood with several generations of extended family nearby.",
+          "cultureLanguages": "Uses English and Spanish daily, reading more quickly in English; family members often disagree vigorously over dinner.",
+          "school": "Public high school with a small discussion club and a library he uses during lunch.",
+          "accessOpportunities": "Internet is reliable, but there is one shared laptop. His aunt attended college and can explain some procedures, although she is often unavailable during the week."
+        },
+        "timeline": [
+          {
+            "ages": "4–5",
+            "story": "Gabriel asked adults why signs on the same street used different words for similar things. He liked being read stories with repeated phrases and corrected anyone who skipped one. He was also impatient with puzzles, sometimes pushing pieces together until his aunt persuaded him to look at their shapes."
+          },
+          {
+            "ages": "6–7",
+            "story": "He liked a classroom game where children decided whether a statement about an animal could be true. He would bring up exceptions long after everyone else moved on. During a school performance he forgot a short line and became determined to avoid the next performance, despite enjoying rehearsals with friends."
+          },
+          {
+            "ages": "8–9",
+            "story": "A disagreement about a game rule led him to read the entire instruction booklet and mark the relevant sentence. He won that argument but discovered his cousin no longer wanted to play. Around the same time he became enthusiastic about drawing maps, then stopped when he found shading them tedious."
+          },
+          {
+            "ages": "10–11",
+            "story": "Gabriel read two conflicting explanations of a local water restriction and asked his aunt which details each left out. She encouraged him but grew tired of discussing it every evening. He began writing paragraphs in a notebook, enjoying the chance to revise a sentence before anyone could respond."
+          },
+          {
+            "ages": "12–13",
+            "story": "In class he wrote a careful response to a disputed school rule and was upset when a teacher said his tone sounded contemptuous. He revised it reluctantly. He tried a speaking competition once, disliked waiting under the lights, and found that remembering his points did not prevent his voice from shaking."
+          },
+          {
+            "ages": "14–15",
+            "story": "He joined a discussion club that allowed written contributions. He compared competing claims about a community issue, separating the factual disagreements from different priorities. Friends appreciated his explanations but sometimes wanted him to stop correcting minor wording. He also took up casual jogging because it required little conversation or equipment."
+          },
+          {
+            "ages": "16",
+            "story": "Gabriel is writing a longer piece about a contested school policy, checking quotations against original documents when he can find them. He enjoys constructing a reasoned argument and dislikes imagining himself presenting it aloud. He has delayed sharing the draft because one missing fact bothers him, and he knows he may be using that gap as cover."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Reading competing accounts",
+            "Building a written argument",
+            "Jogging familiar routes",
+            "Revising a paragraph until its meaning is precise"
+          ],
+          "avoids": [
+            "Public speaking",
+            "Being asked for an instant opinion",
+            "Drawing decorative maps"
+          ],
+          "activities": [
+            "Discussion club with written contributions",
+            "Independent policy reading",
+            "Casual jogging"
+          ],
+          "demonstratedSkills": [
+            "Comparing conflicting claims",
+            "Checking quotations against a source",
+            "Distinguishing factual disagreement from differing priorities"
+          ],
+          "unfamiliarActivities": [
+            "Interviewing unfamiliar adults",
+            "Sharing an unfinished argument widely",
+            "Speaking to a large audience regularly"
+          ],
+          "motivations": [
+            "Understanding what can be supported",
+            "Being taken seriously",
+            "Avoiding an argument based on a careless claim"
+          ],
+          "ambitions": [
+            "Publish something classmates choose to read",
+            "Become less defensive about feedback",
+            "Visit a place he has only read about"
+          ],
+          "struggles": [
+            "Perfectionism delays sharing",
+            "Can sound dismissive when correcting details",
+            "Shaky public delivery makes him withdraw"
+          ],
+          "supports": [
+            "An aunt who discusses sources when free",
+            "A cousin who gives blunt feedback",
+            "A club sponsor accepting written participation"
+          ],
+          "practicalConstraints": [
+            "Shared laptop",
+            "Limited funds for travel",
+            "Family adults have uneven availability"
+          ]
+        },
+        "selfDescription": "A claim can sound obvious until you ask what would count as evidence against it. I also know saying that at dinner can be annoying.",
+        "openQuestions": [
+          "Will he share work before every uncertainty is resolved?",
+          "How does he respond when a careful argument changes nobody's mind?"
+        ],
+        "variationTags": [
+          "border-city Texas",
+          "reasoned written arguments",
+          "dislikes public speaking",
+          "limited adult availability",
+          "careful but withholding"
+        ]
+      },
+      "top": [
+        {
+          "id": "paralegal",
+          "title": "Paralegals and Legal Assistants",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "business-problem",
+              "prompt": "Which problem would you enjoy working through?",
+              "domain": "tasks",
+              "text": "Someone needs help understanding a right, rule or decision",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-evidence",
+              "prompt": "What would you enjoy using to make a recommendation?",
+              "domain": "tasks",
+              "text": "Policies, legal sources and carefully organized facts",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-people",
+              "prompt": "Which kind of work with people interests you?",
+              "domain": "context",
+              "text": "Advocate for someone or explain a rule clearly",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-refine-1",
+              "prompt": "Which decision would you enjoy investigating?",
+              "domain": "tasks",
+              "text": "How a rule or legal argument applies to a situation",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-refine-2",
+              "prompt": "Which result would you like to produce?",
+              "domain": "tasks",
+              "text": "A well-supported case or legal document",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-refine-3",
+              "prompt": "Which details would you enjoy checking?",
+              "domain": "process",
+              "text": "Evidence, wording, and legal deadlines",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-refine-4",
+              "prompt": "Which introduction would you choose?",
+              "domain": "introduction",
+              "text": "Compare arguments in a public legal case",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "paralegal-interest-044-1",
+              "prompt": "Would you like to learn to prepare and check legal documents, such as contracts or court papers, to support a lawyer’s work?",
+              "domain": "paralegal-interest-044-1",
+              "text": "Would you like to learn to prepare and check legal documents, such as contracts or court papers, to support a lawyer’s work?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "He enjoys precise wording and checking quotations against original policy documents, a plausible transfer to preparing legal papers.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "paralegal-interest-044-2",
+              "prompt": "Would you like to learn to organize legal case files and supporting information so a lawyer can find accurate material when preparing a case?",
+              "domain": "paralegal-interest-044-2",
+              "text": "Would you like to learn to organize legal case files and supporting information so a lawyer can find accurate material when preparing a case?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "He searches for missing facts and distinguishes factual disagreements from priorities, supporting organizing accurate supporting case material.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        },
+        {
+          "id": "law",
+          "title": "Lawyers",
+          "band": "Specific interests supported",
+          "evidence": [
+            {
+              "questionId": "business-problem",
+              "prompt": "Which problem would you enjoy working through?",
+              "domain": "tasks",
+              "text": "Someone needs help understanding a right, rule or decision",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-evidence",
+              "prompt": "What would you enjoy using to make a recommendation?",
+              "domain": "tasks",
+              "text": "Policies, legal sources and carefully organized facts",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-people",
+              "prompt": "Which kind of work with people interests you?",
+              "domain": "context",
+              "text": "Advocate for someone or explain a rule clearly",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-workday",
+              "prompt": "Which parts of the work would you like to try?",
+              "domain": "context",
+              "text": "Research a question and defend a recommendation with evidence",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-refine-1",
+              "prompt": "Which decision would you enjoy investigating?",
+              "domain": "tasks",
+              "text": "How a rule or legal argument applies to a situation",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-refine-2",
+              "prompt": "Which result would you like to produce?",
+              "domain": "tasks",
+              "text": "A well-supported case or legal document",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-refine-3",
+              "prompt": "Which details would you enjoy checking?",
+              "domain": "process",
+              "text": "Evidence, wording, and legal deadlines",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "business-refine-4",
+              "prompt": "Which introduction would you choose?",
+              "domain": "introduction",
+              "text": "Compare arguments in a public legal case",
+              "source": "student",
+              "confidence": "high",
+              "evidence": "",
+              "kind": "task"
+            },
+            {
+              "questionId": "law-interest-044-1",
+              "prompt": "Would you like to learn to research laws and explain how they apply to a person’s or organization’s legal problem?",
+              "domain": "law-interest-044-1",
+              "text": "Would you like to learn to research laws and explain how they apply to a person’s or organization’s legal problem?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "He independently reads disputed school rules and writes a policy argument, supporting learning how laws apply to situations.",
+              "kind": "specific"
+            },
+            {
+              "questionId": "law-interest-044-2",
+              "prompt": "Would you like to learn to compare the facts of a legal case with earlier decisions and build a reasoned argument about what should happen?",
+              "domain": "law-interest-044-2",
+              "text": "Would you like to learn to compare the facts of a legal case with earlier decisions and build a reasoned argument about what should happen?",
+              "source": "profile-inferred",
+              "confidence": "medium",
+              "evidence": "He marks exact rule sentences, checks original quotations and builds reasoned arguments, directly supporting case comparison.",
+              "kind": "specific"
+            }
+          ],
+          "missing": [],
+          "contrary": []
+        }
+      ]
+    }
+  ]
+}

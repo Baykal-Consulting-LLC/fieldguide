@@ -1,0 +1,73 @@
+{
+  "version": 10,
+  "at": "2026-10-20T23:39:37.863Z",
+  "reason": "Pre-outcome activity coverage and optional follow-up selection repair. Add 98 explicit stable-ID activity bindings; preserve all existing343 activity assumptions. Correct two question-level method overconstraints (solo composition and supplier comparison). Add method alternatives only for explicit disjunctions. No new profile facts or specialty guesses, no score/support-gate/pay changes, no cohort-specific rules.",
+  "profileSHA256": "c57b0f4f6b3c894cec8cd4343a27859152dee241477018ba4029565a7f94bc2c",
+  "policyHashes": {
+    "calibration/cohort-056/spec.mjs": "10740b3da853f20f7dac8bf9ca2892c4b5995bd77e1c2a8fb785cca0284d7847",
+    "calibration/cohort-056/response-policy.mjs": "b2a71138183cd1f60ac30b85e59c5784771515cac9fc25e4bdad223a55f15278",
+    "scripts/generate-cohort-056.mjs": "02b5a8bb05a3d08749817a019e9c9107c33c92006153be662fe2df4e4d5d318a",
+    "research/cohort-056/protocol.json": "470f4baf02a244a0c3eea75d9dcf8f7cd7d0ca0db152c97dc027fbe177b031f5"
+  },
+  "runtimeHashes": {
+    "dist/open-explorer-056.js": "a4c3e00881042fdd1cb54acede51882d29fe9b983c2c86998cfec7c972061900",
+    "dist/exploration-056-data.js": "2f569a7e2d36f6f1e114e99917d2b0a7bbf2df71e65132a08c5a52c44f04e039",
+    "scripts/rerun-cohort-056.mjs": "70e3dfeaf02cac696bf36c9358e8f63290f594e8a1566a2c5cbd81b3af589062"
+  },
+  "bindingHashes": {
+    "calibration/cohort-056/constructs.mjs": "27d9929c825c4b72b79c6a2e9cea1627c6e19b107ededf2abf54b934be3307e1",
+    "calibration/cohort-056/question-bindings.json": "4f5d2f7cc475e45930b4954eaef5feacbe3ec6be32837cf2c759345a405dcf20",
+    "calibration/cohort-056/discovery-links.mjs": "bfaad24bb4f0113770e2903305ae87d06b1ccbb8629344185e978c56d106c74f",
+    "research/cohort-056/activity-inputs-003.json": "ea8b8805d7457b631700f9c19dcf7e4bbb9e13ae33955d67dc63b00d168ea159",
+    "scripts/prepare-construct-bindings-056.mjs": "2884bb76af393419c2f7cd64429236700f2bb0d71c12644dabc77b8bd3788ec8",
+    "scripts/prepare-exploration-056.mjs": "29ec3514b48205075c2a447eb6c08a8216aa4dab79e7f76167bf3dd825be944f",
+    "dist/task-evidence-domains.js": "2e5e8fa71fe4f766992bb01003d0ac9364c53d6333e9f9b27b9980049b092d26",
+    "calibration/cohort-056/replay-policy.mjs": "0a9ba0a2dce30237317eb7de4525421593e2cb21a63b3e62cbe2a7efe584da03",
+    "calibration/cohort-056/additional-bindings-006.mjs": "6ef4be42d3880fb858709c51713f181eb67dcecf86a31704d39701116b206dc8",
+    "calibration/cohort-056/task-bindings-005.json": "6a6b6020abd8037873c777a20a8fc1be344b8331a173e4f6e7aef211ba04e03f",
+    "calibration/cohort-059/bindings.mjs": "81cf3ac619259d6c1bb26c4d797ee8fabb4d1ca655d0429d9125d6f3ddf93bc0",
+    "calibration/cohort-060/bindings.mjs": "05a0471d02da67a0f84478cfe1d546bc7e27ff950385b967f7a74d7e9de5fa91",
+    "scripts/review-coverage-060.mjs": "2856abcc3cfa8d5d335bd2c733a63d2e789a9a6de0988fcc753ba9093b08af89",
+    "research/coverage-060/mapping-review.json": "c5cf78811eec2901998247a5c6acd0ce799a75e7c95150510e424940aba200c0",
+    "calibration/cohort-062/activity-bindings.mjs": "f896da36b87455c0184f398b971f8187f4c0b6ddd0ac55118e1581ce12114239",
+    "dist/followup-062.js": "5f679faccf5baba644b27c31ab73bbbc638de2bcaf71c45142886cdcb4004546",
+    "dist/exploration-059.js": "87df6131bb6d007a4b8ef9981eb40185352c58650c5be0bd8a5831fe8c39f495"
+  },
+  "limitations": [
+    "Original172 frozen answer histories are replayed unchanged; new synthetic answers are derived only from the828 existing structured profiles.",
+    "68 newly bound jobs require explicit specialty preferences not present in these procedural profiles; no positive value is invented. Student answers to actual profession questions remain separate.",
+    "27 aggregate All Other records have no specific work checks and cannot be confirmed as distinct professions.",
+    "Authored simulation assumptions are not independent fit validation. All current Top gates remain unchanged.",
+    "The 30/12/200 holdout splits are preserved with the same global policy; earlier results have been seen. No case-specific holdout changes."
+  ],
+  "coverage": {
+    "mappedCareers": 430,
+    "accessibleCareers": 457,
+    "mappedSpecificQuestions": 1173,
+    "mappedOptions": 441,
+    "namedCareers": 430,
+    "aggregateCareers": 27,
+    "careersNeedingExplicitFeatures": 68,
+    "unmappedNamedCareers": 0
+  },
+  "priorSourceCommit": "0d26cf9d7e082371a197cfb49e4716cf53abe766",
+  "exposureProtocol": "All mapped careers whose required subject constructs are explicitly positive receive their available questions; no salary, degree, match quota or successful-outcome stopping. This is comprehensive questionnaire coverage, not typical student behavior.",
+  "priorAmendment": "policy-amendment-009.json",
+  "baselineSHA256": "14fec0433d905139979cf305bab4cd0e9a4a1e931a30eb0ad6d358deb2bfdec0",
+  "baselineRunId": "e37edc53f50f37e1d316ab467e9051c1480e95eaa9c3a9dcb95d68c7608933a0",
+  "preflight": {
+    "frozenProfiles": 828,
+    "originalHistoriesPreserved": true,
+    "existing343ActivityBindingsPreserved": true,
+    "holdoutCaseTuning": false
+  },
+  "answerPolicyVersion": 10,
+  "operationalOnly": false,
+  "baselineCounts": {
+    "models": 1000,
+    "top": 772,
+    "bachelorGraduateTop": 623,
+    "topCovers": 231
+  },
+  "regressionProtocol": "Compare exact per-model supported sets, Top and bachelor/graduate Top flags against0.61; report any losses separately by four cohorts. Never fill unknowns or relax Top gates to meet a count."
+}

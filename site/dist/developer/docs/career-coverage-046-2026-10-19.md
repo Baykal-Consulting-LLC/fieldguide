@@ -1,0 +1,42 @@
+# Career coverage, established assessment methods and expanded degree discovery
+
+Release0.46.0 · October19,2026
+
+The degree-discovery inventory now contains404 distinct O*NET profiles:276 college and128 graduate/professional.340 are additional to the64 guided careers with degree routes.377 have complete six-interest profiles;27 remain browse-only.77 typically require related work experience and are excluded from the default discovery view.
+
+This is systematic coverage from O*NET31.0 and the BLS2025–35 education/experience table, plus existing reviewed college alternatives. It includes detailed specialties; several share a broader BLS education group. It does not represent404 independent validated tests or404 fully costed guided plans. The117 guided Top/Other/lifestyle professions retain their existing rules.
+
+## What changed
+
+Students can reach the full degree inventory before choosing one field. Their original official60-item interest scores retrieve connections across the full available inventory. Reported strengths are shown separately; familiarity does not add interest points. There is no inferred aptitude score, prestige bonus, pay bonus or forced match quota. Search, degree, field, topic, new-profile, related-experience, interest-strength and reported-strength filters are available. Incomplete, flat or near-flat interest profiles can browse without invented rankings.
+
+The model chart adds an expanded-inventory column. It shows strong interest-connection counts and examples for college or graduate filters, with a link to that model's complete inventory preview. Connections are explicitly discovery ideas, distinct from confirmed Top and lifestyle offers. The same calculation runs on every public build and in memory for authenticated private model reviews. CSV export includes the new counts. Private identities and answers remain out of static assets.
+
+Job-function questions from the research are reserved for later informed exploration. Primary discovery does not require students to nominate or already understand a profession. The established-method review covers O*NET/My Next Move, CareerOneStop, Strong, YouScience, Morrisby and Kuder. These differ in constructs and transparency; performance aptitude and self-reported skills are separate. Some established inventories include job titles, so title masking alone is not evidence of eliminated bias.
+
+## Review of the12 absent professions
+
+The dated0.45 review covers all154 frozen cases, with only public fictional examples published. The four chart-absent professions are market research, exercise physiology, nursing assistant and real estate. There are plausible exploration leads, not enough evidence for automatic Top promotion. Exercise physiology ranks17 for Darius; nursing assistant ranks7 for Jordan; real estate ranks8 for Valentina in their complete comparison sets. The chart caps invitations at3. A separate pending-before-Other-cap ordering can also conceal related alternatives.
+
+Other holds are often sensible. Baking does not establish customer-order interest; tutoring does not establish family-service casework; general listening does not establish professional counseling. The report preserves exact missing distinctions and public profile evidence. The Other-cap and clinical-role gates are documented for controlled follow-up, not silently rewritten by this expansion.
+
+Doctor, lawyer and five engineering occupations already have current guided offers. Medicine previously represented only family medicine. The systematic inventory now adds available distinct physician specialties, law-adjacent work and much broader engineering/science/business/design/education coverage.
+
+## Sources and reproducibility
+
+- https://www.onetcenter.org/database.html
+- https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm
+- https://www.onetcenter.org/dl_files/IP_Manual.pdf
+- The public research page links the official methods, occupational duties and preparation sources for individual claims.
+
+`scripts/build-degree-inventory.py` uses the existing O*NET31 CSV cache and public guided index. `data-sources/degree-inventory/receipt.json` retains exact source-file hashes and selection counts. No numeric occupational profile is hand-authored. The generated data preserves descriptor dates and AI/expert or machine-learning/expert provenance. The inventory is lazily loaded in the student app. Content hashes refresh changed student scripts and styles.
+
+`npm run build` regenerates model-chart and frequency results and the coverage report. The original pinned Interactive model match chart stays first beneath the Developer header. The report and expanded inventory are linked from Developer, frequencies, the model chart, student pathways and the career tree.
+
+## Verification and practical limits
+
+20 focused tests passed:6 inventory/method integrity,4 model-chart,6 frequency,4 student-preview checks. The public replay retained all148 models' scores, goals, Top, Other, pending, lifestyle and earlier match histories. The only added outcome is a separately labeled discovery summary. No profile answers were invented for the expansion.
+
+Browser checks covered the four-case review filter, profile evidence expansion, priority search, graduate/new-profile/search filters, a model-specific graduate chart link, fresh-student doctor search and a390px phone layout without page overflow. Source and filter behavior, not matching accuracy with real students, were tested. Authenticated private model rendering was not reverified through a fresh sign-in in this turn.
+
+The41 focused priority records identify richer guided-planning work within the systematic inventory. New profiles do not inherit another profession's license, pay, tuition or first-paid-stage lifestyle result. Interest correlation is a pattern comparison, not a career-success probability. Independent student/counselor evaluation, neutral exposure and meaningful follow-ups remain necessary before stronger match claims.

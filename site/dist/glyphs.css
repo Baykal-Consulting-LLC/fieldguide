@@ -1,0 +1,65 @@
+/* Icons identify subjects. Match quality continues to use the separate fit colors. */
+.app-glyph{display:inline-block;width:32px;height:32px;flex:none;vertical-align:middle}
+.field-icon{--icon-ink:#335e7c;--icon-wash:#edf3f9;display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;flex:none;border-radius:14px;background:var(--icon-wash);color:var(--icon-ink)}
+.field-icon-creative{--icon-ink:#855035;--icon-wash:#f9ece1}
+.field-icon-technology,.field-icon-transportation-production{--icon-ink:#315e88;--icon-wash:#eaf1fb}
+.field-icon-health{--icon-ink:#176f70;--icon-wash:#e4f3f0}
+.field-icon-science{--icon-ink:#65528f;--icon-wash:#f0ebf8}
+.field-icon-building,.field-icon-trades{--icon-ink:#875c29;--icon-wash:#fbf0d9}
+.field-icon-business,.field-icon-sales-office{--icon-ink:#465d91;--icon-wash:#edf0fb}
+.field-icon-services{--icon-ink:#965341;--icon-wash:#faece5}
+.field-icon-education{--icon-ink:#62752d;--icon-wash:#f0f3df}
+.field-icon-public-safety{--icon-ink:#586077;--icon-wash:#edf0f5}
+.field-icon .field-glyph,.pathway-card .field-card-heading .field-glyph,.profession-card .field-card-heading .field-glyph,.library-field>summary .field-glyph{display:block;width:32px;height:32px;margin:0}
+.library-field>summary .field-icon{width:42px;height:42px;border-radius:12px}
+.hero-eyebrow{display:flex;align-items:center;gap:9px}
+.hero-eyebrow .app-glyph{width:26px;height:26px;color:#a35c38}
+.journey-map b{display:flex;align-items:center;justify-content:center;width:44px;height:44px;flex:none;border-radius:13px;background:#eef1e7;color:#385c46}
+.journey-map li:nth-child(2) b{background:#fbefdb;color:#875b24}
+.journey-map li:nth-child(3) b{background:#eaf0fa;color:#3a6092}
+.journey-map li:nth-child(4) b{background:#f2ecf8;color:#755389}
+.journey-map .app-glyph{width:29px;height:29px}
+.library-door-title{display:flex;gap:12px;align-items:center}
+.library-door-title .app-glyph{color:#3a6092;width:30px;height:30px}
+.discovery-art{position:relative;width:380px;max-width:100%;aspect-ratio:380/320}
+.discovery-orbit{position:absolute;inset:0}
+.art-center,.art-token{position:absolute;display:flex;align-items:center;justify-content:center;box-sizing:border-box}
+.art-center{left:36%;top:33%;width:28%;aspect-ratio:1;border-radius:50%;background:#274d3c;color:#fffdf5;box-shadow:0 10px 28px #274d3c18}
+.hero-compass .art-center .app-glyph{width:73%;height:73%;transform:rotate(-12deg)}
+.art-token{width:21%;aspect-ratio:1;border-radius:24%;border:2px solid #fffdf7;box-shadow:0 7px 20px #203b2510}
+.hero-compass .art-token .app-glyph{width:63%;height:63%}
+.art-home{left:12%;top:10%;background:#edf2e0;color:#5a6e2b;transform:rotate(-9deg)}
+.art-create{right:8%;top:16%;background:#f9e5d4;color:#9b5d36;transform:rotate(9deg)}
+.art-health{left:9%;bottom:9%;background:#dff0ed;color:#217572;transform:rotate(-6deg)}
+.art-trades{right:12%;bottom:5%;background:#e3ebf8;color:#3c6092;transform:rotate(8deg)}
+.builder-options{--life-ink:#42684b;--life-wash:#edf3e9}
+.builder-options[data-life-category=transport],.builder-options[data-life-category=travel]{--life-ink:#355f93;--life-wash:#edf2fc}
+.builder-options[data-life-category=groceries],.builder-options[data-life-category=recreation]{--life-ink:#627329;--life-wash:#f1f4e5}
+.builder-options[data-life-category=dining]{--life-ink:#925c32;--life-wash:#fbf0e4}
+.builder-options[data-life-category=entertainment],.builder-options[data-life-category=clothing]{--life-ink:#77538c;--life-wash:#f4eef8}
+.builder-options[data-life-category=saving]{--life-ink:#226f68;--life-wash:#e9f4f0}
+.builder-options .builder-option{--choice:var(--life-ink);border-top:1px solid var(--line);border-left:4px solid var(--life-ink);display:grid;grid-template-columns:42px 1fr;column-gap:13px;padding:15px 16px;text-align:left}
+.builder-options .builder-symbol{display:flex;align-items:center;justify-content:center;grid-row:1/3;width:42px;height:42px;margin:0;border-radius:12px;background:var(--life-wash);color:var(--life-ink)}
+.builder-symbol .app-glyph{width:30px;height:30px}
+.builder-options .builder-option.selected{background:var(--life-wash);border-color:var(--life-ink);box-shadow:0 0 0 1px var(--life-ink)}
+.builder-options .builder-option.selected .builder-symbol{background:#ffffffa6}
+.builder-review-choices .app-glyph{width:28px;height:28px}
+.life-symbol .app-glyph{width:34px;height:34px;display:block}
+/* Use the existing heading/label line; icons never add a row or extra padding. */
+.profession-card .career-icon{width:32px;height:32px;border-radius:9px}
+.profession-card .career-icon .field-glyph{width:24px;height:24px}
+.plan-label,.plan-alternative-label{display:flex;align-items:center;gap:8px}
+.plan-label>.app-glyph,.plan-label .career-icon,.plan-alternative-label .career-icon{width:19px;height:19px;flex:none}
+.plan-label>.app-glyph{color:#416457}
+.plan-label .career-icon,.plan-alternative-label .career-icon{background:none;border-radius:0}
+.plan-label .career-icon .field-glyph,.plan-alternative-label .career-icon .field-glyph{width:19px;height:19px}
+@media(max-width:760px){
+ .field-icon{width:42px;height:42px;border-radius:12px}
+ .field-card-heading{gap:10px}
+ .field-icon .field-glyph,.pathway-card .field-card-heading .field-glyph,.profession-card .field-card-heading .field-glyph{width:29px;height:29px}
+ .journey-map b{width:36px;height:36px;border-radius:11px}.journey-map .app-glyph{width:25px;height:25px}
+ .builder-options .builder-option{grid-template-columns:36px 1fr;column-gap:12px;padding:13px 14px}
+ .builder-options .builder-symbol{width:36px;height:36px;border-radius:10px}.builder-symbol .app-glyph{width:27px;height:27px}
+ .builder-option h2{font-size:21px}.library-door-title .app-glyph{width:27px;height:27px}
+}
+@media print{.art-token,.art-center{box-shadow:none}.field-icon{background:transparent}}

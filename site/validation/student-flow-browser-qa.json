@@ -1,0 +1,157 @@
+{
+  "release": "0.8.1",
+  "date": "2026-10-16",
+  "inputs": "Synthetic preview-only student entries",
+  "entries": [
+    {
+      "entry": "assessment",
+      "career": "industrial-design",
+      "stage": "entry",
+      "preview": "$4,108\ntake-home / month\n$3,806\nspending & cash savings\n$301\nleft unallocated",
+      "url": "http://localhost:4181/#/plan",
+      "preparation": true,
+      "income": true,
+      "lifestyle": true,
+      "actions": true,
+      "interests": true
+    },
+    {
+      "entry": "college",
+      "career": "industrial-design",
+      "stage": "entry",
+      "preview": "$4,108\ntake-home / month\n$3,806\nspending & cash savings\n$301\nleft unallocated",
+      "url": "http://127.0.0.1:4181/#/plan",
+      "preparation": true,
+      "income": true,
+      "lifestyle": true,
+      "actions": true,
+      "interests": true
+    },
+    {
+      "entry": "training",
+      "career": "tattoo",
+      "stage": "entry",
+      "preview": "$2,648\ntake-home / month\n$3,806\nspending & cash savings\n$1,158\nmonthly shortfall",
+      "url": "http://127.0.0.1:4181/#/plan",
+      "preparation": true,
+      "income": true,
+      "lifestyle": true,
+      "actions": true,
+      "interests": true
+    },
+    {
+      "entry": "careers",
+      "career": "industrial-design",
+      "stage": "entry",
+      "preview": "$4,108\ntake-home / month\n$3,806\nspending & cash savings\n$301\nleft unallocated",
+      "url": "http://127.0.0.1:4181/#/plan",
+      "preparation": true,
+      "income": true,
+      "lifestyle": true,
+      "actions": true,
+      "interests": true
+    },
+    {
+      "entry": "income",
+      "career": "industrial-design",
+      "stage": "year5",
+      "preview": "$5,319\ntake-home / month\n$3,806\nspending & cash savings\n$1,513\nleft unallocated",
+      "url": "http://127.0.0.1:4181/#/plan",
+      "preparation": true,
+      "income": true,
+      "lifestyle": true,
+      "actions": true,
+      "interests": true
+    },
+    {
+      "entry": "lifestyle",
+      "career": "industrial-design",
+      "stage": "entry",
+      "preview": "$4,108\ntake-home / month\n$3,806\nspending & cash savings\n$301\nleft unallocated",
+      "url": "http://127.0.0.1:4181/#/plan",
+      "preparation": true,
+      "income": true,
+      "lifestyle": true,
+      "actions": true,
+      "interests": true
+    }
+  ],
+  "fullJourney": {
+    "sections": 5,
+    "quizzes": 0,
+    "experience": "Selection buttons",
+    "confidence": "Five-tick sliders",
+    "result": "Complete My Plan"
+  },
+  "confidence": {
+    "untouchedNotSaved": true,
+    "midpointTapSaved3": true,
+    "arrowKeySaved4": true,
+    "reloadPreserved": true,
+    "otherSlidersUnanswered": true,
+    "oldValuesPreserved": true
+  },
+  "plan": {
+    "previewPreserved": true,
+    "explicitlyKeptBudget": "$6,071\ntake-home / month\n$1,530\nhousing & utilities\n$2,265\nleft unallocated",
+    "alternativeDidNotJump": true,
+    "primaryChangeReloadPreserved": true
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "checks": [
+      {
+        "overflow": false,
+        "route": "#/guide/assessment",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/activity/confidence",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/activity/challenges",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/guide/paths",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/guide/specialty",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/guide/careers",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/guide/career/industrial-design",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/guide/income",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/salary/industrial-design/year10?from=income",
+        "small": []
+      },
+      {
+        "overflow": false,
+        "route": "#/plan",
+        "small": []
+      }
+    ]
+  },
+  "consoleErrors": []
+}

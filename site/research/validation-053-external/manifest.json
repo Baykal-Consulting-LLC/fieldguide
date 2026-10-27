@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-10-19",
+  "method": "SHA-256 audit of source-only synthetic comparator inputs, raw live response extracts, crosswalk and observed result; not production engine freeze",
+  "files": {
+    "freeze-inputs.mjs": "d5fb7f776e942b06f88a3581cb188e8c069596e0f265fdc53caccfa074ce1308",
+    "summary.json": "9e9373bc04b0cf428ca23c4acaa07fb41827ebe151e3cf47b96419a7701220fb",
+    "frozen-inputs.json": "4dfdba23cc8e5fca32519bb7cbd01d357cfbd22c3094a41f7e8c5e1a0ae1caa5",
+    "results.json": "b6bd261956e577f1d2471ba07e72b57175f6ed49f07c6b6c1966f13aa294c130",
+    "item-crosswalk.json": "a98a172cce8a6e6ad042b9816338134ab1f9628cc48b48b52caf4c67347cdd74",
+    "live-responses.json": "05572d1c2720a9537b7b1b904641cdf7c3c7d8b2501fb2a60dbe6430ba7e2b70",
+    "coaches-interest-live.json": "23e1ea20c40fb6fca25bbe415fc96f97caaf2a223539269b3fa652e23ce7aa7c",
+    "test_compare.py": "576d67ee10dcbd7cb6cdff79a32348c52c7fe4da2a49f1bcad25b30b2608976e",
+    "compare.py": "a2125cf172ec579b0172e57b70c8a48f943c3bfb2a26bb40b4f37e081ab5b6af"
+  }
+}

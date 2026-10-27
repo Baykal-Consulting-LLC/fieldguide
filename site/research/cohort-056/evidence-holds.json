@@ -1,0 +1,646 @@
+{
+  "version": "0.56.0",
+  "policy": "Only reviewed non-holdout biography-inferred Yes answers are held. Original answers remain untouched; direct student answers resolve the hold. Original 30 and fresh 12 holdouts are not edited from case-level reviews.",
+  "source": "validation/calibration-054.json",
+  "rows": [
+    {
+      "modelId": "life-007",
+      "careerId": "bookkeeping-clerk",
+      "questionId": "bookkeeping-clerk-interest-044-2",
+      "reason": "Practical cost comparison supports exploring money records, but keeping institutional inflows/outflows and reconciling account entries are not specifically chosen in the biography.",
+      "quote": "Comparing prices",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-007",
+      "careerId": "accounting",
+      "questionId": "accounting-interest-044-2",
+      "reason": "Applied calculations and checking car costs are positive evidence; organization-level reports and reporting rules remain a distinct unconfirmed interest.",
+      "quote": "Comparing prices",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-013",
+      "careerId": "industrial-design",
+      "questionId": "industrial-design-interest-044-2",
+      "reason": "Miniatures, prop work and a prospective design course support physical creative-design discovery. Designing an object around an everyday user’s needs is not yet clearly chosen apart from constructing a coherent fictional scene. Clarify that distinctive product goal rather than treating careful model assembly as automatic industrial-design support. Anxiety and new software are not the issue.",
+      "quote": "Making coherent worlds",
+      "followup": "Would you enjoy making and revising an object to solve someone’s everyday problem, building a miniature story-world, or comparing those goals?",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-014",
+      "careerId": "automotive",
+      "questionId": "automotive-interest-044-2",
+      "reason": "Bicycle adjustment is positive mechanical evidence, but interest in car systems specifically has not been distinguished from fabrication.",
+      "quote": "Bicycle adjustment",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-016",
+      "careerId": "film-editing",
+      "questionId": "film-editing-interest-044-2",
+      "reason": "Recording puppet scenes supports visual storytelling; choosing selection, assembly and audiovisual timing as ongoing learning is still inferred from performing.",
+      "quote": "recorded puppet scenes at home",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-024",
+      "careerId": "photographer",
+      "questionId": "photographer-interest-044-2",
+      "reason": "Room sketches and close observation support visual exploration. The biography does not yet distinguish an interest in camera composition, light and reviewing photographs from pleasure in drawing remembered details. Keep photography available, but ask about the medium instead of converting visual memory into a settled camera-work preference.",
+      "quote": "Observational sketches",
+      "followup": "Would you like to portray the same ordinary room through photographs and light changes, through drawing, or try both before reacting?",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-026",
+      "careerId": "geoscience",
+      "questionId": "geoscience-interest-044-2",
+      "reason": "Repeated coastal curiosity supports environmental and marine-science discovery. Rocks, sediment, landforms and Earth history are a more distinctive subject than shoreline debris, tide-pool organisms or visitor explanations; the current inference does not settle which coast-related questions he wants to pursue.",
+      "quote": "Shoreline observations",
+      "followup": "Would you choose investigating how rocks and sediment shape a shore, studying its organisms or debris, or comparing those questions?",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-027",
+      "careerId": "librarian",
+      "questionId": "librarian-interest-044-2",
+      "reason": "Choosing essays and a library discussion does not itself establish wanting to search and organize information for library users, though it is a plausible next trial.",
+      "quote": "Essays",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-029",
+      "careerId": "teaching",
+      "questionId": "teaching-interest-044-2",
+      "reason": "Peer study and organizing a group support explanation; a chosen younger-adolescent classroom and subject-instruction preference remain inferred.",
+      "quote": "helping a friend through shared video study was more effective",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-029",
+      "careerId": "high-school-teacher",
+      "questionId": "high-school-teacher-interest-044-2",
+      "reason": "Summarizing history and helping a friend learn are positive; the biography does not yet distinguish interest in regular subject teaching from learning collaboratively.",
+      "quote": "Organizes study groups",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-032",
+      "careerId": "mechanical-engineering",
+      "questionId": "mechanical-engineering-interest-044-2",
+      "reason": "Measured paper models and useful structures support technical design; machine mechanisms specifically are a new subject question.",
+      "quote": "Paper engineering",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-033",
+      "careerId": "statistics",
+      "questionId": "statistics-interest-044-2",
+      "reason": "Algebra, quantity records and systematic recipe changes justify a quantitative-method introduction. The main chosen inquiry is physics and understanding physical effects; analyzing variable data and judging sampling/uncertainty are not yet distinct preferences. Ask about statistical questions without requiring prior statistics or treating record keeping as a career wish.",
+      "quote": "Physics questions",
+      "followup": "Would you like to analyze repeated bread or farm measurements and judge how uncertain a pattern is, work through a physics explanation, or compare both?",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-037",
+      "careerId": "elementary-teacher",
+      "questionId": "elementary-teacher-interest-044-2",
+      "reason": "Voluntary recreation and younger-child games support a child-focused invitation; teaching academic curriculum is still a separate unconfirmed interest.",
+      "quote": "Welcoming children",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-040",
+      "careerId": "teaching",
+      "questionId": "teaching-interest-044-2",
+      "reason": "A meaningful repair lesson supports exploring explanation, but a recent sibling interaction does not establish preference for adolescent subject teaching.",
+      "quote": "She recently taught her brother a simple repair and discovered that waiting through his mistakes required more patience than doing it herself.",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-040",
+      "careerId": "elementary-teacher",
+      "questionId": "elementary-teacher-interest-044-2",
+      "reason": "Adapting repair instructions is positive evidence; interest in school learning routines and elementary curriculum is still inferred.",
+      "quote": "Adapts instructions",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-045",
+      "careerId": "librarian",
+      "questionId": "librarian-interest-044-2",
+      "reason": "Forms help and family information work create a bridge; regular information service for unfamiliar users is not yet a chosen interest.",
+      "quote": "Online forms for grandfather",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-054",
+      "careerId": "high-school-teacher",
+      "questionId": "high-school-teacher-interest-044-2",
+      "reason": "Instruction of younger children and liking history/statistics support exploration, but do not establish preference for teaching older adolescents a subject through sustained lessons. Ask about the age group and subject before claiming that specific interest is settled.",
+      "quote": "Teaching through movement",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-054",
+      "careerId": "teaching",
+      "questionId": "teaching-interest-044-2",
+      "reason": "Movement explanations support teaching discovery. Middle-school subject instruction and checking academic learning are a distinct preference question, not settled by coaching a brother.",
+      "quote": "Teaching through movement",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-058",
+      "careerId": "writing",
+      "questionId": "writing-interest-044-2",
+      "reason": "The comic and collaborative art provide a real narrative bridge, but the biography’s repeated chosen practice is visual making. Saved broad story/media interests and mural collaboration do not resolve whether composing and revising longer written pieces is appealing. This is uncertainty about the word-focused task, not a demand for a publishing history or a grief-based restriction.",
+      "quote": "She drew a comic about a family living in a tree during remote schooling.",
+      "followup": "Would you like to try writing a short story or article, making a visual comic or mural, another activity, or neither for now?",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-068",
+      "careerId": "animation",
+      "questionId": "animation-interest-044-2",
+      "reason": "The completed paper-puppet play supports storytelling and visual timing. Whether she wants to learn moving-image/animation production, rather than physical stage construction or scenes, remains unclear.",
+      "quote": "Comic scenes",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-070",
+      "careerId": "carpentry",
+      "questionId": "carpentry-interest-044-2",
+      "reason": "Gates, latches and durable repairs support physical construction discovery. A preference for wood framing, cabinetry and installation is an adjacent material/task inference requiring a neutral trial, not prior work experience.",
+      "quote": "Figuring out a stubborn latch",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-070",
+      "careerId": "welder",
+      "questionId": "welder-interest-044-2",
+      "reason": "Mechanical gate/latch work makes metal joining plausible. It does not settle whether learning welding is itself attractive; ask about a safe introductory joining task rather than assuming every durable repair implies welding.",
+      "quote": "Figuring out a stubborn latch",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-071",
+      "careerId": "public-relations",
+      "questionId": "public-relations-interest-044-2",
+      "reason": "Speaking, poetry and museum welcome support communication. Accurate organizational representation and planned public messages have distinct purposes from enjoying an audience, so clarify interest in those tasks rather than inferring it from confidence.",
+      "quote": "Explaining ideas aloud",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-073",
+      "careerId": "teaching",
+      "questionId": "teaching-interest-044-2",
+      "reason": "Explaining games and debate arguments supports instruction. Teaching academic subjects to younger teens is an adjacent content/age transfer requiring a preference question, not evidence of demonstrated classroom readiness.",
+      "quote": "Teaching a new game",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-073",
+      "careerId": "high-school-teacher",
+      "questionId": "high-school-teacher-interest-044-2",
+      "reason": "Fair oral summaries and clear rules are positive teaching signals, but subject teaching to older adolescents remains unasked. Organizational support needs neither establish nor veto that preference.",
+      "quote": "Teaching a new game",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-075",
+      "careerId": "data-science",
+      "questionId": "data-science-interest-044-2",
+      "reason": "Detailed maps and mapping tutorials support geographic inquiry. Statistical computing, cleaning datasets and building general analytical models are distinct interests; the current rationale explicitly infers them without biography evidence of wanting those tasks.",
+      "quote": "Mapping routes",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-080",
+      "careerId": "architecture",
+      "questionId": "architecture-interest-044-2",
+      "reason": "Structural testing and display clarity support design adjacency. Interest in designing whole buildings, integrating client needs and formal building plans remains less explicit than testing a bridge model.",
+      "quote": "Testing structures",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-081",
+      "careerId": "mechanical-engineering",
+      "questionId": "mechanical-engineering-interest-044-2",
+      "reason": "Sound devices and component assembly support engineering discovery. The recurring chosen domain is electrical controls; broader mechanism design deserves clarification rather than automatic full support.",
+      "quote": "Switches and sound devices",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-082",
+      "careerId": "degree-27102500",
+      "questionId": "degree-27102500-047-responsibility",
+      "reason": "Accessible seating and worktable changes support spatial usability. Interior materials, finishes, building drawings and sustained room design are a plausible extension, not yet a specific preference; the need for seating is not a career interest.",
+      "quote": "Visual design",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-087",
+      "careerId": "mechanical-engineering",
+      "questionId": "mechanical-engineering-interest-044-2",
+      "reason": "Physical-effects demonstrations and equipment setup justify an engineering introduction. Designing machines and testing design choices is a distinct next task whose appeal is not yet established.",
+      "quote": "Hands-on science demonstrations",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-087",
+      "careerId": "electrical-engineering",
+      "questionId": "electrical-engineering-interest-044-2",
+      "reason": "Magnets and physical-effects explanations support scientific curiosity. Electrical controls/circuits and engineering design are a domain extension, needing a direct neutral question without using recovery as a veto.",
+      "quote": "Hands-on science demonstrations",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-089",
+      "careerId": "carpentry",
+      "questionId": "carpentry-interest-044-2",
+      "reason": "Cardboard prototypes and joint tests support making. Wood construction, installation and shop routines are adjacent material/context questions. Noise protection can permit exploration and is not evidence against technical interest.",
+      "quote": "Quiet physical prototypes",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-090",
+      "careerId": "high-school-teacher",
+      "questionId": "high-school-teacher-interest-044-2",
+      "reason": "Children’s nature walks support explanation and environmental interpretation. Older adolescents, subject curricula and sustained classroom lessons are a separate preference question.",
+      "quote": "Nature walks with conversation",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-090",
+      "careerId": "teaching",
+      "questionId": "teaching-interest-044-2",
+      "reason": "Child-friendly nature explanation supports education adjacency. Academic teaching to younger teens is not specifically established by clear signs and short outdoor talks.",
+      "quote": "Nature walks with conversation",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-096",
+      "careerId": "food-science",
+      "questionId": "food-science-interest-044-2",
+      "reason": "Cooking, menus and curiosity about experiments make food science a sensible introduction. Ingredient chemistry, consistency and safety investigation are separate tasks from cooking or observing microscopic life; ask directly before calling them settled.",
+      "quote": "Inventing menus",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "life-098",
+      "careerId": "public-relations",
+      "questionId": "public-relations-interest-044-2",
+      "reason": "Expressive reading and audience-sensitive words support communication. Representing an organization, answering public questions and shaping campaigns need their own preference evidence; presentation polish is not sufficient.",
+      "quote": "Reading aloud with expression",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development"
+    },
+    {
+      "modelId": "gap-001",
+      "careerId": "mechanical-engineering",
+      "questionId": "mechanical-engineering-interest-044-2",
+      "reason": "The repaired moving hinge is positive mechanism evidence, and continuing fine repairs supports functional making. Her dominant repeated interest is small joins and fine repair; designing machines or moving mechanisms as a continuing activity remains undifferentiated. Invite a mechanical trial without equating a jewelry-repair preference with every machine-design method.",
+      "quote": "she remade a broken doll hinge using thread, wire, and repeated attempts.",
+      "followup": "Would you choose improving another moving mechanism, making a secure decorative join, or investigating a biology question next? What part of the mechanism task would you want to repeat?",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-003",
+      "careerId": "accounting",
+      "questionId": "accounting-interest-044-2",
+      "reason": "Purchase entries and correcting column errors support accurate records. The repeated motivation is primarily quantities, storage, growing and fewer wasted trips; investigating monetary accounts and learning financial reports/reporting rules is a plausible but distinct preference. Advanced-accounting unfamiliarity is not the reason for clarification.",
+      "quote": "She enjoyed that there was a physical thing to check against the number.",
+      "followup": "Would you prefer reconciling a money-payment discrepancy, checking stock against a supply list, or comparing plant growth? Would learning financial-report rules make the money task more or less interesting?",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-005",
+      "careerId": "emt",
+      "questionId": "emt-interest-044-2",
+      "reason": "The positive evidence concerns swimming and practiced pool safety. Ask separately about hands-on emergency medical care and rapid assessment, rather than inferring both from ordered steps.",
+      "quote": "I still want the training.",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-007",
+      "careerId": "environmental-science",
+      "questionId": "environmental-science-interest-044-2",
+      "reason": "Repeated organisms, rainfall and revised observations directly support biological field comparison. Investigating pollution and proposing harm prevention is a distinctive environmental aim not yet separated from understanding ordinary organism changes. This is an unresolved subject/goal question, not a rejection of unfamiliar sampling or a judgment about hearing access.",
+      "quote": "Take a more demanding biology class",
+      "followup": "Would you choose comparing ordinary organism changes, investigating a possible pollution source, or trying a biology explanation task? Would proposing ways to prevent harm be part of what attracts you?",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-009",
+      "careerId": "elementary-teacher",
+      "questionId": "elementary-teacher-interest-044-2",
+      "reason": "A familiar sports warm-up supports coaching discovery; academic classroom teaching and identifying schoolwork difficulties need a separate preference check.",
+      "quote": "He enjoys explaining a familiar warm-up to younger players with a coach present.",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-009",
+      "careerId": "physical-therapy",
+      "questionId": "physical-therapy-interest-044-2",
+      "reason": "Recovery questions support exercise/rehabilitation discovery, while wanting to assess other people and choose treatments remains unresolved.",
+      "quote": "I like knowing why an exercise is there.",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-010",
+      "careerId": "industrial-design",
+      "questionId": "industrial-design-interest-044-2",
+      "reason": "Enjoying kits and fine repairs supports making; user-focused product sketching and iterative design are plausible but not established chosen tasks.",
+      "quote": "Follows illustrated multi-step directions",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-015",
+      "careerId": "degree-19102902",
+      "questionId": "degree-19102902-047-responsibility",
+      "reason": "Microscope and sample comparisons support biological discovery; interest in intracellular molecules and designing cell experiments is plausible adjacent specialization.",
+      "quote": "Microscope observations",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-017",
+      "careerId": "emt",
+      "questionId": "emt-interest-044-2",
+      "reason": "Response drills support emergency discovery, but the packet itself says hands-on medical interest is inferred; clarify patient care and assessment preferences.",
+      "quote": "Coordinated practical drills",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-017",
+      "careerId": "firefighter",
+      "questionId": "firefighter-interest-044-2",
+      "reason": "Repeated emergency-program drills, gear checks and radio practice support response-team exploration. Entering dangerous scenes for fire/rescue and providing aid to injured people are distinctive responsibilities not established by enjoying coordinated equipment exercises. Ask about wanting to learn those aims without requiring actual emergencies, unusual bravery or present first-aid competence.",
+      "quote": "Coordinated practical drills",
+      "followup": "Would you like to learn about dangerous-scene rescue and injured-person aid, or is the strongest attraction coordinated equipment/radio work? What supervised observation would help you compare them?",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-018",
+      "careerId": "web-developer",
+      "questionId": "web-developer-interest-044-2",
+      "reason": "Purposeful coding supports a web-development introduction; preference for websites specifically is still a transfer from game/server work.",
+      "quote": "Modifying a familiar game",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-020",
+      "careerId": "bookkeeping-clerk",
+      "questionId": "bookkeeping-clerk-interest-044-2",
+      "reason": "Accurate generic data entry supports administrative work; preference for financial records and checking business payments remains explicitly untested.",
+      "quote": "Accurate routine data entry",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-021",
+      "careerId": "retail-sales",
+      "questionId": "retail-sales-interest-044-2",
+      "reason": "Fashion browsing and talking with friends do not establish enjoying helping unfamiliar shoppers or recommending purchases; a short retail trial would clarify.",
+      "quote": "Resale fashion browsing",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-022",
+      "careerId": "degree-19204300",
+      "questionId": "degree-19204300-047-responsibility",
+      "reason": "Water quality interest supports hydrology discovery; curiosity about water movement, distribution and broader hydrological questions still needs checking.",
+      "quote": "Aquarium care",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "gap-023",
+      "careerId": "cashier",
+      "questionId": "cashier-interest-044-2",
+      "reason": "Small resale records do not establish preference for continuous checkout and customer-payment exchanges; the direction remains plausible.",
+      "quote": "Writes clear item descriptions",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "supplement"
+    },
+    {
+      "modelId": "legacy-007",
+      "careerId": "environmental-science",
+      "questionId": "environmental-science-interest-044-2",
+      "reason": "Pond observations and repeated explanations directly support ecological observation and science communication. Pollution investigation and preventing environmental harm are a distinct aim still inferred from general living-systems curiosity. Keep environmental science available as a trial without treating it as already as specific as the observation/communication interests.",
+      "quote": "Understanding living systems",
+      "followup": "Would you choose investigating a possible pollution effect, comparing ordinary pond changes, or designing an explanatory diagram? Would developing a harm-prevention recommendation interest you too?",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "legacy-007",
+      "careerId": "conservation",
+      "questionId": "conservation-interest-044-2",
+      "reason": "Living-system curiosity supports conservation discovery, while resource management and protective intervention remain adjacent duties.",
+      "quote": "Pond observations",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "legacy-009",
+      "careerId": "degree-15124400",
+      "questionId": "degree-15124400-047-responsibility",
+      "reason": "Connectivity fixes support technical discovery; enterprise administration, access and backups are adjacent tasks requiring a preference check.",
+      "quote": "Stepwise device troubleshooting",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "legacy-009",
+      "careerId": "systems-analysis",
+      "questionId": "systems-analysis-interest-044-2",
+      "reason": "Helping fix devices supports useful systems exploration, but organization-wide requirements analysis is not yet a chosen interest.",
+      "quote": "Stepwise device troubleshooting",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "legacy-013",
+      "careerId": "mechanical-engineering",
+      "questionId": "mechanical-engineering-interest-044-2",
+      "reason": "Constrained models and testing support engineering broadly, but the chosen objects are structures. Machines and moving mechanisms deserve comparison before reporting full specific interest support.",
+      "quote": "Constrained design",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "legacy-014",
+      "careerId": "hvac",
+      "questionId": "hvac-interest-044-2",
+      "reason": "Fault tracing supports a technical introduction; heating and cooling systems are an adjacent subject, not a settled specific interest.",
+      "quote": "Low-voltage circuits",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "legacy-014",
+      "careerId": "industrial-machinery-mechanic",
+      "questionId": "industrial-machinery-mechanic-interest-044-2",
+      "reason": "Circuit fault finding and assembly support repair discovery, but regular production-machinery repair is a domain transfer.",
+      "quote": "Low-voltage circuits",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "legacy-015",
+      "careerId": "hvac",
+      "questionId": "hvac-interest-044-2",
+      "reason": "Mechanical fault tracing and checking repairs support a technical-service introduction. The stated alternatives are vehicle and production machinery; choosing heating/cooling installation, airflow/refrigeration problems and associated electrical checks is a distinct system goal still unresolved. Ask about that system rather than requiring professional HVAC experience or rejecting unfamiliar work.",
+      "quote": "Compare vehicle and machinery training",
+      "followup": "Would you like to compare a heating/cooling fault demonstration with a vehicle or production-machine fault, and which problem would you choose to learn next?",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "legacy-019",
+      "careerId": "degree-29114101",
+      "questionId": "degree-29114101-047-responsibility",
+      "reason": "Immediate first aid and team response make acute nursing plausible. Ongoing bedside assessment, care planning and nursing responsibilities are a distinct scope from EMT interest and should be clarified; real crisis experience is not required to explore.",
+      "quote": "Repeated procedures",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "legacy-020",
+      "careerId": "office-clerk",
+      "questionId": "office-clerk-interest-044-2",
+      "reason": "Lists and labels support organized practical work; office document requests are plausible but not explicitly chosen.",
+      "quote": "Stock counts",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "legacy-020",
+      "careerId": "degree-13108102",
+      "questionId": "degree-13108102-047-responsibility",
+      "reason": "Supply-room accuracy supports logistics, while analyzing shipment patterns and proposing delivery improvements is adjacent scope.",
+      "quote": "Stock counts",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "legacy"
+    },
+    {
+      "modelId": "new049-001",
+      "careerId": "market-research",
+      "questionId": "market-research-interest-044-2",
+      "reason": "Listening to buyers and negotiation support customer inquiry adjacency. Systematic consumer research and analytic reporting are different from reaching agreements; clarify those tasks instead of translating sociability into research preference.",
+      "quote": "Bargaining over fundraiser purchases",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development049"
+    },
+    {
+      "modelId": "new049-003",
+      "careerId": "financial-analysis",
+      "questionId": "financial-analysis-interest-044-2",
+      "reason": "Unit prices and hidden delivery costs support procurement/comparison. Company financial performance, investments and funding recommendations are separate task preferences, not established by bargain checking.",
+      "quote": "Comparing stuff is interesting. Posting it and waiting for answers is mostly annoying. People act like those are the same activity.",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development049"
+    },
+    {
+      "modelId": "new049-009",
+      "careerId": "data-science",
+      "questionId": "data-science-interest-044-2",
+      "reason": "Counterexamples and tables support mathematics and a data-science trial; computational empirical analysis and explanations for decision makers remain separate interests.",
+      "quote": "Explains the difference between a guess and an argument",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development049"
+    },
+    {
+      "modelId": "new049-009",
+      "careerId": "statistics",
+      "questionId": "statistics-interest-044-2",
+      "reason": "Abstract prime-number arguments support mathematics; collecting uncertain empirical data and statistical modeling are plausible adjacent tasks, not interchangeable with proof.",
+      "quote": "Finds counterexamples in her own tables",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development049"
+    },
+    {
+      "modelId": "new049-013",
+      "careerId": "degree-15124301",
+      "questionId": "degree-15124301-047-responsibility",
+      "reason": "Reconciling receipts and messages supports checkable records. Designing database stores, shared data pipelines and technical integration is a distinct domain. The rationale stretches generic consistency into specific data-infrastructure interest.",
+      "quote": "Reconciling records that do not initially agree",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development049"
+    },
+    {
+      "modelId": "new049-015",
+      "careerId": "epidemiology",
+      "questionId": "epidemiology-interest-044-2",
+      "reason": "Living-system mechanisms support health-science discovery; population illness patterns and public-health evidence are adjacent rather than explicit chosen questions.",
+      "quote": "Reading about feedback and regulation in living systems",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development049"
+    },
+    {
+      "modelId": "new049-017",
+      "careerId": "degree-25105400",
+      "questionId": "degree-25105400-047-responsibility",
+      "reason": "There is strong evidence of chosen explanatory work and positive experience explaining density. Sustained study of physics as the subject of a college course, rather than choosing examples that help familiar peers, remains unresolved. Offer subject depth and course-design/feedback examples; do not demand a graduate degree or prior laboratory supervision before exploration.",
+      "quote": "Finding a second example when the first explanation fails",
+      "followup": "Would you like to study a less familiar physics idea in depth and plan how to teach and check it, or is improving an explanation across different subjects more appealing?",
+      "phase": "development049"
+    },
+    {
+      "modelId": "new049-017",
+      "careerId": "degree-25102200",
+      "questionId": "degree-25102200-047-responsibility",
+      "reason": "Fraction diagrams support explaining mathematics; broader mathematical subject study and regular academic teaching/assessment interest are still distinct questions.",
+      "quote": "she made little diagrams for her brother when his fraction homework confused him.",
+      "followup": "After a neutral introduction, ask the student directly about the specific interests below. Existing inferred Yes responses do not resolve this review.",
+      "phase": "development049"
+    },
+    {
+      "modelId": "new049-017",
+      "careerId": "degree-25105100",
+      "questionId": "degree-25105100-047-responsibility",
+      "reason": "Weather diagrams and a rain explanation support Earth-science education discovery. Whether she wants sustained atmospheric/Earth inquiry and teaching a whole subject, beyond finding a helpful short example, is still open. Adult-course assessment is also a distinctive responsibility to preview; autism, preparation needs and dislike of task allocation are not automatic exclusions.",
+      "quote": "Weather diagrams",
+      "followup": "Would you like to investigate a new weather question and build a short lesson with a way to check understanding, compare that with another science topic, or leave the subject open?",
+      "phase": "development049"
+    }
+  ]
+}

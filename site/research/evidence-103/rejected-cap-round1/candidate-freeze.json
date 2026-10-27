@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-25T00:29:19.724Z",
+  "developmentOnly": true,
+  "models": 758,
+  "variants": [
+    {
+      "mode": "fixed",
+      "models": 758,
+      "beforeTop": 485,
+      "top": 482,
+      "beforeDegree": 378,
+      "degree": 375,
+      "gainedTop": 0,
+      "lostTop": 3,
+      "gainedDegree": 0,
+      "lostDegree": 3,
+      "asked": 18192,
+      "unknown": 9636
+    },
+    {
+      "mode": "hybrid2",
+      "models": 758,
+      "beforeTop": 485,
+      "top": 439,
+      "beforeDegree": 378,
+      "degree": 311,
+      "gainedTop": 13,
+      "lostTop": 59,
+      "gainedDegree": 15,
+      "lostDegree": 82,
+      "asked": 18192,
+      "unknown": 9743
+    },
+    {
+      "mode": "hybrid3",
+      "models": 758,
+      "beforeTop": 485,
+      "top": 456,
+      "beforeDegree": 378,
+      "degree": 337,
+      "gainedTop": 6,
+      "lostTop": 35,
+      "gainedDegree": 8,
+      "lostDegree": 49,
+      "asked": 18192,
+      "unknown": 9639
+    }
+  ],
+  "selected": "hybrid3",
+  "selectionRule": "Best hybrid variant by development Top + degree coverage, then fewer coverage losses, then deterministic name. Fixed is the separately replayed architecture-corrected control. No holdout outcomes used.",
+  "runnerSHA256": "06d5af03c27a7ac2d9de0e5afd47f57e551df7fce79546dd2b9ff48f49db363d",
+  "selectorSHA256": "c113e03f6ed513b51e725f0566d5e1c2702610c56246121ca6c0b4035f1dfd62"
+}

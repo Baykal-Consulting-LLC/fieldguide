@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Austin calibration and readable reports · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Austin calibration and readable reports</h1><p>Retained development record. It may describe an earlier release.</p><a href="./austin-calibration.md" download>Download original Markdown</a><pre class="document"># Austin calibration and readable reports
+
+Release 0.7.0 · reviewed October 16, 2026.
+
+## Career coverage
+
+All 62 careers now have an income input for Austin lifestyle exploration. All 26 pathways and 79 study fields link to these careers, Texas entry rules, and local college cost/aid context. Financial facts never change interest routing.
+
+| Evidence | Careers | Treatment |
+|---|---:|---|
+| BLS May 2025 Austin metro employee wages, through O*NET | 61 | Exact occupation, 25th percentile, median, 75th percentile |
+| Indeed Austin tattoo-artist posting average | 1 | $65,395 from 5 salary-bearing posts over 36 months; low-confidence planning input |
+| Dallas / Houston tattoo comparisons | Same career | $63,259 from 2 posts / $62,774 from 6; separate city averages, never percentiles |
+
+The industrial-design state-only O*NET page omitted local rows when Texas statewide pay was unavailable. The alternate [Dallas ZIP view](https://www.onetonline.org/link/localwages/27-1021.00?zip=75201) contains an **Austin** row: $79,240 / $100,520 / $132,910. These are Austin wages, not a Dallas substitution.
+
+The tattoo figures are advertised base-pay estimates, not observed medians or studio profits. The [Austin source](https://www.indeed.com/career/tattoo-artist/salaries/Austin--TX) directly opened during review reported 5 posts, updated June 8, 2026. Search snippets differed, so the directly opened snapshot is retained. [Dallas](https://www.indeed.com/career/tattoo-artist/salaries/Dallas--TX) was updated April 7; [Houston](https://www.indeed.com/career/tattoo-artist/salaries/Houston--TX), July 6. Samples may miss independent studios or duplicate employers. The site exposes these city comparisons and a studio budget. It does not invent an experience curve or fill tattoo quartiles with broader artist pay. Salary.com was rejected here because its tattoo role description instead described generic commercial illustration.
+
+`dist/austin-wages.js` is the deployed snapshot. `validation/austin-wage-source-audit.json` preserves the first state-only lookup, including its two original gaps. `validation/wage-fallback-evidence.json` records the completed follow-up. Run `scripts/fetch-austin-wages.py` and then `scripts/fill-wage-fallbacks.py` to reproduce the public-table lookup; posting records are manually transcribed and must be reviewed when refreshing.
+
+## Texas preparation
+
+`dist/texas-requirements.js` covers 62 exact IDs: 40 specific sourced records and 22 moderate-confidence ordinary-role reviews. It separates typical employer education from legal authority. Sources and scope exceptions are expanded on demand. This replaces generic jurisdiction selectors and “check locally” copy.
+
+Examples include DSHS tattoo studio licensing rather than individual artist licensing; approved educator preparation and TEA certification; electrician apprentice/journeyman/master distinctions; TDLR HVAC registration and EPA refrigerant rules; and the August 2026 CPA entry alternatives. Regulated activities within otherwise unlicensed occupations remain explained in the detail.
+
+## Education and aid
+
+UT Austin and ACC replace Illinois examples in the active interface. All examples cover 2026–27 fall and spring. UT resident tuition is $10,858–$13,576; the published resident cost-of-attendance range is $32,508–$35,386. ACC in-district tuition/fees for 30 credits are $2,550; its away-from-parents budget is $27,398. Nonresident UT and with-parents ACC budgets remain available on the education page.
+
+These are institution-wide reference budgets, not named career-program quotes. Graduate/professional credentials and noncredit training have their own prices. Sources: [UT](https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/), [ACC](https://students.austincc.edu/financial-aid/explore-your-financial-aid/cost-of-attendance/). All four examples independently reconcile in the calibration suite.
+
+The cards include [Texas Advance Commitment](https://admissions.utexas.edu/cost-aid/financial-aid/texas-advance-commitment/) and [ACC Free Tuition](https://www.austincc.edu/paying-for-college/acc-free-tuition/) with eligibility behind More info. They never assume admission, personal eligibility, or an award. Grants reduce price; loans and work fund it. Existing family plans remain untouched.
+
+## Living-cost calibration
+
+The reference household is one adult living alone, with no children. The one-bedroom default is $1,350 base rent + $180 utilities, matching [HUD FY 2027](https://www.huduser.gov/portal/datasets/fmr/fmr2027/FY2027_FMR_Schedule.pdf), page 45, gross rent of $1,530. Sharing a two-bedroom divides its $1,817 gross benchmark equally. Utility splits are assumptions. The separate $2,100 rental preset uses the September metro closed-rent median across housing types, not a house-size quote.
+
+The default home price is the September 2026 metro median closed sale, $421,000, from [Unlock MLS](https://www.unlockmls.com/news/september-2026-central-texas-housing-report). Mortgage interest is 7.40%, the [Freddie Mac October 15 national 30-year benchmark](https://www.freddiemac.com/pmms). Property tax, insurance, HOA, maintenance and closing allowances remain editable assumptions. Down payments under 20% visibly flag omitted PMI. No loan approval is inferred.
+
+The [Travis County MIT budget](https://livingwage.mit.edu/counties/48453) provides a basic-needs reasonableness check: housing aligns closely; groceries are somewhat higher; phone is close. Its medical and transport definitions differ from this scenario. Do not force a lifestyle with savings and leisure to equal a basic-needs total, or compare a car loan's principal cash flow directly with AAA depreciation-based economic cost.
+
+Dining spot checks use official [Kerbey Lane](https://www.kerbeylanecafe.com/menu) and [Uchi Austin](https://uchi.uchirestaurants.com/location/sushi-austin/menu/) menus. A $16.49 burger plus $3.50 iced tea is $25.64 with assumed 8.25% tax and 20% pretax tip. A $120 happy-hour tasting for two is $76.95 each on that basis, before extras. These support selected meal baskets, not a citywide dining average or a regular-menu tasting quote. The $20 counter-service, $45 casual and $100 special-meal inputs remain choices. Clothing, vehicle prices, travel destinations and leisure purchases remain editable baskets; they are not current shopping or booking offers. No extreme-income case funds the default lifestyle.
+
+## Presentation
+
+Text is at least 16px, with 18px primary body text, larger headings and large income figures. The most-used information is visible in short cards. Source qualifications, calculations and longer explanations live behind More info. Lifestyle results precede its five collapsed settings sections. All six lifestyle cards have direct Adjust buttons. Missing source medians are never relabeled as averages, and city comparisons never become invented wage percentiles.
+
+Saved standard wage assumptions migrate to the current local release. Custom incomes and spending remain personal. Legacy tattoo quartile selections become the Austin posting average, rather than an invented quartile.
+
+## Verification
+
+See [testing and calibration plan](../validation/testing-and-calibration-plan.md), [calculation results](../validation/calibration-results.json), and [browser QA](../validation/browser-qa.json). Software checks are not psychometric or predictive validity evidence. Counselor review and a student comprehension pilot are separate planned work.
+</pre></main></html>

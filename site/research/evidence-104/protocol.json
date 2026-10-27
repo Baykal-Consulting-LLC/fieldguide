@@ -1,0 +1,20 @@
+{
+  "version": "0.104",
+  "createdAt": "2026-10-24",
+  "control": "Architecture-corrected current block from 0.103",
+  "candidateScope": "Replace low-information activity items, never add a detour or change an answer. Preserve the same initial lead block and protect near-complete specific confirmations.",
+  "selectionData": "758 development profiles only; availability estimates from their corrected-current 0.103 traces, not holdouts. These are simulator availability rates, not psychometric validity estimates.",
+  "variants": [
+    "fixed",
+    "local",
+    "relevant",
+    "protected"
+  ],
+  "budget": 24,
+  "initialProfiler": 60,
+  "unknownsCount": true,
+  "noProfileOrUnseenAnswers": true,
+  "holdouts": "Frozen before replay, report separately; already inspected, not unseen validation.",
+  "adoption": "Research only; report every gain and loss before any live-flow decision.",
+  "developmentRefinement": "After first development run found per-model losses, add protected same-field replacement: retain an activity slot linked to any non-conflicting career with observed specific interest and unmet activity domain. No holdout outcomes used."
+}

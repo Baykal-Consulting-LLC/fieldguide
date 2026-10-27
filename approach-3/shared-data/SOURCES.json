@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "O*NET 31.0",
+  "databaseSource": "https://www.onetcenter.org/database.html",
+  "databaseLicense": "https://creativecommons.org/licenses/by/4.0/",
+  "crosswalkSource": "https://www.onetcenter.org/crosswalks/cip/Education_CIP_to_ONET_SOC.xlsx",
+  "assessmentSource": "https://www.onetcenter.org/license_tools.html",
+  "assessmentLicense": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "wageSource": "https://texaswages.com/",
+  "wagePeriod": "2025",
+  "scope": "Public reference data and questionnaire assets only. Raw O*NET rows preserve source dates and suppression flags. No account data, student records, site configuration, credentials or preservation archives.",
+  "sourceSnapshotDate": "2026-10-16",
+  "crosswalkImportedAt": "2026-10-22",
+  "preparationReference": {
+    "schemaVersion": 1,
+    "source": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm",
+    "table": "Table 1.2 Occupational projections, 2025\u201335, and worker characteristics, 2025",
+    "retrieved": "2026-10-23",
+    "sourceLastModified": "2026-08-27",
+    "sourceDOMExportSHA256": "5dd133f0fd62368c6c1c6b058172cd82534019a734e11458fea86986c0692260",
+    "scope": "Entry education, related work experience and on-the-job training columns transcribed from the official HTML table. Summary rows and em-dash unknowns retained. BLS typical entry classifications are not program accreditation or licensing determinations.",
+    "records": 1112
+  }
+}

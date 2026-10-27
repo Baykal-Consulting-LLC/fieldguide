@@ -1,0 +1,1265 @@
+{
+  "version": "research-draft-046",
+  "checkedAt": "2026-10-19",
+  "scope": "Public-source breadth review against 117 existing professions. No private profiles, outcome-driven target counts, live catalog edits, or salary assumptions.",
+  "method": "Official BLS OOH duties and entry requirements, current O*NET occupation details and code checks. These are proposed editorial interest questions; no claim of psychometric validation.",
+  "sources": [
+    {
+      "id": "breadth-health-education",
+      "title": "BLS: Health Education Specialists",
+      "url": "https://www.bls.gov/ooh/community-and-social-service/health-educators.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s entry; assess community needs, develop health teaching and evaluate programs; some employers require or prefer certification."
+    },
+    {
+      "id": "breadth-oh-safety",
+      "title": "BLS: Occupational Health and Safety Specialists and Technicians",
+      "url": "https://www.bls.gov/ooh/healthcare/occupational-health-and-safety-specialists-and-technicians.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Specialists typically need bachelor’s; inspect work environments and investigate incidents; professional certification is employer-dependent and may require experience. Technician is a different entry route."
+    },
+    {
+      "id": "breadth-genetic-counseling",
+      "title": "BLS: Genetic Counselors",
+      "url": "https://www.bls.gov/ooh/healthcare/genetic-counselors.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s genetic counseling with supervised clinical rotations; most states license; accreditation, exam and certification matter. Interpret inherited risks and support informed decisions."
+    },
+    {
+      "id": "breadth-athletic-training",
+      "title": "BLS: Athletic Trainers",
+      "url": "https://www.bls.gov/ooh/healthcare/athletic-trainers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s from accredited program; nearly all states require licensure or certification. Clinical injury prevention, evaluation and rehabilitation differs from fitness coaching."
+    },
+    {
+      "id": "breadth-microbiology",
+      "title": "BLS: Microbiologists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/microbiologists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s entry; some employers prefer graduate degrees. Research microorganisms and carry out laboratory experiments."
+    },
+    {
+      "id": "breadth-wildlife",
+      "title": "BLS: Zoologists and Wildlife Biologists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/zoologists-and-wildlife-biologists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s entry; master’s for higher-level work, PhD to lead research. Study wildlife and ecosystems in field/lab settings."
+    },
+    {
+      "id": "breadth-agriculture",
+      "title": "BLS: Agricultural and Food Scientists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-scientists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical entry; some roles require graduate degrees. Plant/soil science licensing can depend on state and duties; internships recommended."
+    },
+    {
+      "id": "breadth-animal-onet",
+      "title": "O*NET: Animal Scientists",
+      "url": "https://www.onetonline.org/link/summary/19-1011.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "19-1011.00: research genetics, nutrition, reproduction, growth and development of domestic farm animals."
+    },
+    {
+      "id": "breadth-soil-plant-onet",
+      "title": "O*NET: Soil and Plant Scientists",
+      "url": "https://www.onetonline.org/link/summary/19-1013.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "19-1013.00: crop/plant growth, pests and soils; research alternative practices and productivity."
+    },
+    {
+      "id": "breadth-biochemistry",
+      "title": "BLS: Biochemists and Biophysicists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/biochemists-and-biophysicists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "PhD for independent R&D; some bachelor’s/master’s entry roles. Many PhD holders begin with temporary postdoctoral research."
+    },
+    {
+      "id": "breadth-hydrology",
+      "title": "BLS: Hydrologists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/hydrologists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s entry; some employers prefer master’s. Measure water and analyze floods, drought and supply; office plus field work."
+    },
+    {
+      "id": "breadth-cartography",
+      "title": "BLS: Cartographers and Photogrammetrists",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/cartographers-and-photogrammetrists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s entry; use geographic data to make maps. Licensing varies by duties, employer and state; certification usually optional."
+    },
+    {
+      "id": "breadth-financial-examiners",
+      "title": "BLS: Financial Examiners",
+      "url": "https://www.bls.gov/ooh/business-and-financial/financial-examiners.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s including accounting; entry examiners train under seniors. Financial institution soundness and regulatory/consumer compliance."
+    },
+    {
+      "id": "breadth-financial-risk",
+      "title": "BLS: Financial Analysts",
+      "url": "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Financial risk specialists assess credit and market exposures, develop risk controls; bachelor’s typical. Distinct detailed occupation from investment analysts."
+    },
+    {
+      "id": "breadth-financial-risk-onet",
+      "title": "O*NET: Financial Risk Specialists",
+      "url": "https://www.onetonline.org/link/summary/13-2054.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "13-2054.00 distinct from financial and investment analysts."
+    },
+    {
+      "id": "breadth-purchasing",
+      "title": "BLS: Purchasing Managers, Buyers, and Purchasing Agents",
+      "url": "https://www.bls.gov/ooh/business-and-financial/purchasing-managers-buyers-and-purchasing-agents.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Purchasing agents typically bachelor’s, some employers accept high school; training after entry. Purchasing managers need related experience and must stay separate."
+    },
+    {
+      "id": "breadth-compensation",
+      "title": "BLS: Compensation, Benefits, and Job Analysis Specialists",
+      "url": "https://www.bls.gov/ooh/business-and-financial/compensation-benefits-and-job-analysis-specialists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s plus related work experience; analyze pay/benefits and evaluate jobs. BLS related experience category less than five years."
+    },
+    {
+      "id": "breadth-training",
+      "title": "BLS: Training and Development Specialists",
+      "url": "https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s plus work experience; assess employee learning needs, build and deliver training. BLS related experience category less than five years."
+    },
+    {
+      "id": "breadth-fundraising",
+      "title": "BLS: Fundraisers",
+      "url": "https://www.bls.gov/ooh/business-and-financial/fundraisers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical; nonprofit internship or volunteering preferred by some employers. Research donors, ask for gifts, run and evaluate campaigns."
+    },
+    {
+      "id": "breadth-technical-writing",
+      "title": "BLS: Technical Writers",
+      "url": "https://www.bls.gov/ooh/media-and-communication/technical-writers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical and technical knowledge beneficial. Quick facts identify related experience less than five years and short on-job training."
+    },
+    {
+      "id": "breadth-journalism",
+      "title": "BLS: News Analysts, Reporters, and Journalists",
+      "url": "https://www.bls.gov/ooh/media-and-communication/reporters-correspondents-and-broadcast-news-analysts.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical; student media/internships useful. Interview, research, verify and report news; projected employment decline must remain visible."
+    },
+    {
+      "id": "breadth-interior-design",
+      "title": "BLS: Interior Designers",
+      "url": "https://www.bls.gov/ooh/arts-and-design/interior-designers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical; plan safe functional interiors. Practice/title law and examination/experience requirements vary by state."
+    },
+    {
+      "id": "breadth-landscape-architecture",
+      "title": "BLS: Landscape Architects",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/landscape-architects.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Design outdoor spaces; all states require licensing, usually accredited degree, internship and exam. Supervised preparation is separate from independent practice."
+    },
+    {
+      "id": "breadth-special-education",
+      "title": "BLS: Special Education Teachers",
+      "url": "https://www.bls.gov/ooh/education-training-and-library/special-education-teachers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s and public-school state certification/licensure; adapt lessons, develop IEPs, track individual progress. BLS publishes broader kindergarten/elementary grouping."
+    },
+    {
+      "id": "breadth-special-education-onet",
+      "title": "O*NET: Special Education Teachers, Elementary School",
+      "url": "https://www.onetonline.org/link/summary/25-2056.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Current O*NET elementary code is 25-2056.00. Older 25-2052.00 is no longer used by O*NET and splits to kindergarten and elementary."
+    },
+    {
+      "id": "breadth-probation",
+      "title": "BLS: Probation Officers and Correctional Treatment Specialists",
+      "url": "https://www.bls.gov/ooh/community-and-social-service/probation-officers-and-correctional-treatment-specialists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Bachelor’s typical; government training, possible certification/competency tests and trainee period; legal supervision and rehabilitation responsibilities."
+    },
+    {
+      "id": "breadth-anthropology",
+      "title": "BLS: Anthropologists and Archeologists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/anthropologists-and-archeologists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Master’s typical, some require PhD. Field training/internships preferred; some bachelor’s graduates start as field/lab technicians or research assistants."
+    },
+    {
+      "id": "breadth-curation",
+      "title": "BLS: Archivists, Curators, and Museum Workers",
+      "url": "https://www.bls.gov/ooh/education-training-and-library/curators-museum-technicians-and-conservators.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Curators typically master’s; collections research, acquisition and exhibitions. Museum technician bachelor’s route is distinct; internships/volunteering helpful."
+    },
+    {
+      "id": "breadth-entry-table",
+      "title": "BLS: Occupational Projections and Worker Characteristics",
+      "url": "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Detailed SOC/entry classifications; animal and soil/plant scientists bachelor’s; financial risk bachelor’s no related experience; training and technical writing flag related experience. No wage values imported."
+    }
+  ],
+  "findings": [
+    {
+      "title": "Missing scientific routes can flatten existing interests",
+      "finding": "The catalog already includes crops farmwork, veterinary medicine, food science and environmental science, but lacks soil/plant science, animal science, wildlife biology, microbiology and hydrology. Add explicit scientific inquiry choices before inferring whether plant/animal interest is mainly hands-on care, research or treatment.",
+      "sourceURLs": [
+        "https://www.onetonline.org/link/summary/19-1013.00",
+        "https://www.onetonline.org/link/summary/19-1011.00",
+        "https://www.bls.gov/ooh/life-physical-and-social-science/zoologists-and-wildlife-biologists.htm",
+        "https://www.bls.gov/ooh/life-physical-and-social-science/microbiologists.htm",
+        "https://www.bls.gov/ooh/life-physical-and-social-science/hydrologists.htm"
+      ],
+      "inference": true
+    },
+    {
+      "title": "Helping and teaching are broader than clinical practice and school classrooms",
+      "finding": "Health education, genetic counseling, sports-injury care, special education and adult workplace learning represent distinct combinations. Use contrasts about the actual recipient, problem and responsibility; broad empathy should trigger invitations across relevant branches without confirming all of them.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/community-and-social-service/health-educators.htm",
+        "https://www.bls.gov/ooh/healthcare/genetic-counselors.htm",
+        "https://www.bls.gov/ooh/healthcare/athletic-trainers.htm",
+        "https://www.bls.gov/ooh/education-training-and-library/special-education-teachers.htm",
+        "https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm"
+      ],
+      "inference": true
+    },
+    {
+      "title": "Business breadth needs objects of decisions, not title prestige",
+      "finding": "Procurement, financial examination, financial risk, compensation and fundraising have different defining decisions. Ask whether the student wants to choose suppliers, examine compliance, manage uncertainty, analyze rewards or ask for mission support.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/business-and-financial/purchasing-managers-buyers-and-purchasing-agents.htm",
+        "https://www.bls.gov/ooh/business-and-financial/financial-examiners.htm",
+        "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
+        "https://www.bls.gov/ooh/business-and-financial/compensation-benefits-and-job-analysis-specialists.htm",
+        "https://www.bls.gov/ooh/business-and-financial/fundraisers.htm"
+      ],
+      "inference": true
+    },
+    {
+      "title": "Writing/design breadth needs mode and purpose contrasts",
+      "finding": "Factual investigation, technical explanation, fictional/general authorship, indoor spatial design and outdoor design can share broad artistic scores while requiring different interests.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/media-and-communication/technical-writers.htm",
+        "https://www.bls.gov/ooh/media-and-communication/reporters-correspondents-and-broadcast-news-analysts.htm",
+        "https://www.bls.gov/ooh/arts-and-design/interior-designers.htm",
+        "https://www.bls.gov/ooh/architecture-and-engineering/landscape-architects.htm"
+      ],
+      "inference": true
+    },
+    {
+      "title": "Route and experience safeguards must survive catalog expansion",
+      "finding": "Technical writing, compensation analysis and workplace learning have related-experience flags in BLS. Landscape architecture has a supervised licensing path. Graduate scientific work can begin with lower-responsibility research or postdoctoral stages. A match can be an interest match before the full role is attainable, but the first-paid-stage budget must use the appropriate stage.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/media-and-communication/technical-writers.htm",
+        "https://www.bls.gov/ooh/business-and-financial/compensation-benefits-and-job-analysis-specialists.htm",
+        "https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm",
+        "https://www.bls.gov/ooh/architecture-and-engineering/landscape-architects.htm",
+        "https://www.bls.gov/ooh/life-physical-and-social-science/biochemists-and-biophysicists.htm"
+      ],
+      "inference": true
+    },
+    {
+      "title": "Do not inflate variety by duplicating subtypes",
+      "finding": "Use one catalog occupation per detailed SOC when work is materially the same, with optional specialization tags. Preserve O*NET-to-BLS crosswalks where detail differs, such as elementary special education. A new title without a distinct task/interest contrast does not add useful coverage.",
+      "sourceURLs": [
+        "https://www.onetonline.org/link/summary/25-2056.00",
+        "https://www.bls.gov/ooh/education-training-and-library/special-education-teachers.htm",
+        "https://www.onetonline.org/link/summary/13-2054.00"
+      ],
+      "inference": true
+    }
+  ],
+  "questionDesignRecommendations": [
+    "Start with several independently selectable objects and purposes: people’s health, communities, living organisms, materials, machines, places, information, money, culture and learning. Do not require a single field to be chosen before seeing cross-field occupations.",
+    "Invite on partial transferable evidence, then distinguish domain-specific learning interest from current skill, terminology familiarity, training willingness, working conditions and independent practice authority.",
+    "Ask two complementary defining activities plus a nearby-role contrast; allow both, neither and need an example. A contrast routes exploration; it is not a forced ranking or an automatic veto.",
+    "Offer a concrete short example for unfamiliar work; ask learning interest again after exposure. Keep explicit disinterest separate from unfamiliarity and missing biography evidence.",
+    "Treat diverse combinations explicitly: health plus teaching, biology plus counseling, art plus spatial reasoning, justice plus rehabilitation, numbers plus regulation.",
+    "Test false positives as well as recall: sports without patient-care interest, loving animals without research/treatment interest, writing without factual verification, liking attractive rooms without spatial/function design, generosity without solicitation interest.",
+    "Use versioned, preregistered question/evidence rules and independent biography-only answers before rerunning. Keep old and new offers, domain confirmation and preparation status visible together.",
+    "Top eligibility should require a defensible combination of broad interest and defining-work support, not the number of duplicated questions or occupational prestige. Do not require every optional specialty or tool as a universal core gate.",
+    "These editorial prompts need readability review, student cognitive interviews, exposure-bias review and outcome validation before claims about accuracy or aptitude; synthetic model replays are regression checks, not validation of real students."
+  ],
+  "waves": [
+    {
+      "wave": 1,
+      "label": "First breadth wave",
+      "priorityBasis": "Distinct missing work domains close to existing fields, with concrete discriminating activities; preparation flags still apply."
+    },
+    {
+      "wave": 2,
+      "label": "Second breadth wave",
+      "priorityBasis": "Graduate, experience-dependent or narrower specialties requiring fuller route budgets and branching before activation."
+    }
+  ],
+  "occupations": [
+    {
+      "id": "health-education",
+      "title": "Health Education Specialists",
+      "soc": "21-1091",
+      "onetSoc": "21-1091.00",
+      "wave": 1,
+      "domain": "Public health / education",
+      "typicalEntryEducation": "Bachelor’s degree; some positions require graduate study",
+      "experiencePrerequisite": "None in BLS typical entry classification; internships can help",
+      "licensingCertification": "Some employers require or prefer professional certification; no universal clinical-practice license inferred",
+      "definingInterests": [
+        "Health communication",
+        "Community prevention",
+        "Teaching and evaluation"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to find out what health information a community needs and create a workshop or resource that helps people use it?",
+        "Would you like to learn to check whether a health education program is helping people and improve it from their feedback?"
+      ],
+      "contrastQuestion": "Which would you rather learn: teach people ways to protect their health, or provide hands-on clinical treatment to an individual patient?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "nursing",
+        "teaching",
+        "epidemiology",
+        "social-work"
+      ],
+      "coverageAdded": "Adds nonclinical health-plus-teaching work, preventing every helping or prevention interest from being routed into nursing or diagnosis.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/community-and-social-service/health-educators.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "occupational-health-safety",
+      "title": "Occupational Health and Safety Specialists",
+      "soc": "19-5011",
+      "onetSoc": "19-5011.00",
+      "wave": 1,
+      "domain": "Workplace safety / applied science",
+      "typicalEntryEducation": "Bachelor’s degree in occupational health/safety or related field; some jobs master’s",
+      "experiencePrerequisite": "No universal prior-work requirement; some employers prefer industry experience",
+      "licensingCertification": "Employer-dependent certification may require education, experience and exam; distinguish specialist from technician",
+      "definingInterests": [
+        "Preventing injury",
+        "Inspecting work systems",
+        "Investigating causes"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to inspect a workplace and find conditions or work habits that could injure people?",
+        "Would you like to learn to investigate why an incident happened and recommend changes that make the work safer?"
+      ],
+      "contrastQuestion": "Which would you rather learn: prevent injuries by changing how a workplace operates, or respond to dangerous situations once an emergency happens?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "environmental-science",
+        "industrial-engineering",
+        "firefighter"
+      ],
+      "coverageAdded": "Captures preventive safety investigation rather than emergency response, environmental pollution research, or production optimization.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/healthcare/occupational-health-and-safety-specialists-and-technicians.htm",
+        "https://www.onetonline.org/link/summary/19-5011.00"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "genetic-counseling",
+      "title": "Genetic Counselors",
+      "soc": "29-9092",
+      "onetSoc": "29-9092.00",
+      "wave": 2,
+      "domain": "Genetics / patient counseling",
+      "typicalEntryEducation": "Master’s in genetic counseling, normally after bachelor’s; supervised clinical rotations",
+      "experiencePrerequisite": "Clinical training is part of preparation; do not invent independent prior employment requirement",
+      "licensingCertification": "Most states license; accredited master’s plus exam for certification; employers may require certification even where not mandated",
+      "definingInterests": [
+        "Human inheritance",
+        "Explaining uncertainty",
+        "Supporting patient decisions"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn how family health history and genetic test results can show a person's chance of an inherited condition?",
+        "Would you like to learn to explain genetic risks and testing choices to a worried person while supporting their own decision?"
+      ],
+      "contrastQuestion": "Which would you rather learn: interpret genetic information with patients and families, or investigate genes through laboratory experiments?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "mental-health-counselor",
+        "physician",
+        "biological-technician"
+      ],
+      "coverageAdded": "Adds a specific science-and-counseling bridge; empathy alone or biology alone should invite exploration but cannot confirm this combined role.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/healthcare/genetic-counselors.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "athletic-training",
+      "title": "Athletic Trainers",
+      "soc": "29-9091",
+      "onetSoc": "29-9091.00",
+      "wave": 1,
+      "domain": "Sports injury / clinical care",
+      "typicalEntryEducation": "Master’s from an accredited athletic training program",
+      "experiencePrerequisite": "Clinical components during preparation; distinguish entry athletic trainer from head trainer",
+      "licensingCertification": "Nearly all states require licensure or certification; qualifying exam and continuing education usually apply",
+      "definingInterests": [
+        "Sports injury prevention",
+        "Clinical assessment",
+        "Rehabilitation"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to recognize and evaluate a sports or activity injury and decide what immediate care is needed?",
+        "Would you like to learn to guide injury rehabilitation and prevention with an athlete and their health care team?"
+      ],
+      "contrastQuestion": "Which would you rather learn: treat and prevent activity-related injuries, or coach people mainly to improve fitness and performance?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "exercise-physiology",
+        "physical-therapy",
+        "emt"
+      ],
+      "coverageAdded": "Captures clinical sports-injury interest missing between exercise physiology, emergency response and broader physical therapy; enjoying sports is insufficient.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/healthcare/athletic-trainers.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "microbiology",
+      "title": "Microbiologists",
+      "soc": "19-1022",
+      "onetSoc": "19-1022.00",
+      "wave": 1,
+      "domain": "Life science / laboratory",
+      "typicalEntryEducation": "Bachelor’s microbiology or related field; some employers prefer master’s/PhD",
+      "experiencePrerequisite": "No related work experience in BLS typical entry classification",
+      "licensingCertification": "No universal license stated in BLS overview; clinical diagnostic roles require their own regulatory review",
+      "definingInterests": [
+        "Microscopic life",
+        "Experimentation",
+        "Lab investigation"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to grow and identify microorganisms to investigate what they do?",
+        "Would you like to learn to design a careful laboratory comparison of how bacteria or fungi respond to different conditions?"
+      ],
+      "contrastQuestion": "Which would you rather learn: study how microscopic organisms behave, or test patient samples mainly to support a clinical diagnosis?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "biological-technician",
+        "chemistry",
+        "food-science"
+      ],
+      "coverageAdded": "Adds scientist-level microbial inquiry distinct from assisting researchers, general chemistry and food-product science.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/microbiologists.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "wildlife-biology",
+      "title": "Zoologists and Wildlife Biologists",
+      "soc": "19-1023",
+      "onetSoc": "19-1023.00",
+      "wave": 1,
+      "domain": "Wildlife / ecology",
+      "typicalEntryEducation": "Bachelor’s entry; master’s may be needed for higher-level work; PhD commonly to lead research",
+      "experiencePrerequisite": "No related work experience in BLS typical entry classification",
+      "licensingCertification": "No general license asserted; permits and field requirements depend on activity",
+      "definingInterests": [
+        "Animal behavior",
+        "Ecological observation",
+        "Population research"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to observe wildlife and record evidence about how animals behave and use their habitat?",
+        "Would you like to learn to compare animal population data and investigate how habitat changes affect survival?"
+      ],
+      "contrastQuestion": "Which would you rather learn: study wild animal populations and habitats, or diagnose and treat an individual animal's illness?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "veterinary",
+        "conservation",
+        "environmental-science"
+      ],
+      "coverageAdded": "Adds animal/ecosystem research without forcing an animal-interested student into veterinary medicine or broad land management.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/zoologists-and-wildlife-biologists.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "soil-plant-science",
+      "title": "Soil and Plant Scientists",
+      "soc": "19-1013",
+      "onetSoc": "19-1013.00",
+      "wave": 1,
+      "domain": "Agricultural / plant science",
+      "typicalEntryEducation": "Bachelor’s typical entry; specialized research may require graduate study",
+      "experiencePrerequisite": "No related work experience in BLS typical entry classification",
+      "licensingCertification": "Some plant/soil work requires state licensure, supervised experience and exam; certification generally not universal",
+      "definingInterests": [
+        "Plant growth",
+        "Soil systems",
+        "Field/lab experiments"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to compare soil, water, or growing conditions to find out why crops and other plants thrive or struggle?",
+        "Would you like to learn to test a growing method and use the results to improve plant health or crop production?"
+      ],
+      "contrastQuestion": "Which would you rather learn: investigate why plants grow differently through experiments, or spend most of the day planting and caring for them hands-on?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "farmworker-crops",
+        "food-science",
+        "conservation"
+      ],
+      "coverageAdded": "Provides a college research path for growing/plant interests; farmwork interest alone should not imply experimental science, but can justify this invitation.",
+      "sourceURLs": [
+        "https://www.onetonline.org/link/summary/19-1013.00",
+        "https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-scientists.htm",
+        "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "animal-science",
+      "title": "Animal Scientists",
+      "soc": "19-1011",
+      "onetSoc": "19-1011.00",
+      "wave": 2,
+      "domain": "Agricultural / animal science",
+      "typicalEntryEducation": "Bachelor’s typical BLS entry; advanced research can require master’s/PhD",
+      "experiencePrerequisite": "No related work experience in BLS typical entry classification",
+      "licensingCertification": "No universal certificate asserted; distinguish this research occupation from veterinary licensure",
+      "definingInterests": [
+        "Animal nutrition",
+        "Growth and reproduction",
+        "Controlled comparisons"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to investigate how feed and living conditions affect farm animals' growth and health?",
+        "Would you like to learn to compare evidence about animal nutrition or reproduction and recommend better husbandry methods?"
+      ],
+      "contrastQuestion": "Which would you rather learn: investigate how groups of farm animals grow and develop, or provide medical treatment to individual animals?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "veterinary",
+        "food-science"
+      ],
+      "coverageAdded": "Adds agricultural animal biology and nutrition research, distinct from veterinary diagnosis and food-product development.",
+      "sourceURLs": [
+        "https://www.onetonline.org/link/summary/19-1011.00",
+        "https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-scientists.htm",
+        "https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "biochemistry",
+      "title": "Biochemists and Biophysicists",
+      "soc": "19-1021",
+      "onetSoc": "19-1021.00",
+      "wave": 2,
+      "domain": "Molecular life science",
+      "typicalEntryEducation": "Doctoral/professional degree is BLS typical classification; some bachelor’s/master’s entry positions exist",
+      "experiencePrerequisite": "Independent R&D commonly PhD; temporary postdoctoral stage common after doctorate",
+      "licensingCertification": "No clinical-practice license implied by research role",
+      "definingInterests": [
+        "Molecular mechanisms",
+        "Living systems",
+        "Experimental research"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to investigate how molecules inside living cells make processes such as growth or disease happen?",
+        "Would you like to learn to design a laboratory experiment that tests how a substance changes a biological process?"
+      ],
+      "contrastQuestion": "Which would you rather learn: investigate chemical processes inside living cells, or study materials and reactions mainly outside living systems?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "chemistry",
+        "biological-technician",
+        "biomedical-engineering"
+      ],
+      "coverageAdded": "Adds molecular biological research between chemistry and medical-device engineering; graduate route and first paid research stage need explicit budgeting.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/biochemists-and-biophysicists.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "hydrology",
+      "title": "Hydrologists",
+      "soc": "19-2043",
+      "onetSoc": "19-2043.00",
+      "wave": 2,
+      "domain": "Water / earth science",
+      "typicalEntryEducation": "Bachelor’s hydrology/geology or related field; some employers prefer master’s",
+      "experiencePrerequisite": "No related work experience in BLS typical entry classification",
+      "licensingCertification": "No universal credential asserted from OOH; local practice requirements must be verified",
+      "definingInterests": [
+        "Water movement",
+        "Measurement and models",
+        "Flood/drought inquiry"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to measure streams or groundwater and investigate how water moves through a place?",
+        "Would you like to learn to use rainfall and water data to estimate flood risk or future water supply?"
+      ],
+      "contrastQuestion": "Which would you rather learn: study how water moves and changes, or design and construct the pipes, dams, or drainage systems that control it?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "geoscience",
+        "environmental-science",
+        "civil-engineering"
+      ],
+      "coverageAdded": "Adds water-cycle science, distinguishing scientific investigation from pollution generalism and infrastructure design.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/hydrologists.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "cartography",
+      "title": "Cartographers and Photogrammetrists",
+      "soc": "17-1021",
+      "onetSoc": "17-1021.00",
+      "wave": 1,
+      "domain": "Geospatial / visual data",
+      "typicalEntryEducation": "Bachelor’s in cartography, geography, geomatics or related field",
+      "experiencePrerequisite": "No related work experience in BLS typical entry classification; GIS internships helpful",
+      "licensingCertification": "Licensing depends on duties/state/employer; certification usually optional",
+      "definingInterests": [
+        "Spatial patterns",
+        "Map-making",
+        "Geographic evidence"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to turn location data and aerial images into an accurate map people can use?",
+        "Would you like to learn to compare map layers to reveal patterns such as access to services, flooding, or changes in land use?"
+      ],
+      "contrastQuestion": "Which would you rather learn: analyze and display geographic information, or decide the policies and development plans a community should adopt?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "data-science",
+        "graphic-design",
+        "urban-planning"
+      ],
+      "coverageAdded": "Adds geographic analysis and mapping at the intersection of data, visual communication and environment without assuming urban-policy interest.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/cartographers-and-photogrammetrists.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "financial-examination",
+      "title": "Financial Examiners",
+      "soc": "13-2061",
+      "onetSoc": "13-2061.00",
+      "wave": 1,
+      "domain": "Business / regulation",
+      "typicalEntryEducation": "Bachelor’s including accounting coursework",
+      "experiencePrerequisite": "Entry examiners train under seniors; long-term on-job training, no prior related occupation in BLS typical classification",
+      "licensingCertification": "Professional credentials may support advancement; do not impose CPA as universal entry requirement",
+      "definingInterests": [
+        "Financial evidence",
+        "Consumer fairness",
+        "Regulatory investigation"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to examine a bank's records to check whether it is financially sound and following lending rules?",
+        "Would you like to learn to document a financial compliance problem and explain what needs to change?"
+      ],
+      "contrastQuestion": "Which would you rather learn: check whether financial institutions follow rules and protect customers, or recommend investments to improve returns?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "accounting",
+        "financial-analysis",
+        "law"
+      ],
+      "coverageAdded": "Adds regulatory/consumer financial investigation; it is not another investment-advice title or an automatic law match.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/business-and-financial/financial-examiners.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "financial-risk",
+      "title": "Financial Risk Specialists",
+      "soc": "13-2054",
+      "onetSoc": "13-2054.00",
+      "wave": 2,
+      "domain": "Business / quantitative risk",
+      "typicalEntryEducation": "Bachelor’s typical; some employers prefer master’s",
+      "experiencePrerequisite": "No related work experience in BLS typical entry classification",
+      "licensingCertification": "Optional professional credentials are distinct from licenses for particular regulated securities activities",
+      "definingInterests": [
+        "Uncertainty",
+        "Financial models",
+        "Loss prevention"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to use data to estimate how much a business could lose if markets change or borrowers cannot repay?",
+        "Would you like to learn to compare ways of limiting financial losses and explain the trade-offs to decision makers?"
+      ],
+      "contrastQuestion": "Which would you rather learn: estimate and limit financial losses, or choose investments mainly for their potential return?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "financial-analysis",
+        "statistics",
+        "accounting"
+      ],
+      "coverageAdded": "A distinct SOC focused on downside exposure and controls, rather than investment selection. Avoid duplicating existing financial-analysis offers under two names.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm",
+        "https://www.onetonline.org/link/summary/13-2054.00"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "purchasing-agent",
+      "title": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "soc": "13-1023",
+      "onetSoc": "13-1023.00",
+      "wave": 1,
+      "domain": "Business / procurement",
+      "typicalEntryEducation": "Bachelor’s typical; some employers accept high school preparation",
+      "experiencePrerequisite": "Moderate on-job training; managerial purchasing roles require prior related work and are separate",
+      "licensingCertification": "Certification may be helpful; do not turn voluntary credentials into a universal legal gate",
+      "definingInterests": [
+        "Comparing value",
+        "Supplier investigation",
+        "Negotiation"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to compare suppliers on quality, reliability, and price to decide what an organization should buy?",
+        "Would you like to learn to negotiate an order and check that the supplier delivers what was agreed?"
+      ],
+      "contrastQuestion": "Which would you rather learn: select and negotiate with suppliers for an organization, or persuade customers to buy that organization's products?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "logistics",
+        "retail-sales",
+        "project-management"
+      ],
+      "coverageAdded": "Adds buyer-side commercial decision making, separate from moving goods, selling them or coordinating an entire project.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/business-and-financial/purchasing-managers-buyers-and-purchasing-agents.htm"
+      ],
+      "implementationNote": "BLS groups buyers and purchasing agents as 13-1020 for some wage/entry tables; use exact O*NET 13-1023.00 for non-retail/non-farm purchasing. Do not attach manager wages."
+    },
+    {
+      "id": "compensation-analysis",
+      "title": "Compensation, Benefits, and Job Analysis Specialists",
+      "soc": "13-1141",
+      "onetSoc": "13-1141.00",
+      "wave": 2,
+      "domain": "Business / people analytics",
+      "typicalEntryEducation": "Bachelor’s plus related work experience",
+      "experiencePrerequisite": "BLS less than five years of related experience; requires an earlier paid HR/business stage in planning",
+      "licensingCertification": "Professional certification may be useful; no universal practice license asserted",
+      "definingInterests": [
+        "Pay fairness",
+        "Job comparison",
+        "People-data analysis"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to compare job responsibilities and pay data to work out fair and competitive compensation?",
+        "Would you like to learn to compare employee benefit plans and explain their costs and value to an organization?"
+      ],
+      "contrastQuestion": "Which would you rather learn: analyze jobs, pay, and benefit systems, or spend most of your time recruiting and interviewing applicants?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "human-resources",
+        "accounting",
+        "data-science"
+      ],
+      "coverageAdded": "Adds quantitative reward/job evaluation work beyond the catalog's broad recruiting-oriented HR role; relevant as a longer route with experience.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/business-and-financial/compensation-benefits-and-job-analysis-specialists.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "workplace-learning",
+      "title": "Training and Development Specialists",
+      "soc": "13-1151",
+      "onetSoc": "13-1151.00",
+      "wave": 2,
+      "domain": "Adult / workplace education",
+      "typicalEntryEducation": "Bachelor’s plus relevant work experience typically",
+      "experiencePrerequisite": "BLS less than five years related work experience; experience may come from teaching, HR or a field being taught",
+      "licensingCertification": "Certification voluntary/employer-specific; not public-school teacher licensure",
+      "definingInterests": [
+        "Adult learning",
+        "Instruction design",
+        "Facilitation and evaluation"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to find out what employees need to learn and design a useful practice activity or short course?",
+        "Would you like to learn to lead workplace training and improve it after checking whether employees can use the new skill?"
+      ],
+      "contrastQuestion": "Which would you rather learn: help adults learn skills they use at work, or teach school-age students an academic curriculum?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "teaching",
+        "human-resources",
+        "school-counselor"
+      ],
+      "coverageAdded": "Adds adult learning and practical workplace instruction; teaching interests need not imply classroom school teaching.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "fundraising",
+      "title": "Fundraisers",
+      "soc": "13-1131",
+      "onetSoc": "13-1131.00",
+      "wave": 1,
+      "domain": "Nonprofit / persuasion",
+      "typicalEntryEducation": "Bachelor’s typical entry",
+      "experiencePrerequisite": "No related occupation in BLS typical classification; nonprofit internship/volunteering preferred by some employers",
+      "licensingCertification": "No universal fundraiser certificate asserted; organizational solicitation rules require separate review",
+      "definingInterests": [
+        "Cause advocacy",
+        "Relationship building",
+        "Asking for support"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to explain a cause to potential donors and ask them to contribute money or other support?",
+        "Would you like to learn to plan a fundraising campaign and use its results to improve the next one?"
+      ],
+      "contrastQuestion": "Which would you rather learn: persuade donors to fund an organization's mission, or provide the organization's direct services to people who need help?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "public-relations",
+        "social-work",
+        "retail-sales"
+      ],
+      "coverageAdded": "Adds mission-based resource development, avoiding treating volunteering as automatic social-work or generic sales interest.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/business-and-financial/fundraisers.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "technical-writing",
+      "title": "Technical Writers",
+      "soc": "27-3042",
+      "onetSoc": "27-3042.00",
+      "wave": 1,
+      "domain": "Writing / technical communication",
+      "typicalEntryEducation": "Bachelor’s typical; subject knowledge or experience valuable",
+      "experiencePrerequisite": "BLS related experience category less than five years; short on-job training; show realistic preparation stage",
+      "licensingCertification": "Professional certification is not a universal legal requirement",
+      "definingInterests": [
+        "Explaining complex systems",
+        "User needs",
+        "Precise documentation"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn how a technical product or process works so you can write clear instructions for its users?",
+        "Would you like to learn to test instructions with users and revise confusing steps, diagrams, or explanations?"
+      ],
+      "contrastQuestion": "Which would you rather learn: explain accurately how a real product or process works, or invent characters and stories for readers?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "writing",
+        "software",
+        "graphic-design"
+      ],
+      "coverageAdded": "Adds explanatory technical communication rather than fictional/general authorship; preserves a writing-plus-science/technology path.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/media-and-communication/technical-writers.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "journalism",
+      "title": "News Analysts, Reporters, and Journalists",
+      "soc": "27-3023",
+      "onetSoc": "27-3023.00",
+      "wave": 1,
+      "domain": "Media / investigation",
+      "typicalEntryEducation": "Bachelor’s typical; student media and internships helpful",
+      "experiencePrerequisite": "No related work experience in BLS typical entry classification; portfolio/practical reporting experience helps",
+      "licensingCertification": "No general journalist practice license inferred; ordinary access/press credentials are not entry degrees",
+      "definingInterests": [
+        "Public-interest inquiry",
+        "Interviews",
+        "Verification and reporting"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to interview people and check records to find out what really happened in a newsworthy event?",
+        "Would you like to learn to turn verified facts and different viewpoints into a clear report for the public?"
+      ],
+      "contrastQuestion": "Which would you rather learn: independently investigate and report an issue, or communicate a favorable message on behalf of an organization?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "writing",
+        "public-relations",
+        "photographer"
+      ],
+      "coverageAdded": "Separates factual public-interest investigation from creative writing and organizational advocacy; employment outlook remains separate from interest.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/media-and-communication/reporters-correspondents-and-broadcast-news-analysts.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "interior-design",
+      "title": "Interior Designers",
+      "soc": "27-1025",
+      "onetSoc": "27-1025.00",
+      "wave": 1,
+      "domain": "Design / indoor environments",
+      "typicalEntryEducation": "Bachelor’s typical; interior design/drawing/CAD study matters",
+      "experiencePrerequisite": "No related work experience in BLS typical entry classification; some registered/title routes need experience",
+      "licensingCertification": "Practice and title laws vary by state; some examination routes require degree and experience",
+      "definingInterests": [
+        "Spatial use",
+        "Material/visual choices",
+        "Accessibility and client needs"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to plan indoor spaces around how people move, work, and live in them?",
+        "Would you like to learn to compare layouts, lighting, and materials so an interior is useful, accessible, and visually coherent?"
+      ],
+      "contrastQuestion": "Which would you rather learn: design the arrangement and experience of indoor spaces, or design the whole building and its structure?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "architecture",
+        "graphic-design",
+        "industrial-design"
+      ],
+      "coverageAdded": "Adds functional interior/spatial design, which broad graphic/product design and building architecture do not substitute for.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/arts-and-design/interior-designers.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "landscape-architecture",
+      "title": "Landscape Architects",
+      "soc": "17-1012",
+      "onetSoc": "17-1012.00",
+      "wave": 2,
+      "domain": "Design / outdoor environments",
+      "typicalEntryEducation": "Accredited bachelor’s or relevant master’s landscape architecture route",
+      "experiencePrerequisite": "Supervised internship/experience typically before independent licensure; paid supervised stage needs its own budget",
+      "licensingCertification": "All states license; degree, internship and qualifying exam generally required",
+      "definingInterests": [
+        "Outdoor spatial design",
+        "Site systems",
+        "People/place/ecology"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to design a park or outdoor space around how people use it and the conditions of the site?",
+        "Would you like to learn to compare paths, planting, drainage, and materials as parts of one workable outdoor design?"
+      ],
+      "contrastQuestion": "Which would you rather learn: plan and design outdoor spaces, or maintain plants and grounds through daily hands-on work?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "landscaping-worker",
+        "architecture",
+        "urban-planning",
+        "conservation"
+      ],
+      "coverageAdded": "Adds designed outdoor environments; do not treat landscaping experience as proof of licensed design interest without this contrast.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/landscape-architects.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "special-education-elementary",
+      "title": "Special Education Teachers, Elementary School",
+      "soc": "25-2052",
+      "onetSoc": "25-2056.00",
+      "wave": 1,
+      "domain": "Education / individualized learning",
+      "typicalEntryEducation": "Bachelor’s; public schools require appropriate state certification/licensure",
+      "experiencePrerequisite": "Student teaching/preparation requirements vary; no related occupation in BLS typical entry classification",
+      "licensingCertification": "Public-school state license/certification; verify exact special-education endorsement and route",
+      "definingInterests": [
+        "Accessible teaching",
+        "Individual learning needs",
+        "Progress-sensitive adaptation"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to adapt a lesson for an elementary student whose disability changes how they learn or communicate?",
+        "Would you like to learn to set individual learning goals with a student's support team and adjust teaching as you track progress?"
+      ],
+      "contrastQuestion": "Which would you rather learn: adapt academic teaching to students' disabilities, or assess and treat a medical or psychological condition?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "elementary-teacher",
+        "school-psychology",
+        "occupational-therapy"
+      ],
+      "coverageAdded": "Adds disability-responsive instruction distinct from general class teaching, psychological evaluation and clinical rehabilitation.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/education-training-and-library/special-education-teachers.htm",
+        "https://www.onetonline.org/link/summary/25-2056.00"
+      ],
+      "implementationNote": "BLS wage/projection SOC 25-2052 groups kindergarten and elementary; current detailed O*NET code 25-2056.00 is elementary only. Preserve mapping, do not invent independent elementary-only BLS wage."
+    },
+    {
+      "id": "probation-rehabilitation",
+      "title": "Probation Officers and Correctional Treatment Specialists",
+      "soc": "21-1092",
+      "onetSoc": "21-1092.00",
+      "wave": 2,
+      "domain": "Justice / rehabilitation",
+      "typicalEntryEducation": "Bachelor’s typical",
+      "experiencePrerequisite": "Government training and possible trainee period up to one year; entry requirements vary by jurisdiction",
+      "licensingCertification": "Possible certification/competency tests, background and other eligibility checks; not the same as police academy route",
+      "definingInterests": [
+        "Reentry support",
+        "Legal accountability",
+        "Case investigation"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to work with someone on probation or leaving custody to plan education, treatment, or employment support?",
+        "Would you like to learn to assess a person's progress and accurately report whether they are meeting court or release conditions?"
+      ],
+      "contrastQuestion": "Which would you rather learn: combine rehabilitation support with legal supervision, or provide voluntary support without enforcing court conditions?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "social-work",
+        "police",
+        "mental-health-counselor"
+      ],
+      "coverageAdded": "Adds justice rehabilitation with explicit supervision responsibility, beyond policing or voluntary helping.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/community-and-social-service/probation-officers-and-correctional-treatment-specialists.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    },
+    {
+      "id": "anthropology-archaeology",
+      "title": "Anthropologists and Archeologists",
+      "soc": "19-3091",
+      "onetSoc": "19-3091.00",
+      "wave": 2,
+      "domain": "Social science / human culture",
+      "typicalEntryEducation": "Master’s typical; some positions PhD; some bachelor’s research-assistant/field-tech starts",
+      "experiencePrerequisite": "Field training/internships preferred by employers; distinguish technician entry from independent research",
+      "licensingCertification": "No universal license inferred; permits, ethics and heritage rules depend on field activity",
+      "definingInterests": [
+        "Human cultures and history",
+        "Field evidence",
+        "Interpretation across communities"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to investigate how a community lives or how a past society worked using interviews, observations, or material evidence?",
+        "Would you like to learn to compare cultural or historical evidence and explain what it suggests while considering other interpretations?"
+      ],
+      "contrastQuestion": "Which would you rather learn: research how human cultures develop and differ, or provide individual counseling to help someone with a personal problem?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "social-research",
+        "librarian",
+        "school-psychology"
+      ],
+      "coverageAdded": "Adds human-cultural and archaeological inquiry rather than assistant-level generic social research or individual psychological support.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/anthropologists-and-archeologists.htm"
+      ],
+      "implementationNote": "Combined occupation contains varied field methods; use a later optional contrast between living-community research and material remains rather than require every candidate to want excavation."
+    },
+    {
+      "id": "museum-curation",
+      "title": "Curators",
+      "soc": "25-4012",
+      "onetSoc": "25-4012.00",
+      "wave": 2,
+      "domain": "Arts / history / collections",
+      "typicalEntryEducation": "Master’s in related field typical; some small-museum roles accept bachelor’s",
+      "experiencePrerequisite": "Internship or volunteering helpful; distinguish curator from museum technician and senior museum director",
+      "licensingCertification": "No universal curator license asserted; handling/provenance standards are work responsibilities",
+      "definingInterests": [
+        "Collections research",
+        "Cultural interpretation",
+        "Public exhibitions"
+      ],
+      "learnInterestQuestions": [
+        "Would you like to learn to investigate the history and meaning of objects or artwork in a museum collection?",
+        "Would you like to learn to select objects and organize an exhibition that helps visitors understand a well-supported theme?"
+      ],
+      "contrastQuestion": "Which would you rather learn: research and interpret an existing collection, or create new artwork of your own?",
+      "contrastResponseOptions": [
+        "First activity",
+        "Second activity",
+        "Both",
+        "Neither",
+        "Need an example"
+      ],
+      "nearbyExistingProfessionIds": [
+        "librarian",
+        "writing",
+        "graphic-design"
+      ],
+      "coverageAdded": "Adds history/art/science collections and evidence-based public interpretation, not generic artistic creation or library information service.",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/education-training-and-library/curators-museum-technicians-and-conservators.htm"
+      ],
+      "implementationNote": "New editorial questions are draft exploration items, not validated aptitude measures. Interest is separate from preparation and affordability."
+    }
+  ]
+}

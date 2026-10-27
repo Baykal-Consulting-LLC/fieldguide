@@ -1,0 +1,16 @@
+{
+  "version": "0.103",
+  "arms": [
+    "fixed",
+    "hybrid2",
+    "hybrid3"
+  ],
+  "selection": "Development758 only; highest Top+degree then fewer losses; best hybrid frozen before holds",
+  "initial": "60 fixed official answers; no accumulated follow-ups",
+  "cap": 24,
+  "strongLead": "Direct linked official activity rated Like4 or StronglyLike5 retains current opening block; otherwise one activity-first probe",
+  "unknownCap": "Bounded detour after2 or3 consecutive unfamiliar answers in the same field: one existing activity in a different field, then ordinary selection resumes. Affirmative career-specific evidence protects completion. No permanent field exclusion.",
+  "architecture": "Both comparison arms use narrow building-layout preference and separate building-regulation-design preference; absent stays unknown; no profiles populated with new facts",
+  "liveChanged": false,
+  "rejectedRound": "Hard field-wide caps lost supported cases on development; retained under rejected-cap-round1. No holdout evaluation preceded this revision."
+}

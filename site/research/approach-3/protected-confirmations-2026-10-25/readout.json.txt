@@ -1,0 +1,634 @@
+[
+  {
+    "label": "First 1,000 \u00b7 all splits",
+    "baseline": {
+      "models": 1000,
+      "strong": 634,
+      "degreeFirst3": 499,
+      "degreeAny": 501,
+      "noncollegeAny": 322,
+      "distinctCareers": 51,
+      "distinctCollegeCareers": 36,
+      "asked": 24000,
+      "unknown": 12774,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 1225,
+      "collegeConnections": 817,
+      "priority": {
+        "mean": 3.44,
+        "median": 2.0,
+        "min": 0,
+        "max": 25
+      },
+      "unbound": 0
+    },
+    "failed": {
+      "models": 1000,
+      "strong": 513,
+      "degreeFirst3": 369,
+      "degreeAny": 371,
+      "noncollegeAny": 275,
+      "distinctCareers": 53,
+      "distinctCollegeCareers": 37,
+      "asked": 24000,
+      "unknown": 14533,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 913,
+      "collegeConnections": 568,
+      "priority": {
+        "mean": 3.27,
+        "median": 2.0,
+        "min": 0,
+        "max": 26
+      },
+      "unbound": 0
+    },
+    "protected": {
+      "models": 1000,
+      "strong": 634,
+      "degreeFirst3": 499,
+      "degreeAny": 501,
+      "noncollegeAny": 321,
+      "distinctCareers": 51,
+      "distinctCollegeCareers": 36,
+      "asked": 24000,
+      "unknown": 12778,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 1225,
+      "collegeConnections": 818,
+      "priority": {
+        "mean": 3.44,
+        "median": 2.0,
+        "min": 0,
+        "max": 25
+      },
+      "unbound": 0
+    },
+    "versusCurrent": {
+      "gainedStrong": 0,
+      "lostStrong": 0,
+      "gainedDegreeFirst3": 0,
+      "lostDegreeFirst3": 0,
+      "gainedDegreeAny": 0,
+      "lostDegreeAny": 0
+    },
+    "versusFailed": {
+      "gainedStrong": 129,
+      "lostStrong": 8,
+      "gainedDegreeFirst3": 136,
+      "lostDegreeFirst3": 6,
+      "gainedDegreeAny": 135,
+      "lostDegreeAny": 5
+    },
+    "priorCollegeLosses": 270,
+    "recoveredCollegeConnections": 270,
+    "stillMissedCollegeConnections": 0,
+    "episodes": {
+      "no-new-positive-evidence": 5475,
+      "confirmed": 1086,
+      "budget-ended": 2,
+      "contrary": 3
+    }
+  },
+  {
+    "label": "Development",
+    "baseline": {
+      "models": 758,
+      "strong": 482,
+      "degreeFirst3": 375,
+      "degreeAny": 377,
+      "noncollegeAny": 244,
+      "distinctCareers": 49,
+      "distinctCollegeCareers": 35,
+      "asked": 18192,
+      "unknown": 9636,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 938,
+      "collegeConnections": 625,
+      "priority": {
+        "mean": 3.44,
+        "median": 2.0,
+        "min": 0,
+        "max": 25
+      },
+      "unbound": 0
+    },
+    "failed": {
+      "models": 758,
+      "strong": 388,
+      "degreeFirst3": 285,
+      "degreeAny": 287,
+      "noncollegeAny": 204,
+      "distinctCareers": 50,
+      "distinctCollegeCareers": 35,
+      "asked": 18192,
+      "unknown": 10935,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 712,
+      "collegeConnections": 448,
+      "priority": {
+        "mean": 3.28,
+        "median": 2.0,
+        "min": 0,
+        "max": 26
+      },
+      "unbound": 0
+    },
+    "protected": {
+      "models": 758,
+      "strong": 482,
+      "degreeFirst3": 375,
+      "degreeAny": 377,
+      "noncollegeAny": 243,
+      "distinctCareers": 49,
+      "distinctCollegeCareers": 35,
+      "asked": 18192,
+      "unknown": 9639,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 938,
+      "collegeConnections": 626,
+      "priority": {
+        "mean": 3.44,
+        "median": 2.0,
+        "min": 0,
+        "max": 25
+      },
+      "unbound": 0
+    },
+    "versusCurrent": {
+      "gainedStrong": 0,
+      "lostStrong": 0,
+      "gainedDegreeFirst3": 0,
+      "lostDegreeFirst3": 0,
+      "gainedDegreeAny": 0,
+      "lostDegreeAny": 0
+    },
+    "versusFailed": {
+      "gainedStrong": 98,
+      "lostStrong": 4,
+      "gainedDegreeFirst3": 95,
+      "lostDegreeFirst3": 5,
+      "gainedDegreeAny": 94,
+      "lostDegreeAny": 4
+    },
+    "priorCollegeLosses": 193,
+    "recoveredCollegeConnections": 193,
+    "stillMissedCollegeConnections": 0,
+    "episodes": {
+      "no-new-positive-evidence": 4164,
+      "confirmed": 835,
+      "budget-ended": 1,
+      "contrary": 1
+    }
+  },
+  {
+    "label": "Original holdout",
+    "baseline": {
+      "models": 30,
+      "strong": 2,
+      "degreeFirst3": 1,
+      "degreeAny": 1,
+      "noncollegeAny": 1,
+      "distinctCareers": 2,
+      "distinctCollegeCareers": 1,
+      "asked": 720,
+      "unknown": 637,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 2,
+      "collegeConnections": 1,
+      "priority": {
+        "mean": 0.57,
+        "median": 0.0,
+        "min": 0,
+        "max": 4
+      },
+      "unbound": 0
+    },
+    "failed": {
+      "models": 30,
+      "strong": 3,
+      "degreeFirst3": 2,
+      "degreeAny": 2,
+      "noncollegeAny": 1,
+      "distinctCareers": 3,
+      "distinctCollegeCareers": 2,
+      "asked": 720,
+      "unknown": 654,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 3,
+      "collegeConnections": 2,
+      "priority": {
+        "mean": 0.57,
+        "median": 0.0,
+        "min": 0,
+        "max": 4
+      },
+      "unbound": 0
+    },
+    "protected": {
+      "models": 30,
+      "strong": 2,
+      "degreeFirst3": 1,
+      "degreeAny": 1,
+      "noncollegeAny": 1,
+      "distinctCareers": 2,
+      "distinctCollegeCareers": 1,
+      "asked": 720,
+      "unknown": 637,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 2,
+      "collegeConnections": 1,
+      "priority": {
+        "mean": 0.57,
+        "median": 0.0,
+        "min": 0,
+        "max": 4
+      },
+      "unbound": 0
+    },
+    "versusCurrent": {
+      "gainedStrong": 0,
+      "lostStrong": 0,
+      "gainedDegreeFirst3": 0,
+      "lostDegreeFirst3": 0,
+      "gainedDegreeAny": 0,
+      "lostDegreeAny": 0
+    },
+    "versusFailed": {
+      "gainedStrong": 0,
+      "lostStrong": 1,
+      "gainedDegreeFirst3": 0,
+      "lostDegreeFirst3": 1,
+      "gainedDegreeAny": 0,
+      "lostDegreeAny": 1
+    },
+    "priorCollegeLosses": 0,
+    "recoveredCollegeConnections": 0,
+    "stillMissedCollegeConnections": 0,
+    "episodes": {
+      "no-new-positive-evidence": 42,
+      "confirmed": 1
+    }
+  },
+  {
+    "label": "Fresh holdout",
+    "baseline": {
+      "models": 12,
+      "strong": 2,
+      "degreeFirst3": 2,
+      "degreeAny": 2,
+      "noncollegeAny": 0,
+      "distinctCareers": 1,
+      "distinctCollegeCareers": 1,
+      "asked": 288,
+      "unknown": 268,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 2,
+      "collegeConnections": 2,
+      "priority": {
+        "mean": 0.58,
+        "median": 0.0,
+        "min": 0,
+        "max": 3
+      },
+      "unbound": 0
+    },
+    "failed": {
+      "models": 12,
+      "strong": 2,
+      "degreeFirst3": 2,
+      "degreeAny": 2,
+      "noncollegeAny": 0,
+      "distinctCareers": 1,
+      "distinctCollegeCareers": 1,
+      "asked": 288,
+      "unknown": 269,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 2,
+      "collegeConnections": 2,
+      "priority": {
+        "mean": 0.42,
+        "median": 0.0,
+        "min": 0,
+        "max": 2
+      },
+      "unbound": 0
+    },
+    "protected": {
+      "models": 12,
+      "strong": 2,
+      "degreeFirst3": 2,
+      "degreeAny": 2,
+      "noncollegeAny": 0,
+      "distinctCareers": 1,
+      "distinctCollegeCareers": 1,
+      "asked": 288,
+      "unknown": 268,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 2,
+      "collegeConnections": 2,
+      "priority": {
+        "mean": 0.58,
+        "median": 0.0,
+        "min": 0,
+        "max": 3
+      },
+      "unbound": 0
+    },
+    "versusCurrent": {
+      "gainedStrong": 0,
+      "lostStrong": 0,
+      "gainedDegreeFirst3": 0,
+      "lostDegreeFirst3": 0,
+      "gainedDegreeAny": 0,
+      "lostDegreeAny": 0
+    },
+    "versusFailed": {
+      "gainedStrong": 0,
+      "lostStrong": 0,
+      "gainedDegreeFirst3": 0,
+      "lostDegreeFirst3": 0,
+      "gainedDegreeAny": 0,
+      "lostDegreeAny": 0
+    },
+    "priorCollegeLosses": 0,
+    "recoveredCollegeConnections": 0,
+    "stillMissedCollegeConnections": 0,
+    "episodes": {
+      "no-new-positive-evidence": 11,
+      "confirmed": 2
+    }
+  },
+  {
+    "label": "Expansion holdout",
+    "baseline": {
+      "models": 200,
+      "strong": 148,
+      "degreeFirst3": 121,
+      "degreeAny": 121,
+      "noncollegeAny": 77,
+      "distinctCareers": 45,
+      "distinctCollegeCareers": 32,
+      "asked": 4800,
+      "unknown": 2233,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 283,
+      "collegeConnections": 189,
+      "priority": {
+        "mean": 4.01,
+        "median": 2.5,
+        "min": 0,
+        "max": 24
+      },
+      "unbound": 0
+    },
+    "failed": {
+      "models": 200,
+      "strong": 120,
+      "degreeFirst3": 80,
+      "degreeAny": 80,
+      "noncollegeAny": 70,
+      "distinctCareers": 41,
+      "distinctCollegeCareers": 29,
+      "asked": 4800,
+      "unknown": 2675,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 196,
+      "collegeConnections": 116,
+      "priority": {
+        "mean": 3.81,
+        "median": 2.0,
+        "min": 0,
+        "max": 23
+      },
+      "unbound": 0
+    },
+    "protected": {
+      "models": 200,
+      "strong": 148,
+      "degreeFirst3": 121,
+      "degreeAny": 121,
+      "noncollegeAny": 77,
+      "distinctCareers": 45,
+      "distinctCollegeCareers": 32,
+      "asked": 4800,
+      "unknown": 2234,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 283,
+      "collegeConnections": 189,
+      "priority": {
+        "mean": 4.01,
+        "median": 2.5,
+        "min": 0,
+        "max": 24
+      },
+      "unbound": 0
+    },
+    "versusCurrent": {
+      "gainedStrong": 0,
+      "lostStrong": 0,
+      "gainedDegreeFirst3": 0,
+      "lostDegreeFirst3": 0,
+      "gainedDegreeAny": 0,
+      "lostDegreeAny": 0
+    },
+    "versusFailed": {
+      "gainedStrong": 31,
+      "lostStrong": 3,
+      "gainedDegreeFirst3": 41,
+      "lostDegreeFirst3": 0,
+      "gainedDegreeAny": 41,
+      "lostDegreeAny": 0
+    },
+    "priorCollegeLosses": 77,
+    "recoveredCollegeConnections": 77,
+    "stillMissedCollegeConnections": 0,
+    "episodes": {
+      "no-new-positive-evidence": 1258,
+      "confirmed": 248,
+      "budget-ended": 1,
+      "contrary": 2
+    }
+  },
+  {
+    "label": "Grok evaluation",
+    "baseline": {
+      "models": 1000,
+      "strong": 684,
+      "degreeFirst3": 518,
+      "degreeAny": 518,
+      "noncollegeAny": 243,
+      "distinctCareers": 37,
+      "distinctCollegeCareers": 24,
+      "asked": 24000,
+      "unknown": 14985,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 1084,
+      "collegeConnections": 786,
+      "priority": {
+        "mean": 5.44,
+        "median": 4.0,
+        "min": 0,
+        "max": 24
+      },
+      "unbound": 0
+    },
+    "failed": {
+      "models": 1000,
+      "strong": 600,
+      "degreeFirst3": 422,
+      "degreeAny": 422,
+      "noncollegeAny": 209,
+      "distinctCareers": 38,
+      "distinctCollegeCareers": 24,
+      "asked": 24000,
+      "unknown": 15686,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 913,
+      "collegeConnections": 663,
+      "priority": {
+        "mean": 5.04,
+        "median": 4.0,
+        "min": 0,
+        "max": 27
+      },
+      "unbound": 0
+    },
+    "protected": {
+      "models": 1000,
+      "strong": 684,
+      "degreeFirst3": 518,
+      "degreeAny": 518,
+      "noncollegeAny": 243,
+      "distinctCareers": 37,
+      "distinctCollegeCareers": 24,
+      "asked": 24000,
+      "unknown": 14987,
+      "questionCounts": {
+        "mean": 24,
+        "median": 24.0,
+        "min": 24,
+        "max": 24
+      },
+      "strongConnections": 1084,
+      "collegeConnections": 786,
+      "priority": {
+        "mean": 5.44,
+        "median": 4.0,
+        "min": 0,
+        "max": 24
+      },
+      "unbound": 0
+    },
+    "versusCurrent": {
+      "gainedStrong": 0,
+      "lostStrong": 0,
+      "gainedDegreeFirst3": 0,
+      "lostDegreeFirst3": 0,
+      "gainedDegreeAny": 0,
+      "lostDegreeAny": 0
+    },
+    "versusFailed": {
+      "gainedStrong": 86,
+      "lostStrong": 2,
+      "gainedDegreeFirst3": 97,
+      "lostDegreeFirst3": 1,
+      "gainedDegreeAny": 97,
+      "lostDegreeAny": 1
+    },
+    "priorCollegeLosses": 151,
+    "recoveredCollegeConnections": 151,
+    "stillMissedCollegeConnections": 0,
+    "episodes": {
+      "confirmed": 1048,
+      "no-new-positive-evidence": 3967,
+      "budget-ended": 1
+    }
+  }
+]
+Case counts {'recovered': 421, 'new-gain': 1, 'noncollege-loss': 1}

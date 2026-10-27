@@ -1,0 +1,518 @@
+{
+  "checkedAt": "2026-10-18T16:41:05.401Z",
+  "scope": "One fictional medicine student completed the UI in an isolated browser copy. Phone-size viewport QA, not a physical-device or psychometric study.",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 320,
+      "height": 780
+    }
+  ],
+  "lifestyleSteps": [
+    {
+      "stage": "home",
+      "next": "How would you like to get around?",
+      "selected": 0
+    },
+    {
+      "stage": "transport",
+      "next": "What is your food-at-home style?",
+      "selected": 0
+    },
+    {
+      "stage": "groceries",
+      "next": "How many dinners out would you like each week?",
+      "selected": 0
+    },
+    {
+      "stage": "dining",
+      "next": "What kind of travel would you like?",
+      "selected": 0
+    },
+    {
+      "stage": "travel",
+      "next": "What entertainment would you enjoy?",
+      "selected": 0
+    },
+    {
+      "stage": "entertainment",
+      "next": "How would you spend time on hobbies and recreation?",
+      "selected": 0
+    },
+    {
+      "stage": "recreation",
+      "next": "What feels like your personal style?",
+      "selected": 0
+    },
+    {
+      "stage": "clothing",
+      "next": "How much room would you like for future goals?",
+      "selected": 0
+    },
+    {
+      "stage": "saving",
+      "next": "Here’s how your choices add up.",
+      "selected": 0
+    }
+  ],
+  "automaticAndContextAnswers": [
+    {
+      "id": "onet-sf-01",
+      "next": "Lay brick or tile"
+    },
+    {
+      "id": "onet-sf-02",
+      "next": "Develop a new medicine"
+    },
+    {
+      "id": "onet-sf-03",
+      "next": "Study ways to reduce water pollution"
+    },
+    {
+      "id": "onet-sf-04",
+      "next": "Write books or plays"
+    },
+    {
+      "id": "onet-sf-05",
+      "next": "Play a musical instrument"
+    },
+    {
+      "id": "onet-sf-06",
+      "next": "Teach an individual an exercise routine"
+    },
+    {
+      "id": "onet-sf-07",
+      "next": "Help people with personal or emotional problems"
+    },
+    {
+      "id": "onet-sf-08",
+      "next": "Buy and sell stocks and bonds"
+    },
+    {
+      "id": "onet-sf-09",
+      "next": "Manage a retail store"
+    },
+    {
+      "id": "onet-sf-10",
+      "next": "Develop a spreadsheet using computer software"
+    },
+    {
+      "id": "onet-sf-11",
+      "next": "Proofread records or forms"
+    },
+    {
+      "id": "onet-sf-12",
+      "next": "Repair household appliances"
+    },
+    {
+      "id": "onet-sf-13",
+      "next": "Raise fish in a fish hatchery"
+    },
+    {
+      "id": "onet-sf-14",
+      "next": "Conduct chemical experiments"
+    },
+    {
+      "id": "onet-sf-15",
+      "next": "Study the movement of planets"
+    },
+    {
+      "id": "onet-sf-16",
+      "next": "Compose or arrange music"
+    },
+    {
+      "id": "onet-sf-17",
+      "next": "Draw pictures"
+    },
+    {
+      "id": "onet-sf-18",
+      "next": "Give career guidance to people"
+    },
+    {
+      "id": "onet-sf-19",
+      "next": "Perform rehabilitation therapy"
+    },
+    {
+      "id": "onet-sf-20",
+      "next": "Operate a beauty salon or barber shop"
+    },
+    {
+      "id": "onet-sf-21",
+      "next": "Manage a department within a large company"
+    },
+    {
+      "id": "onet-sf-22",
+      "next": "Install software across computers on a large network"
+    },
+    {
+      "id": "onet-sf-23",
+      "next": "Operate a calculator"
+    },
+    {
+      "id": "onet-sf-24",
+      "next": "Assemble electronic parts"
+    },
+    {
+      "id": "onet-sf-25",
+      "next": "Drive a truck to deliver packages to offices and homes"
+    },
+    {
+      "id": "onet-sf-26",
+      "next": "Examine blood samples using a microscope"
+    },
+    {
+      "id": "onet-sf-27",
+      "next": "Investigate the cause of a fire"
+    },
+    {
+      "id": "onet-sf-28",
+      "next": "Create special effects for movies"
+    },
+    {
+      "id": "onet-sf-29",
+      "next": "Paint sets for plays"
+    },
+    {
+      "id": "onet-sf-30",
+      "next": "Do volunteer work at a non-profit organization"
+    },
+    {
+      "id": "onet-sf-31",
+      "next": "Teach children how to play sports"
+    },
+    {
+      "id": "onet-sf-32",
+      "next": "Start your own business"
+    },
+    {
+      "id": "onet-sf-33",
+      "next": "Negotiate business contracts"
+    },
+    {
+      "id": "onet-sf-34",
+      "next": "Keep shipping and receiving records"
+    },
+    {
+      "id": "onet-sf-35",
+      "next": "Calculate the wages of employees"
+    },
+    {
+      "id": "onet-sf-36",
+      "next": "Test the quality of parts before shipment"
+    },
+    {
+      "id": "onet-sf-37",
+      "next": "Repair and install locks"
+    },
+    {
+      "id": "onet-sf-38",
+      "next": "Develop a way to better predict the weather"
+    },
+    {
+      "id": "onet-sf-39",
+      "next": "Work in a biology lab"
+    },
+    {
+      "id": "onet-sf-40",
+      "next": "Write scripts for movies or television shows"
+    },
+    {
+      "id": "onet-sf-41",
+      "next": "Perform jazz or tap dance"
+    },
+    {
+      "id": "onet-sf-42",
+      "next": "Teach sign language to people who are deaf or hard of hearing"
+    },
+    {
+      "id": "onet-sf-43",
+      "next": "Help conduct a group therapy session"
+    },
+    {
+      "id": "onet-sf-44",
+      "next": "Represent a client in a lawsuit"
+    },
+    {
+      "id": "onet-sf-45",
+      "next": "Market a new line of clothing"
+    },
+    {
+      "id": "onet-sf-46",
+      "next": "Inventory supplies using a hand-held computer"
+    },
+    {
+      "id": "onet-sf-47",
+      "next": "Record rent payments"
+    },
+    {
+      "id": "onet-sf-48",
+      "next": "Set up and operate machines to make products"
+    },
+    {
+      "id": "onet-sf-49",
+      "next": "Put out forest fires"
+    },
+    {
+      "id": "onet-sf-50",
+      "next": "Invent a replacement for sugar"
+    },
+    {
+      "id": "onet-sf-51",
+      "next": "Do laboratory tests to identify diseases"
+    },
+    {
+      "id": "onet-sf-52",
+      "next": "Sing in a band"
+    },
+    {
+      "id": "onet-sf-53",
+      "next": "Edit movies"
+    },
+    {
+      "id": "onet-sf-54",
+      "next": "Take care of children at a day-care center"
+    },
+    {
+      "id": "onet-sf-55",
+      "next": "Teach a high-school class"
+    },
+    {
+      "id": "onet-sf-56",
+      "next": "Sell merchandise at a department store"
+    },
+    {
+      "id": "onet-sf-57",
+      "next": "Manage a clothing store"
+    },
+    {
+      "id": "onet-sf-58",
+      "next": "Keep inventory records"
+    },
+    {
+      "id": "onet-sf-59",
+      "next": "Stamp, sort, and distribute mail for an organization"
+    },
+    {
+      "id": "onet-sf-60",
+      "next": "Turn an original idea into a piece an audience can experience."
+    },
+    {
+      "id": "field-profile-creative-1",
+      "next": "Explain an idea in a different way when someone does not understand it."
+    },
+    {
+      "id": "field-profile-education-1",
+      "next": "Help someone resolve a service question or compare useful options."
+    },
+    {
+      "id": "field-profile-sales-office-1",
+      "next": "Investigate a health concern and explain ways to help."
+    },
+    {
+      "id": "field-profile-health-1",
+      "next": "Design a structure or device before it is made."
+    },
+    {
+      "id": "field-profile-building-1",
+      "next": "Build or improve a digital tool that solves a useful problem."
+    },
+    {
+      "id": "field-profile-technology-1",
+      "next": "Compare costs and evidence before recommending a business decision."
+    },
+    {
+      "id": "field-profile-business-1",
+      "next": "Coordinate materials and equipment so a practical workflow runs smoothly."
+    },
+    {
+      "id": "field-profile-transportation-production-1",
+      "next": "Prepare an everyday service so it feels useful and welcoming."
+    },
+    {
+      "id": "field-profile-services-1",
+      "next": "Practise an organized response to an urgent situation."
+    },
+    {
+      "id": "field-profile-public-safety-1",
+      "next": "Gather measurements and compare them with a possible explanation."
+    },
+    {
+      "id": "field-profile-science-1",
+      "next": "Install or repair a physical system so it works properly."
+    },
+    {
+      "id": "field-profile-trades-1",
+      "next": "Help someone understand what is happening during a care visit."
+    },
+    {
+      "id": "field-profile-health-2",
+      "next": "Spend time with learners who have different needs and ways of learning."
+    },
+    {
+      "id": "field-profile-education-2",
+      "next": "Stay with an investigation when the answer is still uncertain."
+    },
+    {
+      "id": "field-profile-science-2",
+      "next": "Repeat a method and document the results even when the first attempt is inconclusive."
+    },
+    {
+      "id": "field-profile-science-3",
+      "next": "Adjust an activity and give feedback when a learner gets stuck."
+    },
+    {
+      "id": "field-profile-education-3",
+      "next": "Keep health information accurate and follow care and privacy procedures."
+    },
+    {
+      "id": "field-profile-health-3",
+      "next": "Explain an idea clearly through writing, speaking, or visuals."
+    },
+    {
+      "id": "words",
+      "next": "Work through an unfamiliar problem by comparing possible explanations."
+    },
+    {
+      "id": "reasoning",
+      "next": "Listen closely and help someone understand or solve a problem."
+    },
+    {
+      "id": "people",
+      "next": "Learn a digital tool, find a problem, or make it work better."
+    },
+    {
+      "id": "digital",
+      "next": "Learn an unfamiliar subject or tool and decide what to practice next."
+    },
+    {
+      "id": "learning",
+      "next": "Plan a project and keep track of its details."
+    },
+    {
+      "id": "organizing",
+      "next": "Compare observations, test an explanation, and notice what remains uncertain."
+    },
+    {
+      "id": "science",
+      "next": "Picture how shapes, objects, or layouts could fit together."
+    },
+    {
+      "id": "visual",
+      "next": "Make, repair, or carefully assemble something with your hands."
+    },
+    {
+      "id": "practical",
+      "next": "Work through a disagreement so a team can keep moving."
+    },
+    {
+      "id": "collaboration",
+      "next": "Make a small, careful adjustment by hand while following instructions."
+    },
+    {
+      "id": "precision",
+      "next": "Use numbers, measurements, or a simple chart to make sense of something."
+    },
+    {
+      "id": "numbers",
+      "next": "What would you most want your work to give you?"
+    },
+    {
+      "id": "company",
+      "next": "What would make a good working day?"
+    },
+    {
+      "id": "rhythm",
+      "next": "Where could you picture spending your day?"
+    },
+    {
+      "id": "setting",
+      "next": "Which learning routes would you consider?"
+    },
+    {
+      "id": "education",
+      "next": "Two pathways worth exploring."
+    }
+  ],
+  "valuesQuestion": {
+    "selections": [
+      "impact",
+      "curiosity",
+      "mastery"
+    ]
+  },
+  "professionFollowups": [
+    {
+      "question": "Which parts of health and helping draw you in?",
+      "next": "What would you enjoy understanding more deeply?"
+    },
+    {
+      "question": "What would you enjoy understanding more deeply?",
+      "next": "How would you like to help someone?"
+    },
+    {
+      "question": "How would you like to help someone?",
+      "next": "Which health-care routines would you like to learn?"
+    },
+    {
+      "question": "Which health-care routines would you like to learn?",
+      "next": "Which problem would you want to understand in more detail?"
+    },
+    {
+      "question": "Which problem would you want to understand in more detail?",
+      "next": "Which responsibility would you enjoy learning about?"
+    },
+    {
+      "question": "Which responsibility would you enjoy learning about?",
+      "next": "What would you like to explain to someone?"
+    },
+    {
+      "question": "What would you like to explain to someone?",
+      "next": "Which supervised experience would you most want to try?"
+    },
+    {
+      "question": "Which supervised experience would you most want to try?",
+      "next": "Which responsibility would you most want to learn about?"
+    },
+    {
+      "question": "Which responsibility would you most want to learn about?",
+      "next": "Which professional would you like to follow for a day?"
+    },
+    {
+      "question": "Which professional would you like to follow for a day?",
+      "next": "Which preparation route would you like to explore?"
+    },
+    {
+      "question": "Which preparation route would you like to explore?",
+      "next": "Jobs to explore."
+    }
+  ],
+  "chosenCareer": "physician",
+  "chosenStage": "residency",
+  "observed": {
+    "newQuestionsUnselected": true,
+    "savedNoteAndCompletionSurviveReload": true,
+    "librarySavedReadingDoesNotChangePlan": true,
+    "reviewedLifestyleReturnsToMatches": true,
+    "compactSectionNavigationFitsNarrowPhone": true,
+    "libraryTabsNoHorizontalOverflow": true,
+    "signInDialogReviewedWithoutAuthentication": true,
+    "restartDialogReviewedWithoutReset": true
+  },
+  "source": "Official interest item text and response choices remain unchanged; see app attribution and source records.",
+  "observedPathways": [
+    "health",
+    "education"
+  ],
+  "workLedOption": "science",
+  "inputReference": "Answers were selected through the UI using the reviewed walkthroughState(\"medicine\") fixture; the browser began with fresh state. Focused follow-up selection determined which additional questions appeared.",
+  "release": "0.31.7",
+  "regressionChecks": {
+    "total": 412,
+    "passed": 412,
+    "failed": 0,
+    "scope": "Repository regression tests, including rendered screen and flow checks. Not a student outcome or psychometric validation."
+  }
+}

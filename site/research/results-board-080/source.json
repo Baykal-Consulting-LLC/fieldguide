@@ -1,0 +1,120 @@
+{
+  "version": "results-board-080",
+  "generatedAt": "2026-10-25T03:01:41.272Z",
+  "mode": "Developer-only design prototypes; live student flow unchanged",
+  "source": {
+    "study": "Corrected research simulator 0.79",
+    "canonicalSHA256": "3455e8e45f94669b0fb54f56dc547b41f1b59e2f7aba20aba3a2e79c3290a3ad",
+    "salaryModel": "salary-progression.js · frozen current planning assumptions",
+    "limits": [
+      "All people are labeled fictional demonstrations, not the signed-in student.",
+      "Five-year figures are existing planning scenarios or published employer examples, not measured salaries at exactly five years.",
+      "Five years starts after required preparation and qualification; training and tuition are not five years of professional earnings.",
+      "No new wage estimates are manufactured for roles without the existing five-year model.",
+      "Bachelor/graduate, associate/certificate, and apprenticeship/work routes remain distinct; no population-average college premium is inferred."
+    ]
+  },
+  "fields": [
+    {
+      "id": "creative",
+      "title": "Design & creativity"
+    },
+    {
+      "id": "technology",
+      "title": "Technology & data"
+    },
+    {
+      "id": "health",
+      "title": "Health & helping"
+    },
+    {
+      "id": "business",
+      "title": "Business & law"
+    },
+    {
+      "id": "science",
+      "title": "Science & environment"
+    },
+    {
+      "id": "building",
+      "title": "Engineering & building"
+    },
+    {
+      "id": "trades",
+      "title": "Trades & technical repair"
+    },
+    {
+      "id": "services",
+      "title": "Food, hospitality & personal care"
+    },
+    {
+      "id": "education",
+      "title": "Teaching & learning"
+    },
+    {
+      "id": "public-safety",
+      "title": "Safety & emergency response"
+    },
+    {
+      "id": "transportation-production",
+      "title": "Transport & production"
+    },
+    {
+      "id": "sales-office",
+      "title": "Sales, office & customer support"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "scale056-0061",
+      "cohort": "development",
+      "top": [
+        "chemistry",
+        "film-editing",
+        "photographer"
+      ],
+      "supported": 3,
+      "target": 32092.483972172966
+    },
+    {
+      "id": "scale056-0115",
+      "cohort": "development",
+      "top": [
+        "mechanical-engineering",
+        "industrial-machinery-mechanic",
+        "welder"
+      ],
+      "supported": 11,
+      "target": 348421.71799368877
+    },
+    {
+      "id": "life-054",
+      "cohort": "development",
+      "top": [
+        "preschool-teacher",
+        "elementary-teacher",
+        "childcare-worker"
+      ],
+      "supported": 3,
+      "target": 57475.10571545492
+    },
+    {
+      "id": "scale056-0359",
+      "cohort": "holdout056",
+      "top": [
+        "medical-assistant",
+        "librarian",
+        "dental-assisting"
+      ],
+      "supported": 25,
+      "target": 129827.56297115587
+    },
+    {
+      "id": "grok075-0017",
+      "cohort": "grok075",
+      "top": [],
+      "supported": 0,
+      "target": 59500.75023871231
+    }
+  ]
+}

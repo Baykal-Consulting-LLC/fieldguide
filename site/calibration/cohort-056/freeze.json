@@ -1,0 +1,22 @@
+{
+  "version": "0.56.0",
+  "frozenAt": "2026-10-20T14:55:55.242Z",
+  "policyHashes": {
+    "calibration/cohort-056/spec.mjs": "185e338611167870b7e406e60d979702a8284eb6049ee437444f20e22cb5f050",
+    "calibration/cohort-056/response-policy.mjs": "5871a21b05fbe23f6a37fe0b836c3c2db5dcb24afdeb37a38a5184db8ee3ff4d",
+    "scripts/generate-cohort-056.mjs": "482694ccc2d146f7570935b85a7bf4bb92e3c045fa8b45851652d41a347a7ea2",
+    "research/cohort-056/protocol.json": "470f4baf02a244a0c3eea75d9dcf8f7cd7d0ca0db152c97dc027fbe177b031f5"
+  },
+  "profileSHA256": "c57b0f4f6b3c894cec8cd4343a27859152dee241477018ba4029565a7f94bc2c",
+  "engineHashes": {
+    "dist/open-explorer.js": "285eb07d656ddc95e7cf616121cc65d133490ccde90d65579983996f234cd84b",
+    "dist/explorer-053-membership-data.js": "4ad2a75e9677f360e60eb6e4ed8394b9a7516a7c8860e8d1f40ffb8d2a5e6410",
+    "dist/explorer-053-budget.js": "418ed8b8ef93336b540dd17cdc8282227f6dd57f617e41f69480e5b3ae21e3fc",
+    "dist/onet-assessment.js": "dd20e013ccde0fea24cd223b2770abba08d4cec56b05f931a673d0e73b7eb1ed"
+  },
+  "count": 828,
+  "holdout": 200,
+  "development": 628,
+  "firstOutcomeRun": null,
+  "method": "Deterministic structured life/activity synthesis and pre-registered response policy. Not independently authored biographies or observed students. No outcome is used to generate, accept or rewrite a profile."
+}

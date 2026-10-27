@@ -1,0 +1,891 @@
+{
+  "version": "0.50.0",
+  "frozenAt": "2026-10-20T01:07:54.332Z",
+  "selection": "At most two pending non-declined college/graduate professions with existing strong broad interest alignment; affordability prioritizes invitations, never eligibility. This selection used the 0.49 snapshot, before pay/ranking changes. Initial focused replay targets models without any college/graduate Top match; existing noncollege matches are retained.",
+  "rows": [
+    {
+      "id": "life-006",
+      "phase": "development",
+      "offers": [
+        {
+          "id": "animation",
+          "questions": [
+            {
+              "id": "animation-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?"
+            },
+            {
+              "id": "animation-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "life-024",
+      "phase": "development",
+      "offers": [
+        {
+          "id": "degree-27101300",
+          "questions": [
+            {
+              "id": "degree-27101300-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to express ideas, emotions, or observations through original visual artwork whose form and materials are part of its meaning?"
+            },
+            {
+              "id": "degree-27101300-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?"
+            },
+            {
+              "id": "degree-27101300-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?"
+            }
+          ],
+          "expanded": true
+        },
+        {
+          "id": "degree-25401300",
+          "questions": [
+            {
+              "id": "degree-25401300-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to preserve artworks, historical objects, or scientific specimens so their materials and significant features remain available for future study and display?"
+            },
+            {
+              "id": "degree-25401300-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to examine an object’s condition and compare preservation or repair approaches before choosing a treatment that could affect its original material?"
+            },
+            {
+              "id": "degree-25401300-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to document conservation work carefully and recommend storage or handling conditions that reduce damage without unnecessarily altering the object?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "life-027",
+      "phase": "development",
+      "offers": [
+        {
+          "id": "interpreting",
+          "questions": [
+            {
+              "id": "interpreting-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to convey someone’s spoken or signed message accurately from one language into another?"
+            },
+            {
+              "id": "interpreting-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to work out meaning and context across languages so the translated message preserves the speaker’s intent and tone?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "life-030",
+      "phase": "development",
+      "offers": [
+        {
+          "id": "degree-27102700",
+          "questions": [
+            {
+              "id": "degree-27102700-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to create physical settings or exhibits that help an audience experience a story, performance, collection, or other intended idea?"
+            },
+            {
+              "id": "degree-27102700-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to translate a script or exhibition purpose into spatial drawings and models, then revise the design around practical production constraints?"
+            },
+            {
+              "id": "degree-27102700-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to coordinate scenic or display design with production teams while keeping the setting workable within the available space, materials, and budget?"
+            }
+          ],
+          "expanded": true
+        },
+        {
+          "id": "animation",
+          "questions": [
+            {
+              "id": "animation-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?"
+            },
+            {
+              "id": "animation-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "life-045",
+      "phase": "development",
+      "offers": [
+        {
+          "id": "interpreting",
+          "questions": [
+            {
+              "id": "interpreting-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to convey someone’s spoken or signed message accurately from one language into another?"
+            },
+            {
+              "id": "interpreting-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to work out meaning and context across languages so the translated message preserves the speaker’s intent and tone?"
+            }
+          ],
+          "expanded": false
+        },
+        {
+          "id": "animation",
+          "questions": [
+            {
+              "id": "animation-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?"
+            },
+            {
+              "id": "animation-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "life-056",
+      "phase": "development",
+      "offers": [
+        {
+          "id": "degree-25112100",
+          "questions": [
+            {
+              "id": "degree-25112100-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to teach adult learners to develop artistic expression through visual art, drama, or music while understanding the choices behind creative work?"
+            },
+            {
+              "id": "degree-25112100-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to demonstrate creative techniques and design practice activities that help students experiment, reflect, and improve their artistic or performance decisions?"
+            },
+            {
+              "id": "degree-25112100-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to evaluate students' creative work or performances and provide constructive feedback that supports their development rather than merely expressing personal taste?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "life-067",
+      "phase": "development",
+      "offers": [
+        {
+          "id": "degree-15129903",
+          "questions": [
+            {
+              "id": "degree-15129903-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to organize how an organization captures, stores, finds, shares, and eventually disposes of its electronic documents and records?"
+            },
+            {
+              "id": "degree-15129903-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to compare document types and users' needs to develop categories and processes that make information easier to retrieve and manage?"
+            },
+            {
+              "id": "degree-15129903-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to coordinate document-handling rules that balance useful access with confidentiality, retention duties, and secure disposal when records are no longer needed?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "life-008",
+      "phase": "holdout",
+      "offers": [
+        {
+          "id": "animation",
+          "questions": [
+            {
+              "id": "animation-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?"
+            },
+            {
+              "id": "animation-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "life-010",
+      "phase": "holdout",
+      "offers": [
+        {
+          "id": "degree-11301200",
+          "questions": [
+            {
+              "id": "degree-11301200-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to organize the records, supplies, contracts, and support services that allow an organization’s everyday work to run smoothly?"
+            },
+            {
+              "id": "degree-11301200-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to compare administrative workflows and costs to work out where shared support services need improvement?"
+            },
+            {
+              "id": "degree-11301200-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to oversee support staff and service budgets while making sure departments receive reliable administrative help?"
+            }
+          ],
+          "expanded": true
+        },
+        {
+          "id": "degree-23102200",
+          "questions": [
+            {
+              "id": "degree-23102200-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to help opposing parties resolve a dispute through a structured process that takes their concerns and relevant rules seriously?"
+            },
+            {
+              "id": "degree-23102200-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to listen to competing accounts, examine supporting evidence, and identify possible resolutions or decisions within an agreed dispute process?"
+            },
+            {
+              "id": "degree-23102200-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to conduct fair proceedings and clearly document the outcome while respecting whether the process calls for agreement or a decision?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "life-017",
+      "phase": "holdout",
+      "offers": [
+        {
+          "id": "interpreting",
+          "questions": [
+            {
+              "id": "interpreting-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to convey someone’s spoken or signed message accurately from one language into another?"
+            },
+            {
+              "id": "interpreting-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to work out meaning and context across languages so the translated message preserves the speaker’s intent and tone?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "life-019",
+      "phase": "holdout",
+      "offers": [
+        {
+          "id": "interpreting",
+          "questions": [
+            {
+              "id": "interpreting-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to convey someone’s spoken or signed message accurately from one language into another?"
+            },
+            {
+              "id": "interpreting-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to work out meaning and context across languages so the translated message preserves the speaker’s intent and tone?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "life-046",
+      "phase": "holdout",
+      "offers": [
+        {
+          "id": "degree-19309200",
+          "questions": [
+            {
+              "id": "degree-19309200-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to investigate how natural features and human activities interact across places and why regions develop different environmental or social patterns?"
+            },
+            {
+              "id": "degree-19309200-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to combine maps, field observations, and population information to explain a geographic pattern rather than simply describe where things are?"
+            },
+            {
+              "id": "degree-19309200-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to communicate a research-based explanation of relationships between places, including the evidence and limits behind the geographic conclusions?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "life-059",
+      "phase": "holdout",
+      "offers": [
+        {
+          "id": "biological-technician",
+          "questions": [
+            {
+              "id": "biological-technician-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to collect and prepare biological samples, such as plants, water, or animal material, to help scientists study living things?"
+            },
+            {
+              "id": "biological-technician-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to carry out biological experiments carefully, observe what happens, and record results for a research team?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "life-097",
+      "phase": "holdout",
+      "offers": [
+        {
+          "id": "animation",
+          "questions": [
+            {
+              "id": "animation-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?"
+            },
+            {
+              "id": "animation-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "gap-005",
+      "phase": "supplement",
+      "offers": [
+        {
+          "id": "degree-43911100",
+          "questions": [
+            {
+              "id": "degree-43911100-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to support statistical studies by organizing information and carrying out calculations using established statistical procedures accurately and consistently?"
+            },
+            {
+              "id": "degree-43911100-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to check data and apply specified calculations to prepare useful tables, charts, or summaries for the people conducting a statistical study?"
+            },
+            {
+              "id": "degree-43911100-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to maintain reliable study records and explain calculation results clearly while recognizing errors or uncertainties that need review by the research team?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "gap-006",
+      "phase": "supplement",
+      "offers": [
+        {
+          "id": "accounting",
+          "questions": [
+            {
+              "id": "accounting-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to prepare and analyze an organization’s financial records and reports so people can understand its money and meet reporting rules?"
+            },
+            {
+              "id": "accounting-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to investigate differences in an organization’s accounts and work out what needs correcting?"
+            }
+          ],
+          "expanded": false
+        },
+        {
+          "id": "degree-43908100",
+          "questions": [
+            {
+              "id": "degree-43908100-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to make written material accurate and consistent by identifying errors in spelling, grammar, punctuation, arrangement, or other details before publication?"
+            },
+            {
+              "id": "degree-43908100-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to compare a prepared text with its intended wording and style requirements, then check revised versions to ensure corrections were applied properly?"
+            },
+            {
+              "id": "degree-43908100-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to record corrections clearly and preserve the intended meaning while taking responsibility for careful final checks under a publication’s deadlines?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "gap-013",
+      "phase": "supplement",
+      "offers": [
+        {
+          "id": "project-management",
+          "questions": [
+            {
+              "id": "project-management-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to turn a work project’s goals into a plan for its people, tasks, deadlines, and budget?"
+            },
+            {
+              "id": "project-management-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to coordinate a work team, track problems and progress, and take responsibility for delivering the agreed results to a client or organization?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "gap-016",
+      "phase": "supplement",
+      "offers": [
+        {
+          "id": "logistics",
+          "questions": [
+            {
+              "id": "logistics-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to plan how an organization’s supplies or products get to the right place at the right time?"
+            },
+            {
+              "id": "logistics-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to coordinate suppliers, transport, and customers when delivery plans change or something goes wrong?"
+            }
+          ],
+          "expanded": false
+        }
+      ]
+    },
+    {
+      "id": "gap-021",
+      "phase": "supplement",
+      "offers": [
+        {
+          "id": "project-management",
+          "questions": [
+            {
+              "id": "project-management-interest-044-1",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to turn a work project’s goals into a plan for its people, tasks, deadlines, and budget?"
+            },
+            {
+              "id": "project-management-interest-044-2",
+              "domain": "work-interest",
+              "prompt": "Would you like to learn to coordinate a work team, track problems and progress, and take responsibility for delivering the agreed results to a client or organization?"
+            }
+          ],
+          "expanded": false
+        },
+        {
+          "id": "degree-13112100",
+          "questions": [
+            {
+              "id": "degree-13112100-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to turn the purpose of a meeting, conference, or other organized event into a workable experience for its participants?"
+            },
+            {
+              "id": "degree-13112100-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to coordinate venues, schedules, suppliers, and participant needs while adjusting arrangements when an event’s requirements change?"
+            },
+            {
+              "id": "degree-13112100-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to manage event commitments and bills while making sure suppliers and staff deliver the arrangements promised to a client?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "gap-023",
+      "phase": "supplement",
+      "offers": [
+        {
+          "id": "degree-13202200",
+          "questions": [
+            {
+              "id": "degree-13202200-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to investigate what belongings, equipment, artwork, or business property are worth for a particular decision or transaction?"
+            },
+            {
+              "id": "degree-13202200-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to examine an item's condition and characteristics and compare relevant evidence to develop a reasoned estimate of its value?"
+            },
+            {
+              "id": "degree-13202200-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to prepare a clearly documented valuation and explain its assumptions to people who may rely on it for important financial decisions?"
+            }
+          ],
+          "expanded": true
+        },
+        {
+          "id": "degree-15129903",
+          "questions": [
+            {
+              "id": "degree-15129903-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to organize how an organization captures, stores, finds, shares, and eventually disposes of its electronic documents and records?"
+            },
+            {
+              "id": "degree-15129903-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to compare document types and users' needs to develop categories and processes that make information easier to retrieve and manage?"
+            },
+            {
+              "id": "degree-15129903-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to coordinate document-handling rules that balance useful access with confidentiality, retention duties, and secure disposal when records are no longer needed?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "legacy-015",
+      "phase": "legacy",
+      "offers": [
+        {
+          "id": "degree-17214102",
+          "questions": [
+            {
+              "id": "degree-17214102-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to develop new or improved vehicle systems, such as their structure, power, or movement, rather than mainly repairing existing vehicles?"
+            },
+            {
+              "id": "degree-17214102-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to test vehicle components and whole systems to investigate failures and compare changes that could improve how a design performs?"
+            },
+            {
+              "id": "degree-17214102-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to coordinate design changes with other technical specialists and check their effects on vehicle safety, reliability, and the requirements for the whole vehicle?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "legacy-017",
+      "phase": "legacy",
+      "offers": [
+        {
+          "id": "degree-27102200",
+          "questions": [
+            {
+              "id": "degree-27102200-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to create clothing or accessories by combining ideas about appearance, materials, and how a design will fit and be made?"
+            },
+            {
+              "id": "degree-27102200-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to develop sketches and samples, compare fabrics or construction choices, and revise a wearable design after examining its fit and effect?"
+            },
+            {
+              "id": "degree-27102200-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to communicate clear production details and balance the intended look with fit, materials, and practical constraints so others can make the design?"
+            }
+          ],
+          "expanded": true
+        },
+        {
+          "id": "degree-27101300",
+          "questions": [
+            {
+              "id": "degree-27101300-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to express ideas, emotions, or observations through original visual artwork whose form and materials are part of its meaning?"
+            },
+            {
+              "id": "degree-27101300-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to experiment with composition, color, shape, or physical materials and revise a piece until its visual effects serve your artistic intention?"
+            },
+            {
+              "id": "degree-27101300-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "legacy-019",
+      "phase": "legacy",
+      "offers": [
+        {
+          "id": "degree-29114101",
+          "questions": [
+            {
+              "id": "degree-29114101-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to care for people whose serious illness or injury could deteriorate quickly and requires close clinical assessment and prompt treatment?"
+            },
+            {
+              "id": "degree-29114101-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to interpret changing symptoms and clinical findings to recognize instability and choose appropriate immediate care within the clinical responsibilities of your role?"
+            },
+            {
+              "id": "degree-29114101-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to coordinate urgent care with patients, families, and other clinicians while monitoring responses and escalating changes that threaten a patient’s condition?"
+            }
+          ],
+          "expanded": true
+        },
+        {
+          "id": "degree-29114103",
+          "questions": [
+            {
+              "id": "degree-29114103-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to care for severely ill patients whose breathing, circulation, or other vital functions may change quickly and require close attention?"
+            },
+            {
+              "id": "degree-29114103-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to interpret changes in a patient's measurements and test results to recognize deterioration and work out what immediate care is needed?"
+            },
+            {
+              "id": "degree-29114103-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to provide prescribed treatments and respond promptly to dangerous changes while coordinating continuous nursing care for patients in a critical condition?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "legacy-022",
+      "phase": "legacy",
+      "offers": [
+        {
+          "id": "degree-15129903",
+          "questions": [
+            {
+              "id": "degree-15129903-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to organize how an organization captures, stores, finds, shares, and eventually disposes of its electronic documents and records?"
+            },
+            {
+              "id": "degree-15129903-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to compare document types and users' needs to develop categories and processes that make information easier to retrieve and manage?"
+            },
+            {
+              "id": "degree-15129903-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to coordinate document-handling rules that balance useful access with confidentiality, retention duties, and secure disposal when records are no longer needed?"
+            }
+          ],
+          "expanded": true
+        },
+        {
+          "id": "degree-11301200",
+          "questions": [
+            {
+              "id": "degree-11301200-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to organize the records, supplies, contracts, and support services that allow an organization’s everyday work to run smoothly?"
+            },
+            {
+              "id": "degree-11301200-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to compare administrative workflows and costs to work out where shared support services need improvement?"
+            },
+            {
+              "id": "degree-11301200-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to oversee support staff and service budgets while making sure departments receive reliable administrative help?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "new049-007",
+      "phase": "development049",
+      "offers": [
+        {
+          "id": "degree-19302200",
+          "questions": [
+            {
+              "id": "degree-19302200-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to investigate what a group of people thinks, experiences, or does by gathering information systematically rather than relying on anecdotes?"
+            },
+            {
+              "id": "degree-19302200-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to develop and test survey wording and sampling approaches to reduce misunderstanding and make the information more useful for the research question?"
+            },
+            {
+              "id": "degree-19302200-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to explain survey findings and their limitations clearly, including whose experiences may be missing and which conclusions the collected responses cannot support?"
+            }
+          ],
+          "expanded": true
+        },
+        {
+          "id": "degree-13209904",
+          "questions": [
+            {
+              "id": "degree-13209904-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to investigate suspected deception involving money or property and work out what happened from evidence rather than assumptions?"
+            },
+            {
+              "id": "degree-13209904-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to compare records, statements, and patterns of activity to test possible explanations for a suspected fraud and identify missing evidence?"
+            },
+            {
+              "id": "degree-13209904-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to preserve a careful record of an investigation and explain findings accurately when they may be challenged or used in legal proceedings?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    },
+    {
+      "id": "new049-020",
+      "phase": "holdout049",
+      "offers": [
+        {
+          "id": "degree-19201100",
+          "questions": [
+            {
+              "id": "degree-19201100-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to investigate stars, planets, galaxies, or other phenomena beyond Earth to understand how the universe works and changes?"
+            },
+            {
+              "id": "degree-19201100-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to analyze observations from telescopes and compare scientific explanations for patterns in light or the motion of objects in space?"
+            },
+            {
+              "id": "degree-19201100-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to design and communicate a defensible investigation of an astronomical question, including uncertainty and the limits of available observations?"
+            }
+          ],
+          "expanded": true
+        },
+        {
+          "id": "degree-19201200",
+          "questions": [
+            {
+              "id": "degree-19201200-047-domain",
+              "domain": "domain",
+              "prompt": "Would you like to learn to investigate the physical principles behind matter, energy, motion, or light to explain phenomena that are not yet understood?"
+            },
+            {
+              "id": "degree-19201200-047-method",
+              "domain": "method",
+              "prompt": "Would you like to learn to combine mathematical models with measurements or experiments to test competing explanations of how a physical system behaves?"
+            },
+            {
+              "id": "degree-19201200-047-responsibility",
+              "domain": "responsibility",
+              "prompt": "Would you like to learn to report physical research with enough detail about assumptions and uncertainty for others to examine or repeat the investigation?"
+            }
+          ],
+          "expanded": true
+        }
+      ]
+    }
+  ]
+}

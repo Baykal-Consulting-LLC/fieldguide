@@ -1,0 +1,56 @@
+{
+  "rows": [
+    {
+      "modelId": "life-005",
+      "careerId": "photographer",
+      "judgment": "supported",
+      "reason": "Amara currently chooses to photograph lettering and neighborhood signs, contributes newspaper photographs, and composes a sign reflected in a puddle (timeline.6.story; currentLife.enjoys; currentLife.activities). This establishes photographic composition and visual image-making interests. The supplied interests in careful image/light work and finishing photographic work fit those activities. Learning camera adjustment, lighting and picture review develops an already chosen photographic practice; lack of technical lighting experience does not require withholding support. Her caregiving history is irrelevant to this inference.",
+      "questionHolds": []
+    },
+    {
+      "modelId": "life-012",
+      "careerId": "animation",
+      "judgment": "supported",
+      "reason": "Tariq actually uses library software to animate short explanations, enjoys drawing instructions, creates things younger children understand, and revises visual explanations after feedback (timeline.6.story; currentLife.enjoys; currentLife.motivations; currentLife.demonstratedSkills). The supplied interests in scene timing and visual revision align with this specific animation practice. Both new Yes answers describe learning more of work he already elects to do; they do not infer animation from drawing or storytelling alone. Prior employment, advanced modeling and an intention to monetize his hobby are unnecessary.",
+      "questionHolds": []
+    },
+    {
+      "modelId": "life-075",
+      "careerId": "writing",
+      "judgment": "needs-confirmation",
+      "reason": "Caleb has direct interest in making maps and recipe instructions understandable, including responding to a request for useful street names and accommodating his aunt with photographs (timeline.1.story; timeline.3.story). This supports the supplied audience-wording and revision tasks and the second defining question at an instructional-text level. However, organizing a recipe booklet and giving detailed route descriptions do not independently establish interest in authoring longer pieces. The first new Yes stretches format and sustained composition interest rather than merely replacing unfamiliar professional wording. This is an interest-scope gap, not a demand for published work or prior writing employment.",
+      "questionHolds": [
+        {
+          "questionId": "writing-interest-044-1",
+          "reason": "The cited biography establishes practical labels, descriptions and a multimodal recipe booklet, but not enjoyment of developing an extended written piece for readers. Broad supplied writing-related task selections do not resolve that missing scope.",
+          "followup": "Would you enjoy developing a several-page account or guide about a place or family recipe, choosing its ideas and structure for readers, or do you mainly enjoy concise instructions, labels and maps?"
+        }
+      ]
+    },
+    {
+      "modelId": "life-077",
+      "careerId": "industrial-design",
+      "judgment": "needs-confirmation",
+      "reason": "Owen directly enjoys testing mechanisms, robotics and a model drawbridge under load (timeline.2.story; currentLife.enjoys; currentLife.activities). Physical modeling and functional iteration are supported. The defining questions additionally center on inventing product concepts around how people use them and revising designs against users' needs. Neither user-centered concept sketching nor use-oriented evaluation is established by those examples. Supplied interests in useful/appealing objects and hand-fit details point toward that possibility, but the biography and new Yes rationales describe mechanical performance rather than a concrete interest in the user-design relationship. Both defining Yes answers therefore still need scope confirmation. Anxiety, treatment and preference for predictable demonstrations provide no reason to discount his actual interests.",
+      "questionHolds": [
+        {
+          "questionId": "industrial-design-interest-044-1",
+          "reason": "Absorption in bridge-load tests and engineering activities supports physical function, but does not directly establish wanting to sketch product ideas around users' actions, comfort or needs.",
+          "followup": "Would you enjoy sketching different versions of an everyday object after finding out how people use it, or is understanding and testing its mechanism the part that draws you in?"
+        },
+        {
+          "questionId": "industrial-design-interest-044-2",
+          "reason": "He enjoys model trials and mechanism tests, but the cited evidence does not show interest in observing use and changing a design when it fails someone's needs. Learning these methods is possible; wanting that focus remains unconfirmed.",
+          "followup": "Would you like to let people try a simple model, watch where it is awkward for them, and change the design for their use, as well as testing whether its mechanism works?"
+        }
+      ]
+    },
+    {
+      "modelId": "life-085",
+      "careerId": "photographer",
+      "judgment": "supported",
+      "reason": "Diego has photographed insects and now deliberately frames everyday places in films; visual framing is an established interest and he wants to complete a shared film (timeline.1.story; timeline.5.story; currentLife.enjoys; currentLife.ambitions). The supplied interest in image mood, lighting and visual revision is consistent with that image-making practice. Learning to compose photographs, adjust a camera and refine images with light remains within this demonstrated visual interest; advanced lighting work or a preference for the photographer job title is unnecessary. His family separation and bilingual abilities are not evidence for photography and are not used here.",
+      "questionHolds": []
+    }
+  ]
+}

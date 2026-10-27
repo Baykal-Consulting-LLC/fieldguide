@@ -1,0 +1,55 @@
+{
+  "url": "https://services.onetcenter.org/demo?url=online%2Foccupations%2F27-2022.00%2Fdetails%2Finterests",
+  "httpStatus": 200,
+  "retrievedAt": "2026-10-20T04:02:06.877323+00:00",
+  "htmlSHA256": "9c7d3754405140a88db2039ef43768bf7c09047c9b94697fd251d6614c61cac0",
+  "response": {
+    "start": 1,
+    "end": 6,
+    "total": 6,
+    "element": [
+      {
+        "id": "1.B.1.d",
+        "related": "https://api-v2.onetcenter.org/online/occupations/27-2022.00/related/interests/1.B.1.d",
+        "name": "Social",
+        "description": "Work involves helping, teaching, advising, assisting, or providing service to others. Social occupations are often associated with social, health care, personal service, teaching/education, or religious activities.",
+        "occupational_interest": 72
+      },
+      {
+        "id": "1.B.1.e",
+        "related": "https://api-v2.onetcenter.org/online/occupations/27-2022.00/related/interests/1.B.1.e",
+        "name": "Enterprising",
+        "description": "Work involves managing, negotiating, marketing, or selling, typically in a business setting, or leading or advising people in political and legal situations. Enterprising occupations are often associated with business initiatives, sales, marketing/advertising, finance, management/administration, professional advising, public speaking, politics, or law.",
+        "occupational_interest": 69
+      },
+      {
+        "id": "1.B.1.a",
+        "related": "https://api-v2.onetcenter.org/online/occupations/27-2022.00/related/interests/1.B.1.a",
+        "name": "Realistic",
+        "description": "Work involves designing, building, or repairing of equipment, materials, or structures, engaging in physical activity, or working outdoors. Realistic occupations are often associated with engineering, mechanics and electronics, construction, woodworking, transportation, machine operation, agriculture, animal services, physical or manual labor, athletics, or protective services.",
+        "occupational_interest": 54
+      },
+      {
+        "id": "1.B.1.f",
+        "related": "https://api-v2.onetcenter.org/online/occupations/27-2022.00/related/interests/1.B.1.f",
+        "name": "Conventional",
+        "description": "Work involves following procedures and regulations to organize information or data, typically in a business setting. Conventional occupations are often associated with office work, accounting, mathematics/statistics, information technology, finance, or human resources.",
+        "occupational_interest": 41
+      },
+      {
+        "id": "1.B.1.c",
+        "related": "https://api-v2.onetcenter.org/online/occupations/27-2022.00/related/interests/1.B.1.c",
+        "name": "Artistic",
+        "description": "Work involves creating original visual artwork, performances, written works, food, or music for a variety of media, or applying artistic principles to the design of various objects and materials. Artistic occupations are often associated with visual arts, applied arts and design, performing arts, music, creative writing, media, or culinary art.",
+        "occupational_interest": 24
+      },
+      {
+        "id": "1.B.1.b",
+        "related": "https://api-v2.onetcenter.org/online/occupations/27-2022.00/related/interests/1.B.1.b",
+        "name": "Investigative",
+        "description": "Work involves studying and researching non-living objects, living organisms, disease or other forms of impairment, or human behavior. Investigative occupations are often associated with physical, life, medical, or social sciences, and can be found in the fields of humanities, mathematics/statistics, information technology, or health care service.",
+        "occupational_interest": 19
+      }
+    ]
+  }
+}

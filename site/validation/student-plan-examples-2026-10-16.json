@@ -1,0 +1,965 @@
+{
+  "purpose": "Four fictional, reproducible exploration examples; not validation on real students",
+  "examples": [
+    {
+      "id": "medicine",
+      "exactRatings": {
+        "curiosity-1": 3,
+        "curiosity-2": 4,
+        "curiosity-3": 2,
+        "curiosity-4": 4,
+        "curiosity-5": 2,
+        "curiosity-6": 3,
+        "curiosity-7": 3,
+        "curiosity-8": 4,
+        "curiosity-9": 2,
+        "curiosity-10": 4,
+        "curiosity-11": 2,
+        "curiosity-12": 3,
+        "curiosity-13": 3,
+        "curiosity-14": 5,
+        "curiosity-15": 2,
+        "curiosity-16": 5,
+        "curiosity-17": 2,
+        "curiosity-18": 3,
+        "curiosity-19": 3,
+        "curiosity-20": 3,
+        "curiosity-21": 2,
+        "curiosity-22": 3,
+        "curiosity-23": 2,
+        "curiosity-24": 3,
+        "curiosity-25": 3,
+        "curiosity-26": 5,
+        "curiosity-27": 2,
+        "curiosity-28": 4,
+        "curiosity-29": 2,
+        "curiosity-30": 3
+      },
+      "fields": [
+        "Health & helping",
+        "Science & environment",
+        "Teaching & learning"
+      ],
+      "matches": [
+        "physician",
+        "physician-assistant",
+        "nursing"
+      ],
+      "plan": {
+        "application": "Fieldguide",
+        "purpose": "Personal exploration plan; salary milestones are planning estimates in today’s dollars",
+        "exportedAt": "2026-10-17T02:40:37.808Z",
+        "entryPoint": "assessment",
+        "interests": {
+          "families": [
+            "health"
+          ],
+          "paths": [
+            "medicines-nutrition",
+            "nursing-care"
+          ]
+        },
+        "primaryCareer": {
+          "id": "physician",
+          "title": "Physician · family medicine"
+        },
+        "alternatives": [
+          {
+            "id": "physician-assistant",
+            "title": "Physician Assistants"
+          },
+          {
+            "id": "nursing",
+            "title": "Registered Nurses"
+          }
+        ],
+        "taskInterests": [
+          {
+            "id": "work:physician",
+            "text": "Investigate symptoms and care for people through different stages of life."
+          },
+          {
+            "id": "work:physician-assistant",
+            "text": "Examine patients and help plan their care."
+          },
+          {
+            "id": "work:nursing",
+            "text": "Care for patients and notice changes in their health."
+          }
+        ],
+        "questionnaireVersion": "2.0.0",
+        "matchingVersion": "2.1.0",
+        "preparation": "Bachelor’s degree + MD or DO + family medicine residency",
+        "salary": {
+          "careerId": "physician",
+          "title": "Physician · family medicine",
+          "entryContext": null,
+          "sharedWageScope": null,
+          "variableHours": false,
+          "stages": [
+            {
+              "key": "entry",
+              "years": 0,
+              "label": "Entry level",
+              "amount": 185725,
+              "display": "$190K",
+              "estimate": true,
+              "basis": "TWC entry-wage proxy",
+              "evidence": "official_entry_proxy"
+            },
+            {
+              "key": "year5",
+              "years": 5,
+              "label": "5 years",
+              "amount": 257808.6,
+              "display": "$260K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            },
+            {
+              "key": "year10",
+              "years": 10,
+              "label": "10 years",
+              "amount": 264160,
+              "display": "$260K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            },
+            {
+              "key": "year20",
+              "years": 20,
+              "label": "20 years",
+              "amount": 264160,
+              "display": "$260K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            }
+          ],
+          "geography": "Austin–Round Rock–San Marcos, Texas metro",
+          "dollarYear": 2025,
+          "referencePeriod": "May 2025",
+          "method": "modeled_local_wage_scenario",
+          "family": "healthcare",
+          "confidence": "modeled",
+          "label": "Starting pay: TWC proxy · later pay: illustrations",
+          "entryProxy": {
+            "id": "physician",
+            "soc": "29-1215",
+            "amount": 185725,
+            "geography": "Austin–Round Rock–San Marcos, TX",
+            "referencePeriod": "2025 annual wages",
+            "dollarYear": 2025,
+            "sourceURL": "https://texaswages.com/MSAWages/MSASocDetails?soc=29-1215&wgeType=entrywg",
+            "dataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+            "checkedAt": "2026-10-16",
+            "fallback": false,
+            "method": "mean_lowest_paid_third",
+            "measuredExperienceData": false
+          },
+          "paidTraining": {
+            "amount": 69528,
+            "year": "2026–2027",
+            "label": "First-year resident · Dell Medical School",
+            "sourceURL": "https://dellmed.utexas.edu/education/academics/graduate-medical-education/resources/salary-and-benefits",
+            "note": "Published PGY-1 base salary. Residency is paid training before independent family medicine practice.",
+            "stageKey": "residency"
+          },
+          "assumptions": {
+            "anchor": "local occupation median for later illustrations; TWC lower-third proxy for entry when available",
+            "anchorAmount": 263070,
+            "ratios": [
+              0.85,
+              0.98,
+              1.06,
+              1.1
+            ],
+            "upperBound": "No modeled stage above the larger of the observed median and upper-quartile wage; absent an upper quartile, no stage above 1.20 × anchor.",
+            "measuredExperienceData": false
+          },
+          "sources": [
+            {
+              "publisher": "Texas Workforce Commission / Labor Market Information",
+              "title": "2025 Annual MSA Wages · Entry wage proxy",
+              "url": "https://texaswages.com/MSAWages/MSASocDetails?soc=29-1215&wgeType=entrywg",
+              "role": "Mean wage of the lowest-paid one-third of workers in the selected occupation and location. It is an entry wage proxy, not observed pay by years of experience."
+            },
+            {
+              "publisher": "U.S. Bureau of Labor Statistics via O*NET OnLine",
+              "title": "OEWS May 2025 · Austin metro",
+              "url": "https://www.onetonline.org/link/localwages/29-1215.00?st=TX",
+              "role": "Local wage anchor; all experience ratios are Fieldguide assumptions."
+            },
+            {
+              "publisher": "U.S. Bureau of Labor Statistics",
+              "title": "How to use occupational wages",
+              "url": "https://www.bls.gov/oes/earnings.htm",
+              "role": "Wage variation guidance; does not publish experience-year estimates."
+            }
+          ],
+          "notes": [
+            "Mean wage of the lowest-paid one-third of workers in the selected occupation and location. It is an entry wage proxy, not observed pay by years of experience.",
+            "Starts after the required clinical education and credentials. Later figures exclude advanced-practice qualifications, overtime, and management promotions.",
+            "Figures hold purchasing power constant. No future inflation is added. Future labor-market conditions and personal outcomes can differ.",
+            "Entry means a first full-time qualified job after required preparation. Experience years begin there; education and apprenticeship years are separate.",
+            "Practice pay below starts after family medicine residency. The paid residency stage comes first. Other specialties have different routes and earnings."
+          ],
+          "release": "2026-10-16"
+        },
+        "salaryStage": "residency",
+        "nextSteps": [
+          {
+            "title": "Explore a health question",
+            "detail": "Use two reliable sources to explain a general health question. Notice whether you enjoy the science, explanation, or both. Use a public youth program for supervised exposure to healthcare.",
+            "dueDate": "",
+            "done": false
+          },
+          {
+            "title": "Map college, medical school, and residency",
+            "detail": "Compare college prerequisites, four-year medical training, and family medicine residency. Budget each stage separately; no college major guarantees medical school admission.",
+            "dueDate": "",
+            "done": false
+          },
+          {
+            "title": "Ask about a normal day in family medicine",
+            "detail": "Ask a physician and a resident about patient contact, documentation, training hours, and what they wish they knew in high school.",
+            "dueDate": "",
+            "done": false
+          }
+        ]
+      },
+      "monthlyBudget": {
+        "balance": 336.1767086133841,
+        "loanWhatIf": 1500,
+        "balanceAfterWhatIf": -1163.823291386616,
+        "targetRange": {
+          "minimum": 64025.17568768162,
+          "breathingRoom": 80823.69422991616,
+          "low": 65000,
+          "high": 85000,
+          "buffer": 0.2,
+          "spending": 3843.071358053283
+        }
+      }
+    },
+    {
+      "id": "dentistry",
+      "exactRatings": {
+        "curiosity-1": 5,
+        "curiosity-2": 4,
+        "curiosity-3": 4,
+        "curiosity-4": 4,
+        "curiosity-5": 2,
+        "curiosity-6": 3,
+        "curiosity-7": 3,
+        "curiosity-8": 4,
+        "curiosity-9": 4,
+        "curiosity-10": 4,
+        "curiosity-11": 2,
+        "curiosity-12": 3,
+        "curiosity-13": 3,
+        "curiosity-14": 5,
+        "curiosity-15": 4,
+        "curiosity-16": 5,
+        "curiosity-17": 2,
+        "curiosity-18": 3,
+        "curiosity-19": 2,
+        "curiosity-20": 2,
+        "curiosity-21": 4,
+        "curiosity-22": 3,
+        "curiosity-23": 2,
+        "curiosity-24": 3,
+        "curiosity-25": 3,
+        "curiosity-26": 4,
+        "curiosity-27": 3,
+        "curiosity-28": 4,
+        "curiosity-29": 2,
+        "curiosity-30": 3
+      },
+      "fields": [
+        "Health & helping",
+        "Design & creativity",
+        "Teaching & learning"
+      ],
+      "matches": [
+        "dentist",
+        "dental-hygiene",
+        "dental-assisting"
+      ],
+      "plan": {
+        "application": "Fieldguide",
+        "purpose": "Personal exploration plan; salary milestones are planning estimates in today’s dollars",
+        "exportedAt": "2026-10-17T02:40:37.814Z",
+        "entryPoint": "assessment",
+        "interests": {
+          "families": [
+            "health"
+          ],
+          "paths": [
+            "medicines-nutrition",
+            "allied-health"
+          ]
+        },
+        "primaryCareer": {
+          "id": "dentist",
+          "title": "Dentist · general dentistry"
+        },
+        "alternatives": [
+          {
+            "id": "dental-hygiene",
+            "title": "Dental Hygienists"
+          },
+          {
+            "id": "dental-assisting",
+            "title": "Dental assistants"
+          }
+        ],
+        "taskInterests": [
+          {
+            "id": "work:dentist",
+            "text": "Treat teeth and gums with careful, hands-on work."
+          },
+          {
+            "id": "work:dental-hygiene",
+            "text": "Help patients care for their teeth and gums."
+          },
+          {
+            "id": "work:dental-assisting",
+            "text": "Help a dental team prepare for patient care."
+          }
+        ],
+        "questionnaireVersion": "2.0.0",
+        "matchingVersion": "2.1.0",
+        "preparation": "College prerequisites + DDS or DMD",
+        "salary": {
+          "careerId": "dentist",
+          "title": "Dentist · general dentistry",
+          "entryContext": null,
+          "sharedWageScope": null,
+          "variableHours": false,
+          "stages": [
+            {
+              "key": "entry",
+              "years": 0,
+              "label": "Entry level",
+              "amount": 121174,
+              "display": "$120K",
+              "estimate": true,
+              "basis": "TWC entry-wage proxy",
+              "evidence": "official_entry_proxy"
+            },
+            {
+              "key": "year5",
+              "years": 5,
+              "label": "5 years",
+              "amount": 184426.19999999998,
+              "display": "$180K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            },
+            {
+              "key": "year10",
+              "years": 10,
+              "label": "10 years",
+              "amount": 199481.40000000002,
+              "display": "$200K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            },
+            {
+              "key": "year20",
+              "years": 20,
+              "label": "20 years",
+              "amount": 207009.00000000003,
+              "display": "$210K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            }
+          ],
+          "geography": "Austin–Round Rock–San Marcos, Texas metro",
+          "dollarYear": 2025,
+          "referencePeriod": "May 2025",
+          "method": "modeled_local_wage_scenario",
+          "family": "healthcare",
+          "confidence": "modeled",
+          "label": "Starting pay: TWC proxy · later pay: illustrations",
+          "entryProxy": {
+            "id": "dentist",
+            "soc": "29-1021",
+            "amount": 121174,
+            "geography": "Austin–Round Rock–San Marcos, TX",
+            "referencePeriod": "2025 annual wages",
+            "dollarYear": 2025,
+            "sourceURL": "https://texaswages.com/MSAWages/MSASocDetails?soc=29-1021&wgeType=entrywg",
+            "dataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+            "checkedAt": "2026-10-16",
+            "fallback": false,
+            "method": "mean_lowest_paid_third",
+            "measuredExperienceData": false
+          },
+          "assumptions": {
+            "anchor": "local occupation median for later illustrations; TWC lower-third proxy for entry when available",
+            "anchorAmount": 188190,
+            "ratios": [
+              0.85,
+              0.98,
+              1.06,
+              1.1
+            ],
+            "upperBound": "No modeled stage above the larger of the observed median and upper-quartile wage; absent an upper quartile, no stage above 1.20 × anchor.",
+            "measuredExperienceData": false
+          },
+          "sources": [
+            {
+              "publisher": "Texas Workforce Commission / Labor Market Information",
+              "title": "2025 Annual MSA Wages · Entry wage proxy",
+              "url": "https://texaswages.com/MSAWages/MSASocDetails?soc=29-1021&wgeType=entrywg",
+              "role": "Mean wage of the lowest-paid one-third of workers in the selected occupation and location. It is an entry wage proxy, not observed pay by years of experience."
+            },
+            {
+              "publisher": "U.S. Bureau of Labor Statistics via O*NET OnLine",
+              "title": "OEWS May 2025 · Austin metro",
+              "url": "https://www.onetonline.org/link/localwages/29-1021.00?st=TX",
+              "role": "Local wage anchor; all experience ratios are Fieldguide assumptions."
+            },
+            {
+              "publisher": "U.S. Bureau of Labor Statistics",
+              "title": "How to use occupational wages",
+              "url": "https://www.bls.gov/oes/earnings.htm",
+              "role": "Wage variation guidance; does not publish experience-year estimates."
+            }
+          ],
+          "notes": [
+            "Mean wage of the lowest-paid one-third of workers in the selected occupation and location. It is an entry wage proxy, not observed pay by years of experience.",
+            "Starts after the required clinical education and credentials. Later figures exclude advanced-practice qualifications, overtime, and management promotions.",
+            "Figures hold purchasing power constant. No future inflation is added. Future labor-market conditions and personal outcomes can differ.",
+            "Entry means a first full-time qualified job after required preparation. Experience years begin there; education and apprenticeship years are separate.",
+            "General dentistry employee pay. Dental practice revenue and owner profit are excluded; specialty training is separate."
+          ],
+          "release": "2026-10-16"
+        },
+        "salaryStage": "entry",
+        "nextSteps": [
+          {
+            "title": "Try a safe hand-skills and design project",
+            "detail": "Make a small clay model or detailed illustration. Notice precision, patience, and working with your hands. This is exploration, not a dental aptitude test.",
+            "dueDate": "",
+            "done": false
+          },
+          {
+            "title": "Map college prerequisites and dental school",
+            "detail": "Compare college preparation, an accredited DDS/DMD, and Texas licensing. Include instruments, clinical fees, living costs, and possible loan payments.",
+            "dueDate": "",
+            "done": false
+          },
+          {
+            "title": "Ask a dentist about the everyday work",
+            "detail": "Ask about patient anxiety, repetitive procedures, hand skills, employee pay, and the difference between practice revenue and take-home income.",
+            "dueDate": "",
+            "done": false
+          }
+        ]
+      },
+      "monthlyBudget": {
+        "balance": 3116.482925280051,
+        "loanWhatIf": 2000,
+        "balanceAfterWhatIf": 1116.482925280051,
+        "targetRange": {
+          "minimum": 64025.17568768162,
+          "breathingRoom": 80823.69422991616,
+          "low": 65000,
+          "high": 85000,
+          "buffer": 0.2,
+          "spending": 3843.071358053283
+        }
+      }
+    },
+    {
+      "id": "creative",
+      "exactRatings": {
+        "curiosity-1": 3,
+        "curiosity-2": 3,
+        "curiosity-3": 5,
+        "curiosity-4": 3,
+        "curiosity-5": 2,
+        "curiosity-6": 3,
+        "curiosity-7": 3,
+        "curiosity-8": 2,
+        "curiosity-9": 5,
+        "curiosity-10": 3,
+        "curiosity-11": 2,
+        "curiosity-12": 3,
+        "curiosity-13": 3,
+        "curiosity-14": 3,
+        "curiosity-15": 5,
+        "curiosity-16": 3,
+        "curiosity-17": 2,
+        "curiosity-18": 3,
+        "curiosity-19": 3,
+        "curiosity-20": 3,
+        "curiosity-21": 4,
+        "curiosity-22": 3,
+        "curiosity-23": 2,
+        "curiosity-24": 3,
+        "curiosity-25": 3,
+        "curiosity-26": 3,
+        "curiosity-27": 4,
+        "curiosity-28": 3,
+        "curiosity-29": 2,
+        "curiosity-30": 3
+      },
+      "fields": [
+        "Design & creativity"
+      ],
+      "matches": [
+        "graphic-design",
+        "industrial-design",
+        "web-interface-design"
+      ],
+      "plan": {
+        "application": "Fieldguide",
+        "purpose": "Personal exploration plan; salary milestones are planning estimates in today’s dollars",
+        "exportedAt": "2026-10-17T02:40:37.816Z",
+        "entryPoint": "assessment",
+        "interests": {
+          "families": [
+            "creative"
+          ],
+          "paths": [
+            "visual-arts",
+            "design"
+          ]
+        },
+        "primaryCareer": {
+          "id": "graphic-design",
+          "title": "Graphic Designers"
+        },
+        "alternatives": [
+          {
+            "id": "industrial-design",
+            "title": "Industrial designers"
+          },
+          {
+            "id": "web-interface-design",
+            "title": "Web & Digital Interface Designers"
+          }
+        ],
+        "taskInterests": [
+          {
+            "id": "work:graphic-design",
+            "text": "Make visual ideas clear and memorable."
+          },
+          {
+            "id": "work:industrial-design",
+            "text": "Sketch ideas for useful products."
+          },
+          {
+            "id": "work:web-interface-design",
+            "text": "Sketch a screen and test whether people understand it."
+          }
+        ],
+        "questionnaireVersion": "2.0.0",
+        "matchingVersion": "2.1.0",
+        "preparation": "Graphic design",
+        "salary": {
+          "careerId": "graphic-design",
+          "title": "Graphic Designers",
+          "entryContext": null,
+          "sharedWageScope": null,
+          "variableHours": false,
+          "stages": [
+            {
+              "key": "entry",
+              "years": 0,
+              "label": "Entry level",
+              "amount": 46122,
+              "display": "$46K",
+              "estimate": true,
+              "basis": "TWC entry-wage proxy",
+              "evidence": "official_entry_proxy"
+            },
+            {
+              "key": "year5",
+              "years": 5,
+              "label": "5 years",
+              "amount": 58554,
+              "display": "$60K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            },
+            {
+              "key": "year10",
+              "years": 10,
+              "label": "10 years",
+              "amount": 67662.40000000001,
+              "display": "$70K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            },
+            {
+              "key": "year20",
+              "years": 20,
+              "label": "20 years",
+              "amount": 74168.4,
+              "display": "$75K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            }
+          ],
+          "geography": "Austin–Round Rock–San Marcos, Texas metro",
+          "dollarYear": 2025,
+          "referencePeriod": "May 2025",
+          "method": "modeled_local_wage_scenario",
+          "family": "creative",
+          "confidence": "modeled",
+          "label": "Starting pay: TWC proxy · later pay: illustrations",
+          "entryProxy": {
+            "id": "graphic-design",
+            "soc": "27-1024",
+            "amount": 46122,
+            "geography": "Austin–Round Rock–San Marcos, TX",
+            "referencePeriod": "2025 annual wages",
+            "dollarYear": 2025,
+            "sourceURL": "https://texaswages.com/MSAWages/MSASocDetails?soc=27-1024&wgeType=entrywg",
+            "dataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+            "checkedAt": "2026-10-16",
+            "fallback": false,
+            "method": "mean_lowest_paid_third",
+            "measuredExperienceData": false
+          },
+          "assumptions": {
+            "anchor": "local occupation median for later illustrations; TWC lower-third proxy for entry when available",
+            "anchorAmount": 65060,
+            "ratios": [
+              0.68,
+              0.9,
+              1.04,
+              1.14
+            ],
+            "upperBound": "No modeled stage above the larger of the observed median and upper-quartile wage; absent an upper quartile, no stage above 1.20 × anchor.",
+            "measuredExperienceData": false
+          },
+          "sources": [
+            {
+              "publisher": "Texas Workforce Commission / Labor Market Information",
+              "title": "2025 Annual MSA Wages · Entry wage proxy",
+              "url": "https://texaswages.com/MSAWages/MSASocDetails?soc=27-1024&wgeType=entrywg",
+              "role": "Mean wage of the lowest-paid one-third of workers in the selected occupation and location. It is an entry wage proxy, not observed pay by years of experience."
+            },
+            {
+              "publisher": "U.S. Bureau of Labor Statistics, via O*NET OnLine",
+              "title": "OEWS May 2025 · Austin metro",
+              "url": "https://www.onetonline.org/link/localwages/27-1024.00?st=TX",
+              "role": "Local wage anchor; all experience ratios are Fieldguide assumptions."
+            },
+            {
+              "publisher": "U.S. Bureau of Labor Statistics",
+              "title": "How to use occupational wages",
+              "url": "https://www.bls.gov/oes/earnings.htm",
+              "role": "Wage variation guidance; does not publish experience-year estimates."
+            }
+          ],
+          "notes": [
+            "Mean wage of the lowest-paid one-third of workers in the selected occupation and location. It is an entry wage proxy, not observed pay by years of experience.",
+            "Models ordinary employee work in the same creative occupation. Excludes celebrity success, royalties, business revenue, and owner profit.",
+            "Figures hold purchasing power constant. No future inflation is added. Future labor-market conditions and personal outcomes can differ.",
+            "Entry means a first full-time qualified job after required preparation. Experience years begin there; education and apprenticeship years are separate."
+          ],
+          "release": "2026-10-16"
+        },
+        "salaryStage": "entry",
+        "nextSteps": [
+          {
+            "title": "Build three pieces for a small portfolio",
+            "detail": "Design a poster, a simple visual identity, and a digital layout. Ask for feedback and revise one piece. Notice whether critique and revisions hold your interest.",
+            "dueDate": "",
+            "done": false
+          },
+          {
+            "title": "Compare affordable design programs",
+            "detail": "Compare curriculum, portfolio review, internships, software access, net price, and transfer credit. College can build skills and connections; employment still depends on demonstrated work.",
+            "dueDate": "",
+            "done": false
+          },
+          {
+            "title": "Ask an employed designer about early-career work",
+            "detail": "Ask about deadlines, client feedback, portfolio expectations, and full-time roles versus freelance hours and business expenses.",
+            "dueDate": "",
+            "done": false
+          }
+        ]
+      },
+      "monthlyBudget": {
+        "balance": -1093.7348413866162,
+        "loanWhatIf": 250,
+        "balanceAfterWhatIf": -1343.7348413866162,
+        "targetRange": {
+          "minimum": 64025.17568768162,
+          "breathingRoom": 80823.69422991616,
+          "low": 65000,
+          "high": 85000,
+          "buffer": 0.2,
+          "spending": 3843.071358053283
+        }
+      }
+    },
+    {
+      "id": "trades",
+      "exactRatings": {
+        "curiosity-1": 5,
+        "curiosity-2": 3,
+        "curiosity-3": 2,
+        "curiosity-4": 3,
+        "curiosity-5": 2,
+        "curiosity-6": 4,
+        "curiosity-7": 5,
+        "curiosity-8": 3,
+        "curiosity-9": 2,
+        "curiosity-10": 3,
+        "curiosity-11": 2,
+        "curiosity-12": 4,
+        "curiosity-13": 5,
+        "curiosity-14": 2,
+        "curiosity-15": 2,
+        "curiosity-16": 3,
+        "curiosity-17": 2,
+        "curiosity-18": 4,
+        "curiosity-19": 3,
+        "curiosity-20": 3,
+        "curiosity-21": 2,
+        "curiosity-22": 3,
+        "curiosity-23": 2,
+        "curiosity-24": 5,
+        "curiosity-25": 5,
+        "curiosity-26": 3,
+        "curiosity-27": 2,
+        "curiosity-28": 3,
+        "curiosity-29": 2,
+        "curiosity-30": 4
+      },
+      "fields": [
+        "Trades & technical repair",
+        "Transport & production",
+        "Safety & emergency response"
+      ],
+      "matches": [
+        "electrician",
+        "hvac",
+        "plumbing"
+      ],
+      "plan": {
+        "application": "Fieldguide",
+        "purpose": "Personal exploration plan; salary milestones are planning estimates in today’s dollars",
+        "exportedAt": "2026-10-17T02:40:37.818Z",
+        "entryPoint": "assessment",
+        "interests": {
+          "families": [
+            "trades"
+          ],
+          "paths": [
+            "skilled-trades"
+          ]
+        },
+        "primaryCareer": {
+          "id": "electrician",
+          "title": "Electricians"
+        },
+        "alternatives": [
+          {
+            "id": "hvac",
+            "title": "HVAC technicians"
+          },
+          {
+            "id": "plumbing",
+            "title": "Plumbers & pipefitters"
+          }
+        ],
+        "taskInterests": [
+          {
+            "id": "work:electrician",
+            "text": "Install and repair electrical systems."
+          },
+          {
+            "id": "work:hvac",
+            "text": "Install and repair heating or cooling equipment."
+          },
+          {
+            "id": "work:plumbing",
+            "text": "Install and repair pipes and water systems."
+          }
+        ],
+        "questionnaireVersion": "2.0.0",
+        "matchingVersion": "2.1.0",
+        "preparation": "Electrical apprenticeship",
+        "salary": {
+          "careerId": "electrician",
+          "title": "Electricians",
+          "entryContext": null,
+          "sharedWageScope": null,
+          "variableHours": false,
+          "stages": [
+            {
+              "key": "entry",
+              "years": 0,
+              "label": "Entry level",
+              "amount": 43503,
+              "display": "$44K",
+              "estimate": true,
+              "basis": "TWC entry-wage proxy",
+              "evidence": "official_entry_proxy"
+            },
+            {
+              "key": "year5",
+              "years": 5,
+              "label": "5 years",
+              "amount": 59182.2,
+              "display": "$60K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            },
+            {
+              "key": "year10",
+              "years": 10,
+              "label": "10 years",
+              "amount": 65221.200000000004,
+              "display": "$65K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            },
+            {
+              "key": "year20",
+              "years": 20,
+              "label": "20 years",
+              "amount": 69448.5,
+              "display": "$70K",
+              "estimate": true,
+              "basis": "Illustrative pay scenario",
+              "evidence": "illustration"
+            }
+          ],
+          "geography": "Austin–Round Rock–San Marcos, Texas metro",
+          "dollarYear": 2025,
+          "referencePeriod": "May 2025",
+          "method": "modeled_local_wage_scenario",
+          "family": "trade",
+          "confidence": "modeled",
+          "label": "Starting pay: TWC proxy · later pay: illustrations",
+          "entryProxy": {
+            "id": "electrician",
+            "soc": "47-2111",
+            "amount": 43503,
+            "geography": "Austin–Round Rock–San Marcos, TX",
+            "referencePeriod": "2025 annual wages",
+            "dollarYear": 2025,
+            "sourceURL": "https://texaswages.com/MSAWages/MSASocDetails?soc=47-2111&wgeType=entrywg",
+            "dataURL": "https://texaswages.com/api/MSAAnnual/entrywg",
+            "checkedAt": "2026-10-16",
+            "fallback": false,
+            "method": "mean_lowest_paid_third",
+            "measuredExperienceData": false
+          },
+          "paidTraining": {
+            "amount": 43825,
+            "hourly": 21.07,
+            "year": "2026",
+            "stageKey": "apprenticeship",
+            "label": "First-period apprentice · Austin ETA example",
+            "sourceURL": "https://austineta.org/apprentice-program-2/",
+            "note": "Published annual illustration at 40 paid hours per week, effective January 5, 2026. Work availability and admission are not guaranteed. The source rounds the annual amount. This is one program example, not the regional entry-wage proxy.",
+            "applicationFee": 35,
+            "qualifiedExample": 79664
+          },
+          "assumptions": {
+            "anchor": "local occupation median for later illustrations; TWC lower-third proxy for entry when available",
+            "anchorAmount": 60390,
+            "ratios": [
+              0.82,
+              0.98,
+              1.08,
+              1.15
+            ],
+            "upperBound": "No modeled stage above the larger of the observed median and upper-quartile wage; absent an upper quartile, no stage above 1.20 × anchor.",
+            "measuredExperienceData": false
+          },
+          "sources": [
+            {
+              "publisher": "Texas Workforce Commission / Labor Market Information",
+              "title": "2025 Annual MSA Wages · Entry wage proxy",
+              "url": "https://texaswages.com/MSAWages/MSASocDetails?soc=47-2111&wgeType=entrywg",
+              "role": "Mean wage of the lowest-paid one-third of workers in the selected occupation and location. It is an entry wage proxy, not observed pay by years of experience."
+            },
+            {
+              "publisher": "U.S. Bureau of Labor Statistics, via O*NET OnLine",
+              "title": "OEWS May 2025 · Austin metro",
+              "url": "https://www.onetonline.org/link/localwages/47-2111.00?st=TX",
+              "role": "Local wage anchor; all experience ratios are Fieldguide assumptions."
+            },
+            {
+              "publisher": "U.S. Bureau of Labor Statistics",
+              "title": "How to use occupational wages",
+              "url": "https://www.bls.gov/oes/earnings.htm",
+              "role": "Wage variation guidance; does not publish experience-year estimates."
+            }
+          ],
+          "notes": [
+            "Mean wage of the lowest-paid one-third of workers in the selected occupation and location. It is an entry wage proxy, not observed pay by years of experience.",
+            "Starts after required training at the qualified-worker level. Apprenticeship pay is separate. No automatic contractor ownership, foreman promotion, or overtime.",
+            "Figures hold purchasing power constant. No future inflation is added. Future labor-market conditions and personal outcomes can differ.",
+            "Entry means a first full-time qualified job after required preparation. Experience years begin there; education and apprenticeship years are separate.",
+            "Austin ETA publishes a 2026 first-period apprentice example of $21.07/hour ($43,825/year at full-time hours) and a $79,664 qualified-worker example. These are one program’s schedule, not the regional TWC proxy or the generic career-growth illustration."
+          ],
+          "release": "2026-10-16",
+          "trainingSource": {
+            "publisher": "Austin Electrical Training Alliance",
+            "url": "https://austineta.org/apprentice-program-2/",
+            "role": "2026 apprenticeship pay example; separate from regional wage proxy."
+          }
+        },
+        "salaryStage": "apprenticeship",
+        "nextSteps": [
+          {
+            "title": "Explore electrical work safely",
+            "detail": "Visit a public training demonstration or approved student program. Practice algebra, measurement, and reading diagrams. Do not work on live wiring.",
+            "dueDate": "",
+            "done": false
+          },
+          {
+            "title": "Compare a paid apprenticeship and college options",
+            "detail": "Austin ETA combines four years and 8,000 hours of training. Review admission steps, published pay, tuition, tools, and Texas licensing. Affordable technical or business college study can add options.",
+            "dueDate": "",
+            "done": false
+          },
+          {
+            "title": "Ask an apprentice and a qualified electrician",
+            "detail": "Ask about hours, travel to job sites, physical demands, tuition, and how pay changes with completed training. Distinguish an employer schedule from the regional wage proxy.",
+            "dueDate": "",
+            "done": false
+          }
+        ]
+      },
+      "monthlyBudget": {
+        "balance": -1234.0623997199496,
+        "loanWhatIf": 0,
+        "balanceAfterWhatIf": -1234.0623997199496,
+        "targetRange": {
+          "minimum": 64025.17568768162,
+          "breathingRoom": 80823.69422991616,
+          "low": 65000,
+          "high": 85000,
+          "buffer": 0.2,
+          "spending": 3843.071358053283
+        }
+      }
+    }
+  ]
+}

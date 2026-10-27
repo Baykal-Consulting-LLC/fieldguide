@@ -1,0 +1,166 @@
+{
+  "experiment": "evidence-068-v1",
+  "baselineRunId": "835f3e9eeb139692035e7672805c414bf104f557fb5983856e6928d9b0fc7a87",
+  "rulesVersion": "evidence-067-v1",
+  "freezeSHA256": "088b3afe4058dab71506fde8f052364ba44533259c51134cd49069ecd6b7db79",
+  "summary": {
+    "all": {
+      "models": 1000,
+      "beforeTop": 789,
+      "afterTop": 795,
+      "beforeDegree": 653,
+      "afterDegree": 660,
+      "beforeCovers": 236,
+      "afterCovers": 239,
+      "gainedTop": 6,
+      "lostTop": 0,
+      "gainedDegree": 7,
+      "lostDegree": 0,
+      "changed": 20,
+      "newClaims": 28,
+      "encoded": 92,
+      "authored": 172,
+      "checksAdded": 49,
+      "retainedConflicts": 4
+    },
+    "development": {
+      "models": 758,
+      "beforeTop": 594,
+      "afterTop": 599,
+      "beforeDegree": 490,
+      "afterDegree": 495,
+      "beforeCovers": 183,
+      "afterCovers": 185,
+      "gainedTop": 5,
+      "lostTop": 0,
+      "gainedDegree": 5,
+      "lostDegree": 0,
+      "changed": 16,
+      "newClaims": 21,
+      "encoded": 67,
+      "authored": 130,
+      "checksAdded": 35,
+      "retainedConflicts": 3
+    },
+    "holdout": {
+      "models": 30,
+      "beforeTop": 26,
+      "afterTop": 26,
+      "beforeDegree": 21,
+      "afterDegree": 21,
+      "beforeCovers": 10,
+      "afterCovers": 10,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "changed": 0,
+      "newClaims": 0,
+      "encoded": 2,
+      "authored": 30,
+      "checksAdded": 4,
+      "retainedConflicts": 0
+    },
+    "holdout049": {
+      "models": 12,
+      "beforeTop": 11,
+      "afterTop": 11,
+      "beforeDegree": 11,
+      "afterDegree": 11,
+      "beforeCovers": 3,
+      "afterCovers": 3,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "changed": 0,
+      "newClaims": 0,
+      "encoded": 0,
+      "authored": 12,
+      "checksAdded": 0,
+      "retainedConflicts": 0
+    },
+    "holdout056": {
+      "models": 200,
+      "beforeTop": 158,
+      "afterTop": 159,
+      "beforeDegree": 131,
+      "afterDegree": 133,
+      "beforeCovers": 40,
+      "afterCovers": 41,
+      "gainedTop": 1,
+      "lostTop": 0,
+      "gainedDegree": 2,
+      "lostDegree": 0,
+      "changed": 4,
+      "newClaims": 7,
+      "encoded": 23,
+      "authored": 0,
+      "checksAdded": 10,
+      "retainedConflicts": 1
+    }
+  },
+  "rules": {
+    "degree-15202100": {
+      "domain": [
+        "math.patterns"
+      ],
+      "method": [
+        "math.checks-argument"
+      ],
+      "responsibility": [
+        "math.explains-reasoning"
+      ]
+    },
+    "degree-27204100": {
+      "domain": [
+        "audio.original-work"
+      ],
+      "method": [
+        "audio.revises-by-listening"
+      ],
+      "responsibility": [
+        "audio.uses-listener-feedback"
+      ]
+    },
+    "degree-27101300": {
+      "domain": [
+        "visual.original-work"
+      ],
+      "method": [
+        "visual.revises-form"
+      ],
+      "responsibility": [
+        "visual.develops-body-of-work"
+      ]
+    },
+    "degree-19309300": {
+      "domain": [
+        "history.investigates-past"
+      ],
+      "method": [
+        "history.compares-records"
+      ],
+      "responsibility": [
+        "history.presents-uncertainty"
+      ]
+    }
+  },
+  "limitations": [
+    "Research replay of frozen synthetic profiles; not observed student outcomes or validated accuracy. New Yes evidence is simulated and medium confidence.",
+    "Only four profession rules are tested. Of 172 authored profiles, only four have the previously frozen typed source annotations. The other authored interests remain unencoded, not absent. The 828 structured profiles can supply only scoped mathematics facts under these rules.",
+    "No new capture questions were administered; proposed questions are not validated scales. No 0.66 per-model answer lookup, text classifier, salary bonus, degree quota or lowered support threshold.",
+    "Holdout splits remain separate. Earlier profiles and aggregate outcomes have been inspected, so these are diagnostic holdouts, not pristine validation.",
+    "Known Yes/No answers and review holds are preserved. A retained No can block a new connection; the conflict remains for review.",
+    "Earnings and budgets are unchanged. Missing pay stays unassessed. Bachelor / graduate means a recognized college or graduate catalog route; associate programs remain separate."
+  ],
+  "checks": {
+    "models": 1000,
+    "sourceStatesChanged": 0,
+    "originalPreferencesAdded": 0,
+    "knownAnswersOverwritten": 0,
+    "holdsOverwritten": 0,
+    "supportedCareersLost": 0,
+    "liveFlowChanges": 0
+  }
+}

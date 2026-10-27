@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Full-profile interest matching · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Full-profile interest matching</h1><p>Retained development record. It may describe an earlier release.</p><a href="./profile-pattern-design-2026-10-17.md" download>Download original Markdown</a><pre class="document"># Full-profile interest matching
+
+Release 0.24.0 · Profile 6.0.0 · Matching engine 3.2.0 · 17 October 2026.
+
+## Official assessment foundation
+
+The 60-item O*NET® Interest Profiler Short Form is reproduced with the exact item text, sequence and five response labels from the public official API demo. The source response and hash are retained in `data-sources/onet-short-form-60-official.json`. Ten items measure each RIASEC interest. Response values 1–5 are scored as response minus one, giving raw totals 0–40. All 60 answers are required. No score is converted to an aptitude, normed percentile, or success probability.
+
+Assessment content: [O*NET Career Exploration Tools](https://www.onetcenter.org/IP.html), U.S. Department of Labor, Employment and Training Administration. Used under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/). O*NET® is a trademark of USDOL/ETA. Item text, response labels, order and documented scoring are unchanged; technical presentation and separate Fieldguide guidance are not endorsed by USDOL/ETA.
+
+## Full six-dimensional career comparison
+
+Pearson profile correlation compares all six raw totals with all six direct occupational interest values, in R–I–A–S–E–C order. The reviewed catalog contains 117 careers; 116 have complete six-value profiles from O*NET 31.0. Tattoo work has no direct profile and remains available without fabricated values or an unlabelled proxy.
+
+The [official October 2025 Short Form linkage report](https://www.onetcenter.org/dl_files/IP_Career_Returns.pdf) identifies very strong alignment from r=.729 and strong alignment from r=.608. Fieldguide uses those boundaries for interest categories, conservatively requires at least strong alignment for featured suggestions, and keeps other careers available to explore. Our catalog subset, grouping and presentation do not reproduce the official full occupation list or its Job Zone display rules.
+
+## Separate, transparent refinement
+
+Each field's display score is the mean of the three closest distinct occupational profiles, or all available profiles if fewer than three exist. A featured field requires a strong mean plus at least two endorsed daily-work preferences. Two disliked preferences exclude a featured field, without changing its correlation. Show zero to three supported fields without filler; keep every field available with explicit conflict notices. These are navigation rules, not additional validated RIASEC subscales.
+
+Eight task follow-ups within a field refine professions. Each distinct question counts once for a role, even if several chosen options connect to it. All follow-ups must be answered or explicitly marked unsure. Health adds two role-specific work choices and one separate preparation preference. The seven compared clinical professions need both role-specific work choices; conflicting preparation is flagged. Specific professional focus prevents unrelated general health roles from filling the shortlist. Suggestions need either strong interest alignment plus three task questions, or nonnegative overlap plus six questions, three refinements and four focused selections. The repeated-task route keeps the actual interest label. Specific role support, preparation agreement and task support determine order; correlation breaks ties. Equal interest-category/task-support tiers remain tied for three-card selection. Universal selection does not force a top three. A contradictory interest pattern cannot be promoted to strong alignment by task choices. Repeated task evidence with nonnegative overlap can bring careers into the main suggestions. Opposing or missing profiles remain labeled exploration options. Endorsed fields stay accessible in a separate work-interest section.
+
+Experience, values, education openness, and Austin lifestyle stay separate from official interest scores. Students can explicitly choose any career for exploration, including a role outside their highlighted matches.
+
+## Uncertainty and earlier work
+
+Incomplete or flat profiles cannot yield featured matches. A conservative custom display guard also withholds featured matches when raw totals differ by at most two or fewer than three answers differ from the modal answer. This is a limited-evidence caution, not an official instrument validity diagnosis. Raw scores remain available.
+
+All earlier custom interests, field preferences, experience choices, notes, completed actions, and saved plans remain stored. Earlier assessment order and index are retained as legacy metadata. The new official module begins unanswered; no old custom answer is mapped to an official item. Saved plans remain readable. Exports identify official scores and earlier custom answers separately.
+
+## Verification and remaining validation
+
+Twelve authored fictional student stories cover medicine, dentistry, visual design, film, trades, data, records, teaching, environment, mixed design/technology, business, and uncertainty. All six raw scores for every story agreed with the public official scoring service. Across eleven non-flat stories, 1,276 catalog correlations agreed with an independent covariance-form calculation. Source hashes and results are in `matching-engine-verification.json`. These checks do not establish student comprehension, stability, fairness, counseling utility, or predictive validity.
+
+The official instrument has published validation research. The complete Fieldguide interface, custom grouping and refinement still require appropriately consented high-school student evaluation, including comprehension, burden, repeatability, counselor review and actual exploration outcomes.
+</pre></main></html>

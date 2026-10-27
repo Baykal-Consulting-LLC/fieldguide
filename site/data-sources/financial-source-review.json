@@ -1,0 +1,623 @@
+{
+  "checkedAt": "2026-10-16",
+  "household": "One adult, no children, living in Austin",
+  "benchmarks": [
+    {
+      "topic": "Housing",
+      "published": "HUD FY 2027: $1,530 gross rent for one bedroom; $1,817 for two.",
+      "use": "The baseline one-bedroom picture totals $1,530 including its utility allowance. Other home levels are planning choices.",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2027/FY2027_FMR_Schedule.pdf"
+    },
+    {
+      "topic": "Buying a home",
+      "published": "Austin metro median closed sale: $421,000, September 2026. Freddie Mac 30-year rate: 7.40%, October 15.",
+      "use": "Price and rate anchors are sourced. Taxes, insurance, HOA, maintenance, closing costs, and PMI are editable assumptions. A median sale is not a promise of a particular house.",
+      "url": "https://www.unlockmls.com/news/september-2026-central-texas-housing-report",
+      "extraURL": "https://www.freddiemac.com/pmms"
+    },
+    {
+      "topic": "Groceries and health",
+      "published": "MIT Travis County 2026 basic-needs reference: food about $347/month and medical about $256/month.",
+      "use": "Frugal groceries now use $350, with higher choices for variety and convenience. The health allowance is an assumption. A basic-needs budget is not a leisure-and-savings lifestyle.",
+      "url": "https://livingwage.mit.edu/counties/48453"
+    },
+    {
+      "topic": "Driving",
+      "published": "Experian Q2 2026 national loan averages: used 11.19%; new 6.35%.",
+      "use": "New picture choices use these APRs. Car prices, insurance, fuel, parking, and maintenance remain scenarios. A paid-off car includes an allowance for replacement. Down payments are separate from monthly spending.",
+      "url": "https://www.experian.com/blogs/ask-experian/average-car-payment/"
+    },
+    {
+      "topic": "Transit",
+      "published": "CapMetro local calendar-month fare: $41.25. Rail/Express commuter fare: $96.25. Fare change announced for January 10, 2027.",
+      "use": "The lowest-cost transit choice uses local service, plus an assumed rides budget. It does not include unlimited commuter rail or guarantee a workable route.",
+      "url": "https://www.capmetro.org/fare/general-fares-overview/fares"
+    },
+    {
+      "topic": "Low-down-payment mortgages",
+      "published": "Freddie Mac’s broad PMI guide is $30–$70/month per $100,000 borrowed.",
+      "use": "Below 20% down, the model now adds PMI. Default 0.6% annually equals $50/month per $100,000. This is a midpoint estimate, not an insurance quote.",
+      "url": "https://myhome.freddiemac.com/buying/breaking-down-pmi"
+    },
+    {
+      "topic": "Restaurants, travel, hobbies, and clothes",
+      "published": "No source establishes a universal salary-to-brand, holiday, or restaurant lifestyle.",
+      "use": "These are chosen spending baskets, not measured Austin price bands. Dinner amounts include assumed tax and tip. Weekly dinners convert at 52/12 weeks per month.",
+      "url": "https://www.bls.gov/cex/csxgloss.htm"
+    }
+  ],
+  "professionalEducation": {
+    "physician": {
+      "institution": "UT Austin Dell Medical School",
+      "program": "Doctor of Medicine (MD)",
+      "academicYear": "2026–2027; entering class of 2026",
+      "period": "One medical-school academic year",
+      "status": "published",
+      "label": "Published medical-school tuition & required fees",
+      "amounts": {
+        "tuitionFeesResident": {
+          "value": 22074,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident tuition & required fees",
+          "scope": "One year, 2026 entering MD class"
+        },
+        "tuitionFeesNonresident": {
+          "value": 37138,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident tuition & required fees",
+          "scope": "One year, 2026 entering MD class"
+        }
+      },
+      "note": "Medical school follows undergraduate preparation. These amounts exclude living costs and other attendance expenses. Paid residency follows medical school; attending pay is a later stage.",
+      "sourceURLs": [
+        "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/tuition-rates/",
+        "https://catalog.utexas.edu/medical/tuition-fees/"
+      ],
+      "checkedAt": "2026-10-16",
+      "requirementsSourceURLs": [
+        "https://www.tmb.texas.gov/file/physician-eligibility-checklist",
+        "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm"
+      ],
+      "limitations": [
+        "Not a complete MD cost-of-attendance quote.",
+        "Not the price of undergraduate study, residency, or an MD/MBA.",
+        "Typical residency length differs from the Texas legal minimum postgraduate training requirement."
+      ]
+    },
+    "dentist": {
+      "institution": "UTHealth Houston School of Dentistry",
+      "program": "Doctor of Dental Surgery (DDS)",
+      "academicYear": "2026–2027",
+      "period": "First professional program year; later-year rows separately supplied",
+      "status": "published",
+      "label": "Published dental-school cost of attendance",
+      "amounts": {
+        "tuitionResident": {
+          "value": 36662,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident tuition only",
+          "scope": "One DDS program year; excludes required fees and living expenses"
+        },
+        "tuitionNonresident": {
+          "value": 57804,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident tuition only",
+          "scope": "One DDS program year; excludes required fees and living expenses"
+        },
+        "firstYearTotalResident": {
+          "value": 95020,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident first-year total before aid",
+          "scope": "Published first-year COA, including living and educational allowances"
+        },
+        "firstYearTotalNonresident": {
+          "value": 116162,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident first-year total before aid",
+          "scope": "Published first-year COA, including living and educational allowances"
+        },
+        "firstYearBooksSupplies": {
+          "value": 12506,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "First-year books & supplies",
+          "scope": "Included in first-year total"
+        },
+        "firstYearLiving": {
+          "value": 35076,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "First-year living allowance",
+          "scope": "Included in first-year total"
+        }
+      },
+      "note": "This is a Houston dental-school example after prerequisite college study. Later years cost different amounts. Do not multiply the first-year budget by four.",
+      "sourceURLs": [
+        "https://www.uth.edu/sfs/documents/2627_Budgets_UT_Updated%20(002).pdf",
+        "https://www.uth.edu/sfs/cost-of-attendance.htm"
+      ],
+      "checkedAt": "2026-10-16",
+      "yearRows": [
+        {
+          "programYear": 1,
+          "tuitionResident": 36662,
+          "totalResident": 95020,
+          "totalNonresident": 116162,
+          "livingAllowance": 35076,
+          "unit": "USD per program year",
+          "scope": "Published 2026–27 attendance budget before aid; program years have different costs."
+        },
+        {
+          "programYear": 2,
+          "tuitionResident": 36662,
+          "totalResident": 90696,
+          "totalNonresident": 111838,
+          "livingAllowance": 35076,
+          "unit": "USD per program year",
+          "scope": "Published 2026–27 attendance budget before aid; program years have different costs."
+        },
+        {
+          "programYear": 3,
+          "tuitionResident": 36662,
+          "totalResident": 86928,
+          "totalNonresident": 108070,
+          "livingAllowance": 35076,
+          "unit": "USD per program year",
+          "scope": "Published 2026–27 attendance budget before aid; program years have different costs."
+        },
+        {
+          "programYear": 4,
+          "tuitionResident": 36662,
+          "totalResident": 81379,
+          "totalNonresident": 102521,
+          "livingAllowance": 29230,
+          "unit": "USD per program year",
+          "scope": "Published 2026–27 attendance budget before aid; program years have different costs."
+        }
+      ],
+      "requirementsSourceURLs": [
+        "https://catalog.uth.edu/dentistry/programs/doctor-dental-surgery/",
+        "https://tsbde.texas.gov/licensing/dentists/dentist-license-by-exam/"
+      ],
+      "limitations": [
+        "Houston training example, not an Austin living estimate.",
+        "Current-year rows are not a guaranteed price for a future four-year cohort.",
+        "Costs exclude undergraduate preparation.",
+        "The bursar fee table and financial-aid COA use differing fee/insurance allowance totals; use the published COA total without mixing components from the other table."
+      ]
+    },
+    "law": {
+      "institution": "UT Austin School of Law",
+      "program": "Juris Doctor (JD)",
+      "academicYear": "2026–2027",
+      "period": "Nine months, fall and spring; first year",
+      "status": "published",
+      "label": "Published first-year law-school budget",
+      "amounts": {
+        "tuitionFeesResident": {
+          "value": 38236,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident tuition & fees",
+          "scope": "First-year fall and spring"
+        },
+        "tuitionFeesNonresident": {
+          "value": 56822,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident tuition & fees",
+          "scope": "First-year fall and spring"
+        },
+        "totalResident": {
+          "value": 63899,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident total before aid",
+          "scope": "Nine-month first-year attendance budget"
+        },
+        "totalNonresident": {
+          "value": 82485,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident total before aid",
+          "scope": "Nine-month first-year attendance budget"
+        }
+      },
+      "note": "The JD is an additional stage after undergraduate preparation. Summer living and variable bar/licensure costs are outside this nine-month total.",
+      "sourceURLs": [
+        "https://law.utexas.edu/financial-aid/cost-of-attendance/"
+      ],
+      "checkedAt": "2026-10-16",
+      "yearRows": [
+        {
+          "stage": "Continuing 2L/3L",
+          "tuitionFeesResident": 36598,
+          "tuitionFeesNonresident": 54384,
+          "totalResident": 62261,
+          "totalNonresident": 80047,
+          "unit": "USD per nine-month academic year",
+          "scope": "Normal 28-credit annual load; published continuing-student budget"
+        }
+      ],
+      "limitations": [
+        "Not a whole-JD price.",
+        "Summer non-enrollment living, variable licensure costs and insurance adjustments can add costs."
+      ]
+    },
+    "pharmacy": {
+      "institution": "UT Austin College of Pharmacy",
+      "program": "Doctor of Pharmacy (PharmD)",
+      "academicYear": "2026–2027",
+      "period": "Fall and spring at 12 or more credits each semester",
+      "status": "derived",
+      "label": "Derived two-semester professional tuition",
+      "amounts": {
+        "tuitionResidentPerSemester": {
+          "value": 11265,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident semester tuition",
+          "scope": "Published 12+ credit professional PharmD rate"
+        },
+        "tuitionNonresidentPerSemester": {
+          "value": 25831,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident semester tuition",
+          "scope": "Published 12+ credit professional PharmD rate"
+        },
+        "fallSpringTuitionResident": {
+          "value": 22530,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident fall + spring tuition",
+          "scope": "Derived: 2 × $11,265; excludes summer and living"
+        },
+        "fallSpringTuitionNonresident": {
+          "value": 51662,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident fall + spring tuition",
+          "scope": "Derived: 2 × $25,831; excludes summer and living"
+        }
+      },
+      "note": "The professional PharmD uses different tuition from a bachelor’s degree. P2 and P3 include required summer study. Living costs, supplies, travel and insurance add costs.",
+      "sourceURLs": [
+        "https://catalog.utexas.edu/general-information/registration-tuition-and-fees/tuition-and-fees/tables-tuition-for-fall-and-spring/",
+        "https://pharmacy.utexas.edu/apply/pharmd/tuition"
+      ],
+      "checkedAt": "2026-10-16",
+      "limitations": [
+        "The annual tuition subtotal is arithmetic from two published semester rates, not a published whole-year COA.",
+        "Required summer enrollment is excluded.",
+        "Not a four-year total or a quote for another pharmacy degree."
+      ]
+    },
+    "physician-assistant": {
+      "institution": "University of Texas Medical Branch (UTMB), Galveston",
+      "program": "Physician Assistant Studies",
+      "academicYear": "Not stated on program-cost page",
+      "period": "Program Year 1 and Year 2",
+      "status": "undated",
+      "label": "Published program estimate · price year not stated",
+      "amounts": {
+        "year1TuitionFeesResident": {
+          "value": 27904,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident year-one tuition & fees",
+          "scope": "Program estimate; price year unspecified"
+        },
+        "year2TuitionFeesResident": {
+          "value": 27001,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident year-two tuition & fees",
+          "scope": "Program estimate; price year unspecified"
+        },
+        "year1TuitionFeesNonresident": {
+          "value": 52032,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident year-one tuition & fees",
+          "scope": "Program estimate; price year unspecified"
+        },
+        "year2TuitionFeesNonresident": {
+          "value": 52058,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident year-two tuition & fees",
+          "scope": "Program estimate; price year unspecified"
+        }
+      },
+      "note": "Graduate PA preparation follows prerequisite college study. The program separately lists health insurance, housing, supplies, transport and course expenses. Tuition is not the full cost.",
+      "sourceURLs": [
+        "https://www.utmb.edu/som/physician-assistant/program-overview/program-costs"
+      ],
+      "checkedAt": "2026-10-16",
+      "yearRows": [
+        {
+          "programYear": 1,
+          "tuitionFeesResident": 27904,
+          "tuitionFeesNonresident": 52032,
+          "housingFoodEstimate": 22000,
+          "healthInsuranceEstimate": 3500,
+          "unit": "USD per program year",
+          "scope": "Published program estimates; housing and insurance are additional to tuition/fees"
+        },
+        {
+          "programYear": 2,
+          "tuitionFeesResident": 27001,
+          "tuitionFeesNonresident": 52058,
+          "housingFoodEstimate": 23500,
+          "healthInsuranceEstimate": 4100,
+          "unit": "USD per program year",
+          "scope": "Published program estimates; housing and insurance are additional to tuition/fees"
+        }
+      ],
+      "limitations": [
+        "No explicit academic price year; do not label 2026–27.",
+        "Not a full attendance total.",
+        "Galveston program example, not Austin cost of living."
+      ]
+    },
+    "occupational-therapy": {
+      "institution": "University of Texas Medical Branch (UTMB), Galveston",
+      "program": "Entry-level Doctor of Occupational Therapy (OTD)",
+      "academicYear": "2025–2026 rates; page updated February 13, 2026",
+      "period": "Three program years, separately listed",
+      "status": "old",
+      "label": "Published OTD estimate · 2025–26 rates",
+      "amounts": {
+        "year1TuitionFeesResident": {
+          "value": 22968.72,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident year-one tuition & fees",
+          "scope": "Source annual row, 2025–26 rate basis"
+        },
+        "year2TuitionFeesResident": {
+          "value": 22128.72,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident year-two tuition & fees",
+          "scope": "Source annual row, 2025–26 rate basis"
+        },
+        "year3TuitionFeesResident": {
+          "value": 12048.72,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident year-three tuition & fees",
+          "scope": "Source annual row, 2025–26 rate basis"
+        }
+      },
+      "note": "These are older published program estimates, not full attendance budgets. The source total has conflicting course/lab fee inclusion, so only the clearly itemized annual rows are used.",
+      "sourceURLs": [
+        "https://www.utmb.edu/shp/academics/occt/costs"
+      ],
+      "checkedAt": "2026-10-16",
+      "yearRows": [
+        {
+          "programYear": 1,
+          "tuitionFeesResident": 22968.72,
+          "tuitionFeesNonresident": 45199.72,
+          "unit": "USD per program year"
+        },
+        {
+          "programYear": 2,
+          "tuitionFeesResident": 22128.72,
+          "tuitionFeesNonresident": 43413.72,
+          "unit": "USD per program year"
+        },
+        {
+          "programYear": 3,
+          "tuitionFeesResident": 12048.72,
+          "tuitionFeesNonresident": 21981.72,
+          "unit": "USD per program year"
+        }
+      ],
+      "limitations": [
+        "Not current 2026–27 rates.",
+        "Living, books, supplies and insurance excluded.",
+        "Source headline total $58,416.16 differs from resident annual-row sum $57,146.16 by $1,270, the separately listed course/lab fee amount; footer also says those fees excluded.",
+        "Do not present a reconciled whole-program total as officially verified."
+      ]
+    },
+    "physical-therapy": {
+      "institution": "University of Texas Medical Branch (UTMB), Galveston",
+      "program": "Doctor of Physical Therapy (DPT)",
+      "academicYear": "2026–2027",
+      "period": "One 12-credit semester example",
+      "status": "published",
+      "label": "Published DPT semester fee example",
+      "amounts": {
+        "tuitionFeesResident12Credit": {
+          "value": 6271.74,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident 12-credit semester fees",
+          "scope": "Includes listed one-time orientation/ID charges; distance fee varies"
+        }
+      },
+      "note": "This illustrates one DPT semester. A complete DPT budget needs the actual sequence of semester credits, clinical travel, living, insurance and supplies.",
+      "sourceURLs": [
+        "https://www.utmb.edu/enrollmentservices/resources/studentaccounts/shp-dpt-fee-sheet-details",
+        "https://www.utmb.edu/shp/academics/phyt/costs"
+      ],
+      "checkedAt": "2026-10-16",
+      "limitations": [
+        "Not an annual or full-program price.",
+        "Not all DPT semesters use 12 credits.",
+        "One-time fees must not be repeatedly multiplied.",
+        "Residential DPT full-program financial fact sheet is linked by the institution but SharePoint denied audit access."
+      ]
+    },
+    "clinical-psychologist": {
+      "institution": "UT Austin Department of Psychology",
+      "program": "Psychology PhD, including the department’s clinical training area",
+      "academicYear": "Current funding page; award year not explicitly stated",
+      "period": "Qualifying doctoral support for at least five years",
+      "status": "funding",
+      "label": "Published doctoral funding example",
+      "amounts": {
+        "annualStipendMinimum": {
+          "value": 30000,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Minimum annual stipend",
+          "scope": "12-month stipend; qualifying departmental TA/GRA or fellowship funding"
+        },
+        "tuitionAssistancePerSemester": {
+          "value": 4464,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Published tuition assistance per semester",
+          "scope": "Department page states full tuition assistance and gives this current amount"
+        }
+      },
+      "note": "Doctoral education can be funded. UT Psychology describes TA/GRA support or fellowships, tuition assistance and eligible health coverage, contingent on satisfactory progress. This is not guaranteed funding at every psychology program.",
+      "sourceURLs": [
+        "https://cola.utexas.edu/psychology/graduate-program/prospective-graduate-students/funding.html"
+      ],
+      "checkedAt": "2026-10-16",
+      "limitations": [
+        "Funding terms depend on admission, satisfactory progress and appointment eligibility.",
+        "The page does not identify an academic price year.",
+        "Clinical licensing requires additional qualifying supervised training and examinations.",
+        "A PhD funding package should not be modeled as an unfunded generic tuition bill multiplied by years."
+      ]
+    },
+    "genericGraduate": {
+      "institution": "UT Austin",
+      "program": "General graduate reference; not a professional-program quote",
+      "academicYear": "2026–2027",
+      "period": "Fall and spring; 9 credits per semester; living away from parents",
+      "status": "published",
+      "label": "Published generic graduate budget",
+      "amounts": {
+        "tuitionResident": {
+          "min": 8684,
+          "max": 10554,
+          "currency": "USD",
+          "unit": "USD per fall/spring academic year",
+          "label": "Texas resident tuition range",
+          "scope": "Generic graduate reference at nine credits per semester"
+        },
+        "totalResident": {
+          "min": 33252,
+          "max": 35493,
+          "currency": "USD",
+          "unit": "USD per fall/spring academic year",
+          "label": "Texas resident total before aid",
+          "scope": "Published generic graduate COA with off/on-campus housing"
+        }
+      },
+      "note": "Graduate and professional credentials add a separate education stage. This broad UT graduate reference is not the price of PA, PT, OT, MD, DDS, JD or PharmD programs.",
+      "sourceURLs": [
+        "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/cost-of-attendance/"
+      ],
+      "checkedAt": "2026-10-16",
+      "limitations": [
+        "Program-specific rates and summer enrollment differ.",
+        "Funding/assistantships can change net cost.",
+        "Not a whole-degree cost."
+      ]
+    },
+    "veterinary": {
+      "institution": "Texas Tech University School of Veterinary Medicine, Amarillo",
+      "program": "Doctor of Veterinary Medicine (DVM)",
+      "academicYear": "Program-budget price year not stated; current fee schedule covers 2026–2028",
+      "period": "One professional program year; later-year budgets shown separately",
+      "status": "undated",
+      "label": "Published DVM program estimate · price year not stated",
+      "amounts": {
+        "tuitionFeesResident": {
+          "value": 22000,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident tuition & fees estimate",
+          "scope": "One DVM program year; published program estimate, not an exact bill"
+        },
+        "tuitionFeesNonresident": {
+          "value": 32800,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident tuition & fees estimate",
+          "scope": "One DVM program year; published program estimate, not an exact bill"
+        },
+        "firstYearTotalResident": {
+          "value": 46660,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Texas resident first-year total before aid",
+          "scope": "Includes tuition/fees, books, housing, meals, transport and personal allowances"
+        },
+        "firstYearTotalNonresident": {
+          "value": 57460,
+          "currency": "USD",
+          "unit": "USD",
+          "label": "Nonresident first-year total before aid",
+          "scope": "Includes tuition/fees, books, housing, meals, transport and personal allowances"
+        }
+      },
+      "note": "This is an Amarillo DVM training example after prerequisite college study. The current program page gives yearly estimates without naming their academic price year. Its fourth-year budget is higher, especially for clinical travel.",
+      "sourceURLs": [
+        "https://www.depts.ttu.edu/vetschool/dvm-admissions/how-to-apply/financial.php",
+        "https://www.depts.ttu.edu/financialaid/costToAttend.php",
+        "https://www.depts.ttu.edu/studentbusinessservices/feeInfo/documents/tuition-fees/2026-2028_TTU_DVM_Schedule_of_Fees.pdf"
+      ],
+      "checkedAt": "2026-10-16",
+      "yearRows": [
+        {
+          "programYear": 1,
+          "tuitionFeesResident": 22000,
+          "tuitionFeesNonresident": 32800,
+          "totalResident": 46660,
+          "totalNonresident": 57460,
+          "unit": "USD per DVM program year",
+          "scope": "Published yearly estimate before aid; price year not stated"
+        },
+        {
+          "programYear": 2,
+          "tuitionFeesResident": 22000,
+          "tuitionFeesNonresident": 32800,
+          "totalResident": 45160,
+          "totalNonresident": 55960,
+          "unit": "USD per DVM program year",
+          "scope": "Published yearly estimate before aid; price year not stated"
+        },
+        {
+          "programYear": 3,
+          "tuitionFeesResident": 22000,
+          "tuitionFeesNonresident": 32800,
+          "totalResident": 45160,
+          "totalNonresident": 55960,
+          "unit": "USD per DVM program year",
+          "scope": "Published yearly estimate before aid; price year not stated"
+        },
+        {
+          "programYear": 4,
+          "tuitionFeesResident": 22000,
+          "tuitionFeesNonresident": 32800,
+          "totalResident": 57284,
+          "totalNonresident": 68084,
+          "unit": "USD per DVM program year",
+          "scope": "Published yearly estimate before aid; price year not stated"
+        }
+      ],
+      "limitations": [
+        "Program budget page updated April 17, 2026 and linked from the institution’s 2026–27 aid budget, but does not itself state its academic price year.",
+        "Current 2026–2028 DVM fee schedule lists tuition and component fees; it does not certify the program page’s full attendance allowances as 2026–27 amounts.",
+        "Amarillo training costs are not an Austin lifestyle estimate.",
+        "Costs exclude prerequisite undergraduate education.",
+        "Do not multiply the first-year total by four or treat annual estimates as a guaranteed cohort price."
+      ]
+    }
+  }
+}

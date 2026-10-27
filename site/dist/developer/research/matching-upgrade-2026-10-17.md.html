@@ -1,0 +1,126 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Matching upgrade: practical calibration and guidance · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Matching upgrade: practical calibration and guidance</h1><p>Retained development record. It may describe an earlier release.</p><a href="./matching-upgrade-2026-10-17.md" download>Download original Markdown</a><pre class="document"># Matching upgrade: practical calibration and guidance
+
+Research date: 2026-10-17. Scope: read-only review of engine 3.2.0 and profile 6.0.0, with recommendations for implementation. No student study was conducted. No claim that Fieldguide's added rules are psychometrically validated.
+
+## Keep the official assessment intact
+
+Preserve all 60 Short Form items, the official response labels and their stable sequence. Continue scoring each of six dimensions as sum(response − 1), 0–40. Keep full six-dimensional Pearson correlation with occupation vectors. The official linkage paper emphasizes profile shape rather than absolute scores, supplies the .729/.608 thresholds, and allows exploration beyond initial returns. Fieldguide's three-pathway grouping and additional task gates are custom rules, not that official algorithm. [O*NET linkage paper](https://www.onetcenter.org/dl_files/IP_Career_Returns.pdf).
+
+The 30-question Mini-IP is a separately developed instrument, not a license to trim arbitrary items from the Short Form. Retain the 60 here. [Official formats](https://www.onetcenter.org/IP.html). Keep instrument attribution and separation of original follow-ups. [Tools license](https://www.onetcenter.org/license_tools.html).
+
+## Findings in the present implementation
+
+- `profileQuestions` requires 113 responses: 60 official interests, 36 original field preferences, 12 experience clues, one values choice, four working-context questions. All are required before pathways.
+- Context and values are saved but absent from `journeyFieldConnection` / `professionSuggestions`. This is a useful separation from interest scores, but students currently receive too little practical explanation from those answers.
+- `journeyFieldConnection` averages the top three distinct SOC correlations in each family. Adding a highly correlated role changes that average; a family with many alternatives has more opportunity to include high correlations. The mean is not a normed family assessment.
+- `professionSuggestions` counts matched question IDs. A multi-select answer matching many roles can add support to many of them. The all-options heuristic detects only the extreme of choosing every option to every task question. Similar generic/refinement prompts can count related evidence repeatedly.
+- Task-supported careers must meet fixed counts of 6 tasks, 3 refinement questions and 4 focused questions. These counts are not normalized across families and can be overly rigid where question coverage differs.
+- Near-flat profiles are blocked from task-supported recommendations. Do not turn weak differentiation into a claim that the student lacks interests or ability. Offer deliberate exploration with the same saved plan mechanism.
+- `reportedStrengths` maps 12 experience responses against only the four retained top skills and three top abilities. These are experience clues, not an aptitude test or a complete strength map.
+- `planningGuidance` has detailed actions for physician, dentist, graphic design and electrician; the remaining careers receive the same generic three actions. Source task lists are already available, but a raw regulated task must not become an unsupervised student activity.
+- The current 54 narrative cases contain 38 distinct six-score vectors. They exercise all 12 families and many careers, but 50/50 target appearances in these constructed cases is regression behavior, not student accuracy or predictive validation.
+
+## Adaptive additional questions, with a discoverable full bank
+
+Implement a deterministic core plus targeted expansion, preserving all existing answers and the complete bank for developer review:
+
+1. Complete the official 60.
+2. Give one broad, original task prompt per family (12), so no family is omitted solely because of RIASEC.
+3. Request the other two field facets for every family with strong profile alignment OR an initial task response &gt;=4, plus any family explicitly selected by the student. These are the same existing IDs and wording. A student can open any other field and answer its remaining facets.
+4. Ask experience clues relevant to the chosen shortlist, but keep a route to all 12. Experience affects beginner activities, never permission to explore a profession.
+5. Ask values and context once, preserving them across fields.
+6. In a field, require balanced evidence across at least three distinct domains (output/tasks, work process, people/context, training/responsibility where applicable). Do not award independent support multiple times for near-duplicate wording in the same domain. Distinguish optional unasked from unanswered required questions.
+
+Store `requiredQuestionIds` and a routing-policy version when a new core starts; preserve earlier arrays for legacy drafts. A later answer can expand the set but should not erase answers, steps, notes or history. Calculate progress from the current required set; do not show a denominator that changes unpredictably mid-question.
+
+For profession evidence, count distinct supported domains first and raw question count second. For multi-select, retain all interests but tag selecting all available choices as broad rather than focused evidence. Avoid inventing a probability from this. Keep interest alignment, task support, contextual tradeoffs and learning experience as separate objects. If fewer than three directions fit, show fewer with an obvious way to choose another.
+
+## Source-backed context already exists for 114 of 117 careers
+
+`occupationEssentials` does not contain context, but `occupation-data.js` exports `occupations`, whose `o.context.items` already provide it. Do not duplicate the large raw CSV in the browser. Existing field shape:
+
+```
+{ id, name,
+  responses: [{ category, label, percent, sampleSize, referenceDate }],
+  distributionStatus, suppressedCategoryCount, sampleSize, scale, referenceDate }
+```
+
+`o.context.status` is `sourced` for 114; `not_available` for three. The 14 descriptors include:
+
+| Meaning | Element ID | Response interpretation |
+|---|---|---|
+| Schedule | 4.C.3.d.4 | 1 regular, 2 irregular, 3 seasonal; not an ordered intensity scale |
+| Teamwork | 4.C.1.b.1.e | 4 very important, 5 extremely important |
+| Deadline pressure | 4.C.3.d.1 | 4 weekly or more, 5 every day |
+| Contact | 4.C.1.a.4 | Category labels supplied in each item; use them |
+| Face-to-face | 4.C.1.a.2.l | Category labels supplied |
+| Public/customer work | 4.C.1.b.1.f | 4/5 importance categories |
+| Difficult interactions | 4.C.1.d.2 | 4/5 frequent categories |
+| Conflict | 4.C.1.d.1 | 4/5 frequent categories |
+| Standing | 4.C.2.d.1.b | 4 more than half, 5 continual/almost continual |
+| Indoor, conditioned | 4.C.2.a.1.a | Frequency labels supplied |
+| Indoor, unconditioned | 4.C.2.a.1.b | Frequency labels supplied |
+| Outdoor, exposed | 4.C.2.a.1.c | Frequency labels supplied |
+| Outdoor, covered | 4.C.2.a.1.d | Frequency labels supplied |
+| Disease/infection | 4.C.2.c.1.b | Frequency labels supplied |
+
+All 14 are present for each of the 114. Complete distributions: schedule108, team104, pressure101, contact106, face-to-face107, public97, difficult-interactions102, conflict95, standing103, conditioned-indoor107, unconditioned-indoor104, exposed-outdoor103, covered-outdoor103, infection109. Suppressed individual categories must remain suppressed. Never convert missing categories into zero or fill the remainder to 100. Raw files and source hashes already exist in `.cache/onet31/work_context*.csv` and `data-sources/occupation-essentials-receipt.json`.
+
+Use selected unsuppressed category shares as a *lower bound*. An editorial rule such as &gt;=60% reporting high teamwork is sufficient for a concise fact even if another category is suppressed; it is not a personal likelihood. Suppression that prevents a conclusion means use a sourced qualitative description, not a zero-exposure claim. Context is occupation-level and employer-specific schedules differ. [O*NET definitions](https://www.onetonline.org/find/descriptor/browse/4.C/).
+
+Recommended student copy from facts: “Teamwork is a big part of this work.” “Deadlines are frequent.” “Most surveyed workers reported a regular schedule.” Do not convert 'regular' into Monday–Friday, daytime, short hours, or no on-call duty.
+
+## Fill the three missing context cases with qualitative facts
+
+These provide useful complete guidance without pretending missing survey percentages exist.
+
+- `financial-analysis` / 13-2051.00: Office work; most full time; some exceed 40 hours; some travel to companies or clients. Use the BLS occupational description. Do not borrow the financial manager context as though it were the same occupation. [BLS Financial Analysts](https://www.bls.gov/ooh/business-and-financial/financial-analysts.htm). O*NET's current page explicitly has only a subset of profile data, explaining this source fallback. [O*NET profile](https://www.onetonline.org/link/summary/13-2051.00).
+- `emt` / 29-2042.00: Team-based emergency response; physically strenuous work indoors and outdoors; nights, weekends, holidays and extended shifts can occur; patient lifting and infection precautions. BLS covers EMTs and paramedics together, so mark that scope in provenance without replacing EMT's pay or certification with paramedic values. [BLS EMTs and Paramedics](https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm).
+- `tattoo` / broad 27-1019.00 proxy: Direct client work in a licensed studio; infection prevention, protective equipment, instrument handling and client records are substantive parts of work. Use Texas's tattoo-specific rules rather than other artists' context percentages. [Texas DSHS licensing requirements](https://www.dshs.texas.gov/tattoo-body-piercing-studios/licensing-requirements-tattoo-body-piercing-studios), [Texas DSHS sanitation FAQ](https://www.dshs.texas.gov/tattoo-body-piercing-studios/frequently-asked-questions-about-getting-a-tattoo-or-body-piercing).
+
+Represent these as `qualitativeFacts:[{id,text,sourceURL,scope,checkedAt}]`, not artificial percentage rows. A compact fact can be shown with a source link in More info; there need not be a data-gap warning or blank panel.
+
+## Context tradeoffs, not hidden score penalties
+
+Return `practicalFit:{supports:[],considerations:[],education:[],evidence:[]}` separately from interest ranking.
+
+- Prefers independent work + strong team evidence: “You prefer working on your own. This work relies on a team.” Do not equate decision freedom with working alone.
+- Prefers steady routine + frequent pressure: “You prefer a steady day. Deadlines are common here.” Schedule regularity and task repetition are different facts; do not collapse them.
+- Prefers desk + substantial standing/outdoor work: one concise activity-setting tradeoff. A student may choose multiple settings; mixed preferences should not generate contradictory warnings.
+- Considers practical training but professional degree required: display the full route and timeline; keep career selectable. College readiness is not inferred from wealth, confidence or lack of exposure.
+- Values stability: do not infer employment stability from schedule regularity. Earnings variability should come from actual employment/pay evidence.
+- Values creativity/impact/curiosity/mastery/community: explain concrete related tasks and a discussion prompt; do not invent a current O*NET work-value score.
+
+The Work Importance Locator was retired June 3, 2024. [O*NET notice](https://www.onetcenter.org/WIL.html). CareerOneStop's current Work Values Matcher ranks 20 statements into six core values; Fieldguide's eight priorities are original preferences and are not that assessment. [CareerOneStop explanation](https://www.careeronestop.org/Toolkit/Careers/work-values-matcher-help.aspx).
+
+## Activities and the feedback loop
+
+Keep a stable action ID and career ID. On completed activity, offer one response: More interested / Less interested / Still curious. Optionally save a short note. Store a dated append-only reflection event with activity ID, career ID and response; do not overwrite the original interest answers or the completed flag.
+
+Use that feedback to prioritize the next activity and show “You wanted to try more after your project.” A repeated positive observation may surface that field as student-selected exploration. It must not silently alter official RIASEC totals or be labelled measured aptitude. A negative observation should invite another task or related role, not delete the entire field. For existing notes, preserve them verbatim and add the structured response alongside.
+
+Generate one age-appropriate field-specific task for every career using its tasks and education requirements. Use family templates plus per-role overrides for high-risk/clinical roles. Good default: compare public examples, make a safe mock-up, explain a concept, inspect a fictional dataset, plan a process. No real client care, live electrical work, controlled equipment, financial advice or regulated practice. The role's real duties remain visible in its information page; the activity is clearly a student exploration.
+
+## Sensitivity and held-out evaluation
+
+Keep the 54 existing stories frozen as regression examples. Add a separate held-out suite authored before looking at its recommendations. Include all 12 families, mixed and flat patterns, novice and experienced profiles, financial constraints, conflicting route preferences, broad multi-select answers and contradictory tasks.
+
+Useful deterministic checks:
+
+1. **Single-answer local stability:** For every story, perturb each of the 60 official responses ±1 within range. Report raw score deltas, correlation deltas, pathway overlap and career rank shifts. Do not fail every boundary crossing; record cases near thresholds for independent review. A single answer must not alter training requirements or pay.
+2. **Custom follow-up sensitivity:** Perturb one field facet or one selected option. A repeated sentence/domain must not independently create a strong recommendation. Adding an irrelevant option must not raise evidence for an unrelated role.
+3. **Catalog balance:** Duplicate a SOC alias or add an unrelated career; existing SOC correlations must remain unchanged and duplicates must not increase a family's support. Compare family ranking using fixed documented representative sets versus top-three catalog members before changing the production rule.
+4. **Experience fairness:** Change all skills from new to teach. Official scores and interest-based eligibility unchanged; beginner plan suggestions change. Income and household inputs likewise must not alter interests.
+5. **Context separation:** Change team/routine/education values. Interest comparison unchanged; factual tradeoffs update; explicit user choices remain possible.
+6. **Multi-select breadth:** Select all choices in a few questions, not just all questions. These should count as broad exploration rather than focused role support.
+7. **Cross-field cases:** Writing with investigation/social interests; culinary work with artistic/enterprising interests; dentistry with manual precision and social/science interests; healthcare with strong helping but lower direct care preference. Sensible task-supported careers remain discoverable while evidence conflicts are explained.
+8. **Persistence:** Save/reload and switch careers after activity feedback. Earlier interests, notes, completions and dated feedback survive. Current education, salary and lifestyle follow current career; history is labelled earlier work.
+
+Report metrics as software behavior: number of stories, perturbations, threshold cases, support changes, preservation failures and reviewed exceptions. Do not call them predictive accuracy, career success probability or validation of original questions.
+
+## Real-student pilot package
+
+Build a local developer worksheet that can export a blank session script and record observations, without publishing minors' responses. First tasks: resume a paused guide, explain why a pathway appears, choose another field, interpret entry pay and training timeline, compare lifestyle, complete an activity and change direction. Observe independently rather than coach. Record misunderstood prompts, abandonment point, task completion, assistance and interpretations. The official Digital.gov script uses consent, think-aloud observation, realistic task scenarios, follow-up and wrap-up. [Digital.gov usability testing](https://digital.gov/resources/how-conduct-usability-test).
+
+An initial small usability round is for finding problems, not validating the matching scale. A counselor independently reviews implausible matches; reserve fresh students/cases after changes. Actual recruitment and student sessions require people; software can prepare the materials and capture consent-aware local notes, but cannot truthfully claim the sessions happened.
+</pre></main></html>

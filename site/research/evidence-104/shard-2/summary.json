@@ -1,0 +1,747 @@
+{
+  "version": "0.104",
+  "generatedAt": "2026-10-25T02:30:43.407Z",
+  "budgets": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    24
+  ],
+  "summary": [
+    {
+      "cohort": "all",
+      "models": 250,
+      "typed": 250,
+      "curves": {
+        "previous": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 28,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 1000,
+            "unknown": 377,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 114,
+            "degree": 65,
+            "allDegree": 65,
+            "asked": 2000,
+            "unknown": 889,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 134,
+            "degree": 93,
+            "allDegree": 93,
+            "asked": 3000,
+            "unknown": 1423,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 151,
+            "degree": 110,
+            "allDegree": 110,
+            "asked": 4000,
+            "unknown": 1986,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 177,
+            "degree": 136,
+            "allDegree": 136,
+            "asked": 6000,
+            "unknown": 3103,
+            "unbound": 0
+          }
+        ],
+        "targeted": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 31,
+            "degree": 3,
+            "allDegree": 3,
+            "asked": 1000,
+            "unknown": 373,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 112,
+            "degree": 67,
+            "allDegree": 67,
+            "asked": 2000,
+            "unknown": 879,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 135,
+            "degree": 95,
+            "allDegree": 95,
+            "asked": 3000,
+            "unknown": 1391,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 152,
+            "degree": 114,
+            "allDegree": 114,
+            "asked": 4000,
+            "unknown": 1957,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 176,
+            "degree": 138,
+            "allDegree": 138,
+            "asked": 6000,
+            "unknown": 3073,
+            "unbound": 0
+          }
+        ]
+      }
+    },
+    {
+      "cohort": "development",
+      "models": 189,
+      "typed": 189,
+      "curves": {
+        "previous": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 24,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 756,
+            "unknown": 279,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 88,
+            "degree": 50,
+            "allDegree": 50,
+            "asked": 1512,
+            "unknown": 662,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 104,
+            "degree": 72,
+            "allDegree": 72,
+            "asked": 2268,
+            "unknown": 1059,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 114,
+            "degree": 83,
+            "allDegree": 83,
+            "asked": 3024,
+            "unknown": 1485,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 136,
+            "degree": 103,
+            "allDegree": 103,
+            "asked": 4536,
+            "unknown": 2312,
+            "unbound": 0
+          }
+        ],
+        "targeted": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 26,
+            "degree": 2,
+            "allDegree": 2,
+            "asked": 756,
+            "unknown": 277,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 86,
+            "degree": 51,
+            "allDegree": 51,
+            "asked": 1512,
+            "unknown": 658,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 105,
+            "degree": 74,
+            "allDegree": 74,
+            "asked": 2268,
+            "unknown": 1046,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 116,
+            "degree": 87,
+            "allDegree": 87,
+            "asked": 3024,
+            "unknown": 1463,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 136,
+            "degree": 105,
+            "allDegree": 105,
+            "asked": 4536,
+            "unknown": 2288,
+            "unbound": 0
+          }
+        ]
+      }
+    },
+    {
+      "cohort": "holdout",
+      "models": 8,
+      "typed": 8,
+      "curves": {
+        "previous": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 32,
+            "unknown": 25,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 64,
+            "unknown": 50,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 96,
+            "unknown": 76,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 128,
+            "unknown": 107,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 192,
+            "unknown": 171,
+            "unbound": 0
+          }
+        ],
+        "targeted": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 32,
+            "unknown": 25,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 64,
+            "unknown": 50,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 96,
+            "unknown": 76,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 128,
+            "unknown": 107,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 192,
+            "unknown": 171,
+            "unbound": 0
+          }
+        ]
+      }
+    },
+    {
+      "cohort": "holdout049",
+      "models": 3,
+      "typed": 3,
+      "curves": {
+        "previous": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 12,
+            "unknown": 12,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 24,
+            "unknown": 24,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 36,
+            "unknown": 33,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 48,
+            "unknown": 45,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 72,
+            "unknown": 69,
+            "unbound": 0
+          }
+        ],
+        "targeted": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 12,
+            "unknown": 12,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 24,
+            "unknown": 24,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 36,
+            "unknown": 33,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 48,
+            "unknown": 45,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 72,
+            "unknown": 68,
+            "unbound": 0
+          }
+        ]
+      }
+    },
+    {
+      "cohort": "holdout056",
+      "models": 50,
+      "typed": 50,
+      "curves": {
+        "previous": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 4,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 200,
+            "unknown": 61,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 26,
+            "degree": 15,
+            "allDegree": 15,
+            "asked": 400,
+            "unknown": 153,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 30,
+            "degree": 21,
+            "allDegree": 21,
+            "asked": 600,
+            "unknown": 255,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 37,
+            "degree": 27,
+            "allDegree": 27,
+            "asked": 800,
+            "unknown": 349,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 41,
+            "degree": 33,
+            "allDegree": 33,
+            "asked": 1200,
+            "unknown": 551,
+            "unbound": 0
+          }
+        ],
+        "targeted": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 5,
+            "degree": 1,
+            "allDegree": 1,
+            "asked": 200,
+            "unknown": 59,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 26,
+            "degree": 16,
+            "allDegree": 16,
+            "asked": 400,
+            "unknown": 147,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 30,
+            "degree": 21,
+            "allDegree": 21,
+            "asked": 600,
+            "unknown": 236,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 36,
+            "degree": 27,
+            "allDegree": 27,
+            "asked": 800,
+            "unknown": 342,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 40,
+            "degree": 33,
+            "allDegree": 33,
+            "asked": 1200,
+            "unknown": 546,
+            "unbound": 0
+          }
+        ]
+      }
+    },
+    {
+      "cohort": "grok075",
+      "models": 250,
+      "typed": 250,
+      "curves": {
+        "previous": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 4,
+            "degree": 2,
+            "allDegree": 2,
+            "asked": 1000,
+            "unknown": 418,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 135,
+            "degree": 100,
+            "allDegree": 100,
+            "asked": 2000,
+            "unknown": 905,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 162,
+            "degree": 120,
+            "allDegree": 120,
+            "asked": 3000,
+            "unknown": 1499,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 172,
+            "degree": 129,
+            "allDegree": 129,
+            "asked": 4000,
+            "unknown": 2134,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 179,
+            "degree": 142,
+            "allDegree": 142,
+            "asked": 6000,
+            "unknown": 3658,
+            "unbound": 0
+          }
+        ],
+        "targeted": [
+          {
+            "budget": 0,
+            "top": 0,
+            "degree": 0,
+            "allDegree": 0,
+            "asked": 0,
+            "unknown": 0,
+            "unbound": 0
+          },
+          {
+            "budget": 4,
+            "top": 3,
+            "degree": 1,
+            "allDegree": 1,
+            "asked": 1000,
+            "unknown": 402,
+            "unbound": 0
+          },
+          {
+            "budget": 8,
+            "top": 136,
+            "degree": 101,
+            "allDegree": 101,
+            "asked": 2000,
+            "unknown": 875,
+            "unbound": 0
+          },
+          {
+            "budget": 12,
+            "top": 169,
+            "degree": 127,
+            "allDegree": 127,
+            "asked": 3000,
+            "unknown": 1457,
+            "unbound": 0
+          },
+          {
+            "budget": 16,
+            "top": 177,
+            "degree": 134,
+            "allDegree": 134,
+            "asked": 4000,
+            "unknown": 2116,
+            "unbound": 0
+          },
+          {
+            "budget": 24,
+            "top": 180,
+            "degree": 143,
+            "allDegree": 143,
+            "asked": 6000,
+            "unknown": 3644,
+            "unbound": 0
+          }
+        ]
+      }
+    }
+  ],
+  "execution": {
+    "maxFollowups": 24,
+    "initialProfilerItems": 60,
+    "recomputedAnswers": true,
+    "freshCheckpointScoring": true,
+    "noPriorFollowups": true,
+    "selectorProfileAccess": false
+  },
+  "limits": [
+    "Both corrected arms use answer103: explicit building-layout preference and separate building-specific regulation/responsibility preference. No new profile facts are assigned; missing interests remain unknown.",
+    "Fresh start for every model: lifestyle + the initial official 60 responses only. No prior field, profession, facet or accumulated answers enter the run.",
+    "At most 24 targeted follow-up items; unknown answers count toward the limit. Budget counts items, not completion time.",
+    "Same canonical support thresholds and bachelor/graduate education definitions. No education or salary bonus.",
+    "New profile facts are exact-source human coding, not independently observed student responses. Missing interests and distinctive responsibilities remain unknown.",
+    "Skipping a simulator-unmapped question does not establish an interest or prove complete question-bank coverage. Partially mapped multi-select questions remain available; unmeasured options stay unknown.",
+    "The static question-binding registry is available to targeting; model facts, unseen answers, cohort identity and outcome labels are not.",
+    "All fixed holdout splits remain separate. Inspected holdouts are no longer unseen validation.",
+    "Research only. Live student matching, original profiles, frozen answers and shared assessment files are unchanged."
+  ]
+}

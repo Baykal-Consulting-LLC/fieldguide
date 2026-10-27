@@ -1,0 +1,16 @@
+# Clear career information and salary repair · 0.31.5
+
+Replaced formal education classification labels with plain-language display text. Vocational nursing now headlines the approved nursing program and Texas license, rather than “Postsecondary nondegree award.” The detailed source data and licensing requirements are retained. Common nursing-task descriptions use shorter sentences.
+
+College benefits now name the useful skills or a different career route. The library, guided career page, preparation and personal plan use the same presentation. LVN-to-RN study is described as a route to registered nursing after licensing; the higher typical pay belongs to the RN job, not an automatic raise for an LVN with extra classes. Construction-management study is described as preparation for managing building projects, without replacing trade training and licensing. Other training careers name technical, business, or further-study uses without inventing a wage premium.
+
+Primary references checked October 18, 2026:
+- [BLS: licensed practical and vocational nurses](https://www.bls.gov/ooh/healthcare/licensed-practical-and-licensed-vocational-nurses.htm): approved training, licensing and LPN-to-RN advancement.
+- [BLS: registered nurses](https://www.bls.gov/ooh/healthcare/registered-nurses.htm): education, licensing and occupation pay; RN pay is higher than vocational-nurse pay at the occupation level. This does not establish an individual's earnings gain or a same-job degree premium.
+- [BLS: construction managers](https://www.bls.gov/ooh/management/construction-managers.htm): a bachelor's degree is the typical route, with experience and on-the-job learning important. Existing catalog agency sources remain attached to the other roles.
+
+Lifestyle verdicts now say whether the chosen costs fit the pay: covers, barely covers, starting/training pay is too low, or all shown pay stages fall short. These use the existing after-tax budget calculations. They are conditional comparisons against estimated pay, not predictions of getting a job or earning a certain wage. No wage anchors, costs, matching weights or student answers changed.
+
+Removed conflicting legacy white salary text from the old dark panel design. Pay, labels and links now use dark text on the light surface. Cards are compact, keep year labels and amounts aligned, and wrap long content. Mobile anchor spacing prevents the sticky menu from covering the salary heading.
+
+Verification: all 408 tests passed before the final nursing-copy clarification and mobile anchor adjustment. The 23 relevant presentation, guide and lifestyle tests then passed again. Responsive browser checks at 390px and 1280px verified the vocational-nurse career page, the explicit college-benefit copy, dark salary text, no salary overflow, the full heading after menu navigation, the guided affordability verdict and its budget link, and physician pay with the separate paid-residency card. Browser preview used separate test storage with account sync disabled only in the ignored copy. No student account was changed. These checks do not constitute physical iOS Safari testing or new financial/psychometric validation.

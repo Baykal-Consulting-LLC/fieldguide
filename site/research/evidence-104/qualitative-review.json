@@ -1,0 +1,19 @@
+{
+  "scope": "Selected diagnostic review after the final frozen cohort replay; no tuning from Grok or holdout outcomes. Not an independent or exhaustive human fit review.",
+  "cases": [
+    {
+      "id": "grok075-0073",
+      "finding": "New librarian Top is supported by an existing explicit preference for organizing reference materials, checking accuracy and helping people find sources. It was missed by the control question path."
+    },
+    {
+      "id": "grok075-0082",
+      "finding": "New mechanical-engineering Top uses existing stated enjoyment of building moving mechanisms, comparing motion, testing revised parts and comparing design trade-offs. No new engineering interest was assigned."
+    },
+    {
+      "id": "scale056-0214",
+      "finding": "New writing Top uses an existing statement about writing original scenes or essays and revising structure after reader feedback."
+    }
+  ],
+  "lossReview": "The separately recorded development loss cases miss prior final checks after earlier activity replacements. A specific-question guard is not a guarantee that an undiscovered career will be reached within24.",
+  "nextProposal": "Test a one-replacement-per-original-question cap and protect a finishing allowance for promising unfinished careers using observed evidence only. Also benchmark confidence-based early stopping against the same24 maximum."
+}

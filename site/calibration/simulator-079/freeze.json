@@ -1,0 +1,24 @@
+{
+  "version": "simulator079",
+  "frozenAt": "2026-10-21T23:26:00.988Z",
+  "beforeReplay": true,
+  "baseline": "simulator-078-002",
+  "limits": [
+    "Rules informed by the preceding 079 review, which included Grok evaluation examples. These are further calibration diagnostics, not untouched holdout validation.",
+    "No model-specific exceptions; original profile facts, official ratings, matching thresholds, earnings and education taxonomy unchanged."
+  ],
+  "files": {
+    "prototypes/simulator-079/bindings.mjs": "8cef5d8c2ac46af03c7c80ec54379b484bf9bac1c29a394a2d3f7ee9e0d8e6b4",
+    "scripts/simulator-079/replay.mjs": "5aa00a6a5031126bc4dec68871ca588a838ff7b0ebc7e312846fe3bb76f6273d",
+    "calibration/executor-077/manifest.json.gz": "62a2761a4022ebf847a25d3e1d98c18e22b278955bcdb933ce6e0ecdfc1bd000",
+    "research/executor-077/states.json.gz": "52ccb71a417c605284f3ac0ad877f70ad0deaec90a5546d3b7654d9733ea6a7b",
+    "calibration/cohort-056/profiles.json": "c57b0f4f6b3c894cec8cd4343a27859152dee241477018ba4029565a7f94bc2c",
+    "calibration/grok-075/profiles.json": "aa4e222f4885505c77a7824c1b804c0b602fdf2d6de838ac87348fbb2bf41032",
+    "dist/open-explorer.js": "285eb07d656ddc95e7cf616121cc65d133490ccde90d65579983996f234cd84b",
+    "dist/open-explorer-056.js": "62b7f63607c9334c350a30d1747a7333adf03f853cb6707f5ddb7e810650554b",
+    "dist/explorer-053-state.js": "ff70d62a66664c0e20eb151864b4a678d7d36202a2ef47b430640d0772a3c463",
+    "dist/explorer-053-budget.js": "418ed8b8ef93336b540dd17cdc8282227f6dd57f617e41f69480e5b3ae21e3fc",
+    "dist/education-routes.js": "4322f1b90ed0c77d9d278b9b40dc6dbbbef01fa55a9eac217cbea882fcdf6427",
+    "dist/exploration-059.js": "87df6131bb6d007a4b8ef9981eb40185352c58650c5be0bd8a5831fe8c39f495"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "fieldguide-college-exploration",
+  "version": "0.56.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --directory dist --bind 127.0.0.1",
+    "check": "for f in dist/*.js; do node --check \"$f\" || exit 1; done",
+    "test": "python3 scripts/shared-foundation.py run -- npm run local:test",
+    "calibrate": "python3 scripts/shared-foundation.py run -- npm run local:calibrate",
+    "calibrate:deep": "python3 scripts/shared-foundation.py run -- npm run local:calibrate:deep",
+    "review:developer": "python3 scripts/shared-foundation.py run -- npm run local:review:developer",
+    "review:students": "python3 scripts/shared-foundation.py run -- npm run local:review:students",
+    "build:account": "python3 scripts/shared-foundation.py run -- npm run local:build:account",
+    "build:student": "python3 scripts/shared-foundation.py run -- npm run local:build:student",
+    "review:models": "python3 scripts/shared-foundation.py run -- npm run local:review:models",
+    "build": "python3 scripts/shared-foundation.py run -- npm run local:build",
+    "build:developer": "python3 scripts/shared-foundation.py run -- npm run local:build:developer",
+    "review:professions": "python3 scripts/shared-foundation.py run -- npm run local:review:professions",
+    "test:exploration": "python3 scripts/shared-foundation.py run -- npm run local:test:exploration",
+    "test:external": "python3 scripts/shared-foundation.py run -- npm run local:test:external",
+    "review:exploration": "python3 scripts/shared-foundation.py run -- npm run local:review:exploration",
+    "local:build:account": "node scripts/build-account.mjs",
+    "local:build:student": "node scripts/build-student-app.mjs",
+    "local:build": "node scripts/prepare-followup-063.mjs && node scripts/prepare-construct-bindings-056.mjs && node scripts/generate-cohort-056.mjs && node scripts/prepare-exploration-056.mjs && node scripts/rerun-cohort-056.mjs && node scripts/prepare-discovery-059.mjs && node scripts/prepare-pay-059.mjs && node scripts/prepare-expanded-pay-050.mjs && node scripts/prepare-coverage-050-runtime.mjs && node scripts/prepare-broad-followups-052-runtime.mjs && node scripts/prepare-explorer-053.mjs && node scripts/prepare-explorer-053-reviews.mjs && npm run build:student",
+    "local:build:developer": "node scripts/build-developer.mjs",
+    "shared:check": "python3 scripts/shared-foundation.py check",
+    "shared:status": "python3 scripts/shared-foundation.py status",
+    "shared:boundary": "python3 scripts/shared-foundation.py boundary",
+    "local:test": "node --test --test-concurrency=4 tests/*.test.js",
+    "local:calibrate": "node scripts/calibration-runner.mjs",
+    "local:calibrate:deep": "node scripts/deep-calibration.mjs",
+    "local:review:developer": "node scripts/audit-student-rendering.mjs && node scripts/build-developer.mjs",
+    "local:review:students": "node scripts/calibrate-expanded-students.mjs && python3 scripts/verify-expanded-correlations.py && node scripts/build-expanded-calibration.mjs && node scripts/build-student-expanded-views.mjs && node scripts/build-developer.mjs",
+    "local:review:models": "node scripts/calibrate-student-models.mjs && node scripts/build-student-expanded-views.mjs && node scripts/build-developer.mjs",
+    "local:review:professions": "node scripts/review-broader-professions.mjs && npm run build:developer",
+    "local:test:exploration": "node --test tests/open-explorer-053.test.js tests/explorer-053-evaluation.test.js",
+    "local:test:external": "python3 -m unittest discover -s research/validation-053-external && python3 research/validation-053-external/compare.py && python3 research/validation-053-careeronestop/compare.py",
+    "local:review:exploration": "node scripts/evaluate-explorer-053.mjs"
+  },
+  "dependencies": {
+    "firebase": "^13.0.0",
+    "jose": "^6.2.12"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^6.0.0",
+    "esbuild": "^0.28.2"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.14.6"
+  }
+}

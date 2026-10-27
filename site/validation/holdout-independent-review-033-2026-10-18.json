@@ -1,0 +1,505 @@
+{
+  "scope": {
+    "source": "/tmp/adolescent-life-models-2026-10-18/holdout-review.json",
+    "cases": 30,
+    "candidateEngine": "3.5.0",
+    "candidateLockedAt": "2026-10-19T02:28:02.284Z",
+    "provenance": "Read candidate-lock.json and verified all 15 current source-file SHA256 values equal the lock. Lock states it precedes viewing original30 holdout and supplemental results. This check confirms current-source equality, not an independent reconstruction of every prior access or run.",
+    "method": "Independently read all 30 supplied biographies, actual selected follow-up answers, displayed careers and compact preparation/pay/lifestyle plans; inspected named rows for ambiguous and open results. No engine execution, engine edits, answer revisions, expectation changes or supplemental-case inspection was performed.",
+    "separation": "Observed first-run original30 holdout review only. Findings distinguish known development limitations from novel defects; no current candidate change is proposed from these outcomes."
+  },
+  "caseReviews": [
+    {
+      "id": "life-001",
+      "disposition": "sensible media/writing exploration",
+      "reason": "Actual family-video editing, interview editing, quotation checks and school-paper work support film/media and writing as related directions. Garden science remains a genuine parallel interest. The prewritten film plan is an exploration scenario, not a claim that this is her uniquely correct career or that her chosen lifestyle is covered.",
+      "issues": [],
+      "planReview": {
+        "career": "film-editing",
+        "stage": "entry",
+        "annualGross": 41608,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1199.35,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-002",
+      "disposition": "sensible practical systems alternatives",
+      "reason": "Paid feed-store stock counts and detailed routes support stocking/material movement and a logistics comparison. These occupations have different preparation and responsibilities; logistics is a separate possible route rather than an automatic promotion from stock work. Comic dialogue and dancing need not disappear, and entry pay falls well short of the fixed lifestyle.",
+      "issues": [],
+      "planReview": {
+        "career": "stock-order-filler",
+        "stage": "entry",
+        "annualGross": 32326,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -2248.22,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-003",
+      "disposition": "sensible architecture/planning exploration",
+      "reason": "Museum circulation, public-space sketches, user interviews and repeated access/layout choices directly support architecture and urban planning despite negative broad correlations. Degree, AXP and exams are explicitly distinguished from a short workshop. The roughly $224 monthly scenario margin is thin and conditional; financial resources do not establish commitment or admission readiness.",
+      "issues": [],
+      "planReview": {
+        "career": "architecture",
+        "stage": "entry",
+        "annualGross": 67366,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 224.25,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-004",
+      "disposition": "sensible story/media extension; medium remains open",
+      "reason": "Oral-history audio editing, checked captions and attention to inconsistent accounts support narrative/media work. Film and writing are reasonable comparisons under the mixed follow-ups, but audio, props and performance do not establish one medium. Dyslexia is an access consideration, not evidence against writing or a reason to infer a technical destiny.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "film-editing",
+        "stage": "entry",
+        "annualGross": 41608,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1324.35,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-008",
+      "disposition": "sensible woodworking exploration; routine tension",
+      "reason": "One-off wooden boxes, sanding and explicitly chosen woodworking/structure tasks support carpentry as a related practical route. Disliking identical orders does not invalidate the interest, but commercial repetition, construction settings and customer deadlines deserve a trial. Family-history privacy and chores should not become career criteria.",
+      "issues": [],
+      "planReview": {
+        "career": "carpentry",
+        "stage": "entry",
+        "annualGross": 42813,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1882.55,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-010",
+      "disposition": "appropriate open service exploration",
+      "reason": "Recipe scaling, safe storage and event layouts support food/service investigation. Mixed kitchen, staffing and event choices do not establish tolerance for restaurant rushes or a single role; available food/service leads are useful without a forced career or financial forecast. Sensory texture preferences call for practical setups rather than exclusion.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-017",
+      "disposition": "appropriate open information/research exploration",
+      "reason": "Document checks, local-history interviews and repeated resource-access choices supply real reasons to investigate librarian and research work. A no-career result with these leads is appropriate restraint, not absence of ability. School-transfer gaps, earnings and family circumstances affect access and pace, not vocational worth.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-019",
+      "disposition": "interpreting-only result too specific",
+      "reason": "Readable labels, mysteries and visual/color work support writing/design exploration. Interpreting alone is featured from three generic meaning/audience/accuracy choices with no cross-language activity; writing has eight task questions but is only a lead. Arabic/English background does not establish translation preference. This repeats the known language-specificity concern rather than proving interpreting unsuitable.",
+      "issues": [
+        "translation-specificity"
+      ],
+      "planReview": {
+        "career": "interpreting",
+        "stage": "entry",
+        "annualGross": 41465,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -828.08,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-022",
+      "disposition": "animation-only result overstates medium specificity",
+      "reason": "Sound effects, school-announcement audio, stream interviews and actual editing support environmental media/storytelling. No animated production is established. Animation alone features with seven shared task questions while film/writing each have eight but remain leads. The broad-profile difference is not evidence of a specific animation preference; prior development review identified this modality limitation.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "animation",
+        "stage": "entry",
+        "annualGross": 61544,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -131.42,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-028",
+      "disposition": "sensible visual-media exploration",
+      "reason": "Signed comedy clips, multiple takes and visual timing directly support moving-image storytelling; wayfinding photographs also support visual design. Film is a plausible exploration despite needing technical production trials. Deafness and ASL must not be treated as automatic interpreting interest, and independent travel/access conditions remain unresolved.",
+      "issues": [],
+      "planReview": {
+        "career": "film-editing",
+        "stage": "entry",
+        "annualGross": 41608,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1349.35,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-039",
+      "disposition": "graphic design sensible; interpreting evidence insufficient",
+      "reason": "Tested directions, watering labels and readable layouts directly support graphic design. Testing pictures with multilingual users does not establish translating between languages; four shared audience/community prompts cannot supply that preference. Interpreting remains a possible comparison question, not an equally established profession or a cultural-background inference.",
+      "issues": [
+        "translation-specificity"
+      ],
+      "planReview": {
+        "career": "graphic-design",
+        "stage": "entry",
+        "annualGross": 46122,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -773.58,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-046",
+      "disposition": "appropriate open creative exploration",
+      "reason": "Color experiments, drawings and visual storytelling support a creative trial, while her wish not to make every image explain heritage or ecology is explicit. Mixed scene/image selections do not establish film or animation preference. An open result with named media leads is acceptable; adoption and beginner language lessons must not prescribe an identity or profession.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": null
+    },
+    {
+      "id": "life-047",
+      "disposition": "appropriate open cooking exploration",
+      "reason": "Weekly dinner is a real self-chosen task despite limited sustained exposure elsewhere. All sixty official answers are flagged low-confidence inference, making restraint especially appropriate. Cook/counter/chef leads are ideas to sample, not established work tolerance or senior responsibility. Wealth supplies access rather than an obligation to select a prestigious role.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-049",
+      "disposition": "appropriate unresolved food/service breadth",
+      "reason": "Cake decoration, recipe scaling and real celebrations support food work. Five food/service roles share eight questions, so no forced top set is reasonable. Kitchen technique, order-taking and management remain distinct; hearing access and fatigue affect conditions, not willingness or ability to participate. No career/pay projection is appropriately assigned.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-053",
+      "disposition": "environmental result follows answers; biography-to-domain inference uncertain",
+      "reason": "The biography documents patio-shadow comparisons and everyday systems, not explicit environmental-risk investigation. Frozen follow-ups nevertheless endorse habitats, conservation and field recommendations, so environmental/geoscience results follow the selected responses. The domain extension is an uncertain synthetic inference/catalog-coverage question, not a proven matching error or permission to rewrite answers.",
+      "issues": [
+        "inference-domain"
+      ],
+      "planReview": {
+        "career": "environmental-science",
+        "stage": "entry",
+        "annualGross": 67262,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 747.9,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-057",
+      "disposition": "sensible writing/story-design exploration",
+      "reason": "Writing clues, testing interpretations and cutting a favorite confusing scene provide direct audience-focused narrative evidence. Professional writing is a related option, not proof that tabletop game creation must become salaried author work. Relocation, peer continuity and unfamiliar classroom routines remain practical questions; degree wording is properly qualified to many salaried roles.",
+      "issues": [],
+      "planReview": {
+        "career": "writing",
+        "stage": "entry",
+        "annualGross": 53219,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -340.01,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-059",
+      "disposition": "cooking plausible; counter/chef specificity unresolved",
+      "reason": "Repeated baking and controlled texture variations justify food preparation exploration. Shared food/service answers do not establish preference for counter interaction or staff supervision, so counter work and head chef need distinct daily-work questions. The explicit comparison plan uses counter-worker entry pay and correctly shows a large shortfall; home-baking success is not immediate chef qualification.",
+      "issues": [
+        "food-role-specificity"
+      ],
+      "planReview": {
+        "career": "food-counter",
+        "stage": "entry",
+        "annualGross": 24085,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -2130.43,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-060",
+      "disposition": "sensible media/writing exploration; exact medium open",
+      "reason": "School-news editing, captions, archives and respectful interviews support narrative/media work. Photography is especially well grounded; film/writing can be explored under the selected scene/word answers without claiming an exclusive professional medium. Wheelchair use must not narrow interests, and accessible housing/transport costs remain personal planning inputs.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "film-editing",
+        "stage": "entry",
+        "annualGross": 41608,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -819.35,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-065",
+      "disposition": "writing strongly grounded; interpreting too specific",
+      "reason": "Condensing oral histories into exhibit text and repeated caption writing directly support writing. The biography and selected options contain no cross-language activity, yet interpreting shares all eight task questions. English storytelling, culture access and narrative accuracy are not equivalent to translation preference. Dyscalculia should expand support questions, not automatically steer toward language careers.",
+      "issues": [
+        "translation-specificity"
+      ],
+      "planReview": {
+        "career": "writing",
+        "stage": "entry",
+        "annualGross": 53219,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -465.01,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-066",
+      "disposition": "appropriate open scientific exploration",
+      "reason": "Actual drainage-jar comparisons, chemistry co-op and sample notes support laboratory/environmental inquiry. Several science subfields share the selected bundled tasks, so no named career is required. Farm experience need not imply inherited agricultural work, and music remains independent; transport, broadband and education funding are access constraints rather than ability scores.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-072",
+      "disposition": "sensible writing/audio-media exploration",
+      "reason": "Audio drama, careful listening and revised interview/consent procedures support narrative work. Writing and film are related possibilities under mixed scene/word answers, while visual editing remains less directly tested than audio. Cross-state tuition, home-education records and documentation practice deserve concrete planning; neither heritage nor relocation supplies professional language evidence.",
+      "issues": [
+        "creative-modality"
+      ],
+      "planReview": {
+        "career": "writing",
+        "stage": "entry",
+        "annualGross": 53219,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -110.01,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-074",
+      "disposition": "appropriate broad teaching exploration",
+      "reason": "Repeated safety explanations and helping younger riders support adaptive teaching. Four roles share eight questions with secondary teaching close behind, so withholding a precise winner preserves uncertainty. Dance and astronomy are real parallel interests; nervousness about emailing adults is not evidence against working with children or taking demanding study.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-076",
+      "disposition": "mechanical/electrical sensible; biomedical still ungrounded",
+      "reason": "Circuits, labeled fan parts, lighting tests and a portable demonstration support device engineering. Biomedical appears only inside shared machine/circuit/medical-device and user-needs wording, without a medical/biological application preference. The locked narrowed subset rule retains mechanical and electrical instead of suppressing them, limiting the earlier inversion but not solving application specificity.",
+      "issues": [
+        "biomedical-specificity"
+      ],
+      "planReview": {
+        "career": "mechanical-engineering",
+        "stage": "entry",
+        "annualGross": 77505,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 1208.62,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-079",
+      "disposition": "sensible spatial-design exploration",
+      "reason": "Many private floor-plan revisions give stronger direct architectural evidence than confident but poorly recorded weather claims. Architecture/planning is a defensible task-led result despite negative broad-profile correlation. Professional education, AXP and exams are disclosed; follow-through and upkeep are trial questions rather than reasons to reject interest or treat family access as readiness.",
+      "issues": [],
+      "planReview": {
+        "career": "architecture",
+        "stage": "entry",
+        "annualGross": 67366,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 524.25,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-091",
+      "disposition": "appropriate broad teaching exploration",
+      "reason": "Learning to offer children choices and adapting instructions provide real teaching-related evidence alongside dance/physics. Four occupations tie at eight task questions, so no forced role is appropriate. Warmth does not establish project-management skill, and an upcoming transfer affects practical opportunities rather than career eligibility.",
+      "issues": [],
+      "planReview": null
+    },
+    {
+      "id": "life-092",
+      "disposition": "sensible useful-object design extension",
+      "reason": "Embroidery, personal patches, user preferences and repeated material/use choices support industrial design as a related useful-object route. It is an extension beyond existing craft commissions, not proof that he likes all product development. Refunds and overestimated production capacity correctly caution against equating craft skill with scalable self-employment income.",
+      "issues": [],
+      "planReview": {
+        "career": "industrial-design",
+        "stage": "entry",
+        "annualGross": 67108,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay just covers your lifestyle.",
+        "monthlyRemaining": 358.49,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-093",
+      "disposition": "sensible media/writing exploration",
+      "reason": "Actual interview production, narration, media class and a fair-credit goal support film/writing as related trials. Learning restraint in editing is a developmental question, not proof of mismatch. Geology, crochet and wrestling remain meaningful; cultural identity does not require representational subject matter. The entry-pay comparison shows the chosen spending is not covered.",
+      "issues": [],
+      "planReview": {
+        "career": "film-editing",
+        "stage": "entry",
+        "annualGross": 41608,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -969.35,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-095",
+      "disposition": "sensible plant/science comparisons; commercial routine unresolved",
+      "reason": "Garden change tracking and compost experiments support plant care and biological-technician exploration under selected growth/lab answers. Farm and landscape roles are legitimate practical comparisons but do not establish preference for seasonal production over controlled experiments. Kinship care and limited funds must not be used to cap aspirations. The plan discloses low entry pay and a large lifestyle shortfall.",
+      "issues": [],
+      "planReview": {
+        "career": "farmworker-crops",
+        "stage": "entry",
+        "annualGross": 25900,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1936.76,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-097",
+      "disposition": "sensible plant-work exploration; study-versus-production question remains",
+      "reason": "Repeated greenhouse comparisons, horticulture and a climate-comparison goal support plant work despite negative broad correlations. Landscaping and crop roles are related options, not evidence he prefers commercial maintenance over investigation. The biography itself leaves routine commercial demands open. Oregon/Texas/nonresident conditions require scenario comparison before personalizing the Austin budget.",
+      "issues": [],
+      "planReview": {
+        "career": "landscaping-worker",
+        "stage": "entry",
+        "annualGross": 33360,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay does not cover your lifestyle.",
+        "monthlyRemaining": -1323.23,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    },
+    {
+      "id": "life-099",
+      "disposition": "sensible laboratory/food-science exploration",
+      "reason": "Chemistry explanations, accurate measurement and controlled recipe variations support food science/chemistry/biological-technician comparisons. Independent experiment design remains new rather than measured aptitude. Her insecurity about imperfect making should prompt supported trials, not exclusion; the qualified entry-pay illustration is conditional on degree/training and actual work conditions.",
+      "issues": [],
+      "planReview": {
+        "career": "food-science",
+        "stage": "entry",
+        "annualGross": 75257,
+        "salaryBasis": "TWC entry-wage proxy",
+        "lifestyle": "This pay covers your lifestyle.",
+        "monthlyRemaining": 1213.52,
+        "judgment": "The supplied details distinguish credential/training from work. This is a qualified-entry comparison in Austin, not trainee pay, guaranteed employment or fully funded education. No new arithmetic defect can be established from these compact fields."
+      }
+    }
+  ],
+  "outliers": [
+    {
+      "ids": [
+        "life-019",
+        "life-039",
+        "life-065"
+      ],
+      "severity": "P2 known specificity limitation persists",
+      "issue": "Generic audience/meaning/community tasks feature professional interpreting without a cross-language work preference",
+      "evidence": "019 features interpreting alone from 3 questions while writing has 8 and remains a lead. Its reasons are wording, story/language/point of view, and accuracy. 039 has 4 shared questions and multilingual label users, not translation practice. 065 has 8 shared narrative/culture questions but no cross-language activity in an English-speaking biography. These are separate from language proficiency or ability to learn; background language exposure is insufficient to infer preference.",
+      "novelty": "Known translation-specificity concern from development; 019 is a sharper observed manifestation of high profile alignment plus thin generic support becoming the sole featured role. It is not a new verified arithmetic bug.",
+      "proposedGeneralFix": "For a future independently evaluated candidate, distinguish translating/interpreting between languages from writing, audience adaptation and culture/information access through neutral task questions and explicit evidence labels. Keep as a comparison/question when domain preference is unasked. Do not revise the locked candidate or these responses based on the holdout, infer a prerequisite from culture, or gate by current fluency/aptitude."
+    },
+    {
+      "ids": [
+        "life-022",
+        "life-004",
+        "life-046",
+        "life-060",
+        "life-072"
+      ],
+      "severity": "P2 known modality ambiguity persists",
+      "issue": "Mixed words/images/sound/scene options do not independently establish a professional production medium",
+      "evidence": "022 documents audio editing, announcements and stream recording but features animation alone; film/writing each have 8 task questions and are leads, animation has 7 with profile alignment. 004/060/072 have actual narrative or media practice but no exclusive medium established; 046 remains appropriately open. Actual multi-take video work in 001/028 and a media interview piece in 093 are stronger grounds for film exploration and were not treated as errors.",
+      "novelty": "Known multimodal creative-task limitation, not a novel failure type. An adjacent media profession is permissible exploration; sole-medium prominence is less justified than the generic task evidence suggests.",
+      "proposedGeneralFix": "In a future candidate, describe common storytelling evidence separately from medium-specific evidence, retain named comparisons, and ask preference for writing, static design, photography, audio, performance, animation or editing. Validate with fresh independently held cases; do not suppress low-correlation task interests or force three roles from this holdout."
+    },
+    {
+      "ids": [
+        "life-076"
+      ],
+      "severity": "P2 known engineering-domain ambiguity persists; earlier inversion limited",
+      "issue": "Biomedical remains a featured application without biomedical evidence",
+      "evidence": "The biography concerns lighting, simple circuits, fan parts and demonstrations. Frozen answers bundle machine, circuit, or medical device and generic user needs. All three engineering rows have eight questions and comparisonOnly=false. Thus mechanical/electrical remain available, unlike the development superset inversion, but the medical application has no separate endorsed evidence.",
+      "novelty": "Known medical-device-union ambiguity. The narrowed subset filter appears to prevent the previously observed sole-biomedical inversion in this case; that is a limited observation, not proof of full specificity or a measured improvement rate.",
+      "proposedGeneralFix": "For future research, separate general device engineering from application domains through neutral biomedical/biological-use tasks. Keep application possibilities explicitly exploratory when the domain was not asked. Preserve this locked observation without further candidate tuning."
+    },
+    {
+      "ids": [
+        "life-059",
+        "life-095",
+        "life-097"
+      ],
+      "severity": "P3 known work-routine/application ambiguity",
+      "issue": "Enjoyment of familiar making/care does not settle preference for commercial service, production or supervisory work",
+      "evidence": "059 repeatedly bakes but all food/counter/chef roles borrow broad meal/service options; no busy-counter or staff-supervision preference is established. 095 prefers compost experiments and 097 greenhouse comparisons, while crop/landscape roles introduce commercial, seasonal and equipment routines. These are legitimate related occupations, not ground-truth errors.",
+      "novelty": "Known shared-task responsibility and routine issue; no new clinical/training equivalence or wage guarantee observed. Open food cases 010/047/049 are valid restraint rather than missed required careers.",
+      "proposedGeneralFix": "Use supervised trials and questions about daily pace, customers, commercial repetition, seasons, safety and responsibility in future user counseling. Explain experience needed for supervisory roles and keep research/study and practical production routes distinct. Do not rewrite answers or blacklist occupations because a synthetic biography lacks prior paid experience."
+    },
+    {
+      "ids": [
+        "life-053"
+      ],
+      "severity": "P3 synthetic inference/domain coverage limitation",
+      "issue": "Observed curiosity is converted to a more specific scientific domain by inferred answers",
+      "evidence": "The biography has patio shadows and everyday systems. Follow-ups explicitly select habitats, conservation and environmental recommendations, so resulting environmental/geoscience roles are consistent with the supplied answers. The unsupported step is primarily inferring that ecological preference from the biography, similar to the development moon-to-environment case.",
+      "novelty": "Known provenance/catalog-coverage limitation; not a demonstrated scoring bug or proof that environmental work is wrong.",
+      "proposedGeneralFix": "In future live use ask the learner which scientific domain they want to test; in synthetic evaluation preserve low-confidence inference and alternate-response provenance and report domain leaps. These locked responses and resulting outputs must remain unchanged."
+    },
+    {
+      "ids": [
+        "life-003",
+        "life-079",
+        "life-092",
+        "life-099"
+      ],
+      "severity": "P3 conditional planning limit; no new calculation defect established",
+      "issue": "Positive qualified-pay scenarios do not establish financed training or a personalized adult lifestyle",
+      "evidence": "003 has about $224/month left, 079 $524, 092 $358 and 099 $1214 in compact plans. Architecture details name professional education, AXP and exams; industrial-design and food-science details name typical degree/portfolio/lab preparation. The excerpt does not include full costs, debt, funding notes, tax/work-hour assumptions or upfront housing costs. Non-Austin and nonresident cases also require local scenarios.",
+      "novelty": "No novel training-pay confusion, law-type duration calculation or RN-type zero-cost defect established from the authorized holdout fields. It would be unsupported to certify full funding or financial-source accuracy from these compact summaries.",
+      "proposedGeneralFix": "Retain the already corrected adjacent funding conditions and qualified-versus-training interpretation. Future personalized planning should compare actual programs, funding, location, hours, benefits and access costs. Do not fabricate debt/aid, alter the locked engine, or convert a small surplus into an affordability promise."
+    }
+  ],
+  "limits": [
+    "No uniquely correct career is assumed. Several related choices, low broad-profile correlation with specific tasks, or no featured career can all be defensible. No force-three expectation, target tuning or psychometric accuracy percentage was used.",
+    "All biographies and frozen inferred responses are unchanged. The review does not treat synthetic inferred answers as student testimony; low-confidence inference flags and available sensitivity notes limit every precise-looking conclusion.",
+    "All30 authorized holdout cases were read only after the parent stated the candidate was locked and the one holdout run completed. No supplemental24 biographies, answers or outcomes were inspected for this review.",
+    "Candidate-lock provenance was checked by all15 source hashes matching. Its timestamp is a recorded claim of lock timing; independent verification of run count, unseen accesses or all biography/answer hashes was outside this artifact.",
+    "Open cases retain leads or supported full-field rows: e.g. 049 has five food roles with eight-question support; 074/091 have four eight-question teaching/childcare roles. Avoid inventing a winner or interpreting a bounded top-card policy as no interest or ability.",
+    "Current compact plans all use qualified-entry examples; the holdout does not exercise residency/apprenticeship transitions, RN/EMT or law. Those earlier corrections cannot be fully revalidated from these fields. Source prices, taxes, wages, costs/debt and court/licensing facts were not independently recertified.",
+    "Shared-task card wording and the narrowed subset rule provide limited uncertainty controls; they do not make repeated multimodal prompts independent evidence or supply missing occupational application preferences.",
+    "Health, neurodivergence, disability, identity, family loss, financial resources and caregiving were treated as context for access and routine, not predictors of aptitude, a prescribed helping vocation, an automatic profession or an ambition ceiling.",
+    "No new verified engine bug or financial arithmetic defect emerged from these compact holdout outputs. Persistent specificity limitations are substantive observations, not evidence of predictive success or failure rates. Any future remedy requires a separately declared candidate and fresh evaluation rather than reuse of this holdout for tuning."
+  ]
+}

@@ -1,0 +1,3251 @@
+{
+  "version": "0.52.0",
+  "profiles": [
+    {
+      "token": "profile-119",
+      "answers": [
+        {
+          "token": "reflection-0790",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Plant drawing and audio editing show creative interests, but Maya has not expressed interest in making animated characters or effects.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0791",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She enjoys editing pauses and interviews; that does not establish an interest in planning animated movement or scenes.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-120",
+      "answers": [
+        {
+          "token": "reflection-0792",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "His route maps and obstacle-course planning directly involve arranging space for people to use.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "timeline.3.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "He makes detailed bus-route maps and invents indoor obstacle courses with his cousin.",
+              "biographyPaths": [
+                "timeline.2.story",
+                "timeline.3.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0793",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "His bus maps and obstacle courses concern access and usable space.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "timeline.3.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "Detailed imaginary bus routes and indoor obstacle courses show interest in how people move through spaces.",
+              "biographyPaths": [
+                "timeline.2.story",
+                "timeline.3.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0794",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "Sketching a shared space fits his spatial route design and obstacle-course activities.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "timeline.3.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "He enjoys designing route maps and helping invent usable indoor obstacle courses.",
+              "biographyPaths": [
+                "timeline.2.story",
+                "timeline.3.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0795",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "Elias enjoys asking supply users about their needs and discussing his route choices.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "timeline.2.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "He asks customers how they use unfamiliar supplies and enjoys questions about his route plans.",
+              "biographyPaths": [
+                "timeline.5.story",
+                "timeline.2.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0796",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Maps and measuring a shade frame suggest spatial curiosity, but designing buildings for users is still an unexpressed specialty.",
+          "biographyPaths": [
+            "timeline.1.story",
+            "timeline.2.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0797",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He likes spatial systems and practical options; interest in building rules and environmental building design is not stated.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "currentLife.ambitions",
+            "timeline.2.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-122",
+      "answers": [
+        {
+          "token": "reflection-0798",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Jordan enjoys physical props and audio work, but neither establishes an interest in digital animation or visual effects.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0799",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Performing and editing oral histories are established interests; planning animated scenes is not yet described.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-124",
+      "answers": [
+        {
+          "token": "reflection-0800",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Devin enjoys tracking schedules and coordinating community-center routines, supporting interest in keeping routine organizational records orderly.",
+          "biographyPaths": [
+            "currentLife.activities",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0801",
+          "response": "selected",
+          "selected": [
+            "choice-4"
+          ],
+          "confidence": "medium",
+          "evidence": "Organizing resources and explaining things fits his event setup and patient chess reviews.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-4": {
+              "evidence": "He enjoys event planning and patiently explains game mistakes while tracking schedules.",
+              "biographyPaths": [
+                "timeline.5.story",
+                "currentLife.demonstratedSkills"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0802",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He helps organize events, but enjoyment of visitor intake and referral is not stated; extended conversation can tire him.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "selfDescription"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0803",
+          "response": "selected",
+          "selected": [
+            "choice-4"
+          ],
+          "confidence": "medium",
+          "evidence": "His culinary interest explicitly includes safe food storage.",
+          "biographyPaths": [
+            "timeline.5.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-4": {
+              "evidence": "The culinary elective made him interested in safe food storage, a direct food-and-health concern.",
+              "biographyPaths": [
+                "timeline.5.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0804",
+          "response": "selected",
+          "selected": [
+            "choice-4"
+          ],
+          "confidence": "high",
+          "evidence": "He already enjoys scheduling people and making event plans function.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-4": {
+              "evidence": "He settles scheduling disagreements and enjoys planning event setup.",
+              "biographyPaths": [
+                "timeline.4.story",
+                "timeline.5.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0805",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He enjoys recipe calculations, but that does not show interest in payment handling or customer transactions.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0806",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Settling community scheduling disputes shows patient coordination, but company customer problems are an unexplored interest.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "selfDescription"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0807",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He enjoys chess analysis and logistical planning; no software, security, device-support or user-tool problem is described.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0808",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Event setup, table placement and scheduling show interest in getting needed resources into place on time.",
+          "biographyPaths": [
+            "timeline.0.story",
+            "timeline.4.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0809",
+          "response": "selected",
+          "selected": [
+            "choice-2",
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "His event setup and recipe scaling support organizing materials and smoothing a production routine.",
+          "biographyPaths": [
+            "timeline.0.story",
+            "timeline.5.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "He enjoys arranging tables and event setup so the space functions.",
+              "biographyPaths": [
+                "timeline.0.story",
+                "timeline.5.story"
+              ]
+            },
+            "choice-3": {
+              "evidence": "He enjoys testing recipe proportions and culinary planning, including scaling recipes.",
+              "biographyPaths": [
+                "timeline.5.story",
+                "currentLife.enjoys"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0810",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His plans concern gatherings, recipes and schedules; no interest in financial risk or insurance choices is given.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0811",
+          "response": "selected",
+          "selected": [
+            "choice-3",
+            "choice-4"
+          ],
+          "confidence": "high",
+          "evidence": "His stated interests center on effective teamwork and organizing places and resources.",
+          "biographyPaths": [
+            "timeline.0.story",
+            "timeline.4.story",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "He helps settle scheduling disagreements and wants predictable teamwork and a functioning plan.",
+              "biographyPaths": [
+                "timeline.4.story",
+                "currentLife.motivations"
+              ]
+            },
+            "choice-4": {
+              "evidence": "He likes table layouts, clear door access and event setup.",
+              "biographyPaths": [
+                "timeline.0.story",
+                "currentLife.enjoys",
+                "timeline.5.story"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "token": "profile-125",
+      "answers": [
+        {
+          "token": "reflection-0812",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Nadia describes history research, costumes and martial arts; she does not state an interest in clinical care or providing personal support.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0813",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Directing childhood scenes and practicing martial arts do not reveal whether she wants to teach early childhood skills.",
+          "biographyPaths": [
+            "timeline.0.story",
+            "timeline.2.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0814",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She enjoys repeated martial-arts practice, but coaching someone through recovery or providing care is not established.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0815",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She has interests in costume scenes and historical research; supporting young children's classroom routines is unexplored.",
+          "biographyPaths": [
+            "timeline.0.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0816",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her current exploration concerns community-college offerings and public history; no preferred clinical observation setting is stated.",
+          "biographyPaths": [
+            "timeline.6.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0817",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She values consistent martial-arts practice, but interest in explaining skills or difficult situations to others is not described.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0818",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She verifies historical accounts against documents; this does not establish curiosity about speech assessment or treatment.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0819",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her research and practice interests offer no evidence about wanting to guide speech or language treatment.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-128",
+      "answers": [
+        {
+          "token": "reflection-0820",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Malik likes visual comedy and wayfinding design, but creating animated drawings, digital models or effects remains unexplored.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "timeline.4.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0821",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He requests interpreting access, but does not express interest in conveying other people's messages between languages.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.avoids"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0822",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He enjoys visual timing and revising signed comedy across takes, but interest in transferring this to animated scenes is not stated.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0823",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Visual clarity matters to him, but interpreting meaning and tone between languages is not a stated interest.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "selfDescription"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-129",
+      "answers": [
+        {
+          "token": "reflection-0824",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Jonah helps people navigate through clearer signs, but no interest in health care or personal support work is stated.",
+          "biographyPaths": [
+            "timeline.1.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0825",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His illustrated instructions help garden users, but clinical care, recovery coaching and emotional-support preferences are unknown.",
+          "biographyPaths": [
+            "currentLife.activities",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0826",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His exploration concerns images, places and gardens; no preferred medical, dental or therapy observation is given.",
+          "biographyPaths": [
+            "currentLife.ambitions",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0827",
+          "response": "selected",
+          "selected": [
+            "choice-5"
+          ],
+          "confidence": "medium",
+          "evidence": "He enjoys improving illustrated directions so people can carry out unfamiliar tasks.",
+          "biographyPaths": [
+            "timeline.1.story",
+            "timeline.5.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-5": {
+              "evidence": "He revises confusing treasure-hunt directions and tests watering instructions with garden users.",
+              "biographyPaths": [
+                "timeline.1.story",
+                "timeline.5.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0828",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Testing multilingual watering labels concerns understandable design, not a stated wish to assess speech or language disorders.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0829",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He adapts visual directions after observing users, but interest in communication therapy or treatment is unexpressed.",
+          "biographyPaths": [
+            "timeline.1.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-131",
+      "answers": [
+        {
+          "token": "reflection-0830",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "medium",
+          "evidence": "His enjoyment of placing boards for a useful tree platform supports trying tangible object creation.",
+          "biographyPaths": [
+            "timeline.2.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "He enjoyed fetching boards and testing their placement while building a tree platform.",
+              "biographyPaths": [
+                "timeline.2.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0831",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Nolan likes cooking complete meals, but does not express curiosity about nutrition's health effects or other medical topics.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0832",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He enjoys cooperative gaming and shared supplies; interest in diagnosing a digital tool's failure is not described.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0833",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Weekly cooking is satisfying to him, but food safety, production improvement and environmental or biological investigation are not stated interests.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0834",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He likes feeling useful through preparing dinner, but no preferred care, rehabilitation or emotional-support role is established.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0835",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He briefly liked an art elective's unhurried pace; the biography does not identify a preference for these particular creative routines.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0836",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His ordinary commitments involve dinner and games; he has not expressed interest in health-care routines.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0837",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Managing supplies within games does not reveal interest in code, data quality, security or technical troubleshooting.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0838",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "The tree-platform visit and dinner routine do not establish interest in field studies, lab work, animal care or plant monitoring.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0839",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He cannot yet describe a subject to pursue; no specific clinical observation preference is given.",
+          "biographyPaths": [
+            "timeline.6.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0840",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "A small physical model fits the hands-on placement and testing he enjoyed during construction.",
+          "biographyPaths": [
+            "timeline.2.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "He enjoyed testing where boards should go in a rough tree platform.",
+              "biographyPaths": [
+                "timeline.2.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0841",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Shared resource management interests him in games, but choosing a digital-system or device-support project would require more information.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-133",
+      "answers": [
+        {
+          "token": "reflection-0842",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Owen observes everyday life and works at a market, but he does not state interest in learner support or organizing information for others.",
+          "biographyPaths": [
+            "currentLife.activities",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0843",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He compares observations over days, but no interest in debugging digital tools or helping with their faults is described.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0844",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "His appreciation for coworkers' practical shortcuts supports learning to solve ordinary workplace problems with colleagues.",
+          "biographyPaths": [
+            "timeline.5.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "At the market he appreciates coworkers teaching practical shortcuts.",
+              "biographyPaths": [
+                "timeline.5.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0845",
+          "response": "selected",
+          "selected": [
+            "choice-4"
+          ],
+          "confidence": "high",
+          "evidence": "He enjoys visual observation and has begun drawing comics about customers.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-4": {
+              "evidence": "He sketches small customer comics and photographs changing shadows.",
+              "biographyPaths": [
+                "timeline.3.story",
+                "timeline.5.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0846",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "medium",
+          "evidence": "His informal notebook and repeated shadow comparisons show direct interest in finding patterns in observations.",
+          "biographyPaths": [
+            "timeline.3.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "He photographed patio shadows and compared them across several days in a casual notebook.",
+              "biographyPaths": [
+                "timeline.3.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0847",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He handles market transactions, but the biography does not establish which customer-help or financial-record routine he enjoys.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0848",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Family cooking interests him, including batch texture, but food's effects on health and other medical topics are not stated interests.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0849",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "medium",
+          "evidence": "Explaining patterns in data is supported by his ongoing visual comparisons of shadows over time.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "His shadow photographs and notebook compare observations over several days.",
+              "biographyPaths": [
+                "timeline.3.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0850",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He writes precise requests for his own learning, but no preferred way of supporting someone else's learning is described.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0851",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He records visual changes informally, but auditing data quality and assumptions or checking technical system details is not yet an expressed interest.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0852",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "He appreciates practical ways of making ordinary market work easier.",
+          "biographyPaths": [
+            "timeline.5.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "He values coworkers' practical shortcuts at the neighborhood market.",
+              "biographyPaths": [
+                "timeline.5.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0853",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His comics and visual observation support creativity, but he has not shown interest specifically in digital controls or screen usability.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-134",
+      "answers": [
+        {
+          "token": "reflection-0854",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Rowan enjoys shared games and remote friendships, but conveying messages between languages is not a stated interest.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "selfDescription"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0855",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "They refine clues after noticing players' interpretations; cross-language meaning and translation remain unexplored.",
+          "biographyPaths": [
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-135",
+      "answers": [
+        {
+          "token": "reflection-0856",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "high",
+          "evidence": "Wyatt enjoyed sorting supplies and continues returning to it.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "He enjoyed supply sorting on a service outing and still helps several times a semester.",
+              "biographyPaths": [
+                "timeline.5.story",
+                "timeline.6.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0857",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Supply sorting and outdoor curiosity do not establish interest in emergency care, law enforcement, rescue or site protection.",
+          "biographyPaths": [
+            "currentLife.activities",
+            "timeline.0.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0858",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "medium",
+          "evidence": "His early questions while accompanying irrigation checks support curiosity about water-flow faults.",
+          "biographyPaths": [
+            "timeline.0.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "He liked following the groundskeeper checking irrigation and asked many questions.",
+              "biographyPaths": [
+                "timeline.0.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0859",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He enjoys sorting supplies, but cleaning and hygienic upkeep of shared spaces is not a stated interest.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0860",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He explores baking methods and texture, but does not express interest in nutrition's health effects or clinical matters.",
+          "biographyPaths": [
+            "timeline.4.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0861",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "high",
+          "evidence": "He became curious when changing a baking method changed biscuit texture.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "He documents recipe variations and became interested in how a changed method affected texture.",
+              "biographyPaths": [
+                "timeline.4.story",
+                "currentLife.demonstratedSkills"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0862",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Sorting supplies interests him, but no wish to drive deliveries or follow delivery routes is given.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0863",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His hobbies involve physical models, baking and supplies; digital programming, security and troubleshooting interests are unstated.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0864",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "He enjoys accurately assembling instruction-based models.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "He completed several sophisticated building-set models from detailed instructions and still enjoys instruction-based models.",
+              "biographyPaths": [
+                "timeline.2.story",
+                "currentLife.enjoys"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0865",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "A neatly fitted component aligns with his enjoyment of completing physical models.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "He enjoys instruction-based building models, giving direct support for satisfaction in assembled, fitted components.",
+              "biographyPaths": [
+                "timeline.2.story",
+                "currentLife.enjoys"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0866",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He enjoys careful supply sorting, but customer advice, service problems, appointments and financial records are not stated preferences.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0867",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "The biography explores baking, models and independence without expressing interest in any medical, nursing or dental responsibility.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-136",
+      "answers": [
+        {
+          "token": "reflection-0868",
+          "response": "yes",
+          "selected": [],
+          "confidence": "high",
+          "evidence": "Amara edits school news and captions, takes photographs and values accurate representation, directly supporting visual publication work.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.6.story",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0869",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She conducts respectful interviews and edits captions, but translating between languages is not an expressed interest.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "timeline.4.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0870",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her school news editing, caption work and photography support learning to revise visual communication with collaborators.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.6.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0871",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Accurate representation matters to her in reporting, but preserving tone across languages is not specifically described.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-137",
+      "answers": [
+        {
+          "token": "reflection-0872",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Imani enjoys puppets, character interpretation and exhibit writing, but creating drawings or digital models for animation is unexplored.",
+          "biographyPaths": [
+            "timeline.0.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0873",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Rehearsing alternative scene interpretations interests her; animated movement, timing and appearance are not specifically described interests.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-138",
+      "answers": [
+        {
+          "token": "reflection-0874",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Lucía liked redesigning the pickup sheet with clearer names and quantities, supporting visual information design.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0875",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She trims song recordings, but selecting video footage to tell a scene or story is not yet described.",
+          "biographyPaths": [
+            "timeline.3.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0876",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She already enjoyed revising a pickup form to communicate information more clearly after an order mix-up.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0877",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Recording songs and trimming clips supports some media interest, but combining video, dialogue and effects is not an expressed preference.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-139",
+      "answers": [
+        {
+          "token": "reflection-0878",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Rowan enjoys listening and audio dialogue, but does not express interest in interpreting messages between languages.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0879",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Understanding differing accounts matters to them in interviews, but cross-language translation and tone preservation are unexplored.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-140",
+      "answers": [
+        {
+          "token": "reflection-0880",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Brielle enjoys horses, dance and astronomy; she does not express interest in assessing or treating mental-health problems.",
+          "biographyPaths": [
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0881",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She enjoys helping younger children feel capable and patiently teaches them safety and practical riding routines.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.motivations",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0882",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Helping younger riders feel capable supports teaching, but investigating family difficulties and arranging support services is unexpressed.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0883",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her patient child guidance concerns riding safety, not a stated interest in mental-health or relationship counseling.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0884",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "Her sustained interest in dance technique and repeated footwork supports curiosity about improving movement.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.enjoys",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "She enjoys repeated dance footwork and seeing movement improve through practice.",
+              "biographyPaths": [
+                "timeline.4.story",
+                "currentLife.enjoys",
+                "currentLife.motivations"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0885",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She takes riding safety seriously, but that does not establish interest in monitoring psychiatric treatment or adjusting a clinical plan.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0886",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She is comfortable guiding groups of children and motivated by helping younger children develop confidence.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.demonstratedSkills",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0887",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her child guidance involves immediate instruction and safety; family support plans, progress records and service coordination remain unexplored.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0888",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Brielle's teaching and outdoor interests do not show a wish to use therapeutic approaches in confidential counseling.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0889",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Ordinary horse care and child safety instruction do not establish interest in daily psychiatric or developmental-disability patient care.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "timeline.5.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0890",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She notices safety details in riding, but no interest in observing patients or participating in clinical treatment activities is given.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-143",
+      "answers": [
+        {
+          "token": "reflection-0891",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Gabriel already adapts instructions and offers choices to younger children, supporting learning to teach basic skills through suitable activities.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.activities",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0892",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He participates in children's community events and has experience supervising younger children through everyday difficulties.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0893",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He has learned to adjust how he guides children and continues joining their community events.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.activities",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0894",
+          "response": "yes",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Noticing tired children's responses and offering choices shows direct interest in adapting child activities and interactions.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-145",
+      "answers": [
+        {
+          "token": "reflection-0895",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Parisa enjoys narration, interviews and crochet; creating animation models or drawn moving characters is not an expressed interest.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0896",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Editing interview words and practicing wrestling movement do not establish interest in planning animated scenes.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-146",
+      "answers": [
+        {
+          "token": "reflection-0897",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Noah enjoys compost, swimming and photography; he does not state a preference for health care or personal-support work.",
+          "biographyPaths": [
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0898",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He likes biology and compost investigations, but human illness, rehabilitation and mental-health questions are not stated interests.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0899",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His biology study and garden work do not establish interest in a physician, nursing, PA or dental responsibility.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0900",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His science curiosity concerns compost and gardens, not medical history, diagnostic imaging, nutrition or population health.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0901",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Welcoming families at pool events shows social participation, but he has not expressed a preferred care or therapeutic helping role.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0902",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "No medical or dental professional is identified among his interests; biology alone cannot choose a clinical shadowing preference.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0903",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Tracking garden changes is established, but extending this to patient care or community health is an untested interest.",
+          "biographyPaths": [
+            "currentLife.demonstratedSkills",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0904",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He wants to borrow a camera and enjoys garden science; no clinical setting stands out as a stated preference.",
+          "biographyPaths": [
+            "currentLife.ambitions",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0905",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He has learned pool-event boundaries and greetings, but no interest in explaining care, treatment or skill-building to others is described.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-147",
+      "answers": [
+        {
+          "token": "reflection-0906",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Jonas enjoys paper sculpture and recording plant growth, but graphic messaging through words, images and styles is not stated.",
+          "biographyPaths": [
+            "timeline.2.story",
+            "timeline.3.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0907",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He helps students compare plant evidence, but revising visual layouts to clarify a message is an unexplored design interest.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-148",
+      "answers": [
+        {
+          "token": "reflection-0908",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Elena enjoys chemistry explanations and measured cooking, but health effects of food or other medical questions are not described interests.",
+          "biographyPaths": [
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0909",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She wants more practical making and testing experience, but has not expressed an interest in digital faults or technical support.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0910",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her science interests concern chemistry explanations; no interest in animal illness or choosing veterinary treatment is given.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0911",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "A successful wooden tray and interest in making things do not establish a specific interest in electrical systems or controls.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0912",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Occasional baby care and chemistry study do not identify a medical, nursing or dental professional responsibility she wants.",
+          "biographyPaths": [
+            "currentLife.activities",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0913",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She wants to learn experimental making, but collecting biological samples and studying living things are not stated interests.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.unfamiliarActivities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0914",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "The biography describes chemistry, books and cooking without an expressed interest in protecting land, soil or water.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0915",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "medium",
+          "evidence": "Her patient response to her baby brother's changing needs supports ordinary hands-on care and noticing wellbeing.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.activities",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "She helps care for her baby brother and responds patiently to his changing needs.",
+              "biographyPaths": [
+                "timeline.5.story",
+                "currentLife.activities",
+                "currentLife.demonstratedSkills"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-0916",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She wants experience making and testing physical things, but none of the digital specialty problems is a stated preference.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0917",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Baby care involves adapting to changing needs, but she has not expressed interest in these clinical procedures or longitudinal treatment routines.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0918",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Accurate measurement is a strength in cooking and making; it does not establish interest in code, data audits or technical settings.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-0919",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her practical workshop exploration contains no stated interest in treating wounds, medicines or vaccinations for animals.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-173",
+      "answers": [
+        {
+          "token": "reflection-1088",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Nadia works on a more usable shared space, but does not describe personal care, rehabilitation or emotional-support interests.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1089",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She listens to students' needs for a shared seating proposal; individual learning support and teaching methods are not stated interests.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1090",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her questions concern shade locations and practical school constraints, without expressed medical or community-health investigation.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1091",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She wants ordinary school days to feel more comfortable, but has not expressed interest in clinical problems or how emotions affect wellbeing.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1092",
+          "response": "selected",
+          "selected": [
+            "choice-4"
+          ],
+          "confidence": "medium",
+          "evidence": "She enjoys learning from differing student and adult viewpoints about a shared need.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "timeline.6.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-4": {
+              "evidence": "She gathers students' objections, talks with staff and likes discovering overlooked needs around shared school space.",
+              "biographyPaths": [
+                "timeline.5.story",
+                "timeline.6.story",
+                "currentLife.enjoys"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1093",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her service motive concerns a shared physical environment, not a stated preference for medical treatment or personal-support responsibilities.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1094",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "The seating proposal provides no direct evidence of interest in any physician, nursing, PA or dental role.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1095",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She wants shaded seating to improve comfort, but no preferred one-to-one care, coaching or therapeutic role is described.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "timeline.6.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1096",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "She enjoys gathering evidence about students' concrete needs and revising the support offered through a school-space plan.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.enjoys",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "She asks students where they wait, records their differing objections and revises a proposal around overlooked needs.",
+              "biographyPaths": [
+                "timeline.5.story",
+                "currentLife.demonstratedSkills"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1097",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She collects viewpoints to improve shared space; this does not establish interest in health-care records, procedures or community health research.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1098",
+          "response": "selected",
+          "selected": [
+            "choice-4"
+          ],
+          "confidence": "high",
+          "evidence": "A community research question directly fits her ongoing investigation of usable shaded seating.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "timeline.6.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-4": {
+              "evidence": "She researches where students wait and works with staff to revise a shared-space proposal.",
+              "biographyPaths": [
+                "timeline.5.story",
+                "timeline.6.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1099",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She keeps discussions focused on concrete objections, but teaching skills or explaining treatment is not a stated interest.",
+          "biographyPaths": [
+            "currentLife.demonstratedSkills",
+            "selfDescription"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-174",
+      "answers": [
+        {
+          "token": "reflection-1100",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Tessa's interest is event messages and audience response; food, appearance, maintenance and clinical support are not stated preferences.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1101",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Audience messaging interests her, but financial risks and insurance protection are unexplored.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1102",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She collaborates on publicity, but enjoys message decisions rather than explicitly coordinating materials, costs or technical designs.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "timeline.6.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1103",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She interviews audiences to improve invitations, but shopper product selection and retail advice are not stated interests.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1104",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her attention goes to wording and readers, not food hygiene, staffing, maintenance or patient-safety details.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1105",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She enjoys persuasive messages, but no interest in insurance products, coverage or policy sales is described.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "timeline.5.story"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1106",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She checks message effectiveness, while technical performance, spaces and project-resource constraints are not expressed interests.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1107",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Adapting campaign wording to audiences does not establish interest in explaining product options and helping with purchases.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1108",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She wants to finish publicity work but no specific interest in concurrent order handling, repeatable service techniques or safety routines is stated.",
+          "biographyPaths": [
+            "currentLife.ambitions",
+            "currentLife.struggles"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1109",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her creative work focuses on wording and campaigns; device models, building layouts and assembly projects are unexplored.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.avoids"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1110",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She publicizes an event, but does not state interest in food service, salons, facilities work or clinic observation.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1111",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "high",
+          "evidence": "She directly enjoys exploring differing audience needs and revising messages accordingly.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "She wants different messages for students and parents and interviews classmates about why they might skip the event.",
+              "biographyPaths": [
+                "timeline.4.story",
+                "timeline.6.story"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "token": "profile-177",
+      "answers": [
+        {
+          "token": "reflection-1112",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Graham enjoys measuring motion and simulating patterns, but chemical composition and testing substances in a lab are not stated interests.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "timeline.4.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1113",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His investigations concern physical motion, without an expressed medical or community-health topic preference.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1114",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "medium",
+          "evidence": "He directly investigates water flow by altering channels and observing drainage.",
+          "biographyPaths": [
+            "timeline.0.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "He moved driveway pebbles to alter water routes and wanted to know which puddle emptied first.",
+              "biographyPaths": [
+                "timeline.0.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1115",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His interest in rolling objects and motion does not establish a preference for animal examination or medical treatment.",
+          "biographyPaths": [
+            "currentLife.activities",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1116",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He measures physical systems, but collecting samples to study living organisms is not an expressed interest.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1117",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Watching water channels shows physical-process curiosity; rocks, Earth history and scientific geology reports are unexplored.",
+          "biographyPaths": [
+            "timeline.0.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1118",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "high",
+          "evidence": "He compares repeated measurements with a simulation and enjoys investigating where the model fails to match.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "He kept a simulation's mismatch visible and wants a model that predicts actual measurements.",
+              "biographyPaths": [
+                "timeline.4.story",
+                "currentLife.ambitions"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1119",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Investigating water routes concerns explaining flow; resource protection and land-use decisions are not stated interests.",
+          "biographyPaths": [
+            "timeline.0.story",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1120",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He wants control of his own equipment and declines service-centered activities; his interest in these particular team-support routines is unclear.",
+          "biographyPaths": [
+            "currentLife.avoids",
+            "currentLife.motivations",
+            "openQuestions"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1121",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "medium",
+          "evidence": "He enjoys practical testing and material handling at an adjusted school workbench.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "At an accessible workbench he likes handling materials, checking slopes and timing carts.",
+              "biographyPaths": [
+                "timeline.5.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1122",
+          "response": "selected",
+          "selected": [
+            "choice-3"
+          ],
+          "confidence": "high",
+          "evidence": "Accurate measurement and constructing small physical models are sustained interests.",
+          "biographyPaths": [
+            "timeline.1.story",
+            "timeline.2.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-3": {
+              "evidence": "He repeatedly makes cardboard ramps, measures rolling distances and uses dimensioned sketches.",
+              "biographyPaths": [
+                "timeline.1.story",
+                "timeline.2.story",
+                "currentLife.demonstratedSkills"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1123",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "high",
+          "evidence": "He wants to explain inconsistent measurements and the patterns that simple models only partly reproduce.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.demonstratedSkills",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "He compares repeated vibrating-ruler measurements, notices inconsistent runs and wants a predictive model.",
+              "biographyPaths": [
+                "timeline.4.story",
+                "currentLife.demonstratedSkills",
+                "currentLife.ambitions"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "token": "profile-178",
+      "answers": [
+        {
+          "token": "reflection-1124",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Tessa's long observations concern shade, moisture and local specimens; no medical or population-health topic is a stated interest.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1125",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She records drainage and environmental change, but does not state a wish to design roads, water infrastructure or buildings.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "timeline.5.story",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1126",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "high",
+          "evidence": "She enjoys comparing observations against dated records and explaining what a comparison can support.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.motivations",
+            "timeline.6.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "She compares explanations with dated notes and can explain why two data sets should not be combined.",
+              "biographyPaths": [
+                "currentLife.enjoys",
+                "timeline.6.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1127",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "medium",
+          "evidence": "Studying records to locate a problem fits her explicit interest in method changes and valid comparisons.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "timeline.6.story",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "She detected a shifted measuring position, retained old records and explained why measurements differed.",
+              "biographyPaths": [
+                "timeline.3.story",
+                "timeline.6.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1128",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She enjoys repeated observations and comparing explanations, but performance models, engineering calculations, spatial sketches and project coordination are unstated preferences.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1129",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She wants notes others can check, but her preference among creative clients, product teams and community collaboration remains unclear.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "openQuestions"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1130",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "high",
+          "evidence": "Her sustained curiosity centers on patterns and defensible conclusions despite imperfect records.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "timeline.5.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "She preserves method changes and gaps rather than inventing data, and distinguishes records that cannot be combined.",
+              "biographyPaths": [
+                "timeline.3.story",
+                "timeline.5.story",
+                "timeline.6.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1131",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Careful evidence and records interest her in local observations, but she has not expressed interest in health-care routines.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1132",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Shade and moisture comparisons are environmental observations; checking engineered components, safety margins or project resources is unexplored.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1133",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "high",
+          "evidence": "Data quality and uncertainty are explicit sources of enjoyment and motivation.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.demonstratedSkills",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "She recognizes confounding conditions, retains gaps and explains comparison limits because she wants others to check her record.",
+              "biographyPaths": [
+                "currentLife.demonstratedSkills",
+                "currentLife.motivations"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1134",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She organizes photographs and research records, but does not state a preference for creative visual messages, stories, objects or cultural-information services.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1135",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She wants to explain the limits of her findings; care, treatment explanations and teaching someone a skill are different interests not yet described.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-179",
+      "answers": [
+        {
+          "token": "reflection-1136",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Avery uses simulations to examine theories, but writing user-focused websites or web applications is not an expressed interest.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1137",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She has read about memory and larger patterns, but no medical or community-health subject among these choices is stated.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1138",
+          "response": "selected",
+          "selected": [
+            "choice-4"
+          ],
+          "confidence": "high",
+          "evidence": "She explicitly wants people who will examine a question slowly alongside her.",
+          "biographyPaths": [
+            "currentLife.ambitions",
+            "timeline.4.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-4": {
+              "evidence": "She wants to spend time with people willing to examine a question slowly and values a friend's counterexamples.",
+              "biographyPaths": [
+                "currentLife.ambitions",
+                "timeline.4.story",
+                "currentLife.supports"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1139",
+          "response": "selected",
+          "selected": [
+            "choice-1",
+            "choice-2"
+          ],
+          "confidence": "high",
+          "evidence": "She tests simulation rules and investigates patterns that initially seem convincing.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-1": {
+              "evidence": "She changes rules in a basic simulation to test explanations for larger patterns.",
+              "biographyPaths": [
+                "timeline.5.story"
+              ]
+            },
+            "choice-2": {
+              "evidence": "She collected bus arrivals, discovered sampling-day bias and preserved why the apparent cycle failed.",
+              "biographyPaths": [
+                "timeline.3.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1140",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her models address theoretical explanations, without a stated interest in translating other people's needs into software plans.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1141",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She explores light, memory and emergence; habitats, substances, animal illness and plant-growth investigations are not identified interests.",
+          "biographyPaths": [
+            "timeline.0.story",
+            "timeline.4.story",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1142",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She wants adequate explanations with clear limits; visual communication, usable products and expressive stories are not stated creative preferences.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1143",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She values thoughtful counterexamples from friends, but financial advice, work coordination, advocacy and community planning are unexplored.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1144",
+          "response": "selected",
+          "selected": [
+            "choice-1"
+          ],
+          "confidence": "high",
+          "evidence": "Testing models against contrary evidence is a sustained voluntary interest.",
+          "biographyPaths": [
+            "timeline.0.story",
+            "timeline.5.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-1": {
+              "evidence": "She tests light explanations with a flashlight and revises basic simulations when their behavior contradicts a theory.",
+              "biographyPaths": [
+                "timeline.0.story",
+                "timeline.5.story"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1145",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Her physical examples and rough models test theories; she does not state interest in designing machines, infrastructure or project operations.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "timeline.6.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1146",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "She tests weaknesses in explanations, but computer vulnerabilities, data protection and unauthorized access are not stated interests.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.motivations"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1147",
+          "response": "selected",
+          "selected": [
+            "choice-1"
+          ],
+          "confidence": "medium",
+          "evidence": "She has sustained curiosity about how people remember, a direct question about life and cognition.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-1": {
+              "evidence": "She spent a month reading incompatible accounts of human memory and specifying when each account might fail.",
+              "biographyPaths": [
+                "timeline.4.story"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "token": "profile-181",
+      "answers": [
+        {
+          "token": "reflection-1148",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Jonah loves historical reading and rewriting arguments, but selecting and arranging video footage is an unexplored medium.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1149",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He compares written accounts and memories; combining video, dialogue, music and effects is not a stated interest.",
+          "biographyPaths": [
+            "currentLife.activities",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    },
+    {
+      "token": "profile-182",
+      "answers": [
+        {
+          "token": "reflection-1150",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Miles enjoys understanding motion predictions, but no interest in digital data exploration, software, security or user support is explicitly described.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.activities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1151",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He voluntarily studies motion, but interest in designing machines, circuits, buildings or infrastructure is not established by physics study alone.",
+          "biographyPaths": [
+            "timeline.6.story",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1152",
+          "response": "selected",
+          "selected": [
+            "choice-2"
+          ],
+          "confidence": "high",
+          "evidence": "He voluntarily returns to quantitative physics problems and enjoys making the reasoning work.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "timeline.5.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "direct",
+          "optionEvidence": {
+            "choice-2": {
+              "evidence": "He attempts optional physics problems, attends extra help and enjoys tracing reasoning errors despite difficult equations.",
+              "biographyPaths": [
+                "timeline.4.story",
+                "timeline.5.story",
+                "currentLife.enjoys"
+              ]
+            }
+          }
+        },
+        {
+          "token": "reflection-1153",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He likes finding mistakes in physics reasoning, but diagnosing digital tools or their data is not a stated interest.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1154",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He enjoys supported study and family games, but no preference for a creative client, product team or community-production role is given.",
+          "biographyPaths": [
+            "currentLife.activities",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1155",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His persistence with equations concerns physical science; no interest in prescriptions or medication safety is described.",
+          "biographyPaths": [
+            "timeline.5.story",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1156",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Motion problems interest him, while messy-data investigation, software behavior, security and device support remain unexplored.",
+          "biographyPaths": [
+            "currentLife.enjoys",
+            "currentLife.unfamiliarActivities"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1157",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He enjoys tracing a mistaken reasoning step, but has not expressed a preference for data audits, code, security checks or technical settings.",
+          "biographyPaths": [
+            "currentLife.demonstratedSkills",
+            "timeline.5.story"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1158",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "His motion-study interest does not yet establish a preference for checking engineering components, materials, building safety or project constraints.",
+          "biographyPaths": [
+            "timeline.4.story",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1159",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "Diagrams help his own understanding, but creating visual messages, useful objects or stories for others is not an expressed interest.",
+          "biographyPaths": [
+            "timeline.3.story",
+            "timeline.4.story",
+            "currentLife.demonstratedSkills"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1160",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He values explanations in physics; explaining medicines to patients and monitoring treatment is a separate, unstated interest.",
+          "biographyPaths": [
+            "currentLife.motivations",
+            "currentLife.ambitions"
+          ],
+          "constructSupport": "none",
+          "optionEvidence": {}
+        },
+        {
+          "token": "reflection-1161",
+          "response": "unsure",
+          "selected": [],
+          "confidence": "medium",
+          "evidence": "He wants to solve unfamiliar physics problems; none of these digital construction, public-data, system-planning or support projects is yet a stated preference.",
+          "biographyPaths": [
+            "currentLife.ambitions",
+            "currentLife.enjoys"
+          ],
+          "constructSupport": "transfer",
+          "optionEvidence": {}
+        }
+      ]
+    }
+  ]
+}

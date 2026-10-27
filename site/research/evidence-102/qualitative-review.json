@@ -1,0 +1,51 @@
+{
+  "scope": "Diagnostic sample of development and separately labeled, previously inspected holdout cases; not an independent quality assessment or tuning input after the freeze",
+  "policyFrozen": true,
+  "cases": [
+    {
+      "id": "scale056-0403",
+      "finding": "Lost electronics assembly despite unchanged stated electronics activity. Current block confirmed three electronics questions immediately; activity-first never asked those checks within 24.",
+      "interpretation": "Removing the original direct-activity anchor can lose a genuinely supported non-college option. This is not evidence that the interest disappeared."
+    },
+    {
+      "id": "scale056-0523",
+      "finding": "Chemistry confirmed at questions 23\u201324 in the current block. Activity-first began with an affirmative business activity and used many later items on unfamiliar business responsibilities; chemistry was not reached.",
+      "interpretation": "A broad positive activity can cause expensive follow-up branching. An affirmative broad option does not establish the distinctive responsibilities of all linked careers."
+    },
+    {
+      "id": "scale056-0118",
+      "finding": "Mechanical engineering confirmed at activity-first questions 23\u201324 using existing mechanics/design facts. Current block spent its first three items on quality inspection, with the third unknown, and reached only industrial engineering at question24.",
+      "interpretation": "This gain comes from reallocating the limited budget, not an invented engineering interest or the opening food activity directly establishing engineering fit."
+    },
+    {
+      "id": "scale056-0646",
+      "finding": "Activity-first reached environmental science checks at questions20\u201321 with ecology and research evidence. The current block used more health follow-ups and did not reach these checks.",
+      "interpretation": "The additional science option has existing source support. No extra ecology interest was added and unknown health responsibilities remain unknown."
+    },
+    {
+      "id": "life-057",
+      "cohort": "original holdout \u2014 previously inspected",
+      "finding": "Rowan Mercer gained writing. Activity-first asked creative-make first and reached the writing checks at22\u201323 and creative-workday at24. Existing biography says writing clues was enjoyable and Rowan cut a favorite scene after players misunderstood it.",
+      "interpretation": "Writing and revision are directly stated interests; this is a grounded match that the current opening did not finish within24, not an invented interest."
+    },
+    {
+      "id": "grok075-0193",
+      "cohort": "Grok evaluation \u2014 previously inspected",
+      "finding": "Diego Paredes gained mechanical engineering while retaining industrial machinery mechanic. Existing narrative describes building moving linkages, comparing their motion and swapping parts; structured facts include mechanics, design and testing.",
+      "interpretation": "A reasonable engineering exploration connection supported by stated mechanism design/testing. This does not establish academic readiness or a preference for a degree."
+    },
+    {
+      "id": "grok075-0038",
+      "cohort": "Grok evaluation \u2014 previously inspected",
+      "finding": "Caleb Nystrom gained architecture while retaining carpentry. Existing narrative describes fitted wooden boxes and a layout sketch serving the piece; the unchanged simulator binds spaces + design + safety to both architecture checks.",
+      "interpretation": "Potentially overbroad responsibility mapping: furniture layout and workshop safety do not directly establish interest in designing buildings for users and meeting building codes. Count remains the unchanged engine result, but this gain requires a targeted building-design preference check before treating it as well validated."
+    },
+    {
+      "id": "grok075-0816",
+      "cohort": "Grok evaluation \u2014 previously inspected",
+      "finding": "Cole Brant retained industrial machinery mechanic but lost mechanical-engineering Top. Activity-first did not reach the second engineering check; unchanged profile still describes revising engine parts and comparing tests.",
+      "interpretation": "A budget/selection loss, not evidence that the engineering interest became negative."
+    }
+  ],
+  "nextProposal": "Test a hybrid that retains strong directly observed activity anchors and limits repeated unknown branching, while auditing the broad architecture responsibility bindings with a building-specific follow-up. Keep the same60 +24 cap, select on development only, and evaluate holdouts separately. Degree coverage alone is not evidence of match quality."
+}

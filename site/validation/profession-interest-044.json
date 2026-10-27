@@ -1,0 +1,2279 @@
+{
+  "version": "0.44.0",
+  "generatedAt": "2026-10-19T19:58:49.026Z",
+  "all": {
+    "models": 154,
+    "modelsWithTopBefore": 79,
+    "modelsWithTopNow": 131,
+    "topOffersBefore": 97,
+    "topOffersNow": 229,
+    "changedTopLists": 87,
+    "topDegreeOffers": 158,
+    "topGraduateOffers": 13
+  },
+  "public": {
+    "models": 148,
+    "modelsWithTopBefore": 76,
+    "modelsWithTopNow": 126,
+    "topOffersBefore": 94,
+    "topOffersNow": 222,
+    "changedTopLists": 84,
+    "topDegreeOffers": 153,
+    "topGraduateOffers": 13
+  },
+  "reviewed76": {
+    "offers": 76,
+    "statuses": {
+      "Top match": 40,
+      "Needs confirmation": 36
+    },
+    "degreeRoutes": {
+      "Top match": 22,
+      "Needs confirmation": 27
+    },
+    "byEarlierJudgment": {
+      "strong-interest": {
+        "Top match": 20
+      },
+      "plausible-transfer": {
+        "Top match": 20,
+        "Needs confirmation": 22
+      },
+      "domain-gap": {
+        "Needs confirmation": 14
+      }
+    }
+  },
+  "originalScoresAndHistoriesUnchanged": true,
+  "privateModelsKeptOwnerOnly": 6,
+  "publicReviewedOffers": [
+    {
+      "modelId": "life-007",
+      "name": "Isabel Rios",
+      "id": "accounting",
+      "title": "Accountant",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "accounting-interest-044-1",
+          "prompt": "Would you like to learn to prepare and analyze an organization’s financial records and reports so people can understand its money and meet reporting rules?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She repeatedly compares costs, builds clear sheets, stretches grocery budgets, and wants numbers tied to real decisions. Organization-level financial reports are a plausible next learning step."
+        },
+        {
+          "id": "accounting-interest-044-2",
+          "prompt": "Would you like to learn to investigate differences in an organization’s accounts and work out what needs correcting?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "Patient error checking and detailed used-car/grocery comparisons support learning to investigate accounts that do not add up; formal accounting rules are new."
+        }
+      ]
+    },
+    {
+      "modelId": "life-007",
+      "name": "Isabel Rios",
+      "id": "data-science",
+      "title": "Data Scientists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "data-science-interest-044-1",
+          "prompt": "Would you like to learn to analyze data to find patterns and answer questions using statistics and computing as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She combines practical numerical comparison, clear decision sheets, patient error checking, and small-program debugging. Learning statistical computing and explaining data is plausible; larger analyses are new."
+        },
+        {
+          "id": "data-science-interest-044-2",
+          "prompt": "Would you like to learn to turn the results of a data analysis into charts and explanations that help other people make decisions as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She combines practical numerical comparison, clear decision sheets, patient error checking, and small-program debugging. Learning statistical computing and explaining data is plausible; larger analyses are new."
+        }
+      ]
+    },
+    {
+      "modelId": "life-014",
+      "name": "Mateo Quintero",
+      "id": "industrial-machinery-mechanic",
+      "title": "Factory equipment mechanic",
+      "routes": [
+        {
+          "key": "program",
+          "label": "Technical training / college courses"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "industrial-machinery-mechanic-interest-044-1",
+          "prompt": "Would you like to learn to investigate why production machinery is not working and work out what needs repairing as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Simple bicycle diagnosis and a fabrication elective establish mechanical problem-solving interest; production equipment is unfamiliar but plausible learning."
+        },
+        {
+          "id": "industrial-machinery-mechanic-interest-044-2",
+          "prompt": "Would you like to learn to repair or replace machine parts and maintain equipment so it can run reliably as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He enjoys careful adjustments and precise bench work, and seeks unfamiliar equipment workshops; larger machinery maintenance is a reasonable extension."
+        }
+      ]
+    },
+    {
+      "modelId": "life-014",
+      "name": "Mateo Quintero",
+      "id": "automotive",
+      "title": "Auto mechanic",
+      "routes": [
+        {
+          "key": "program",
+          "label": "Technical training / college courses"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "automotive-interest-044-1",
+          "prompt": "Would you like to learn to inspect cars and trace the cause of problems in their engines, brakes, or other systems?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He diagnoses bicycle problems and likes finding out what changed after a fix; learning vehicle-system diagnosis is plausible beyond his current bicycle work."
+        },
+        {
+          "id": "automotive-interest-044-2",
+          "prompt": "Would you like to learn to repair or adjust vehicle parts and test the vehicle to check that the repair works safely?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Guided bicycle repairs and sustained fabrication support learning car repairs and tests; car-specific methods are not yet known."
+        }
+      ]
+    },
+    {
+      "modelId": "life-014",
+      "name": "Mateo Quintero",
+      "id": "industrial-design",
+      "title": "Industrial designers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "industrial-design-interest-044-1",
+          "prompt": "Would you like to learn to sketch ideas for useful physical products, thinking about how people will use them as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Fabrication classes, building a cardboard arcade, bicycle adjustments, and wanting digital-fabrication workshops support learning useful product design; sketching for users is inferred."
+        },
+        {
+          "id": "industrial-design-interest-044-2",
+          "prompt": "Would you like to learn to build or try models of a product and revise the design when it does not meet users' needs as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He enjoys precise bench work and making things work, with repeated adjustments and fabrication; iterative product models are a plausible extension."
+        }
+      ]
+    },
+    {
+      "modelId": "life-021",
+      "name": "Beatrice Albright",
+      "id": "social-research",
+      "title": "Social research assistant",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "social-research-interest-044-1",
+          "prompt": "Would you like to learn to collect information about how people live, think, or behave through surveys, interviews, or observations for a research study?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She investigates ordinary lives through postcards and challenges textbook biographies; learning to collect evidence about people is a plausible extension."
+        },
+        {
+          "id": "social-research-interest-044-2",
+          "prompt": "Would you like to learn to organize and compare research findings about people or communities to help a research team answer a question?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Careful archival identification and contrasting ordinary-life stories support learning to compare social evidence, though formal research remains untested."
+        }
+      ]
+    },
+    {
+      "modelId": "life-021",
+      "name": "Beatrice Albright",
+      "id": "interpreting",
+      "title": "Interpreter or translator",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "interpreting-interest-044-1",
+          "prompt": "Would you like to learn to convey someone’s spoken or signed message accurately from one language into another?",
+          "response": "unfamiliar",
+          "confidence": "high",
+          "evidence": "Her biography describes English use and interest in postcards, but no cross-language communication or language-learning interest."
+        },
+        {
+          "id": "interpreting-interest-044-2",
+          "prompt": "Would you like to learn to work out meaning and context across languages so the translated message preserves the speaker’s intent and tone?",
+          "response": "unfamiliar",
+          "confidence": "high",
+          "evidence": "Curiosity about postcard writers concerns their lives, not translating meaning between languages."
+        }
+      ]
+    },
+    {
+      "modelId": "life-026",
+      "name": "Benjamin Vu",
+      "id": "interpreting",
+      "title": "Interpreter or translator",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "interpreting-interest-044-1",
+          "prompt": "Would you like to learn to convey someone’s spoken or signed message accurately from one language into another?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Vietnamese-English family use and patient exhibit explanations are described, but no cross-language message mediation or translation interest."
+        },
+        {
+          "id": "interpreting-interest-044-2",
+          "prompt": "Would you like to learn to work out meaning and context across languages so the translated message preserves the speaker’s intent and tone?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Vietnamese-English family use and patient exhibit explanations are described, but no cross-language message mediation or translation interest."
+        }
+      ]
+    },
+    {
+      "modelId": "life-026",
+      "name": "Benjamin Vu",
+      "id": "geoscience",
+      "title": "Geoscientists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "geoscience-interest-044-1",
+          "prompt": "Would you like to learn to investigate rocks, soil, and the Earth’s history or processes using observations, samples, and scientific reports?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Shoreline observations, shell collecting, tide-pool drawings, and coastal study support learning Earth processes; rock and geological-history work is inferred."
+        },
+        {
+          "id": "geoscience-interest-044-2",
+          "prompt": "Would you like to learn to combine geological evidence to explain what is happening at a site and communicate what the findings mean?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He compares different shore stretches and explains exhibits; combining coastal Earth evidence and explaining findings is a plausible extension."
+        }
+      ]
+    },
+    {
+      "modelId": "life-027",
+      "name": "Cora McIntyre",
+      "id": "interpreting",
+      "title": "Interpreter or translator",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "interpreting-interest-044-1",
+          "prompt": "Would you like to learn to convey someone’s spoken or signed message accurately from one language into another?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She enjoys essays, puzzles, and dialogue, but no cross-language message work is described."
+        },
+        {
+          "id": "interpreting-interest-044-2",
+          "prompt": "Would you like to learn to work out meaning and context across languages so the translated message preserves the speaker’s intent and tone?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Understanding characters and arguments does not establish interest in translation between languages."
+        }
+      ]
+    },
+    {
+      "modelId": "life-029",
+      "name": "Evelyn Duarte",
+      "id": "general-operations-manager",
+      "title": "Operations manager",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "general-operations-manager-interest-044-1",
+          "prompt": "Would you like to learn to coordinate the people and resources of a business or department and take responsibility for meeting its work goals as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She likes hotel problem-solving and occasional event work, but department-wide responsibility and reviewing business costs or performance are not described."
+        },
+        {
+          "id": "general-operations-manager-interest-044-2",
+          "prompt": "Would you like to learn to review costs and performance results and decide how a business or department should improve its operations as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She likes hotel problem-solving and occasional event work, but department-wide responsibility and reviewing business costs or performance are not described."
+        }
+      ]
+    },
+    {
+      "modelId": "life-029",
+      "name": "Evelyn Duarte",
+      "id": "high-school-teacher",
+      "title": "High school teacher",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "high-school-teacher-interest-044-1",
+          "prompt": "Would you like to learn to teach a subject to high-school students using explanations, discussions, and activities that help them understand it?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She organizes study groups, helped a friend through shared video study, and summarizes history arguments. Learning to teach and adapt explanations for teens is plausible; a classroom role is untested."
+        },
+        {
+          "id": "high-school-teacher-interest-044-2",
+          "prompt": "Would you like to learn to plan lessons for a high-school class, check students’ understanding, and adjust your teaching to help different students learn?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She organizes study groups, helped a friend through shared video study, and summarizes history arguments. Learning to teach and adapt explanations for teens is plausible; a classroom role is untested."
+        }
+      ]
+    },
+    {
+      "modelId": "life-029",
+      "name": "Evelyn Duarte",
+      "id": "project-management",
+      "title": "Project manager",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "project-management-interest-044-1",
+          "prompt": "Would you like to learn to turn a work project’s goals into a plan for its people, tasks, deadlines, and budget?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She organizes group runs, study groups, and hotel event help, with fast prioritization; learning project planning is a reasonable extension."
+        },
+        {
+          "id": "project-management-interest-044-2",
+          "prompt": "Would you like to learn to coordinate a work team, track problems and progress, and take responsibility for delivering the agreed results to a client or organization?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Hotel event help and organizing runs show coordination, but responsibility for a client project and agreed deliverables is not yet established."
+        }
+      ]
+    },
+    {
+      "modelId": "life-031",
+      "name": "Amina Farah",
+      "id": "paralegal",
+      "title": "Paralegal",
+      "routes": [
+        {
+          "key": "program",
+          "label": "Community college · associate degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "paralegal-interest-044-1",
+          "prompt": "Would you like to learn to prepare and check legal documents, such as contracts or court papers, to support a lawyer’s work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She enjoys ethical argument and clear game explanations, but preparing legal documents and maintaining legal case files are distinct routine duties without an expressed basis."
+        },
+        {
+          "id": "paralegal-interest-044-2",
+          "prompt": "Would you like to learn to organize legal case files and supporting information so a lawyer can find accurate material when preparing a case?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She enjoys ethical argument and clear game explanations, but preparing legal documents and maintaining legal case files are distinct routine duties without an expressed basis."
+        }
+      ]
+    },
+    {
+      "modelId": "life-031",
+      "name": "Amina Farah",
+      "id": "high-school-teacher",
+      "title": "High school teacher",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "high-school-teacher-interest-044-1",
+          "prompt": "Would you like to learn to teach a subject to high-school students using explanations, discussions, and activities that help them understand it?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She teaches specific technology tasks, explains complex game rules, and rewrote an introduction after a member was confused. Learning explanation-based teaching and adapting instruction closely fits these interests."
+        },
+        {
+          "id": "high-school-teacher-interest-044-2",
+          "prompt": "Would you like to learn to plan lessons for a high-school class, check students’ understanding, and adjust your teaching to help different students learn?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She teaches specific technology tasks, explains complex game rules, and rewrote an introduction after a member was confused. Learning explanation-based teaching and adapting instruction closely fits these interests."
+        }
+      ]
+    },
+    {
+      "modelId": "life-031",
+      "name": "Amina Farah",
+      "id": "law",
+      "title": "Lawyers",
+      "routes": [
+        {
+          "key": "graduate",
+          "label": "Graduate/professional degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "law-interest-044-1",
+          "prompt": "Would you like to learn to research laws and explain how they apply to a person’s or organization’s legal problem?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She repeatedly explores fairness, inconsistent arguments, agreed rules, and opposing positions. Learning how laws apply and how case-based arguments work is plausible; actual legal research remains untried."
+        },
+        {
+          "id": "law-interest-044-2",
+          "prompt": "Would you like to learn to compare the facts of a legal case with earlier decisions and build a reasoned argument about what should happen?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She repeatedly explores fairness, inconsistent arguments, agreed rules, and opposing positions. Learning how laws apply and how case-based arguments work is plausible; actual legal research remains untried."
+        }
+      ]
+    },
+    {
+      "modelId": "life-033",
+      "name": "Ruth Henderson",
+      "id": "chemistry",
+      "title": "Chemists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "chemistry-interest-044-1",
+          "prompt": "Would you like to learn to test substances in a laboratory to discover what they contain and how they behave?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She explores how dough temperature and recipe changes affect results and wants hands-on experiments. Learning substance testing and controlled chemical experiments is plausible; chemical lab work itself is new."
+        },
+        {
+          "id": "chemistry-interest-044-2",
+          "prompt": "Would you like to learn to plan controlled experiments that change or combine substances and explain the chemical results?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She explores how dough temperature and recipe changes affect results and wants hands-on experiments. Learning substance testing and controlled chemical experiments is plausible; chemical lab work itself is new."
+        }
+      ]
+    },
+    {
+      "modelId": "life-033",
+      "name": "Ruth Henderson",
+      "id": "food-science",
+      "title": "Food Scientists and Technologists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "food-science-interest-044-1",
+          "prompt": "Would you like to learn to investigate how ingredients and food-making methods affect a food’s flavor, texture, or nutrition?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She systematically varies bread recipes and dough temperature to understand disappointing results. Investigating ingredients and learning consistency tests closely fit her repeated food experiments."
+        },
+        {
+          "id": "food-science-interest-044-2",
+          "prompt": "Would you like to learn to test ingredients and finished foods to find ways to make them safer and more consistent?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She systematically varies bread recipes and dough temperature to understand disappointing results. Investigating ingredients and learning consistency tests closely fit her repeated food experiments."
+        }
+      ]
+    },
+    {
+      "modelId": "life-033",
+      "name": "Ruth Henderson",
+      "id": "biomedical-engineering",
+      "title": "Biomedical engineer",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "biomedical-engineering-interest-044-1",
+          "prompt": "Would you like to learn to design or improve medical devices or equipment that help diagnose or treat health conditions as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Physics reading and practical quantities are interests, but health devices and medical-equipment design or testing are not described."
+        },
+        {
+          "id": "biomedical-engineering-interest-044-2",
+          "prompt": "Would you like to learn to test medical equipment to find out whether it works effectively and safely for patients and health workers as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Physics reading and practical quantities are interests, but health devices and medical-equipment design or testing are not described."
+        }
+      ]
+    },
+    {
+      "modelId": "life-036",
+      "name": "Marisol Treviño",
+      "id": "carpentry",
+      "title": "Carpenters",
+      "routes": [
+        {
+          "key": "apprenticeship",
+          "label": "Apprenticeship"
+        },
+        {
+          "key": "work",
+          "label": "Workplace training"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "carpentry-interest-044-1",
+          "prompt": "Would you like to learn to measure and mark wood or other building materials so pieces can be cut to fit a construction plan as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She measures pipe for repairs, checks figures before cutting, and makes useful ceramic objects; learning construction measurements is plausible."
+        },
+        {
+          "id": "carpentry-interest-044-2",
+          "prompt": "Would you like to learn to cut, assemble, or install building parts such as frames, cabinets, or trim while following safe work practices as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Home repairs, deliberate tool demonstrations, and enjoyment of tangible objects support learning wood assembly; carpentry itself is still untested."
+        }
+      ]
+    },
+    {
+      "modelId": "life-036",
+      "name": "Marisol Treviño",
+      "id": "hairdresser",
+      "title": "Hairdresser",
+      "routes": [
+        {
+          "key": "program",
+          "label": "Specialist training / certificate"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "hairdresser-interest-044-1",
+          "prompt": "Would you like to learn to consult with clients and cut, style, or color their hair to create the look they want?",
+          "response": "unfamiliar",
+          "confidence": "medium",
+          "evidence": "Ceramics, home repairs, and explaining useful objects are established; hair styling, salon work, and hair treatments are not described."
+        },
+        {
+          "id": "hairdresser-interest-044-2",
+          "prompt": "Would you like to learn to work carefully with hair treatments and salon tools while keeping clients, tools, and the workstation clean and safe?",
+          "response": "unfamiliar",
+          "confidence": "medium",
+          "evidence": "Ceramics, home repairs, and explaining useful objects are established; hair styling, salon work, and hair treatments are not described."
+        }
+      ]
+    },
+    {
+      "modelId": "life-037",
+      "name": "Theo Whitcomb",
+      "id": "animation",
+      "title": "Animator and visual-effects artist",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "animation-interest-044-1",
+          "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "They write performable comedy sketches; no animated drawing or model-making interest is described."
+        },
+        {
+          "id": "animation-interest-044-2",
+          "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Comic scenes do not by themselves establish interest in animated movement or effects."
+        }
+      ]
+    },
+    {
+      "modelId": "life-043",
+      "name": "Rojin Baran",
+      "id": "librarian",
+      "title": "Librarian",
+      "routes": [
+        {
+          "key": "graduate",
+          "label": "Graduate/professional degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "librarian-interest-044-1",
+          "prompt": "Would you like to learn to help someone work out what information they need and search reliable sources to answer their question as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She enjoys organizing research sources, finding clear explanations, and making information usable. Helping people search and use reliable information is a plausible application; library service itself is new."
+        },
+        {
+          "id": "librarian-interest-044-2",
+          "prompt": "Would you like to learn to guide library users in finding and using books, reference materials, or online information for their own purposes as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She enjoys organizing research sources, finding clear explanations, and making information usable. Helping people search and use reliable information is a plausible application; library service itself is new."
+        }
+      ]
+    },
+    {
+      "modelId": "life-073",
+      "name": "Nico Serrano",
+      "id": "high-school-teacher",
+      "title": "High school teacher",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "high-school-teacher-interest-044-1",
+          "prompt": "Would you like to learn to teach a subject to high-school students using explanations, discussions, and activities that help them understand it?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Teaching games and explaining arguments recur; high-school subject teaching is plausible, though a classroom role is not yet tested."
+        },
+        {
+          "id": "high-school-teacher-interest-044-2",
+          "prompt": "Would you like to learn to plan lessons for a high-school class, check students’ understanding, and adjust your teaching to help different students learn?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Fair summaries and clear explanations support learning lesson adaptation; classroom planning is inferred rather than observed."
+        }
+      ]
+    },
+    {
+      "modelId": "life-073",
+      "name": "Nico Serrano",
+      "id": "teaching",
+      "title": "Middle school teachers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "teaching-interest-044-1",
+          "prompt": "Would you like to learn to teach a subject to middle school students through explanations, discussions, and activities?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He repeatedly explains games and enjoys teaching them, with fair debate summaries; learning to teach a subject to adolescents is a plausible extension."
+        },
+        {
+          "id": "teaching-interest-044-2",
+          "prompt": "Would you like to learn to notice what middle school students understand and adapt lessons to help them make progress?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He explains rules clearly and summarizes others fairly; adapting lessons to learners is inferred from that explanatory interest."
+        }
+      ]
+    },
+    {
+      "modelId": "life-084",
+      "name": "Peyton Mercer",
+      "id": "elementary-teacher",
+      "title": "Elementary school teacher",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "elementary-teacher-interest-044-1",
+          "prompt": "Would you like to learn to teach elementary school children through explanations, demonstrations, and classroom activities?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She attends carefully to a baby cousin’s signals, but school-age teaching and academic-learning support are not described."
+        },
+        {
+          "id": "elementary-teacher-interest-044-2",
+          "prompt": "Would you like to learn to identify where a child is struggling with schoolwork and adjust your teaching or support to help them learn?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She attends carefully to a baby cousin’s signals, but school-age teaching and academic-learning support are not described."
+        }
+      ]
+    },
+    {
+      "modelId": "life-084",
+      "name": "Peyton Mercer",
+      "id": "data-science",
+      "title": "Data Scientists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "data-science-interest-044-1",
+          "prompt": "Would you like to learn to analyze data to find patterns and answer questions using statistics and computing as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She repeatedly analyzes practice sessions and class surveys with spreadsheets and enjoys finding patterns in real data."
+        },
+        {
+          "id": "data-science-interest-044-2",
+          "prompt": "Would you like to learn to turn the results of a data analysis into charts and explanations that help other people make decisions as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She makes practice charts, helps organize survey results, and wants to question her charts; learning decision-useful explanations follows this repeated interest."
+        }
+      ]
+    },
+    {
+      "modelId": "life-089",
+      "name": "Ada Walkingstick",
+      "id": "carpentry",
+      "title": "Carpenters",
+      "routes": [
+        {
+          "key": "apprenticeship",
+          "label": "Apprenticeship"
+        },
+        {
+          "key": "work",
+          "label": "Workplace training"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "carpentry-interest-044-1",
+          "prompt": "Would you like to learn to measure and mark wood or other building materials so pieces can be cut to fit a construction plan as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Fabrication classes, cardboard prototypes, and systematic joint testing support learning measurement for physical construction."
+        },
+        {
+          "id": "carpentry-interest-044-2",
+          "prompt": "Would you like to learn to cut, assemble, or install building parts such as frames, cabinets, or trim while following safe work practices as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She wants to try another fabrication medium; tool noise calls for protection or setting choices, not an assumed rejection of safe building work."
+        }
+      ]
+    },
+    {
+      "modelId": "life-089",
+      "name": "Ada Walkingstick",
+      "id": "civil-engineering",
+      "title": "Civil Engineers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "civil-engineering-interest-044-1",
+          "prompt": "Would you like to learn to plan or improve roads, bridges, water systems, or other structures that people depend on?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "Pool-filtration curiosity, bridge building, and repeated prototypes give a clear structures-and-water-systems interest."
+        },
+        {
+          "id": "civil-engineering-interest-044-2",
+          "prompt": "Would you like to learn to use calculations and tests of soil or building materials to check whether a construction design is strong and safe?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "A failed bridge joint held her attention and she tests joints systematically; formal material testing is a direct learning extension."
+        }
+      ]
+    },
+    {
+      "modelId": "life-089",
+      "name": "Ada Walkingstick",
+      "id": "photographer",
+      "title": "Photographers",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "photographer-interest-044-1",
+          "prompt": "Would you like to learn to compose photographs and adjust a camera to capture the people, places, or events you want to show?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She draws comics and makes physical prototypes; camera-based photography is not described."
+        },
+        {
+          "id": "photographer-interest-044-2",
+          "prompt": "Would you like to learn to use natural or artificial light and review your pictures to improve the result for a photographic project?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "No photographic lighting or picture-revision activity is given."
+        }
+      ]
+    },
+    {
+      "modelId": "life-002",
+      "name": "Elias Moreno",
+      "id": "film-editing",
+      "title": "Film and video editor",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "film-editing-interest-044-1",
+          "prompt": "Would you like to learn to select and arrange video footage so a scene or story is clear and engaging?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "He writes comic scenes and wants to see theater rehearsals, but video-footage selection is not described."
+        },
+        {
+          "id": "film-editing-interest-044-2",
+          "prompt": "Would you like to learn to combine picture, dialogue, music, and sound effects and refine the timing of a video?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Dance sequences and dialogue provide adjacent skills, but audiovisual editing interest remains untested."
+        }
+      ]
+    },
+    {
+      "modelId": "life-002",
+      "name": "Elias Moreno",
+      "id": "logistics",
+      "title": "Logistics planner",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "logistics-interest-044-1",
+          "prompt": "Would you like to learn to plan how an organization’s supplies or products get to the right place at the right time?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "Route maps, accurate feed-store stock counts, and interest in behind-the-scenes systems directly support supply and transport planning."
+        },
+        {
+          "id": "logistics-interest-044-2",
+          "prompt": "Would you like to learn to coordinate suppliers, transport, and customers when delivery plans change or something goes wrong?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He knows stock locations, helps with equipment, and asks customers about uses; coordinating changed deliveries is a plausible next step."
+        }
+      ]
+    },
+    {
+      "modelId": "life-008",
+      "name": "Caleb Whitlock",
+      "id": "animation",
+      "title": "Animator and visual-effects artist",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "animation-interest-044-1",
+          "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Choir, stage scenery, and one-off wood projects do not establish interest in creating moving visual characters or refining animated scenes."
+        },
+        {
+          "id": "animation-interest-044-2",
+          "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Choir, stage scenery, and one-off wood projects do not establish interest in creating moving visual characters or refining animated scenes."
+        }
+      ]
+    },
+    {
+      "modelId": "life-017",
+      "name": "Nadia Flores",
+      "id": "interpreting",
+      "title": "Interpreter or translator",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "interpreting-interest-044-1",
+          "prompt": "Would you like to learn to convey someone’s spoken or signed message accurately from one language into another?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She checks historical stories against documents and interviews residents; being bilingual does not establish interest in translating messages between languages."
+        },
+        {
+          "id": "interpreting-interest-044-2",
+          "prompt": "Would you like to learn to work out meaning and context across languages so the translated message preserves the speaker’s intent and tone?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She checks historical stories against documents and interviews residents; being bilingual does not establish interest in translating messages between languages."
+        }
+      ]
+    },
+    {
+      "modelId": "life-059",
+      "name": "Wyatt Sloane",
+      "id": "biological-technician",
+      "title": "Biological Technicians",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "biological-technician-interest-044-1",
+          "prompt": "Would you like to learn to collect and prepare biological samples, such as plants, water, or animal material, to help scientists study living things?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "He compares baking methods, but sampling living material and supporting biological experiments are not established interests."
+        },
+        {
+          "id": "biological-technician-interest-044-2",
+          "prompt": "Would you like to learn to carry out biological experiments carefully, observe what happens, and record results for a research team?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "He compares baking methods, but sampling living material and supporting biological experiments are not established interests."
+        }
+      ]
+    },
+    {
+      "modelId": "life-059",
+      "name": "Wyatt Sloane",
+      "id": "restaurant-cook",
+      "title": "Restaurant cook",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "restaurant-cook-interest-044-1",
+          "prompt": "Would you like to learn to prepare and cook meals for restaurant customers, managing cooking times and temperatures so dishes are ready correctly?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He repeatedly bakes biscuits, follows cooking sequences, and compares texture changes; learning customer meals is plausible beyond familiar home recipes."
+        },
+        {
+          "id": "restaurant-cook-interest-044-2",
+          "prompt": "Would you like to learn to keep a restaurant kitchen clean and handle, store, and cook food safely while preparing meals for customers?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Regular baking and careful sequencing support learning kitchen safety and food handling; restaurant routines are new learning rather than existing experience."
+        }
+      ]
+    },
+    {
+      "modelId": "life-059",
+      "name": "Wyatt Sloane",
+      "id": "food-counter",
+      "title": "Fast-food or counter worker",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "food-counter-interest-044-1",
+          "prompt": "Would you like to learn to take customers' food orders and payments accurately in a quick-service restaurant or food counter as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Baking is sustained, but taking food customers’ orders and payments is not described as an interest."
+        },
+        {
+          "id": "food-counter-interest-044-2",
+          "prompt": "Would you like to learn to prepare or serve customers' orders while keeping the food service area organized and clean as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Repeated food preparation and careful supply sorting support learning organized, clean food service; customer-facing preparation is inferred."
+        }
+      ]
+    },
+    {
+      "modelId": "life-066",
+      "name": "Lucía Benítez",
+      "id": "animation",
+      "title": "Animator and visual-effects artist",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "animation-interest-044-1",
+          "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She records songs and trims clips, but animated image-making is not described."
+        },
+        {
+          "id": "animation-interest-044-2",
+          "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Musical timing is clear; creating animated scenes remains an untested medium."
+        }
+      ]
+    },
+    {
+      "modelId": "life-079",
+      "name": "Grant Whitlock",
+      "id": "animation",
+      "title": "Animator and visual-effects artist",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "animation-interest-044-1",
+          "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Theater, oral stories, and floor-plan drawings are established; animated characters or moving-image effects are not."
+        },
+        {
+          "id": "animation-interest-044-2",
+          "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "He revises spatial drawings but has no described interest in animation timing or scene movement."
+        }
+      ]
+    },
+    {
+      "modelId": "life-079",
+      "name": "Grant Whitlock",
+      "id": "urban-planning",
+      "title": "City planner",
+      "routes": [
+        {
+          "key": "graduate",
+          "label": "Graduate/professional degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "urban-planning-interest-044-1",
+          "prompt": "Would you like to learn to develop plans for how a community uses land for housing, transportation, public spaces, or services as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "His repeated design work concerns individual houses; community land use, transport, and public services are not established interests."
+        },
+        {
+          "id": "urban-planning-interest-044-2",
+          "prompt": "Would you like to learn to compare possible community development plans using information about costs, local needs, and planning rules as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Buildings and weather interest him, but comparing community plans using public needs and costs goes beyond the described practice."
+        }
+      ]
+    },
+    {
+      "modelId": "life-097",
+      "name": "Jonas Loke",
+      "id": "animation",
+      "title": "Animator and visual-effects artist",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "animation-interest-044-1",
+          "prompt": "Would you like to learn to create drawings or digital models that become moving characters, objects, or visual effects for animation as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "His plant-growth videos record living change; creating animated drawings or models is not described."
+        },
+        {
+          "id": "animation-interest-044-2",
+          "prompt": "Would you like to learn to plan animated scenes and revise their movement, timing, or appearance to make the intended action clear as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Paper sculpture and video recording do not establish interest in planning animated movement."
+        }
+      ]
+    },
+    {
+      "modelId": "life-097",
+      "name": "Jonas Loke",
+      "id": "landscaping-worker",
+      "title": "Landscaping worker",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "landscaping-worker-interest-044-1",
+          "prompt": "Would you like to learn to care for lawns, plants, and outdoor grounds through hands-on tasks such as mowing or pruning as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "He repeatedly grows plants, works in a greenhouse, and enjoys observing their responses; hands-on outdoor plant care fits."
+        },
+        {
+          "id": "landscaping-worker-interest-044-2",
+          "prompt": "Would you like to learn to use tools and outdoor equipment to maintain a landscape and keep the grounds in good condition as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Greenhouse work and horticulture study support learning landscape tools and upkeep; mowing equipment itself is not described."
+        }
+      ]
+    },
+    {
+      "modelId": "life-097",
+      "name": "Jonas Loke",
+      "id": "farmworker-crops",
+      "title": "Farm and greenhouse worker",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "farmworker-crops-interest-044-1",
+          "prompt": "Would you like to learn to plant, water, weed, or harvest crops and nursery plants through hands-on growing work as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "He grows plants from seeds, chooses horticulture, and works in the school greenhouse; hands-on growing work is sustained."
+        },
+        {
+          "id": "farmworker-crops-interest-044-2",
+          "prompt": "Would you like to learn to check how crops or plants are growing and respond to problems such as pests, damage, or water needs as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "He compares growing conditions, measures leaves, and wants to compare the same plant across climates."
+        }
+      ]
+    },
+    {
+      "modelId": "life-099",
+      "name": "Elena Castillo-Brooks",
+      "id": "biomedical-engineering",
+      "title": "Biomedical engineer",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "biomedical-engineering-interest-044-1",
+          "prompt": "Would you like to learn to design or improve medical devices or equipment that help diagnose or treat health conditions as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She likes chemistry and practical workshops; no medical-device, health-technology design, or equipment-testing interest is described."
+        },
+        {
+          "id": "biomedical-engineering-interest-044-2",
+          "prompt": "Would you like to learn to test medical equipment to find out whether it works effectively and safely for patients and health workers as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She likes chemistry and practical workshops; no medical-device, health-technology design, or equipment-testing interest is described."
+        }
+      ]
+    },
+    {
+      "modelId": "life-099",
+      "name": "Elena Castillo-Brooks",
+      "id": "chemistry",
+      "title": "Chemists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "chemistry-interest-044-1",
+          "prompt": "Would you like to learn to test substances in a laboratory to discover what they contain and how they behave?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She explicitly enjoys chemistry explanations and wants to make and test things. Learning laboratory testing and controlled chemical experiments is a reasonable extension, despite little independent experiment access."
+        },
+        {
+          "id": "chemistry-interest-044-2",
+          "prompt": "Would you like to learn to plan controlled experiments that change or combine substances and explain the chemical results?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She explicitly enjoys chemistry explanations and wants to make and test things. Learning laboratory testing and controlled chemical experiments is a reasonable extension, despite little independent experiment access."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-001",
+      "name": "Elena Duarte",
+      "id": "mechanical-engineering",
+      "title": "Mechanical engineers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "mechanical-engineering-interest-044-1",
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She repeatedly repaired a moving doll hinge with thread and wire and enjoys making small objects function neatly."
+        },
+        {
+          "id": "mechanical-engineering-interest-044-2",
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She tests joins, notices uneven spacing, and repeats repairs until movement is even; learning drawings and formal tests fits that mechanical curiosity."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-001",
+      "name": "Elena Duarte",
+      "id": "electrical-engineering",
+      "title": "Electrical Engineers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "electrical-engineering-interest-044-1",
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Her hinge and jewelry repairs are mechanical; no circuit, power, or electrical-control interest is described."
+        },
+        {
+          "id": "electrical-engineering-interest-044-2",
+          "prompt": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Repeated physical repair does not establish interest in electrical design testing."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-003",
+      "name": "Sofía Villarreal",
+      "id": "landscaping-worker",
+      "title": "Landscaping worker",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "landscaping-worker-interest-044-1",
+          "prompt": "Would you like to learn to care for lawns, plants, and outdoor grounds through hands-on tasks such as mowing or pruning as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She repeatedly checks plants and recognizes stress; learning broader outdoor grounds care is plausible, though lawns and pruning are not her current focus."
+        },
+        {
+          "id": "landscaping-worker-interest-044-2",
+          "prompt": "Would you like to learn to use tools and outdoor equipment to maintain a landscape and keep the grounds in good condition as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Agricultural work, borrowed tools, and an ambition to replace an irrigation timer support learning landscape tools; grounds maintenance is an extension."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-006",
+      "name": "Mateo Ruiz",
+      "id": "bookkeeping-clerk",
+      "title": "Bookkeeper",
+      "routes": [
+        {
+          "key": "program",
+          "label": "Technical training / college courses"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "bookkeeping-clerk-interest-044-1",
+          "prompt": "Would you like to learn to keep an organization’s records of money coming in and going out, using bookkeeping tools you would be taught?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "He repeatedly checks household receipts, enters purchases, and enjoys predictable record routines; learning organizational bookkeeping fits that sustained pattern."
+        },
+        {
+          "id": "bookkeeping-clerk-interest-044-2",
+          "prompt": "Would you like to learn to check business bills, payments, and account entries and correct records that do not add up?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "He reconciles purchases with receipts and flags missing entries; checking business bills is a direct learning extension."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-006",
+      "name": "Mateo Ruiz",
+      "id": "office-clerk",
+      "title": "Office clerk",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "office-clerk-interest-044-1",
+          "prompt": "Would you like to learn to keep an office’s records and routine paperwork organized and accurate?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "His repeated labels, envelopes, checklists, and receipt records show interest in accurate routine paperwork."
+        },
+        {
+          "id": "office-clerk-interest-044-2",
+          "prompt": "Would you like to learn to help an office run smoothly by handling routine information requests, messages, and documents?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He likes clear setup routines and asks practical cost questions; handling office documents is plausible, while unfamiliar requests need testing."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-006",
+      "name": "Mateo Ruiz",
+      "id": "accounting",
+      "title": "Accountant",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "accounting-interest-044-1",
+          "prompt": "Would you like to learn to prepare and analyze an organization’s financial records and reports so people can understand its money and meet reporting rules?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "He likes receipt reconciliation but has not shown interest in analyzing reports or reporting rules; broader accounting work needs confirmation."
+        },
+        {
+          "id": "accounting-interest-044-2",
+          "prompt": "Would you like to learn to investigate differences in an organization’s accounts and work out what needs correcting?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He already checks entries against receipts and finds missing items; investigating account differences is a reasonable extension without claiming formal accounting interest."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-013",
+      "name": "Jalen Brooks",
+      "id": "project-management",
+      "title": "Project manager",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "project-management-interest-044-1",
+          "prompt": "Would you like to learn to turn a work project’s goals into a plan for its people, tasks, deadlines, and budget?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "He coordinates friends' game schedules, but planning organizational budgets and accepting responsibility for client deliverables are different commitments without an expressed basis."
+        },
+        {
+          "id": "project-management-interest-044-2",
+          "prompt": "Would you like to learn to coordinate a work team, track problems and progress, and take responsibility for delivering the agreed results to a client or organization?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "He coordinates friends' game schedules, but planning organizational budgets and accepting responsibility for client deliverables are different commitments without an expressed basis."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-013",
+      "name": "Jalen Brooks",
+      "id": "administrative-assistant",
+      "title": "Administrative assistant",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "administrative-assistant-interest-044-1",
+          "prompt": "Would you like to learn to organize appointments, documents, or messages so an office team can keep its work on track as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "He remembers friends' schedules and tolerates familiar stocking work; managing office documents or assisting unfamiliar callers is not established as an interest."
+        },
+        {
+          "id": "administrative-assistant-interest-044-2",
+          "prompt": "Would you like to learn to respond to office callers or visitors and help them get the information or assistance they need as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "He remembers friends' schedules and tolerates familiar stocking work; managing office documents or assisting unfamiliar callers is not established as an interest."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-013",
+      "name": "Jalen Brooks",
+      "id": "office-clerk",
+      "title": "Office clerk",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "office-clerk-interest-044-1",
+          "prompt": "Would you like to learn to keep an office’s records and routine paperwork organized and accurate?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Recognizing shelf gaps is a real skill, but he has not expressed interest in office paperwork, document accuracy, or routine information requests."
+        },
+        {
+          "id": "office-clerk-interest-044-2",
+          "prompt": "Would you like to learn to help an office run smoothly by handling routine information requests, messages, and documents?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Recognizing shelf gaps is a real skill, but he has not expressed interest in office paperwork, document accuracy, or routine information requests."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-014",
+      "name": "Esmeralda \"Esme\" Ríos",
+      "id": "accounting",
+      "title": "Accountant",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "accounting-interest-044-1",
+          "prompt": "Would you like to learn to prepare and analyze an organization’s financial records and reports so people can understand its money and meet reporting rules?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Invoice and cash reconciliation, applied math, and a wish for office work support learning fuller organizational reports; formal reporting standards are untested."
+        },
+        {
+          "id": "accounting-interest-044-2",
+          "prompt": "Would you like to learn to investigate differences in an organization’s accounts and work out what needs correcting?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She enjoys locating duplicate charges and reconciling cash, giving a direct basis for learning account discrepancy investigation."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-014",
+      "name": "Esmeralda \"Esme\" Ríos",
+      "id": "office-clerk",
+      "title": "Office clerk",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "office-clerk-interest-044-1",
+          "prompt": "Would you like to learn to keep an office’s records and routine paperwork organized and accurate?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She maintains stock lists and spreadsheets and explicitly wants regular office work away from family obligations."
+        },
+        {
+          "id": "office-clerk-interest-044-2",
+          "prompt": "Would you like to learn to help an office run smoothly by handling routine information requests, messages, and documents?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She helps compose supplier emails, switches language for familiar customer needs, and tracks shop information; routine office documents and requests fit this specific practice."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-021",
+      "name": "Audrey Whitfield",
+      "id": "retail-sales",
+      "title": "Retail salesperson",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "retail-sales-interest-044-1",
+          "prompt": "Would you like to learn to talk with shoppers to understand what they need and help them find suitable products?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Repeated resale-fashion browsing and social conversation provide a plausible basis for learning to help shoppers, although paid customer work is untested."
+        },
+        {
+          "id": "retail-sales-interest-044-2",
+          "prompt": "Would you like to learn to explain product choices and help customers make a purchase that fits their needs?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Her sustained attention to outfits and resale choices supports learning to explain fashion purchases; customer-oriented selling remains an inference."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-021",
+      "name": "Audrey Whitfield",
+      "id": "administrative-assistant",
+      "title": "Administrative assistant",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "administrative-assistant-interest-044-1",
+          "prompt": "Would you like to learn to organize appointments, documents, or messages so an office team can keep its work on track as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "She tracks deadlines with support and coordinates invitations and responses; learning office scheduling and messages is plausible."
+        },
+        {
+          "id": "administrative-assistant-interest-044-2",
+          "prompt": "Would you like to learn to respond to office callers or visitors and help them get the information or assistance they need as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Social coordination is established, but helping unfamiliar office callers or visitors is not yet described."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-021",
+      "name": "Audrey Whitfield",
+      "id": "project-management",
+      "title": "Project manager",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "project-management-interest-044-1",
+          "prompt": "Would you like to learn to turn a work project’s goals into a plan for its people, tasks, deadlines, and budget?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "She coordinates invitations and social outings, but work-project goals, tasks, and budgets are untested."
+        },
+        {
+          "id": "project-management-interest-044-2",
+          "prompt": "Would you like to learn to coordinate a work team, track problems and progress, and take responsibility for delivering the agreed results to a client or organization?",
+          "response": "unsure",
+          "confidence": "high",
+          "evidence": "Her committee title has limited duties and sustained self-directed projects are unfamiliar; client delivery responsibility cannot be inferred from group chats."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-024",
+      "name": "Beck Hollis",
+      "id": "environmental-science",
+      "title": "Environmental scientist",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "environmental-science-interest-044-1",
+          "prompt": "Would you like to learn to investigate how pollution affects land, air, or water and suggest ways to prevent harm as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Weather observation is sustained, but no pollution-investigation or harm-prevention interest is given."
+        },
+        {
+          "id": "environmental-science-interest-044-2",
+          "prompt": "Would you like to learn to collect environmental observations or samples and compare the results to understand what is changing as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "They repeatedly clean a rain gauge, record readings, and enjoy weather maps and outdoor instrument checks."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-024",
+      "name": "Beck Hollis",
+      "id": "geoscience",
+      "title": "Geoscientists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "geoscience-interest-044-1",
+          "prompt": "Would you like to learn to investigate rocks, soil, and the Earth’s history or processes using observations, samples, and scientific reports?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Their recurring questions about storms and weather maps give some basis for learning Earth processes; rocks and geological history are new."
+        },
+        {
+          "id": "geoscience-interest-044-2",
+          "prompt": "Would you like to learn to combine geological evidence to explain what is happening at a site and communicate what the findings mean?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "They record weather observations, but combining geological site evidence is not established by that alone."
+        }
+      ]
+    },
+    {
+      "modelId": "gap-024",
+      "name": "Beck Hollis",
+      "id": "computer-support",
+      "title": "Computer support specialist",
+      "routes": [
+        {
+          "key": "program",
+          "label": "Technical training / college courses"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "computer-support-interest-044-1",
+          "prompt": "Would you like to learn to investigate computer or software problems and explain practical solutions to the people having trouble?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "They notice weather-station outages but no computer or software troubleshooting for users is described."
+        },
+        {
+          "id": "computer-support-interest-044-2",
+          "prompt": "Would you like to learn to set up computers and software for people and check that the equipment works for their needs?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "They follow instrument checklists; installing computers or software for other people is a different untested activity."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-002",
+      "name": "Jules",
+      "id": "food-science",
+      "title": "Food Scientists and Technologists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "food-science-interest-044-1",
+          "prompt": "Would you like to learn to investigate how ingredients and food-making methods affect a food’s flavor, texture, or nutrition?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Biology and craft precision are clear, but food ingredients or nutrition investigation is not described."
+        },
+        {
+          "id": "food-science-interest-044-2",
+          "prompt": "Would you like to learn to test ingredients and finished foods to find ways to make them safer and more consistent?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Her dental observation does not establish interest in food testing or production consistency."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-002",
+      "name": "Jules",
+      "id": "dentist",
+      "title": "Dentist (general dentistry)",
+      "routes": [
+        {
+          "key": "graduate",
+          "label": "Graduate/professional degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "dentist-interest-044-1",
+          "prompt": "Would you like to learn to examine patients' teeth and gums, identify dental problems, and plan treatment as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She found restoring a damaged tooth compelling during permitted observation and actively explores prerequisites and dental school."
+        },
+        {
+          "id": "dentist-interest-044-2",
+          "prompt": "Would you like to learn to perform hands-on dental treatment, such as repairing damaged teeth, while managing patients' safety and comfort as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "She explicitly wants to learn more about turning a damaged tooth usable again; lack of treatment experience is expected at this stage, not a rejection."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-008",
+      "name": "Alex",
+      "id": "mechanical-engineering",
+      "title": "Mechanical engineers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "mechanical-engineering-interest-044-1",
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Childhood marble tracks show earlier physical tinkering, but sustained current practice and ambitions focus on computer programs rather than machines."
+        },
+        {
+          "id": "mechanical-engineering-interest-044-2",
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Childhood marble tracks show earlier physical tinkering, but sustained current practice and ambitions focus on computer programs rather than machines."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-014",
+      "name": "Ash",
+      "id": "industrial-machinery-mechanic",
+      "title": "Factory equipment mechanic",
+      "routes": [
+        {
+          "key": "program",
+          "label": "Technical training / college courses"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "industrial-machinery-mechanic-interest-044-1",
+          "prompt": "Would you like to learn to investigate why production machinery is not working and work out what needs repairing as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He enjoys tracing faults in circuits and checking physical assemblies from diagrams. Learning production-machine fault-finding and repair is plausible; industrial equipment is a new setting."
+        },
+        {
+          "id": "industrial-machinery-mechanic-interest-044-2",
+          "prompt": "Would you like to learn to repair or replace machine parts and maintain equipment so it can run reliably as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He enjoys tracing faults in circuits and checking physical assemblies from diagrams. Learning production-machine fault-finding and repair is plausible; industrial equipment is a new setting."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-014",
+      "name": "Ash",
+      "id": "mechanical-engineering",
+      "title": "Mechanical engineers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "mechanical-engineering-interest-044-1",
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He enjoys connected physical parts, understandable diagrams, precise measurements, and practical projects. Learning mechanical designs and using tests/drawings to improve them is plausible beyond kits."
+        },
+        {
+          "id": "mechanical-engineering-interest-044-2",
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He enjoys connected physical parts, understandable diagrams, precise measurements, and practical projects. Learning mechanical designs and using tests/drawings to improve them is plausible beyond kits."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-018",
+      "name": "Finley",
+      "id": "high-school-teacher",
+      "title": "High school teacher",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "high-school-teacher-interest-044-1",
+          "prompt": "Would you like to learn to teach a subject to high-school students using explanations, discussions, and activities that help them understand it?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He repeatedly tutors younger pupils and explicitly explores education; high-school subject teaching is a plausible age-group extension."
+        },
+        {
+          "id": "high-school-teacher-interest-044-2",
+          "prompt": "Would you like to learn to plan lessons for a high-school class, check students’ understanding, and adjust your teaching to help different students learn?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "He tries alternative explanations, checks where understanding stops, and seeks pupil independence; unfamiliar class size does not negate learning interest."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-018",
+      "name": "Finley",
+      "id": "occupational-therapy",
+      "title": "Occupational Therapists",
+      "routes": [
+        {
+          "key": "graduate",
+          "label": "Graduate/professional degree"
+        }
+      ],
+      "earlierJudgment": "domain-gap",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "occupational-therapy-interest-044-1",
+          "prompt": "Would you like to learn to assess how an illness, injury, or disability affects a person's ability to do everyday activities and set rehabilitation goals with them as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "His sustained interest is academic understanding; no illness, injury, disability assessment, or rehabilitation interest is described."
+        },
+        {
+          "id": "occupational-therapy-interest-044-2",
+          "prompt": "Would you like to learn to plan and guide therapy that helps a person with an illness, injury, or disability regain or adapt everyday skills such as dressing, cooking, or using tools as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "Tutoring schoolwork is not evidence of interest in therapy for dressing, cooking, or other everyday functions."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-020",
+      "name": "Parker",
+      "id": "stock-order-filler",
+      "title": "Stock and order worker",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "stock-order-filler-interest-044-1",
+          "prompt": "Would you like to learn to keep track of stock, check what is running low, and organize items so they can be found?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "He repeatedly counts school-event supplies, maintains labels, and likes a team finding what it needs."
+        },
+        {
+          "id": "stock-order-filler-interest-044-2",
+          "prompt": "Would you like to learn to select the right items for an order and restock or pack them accurately?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "Years of supervised supply setup and checking lists directly support accurate stock selection and restocking."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-020",
+      "name": "Parker",
+      "id": "warehouse-material-mover",
+      "title": "Warehouse worker",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "strong-interest",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "warehouse-material-mover-interest-044-1",
+          "prompt": "Would you like to learn to move and sort goods between storage areas and delivery vehicles as part of hands-on warehouse work as a regular part of your work?",
+          "response": "yes",
+          "confidence": "high",
+          "evidence": "He enjoys moving and organizing event materials and seeks paid training in similar practical settings."
+        },
+        {
+          "id": "warehouse-material-mover-interest-044-2",
+          "prompt": "Would you like to learn to pack and secure goods so they reach the right place without damage as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He checks weight, access, and storage rules before moving goods; learning protective packing and securing is a plausible extension."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-020",
+      "name": "Parker",
+      "id": "office-clerk",
+      "title": "Office clerk",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "office-clerk-interest-044-1",
+          "prompt": "Would you like to learn to keep an office’s records and routine paperwork organized and accurate?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "Lists, clear labels, and routine accurate counts support learning office records, though his current work is physical supplies."
+        },
+        {
+          "id": "office-clerk-interest-044-2",
+          "prompt": "Would you like to learn to help an office run smoothly by handling routine information requests, messages, and documents?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "His team-oriented information and setup routines support handling routine office documents; message work is inferred."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-021",
+      "name": "Quinn",
+      "id": "administrative-assistant",
+      "title": "Administrative assistant",
+      "routes": [
+        {
+          "key": "work",
+          "label": "No college · learn at work"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Needs confirmation",
+      "questions": [
+        {
+          "id": "administrative-assistant-interest-044-1",
+          "prompt": "Would you like to learn to organize appointments, documents, or messages so an office team can keep its work on track as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He checks school delivery schedules, addresses, and timing details; learning office schedules and documents is a reasonable transfer."
+        },
+        {
+          "id": "administrative-assistant-interest-044-2",
+          "prompt": "Would you like to learn to respond to office callers or visitors and help them get the information or assistance they need as a regular part of your work?",
+          "response": "unsure",
+          "confidence": "medium",
+          "evidence": "He likes route planning and destination details, but dealing with office callers and visitors is not described as an interest."
+        }
+      ]
+    },
+    {
+      "modelId": "legacy-021",
+      "name": "Quinn",
+      "id": "truck-driver",
+      "title": "Truck driver",
+      "routes": [
+        {
+          "key": "program",
+          "label": "Technical training / college courses"
+        }
+      ],
+      "earlierJudgment": "plausible-transfer",
+      "currentStatus": "Top match",
+      "questions": [
+        {
+          "id": "truck-driver-interest-044-1",
+          "prompt": "Would you like to learn to drive a heavy truck or tractor-trailer to deliver goods safely as a regular part of your work?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He is comparing transport training, likes movement and independence, and checks routes and grouped items. Learning truck driving and trip/load checks is plausible; actual daily driving conditions remain untried."
+        },
+        {
+          "id": "truck-driver-interest-044-2",
+          "prompt": "Would you like to learn to check a truck and its load before a trip, secure cargo, and follow safe driving and delivery procedures?",
+          "response": "yes",
+          "confidence": "medium",
+          "evidence": "He is comparing transport training, likes movement and independence, and checks routes and grouped items. Learning truck driving and trip/load checks is plausible; actual daily driving conditions remain untried."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "createdAt": "2026-10-20T04:09:50.784Z",
+  "policySHA256": "de0b9ab02d751137a4e7819ae6d86e4542292665b9f14703f6590b5697965786",
+  "rules": {
+    "dist/open-explorer.js": "285eb07d656ddc95e7cf616121cc65d133490ccde90d65579983996f234cd84b",
+    "dist/explorer-053-membership-data.js": "4ad2a75e9677f360e60eb6e4ed8394b9a7516a7c8860e8d1f40ffb8d2a5e6410",
+    "dist/explorer-053-questions.js": "b93ab7c470d8a021e57420be5a432bde444dc5f8ef1f22e3276c4d8aa19ced5b",
+    "dist/explorer-053-budget.js": "418ed8b8ef93336b540dd17cdc8282227f6dd57f617e41f69480e5b3ae21e3fc",
+    "dist/explorer-053-replay.js": "e871c458187753d7492e2a46e91c537655282e9e36b7d63ffeefb87dfdc9e15d",
+    "dist/explorer-053-review-data.js": "b90755b7be3f84b6c3f1735d4def5725feb3606557234fda8c204094485bd035"
+  },
+  "amendments": [
+    {
+      "at": "2026-10-20T04:13:02.228Z",
+      "reason": "Route integration correction: career details and existing guide aliases must not re-enter legacy lifestyle/profile gates. Scoring and evidence policy unchanged.",
+      "priorRules": {
+        "dist/open-explorer.js": "9247bc1e1dcf04f148f29861c5ca2d5c11ddcd39197455513d9ac771cbac108b",
+        "dist/explorer-053-membership-data.js": "4ad2a75e9677f360e60eb6e4ed8394b9a7516a7c8860e8d1f40ffb8d2a5e6410",
+        "dist/explorer-053-questions.js": "b93ab7c470d8a021e57420be5a432bde444dc5f8ef1f22e3276c4d8aa19ced5b",
+        "dist/explorer-053-budget.js": "fea3eba801db4e17c46365dce244529beb55813a3ec750756c8493f25d813c22"
+      }
+    },
+    {
+      "reason": "Independent blinded development-only evidence review found branch preferences inferred from adjacent hobbies. Add16 uncertainty holds across13 offers in9 models without rewriting original answers. Holdouts are reported as limitations, not tuned. All professions remain available; direct student clarification supersedes holds.",
+      "reviewSHA256": "6e9a3eb25238703906b65a287dc68af9e8e2cbb6e53e9d7f3335d3e602406087",
+      "priorUnreviewedCohorts": [
+        {
+          "phase": "development",
+          "n": 70,
+          "beforeWithTop": 64,
+          "afterWithTop": 66,
+          "beforeWithDegreeTop": 58,
+          "afterWithDegreeTop": 61,
+          "afterDegreeFirst12": 70,
+          "afterSustainingTop": 30,
+          "afterSustainingSupported": 32,
+          "changed": 39,
+          "allSupported": 167
+        },
+        {
+          "phase": "supplement",
+          "n": 24,
+          "beforeWithTop": 21,
+          "afterWithTop": 21,
+          "beforeWithDegreeTop": 15,
+          "afterWithDegreeTop": 15,
+          "afterDegreeFirst12": 23,
+          "afterSustainingTop": 7,
+          "afterSustainingSupported": 8,
+          "changed": 8,
+          "allSupported": 59
+        },
+        {
+          "phase": "legacy",
+          "n": 24,
+          "beforeWithTop": 21,
+          "afterWithTop": 21,
+          "beforeWithDegreeTop": 16,
+          "afterWithDegreeTop": 17,
+          "afterDegreeFirst12": 24,
+          "afterSustainingTop": 13,
+          "afterSustainingSupported": 13,
+          "changed": 13,
+          "allSupported": 58
+        },
+        {
+          "phase": "holdout",
+          "n": 30,
+          "beforeWithTop": 25,
+          "afterWithTop": 26,
+          "beforeWithDegreeTop": 20,
+          "afterWithDegreeTop": 21,
+          "afterDegreeFirst12": 30,
+          "afterSustainingTop": 10,
+          "afterSustainingSupported": 10,
+          "changed": 14,
+          "allSupported": 64
+        },
+        {
+          "phase": "development049",
+          "n": 12,
+          "beforeWithTop": 9,
+          "afterWithTop": 11,
+          "beforeWithDegreeTop": 9,
+          "afterWithDegreeTop": 11,
+          "afterDegreeFirst12": 12,
+          "afterSustainingTop": 5,
+          "afterSustainingSupported": 7,
+          "changed": 5,
+          "allSupported": 36
+        },
+        {
+          "phase": "diagnostic049",
+          "n": 12,
+          "beforeWithTop": 9,
+          "afterWithTop": 11,
+          "beforeWithDegreeTop": 9,
+          "afterWithDegreeTop": 11,
+          "afterDegreeFirst12": 12,
+          "afterSustainingTop": 5,
+          "afterSustainingSupported": 7,
+          "changed": 5,
+          "allSupported": 36
+        },
+        {
+          "phase": "holdout049",
+          "n": 12,
+          "beforeWithTop": 8,
+          "afterWithTop": 11,
+          "beforeWithDegreeTop": 8,
+          "afterWithDegreeTop": 11,
+          "afterDegreeFirst12": 12,
+          "afterSustainingTop": 3,
+          "afterSustainingSupported": 3,
+          "changed": 9,
+          "allSupported": 30
+        }
+      ]
+    },
+    {
+      "at": "2026-10-20T04:20:47.454012+00:00",
+      "reason": "Observed UI counterexample: one general health-checkbox answer outranked the entire engineering-oriented broad profile. Partial evidence may lead ranking only with an independent defining-interest Yes or at least2 distinct task contexts; a single general option stays a clue. Supported Top rules unchanged. Within partial tier raw correlation orders, then domain breadth. This correction was driven by synthetic browser interaction, not holdout target metrics.",
+      "priorRules": {
+        "dist/open-explorer.js": "fcca09be72c65b63f63bb42ad10f8ce215c3b15ee6ccc422fd0fd992daac715d",
+        "dist/explorer-053-membership-data.js": "4ad2a75e9677f360e60eb6e4ed8394b9a7516a7c8860e8d1f40ffb8d2a5e6410",
+        "dist/explorer-053-questions.js": "b93ab7c470d8a021e57420be5a432bde444dc5f8ef1f22e3276c4d8aa19ced5b",
+        "dist/explorer-053-budget.js": "fea3eba801db4e17c46365dce244529beb55813a3ec750756c8493f25d813c22",
+        "dist/explorer-053-replay.js": "e871c458187753d7492e2a46e91c537655282e9e36b7d63ffeefb87dfdc9e15d",
+        "dist/explorer-053-review-data.js": "b90755b7be3f84b6c3f1735d4def5725feb3606557234fda8c204094485bd035"
+      }
+    },
+    {
+      "at": "2026-10-20T04:32:35.740Z",
+      "reason": "User clarification: lifestyle remains the first guide step, then broad interests and open exploration. Restore fresh-start/summary transitions; show a separate budget lens for supported college/graduate matches and explicitly unconfirmed broad degree connections. Financial context never changes interest scores/support or removes other routes. Scoring and model replay outcomes unchanged.",
+      "priorRules": {
+        "dist/open-explorer.js": "a52fe879d254f87726b2b65ca0c93e70708d3b620e645f2971e87c51cae064c6",
+        "dist/explorer-053-membership-data.js": "4ad2a75e9677f360e60eb6e4ed8394b9a7516a7c8860e8d1f40ffb8d2a5e6410",
+        "dist/explorer-053-questions.js": "b93ab7c470d8a021e57420be5a432bde444dc5f8ef1f22e3276c4d8aa19ced5b",
+        "dist/explorer-053-budget.js": "fea3eba801db4e17c46365dce244529beb55813a3ec750756c8493f25d813c22",
+        "dist/explorer-053-replay.js": "e871c458187753d7492e2a46e91c537655282e9e36b7d63ffeefb87dfdc9e15d",
+        "dist/explorer-053-review-data.js": "b90755b7be3f84b6c3f1735d4def5725feb3606557234fda8c204094485bd035"
+      }
+    },
+    {
+      "reason": "Budget lens validation: invalid lifestyle inputs stay unassessed instead of dereferencing a missing income range. Valid model budgets unchanged."
+    }
+  ]
+}

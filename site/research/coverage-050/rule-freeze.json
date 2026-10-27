@@ -1,0 +1,20 @@
+{
+  "version": "0.50.0",
+  "frozenAt": "2026-10-20T01:15:49.101Z",
+  "beforeHoldoutAnswering": true,
+  "policy": "No tuning from holdout reflections or outcomes. Original holdout and fresh holdout reported separately. Simulations are not real-student accuracy measures.",
+  "files": {
+    "dist/match-selection.js": "28117ee858426384d1281bf5646ef5b76d020aea7b63833858748baf1023f7b1",
+    "dist/expanded-interest.js": "a36ea21f9d30377d1a52607c9e6c4b09344a60dc5e93cd475090ae39c65f19bc",
+    "dist/core-work.js": "e34f2efdbec056a074fa340fda4b149b51091b4e65fcb97426ba01655dbdd750",
+    "dist/plan-matches.js": "8b287ee5e1e9174f014353644398eafebeec439180a92b4bd869c69b38939082",
+    "dist/expanded-pay.js": "f39a7bbff08899df5f8f073eaef4e7983626a00bd86f4780e02f90cb33a3061b",
+    "dist/expanded-pay-data.js": "fc312dcd47b4d2249ca6dc0e129daaa214cb96f61441e11743354b902c34baec",
+    "dist/coverage-050-replay.js": "1347cdb9dedeb09d0e74a7008e008c95986abd7b967e78b7dcf7914eea8c141e",
+    "dist/career-exploration-ui.js": "b73ef3fad2f25c8cb9781c7c913526eb0c9501db6c95d2d6810306e8939c65a6",
+    "dist/exploration-examples.js": "28712c7e4799ad1a7b2ce672a78b44549908a30d5893a112a97f8bc1a5109760",
+    "dist/guide-state.js": "b54d89292c8b94e3c088ed851eb45544dc3297d00e1cd98d5d48648ea4a9a50e",
+    "research/coverage-050/invitations.json": "118d92e890db1248fe20ba3109320e86f12e619c6f0b0161cf397a52d99aecd0",
+    "scripts/prepare-coverage-050-runtime.mjs": "b53a4298158dbf5ed1a3e1340c6b8a6cf5e694970cd5d4d4341f114d68ce3b9e"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": "0.53.0",
+  "suite": {
+    "command": "npm test",
+    "tests": 640,
+    "passed": 640,
+    "failed": 0,
+    "durationMs": 190733.85865,
+    "note": "Final full suite after lifestyle-first clarification, financial lens and historical-test versioning."
+  },
+  "independentMetricUnitTests": {
+    "command": "python3 -m unittest discover -s research/validation-053-external",
+    "tests": 5,
+    "passed": 5
+  },
+  "externalArithmetic": {
+    "profiles": 184,
+    "correlations": 77220,
+    "errorsAbove1e-10": 0,
+    "maximumAbsoluteError": 5.533073998975624e-14
+  },
+  "uiObserved": {
+    "environment": "Local in-app browser; synthetic draft, not an actual student session",
+    "officialItemsCompleted": 60,
+    "completeDirectToExplorer": true,
+    "fieldSurveyOptional": true,
+    "healthResultCount": 103,
+    "engineeringDegreeViewReachable": true,
+    "professionYesYesUnsureUnconfirmed": true,
+    "professionThreeYesSupported": true,
+    "favoriteAndPlanWorkWithoutMoneyPrerequisite": true,
+    "notesSurviveReload": true,
+    "phoneViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "lifestyleRemainsFirstGuideStep": true,
+    "freshLifestyleFirstWalkthrough": {
+      "firstScreen": "Where would you feel at home?",
+      "choicesCompleted": 9,
+      "summaryLeadsTo": "journey/interest-intro",
+      "syntheticBudgetGoal": "$90K\u2013$120K before tax",
+      "note": "Isolated localhost synthetic draft; not user account data"
+    }
+  },
+  "limitations": [
+    "Regression assertions and synthetic-model coverage do not establish student predictive validity.",
+    "One blinded synthetic-case reviewer; four original-holdout offer concerns remain untuned limitations.",
+    "No commercial-vendor agreement has been measured."
+  ],
+  "additionalService": {
+    "service": "CareerOneStop",
+    "liveProfiles": 2,
+    "sharedItemsPerProfile": 30,
+    "observedThemeScoresAgree": 12,
+    "sharedOccupationLabelsAgree": 41,
+    "completeCareersCaptured": 76,
+    "strongExternalCareersMissingFromMatchingInventory": 13,
+    "measurementFamily": "O*NET; not independent validity"
+  },
+  "generatedAt": "2026-10-20T04:41:48.811833+00:00"
+}

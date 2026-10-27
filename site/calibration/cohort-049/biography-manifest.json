@@ -1,0 +1,319 @@
+{
+  "version": "0.49.0",
+  "frozenAt": "2026-10-20T00:06:09.734Z",
+  "policy": "Biographies and stratified odd/even split frozen before initial answer inference. Split spans five authoring blocks, 12 development and 12 fresh holdout. Diagnostic parents are development only. Matching engine is frozen. No career, score or outcome target supplied to biography authors.",
+  "cases": [
+    {
+      "id": "new049-001",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "1cd774142a9fa1fe610866d4fe6e9ee1969d0a4060cbce4a89439051a507b6e3",
+      "biographyFile": "calibration/cohort-049/biographies/new049-001.json",
+      "splitBlock": "persuasion-coordination"
+    },
+    {
+      "id": "new049-002",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "1ce8171cebd62704d03ff929f587910354637c8fc82a24754452db898c9d25f3",
+      "biographyFile": "calibration/cohort-049/biographies/new049-002.json",
+      "splitBlock": "persuasion-coordination"
+    },
+    {
+      "id": "new049-003",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "cd6a77faf49453d9c9d97ca232f5cfdba85586c576d8ec4aa35c0155fa4761cc",
+      "biographyFile": "calibration/cohort-049/biographies/new049-003.json",
+      "splitBlock": "persuasion-coordination"
+    },
+    {
+      "id": "new049-004",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "9783a3367853f5f3439596918854f73561b1bfc01ea015747f1613469a579c06",
+      "biographyFile": "calibration/cohort-049/biographies/new049-004.json",
+      "splitBlock": "persuasion-coordination"
+    },
+    {
+      "id": "new049-005",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "923d3856024867e26d8d49ad3d7bcea148f434838870ec206d13e86a81157a36",
+      "biographyFile": "calibration/cohort-049/biographies/new049-005.json",
+      "splitBlock": "persuasion-coordination"
+    },
+    {
+      "id": "new049-006",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "ded9cbfa63962616c8986ab20f5e17364e8ac305fa1cb4ca76d120a9984d2a2b",
+      "biographyFile": "calibration/cohort-049/biographies/new049-006.json",
+      "splitBlock": "persuasion-coordination"
+    },
+    {
+      "id": "new049-007",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "de85934a939739c331a523bd8fbb2750768f72728d736e0eb65a2a1010b83da3",
+      "biographyFile": "calibration/cohort-049/biographies/new049-007.json",
+      "splitBlock": "persuasion-coordination"
+    },
+    {
+      "id": "new049-008",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "c106dde99c19445b939e22399b39a6c8eea2c11ca0d8db8a4735acd606fc0b64",
+      "biographyFile": "calibration/cohort-049/biographies/new049-008.json",
+      "splitBlock": "persuasion-coordination"
+    },
+    {
+      "id": "new049-009",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "641b49d6a73c43e31b5df42a833148f0cabeacb7a2ae94f8a4531606460aa597",
+      "biographyFile": "calibration/cohort-049/biographies/new049-009.json",
+      "splitBlock": "abstract-investigation"
+    },
+    {
+      "id": "new049-010",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "6f3856929e46759bd3c475ffc9e1c6bf0facfaa6bef9076e469d10d596e8fc90",
+      "biographyFile": "calibration/cohort-049/biographies/new049-010.json",
+      "splitBlock": "abstract-investigation"
+    },
+    {
+      "id": "new049-011",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "f2a82c44d2bd6b2a6c26230222e27268ddeafd603ae8b548e53319cc3e7871ec",
+      "biographyFile": "calibration/cohort-049/biographies/new049-011.json",
+      "splitBlock": "abstract-investigation"
+    },
+    {
+      "id": "new049-012",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "e855aac9084f9139362bc4d44c9aa856896f05dcad608775f296bb10dedff7fa",
+      "biographyFile": "calibration/cohort-049/biographies/new049-012.json",
+      "splitBlock": "abstract-investigation"
+    },
+    {
+      "id": "new049-013",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "6c5f3c1ac8b187b5ea0c2f660283db27f9059aa58a1df99798dbffb906bcfad2",
+      "biographyFile": "calibration/cohort-049/biographies/new049-013.json",
+      "splitBlock": "abstract-investigation"
+    },
+    {
+      "id": "new049-014",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "c5ecb7b3179887a63ed288eccede64b8bf8194523715ebccf303cc973969ca8b",
+      "biographyFile": "calibration/cohort-049/biographies/new049-014.json",
+      "splitBlock": "abstract-investigation"
+    },
+    {
+      "id": "new049-015",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "b158296e9b6e341788f361f5adba63947350314ce85e02708517d784e3955725",
+      "biographyFile": "calibration/cohort-049/biographies/new049-015.json",
+      "splitBlock": "biology-evidence-explanation"
+    },
+    {
+      "id": "new049-016",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "c069c272291b398bde36afece9c5d8000429f7df5a25335ad912fdaa4931ae8a",
+      "biographyFile": "calibration/cohort-049/biographies/new049-016.json",
+      "splitBlock": "biology-evidence-explanation"
+    },
+    {
+      "id": "new049-017",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "8daa1638e257c7ffb93b15a243adf15ff99de983d4a34ee176754c1741a8cb28",
+      "biographyFile": "calibration/cohort-049/biographies/new049-017.json",
+      "splitBlock": "biology-evidence-explanation"
+    },
+    {
+      "id": "new049-018",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "acb0ac88491a8708dc031317dcab5337db47ac1104158ec032e27be6166d9d4b",
+      "biographyFile": "calibration/cohort-049/biographies/new049-018.json",
+      "splitBlock": "biology-evidence-explanation"
+    },
+    {
+      "id": "new049-019",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "6852869cad8629a23e6164e31e5941d7c9cf6b53705d01877949f00a70ea3d75",
+      "biographyFile": "calibration/cohort-049/biographies/new049-019.json",
+      "splitBlock": "skill-interest-exposure"
+    },
+    {
+      "id": "new049-020",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "6281f72b8c3e7e68b542a6d778427fa1b0804d571628e321c7e4705f8b4a0e94",
+      "biographyFile": "calibration/cohort-049/biographies/new049-020.json",
+      "splitBlock": "skill-interest-exposure"
+    },
+    {
+      "id": "new049-021",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "1d3882f0c95baa69b943e768e0799c457a8f0e51d9e9844a4143deec10c4ae00",
+      "biographyFile": "calibration/cohort-049/biographies/new049-021.json",
+      "splitBlock": "skill-interest-exposure"
+    },
+    {
+      "id": "new049-022",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "aacf136f4cb2f71c3a1b5507c653e2e75977295533ed9e2a6f6bcd1351cf51b0",
+      "biographyFile": "calibration/cohort-049/biographies/new049-022.json",
+      "splitBlock": "skill-interest-exposure"
+    },
+    {
+      "id": "new049-023",
+      "phase": "development049",
+      "kind": "base",
+      "biographySHA256": "689a404c76746be67cb9d7e0d8bd57f56cdbfaaea4ff7bcd5086b18b8783c35c",
+      "biographyFile": "calibration/cohort-049/biographies/new049-023.json",
+      "splitBlock": "strong-dislikes-changing-direction"
+    },
+    {
+      "id": "new049-024",
+      "phase": "holdout049",
+      "kind": "base",
+      "biographySHA256": "7129e48640febf5eb7e4851ed93f3b63d483fe34a718d0afb727718db99365bb",
+      "biographyFile": "calibration/cohort-049/biographies/new049-024.json",
+      "splitBlock": "strong-dislikes-changing-direction"
+    },
+    {
+      "id": "diag049-001",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-001",
+      "intervention": "identity",
+      "description": "Name and cultural-language context only",
+      "biographySHA256": "8281c807a8f48c955d7caa144c0e92c8fce8c2e6531f356c097866ae37187139",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-001.json"
+    },
+    {
+      "id": "diag049-002",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-005",
+      "intervention": "identity",
+      "description": "Name and cultural-language context only",
+      "biographySHA256": "4aa76a23c3a27219fc77cf8437c5d365622f63adc98391ff713747ee4511c974",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-002.json"
+    },
+    {
+      "id": "diag049-003",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-007",
+      "intervention": "identity",
+      "description": "Name and cultural-language context only",
+      "biographySHA256": "a4786019417589bb5da322441459d3a78de88ac9ce9c910b8b8b128efc11a8d4",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-003.json"
+    },
+    {
+      "id": "diag049-004",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-015",
+      "intervention": "identity",
+      "description": "Name and cultural-language context only",
+      "biographySHA256": "a1b56a983841e12958e5072ea5e5ecf62dbd1e8b9be8b4297c7432e62e79b2ab",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-004.json"
+    },
+    {
+      "id": "diag049-005",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-003",
+      "intervention": "health-label",
+      "description": "Mask ADHD label; retain all behaviors and supports",
+      "biographySHA256": "e84a2b148cd4fd99ec68175db731286b72b0927c0a4ba33208caa2a063039167",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-005.json"
+    },
+    {
+      "id": "diag049-006",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-011",
+      "intervention": "health-label",
+      "description": "Mask depression label; retain mood, sleep, energy and supports",
+      "biographySHA256": "bde0425df1c7760062df8c40e15aea33a7cee5961ca28c9571f27cfdcc4c25a8",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-006.json"
+    },
+    {
+      "id": "diag049-007",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-017",
+      "intervention": "health-label",
+      "description": "Mask autism label; retain accommodations, behavior and supports",
+      "biographySHA256": "91389d3c0cc583bec0ef452e9f7e59372749c8dd4b700754712b62fd4bc66680",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-007.json"
+    },
+    {
+      "id": "diag049-008",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-019",
+      "intervention": "health-label",
+      "description": "Mask dyslexia label; retain reading experience, formats and supports",
+      "biographySHA256": "0adacbfdeddec10380d46439a2e22597de4643ed415dd32975a1e957dc915f2d",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-008.json"
+    },
+    {
+      "id": "diag049-009",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-009",
+      "intervention": "experience",
+      "description": "Add a brief supported, non-evaluative chance to try already-liked mathematical activities",
+      "biographySHA256": "2236894e903ef496a1215b556597202837767e20983497faa01cb4e546fdb58b",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-009.json"
+    },
+    {
+      "id": "diag049-010",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-021",
+      "intervention": "experience",
+      "description": "Add short accessible tryouts; do not claim enjoyment or competence",
+      "biographySHA256": "bda419858f5d2bed73c5a1f1794888e9ffdb069a9b98928af7b90468cd0c83a3",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-010.json"
+    },
+    {
+      "id": "diag049-011",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-013",
+      "intervention": "education-budget",
+      "description": "Change stated study affordability and future budget only",
+      "biographySHA256": "5a44d5def8ea274f89af01945d340ed27a39b2d1f638e13622352fbdcac27711",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-011.json"
+    },
+    {
+      "id": "diag049-012",
+      "phase": "diagnostic049",
+      "kind": "diagnostic",
+      "baseId": "new049-023",
+      "intervention": "education-budget",
+      "description": "Change stated study affordability and future budget only",
+      "biographySHA256": "c1e281ab7cc799c9aa73853346b3b693f1d02fea9a182986191c36121c221544",
+      "biographyFile": "calibration/cohort-049/biographies/diag049-012.json"
+    }
+  ]
+}

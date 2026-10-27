@@ -1,0 +1,81 @@
+{
+  "classification": "New optional multiple-choice activity responses, inferred explicitly from reviewed development biographies. Discovery only; no profession-specific Yes answer is inferred from these choices.",
+  "rows": [
+    {
+      "modelId": "life-006",
+      "topic": "sound",
+      "quote": "Electronic sound"
+    },
+    {
+      "modelId": "life-006",
+      "topic": "weather",
+      "quote": "Storm observations"
+    },
+    {
+      "modelId": "life-038",
+      "topic": "quality",
+      "quote": "Robotics documentation"
+    },
+    {
+      "modelId": "life-038",
+      "topic": "mechanics",
+      "quote": "Robotics documentation"
+    },
+    {
+      "modelId": "life-034",
+      "topic": "statistics",
+      "quote": "Statistics elective"
+    },
+    {
+      "modelId": "life-034",
+      "topic": "earth",
+      "quote": "Maps of shared spaces"
+    },
+    {
+      "modelId": "life-056",
+      "topic": "space",
+      "quote": "Moon observation"
+    },
+    {
+      "modelId": "life-056",
+      "topic": "performance",
+      "quote": "Dance sequences"
+    },
+    {
+      "modelId": "life-094",
+      "topic": "electronics",
+      "quote": "Electronics elective"
+    },
+    {
+      "modelId": "life-094",
+      "topic": "mechanics",
+      "quote": "Paper mechanisms"
+    },
+    {
+      "modelId": "life-094",
+      "topic": "sound",
+      "quote": "Ensemble clarinet"
+    },
+    {
+      "modelId": "new049-003",
+      "topic": "purchasing",
+      "quote": "Comparing offers including hidden costs"
+    },
+    {
+      "modelId": "new049-009",
+      "topic": "mathematics",
+      "quote": "Inventing mathematical restrictions and looking for exceptions"
+    },
+    {
+      "modelId": "new049-017",
+      "topic": "learning",
+      "quote": "Finding a second example when the first explanation fails"
+    },
+    {
+      "modelId": "new049-017",
+      "topic": "weather",
+      "quote": "Weather diagrams"
+    }
+  ],
+  "holdoutExclusion": "No case-specific activity answers are added to original, fresh or additional holdout profiles."
+}

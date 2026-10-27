@@ -1,0 +1,86 @@
+{
+  "scope": "Development-only reviewed losses; before full holdout replay completion. No policy changes based on holdout outcomes.",
+  "cases": [
+    {
+      "id": "scale056-0109",
+      "removed": [
+        "film-editing"
+      ],
+      "missedPriorChecks": [
+        [
+          22,
+          "film-editing-interest-044-1"
+        ],
+        [
+          23,
+          "film-editing-interest-044-2"
+        ]
+      ],
+      "interpretation": "Replacement changed the subsequent branch before the career-specific evidence was observed. Protecting already-observed specific evidence cannot reserve a confirmation for an undiscovered career."
+    },
+    {
+      "id": "scale056-0131",
+      "removed": [
+        "retail-sales"
+      ],
+      "missedPriorChecks": [
+        [
+          22,
+          "retail-sales-interest-044-1"
+        ],
+        [
+          23,
+          "retail-sales-interest-044-2"
+        ]
+      ],
+      "interpretation": "Replacement changed the subsequent branch before the career-specific evidence was observed. Protecting already-observed specific evidence cannot reserve a confirmation for an undiscovered career."
+    },
+    {
+      "id": "scale056-0362",
+      "removed": [
+        "chemistry"
+      ],
+      "missedPriorChecks": [
+        [
+          21,
+          "chemistry-interest-044-1"
+        ],
+        [
+          22,
+          "chemistry-interest-044-2"
+        ]
+      ],
+      "interpretation": "Replacement changed the subsequent branch before the career-specific evidence was observed. Protecting already-observed specific evidence cannot reserve a confirmation for an undiscovered career."
+    },
+    {
+      "id": "scale056-0490",
+      "removed": [
+        "librarian"
+      ],
+      "missedPriorChecks": [
+        [
+          17,
+          "creative-refine-3"
+        ],
+        [
+          19,
+          "librarian-interest-044-2"
+        ]
+      ],
+      "interpretation": "Replacement changed the subsequent branch before the career-specific evidence was observed. Protecting already-observed specific evidence cannot reserve a confirmation for an undiscovered career."
+    },
+    {
+      "id": "scale056-0502",
+      "removed": [
+        "law"
+      ],
+      "missedPriorChecks": [
+        [
+          22,
+          "law-interest-044-2"
+        ]
+      ],
+      "interpretation": "Replacement changed the subsequent branch before the career-specific evidence was observed. Protecting already-observed specific evidence cannot reserve a confirmation for an undiscovered career."
+    }
+  ]
+}

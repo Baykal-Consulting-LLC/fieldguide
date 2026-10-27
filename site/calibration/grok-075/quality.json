@@ -1,0 +1,4190 @@
+{
+  "population": "1,000 independent Grok-authored whole-person synthetic US student cases; not a representative US joint distribution.",
+  "checks": {
+    "profiles": 1000,
+    "uniqueIds": 1000,
+    "uniqueCompletePreferences": 1000,
+    "uniqueNarratives": 1000,
+    "uniqueTextFields": {
+      "household": 1000,
+      "school": 1000,
+      "wellbeing": 890,
+      "workContext": 1000,
+      "strengths": 1000,
+      "motivation": 1000,
+      "constraints": 930
+    },
+    "topicCoverage": 43,
+    "totalTopics": 43,
+    "methodCoverage": 15,
+    "totalMethods": 15
+  },
+  "warnings": [
+    {
+      "id": "grok075-0401",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0402",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0403",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0404",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0405",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0406",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0407",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0408",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0409",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0410",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0411",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0412",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0413",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0414",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0415",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0416",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0417",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0418",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0419",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0420",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0430",
+      "type": "Numerical preparation interest coexists with negative quantitative preference; inspect",
+      "authorReview": "Her quantitative dislike is graphs and uncertain numerical evidence used to compare possibilities, plus mathematics and number puzzles. The follow-up is a specified calculation, attendance records, and checking tables so others can rely on them. That matches her stated precision and organization methods, rewritten temperature checklist, meal she has checked, and a checklist someone else could follow."
+    },
+    {
+      "id": "grok075-0551",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0554",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0621",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0622",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0623",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0624",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0625",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0626",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0627",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0628",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0629",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0630",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0631",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0632",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0633",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0634",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0635",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0636",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0637",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0638",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0639",
+      "type": "Short whole-profile description"
+    },
+    {
+      "id": "grok075-0640",
+      "type": "Short whole-profile description"
+    }
+  ],
+  "distributions": [
+    {
+      "dimension": "age",
+      "value": "14",
+      "count": 99
+    },
+    {
+      "dimension": "age",
+      "value": "15",
+      "count": 173
+    },
+    {
+      "dimension": "age",
+      "value": "16",
+      "count": 230
+    },
+    {
+      "dimension": "age",
+      "value": "17",
+      "count": 240
+    },
+    {
+      "dimension": "age",
+      "value": "18",
+      "count": 207
+    },
+    {
+      "dimension": "age",
+      "value": "19",
+      "count": 51
+    },
+    {
+      "dimension": "gender",
+      "value": "girl",
+      "count": 438
+    },
+    {
+      "dimension": "gender",
+      "value": "boy",
+      "count": 418
+    },
+    {
+      "dimension": "gender",
+      "value": "nonbinary",
+      "count": 95
+    },
+    {
+      "dimension": "gender",
+      "value": "not stated",
+      "count": 49
+    },
+    {
+      "dimension": "raceEthnicity",
+      "value": "Black non-Hispanic",
+      "count": 149
+    },
+    {
+      "dimension": "raceEthnicity",
+      "value": "Two or more races non-Hispanic",
+      "count": 49
+    },
+    {
+      "dimension": "raceEthnicity",
+      "value": "Asian non-Hispanic",
+      "count": 55
+    },
+    {
+      "dimension": "raceEthnicity",
+      "value": "White non-Hispanic",
+      "count": 445
+    },
+    {
+      "dimension": "raceEthnicity",
+      "value": "Hispanic any race",
+      "count": 289
+    },
+    {
+      "dimension": "raceEthnicity",
+      "value": "Native Hawaiian/Pacific Islander non-Hispanic",
+      "count": 4
+    },
+    {
+      "dimension": "raceEthnicity",
+      "value": "American Indian/Alaska Native non-Hispanic",
+      "count": 9
+    },
+    {
+      "dimension": "region",
+      "value": "South",
+      "count": 273
+    },
+    {
+      "dimension": "region",
+      "value": "West",
+      "count": 260
+    },
+    {
+      "dimension": "region",
+      "value": "Northeast",
+      "count": 217
+    },
+    {
+      "dimension": "region",
+      "value": "Midwest",
+      "count": 250
+    },
+    {
+      "dimension": "locale",
+      "value": "urban",
+      "count": 292
+    },
+    {
+      "dimension": "locale",
+      "value": "rural",
+      "count": 228
+    },
+    {
+      "dimension": "locale",
+      "value": "suburban",
+      "count": 296
+    },
+    {
+      "dimension": "locale",
+      "value": "town",
+      "count": 184
+    },
+    {
+      "dimension": "confidence",
+      "value": "1",
+      "count": 20
+    },
+    {
+      "dimension": "confidence",
+      "value": "2",
+      "count": 187
+    },
+    {
+      "dimension": "confidence",
+      "value": "3",
+      "count": 492
+    },
+    {
+      "dimension": "confidence",
+      "value": "4",
+      "count": 274
+    },
+    {
+      "dimension": "confidence",
+      "value": "5",
+      "count": 27
+    },
+    {
+      "dimension": "exposure",
+      "value": "mixed",
+      "count": 491
+    },
+    {
+      "dimension": "exposure",
+      "value": "limited",
+      "count": 374
+    },
+    {
+      "dimension": "exposure",
+      "value": "broad",
+      "count": 135
+    },
+    {
+      "dimension": "education",
+      "value": "open",
+      "count": 238
+    },
+    {
+      "dimension": "education",
+      "value": "short training",
+      "count": 97
+    },
+    {
+      "dimension": "education",
+      "value": "bachelor",
+      "count": 238
+    },
+    {
+      "dimension": "education",
+      "value": "undecided",
+      "count": 302
+    },
+    {
+      "dimension": "education",
+      "value": "associate",
+      "count": 117
+    },
+    {
+      "dimension": "education",
+      "value": "graduate",
+      "count": 8
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "mixed · confidence 3",
+      "count": 265
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "limited · confidence 4",
+      "count": 47
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "mixed · confidence 4",
+      "count": 163
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "mixed · confidence 2",
+      "count": 54
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "limited · confidence 2",
+      "count": 123
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "limited · confidence 3",
+      "count": 185
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "broad · confidence 4",
+      "count": 64
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "broad · confidence 3",
+      "count": 42
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "limited · confidence 1",
+      "count": 18
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "broad · confidence 5",
+      "count": 19
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "mixed · confidence 5",
+      "count": 7
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "mixed · confidence 1",
+      "count": 2
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "broad · confidence 2",
+      "count": 10
+    },
+    {
+      "dimension": "exposure × confidence",
+      "value": "limited · confidence 5",
+      "count": 1
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "mixed · 10–19 unsure",
+      "count": 318
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "limited · 10–19 unsure",
+      "count": 207
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "mixed · 20–29 unsure",
+      "count": 54
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "mixed · 0–9 unsure",
+      "count": 105
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "limited · 50–59 unsure",
+      "count": 34
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "broad · 20–29 unsure",
+      "count": 15
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "limited · 0–9 unsure",
+      "count": 71
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "broad · 10–19 unsure",
+      "count": 98
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "broad · 0–9 unsure",
+      "count": 20
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "limited · 40–49 unsure",
+      "count": 10
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "limited · 20–29 unsure",
+      "count": 43
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "limited · 30–39 unsure",
+      "count": 8
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "mixed · 50–59 unsure",
+      "count": 8
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "limited · 60–69 unsure",
+      "count": 1
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "mixed · 40–49 unsure",
+      "count": 4
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "broad · 50–59 unsure",
+      "count": 1
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "broad · 40–49 unsure",
+      "count": 1
+    },
+    {
+      "dimension": "exposure × uncertain general answers",
+      "value": "mixed · 30–39 unsure",
+      "count": 2
+    },
+    {
+      "dimension": "number of positive activity topics",
+      "value": "1",
+      "count": 100
+    },
+    {
+      "dimension": "number of positive activity topics",
+      "value": "2",
+      "count": 209
+    },
+    {
+      "dimension": "number of positive activity topics",
+      "value": "3",
+      "count": 337
+    },
+    {
+      "dimension": "number of positive activity topics",
+      "value": "4",
+      "count": 263
+    },
+    {
+      "dimension": "number of positive activity topics",
+      "value": "5",
+      "count": 78
+    },
+    {
+      "dimension": "number of positive activity topics",
+      "value": "6",
+      "count": 11
+    },
+    {
+      "dimension": "number of positive activity topics",
+      "value": "7",
+      "count": 2
+    },
+    {
+      "dimension": "number of positive methods",
+      "value": "1",
+      "count": 59
+    },
+    {
+      "dimension": "number of positive methods",
+      "value": "2",
+      "count": 285
+    },
+    {
+      "dimension": "number of positive methods",
+      "value": "3",
+      "count": 522
+    },
+    {
+      "dimension": "number of positive methods",
+      "value": "4",
+      "count": 131
+    },
+    {
+      "dimension": "number of positive methods",
+      "value": "5",
+      "count": 3
+    },
+    {
+      "dimension": "uncertain general items",
+      "value": "10–19",
+      "count": 623
+    },
+    {
+      "dimension": "uncertain general items",
+      "value": "20–29",
+      "count": 112
+    },
+    {
+      "dimension": "uncertain general items",
+      "value": "0–9",
+      "count": 196
+    },
+    {
+      "dimension": "uncertain general items",
+      "value": "50–59",
+      "count": 43
+    },
+    {
+      "dimension": "uncertain general items",
+      "value": "40–49",
+      "count": 15
+    },
+    {
+      "dimension": "uncertain general items",
+      "value": "30–39",
+      "count": 10
+    },
+    {
+      "dimension": "uncertain general items",
+      "value": "60–69",
+      "count": 1
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Wood and joinery",
+      "count": 71
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Mechanisms",
+      "count": 101
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Circuits",
+      "count": 65
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Digital systems",
+      "count": 54
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Physical space and matter",
+      "count": 42
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Weather",
+      "count": 94
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Earth and maps",
+      "count": 78
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Materials and chemical change",
+      "count": 35
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Plant growth",
+      "count": 73
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Animal behavior",
+      "count": 76
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Ecology and conservation",
+      "count": 94
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Living mechanisms",
+      "count": 27
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Health and recovery",
+      "count": 33
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Behavior and well-being",
+      "count": 77
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Movement and sport",
+      "count": 80
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Learning with children",
+      "count": 109
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Learning with teenagers",
+      "count": 77
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Adult learning",
+      "count": 20
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Learning materials",
+      "count": 127
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Rules and evidence",
+      "count": 64
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Community decisions",
+      "count": 71
+    },
+    {
+      "dimension": "activity interests",
+      "value": "History and sources",
+      "count": 103
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Languages and meaning",
+      "count": 84
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Writing and stories",
+      "count": 148
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Visual composition",
+      "count": 111
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Film and photography",
+      "count": 114
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Music and sound",
+      "count": 95
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Performance and dance",
+      "count": 50
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Spaces and access",
+      "count": 60
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Structures and public systems",
+      "count": 68
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Mathematical arguments",
+      "count": 71
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Evidence with numbers",
+      "count": 83
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Financial records",
+      "count": 61
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Risk and investments",
+      "count": 17
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Purchasing comparisons",
+      "count": 82
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Initiative and organizations",
+      "count": 32
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Audiences and messages",
+      "count": 40
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Customer conversations",
+      "count": 35
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Routes and supplies",
+      "count": 68
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Food preparation",
+      "count": 80
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Personal care and style",
+      "count": 21
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Safety and emergencies",
+      "count": 77
+    },
+    {
+      "dimension": "activity interests",
+      "value": "Finding and checking information",
+      "count": 83
+    },
+    {
+      "dimension": "working methods",
+      "value": "testing",
+      "count": 249
+    },
+    {
+      "dimension": "working methods",
+      "value": "design",
+      "count": 216
+    },
+    {
+      "dimension": "working methods",
+      "value": "precision",
+      "count": 292
+    },
+    {
+      "dimension": "working methods",
+      "value": "quantitative",
+      "count": 135
+    },
+    {
+      "dimension": "working methods",
+      "value": "formalproof",
+      "count": 55
+    },
+    {
+      "dimension": "working methods",
+      "value": "computing",
+      "count": 55
+    },
+    {
+      "dimension": "working methods",
+      "value": "making",
+      "count": 187
+    },
+    {
+      "dimension": "working methods",
+      "value": "fieldwork",
+      "count": 182
+    },
+    {
+      "dimension": "working methods",
+      "value": "listening",
+      "count": 165
+    },
+    {
+      "dimension": "working methods",
+      "value": "explaining",
+      "count": 262
+    },
+    {
+      "dimension": "working methods",
+      "value": "expression",
+      "count": 246
+    },
+    {
+      "dimension": "working methods",
+      "value": "persuading",
+      "count": 83
+    },
+    {
+      "dimension": "working methods",
+      "value": "coordination",
+      "count": 92
+    },
+    {
+      "dimension": "working methods",
+      "value": "organization",
+      "count": 272
+    },
+    {
+      "dimension": "working methods",
+      "value": "investigation",
+      "count": 243
+    },
+    {
+      "dimension": "responsibilities",
+      "value": "clinical",
+      "count": 26
+    },
+    {
+      "dimension": "responsibilities",
+      "value": "patientcare",
+      "count": 5
+    },
+    {
+      "dimension": "responsibilities",
+      "value": "representation",
+      "count": 47
+    },
+    {
+      "dimension": "responsibilities",
+      "value": "wholeorganization",
+      "count": 7
+    },
+    {
+      "dimension": "responsibilities",
+      "value": "research",
+      "count": 158
+    },
+    {
+      "dimension": "responsibilities",
+      "value": "assessment",
+      "count": 72
+    },
+    {
+      "dimension": "responsibilities",
+      "value": "risk",
+      "count": 15
+    },
+    {
+      "dimension": "responsibilities",
+      "value": "safety",
+      "count": 156
+    },
+    {
+      "dimension": "responsibilities",
+      "value": "leadership",
+      "count": 43
+    },
+    {
+      "dimension": "lifestyle · home",
+      "value": "0",
+      "count": 218
+    },
+    {
+      "dimension": "lifestyle · home",
+      "value": "1",
+      "count": 539
+    },
+    {
+      "dimension": "lifestyle · home",
+      "value": "2",
+      "count": 240
+    },
+    {
+      "dimension": "lifestyle · home",
+      "value": "3",
+      "count": 3
+    },
+    {
+      "dimension": "lifestyle · transport",
+      "value": "0",
+      "count": 194
+    },
+    {
+      "dimension": "lifestyle · transport",
+      "value": "1",
+      "count": 639
+    },
+    {
+      "dimension": "lifestyle · transport",
+      "value": "2",
+      "count": 167
+    },
+    {
+      "dimension": "lifestyle · groceries",
+      "value": "0",
+      "count": 96
+    },
+    {
+      "dimension": "lifestyle · groceries",
+      "value": "1",
+      "count": 693
+    },
+    {
+      "dimension": "lifestyle · groceries",
+      "value": "2",
+      "count": 211
+    },
+    {
+      "dimension": "lifestyle · dining",
+      "value": "0",
+      "count": 392
+    },
+    {
+      "dimension": "lifestyle · dining",
+      "value": "1",
+      "count": 467
+    },
+    {
+      "dimension": "lifestyle · dining",
+      "value": "2",
+      "count": 140
+    },
+    {
+      "dimension": "lifestyle · dining",
+      "value": "3",
+      "count": 1
+    },
+    {
+      "dimension": "lifestyle · travel",
+      "value": "0",
+      "count": 332
+    },
+    {
+      "dimension": "lifestyle · travel",
+      "value": "1",
+      "count": 474
+    },
+    {
+      "dimension": "lifestyle · travel",
+      "value": "2",
+      "count": 184
+    },
+    {
+      "dimension": "lifestyle · travel",
+      "value": "3",
+      "count": 10
+    },
+    {
+      "dimension": "lifestyle · entertainment",
+      "value": "0",
+      "count": 148
+    },
+    {
+      "dimension": "lifestyle · entertainment",
+      "value": "1",
+      "count": 611
+    },
+    {
+      "dimension": "lifestyle · entertainment",
+      "value": "2",
+      "count": 233
+    },
+    {
+      "dimension": "lifestyle · entertainment",
+      "value": "3",
+      "count": 8
+    },
+    {
+      "dimension": "lifestyle · recreation",
+      "value": "0",
+      "count": 55
+    },
+    {
+      "dimension": "lifestyle · recreation",
+      "value": "1",
+      "count": 705
+    },
+    {
+      "dimension": "lifestyle · recreation",
+      "value": "2",
+      "count": 232
+    },
+    {
+      "dimension": "lifestyle · recreation",
+      "value": "3",
+      "count": 8
+    },
+    {
+      "dimension": "lifestyle · clothing",
+      "value": "0",
+      "count": 228
+    },
+    {
+      "dimension": "lifestyle · clothing",
+      "value": "1",
+      "count": 627
+    },
+    {
+      "dimension": "lifestyle · clothing",
+      "value": "2",
+      "count": 145
+    },
+    {
+      "dimension": "lifestyle · saving",
+      "value": "0",
+      "count": 161
+    },
+    {
+      "dimension": "lifestyle · saving",
+      "value": "1",
+      "count": 519
+    },
+    {
+      "dimension": "lifestyle · saving",
+      "value": "2",
+      "count": 310
+    },
+    {
+      "dimension": "lifestyle · saving",
+      "value": "3",
+      "count": 10
+    }
+  ],
+  "categoryRepairs": [
+    {
+      "id": "grok075-0041",
+      "field": "education",
+      "original": "open; a short shop certificate is the only option she has looked at",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0043",
+      "field": "education",
+      "original": "bachelor, only if aid comes through; field undecided",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0045",
+      "field": "education",
+      "original": "bachelor if aid works; graduate study is a distant maybe he has not planned",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0046",
+      "field": "education",
+      "original": "associate, only if aid and a ride work out",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0047",
+      "field": "education",
+      "original": "bachelor is geographically possible; he is undecided whether to enroll",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0049",
+      "field": "education",
+      "original": "bachelor, hoped for on the bus line; cost still unclear",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0051",
+      "field": "education",
+      "original": "bachelor might be possible with aid; undecided on the program",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0054",
+      "field": "education",
+      "original": "bachelor at a public campus his family can cover; he is unsure about leading a whole staff",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0055",
+      "field": "education",
+      "original": "bachelor is the plan she is willing to try; leaving the city's libraries is the uncertain part",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0056",
+      "field": "education",
+      "original": "open; a short local training program is the only idea on the table, and he is unsure he would be admitted",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0057",
+      "field": "education",
+      "original": "bachelor is what she wants, and it will require aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0059",
+      "field": "education",
+      "original": "associate is the nearby option she is considering",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0060",
+      "field": "education",
+      "original": "undecided; his family assumes a bachelor's degree and he has not agreed",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0061",
+      "field": "education",
+      "original": "short training or associate if transport and aid work; otherwise undecided",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0063",
+      "field": "education",
+      "original": "bachelor if aid continues; open",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0068",
+      "field": "education",
+      "original": "associate now, bachelor only with aid",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0069",
+      "field": "education",
+      "original": "bachelor; later graduate study only if cost works",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0072",
+      "field": "education",
+      "original": "bachelor with aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0074",
+      "field": "education",
+      "original": "associate while working; bachelor uncertain",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0076",
+      "field": "education",
+      "original": "bachelor if aid and housing work; open",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0079",
+      "field": "education",
+      "original": "associate underway; bachelor if aid holds",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0080",
+      "field": "education",
+      "original": "short training or associate nearby",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0081",
+      "field": "education",
+      "original": "Open to a short certificate or community college, only if aid and evening classes fit childcare for her brother",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0082",
+      "field": "education",
+      "original": "Undecided. He assumes he will keep working at home and has not looked at programs.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0083",
+      "field": "education",
+      "original": "Bachelor is the hope if aid covers most of it. A local college start is the backup they will actually use.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0084",
+      "field": "education",
+      "original": "Open. Family talks about a bachelor's later. She has not chosen a direction and does not want that decided by her math grade.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0085",
+      "field": "education",
+      "original": "Undecided between working and a low-cost associate program. Any campus plan depends on aid and keeping the weekend job.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0086",
+      "field": "education",
+      "original": "Undecided. A later science course would require a long bus ride or an online option she cannot reliably load.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0087",
+      "field": "education",
+      "original": "Open to a bachelor's later. He could start with a local accounting course. Cost is manageable with family help.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0088",
+      "field": "education",
+      "original": "Open. An associate program in theater production is thinkable if she can live at home. A full bachelor's is a later question.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0089",
+      "field": "education",
+      "original": "A bachelor's is imaginable with aid. He would need to keep living at home the first year. He has not ruled out stopping after a certificate.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0090",
+      "field": "education",
+      "original": "Undecided. She could take a short food-safety course. A longer program is only realistic if the restaurant can spare her weekends.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0091",
+      "field": "education",
+      "original": "Undecided between a certificate and a bachelor's at a state campus an hour away. Cost would need a grant or living at home.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0092",
+      "field": "education",
+      "original": "Open. A later bachelor's is a vague idea. Right now a free library workshop is the realistic next step.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0093",
+      "field": "education",
+      "original": "A bachelor's in music is what she names, and she says plainly it depends on aid. A church-based year at home is the plan if aid falls short.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0094",
+      "field": "education",
+      "original": "Short training or an associate program in fire or emergency work, ideally while living at home. A bachelor's is not his current plan.",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0095",
+      "field": "education",
+      "original": "Short training after the diploma, nights if possible. A degree is not the plan and he does not describe one.",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0096",
+      "field": "education",
+      "original": "Open to a bachelor's with aid at a public campus. She has not committed to a major and says health training is only a question, not a plan.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0097",
+      "field": "education",
+      "original": "Open. Family can support college later. She treats that as available, not decided, and is fine staying in high-school media for now.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0098",
+      "field": "education",
+      "original": "Undecided. He has not connected shelter Saturdays to any program. Any class after school collides with sibling care unless it is Saturday.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0099",
+      "field": "education",
+      "original": "Bachelor's at a public university is feasible with family help. She has not picked a field and is leaving graduate study unmentioned.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0100",
+      "field": "education",
+      "original": "Undecided. He has no plan past high school and no budget for visits. He is not opposed to later training; he cannot picture it.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0141",
+      "field": "education",
+      "original": "undecided; short training only if costs stay low",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0142",
+      "field": "education",
+      "original": "open toward community college if a part-time load is possible",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0143",
+      "field": "education",
+      "original": "associate, already started, full bachelor undecided",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0144",
+      "field": "education",
+      "original": "bachelor hoped for with aid; graduate study not decided",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0145",
+      "field": "education",
+      "original": "open; short training or associate both possible if he can commute",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0146",
+      "field": "education",
+      "original": "open; high school pathways not chosen",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0147",
+      "field": "education",
+      "original": "undecided; bachelor feels distant without a clear subject",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0148",
+      "field": "education",
+      "original": "undecided; short training only if local and cheap",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0149",
+      "field": "education",
+      "original": "bachelor is a hope that would require aid; not chosen",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0150",
+      "field": "education",
+      "original": "short training or associate in a shop program; bachelor not a goal now",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0151",
+      "field": "education",
+      "original": "bachelor is plausible with some aid; subject open",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0152",
+      "field": "education",
+      "original": "undecided between staying for athletics-related study or something else",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0153",
+      "field": "education",
+      "original": "undecided; cost and transport dominate any plan",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0154",
+      "field": "education",
+      "original": "bachelor next, if transfer aid holds; graduate school only a distant maybe",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0155",
+      "field": "education",
+      "original": "bachelor at an in-state public campus is feasible; graduate research is only a vague later question",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0156",
+      "field": "education",
+      "original": "associate or short training if evening classes exist; bachelor not sought",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0157",
+      "field": "education",
+      "original": "short training or associate; smoke-heavy outdoor work is a poor fit",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0158",
+      "field": "education",
+      "original": "open; a later associate is imaginable if bus and aid appear",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0159",
+      "field": "education",
+      "original": "bachelor in a making or design field is a hope; portfolio and mornings are the uncertainty",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0160",
+      "field": "education",
+      "original": "associate is the realistic next step if shifts allow; bachelor would need more aid than she can see",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0241",
+      "field": "education",
+      "original": "Open between a community writing certificate and a later bachelor’s; aid would decide the longer path",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0242",
+      "field": "education",
+      "original": "Undecided; a short shop certificate is the only option he can picture, and even that may be too far",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0243",
+      "field": "education",
+      "original": "Undecided; a low-cost community studio course is more realistic than a four-year program",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0244",
+      "field": "education",
+      "original": "Open; she is early and has not looked past high school offerings in town",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0245",
+      "field": "education",
+      "original": "Undecided; a later bachelor’s is possible with family support, but he does not want to choose from a shaky hobby",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0246",
+      "field": "education",
+      "original": "Associate program if aid and a ride exist; a bachelor’s is not currently realistic",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0247",
+      "field": "education",
+      "original": "Bachelor’s is possible with aid or living at home; he is not convinced the degree is necessary",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0248",
+      "field": "education",
+      "original": "Community college media courses if work hours and aid line up; a bachelor’s is a later question",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0249",
+      "field": "education",
+      "original": "Undecided; he might use a community rec certification and has not planned a degree",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0250",
+      "field": "education",
+      "original": "Bachelor’s is the path she is open to; cost is still unknown and she is not locked to a major",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0251",
+      "field": "education",
+      "original": "Bachelor’s only if aid is real; otherwise a cheaper technical certificate is the fallback he will actually use",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0252",
+      "field": "education",
+      "original": "Undecided and open; any campus plan has to survive morning attendance first",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0253",
+      "field": "education",
+      "original": "Short foods course or a nearby associate program; a distant campus is unlikely while the diner needs weekends",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0254",
+      "field": "education",
+      "original": "Undecided, including a gap after graduation; they do not want a technical major by default",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0255",
+      "field": "education",
+      "original": "Bachelor’s is plausible with aid; a summer field week is the nearer test of whether she wants more school",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0256",
+      "field": "education",
+      "original": "Undecided, including whether any further school makes sense",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0257",
+      "field": "education",
+      "original": "Open; she is in eighth grade and has not chosen a training path",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0258",
+      "field": "education",
+      "original": "Short training is what he hopes is allowed later; he does not know the age rules",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0259",
+      "field": "education",
+      "original": "Associate dance program only if a scholarship appears; otherwise she stays in school classes",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0260",
+      "field": "education",
+      "original": "Associate in a nearby town while working summers; he is not planning to leave the farm for a bachelor’s",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0261",
+      "field": "education",
+      "original": "Open; a short program is imaginable if aid or nights cover it",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0262",
+      "field": "education",
+      "original": "Undecided; high school is the near horizon",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0263",
+      "field": "education",
+      "original": "Undecided; likes school and has not pictured a program",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0264",
+      "field": "education",
+      "original": "Short training first; longer schooling only if it stays near home and affordable",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0265",
+      "field": "education",
+      "original": "Associate or short certificate if hours and aid line up; otherwise stay working",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0266",
+      "field": "education",
+      "original": "Open between a bachelor's and a tighter technical path; cost is not the main barrier",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0267",
+      "field": "education",
+      "original": "Open among a bachelor's, a short design course, or staying in the co-op; aid would matter for the first",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0268",
+      "field": "education",
+      "original": "Bachelor's is feasible at home expense; subject focus is not chosen",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0269",
+      "field": "education",
+      "original": "Undecided; any program would need aid and a closer option than he has seen",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0270",
+      "field": "education",
+      "original": "Open; a bachelor's only with aid, otherwise night community coursework",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0271",
+      "field": "education",
+      "original": "Undecided; school is fine and a conservatory story does not fit the money",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0272",
+      "field": "education",
+      "original": "Short training is the picture he can judge; a far campus is not",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0273",
+      "field": "education",
+      "original": "Bachelor's is financially feasible; field is open and she may keep it general",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0274",
+      "field": "education",
+      "original": "Bachelor's if scholarships appear; otherwise local work and community classes",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0275",
+      "field": "education",
+      "original": "Undecided; high school is the current plan and cost is a real limit later",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0276",
+      "field": "education",
+      "original": "Open; commuting daily is the feasibility problem, not interest in reading",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0277",
+      "field": "education",
+      "original": "Bachelor's is the expected and affordable path; the major inside it is only loosely set",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0278",
+      "field": "education",
+      "original": "Undecided; a bachelor's is possible with aid and in-state tuition, not settled",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0279",
+      "field": "education",
+      "original": "Undecided; a paid teen program matters sooner than a campus tour they cannot afford",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0280",
+      "field": "education",
+      "original": "Associate or a short certificate if the store keeps him; a bachelor's is not the current plan",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0321",
+      "field": "education",
+      "original": "Undecided. A writing-heavy bachelor would need aid she has not mapped.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0322",
+      "field": "education",
+      "original": "A local certificate or technical associate if it stays in-county. A distant bachelor is not his plan.",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0323",
+      "field": "education",
+      "original": "Open. Too early for a training path.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0324",
+      "field": "education",
+      "original": "Open. A city-college bachelor would require aid she has not applied for.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0325",
+      "field": "education",
+      "original": "Undecided between more work hours and a local associate.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0326",
+      "field": "education",
+      "original": "Open. A local college is possible without leaving family. Nothing is fixed.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0327",
+      "field": "education",
+      "original": "Associate first. A later bachelor only with aid, steadier hours, and manageable migraine days.",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0328",
+      "field": "education",
+      "original": "Undecided and open. Any campus is far and would need aid plus a ride.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0329",
+      "field": "education",
+      "original": "Short local training is the feasible hope. Longer programs need aid and someone else at home.",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0330",
+      "field": "education",
+      "original": "Undecided. A bachelor means leaving town and finding aid. They have not chosen.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0331",
+      "field": "education",
+      "original": "A bachelor is financially realistic and expected. He has not chosen a focus and dislikes being rushed.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0332",
+      "field": "education",
+      "original": "State bachelor if scholarships land; otherwise a transfer associate. Leaving the ranch overnight is unsettled.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0333",
+      "field": "education",
+      "original": "A commuter bachelor with aid is the hope. The fee-waiver form is unfinished.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0334",
+      "field": "education",
+      "original": "Undecided. He wants more instruction and does not know the path.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0335",
+      "field": "education",
+      "original": "An in-town associate is feasible. A bachelor would mean leaving the counter and finding aid.",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0336",
+      "field": "education",
+      "original": "A bachelor is affordable. The field is undecided because enjoyment and grades diverge.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0337",
+      "field": "education",
+      "original": "Undecided. A nearby bachelor is partly affordable. A gap year is also open.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0338",
+      "field": "education",
+      "original": "Short certificate or technical associate if the car and tuition work. He is unsure more school helps.",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0339",
+      "field": "education",
+      "original": "Open. A dance bachelor is costly. Community-college dance is a backup she has not accepted.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0340",
+      "field": "education",
+      "original": "Short training or a community-college cabinet program if aid and shop access continue. A bachelor is not his aim.",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0421",
+      "field": "education",
+      "original": "Associate technical program or a local apprenticeship; leaving the metro would need aid or a paid placement",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0422",
+      "field": "education",
+      "original": "Open. More responsibility on the route is as plausible as further school; unpaid training is hard",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0423",
+      "field": "education",
+      "original": "Open between a bachelor's in a science field and staying local; aid would matter, and indoor lab tolerance is untested",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0424",
+      "field": "education",
+      "original": "Undecided. A media course would require leaving the county; she has not decided she wants a program rather than the looking itself",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0425",
+      "field": "education",
+      "original": "Open. A bachelor's degree is feasible at home financially; he has not picked a field and may not want one yet",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0426",
+      "field": "education",
+      "original": "Bachelor's degree is the hope and would require substantial aid; she is not sure the daily work of teaching would still fit",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0427",
+      "field": "education",
+      "original": "Associate degree or CTE certificate close to home. A four-year move is unlikely and not what he is asking for",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0428",
+      "field": "education",
+      "original": "Undecided. A bachelor's degree is imaginable with some aid; graduate study is only a distant idea she does not treat as a plan",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0429",
+      "field": "education",
+      "original": "Undecided. He is early in the skill and does not want a medical track assumed. Further school is possible and not chosen",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0430",
+      "field": "education",
+      "original": "Open. A community cooking course is more imaginable than a bachelor's degree; she has not ruled school out",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0431",
+      "field": "education",
+      "original": "Bachelor's degree is the working plan if an audition scholarship or a grant comes through; he has not chosen which effort he would drop",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0432",
+      "field": "education",
+      "original": "Bachelor's degree is the plan. Graduate research is interesting only after she has designed a question, which she has not done",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0433",
+      "field": "education",
+      "original": "Associate field program if it is reachable by bus; a bachelor's degree is not affordable now and is not assumed",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0434",
+      "field": "education",
+      "original": "Undecided. High school electives are not chosen, and he cannot yet say whether further training belongs in the picture",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0435",
+      "field": "education",
+      "original": "Bachelor's degree is a hope that needs aid and a move. She has no exposure to a campus or a court and is not treating law school as a plan",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0436",
+      "field": "education",
+      "original": "Short training or open. A community recording class is interesting only if the tuition stays small; he does not want to supervise a store",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0437",
+      "field": "education",
+      "original": "Associate or bachelor's training only with aid. She is not committed to a license, direct care, or a specific program",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0438",
+      "field": "education",
+      "original": "Bachelor's degree is expected in the family and acceptable to him. Field is not chosen; he is unsure about applied money work",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0439",
+      "field": "education",
+      "original": "Undecided. A later design or teaching program is imaginable only with aid and a workable commute; she is not treating it as settled",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0440",
+      "field": "education",
+      "original": "Undecided. A local emergency-response course may be enough; leaving for college is an open question, not a goal they have accepted",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0461",
+      "field": "education",
+      "original": "Open to a bachelor's in writing or languages if aid and a shared-laptop plan work; otherwise undecided",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0462",
+      "field": "education",
+      "original": "Short paid training or a local certificate; a longer program is an open question because of lost wages",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0463",
+      "field": "education",
+      "original": "Undecided; no program in mind and little basis yet for choosing",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0464",
+      "field": "education",
+      "original": "Open to a local or tribal-college program in field observation; boarding away is unresolved and would need aid",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0465",
+      "field": "education",
+      "original": "Undecided; a later arts program is only imaginable with aid and if sleep worry stays manageable",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0466",
+      "field": "education",
+      "original": "Short local certificate if one exists nearby; residential study is unlikely",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0467",
+      "field": "education",
+      "original": "Open to a later bachelor's and possibly graduate study if cost and a low-collaboration setting both fit",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0468",
+      "field": "education",
+      "original": "Associate-level art courses now; a bachelor's is open only if work and tuition stay compatible",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0469",
+      "field": "education",
+      "original": "Bachelor's at a public university is feasible with summer work; graduate study not in view",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0470",
+      "field": "education",
+      "original": "Bachelor's aimed at learning support is the hope and requires aid; still open between classroom and one-to-one work",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0471",
+      "field": "education",
+      "original": "Undecided; any later training has to stay near home because of evening childcare",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0472",
+      "field": "education",
+      "original": "Bachelor's is the working hope and depends on aid; law school is not assumed",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0473",
+      "field": "education",
+      "original": "Short food-safety course at the community college; longer management study is undecided",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0474",
+      "field": "education",
+      "original": "Undecided; too early to choose a program; weekend lab is enough for now",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0475",
+      "field": "education",
+      "original": "Community college media courses next year; a bachelor's is open later if energy and transit allow",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0476",
+      "field": "education",
+      "original": "Short certificate while living at home; longer degrees not planned",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0477",
+      "field": "education",
+      "original": "Nearby associate program is possible with a Pell grant; a bachelor's is not assumed",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0478",
+      "field": "education",
+      "original": "Bachelor's is open only as night classes with aid; currently one course at a time",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0479",
+      "field": "education",
+      "original": "Undecided between local writing classes and time off; savings cover either a year nearby or a short trip, not both",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0480",
+      "field": "education",
+      "original": "A bachelor's is a hope that outruns current savings and would need aid; he may stay local",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0481",
+      "field": "education",
+      "original": "Open; a low-cost shop or design course is feasible with aid, and a four-year path is not assumed",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0482",
+      "field": "education",
+      "original": "Associate or a short food program is feasible with aid; a four-year degree is not the current plan",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0483",
+      "field": "education",
+      "original": "Undecided; nothing beyond helping at home is settled",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0484",
+      "field": "education",
+      "original": "Bachelor at an in-state public college if aid holds; a gap year stays open if the package is thin",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0485",
+      "field": "education",
+      "original": "Short training or a certificate; community college auto is possible if Saturday work continues",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0486",
+      "field": "education",
+      "original": "Open; too early for a settled program, and family can revisit it later",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0487",
+      "field": "education",
+      "original": "Associate at community college first; a later bachelor only if the year is manageable and aid continues",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0488",
+      "field": "education",
+      "original": "Undecided; no program is in view",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0489",
+      "field": "education",
+      "original": "Bachelor at a public university, with aid treated as necessary",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0490",
+      "field": "education",
+      "original": "Open; a local bachelor in music technology is possible, while a performance conservatory is a poor fit",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0491",
+      "field": "education",
+      "original": "A local associate in a health area is the feasible hope and needs aid; a bachelor is uncertain",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0492",
+      "field": "education",
+      "original": "Undecided; any later college would need aid and a nearer campus than the state university",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0493",
+      "field": "education",
+      "original": "Short culinary training or community college, feasible if he keeps some hours and uses the family's tuition help",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0494",
+      "field": "education",
+      "original": "Bachelor, in-state, feasible with family savings; campuses are still being compared",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0495",
+      "field": "education",
+      "original": "Open; family can support an attempt at college later if grades hold, with no field chosen",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0496",
+      "field": "education",
+      "original": "Community college art is the practical path; a bachelor needs large aid and is still open",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0497",
+      "field": "education",
+      "original": "Associate in progress; a bachelor is undecided and depends on aid and a manageable course load",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0498",
+      "field": "education",
+      "original": "Bachelor is expected and financially feasible; the field is not fixed",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0499",
+      "field": "education",
+      "original": "Open between associate business courses and a bachelor; family can help some, and aid would still matter for four years",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0500",
+      "field": "education",
+      "original": "Undecided; family could support later schooling, and nothing is chosen",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0521",
+      "field": "education",
+      "original": "Open to a short tool program if aid covers costs; otherwise undecided",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0522",
+      "field": "education",
+      "original": "Undecided; a campus feels possible only with aid and a quieter schedule",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0523",
+      "field": "education",
+      "original": "Open to a bachelor's if the campus is not huge; cost is manageable with some family help",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0524",
+      "field": "education",
+      "original": "Undecided; longer schooling is hard to picture beside evening care",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0525",
+      "field": "education",
+      "original": "Undecided; high school has not started to feel specific",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0526",
+      "field": "education",
+      "original": "Bachelor's is the hope if aid and part-time work can both happen; still open",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0527",
+      "field": "education",
+      "original": "Open to a short food-safety or routing course; a long degree is not the current aim",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0528",
+      "field": "education",
+      "original": "Started community college; open about stopping after edit courses or staying a second year",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0529",
+      "field": "education",
+      "original": "Leaning toward a short certificate; a lecture degree does not appeal",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0530",
+      "field": "education",
+      "original": "Undecided; family could help pay, and she is not sure she wants a campus lab track",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0531",
+      "field": "education",
+      "original": "Open to further math study if aid exists; not aimed at advising anyone's money",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0532",
+      "field": "education",
+      "original": "Undecided; more school feels far away and she has seen few training sites",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0533",
+      "field": "education",
+      "original": "Open; a large classroom is the uncertain part, not the reading",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0534",
+      "field": "education",
+      "original": "Undecided; she is early and has not tied practice to a program",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0535",
+      "field": "education",
+      "original": "Short local safety training appeals; leaving the county for a long program does not, yet",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0536",
+      "field": "education",
+      "original": "Undecided himself; family talks as if a bachelor's is settled",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0537",
+      "field": "education",
+      "original": "Open, and only realistic with aid plus a schedule that can absorb a bad month",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0538",
+      "field": "education",
+      "original": "A bachelor's in a making-heavy program is feasible with family support; she has not locked the length",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0539",
+      "field": "education",
+      "original": "Open to a bachelor's with mixed family savings and aid; not in a hurry to run an organization",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0540",
+      "field": "education",
+      "original": "Undecided; more school is possible and not yet pictured",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0541",
+      "field": "education",
+      "original": "Short training or a nearby associate program, still open, and likely to need aid if she leaves the county",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0542",
+      "field": "education",
+      "original": "Open, including staying in band through graduation before any further program",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0543",
+      "field": "education",
+      "original": "Bachelor is a real aim if aid and evening bakery shifts can both work",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0544",
+      "field": "education",
+      "original": "Undecided, with no program in mind yet",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0545",
+      "field": "education",
+      "original": "Open. A bachelor's program only if aid and presentation support are both real",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0546",
+      "field": "education",
+      "original": "Associate or other local study if aid exists; bachelor's study is not the current plan",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0547",
+      "field": "education",
+      "original": "Undecided between staying at the shop and a short associate program in records or distribution",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0548",
+      "field": "education",
+      "original": "Bachelor's study is expected at home and feasible; graduate study is a later maybe, not a plan",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0549",
+      "field": "education",
+      "original": "Open. Further school is possible if it fits practice, and he has not picked a field",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0550",
+      "field": "education",
+      "original": "Associate study if the fee stays covered; a bachelor's program is undecided and currently feels far",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0551",
+      "field": "education",
+      "original": "Undecided, and too early for a program choice",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0552",
+      "field": "education",
+      "original": "Open. A later bachelor's program is plausible with aid, and he has not named a field",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0553",
+      "field": "education",
+      "original": "Short food-safety or culinary certificate in town, needing a fee waiver or scholarship",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0554",
+      "field": "education",
+      "original": "Undecided. A community-college electronics course is interesting only if the bus and aid both work",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0555",
+      "field": "education",
+      "original": "Bachelor's study is feasible with aid. She has not chosen a major and is not aiming at clinical work",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0556",
+      "field": "education",
+      "original": "Open. An art or design program is interesting and expensive, so aid is the uncertainty",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0557",
+      "field": "education",
+      "original": "Bachelor's study is affordable at a public campus. Field is not chosen",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0558",
+      "field": "education",
+      "original": "Undecided. A bachelor's program only with full aid, and leaving the valley is the open question",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0559",
+      "field": "education",
+      "original": "Open between a short media certificate and an associate program if shifts allow",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0560",
+      "field": "education",
+      "original": "Bachelor's study is the likely next step at a public campus. Graduate work is not a decision yet",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0561",
+      "field": "education",
+      "original": "associate or open",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0565",
+      "field": "education",
+      "original": "bachelor; needs aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0568",
+      "field": "education",
+      "original": "associate or open",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0569",
+      "field": "education",
+      "original": "short training or associate",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0572",
+      "field": "education",
+      "original": "bachelor; needs aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0573",
+      "field": "education",
+      "original": "bachelor or graduate; open",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0575",
+      "field": "education",
+      "original": "bachelor or open",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0578",
+      "field": "education",
+      "original": "short training or associate",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0579",
+      "field": "education",
+      "original": "short training, associate, or bachelor; undecided",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0601",
+      "field": "education",
+      "original": "associate, if a nearby shop program can be reached without leaving the boys uncovered; otherwise short training",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0602",
+      "field": "education",
+      "original": "undecided; high school choices are still ahead and he has not visited a campus",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0603",
+      "field": "education",
+      "original": "bachelor only with substantial aid; a start at the local college is the feasible path",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0604",
+      "field": "education",
+      "original": "open; a local start is realistic, a resident campus is not while her grandmother needs daily help",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0605",
+      "field": "education",
+      "original": "short training or a later certificate near home; a bachelor's is not a current plan",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0606",
+      "field": "education",
+      "original": "bachelor in a low-cost program if aid and a used instrument hold; he has not committed",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0607",
+      "field": "education",
+      "original": "bachelor is the aim, dependent on aid like her brother's; she is not set on a longer degree",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0608",
+      "field": "education",
+      "original": "associate in accounting or logistics at the nearest community college while still covering some store hours",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0609",
+      "field": "education",
+      "original": "undecided; high school art is available, and she has no college picture yet",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0610",
+      "field": "education",
+      "original": "open; a later shop sequence or short technical course, nothing decided",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0611",
+      "field": "education",
+      "original": "bachelor aimed at a public campus with aid; application fees need a waiver",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0612",
+      "field": "education",
+      "original": "open between a performance program and staying local; cost and the website duty are unsettled",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0613",
+      "field": "education",
+      "original": "undecided; he has not looked past next year's high school",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0614",
+      "field": "education",
+      "original": "associate or extension certificate if it can be done without a dorm; a bachelor's would need aid she has not mapped",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0615",
+      "field": "education",
+      "original": "bachelor, with graduate study possible later; family support makes that feasible, duration is the open part",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0616",
+      "field": "education",
+      "original": "bachelor is attractive and would require borrowing she has not accepted; staying in the stall is also open",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0617",
+      "field": "education",
+      "original": "open between a certificate and a bachelor's; either needs aid and a schedule that respects the knee",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0618",
+      "field": "education",
+      "original": "open; a library-tech certificate or a later bachelor's, both blocked for now by transport and cost",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0619",
+      "field": "education",
+      "original": "undecided; teachers mention college, and he has not pictured a campus or a bill",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0620",
+      "field": "education",
+      "original": "bachelor at the public campus if aid and fee waivers hold; she is not planning graduate work yet",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0621",
+      "field": "education",
+      "original": "associate; unsure whether lost wages and bus fare are worth it",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0622",
+      "field": "education",
+      "original": "undecided; any campus would conflict with morning chores",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0623",
+      "field": "education",
+      "original": "bachelor if aid appears; otherwise open",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0624",
+      "field": "education",
+      "original": "bachelor; feasible only if grants cover living costs",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0625",
+      "field": "education",
+      "original": "short training if it stays local; otherwise open",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0626",
+      "field": "education",
+      "original": "bachelor hoped for and aid-dependent; field undecided",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0627",
+      "field": "education",
+      "original": "associate while keeping Saturday shifts",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0629",
+      "field": "education",
+      "original": "bachelor is realistic; graduate study is only a distant hope that would need aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0630",
+      "field": "education",
+      "original": "bachelor dependent on aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0632",
+      "field": "education",
+      "original": "bachelor is plausible with family support and some aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0633",
+      "field": "education",
+      "original": "undecided; family has not funded college",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0636",
+      "field": "education",
+      "original": "open; more schooling feels optional",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0637",
+      "field": "education",
+      "original": "bachelor; family can fund a public university",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0638",
+      "field": "education",
+      "original": "undecided; leaving the county depends on money",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0639",
+      "field": "education",
+      "original": "bachelor needing aid and accessible housing",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0640",
+      "field": "education",
+      "original": "associate if nights remain free; culinary or personal care undecided",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0641",
+      "field": "education",
+      "original": "open; a four-year program would need aid",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0643",
+      "field": "education",
+      "original": "associate or open",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0703",
+      "field": "education",
+      "original": "bachelor, only if aid covers most of it",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0713",
+      "field": "education",
+      "original": "associate, bachelor only if aid continues",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0714",
+      "field": "education",
+      "original": "training",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0717",
+      "field": "education",
+      "original": "bachelor, needs aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0741",
+      "field": "education",
+      "original": "undecided; a short training program would need aid and a caregiving plan",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0742",
+      "field": "education",
+      "original": "open; a bachelor's later would require aid",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0743",
+      "field": "education",
+      "original": "open to a bachelor's, with graduate study only a distant maybe",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0744",
+      "field": "education",
+      "original": "associate-level study is the feasible next step; a bachelor's would need aid",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0745",
+      "field": "education",
+      "original": "undecided; staying near home for a low-cost program is more realistic than moving",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0746",
+      "field": "education",
+      "original": "bachelor's is an aspiration that would require aid, housing, and remedial math support",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0747",
+      "field": "education",
+      "original": "associate program already started; a bachelor's is open only if evening classes and aid line up",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0748",
+      "field": "education",
+      "original": "bachelor's is a comfortable assumption at home; he has not looked hard at cost",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0749",
+      "field": "education",
+      "original": "undecided; staying in ensemble and maybe a low-cost program, aid unclear",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0750",
+      "field": "education",
+      "original": "undecided; too early for him to judge programs",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0751",
+      "field": "education",
+      "original": "bachelor's in progress; pace may stay part-time if mornings remain hard",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0752",
+      "field": "education",
+      "original": "short training or a part-time associate course is realistic; a full-time move is not, this year",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0753",
+      "field": "education",
+      "original": "open; a bachelor's is imaginable and would need aid if the household income stays cut",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0754",
+      "field": "education",
+      "original": "bachelor's is financially feasible; she has not committed to a field",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0755",
+      "field": "education",
+      "original": "bachelor's in music is the hope and would require substantial aid; a local certificate is the fallback he has not accepted",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0756",
+      "field": "education",
+      "original": "undecided; he could start a community college later and is not planning on it this year",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0757",
+      "field": "education",
+      "original": "undecided; she likes learning and has no family path mapped for college cost",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0758",
+      "field": "education",
+      "original": "short training is the realistic aim; a degree is not in the current budget",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0759",
+      "field": "education",
+      "original": "undecided between starting a bachelor's and a gap; family can help with in-state cost, she is not sure she wants it yet",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0760",
+      "field": "education",
+      "original": "undecided; no program in mind",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0761",
+      "field": "education",
+      "original": "open; a campus or certificate would depend on aid and evening coverage",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0763",
+      "field": "education",
+      "original": "short training is the feasible next step; leaving the county is uncertain",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0764",
+      "field": "education",
+      "original": "bachelor is interesting and only feasible with aid if weekend shifts can be covered",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0765",
+      "field": "education",
+      "original": "undecided; a low-cost community program is more realistic than a residential campus",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0766",
+      "field": "education",
+      "original": "associate or short logistics course, if it stays local and cheap",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0767",
+      "field": "education",
+      "original": "bachelor only with aid; she already wonders if a cheaper local start is wiser",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0768",
+      "field": "education",
+      "original": "undecided; family can fund college, and he does not want the decision made by the garage",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0769",
+      "field": "education",
+      "original": "undecided; any later training would have to be local and low cost",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0770",
+      "field": "education",
+      "original": "bachelor is financially feasible; she has not picked a field and does not want medicine chosen for her",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0771",
+      "field": "education",
+      "original": "open to a short technical program only if filming stays in it; a bachelor is not a goal he names",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0772",
+      "field": "education",
+      "original": "associate or short allied-health intro, only if evenings and bus fare still work",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0773",
+      "field": "education",
+      "original": "open; a design program is interesting only if it can be done seated, and aid is not the main barrier",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0774",
+      "field": "education",
+      "original": "short training or a one-year certificate, if calving season can spare him",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0775",
+      "field": "education",
+      "original": "undecided between staying local and a bachelor's; aid would matter and she is not choosing a clinical track",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0776",
+      "field": "education",
+      "original": "bachelor only if scholarship money appears; otherwise a local accounting certificate",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0777",
+      "field": "education",
+      "original": "undecided between a bachelor's and a shorter certificate; either is financially plausible",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0778",
+      "field": "education",
+      "original": "short training, hands-on and local; he is not aiming at a bachelor's",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0779",
+      "field": "education",
+      "original": "open; a bachelor's is affordable and she has not committed to one subject",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0780",
+      "field": "education",
+      "original": "bachelor is the hope and is not feasible without substantial aid; that gap is unresolved",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0781",
+      "field": "education",
+      "original": "Undecided; a short program in the county seat would need a ride and aid",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0782",
+      "field": "education",
+      "original": "Open; a later certificate is imaginable if equipment stays borrowable",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0783",
+      "field": "education",
+      "original": "Associate underway; bachelor's is undecided and depends on further aid",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0784",
+      "field": "education",
+      "original": "Undecided; he has not pictured a program after high school",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0785",
+      "field": "education",
+      "original": "A short food-safety course is the feasible hope if nights stay covered",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0786",
+      "field": "education",
+      "original": "Open to college only if a state grant covers the gap",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0787",
+      "field": "education",
+      "original": "A bachelor's is plausible with in-state aid; graduate study is only a word she has heard",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0788",
+      "field": "education",
+      "original": "Undecided; applications are started because the household expects them, not because he has picked a path",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0789",
+      "field": "education",
+      "original": "Undecided; leaving the county for school is not a current plan",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0790",
+      "field": "education",
+      "original": "Undecided; college is not a picture she holds yet",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0791",
+      "field": "education",
+      "original": "Undecided; he is not applying anywhere this year",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0792",
+      "field": "education",
+      "original": "A bachelor's only if aid covers tuition; otherwise she may work a year",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0793",
+      "field": "education",
+      "original": "Undecided; high school itself is the next fact, not a program",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0794",
+      "field": "education",
+      "original": "In-state bachelor's is financially plausible",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0795",
+      "field": "education",
+      "original": "Open to a low-cost program later; this year a paid job comes first",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0796",
+      "field": "education",
+      "original": "Undecided; frequent moves make a program hard to start",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0797",
+      "field": "education",
+      "original": "Open to a later certificate; high school is the present task",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0798",
+      "field": "education",
+      "original": "An associate degree is feasible if he stays home; a bachelor's is optional later",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0799",
+      "field": "education",
+      "original": "A public associate program is the feasible next step; a bachelor's needs aid she does not have yet",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0800",
+      "field": "education",
+      "original": "Unsure a school business course would help; the stand is the current teacher",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0801",
+      "field": "education",
+      "original": "undecided; a short shop certificate only if wages or aid covered it",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0802",
+      "field": "education",
+      "original": "associate if evening classes can sit beside closing shifts",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0803",
+      "field": "education",
+      "original": "bachelor with aid if she can live at home; subject undecided",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0804",
+      "field": "education",
+      "original": "open; leaving the county is unresolved and would need aid",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0805",
+      "field": "education",
+      "original": "bachelor, with family able to cover part and the rest unresolved",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0806",
+      "field": "education",
+      "original": "undecided; any campus would need aid she does not yet see",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0808",
+      "field": "education",
+      "original": "bachelor only if aid and another adult cover the afternoon hours",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0809",
+      "field": "education",
+      "original": "short training near home is the only option he can picture; still undecided what it would be",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0810",
+      "field": "education",
+      "original": "bachelor is financially realistic; field open",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0812",
+      "field": "education",
+      "original": "bachelor is affordable at an in-state public campus; he is unsure about leaving the suburb",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0813",
+      "field": "education",
+      "original": "bachelor is feasible; graduate study is an open later hope and the cost is unsolved",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0814",
+      "field": "education",
+      "original": "associate if a portfolio and aid line up; otherwise open",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0815",
+      "field": "education",
+      "original": "bachelor with some family help and likely aid for the rest",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0816",
+      "field": "education",
+      "original": "short training, with an associate as a later maybe",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0818",
+      "field": "education",
+      "original": "open; a bachelor's only with substantial aid and transportation that is not secured",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0819",
+      "field": "education",
+      "original": "open; anything away from town needs aid that is not in hand",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0820",
+      "field": "education",
+      "original": "undecided; a bachelor's is easy to pay for and hard for her to aim",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0881",
+      "field": "education",
+      "original": "Open; community or tribal college only if she can remain near home",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0882",
+      "field": "education",
+      "original": "Bachelor if aid covers most of the cost; otherwise a smaller certificate",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0883",
+      "field": "education",
+      "original": "Undecided",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0884",
+      "field": "education",
+      "original": "Graduate study is a distant interest; a bachelor's comes first, with aid still a question",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0885",
+      "field": "education",
+      "original": "Bachelor only with substantial aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0886",
+      "field": "education",
+      "original": "Short training or a certificate near home",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0887",
+      "field": "education",
+      "original": "Undecided; any option depends on transport",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0888",
+      "field": "education",
+      "original": "Associate program, nights if needed",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0889",
+      "field": "education",
+      "original": "Open",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0890",
+      "field": "education",
+      "original": "Open",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0891",
+      "field": "education",
+      "original": "Bachelor with aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0892",
+      "field": "education",
+      "original": "Undecided",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0893",
+      "field": "education",
+      "original": "Associate degree while living at home",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0894",
+      "field": "education",
+      "original": "Bachelor if aid includes a transit pass",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0895",
+      "field": "education",
+      "original": "Undecided",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0896",
+      "field": "education",
+      "original": "Short training",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0897",
+      "field": "education",
+      "original": "Bachelor's at a nearby public college, which the family can help fund",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0898",
+      "field": "education",
+      "original": "Undecided",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0899",
+      "field": "education",
+      "original": "Open; a low-cost college start is the plan that matches current money",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0900",
+      "field": "education",
+      "original": "Open; community college if aid appears",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0901",
+      "field": "education",
+      "original": "undecided; any further schooling would need aid and time away from the garage",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0902",
+      "field": "education",
+      "original": "open; a community college is plausible only with aid and a ride",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0903",
+      "field": "education",
+      "original": "associate planned if aid covers tuition; housing is the open question",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0904",
+      "field": "education",
+      "original": "bachelor is interesting only if aid covers most of it; otherwise a local program",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0905",
+      "field": "education",
+      "original": "undecided; community college is the feasible idea if hours allow",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0906",
+      "field": "education",
+      "original": "short training or a one-year certificate near home",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0907",
+      "field": "education",
+      "original": "open; too early to tell, and cost is already a worry",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0908",
+      "field": "education",
+      "original": "bachelor at a public university is feasible; private tuition is not",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0909",
+      "field": "education",
+      "original": "associate or a short technical course if transportation and computer access work",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0910",
+      "field": "education",
+      "original": "bachelor in state, feasible with aid and the summer job",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0911",
+      "field": "education",
+      "original": "undecided; family resources make several paths possible",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0912",
+      "field": "education",
+      "original": "open; film training and local work are both unsettled",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0913",
+      "field": "education",
+      "original": "undecided; far too early, and she has no picture of training yet",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0914",
+      "field": "education",
+      "original": "short training; county certificate while living at home",
+      "category": "short training",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0915",
+      "field": "education",
+      "original": "open between in-state bachelor's and a gap year; private college and heavy travel are unlikely",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0916",
+      "field": "education",
+      "original": "open; a later bachelor's is affordable, and he has not chosen a field",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0917",
+      "field": "education",
+      "original": "undecided; a bachelor's is financially possible and not yet her decision",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0918",
+      "field": "education",
+      "original": "open; a bachelor's or associate program only if aid appears, which is uncertain",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0919",
+      "field": "education",
+      "original": "associate in daytime classes if work hours allow; aid would still matter",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0920",
+      "field": "education",
+      "original": "undecided; local training is more realistic than a distant program",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0921",
+      "field": "education",
+      "original": "undecided; a later trade or community program would need local aid and transport",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0922",
+      "field": "education",
+      "original": "open between community college writing courses and a bachelor's if aid appears",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0923",
+      "field": "education",
+      "original": "associate in culinary or hospitality is the feasible aim; a bachelor's would need grants she has not seen yet",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0924",
+      "field": "education",
+      "original": "undecided; any campus plan depends on aid and whether academics rise",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0925",
+      "field": "education",
+      "original": "open; a later bachelor's is imaginable with aid, not assumed",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0926",
+      "field": "education",
+      "original": "associate first; a bachelor's only if transfer aid and housing work out",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0927",
+      "field": "education",
+      "original": "bachelor's in music or media is the hope; aid and family cost are unresolved",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0928",
+      "field": "education",
+      "original": "Undecided between staying local and a short training or associate program; aid and travel would decide feasibility.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0929",
+      "field": "education",
+      "original": "Open to a bachelor's program in state if aid covers it. Unsure a music course of study would fit.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0930",
+      "field": "education",
+      "original": "Bachelor's study is feasible with family support. Open to a gap season of field programs. Out-of-state cost is the open question.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0931",
+      "field": "education",
+      "original": "Undecided. A short certificate or associate program is the realistic aim and would require aid. A bachelor's degree is not ruled out.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0932",
+      "field": "education",
+      "original": "Undecided. Short training at a county diesel course is the option on the table. Cost and time away are unknown.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0933",
+      "field": "education",
+      "original": "Associate program underway. A later bachelor's degree depends on aid continuing. Open, and wary of more debt.",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0934",
+      "field": "education",
+      "original": "Undecided between associate and bachelor's study. Some family help exists. Aid may still matter. Sport level is a separate question.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0935",
+      "field": "education",
+      "original": "Bachelor's study is the intention and will need aid. Graduate school is only a distant hope. She is open about the field.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0936",
+      "field": "education",
+      "original": "Short training or a low-cost associate media certificate if night classes and aid line up. A bachelor's program is not the current plan.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0937",
+      "field": "education",
+      "original": "Undecided. Finishing high school is the near plan. Training after that is too early to judge.",
+      "category": "undecided",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0938",
+      "field": "education",
+      "original": "Bachelor's path is the aim and will need aid. Open to starting at the community college. Not committed to that start.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0939",
+      "field": "education",
+      "original": "Open and undecided. A short class is possible only if mood and the diner schedule allow. A bachelor's program is not a current plan.",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0940",
+      "field": "education",
+      "original": "Bachelor's design study is the hope and would need aid. Starting at community college is possible. Distance and fatigue are unsettled.",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0942",
+      "field": "education",
+      "original": "open, later training only if aid and hours allow",
+      "category": "open",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0943",
+      "field": "education",
+      "original": "associate, needs aid",
+      "category": "associate",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0949",
+      "field": "education",
+      "original": "bachelor, only with substantial aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0958",
+      "field": "education",
+      "original": "bachelor, needs aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    },
+    {
+      "id": "grok075-0959",
+      "field": "education",
+      "original": "bachelor, likely needs aid",
+      "category": "bachelor",
+      "reason": "Grok categorical schema repair before matching outcomes; no interest answers changed."
+    }
+  ],
+  "schemaRepairs": [
+    {
+      "batch": "batch-004.schema-0.json",
+      "id": "grok075-0085",
+      "field": "official",
+      "length": 61
+    },
+    {
+      "batch": "batch-004.schema-0.json",
+      "id": "grok075-0086",
+      "field": "official",
+      "length": 59
+    },
+    {
+      "batch": "batch-004.schema-0.json",
+      "id": "grok075-0100",
+      "field": "official",
+      "length": 61
+    },
+    {
+      "batch": "batch-005.schema-0.json",
+      "id": "grok075-0118",
+      "field": "positiveTopics/negativeTopics"
+    },
+    {
+      "batch": "batch-007.schema-0.json",
+      "id": "grok075-0159",
+      "field": "positiveTopics/negativeTopics"
+    },
+    {
+      "batch": "batch-026.schema-0.json",
+      "id": "grok075-0538",
+      "field": "positiveTopics/negativeTopics"
+    },
+    {
+      "batch": "batch-028.schema-0.json",
+      "id": "grok075-0562",
+      "field": "official",
+      "length": 61
+    },
+    {
+      "batch": "batch-028.schema-0.json",
+      "id": "grok075-0573",
+      "field": "official",
+      "length": 61
+    },
+    {
+      "batch": "batch-028.schema-0.json",
+      "id": "grok075-0580",
+      "field": "official",
+      "length": 61
+    },
+    {
+      "batch": "batch-035.schema-0.json",
+      "id": "grok075-0709",
+      "field": "roster",
+      "expected": {
+        "id": "grok075-0709",
+        "raceEthnicity": "Hispanic any race",
+        "age": 15
+      }
+    },
+    {
+      "batch": "batch-041.schema-0.json",
+      "id": "grok075-0821",
+      "field": "positiveTopics/negativeTopics"
+    },
+    {
+      "batch": "batch-041.schema-0.json",
+      "id": "grok075-0822",
+      "field": "positiveTopics/negativeTopics"
+    },
+    {
+      "batch": "batch-041.schema-0.json",
+      "id": "grok075-0825",
+      "field": "positiveTopics/negativeTopics"
+    },
+    {
+      "batch": "batch-041.schema-0.json",
+      "id": "grok075-0834",
+      "field": "positiveTopics/negativeTopics"
+    },
+    {
+      "batch": "batch-043.schema-0.json",
+      "id": "grok075-0872",
+      "field": "roster",
+      "expected": {
+        "id": "grok075-0872",
+        "raceEthnicity": "White non-Hispanic",
+        "age": 16
+      }
+    },
+    {
+      "batch": "batch-046.schema-0.json",
+      "error": "Expected 20 profiles"
+    },
+    {
+      "batch": "batch-046.schema-completion-0.json",
+      "id": "grok075-0927",
+      "field": "positiveTopics/negativeTopics"
+    },
+    {
+      "batch": "batch-048.schema-0.json",
+      "id": "grok075-0962",
+      "field": "official",
+      "length": 62
+    },
+    {
+      "batch": "batch-048.schema-0.json",
+      "id": "grok075-0972",
+      "field": "roster",
+      "expected": {
+        "id": "grok075-0972",
+        "raceEthnicity": "White non-Hispanic",
+        "age": 16
+      }
+    },
+    {
+      "batch": "batch-048.schema-0.json",
+      "id": "grok075-0974",
+      "field": "positiveTopics/negativeTopics"
+    }
+  ],
+  "coherenceClarifications": [
+    {
+      "id": "grok075-0430",
+      "questionId": "data-preparation",
+      "original": 4,
+      "value": 4,
+      "reason": "Her quantitative dislike is graphs and uncertain numerical evidence used to compare possibilities, plus mathematics and number puzzles. The follow-up is a specified calculation, attendance records, and checking tables so others can rely on them. That matches her stated precision and organization methods, rewritten temperature checklist, meal she has checked, and a checklist someone else could follow."
+    },
+    {
+      "id": "grok075-0697",
+      "questionId": "data-preparation",
+      "original": 4,
+      "value": 0,
+      "reason": "Quantitative methods are an explicit dislike, and nothing in the profile supports regularly preparing attendance records, running a specified calculation, or checking numerical tables. Her checking is tone, history-source provenance, and helping one person with the next step. The 4 is unsupported, so the follow-up is unknown rather than a new dislike."
+    }
+  ],
+  "semanticReview": "Deterministic sample reviewed separately before first outcomes. Automated checks catch structural contradictions/duplicates, not all plausible psychological relationships. No profile selected by career outcomes.",
+  "checkedAt": "2026-10-21T16:22:39.027Z"
+}

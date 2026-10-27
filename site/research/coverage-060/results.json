@@ -1,0 +1,208 @@
+{
+  "version": "0.60",
+  "currentRunId": "e37edc53f50f37e1d316ab467e9051c1480e95eaa9c3a9dcb95d68c7608933a0",
+  "models": 1000,
+  "cohorts": [
+    {
+      "cohort": "development",
+      "models": 758,
+      "initialTop": 581,
+      "initialDegree": 465,
+      "initialCovers": 149,
+      "beforeTop": 582,
+      "beforeDegree": 467,
+      "beforeAllDegree": 515,
+      "beforeCovers": 182,
+      "beforeDegreeCovers": 166,
+      "payOnlyCovers": 182,
+      "payOnlyDegreeCovers": 166,
+      "currentDegreeCovers": 164,
+      "strongDegreeCovers": 360,
+      "unionCovers": 384,
+      "unionDegreeCovers": 381,
+      "currentTop": 582,
+      "currentDegree": 467,
+      "currentCovers": 180,
+      "sustaining": 210,
+      "strong": 730,
+      "strongDegree": 722,
+      "strongCovers": 365,
+      "union": 742,
+      "unionDegree": 735,
+      "allDegree": 515,
+      "conflicts": 166
+    },
+    {
+      "cohort": "holdout",
+      "models": 30,
+      "initialTop": 26,
+      "initialDegree": 21,
+      "initialCovers": 10,
+      "beforeTop": 26,
+      "beforeDegree": 21,
+      "beforeAllDegree": 21,
+      "beforeCovers": 10,
+      "beforeDegreeCovers": 10,
+      "payOnlyCovers": 10,
+      "payOnlyDegreeCovers": 10,
+      "currentDegreeCovers": 10,
+      "strongDegreeCovers": 20,
+      "unionCovers": 24,
+      "unionDegreeCovers": 24,
+      "currentTop": 26,
+      "currentDegree": 21,
+      "currentCovers": 10,
+      "sustaining": 10,
+      "strong": 30,
+      "strongDegree": 30,
+      "strongCovers": 20,
+      "union": 30,
+      "unionDegree": 30,
+      "allDegree": 21,
+      "conflicts": 0
+    },
+    {
+      "cohort": "holdout049",
+      "models": 12,
+      "initialTop": 11,
+      "initialDegree": 11,
+      "initialCovers": 3,
+      "beforeTop": 11,
+      "beforeDegree": 11,
+      "beforeAllDegree": 11,
+      "beforeCovers": 3,
+      "beforeDegreeCovers": 3,
+      "payOnlyCovers": 3,
+      "payOnlyDegreeCovers": 3,
+      "currentDegreeCovers": 3,
+      "strongDegreeCovers": 6,
+      "unionCovers": 7,
+      "unionDegreeCovers": 7,
+      "currentTop": 11,
+      "currentDegree": 11,
+      "currentCovers": 3,
+      "sustaining": 3,
+      "strong": 8,
+      "strongDegree": 8,
+      "strongCovers": 6,
+      "union": 12,
+      "unionDegree": 12,
+      "allDegree": 11,
+      "conflicts": 2
+    },
+    {
+      "cohort": "holdout056",
+      "models": 200,
+      "initialTop": 151,
+      "initialDegree": 121,
+      "initialCovers": 30,
+      "beforeTop": 152,
+      "beforeDegree": 122,
+      "beforeAllDegree": 137,
+      "beforeCovers": 38,
+      "beforeDegreeCovers": 30,
+      "payOnlyCovers": 38,
+      "payOnlyDegreeCovers": 30,
+      "currentDegreeCovers": 30,
+      "strongDegreeCovers": 89,
+      "unionCovers": 97,
+      "unionDegreeCovers": 92,
+      "currentTop": 153,
+      "currentDegree": 124,
+      "currentCovers": 38,
+      "sustaining": 53,
+      "strong": 193,
+      "strongDegree": 189,
+      "strongCovers": 92,
+      "union": 195,
+      "unionDegree": 194,
+      "allDegree": 138,
+      "conflicts": 50
+    }
+  ],
+  "summary": {
+    "Supported Top": {
+      "before": 771,
+      "after": 772,
+      "gained": 1,
+      "lost": 0
+    },
+    "Bachelor/graduate Top": {
+      "before": 621,
+      "after": 623,
+      "gained": 2,
+      "lost": 0
+    },
+    "Any supported bachelor/graduate option": {
+      "before": 684,
+      "after": 685,
+      "gained": 1,
+      "lost": 0
+    },
+    "Top covers lifestyle": {
+      "before": 233,
+      "after": 231,
+      "gained": 0,
+      "lost": 2
+    },
+    "Bachelor/graduate Top covers lifestyle": {
+      "before": 209,
+      "after": 207,
+      "gained": 0,
+      "lost": 2
+    }
+  },
+  "reviewedGaps": 168,
+  "newNamedBindings": 141,
+  "unmappedNamedOccupations": 0,
+  "requiresUnmeasuredSpecialtyPreference": 68,
+  "aggregateCategoriesWithoutSpecificQuestions": 27,
+  "changedDevelopmentTopLists": 14,
+  "preservation": {
+    "originalProfiles": true,
+    "officialAnswers": true,
+    "scores": true,
+    "previousBindings": true,
+    "previousSupportedOptions": true,
+    "payAndBudgets": true,
+    "productionTopGates": true
+  },
+  "interpretation": "Small coverage gains; newly bound jobs mostly replace existing Top positions. No specialty preferences invented. This is simulated evidence, not independent student fit validation.",
+  "lifestyleLosses": [
+    {
+      "id": "scale056-0283",
+      "displacedCoveredOption": "Nurse Practitioners",
+      "retainedSpecificallySupportedInFullMatrix": true
+    },
+    {
+      "id": "scale056-0436",
+      "displacedCoveredOption": "Credit Counselors",
+      "retainedSpecificallySupportedInFullMatrix": true
+    }
+  ],
+  "verification": {
+    "fullBuild": "npm run build passed",
+    "targetedTests": {
+      "total": 65,
+      "passed": 65,
+      "failed": 0
+    },
+    "browserPreview": {
+      "version060Visible": true,
+      "changedDevelopmentFilterCount": 14,
+      "beforeCurrentModelDetails": true,
+      "degreeComparison": true,
+      "lifestyleTradeoffNote": true,
+      "specialty68AndAggregate27Displayed": true,
+      "consoleErrors": 0
+    },
+    "independentO_NETNumericalReproduction": 427713
+  },
+  "catalogAppearances": {
+    "before": 375,
+    "after": 388,
+    "gain": 13,
+    "noAppearancesBefore": 82,
+    "noAppearancesAfter": 69
+  }
+}

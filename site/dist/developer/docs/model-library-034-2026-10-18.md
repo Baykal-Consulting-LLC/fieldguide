@@ -1,0 +1,30 @@
+# Combined model library · 0.34.0
+
+The Developer model library combines 100 original life-first biographies, 24 additional gap biographies and six owner-only fictional variations. The 24 older parallel reinterpretations remain separately labeled: 154 review records are available to the owner. None of the frozen histories or answers changed.
+
+Open `developer/model-lab.html`. Use the cohort selector or search. Each case shows labeled RIASEC totals, initial profile-supported pathways, work-led alternatives, career task evidence, cautions, and separate career plan comparisons. Expanded view retains every question, answer, optional-answer status and inference rationale. Edit/rerun/reset affects a copy only.
+
+## Decision rules and presentation
+
+- The first career in a list is no longer treated as a decision in this library. An explicit comparison is required, including after rerunning answers.
+- Developer adapt mode retains an existing explicit choice or previews one supported career; it does not arbitrarily select among multiple supported careers.
+- A full-profile disagreement is visible alongside repeated task interest. It neither disappears nor becomes an automatic career ban.
+- Shared visual tasks do not establish animation over photography or editing. Makeup interest does not establish a hair-care choice. General biology work does not establish a forensic specialty.
+- Degree versus shorter-training tradeoffs appear prominently. Relevant low-cost trial tasks replace generic work outlines for the reviewed roles.
+- Near-budget shortfalls and large shortfalls have different plain descriptions. The underlying arithmetic and salaries have not been altered.
+
+## Education corrections
+
+Engineering headlines lead with the typical degree rather than making a later PE license sound like an entry requirement. [BLS distinguishes entry preparation from later licensing](https://www.bls.gov/ooh/architecture-and-engineering/mechanical-engineers.htm).
+
+The Austin 1,000-hour cosmetology example now includes $15,700 tuition, $3,200 kit, $50 application and $25 registration: $18,975 school costs. A nine-month planning period includes separately labeled ACC living allowances, a $200/month health reserve and $250 licensing/exam reserve, for a $44,673 reference scenario before aid. Reserves are assumptions, not quoted fees. The school describes roughly nine months for this shorter route. [Aveda Austin program and fee details](https://avedaarts.edu/campus/tx/austin/), [Texas operator requirements](https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-cosmetologist.htm).
+
+Salary comparisons do not fund education unless linked loan payments were entered. The 5/10/20-year amounts remain planning illustrations, not observed experience averages or guaranteed raises. Regular paid work is assumed; freelance earnings can differ. Paid residency/apprenticeship stages appear before qualified-job milestones when applicable.
+
+## Privacy and verification
+
+The six detailed histories and responses are excluded from public assets and the source repository. They are in the existing Firebase Spark project, readable only by the verified owner account under server-enforced rules. Anonymous, another account, and an unverified owner email cannot read/list them; browser writes are denied. No billing account was added. Existing student guide records remain unchanged.
+
+All 148 public records replay with identical six scores and career lists. All six private records preserve their original scores and career lists. These are fictional scenario checks, not evidence of real-student accuracy, fairness, clinical suitability, or validated aptitude measurement. Uncertain narrative-to-answer inferences and catalog limitations remain visible.
+
+Earlier holdout results and the locked candidate are retained as historical evidence. This is a new guidance/financial replay; it is not an independent new holdout validation.

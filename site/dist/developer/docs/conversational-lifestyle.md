@@ -1,0 +1,27 @@
+# Conversational lifestyle and color release · 0.9.0
+
+The six starting points converge on one personal plan. The full guided journey goes directly into the next unfinished reflection, then into career exploration. Interest answers advance immediately; back navigation and a keep-answer action support review. Reflection sections hand off directly without completion interstitials. Single preparation choices advance directly. Keeping a salary/lifestyle preview produces the plan once preparation is recorded.
+
+All 65 reviewed careers have two short working-day examples. Official task descriptions and sources remain under More about the work. Education details, source methods, and precise spending math sit behind disclosures. Visible copy uses dark text and conversational prompts. College is suggested as a useful addition to practical training without assuming a degree creates a salary premium.
+
+## Building a lifestyle
+
+Nine categories each offer five choices: home, transportation, groceries, dinners, travel, entertainment, recreation, clothing, and saving. Home includes rent/own options. Choices advance immediately, support back navigation, and save in the browser. Entertainment and recreation remain distinct choices and tally rows, while sharing the pre-existing recreation budget input. Weekly dinner counts use 52/12 weeks per month internally.
+
+No prices, subtotals, or salary impacts appear while choosing. The completed screen shows category amounts, then their sum, then the annual gross income range. Amounts are rounded to $10; the displayed total is the sum of those displayed amounts. Everyday essentials combines phone, household, health, debt, and care costs. Health is counted once. Tax and pretax retirement are handled in the gross-income calculation rather than added again to spending. Buying prominently includes an upfront savings target. Editing a category returns directly to the summary. A draft rent/own toggle cannot relabel the committed saved home.
+
+The choice amounts are editable planning baskets, not observed local price percentiles, quotations, or promises about consumption. The existing Austin housing anchors, financing, employee tax, health, and retirement assumptions remain available in the detailed budget. A $1.5m home or premium car is an illustrative purchase scenario, not a claim about typical local spending.
+
+The income band solves the employee tax model for (a) spending plus cash saving and (b) the same picture with 20% of take-home unallocated. It rounds upward using the existing salary increments. This is a budget target band, not a statistical interval or an upper income limit. Main lifestyle reports use qualitative descriptions; exact expense calculations remain available under More info. Existing entered debt, care, health, retirement, and pay assumptions survive picture edits.
+
+Career cards compare the selected spending picture against all four pay stages after modeled deductions. Text describes early fit, close fit, later fit, or tradeoffs. These are budget classifications, not empirical probabilities of obtaining a job or lifestyle. Experience pay remains estimated except explicitly sourced employer schedules. Interest/ability evidence and career accessibility never change with lifestyle or income selections.
+
+## Color and readability
+
+Blue, violet, teal, coral, and gold identify interests, selections, salary stages, chart themes, and lifestyle outlooks. Salary panels and selected cards use strong fills; results charts use distinct saturated colors. Every color retains a text label. New desktop and phone screens retain a 16px minimum; primary prompts are larger. Print styles restore dark text on white.
+
+## Verification
+
+138 unit tests pass. New coverage includes all nine category structures, weekly/monthly dinner conversion, all 1,024 rent/own min/max category combinations, displayed tally conservation, income range coverage and buffer, preserved personal assumptions, all 65 career outlooks, and incomplete/migrated drafts. The calibration runner reports 2,121,161 assertions with zero failures; these are regression and arithmetic checks, not psychometric or salary-growth validation.
+
+Browser walkthroughs completed all six starting points to My Plan, including the full five-section journey, multiple interests, skipped single-option screens, salary preview/adoption, training preparation, and college preparation. Lifestyle choices conceal dollar amounts; summary, one-choice edits, ownership upfront savings, and refresh persistence were checked. Phone review found no horizontal overflow or visible text below 16px on new lifestyle and personal-plan screens. Existing source-linked detailed calculations remain accessible.

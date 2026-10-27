@@ -1,0 +1,4922 @@
+{
+  "experiment": "evidence-069-v1",
+  "baselineRunId": "835f3e9eeb139692035e7672805c414bf104f557fb5983856e6928d9b0fc7a87",
+  "previousExperiment": "evidence-068-v1",
+  "freezeSHA256": "54775112a4e638a8fa4e969024ea36355898f500ad2473dd91bf85dba3a38014",
+  "rules": [
+    {
+      "careerId": "mechanical-engineering",
+      "questionId": "mechanical-engineering-interest-044-1",
+      "all": [
+        "t:mechanics",
+        "m:design",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The first question asks about designing; it does not also ask for a separate general testing preference. Safety remains required.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "mechanical-engineering",
+      "questionId": "mechanical-engineering-interest-044-2",
+      "all": [
+        "f:mechanism-test",
+        "m:design",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [
+        "m:testing"
+      ],
+      "reason": "The frozen activity explicitly compares a mechanism/circuit and tests a change. Safety and design remain separate requirements.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "electrical-engineering",
+      "questionId": "electrical-engineering-interest-044-1",
+      "all": [
+        "t:electronics",
+        "m:design",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The first question asks about designing; it does not also ask for a separate general testing preference. Safety remains required.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "electrical-engineering",
+      "questionId": "electrical-engineering-interest-044-2",
+      "all": [
+        "f:circuit-test",
+        "m:design",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [
+        "m:testing"
+      ],
+      "reason": "The frozen activity explicitly compares a mechanism/circuit and tests a change. Safety and design remain separate requirements.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "architecture",
+      "questionId": "architecture-interest-044-1",
+      "all": [
+        "f:layout-comparison",
+        "m:design",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The question asks for drawings, models and user needs, not a preference for physical assembly. The layout fact is concrete; safety remains required.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "architecture",
+      "questionId": "architecture-interest-044-2",
+      "all": [
+        "f:layout-comparison",
+        "m:design",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The question asks for drawings, models and user needs, not a preference for physical assembly. The layout fact is concrete; safety remains required.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-17201100",
+      "questionId": "degree-17201100-047-method",
+      "all": [
+        "t:space",
+        "f:mechanism-test",
+        "m:design",
+        "m:quantitative"
+      ],
+      "any": [],
+      "block": [
+        "m:testing"
+      ],
+      "reason": "The named contextual fact already states a controlled comparison or test. Other subject, design, numerical and safety requirements are retained where asked.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-17202100",
+      "questionId": "degree-17202100-047-method",
+      "all": [
+        "t:plants",
+        "f:mechanism-test",
+        "m:design",
+        "m:quantitative"
+      ],
+      "any": [],
+      "block": [
+        "m:testing"
+      ],
+      "reason": "The named contextual fact already states a controlled comparison or test. Other subject, design, numerical and safety requirements are retained where asked.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-17204100",
+      "questionId": "degree-17204100-047-method",
+      "all": [
+        "f:materials-controls",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "m:testing"
+      ],
+      "reason": "The named contextual fact already states a controlled comparison or test. Other subject, design, numerical and safety requirements are retained where asked.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-17213100",
+      "questionId": "degree-17213100-047-method",
+      "all": [
+        "f:materials-controls",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "m:testing"
+      ],
+      "reason": "The named contextual fact already states a controlled comparison or test. Other subject, design, numerical and safety requirements are retained where asked.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-17207200",
+      "questionId": "degree-17207200-047-method",
+      "all": [
+        "f:circuit-test",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "m:testing"
+      ],
+      "reason": "The named contextual fact already states a controlled comparison or test. Other subject, design, numerical and safety requirements are retained where asked.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-17205102",
+      "questionId": "degree-17205102-047-method",
+      "all": [
+        "t:infrastructure",
+        "t:ecology",
+        "f:materials-controls",
+        "m:design",
+        "m:quantitative"
+      ],
+      "any": [],
+      "block": [
+        "m:testing"
+      ],
+      "reason": "The named contextual fact already states a controlled comparison or test. Other subject, design, numerical and safety requirements are retained where asked.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-17205101",
+      "questionId": "degree-17205101-047-method",
+      "all": [
+        "t:infrastructure",
+        "t:logistics",
+        "m:design",
+        "m:quantitative"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "This question asks for traffic-pattern analysis and design calculations, not an additional experimental-testing preference.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-17208100",
+      "questionId": "degree-17208100-047-method",
+      "all": [
+        "t:ecology",
+        "t:infrastructure",
+        "m:design",
+        "m:quantitative"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Environmental measurements and comparison of design options can be supported by explicit quantitative and design interests. Engineering safety remains independently required.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-17101200",
+      "questionId": "degree-17101200-047-method",
+      "all": [
+        "f:layout-comparison",
+        "t:plants",
+        "m:fieldwork"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The layout fact already compares alternative spatial designs. Outdoor observation remains an explicit separate preference.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-27102500",
+      "questionId": "degree-27102500-047-method",
+      "all": [
+        "f:layout-comparison",
+        "t:visual",
+        "m:design",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The method question concerns layout and access rather than personal artistic expression. Require explicit safety evidence before a new interior-design qualification.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15125100",
+      "questionId": "degree-15125100-047-method",
+      "all": [
+        "f:code-test",
+        "m:precision"
+      ],
+      "any": [],
+      "block": [
+        "m:computing",
+        "m:testing"
+      ],
+      "reason": "Writing a program, checking unexpected behavior and testing changes are explicitly stated. Precision remains independent; a separate generic computing/testing preference duplicates the context.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15125100",
+      "questionId": "degree-15125100-047-responsibility",
+      "all": [
+        "f:code-test",
+        "m:precision"
+      ],
+      "any": [],
+      "block": [
+        "m:computing",
+        "m:testing"
+      ],
+      "reason": "Writing a program, checking unexpected behavior and testing changes are explicitly stated. Precision remains independent; a separate generic computing/testing preference duplicates the context.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15125300",
+      "questionId": "degree-15125300-047-method",
+      "all": [
+        "f:code-test",
+        "m:precision"
+      ],
+      "any": [
+        [
+          "m:testing",
+          "m:design"
+        ]
+      ],
+      "block": [
+        "m:computing",
+        "m:testing"
+      ],
+      "reason": "A stated debugging context plus deliberate test/design interest supports systematic software checks. Accuracy and defect-reporting evidence remain separate.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15124200",
+      "questionId": "degree-15124200-047-method",
+      "all": [
+        "f:code-test",
+        "t:information",
+        "m:investigation"
+      ],
+      "any": [],
+      "block": [
+        "m:computing",
+        "m:testing"
+      ],
+      "reason": "The explicit program-test context supplies computational testing; reliable information and investigation remain required.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15124200",
+      "questionId": "degree-15124200-047-responsibility",
+      "all": [
+        "f:code-test",
+        "t:information",
+        "m:organization",
+        "m:precision",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Permissions, backups and protected records need explicit safety/accountability, organization and accuracy; a generic research method is not the responsibility.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15124300",
+      "questionId": "degree-15124300-047-method",
+      "all": [
+        "f:code-test",
+        "t:information",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "m:computing",
+        "m:testing"
+      ],
+      "reason": "Designing data structures uses explicit computational testing and design; a duplicate generic testing tag is not essential.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15129902",
+      "questionId": "degree-15129902-047-method",
+      "all": [
+        "t:earth",
+        "f:code-test",
+        "m:quantitative",
+        "m:precision"
+      ],
+      "any": [],
+      "block": [
+        "m:computing"
+      ],
+      "reason": "Spatial subject interest, actual digital testing, quantitative evidence and precision are all present; a second generic computing tag adds no distinct context.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15209901",
+      "questionId": "degree-15209901-047-method",
+      "all": [
+        "t:biology",
+        "f:code-test",
+        "m:quantitative",
+        "m:organization"
+      ],
+      "any": [],
+      "block": [
+        "m:computing"
+      ],
+      "reason": "Biological records, computational comparisons, numerical evidence and organized steps remain required.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15129903",
+      "questionId": "degree-15129903-047-method",
+      "all": [
+        "t:computing",
+        "f:checked-records",
+        "m:organization"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The information fact already states organizing reference materials and checking their accuracy. The question asks about categories and retrieval processes, not designing a scientific investigation.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15205101",
+      "questionId": "degree-15205101-047-method",
+      "all": [
+        "f:survey-design",
+        "t:enterprise",
+        "m:quantitative"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The explicit survey/data fact already contains focused questions, comparison and bias checks. Organizational context and numerical interest remain required.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-13104107",
+      "questionId": "degree-13104107-047-method",
+      "all": [
+        "t:law",
+        "f:checked-records",
+        "m:precision",
+        "m:organization"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Checking technical records against rules is supported by explicit legal-source, record-accuracy and organization interests; a general investigation tag is redundant.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-13108102",
+      "questionId": "degree-13108102-047-method",
+      "all": [
+        "f:delay-records",
+        "m:quantitative",
+        "m:organization"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The logistics fact explicitly compares routes and checks changes after a delay; numerical and organizational interests remain separate.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-13203100",
+      "questionId": "degree-13203100-047-method",
+      "all": [
+        "f:financial-reconciliation",
+        "m:precision",
+        "m:organization"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Reconciling spending and distinguishing estimates from actuals directly supports this budget-comparison question. It does not establish investment interest.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-13102300",
+      "questionId": "degree-13102300-047-method",
+      "all": [
+        "f:supplier-comparison",
+        "m:precision"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The frozen supplier-offer fact explicitly compares hidden costs and agreed requirements. Precision remains required; a generic organization preference is not the comparison being asked.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15203100",
+      "questionId": "degree-15203100-047-method",
+      "all": [
+        "t:mathematics",
+        "t:enterprise",
+        "m:quantitative",
+        "m:design"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Constructing and comparing decision models calls for numerical/design preferences, not a general office-organization preference.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-15203100",
+      "questionId": "degree-15203100-047-responsibility",
+      "all": [
+        "t:mathematics",
+        "t:enterprise",
+        "m:quantitative",
+        "m:precision",
+        "m:explaining"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The question asks to explain recommendations, assumptions and limits. Explicit numerical, accuracy and explanation interests can support that narrower responsibility.",
+      "category": "Communication versus research"
+    },
+    {
+      "careerId": "degree-15204101",
+      "questionId": "degree-15204101-047-domain",
+      "all": [
+        "t:statistics"
+      ],
+      "any": [
+        [
+          "t:health",
+          "t:biology"
+        ]
+      ],
+      "block": [],
+      "reason": "The question explicitly allows health OR biological study. Preserve statistics and the independently required analytical/documentation interests; do not require both application subjects.",
+      "category": "Conjunction versus alternatives"
+    },
+    {
+      "careerId": "degree-15204101",
+      "questionId": "degree-15204101-047-method",
+      "all": [
+        "t:statistics",
+        "m:quantitative",
+        "m:testing"
+      ],
+      "any": [
+        [
+          "t:health",
+          "t:biology"
+        ]
+      ],
+      "block": [],
+      "reason": "The question explicitly allows health OR biological study. Preserve statistics and the independently required analytical/documentation interests; do not require both application subjects.",
+      "category": "Conjunction versus alternatives"
+    },
+    {
+      "careerId": "degree-15204101",
+      "questionId": "degree-15204101-047-responsibility",
+      "all": [
+        "t:statistics",
+        "m:organization",
+        "m:precision",
+        "m:explaining"
+      ],
+      "any": [
+        [
+          "t:health",
+          "t:biology"
+        ]
+      ],
+      "block": [],
+      "reason": "The question explicitly allows health OR biological study. Preserve statistics and the independently required analytical/documentation interests; do not require both application subjects.",
+      "category": "Conjunction versus alternatives"
+    },
+    {
+      "careerId": "degree-19101300",
+      "questionId": "degree-19101300-047-method",
+      "all": [
+        "f:growth-comparison",
+        "m:precision"
+      ],
+      "any": [
+        [
+          "m:testing",
+          "m:fieldwork"
+        ]
+      ],
+      "block": [],
+      "reason": "The question allows observations OR experiments. A stated growth comparison plus fieldwork or controlled-testing interest supports that alternative.",
+      "category": "Conjunction versus alternatives"
+    },
+    {
+      "careerId": "degree-19101300",
+      "questionId": "degree-19101300-047-responsibility",
+      "all": [
+        "f:growth-comparison",
+        "m:precision",
+        "m:explaining",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Evidence-based recommendations about growing conditions can use explicit careful explanation and accountability; general research-program leadership is not asked.",
+      "category": "Communication versus research"
+    },
+    {
+      "careerId": "degree-19102100",
+      "questionId": "degree-19102100-047-method",
+      "all": [
+        "t:biology",
+        "f:materials-controls",
+        "m:testing"
+      ],
+      "any": [],
+      "block": [
+        "m:investigation"
+      ],
+      "reason": "The chemistry fact explicitly records controlled school experiments; combined biological interest and testing remain necessary.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-19102100",
+      "questionId": "degree-19102100-047-responsibility",
+      "all": [
+        "t:biology",
+        "f:materials-controls",
+        "m:precision",
+        "m:explaining",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The question asks for checkable findings and limits. Require contextual controlled experiments, accuracy, explanation and accountable work.",
+      "category": "Communication versus research"
+    },
+    {
+      "careerId": "degree-19102902",
+      "questionId": "degree-19102902-047-method",
+      "all": [
+        "t:biology",
+        "f:materials-controls",
+        "m:testing"
+      ],
+      "any": [],
+      "block": [
+        "m:investigation"
+      ],
+      "reason": "Controlled comparisons are already present in the concrete chemistry fact. Biology and deliberate testing remain required.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-19102904",
+      "questionId": "degree-19102904-047-responsibility",
+      "all": [
+        "t:biology",
+        "t:ecology",
+        "m:fieldwork",
+        "m:precision",
+        "m:explaining"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The responsibility is communicating findings and limits about living systems. Keep field evidence, accuracy and explanation; do not substitute an unstated research-leadership preference.",
+      "category": "Communication versus research"
+    },
+    {
+      "careerId": "degree-19201200",
+      "questionId": "degree-19201200-047-responsibility",
+      "all": [
+        "t:space",
+        "m:testing",
+        "m:precision",
+        "m:explaining"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Reporting assumptions and repeatable work can be evidenced by explicit test, accuracy and explanation preferences in the physical-science context.",
+      "category": "Communication versus research"
+    },
+    {
+      "careerId": "degree-19202100",
+      "questionId": "degree-19202100-047-method",
+      "all": [
+        "f:weather-observations",
+        "m:quantitative"
+      ],
+      "any": [],
+      "block": [
+        "m:investigation"
+      ],
+      "reason": "The weather fact already compares observations, maps and explanations. Explicit numerical interest supplies forecast/model comparison.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-19202100",
+      "questionId": "degree-19202100-047-responsibility",
+      "all": [
+        "f:weather-observations",
+        "m:precision",
+        "m:explaining",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Forecast communication and uncertainty are distinct from leading research. Require careful explanation and explicit accountability for consequential work.",
+      "category": "Communication versus research"
+    },
+    {
+      "careerId": "degree-19203200",
+      "questionId": "degree-19203200-047-method",
+      "all": [
+        "f:materials-controls",
+        "m:testing"
+      ],
+      "any": [],
+      "block": [
+        "m:investigation"
+      ],
+      "reason": "Controlled comparisons of materials are explicit in the topic fact; a second generic investigation tag is redundant.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-19203200",
+      "questionId": "degree-19203200-047-responsibility",
+      "all": [
+        "f:materials-controls",
+        "m:precision",
+        "m:explaining",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Communicating material findings and limits needs explicit careful explanation and accountable work, not an assumed research-leadership preference.",
+      "category": "Communication versus research"
+    },
+    {
+      "careerId": "degree-19204300",
+      "questionId": "degree-19204300-047-method",
+      "all": [
+        "f:maps-water",
+        "m:quantitative"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The question combines water measurements, maps and models; outdoor field collection is one route, not a necessary extra preference.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-19204300",
+      "questionId": "degree-19204300-047-responsibility",
+      "all": [
+        "f:maps-water",
+        "m:quantitative",
+        "m:precision",
+        "m:explaining"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Keep water-specific evidence, numerical uncertainty, accuracy and explanation before supporting dependable findings for decisions.",
+      "category": "Communication versus research"
+    },
+    {
+      "careerId": "degree-19302200",
+      "questionId": "degree-19302200-047-method",
+      "all": [
+        "f:survey-design",
+        "m:design",
+        "m:precision"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The concrete survey fact includes sample bias. Deliberate design and precision support comparing wording and sampling, rather than assuming an independent research program.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-19302200",
+      "questionId": "degree-19302200-047-responsibility",
+      "all": [
+        "f:statistical-limits",
+        "m:precision",
+        "m:explaining"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Explicit concern with biased samples/uncertain findings plus careful explanation supports reporting survey limitations.",
+      "category": "Communication versus research"
+    },
+    {
+      "careerId": "graphic-design",
+      "questionId": "graphic-design-interest-044-1",
+      "all": [
+        "f:visual-composition",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "m:expression"
+      ],
+      "reason": "The concrete visual fact already includes original composition and choosing how materials express an idea. Design remains an independent preference.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "graphic-design",
+      "questionId": "graphic-design-interest-044-2",
+      "all": [
+        "f:visual-composition",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "m:expression"
+      ],
+      "reason": "The concrete visual fact already includes original composition and choosing how materials express an idea. Design remains an independent preference.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "animation",
+      "questionId": "animation-interest-044-1",
+      "all": [
+        "f:shots-edit",
+        "t:visual",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "m:expression"
+      ],
+      "reason": "The media fact explicitly includes edit/animation timing. Original visual interest and deliberate design remain necessary.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "animation",
+      "questionId": "animation-interest-044-2",
+      "all": [
+        "f:shots-edit",
+        "t:visual",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "m:expression"
+      ],
+      "reason": "The media fact explicitly includes edit/animation timing. Original visual interest and deliberate design remain necessary.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-27403100",
+      "questionId": "degree-27403100-047-method",
+      "all": [
+        "f:shots-edit",
+        "m:design",
+        "m:precision"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Stated camera-angle/sequence choices plus deliberate design and precision can support comparing shots without requiring a separate expressive-art label.",
+      "category": "Context-specific method"
+    },
+    {
+      "careerId": "degree-13115100",
+      "questionId": "degree-13115100-047-method",
+      "all": [
+        "f:learning-guide",
+        "t:adults",
+        "m:explaining",
+        "r:assessment"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "The learning-guide fact explicitly revises examples and their sequence. Adult learning and assessment remain mandatory; generic design is not an extra prerequisite.",
+      "category": "Teaching method versus research"
+    },
+    {
+      "careerId": "degree-25102100",
+      "questionId": "degree-25102100-047-method",
+      "all": [
+        "f:code-test",
+        "t:adults",
+        "f:learning-guide",
+        "m:explaining",
+        "r:assessment"
+      ],
+      "any": [],
+      "block": [
+        "m:computing"
+      ],
+      "reason": "Use explicit coding context and revision of teaching examples, while retaining adult learners and course assessment.",
+      "category": "Teaching method versus research"
+    },
+    {
+      "careerId": "degree-25102200",
+      "questionId": "degree-25102200-047-method",
+      "all": [
+        "t:mathematics",
+        "t:adults",
+        "f:learning-guide",
+        "m:explaining",
+        "r:assessment"
+      ],
+      "any": [],
+      "block": [
+        "m:formalproof"
+      ],
+      "reason": "The mathematical topic fact explicitly checks counterexamples and why a rule works. Adult-course assessment and explanation remain required.",
+      "category": "Teaching method versus research"
+    },
+    {
+      "careerId": "degree-25104200",
+      "questionId": "degree-25104200-047-method",
+      "all": [
+        "t:biology",
+        "t:adults",
+        "f:learning-guide",
+        "m:explaining",
+        "r:assessment",
+        "m:design"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Planning subject-specific explanations and learning activities is distinct from a generic investigation preference. Preserve adult learners, subject and course assessment.",
+      "category": "Teaching method versus research"
+    },
+    {
+      "careerId": "degree-25104300",
+      "questionId": "degree-25104300-047-method",
+      "all": [
+        "t:ecology",
+        "t:adults",
+        "f:learning-guide",
+        "m:explaining",
+        "r:assessment",
+        "m:design"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Planning subject-specific explanations and learning activities is distinct from a generic investigation preference. Preserve adult learners, subject and course assessment.",
+      "category": "Teaching method versus research"
+    },
+    {
+      "careerId": "degree-25112500",
+      "questionId": "degree-25112500-047-method",
+      "all": [
+        "t:history",
+        "t:adults",
+        "f:learning-guide",
+        "m:explaining",
+        "r:assessment",
+        "f:historical-records"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Planning subject-specific explanations and learning activities is distinct from a generic investigation preference. Preserve adult learners, subject and course assessment.",
+      "category": "Teaching method versus research"
+    },
+    {
+      "careerId": "degree-25105200",
+      "questionId": "degree-25105200-047-method",
+      "all": [
+        "f:materials-controls",
+        "t:adults",
+        "f:learning-guide",
+        "m:explaining",
+        "r:assessment",
+        "r:safety"
+      ],
+      "any": [],
+      "block": [
+        "m:testing"
+      ],
+      "reason": "The chemistry fact supplies controlled comparisons; retain adult learners, assessment and explicit laboratory safety before a new teaching connection.",
+      "category": "Teaching method versus research"
+    }
+  ],
+  "summary": {
+    "all": {
+      "models": 1000,
+      "beforeTop": 789,
+      "beforeDegree": 653,
+      "beforeBachelor": 607,
+      "beforeGraduate": 120,
+      "beforeCovers": 236,
+      "priorTop": 795,
+      "priorDegree": 660,
+      "priorBachelor": 607,
+      "priorGraduate": 139,
+      "priorCovers": 239,
+      "afterTop": 812,
+      "afterDegree": 683,
+      "afterBachelor": 637,
+      "afterGraduate": 152,
+      "afterCovers": 250,
+      "gainedTop": 17,
+      "lostTop": 0,
+      "gainedDegree": 23,
+      "lostDegree": 0,
+      "gainedCovers": 13,
+      "lostCovers": 2,
+      "changed": 95,
+      "newClaims": 256,
+      "newQuestions": 586,
+      "retainedConflicts": 67
+    },
+    "development": {
+      "models": 758,
+      "beforeTop": 594,
+      "beforeDegree": 490,
+      "beforeBachelor": 457,
+      "beforeGraduate": 81,
+      "beforeCovers": 183,
+      "priorTop": 599,
+      "priorDegree": 495,
+      "priorBachelor": 457,
+      "priorGraduate": 96,
+      "priorCovers": 185,
+      "afterTop": 611,
+      "afterDegree": 512,
+      "afterBachelor": 481,
+      "afterGraduate": 107,
+      "afterCovers": 192,
+      "gainedTop": 12,
+      "lostTop": 0,
+      "gainedDegree": 17,
+      "lostDegree": 0,
+      "gainedCovers": 9,
+      "lostCovers": 2,
+      "changed": 73,
+      "newClaims": 197,
+      "newQuestions": 450,
+      "retainedConflicts": 50
+    },
+    "holdout": {
+      "models": 30,
+      "beforeTop": 26,
+      "beforeDegree": 21,
+      "beforeBachelor": 21,
+      "beforeGraduate": 4,
+      "beforeCovers": 10,
+      "priorTop": 26,
+      "priorDegree": 21,
+      "priorBachelor": 21,
+      "priorGraduate": 4,
+      "priorCovers": 10,
+      "afterTop": 26,
+      "afterDegree": 21,
+      "afterBachelor": 21,
+      "afterGraduate": 4,
+      "afterCovers": 10,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "gainedCovers": 0,
+      "lostCovers": 0,
+      "changed": 0,
+      "newClaims": 0,
+      "newQuestions": 0,
+      "retainedConflicts": 0
+    },
+    "holdout049": {
+      "models": 12,
+      "beforeTop": 11,
+      "beforeDegree": 11,
+      "beforeBachelor": 9,
+      "beforeGraduate": 4,
+      "beforeCovers": 3,
+      "priorTop": 11,
+      "priorDegree": 11,
+      "priorBachelor": 9,
+      "priorGraduate": 4,
+      "priorCovers": 3,
+      "afterTop": 11,
+      "afterDegree": 11,
+      "afterBachelor": 9,
+      "afterGraduate": 4,
+      "afterCovers": 3,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "gainedCovers": 0,
+      "lostCovers": 0,
+      "changed": 0,
+      "newClaims": 0,
+      "newQuestions": 0,
+      "retainedConflicts": 0
+    },
+    "holdout056": {
+      "models": 200,
+      "beforeTop": 158,
+      "beforeDegree": 131,
+      "beforeBachelor": 120,
+      "beforeGraduate": 31,
+      "beforeCovers": 40,
+      "priorTop": 159,
+      "priorDegree": 133,
+      "priorBachelor": 120,
+      "priorGraduate": 35,
+      "priorCovers": 41,
+      "afterTop": 164,
+      "afterDegree": 139,
+      "afterBachelor": 126,
+      "afterGraduate": 37,
+      "afterCovers": 45,
+      "gainedTop": 5,
+      "lostTop": 0,
+      "gainedDegree": 6,
+      "lostDegree": 0,
+      "gainedCovers": 4,
+      "lostCovers": 0,
+      "changed": 22,
+      "newClaims": 59,
+      "newQuestions": 136,
+      "retainedConflicts": 17
+    }
+  },
+  "inventoryReview": [
+    {
+      "id": "industrial-design",
+      "title": "Industrial designers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-1021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "software",
+      "title": "Software developers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1252.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "social-research",
+      "title": "Social science research assistants",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-4061.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "environmental-science",
+      "title": "Environmental scientists & specialists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-2041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "market-research",
+      "title": "Market research analysts",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1161.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "writing",
+      "title": "Writers & authors",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-3043.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "mechanical-engineering",
+      "title": "Mechanical engineers",
+      "checks": 2,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-2141.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "teaching",
+      "title": "Middle school teachers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-2022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "nursing",
+      "title": "Registered Nurses",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1141.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "physician-assistant",
+      "title": "Physician Assistants",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1071.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "physical-therapy",
+      "title": "Physical Therapists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1123.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "occupational-therapy",
+      "title": "Occupational Therapists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1122.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "pharmacy",
+      "title": "Pharmacists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1051.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "speech-language",
+      "title": "Speech-Language Pathologists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1127.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "nutrition",
+      "title": "Dietitians and Nutritionists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "social-work",
+      "title": "Child, Family, and School Social Workers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/21-1021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "school-psychology",
+      "title": "School Psychologists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3034.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "data-science",
+      "title": "Data Scientists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-2051.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "statistics",
+      "title": "Statisticians",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-2041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "information-security",
+      "title": "Information Security Analysts",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1212.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "systems-analysis",
+      "title": "Computer Systems Analysts",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1211.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "accounting",
+      "title": "Accountants and Auditors",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "financial-analysis",
+      "title": "Financial and Investment Analysts",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2051.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "human-resources",
+      "title": "Human Resources Specialists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1071.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "logistics",
+      "title": "Logisticians",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1081.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "project-management",
+      "title": "Project Management Specialists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1082.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "economics",
+      "title": "Economists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "law",
+      "title": "Lawyers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/23-1011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "urban-planning",
+      "title": "Urban and Regional Planners",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3051.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "civil-engineering",
+      "title": "Civil Engineers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2051.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "electrical-engineering",
+      "title": "Electrical Engineers",
+      "checks": 2,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-2071.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "biomedical-engineering",
+      "title": "Bioengineers and Biomedical Engineers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-2031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "biological-technician",
+      "title": "Biological Technicians",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-4021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "conservation",
+      "title": "Conservation Scientists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "food-science",
+      "title": "Food Scientists and Technologists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1012.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "veterinary",
+      "title": "Veterinarians",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1131.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "architecture",
+      "title": "Architects",
+      "checks": 2,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-1011.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "construction-management",
+      "title": "Construction Managers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "graphic-design",
+      "title": "Graphic Designers",
+      "checks": 2,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/27-1024.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "animation",
+      "title": "Special Effects Artists and Animators",
+      "checks": 2,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/27-1014.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "film-editing",
+      "title": "Film and Video Editors",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-4032.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "public-relations",
+      "title": "Public Relations Specialists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-3031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "librarian",
+      "title": "Librarians & media specialists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-4022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "interpreting",
+      "title": "Interpreters and Translators",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-3091.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "exercise-physiology",
+      "title": "Exercise Physiologists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1128.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "epidemiology",
+      "title": "Epidemiologists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "geoscience",
+      "title": "Geoscientists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-2042.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "industrial-engineering",
+      "title": "Industrial Engineers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2112.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "clinical-psychologist",
+      "title": "Clinical & Counseling Psychologists",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3033.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "physician",
+      "title": "Physician · family medicine",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1215.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "dentist",
+      "title": "Dentist · general dentistry",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "nurse-practitioner",
+      "title": "Nurse Practitioners",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1171.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "mental-health-counselor",
+      "title": "Mental Health Counselors",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/21-1014.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "school-counselor",
+      "title": "Educational, Guidance, & Career Counselors & Advisors",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/21-1012.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "elementary-teacher",
+      "title": "Elementary School Teachers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-2021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "high-school-teacher",
+      "title": "Secondary School Teachers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-2031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "web-interface-design",
+      "title": "Web & Digital Interface Designers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1255.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "web-developer",
+      "title": "Web Developers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1254.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "marketing-manager",
+      "title": "Marketing Managers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-2021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "personal-financial-advisor",
+      "title": "Personal Financial Advisors",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2052.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "management-analyst",
+      "title": "Management Analysts",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1111.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "general-operations-manager",
+      "title": "General & Operations Managers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-1021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "medical-services-manager",
+      "title": "Medical & Health Services Managers",
+      "checks": 2,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9111.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11101100",
+      "title": "Chief Executives",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-1011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11101103",
+      "title": "Chief Sustainability Officers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-1011.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11201100",
+      "title": "Advertising and Promotions Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-2011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11202200",
+      "title": "Sales Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-2022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11203200",
+      "title": "Public Relations Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-2032.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11203300",
+      "title": "Fundraising Managers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/11-2033.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11301200",
+      "title": "Administrative Services Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3012.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11301300",
+      "title": "Facilities Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3013.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11301301",
+      "title": "Security Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3013.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11302100",
+      "title": "Computer and Information Systems Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11303100",
+      "title": "Financial Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11303101",
+      "title": "Treasurers and Controllers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3031.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11303103",
+      "title": "Investment Fund Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3031.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11305100",
+      "title": "Industrial Production Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3051.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11305101",
+      "title": "Quality Control Systems Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3051.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11305102",
+      "title": "Geothermal Production Managers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/11-3051.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11305103",
+      "title": "Biofuels Production Managers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/11-3051.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11305104",
+      "title": "Biomass Power Plant Managers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/11-3051.04",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11305106",
+      "title": "Hydroelectric Production Managers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/11-3051.06",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11306100",
+      "title": "Purchasing Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3061.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11311100",
+      "title": "Compensation and Benefits Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3111.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11312100",
+      "title": "Human Resources Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3121.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11313100",
+      "title": "Training and Development Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-3131.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11903100",
+      "title": "Education and Childcare Administrators, Preschool and Daycare",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11903200",
+      "title": "Education Administrators, Kindergarten through Secondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9032.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11903300",
+      "title": "Education Administrators, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9033.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11903900",
+      "title": "Education Administrators, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11904100",
+      "title": "Architectural and Engineering Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11904101",
+      "title": "Biofuels/Biodiesel Technology and Product Development Managers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/11-9041.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11907200",
+      "title": "Entertainment and Recreation Managers, Except Gambling",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9072.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11912100",
+      "title": "Natural Sciences Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9121.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11912101",
+      "title": "Clinical Research Coordinators",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9121.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11912102",
+      "title": "Water Resource Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9121.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11915100",
+      "title": "Social and Community Service Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9151.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11916100",
+      "title": "Emergency Management Directors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9161.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11919900",
+      "title": "Managers, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11919901",
+      "title": "Regulatory Affairs Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9199.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11919902",
+      "title": "Compliance Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9199.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11919908",
+      "title": "Loss Prevention Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9199.08",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11919909",
+      "title": "Wind Energy Operations Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9199.09",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11919910",
+      "title": "Wind Energy Development Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9199.10",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-11919911",
+      "title": "Brownfield Redevelopment Specialists and Site Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/11-9199.11",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13101100",
+      "title": "Agents and Business Managers of Artists, Performers, and Athletes",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13102100",
+      "title": "Buyers and Purchasing Agents, Farm Products",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13102200",
+      "title": "Wholesale and Retail Buyers, Except Farm Products",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13102300",
+      "title": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/13-1023.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-13104100",
+      "title": "Compliance Officers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13104101",
+      "title": "Environmental Compliance Inspectors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1041.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13104103",
+      "title": "Equal Opportunity Representatives and Officers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1041.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13104104",
+      "title": "Government Property Inspectors and Investigators",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1041.04",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13104106",
+      "title": "Coroners",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/13-1041.06",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13104107",
+      "title": "Regulatory Affairs Specialists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/13-1041.07",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-13104108",
+      "title": "Customs Brokers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1041.08",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13105100",
+      "title": "Cost Estimators",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1051.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13107500",
+      "title": "Labor Relations Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1075.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13108101",
+      "title": "Logistics Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1081.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13108102",
+      "title": "Logistics Analysts",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/13-1081.02",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-13112100",
+      "title": "Meeting, Convention, and Event Planners",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1121.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13113100",
+      "title": "Fundraisers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1131.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13114100",
+      "title": "Compensation, Benefits, and Job Analysis Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1141.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13115100",
+      "title": "Training and Development Specialists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/13-1151.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-13116101",
+      "title": "Search Marketing Strategists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1161.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13119900",
+      "title": "Business Operations Specialists, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13119904",
+      "title": "Business Continuity Planners",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1199.04",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13119905",
+      "title": "Sustainability Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1199.05",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13119906",
+      "title": "Online Merchants",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1199.06",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13119907",
+      "title": "Security Management Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-1199.07",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13202200",
+      "title": "Appraisers of Personal and Business Property",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13202300",
+      "title": "Appraisers and Assessors of Real Estate",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2023.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13203100",
+      "title": "Budget Analysts",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/13-2031.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-13204100",
+      "title": "Credit Analysts",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13205300",
+      "title": "Insurance Underwriters",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2053.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13205400",
+      "title": "Financial Risk Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2054.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13206100",
+      "title": "Financial Examiners",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2061.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13207100",
+      "title": "Credit Counselors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2071.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13207200",
+      "title": "Loan Officers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2072.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13208100",
+      "title": "Tax Examiners and Collectors, and Revenue Agents",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2081.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13209900",
+      "title": "Financial Specialists, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13209901",
+      "title": "Financial Quantitative Analysts",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2099.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-13209904",
+      "title": "Fraud Examiners, Investigators and Analysts",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/13-2099.04",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15121101",
+      "title": "Health Informatics Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1211.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15122100",
+      "title": "Computer and Information Research Scientists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1221.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15124100",
+      "title": "Computer Network Architects",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1241.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15124101",
+      "title": "Telecommunications Engineering Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1241.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15124200",
+      "title": "Database Administrators",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/15-1242.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "degree-15124300",
+      "title": "Database Architects",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/15-1243.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-15124301",
+      "title": "Data Warehousing Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1243.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15124400",
+      "title": "Network and Computer Systems Administrators",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1244.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15125100",
+      "title": "Computer Programmers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/15-1251.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "degree-15125300",
+      "title": "Software Quality Assurance Analysts and Testers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/15-1253.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-15125501",
+      "title": "Video Game Designers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1255.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15129900",
+      "title": "Computer Occupations, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15129901",
+      "title": "Web Administrators",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1299.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15129902",
+      "title": "Geographic Information Systems Technologists and Technicians",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/15-1299.02",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-15129903",
+      "title": "Document Management Specialists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/15-1299.03",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-15129904",
+      "title": "Penetration Testers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1299.04",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15129905",
+      "title": "Information Security Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1299.05",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15129906",
+      "title": "Digital Forensics Analysts",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1299.06",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15129907",
+      "title": "Blockchain Engineers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/15-1299.07",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15129908",
+      "title": "Computer Systems Engineers/Architects",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1299.08",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15129909",
+      "title": "Information Technology Project Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-1299.09",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15201100",
+      "title": "Actuaries",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-2011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15202100",
+      "title": "Mathematicians",
+      "checks": 3,
+      "status": "Prior four-rule benchmark",
+      "source": "https://www.onetonline.org/link/summary/15-2021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15203100",
+      "title": "Operations Research Analysts",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/15-2031.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "degree-15204101",
+      "title": "Biostatisticians",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/15-2041.01",
+      "ruleCount": 3
+    },
+    {
+      "id": "degree-15205101",
+      "title": "Business Intelligence Analysts",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/15-2051.01",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-15205102",
+      "title": "Clinical Data Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/15-2051.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15209900",
+      "title": "Mathematical Science Occupations, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-15209901",
+      "title": "Bioinformatics Technicians",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/15-2099.01",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-17101200",
+      "title": "Landscape Architects",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-1012.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-17102100",
+      "title": "Cartographers and Photogrammetrists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-1021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17102200",
+      "title": "Surveyors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-1022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17102201",
+      "title": "Geodetic Surveyors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-1022.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17201100",
+      "title": "Aerospace Engineers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-2011.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-17202100",
+      "title": "Agricultural Engineers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-2021.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-17204100",
+      "title": "Chemical Engineers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-2041.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-17205101",
+      "title": "Transportation Engineers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-2051.01",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-17205102",
+      "title": "Water/Wastewater Engineers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-2051.02",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-17206100",
+      "title": "Computer Hardware Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2061.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17207200",
+      "title": "Electronics Engineers, Except Computer",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-2072.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-17207201",
+      "title": "Radio Frequency Identification Device Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2072.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17208100",
+      "title": "Environmental Engineers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-2081.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-17211100",
+      "title": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2111.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17211102",
+      "title": "Fire-Prevention and Protection Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2111.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17211201",
+      "title": "Human Factors Engineers and Ergonomists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2112.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17211202",
+      "title": "Validation Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2112.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17211203",
+      "title": "Manufacturing Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2112.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17212100",
+      "title": "Marine Engineers and Naval Architects",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/17-2121.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17213100",
+      "title": "Materials Engineers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/17-2131.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-17214101",
+      "title": "Fuel Cell Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2141.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17214102",
+      "title": "Automotive Engineers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/17-2141.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17215100",
+      "title": "Mining and Geological Engineers, Including Mining Safety Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2151.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17216100",
+      "title": "Nuclear Engineers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/17-2161.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17217100",
+      "title": "Petroleum Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2171.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17219900",
+      "title": "Engineers, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17219903",
+      "title": "Energy Engineers, Except Wind and Solar",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2199.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17219905",
+      "title": "Mechatronics Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2199.05",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17219906",
+      "title": "Microsystems Engineers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/17-2199.06",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17219907",
+      "title": "Photonics Engineers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/17-2199.07",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17219908",
+      "title": "Robotics Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2199.08",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17219909",
+      "title": "Nanosystems Engineers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/17-2199.09",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17219910",
+      "title": "Wind Energy Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2199.10",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-17219911",
+      "title": "Solar Energy Systems Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/17-2199.11",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19101100",
+      "title": "Animal Scientists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19101300",
+      "title": "Soil and Plant Scientists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/19-1013.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "degree-19102100",
+      "title": "Biochemists and Biophysicists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/19-1021.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "degree-19102200",
+      "title": "Microbiologists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19102300",
+      "title": "Zoologists and Wildlife Biologists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1023.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19102900",
+      "title": "Biological Scientists, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19102901",
+      "title": "Bioinformatics Scientists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1029.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19102902",
+      "title": "Molecular and Cellular Biologists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/19-1029.02",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-19102903",
+      "title": "Geneticists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1029.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19102904",
+      "title": "Biologists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/19-1029.04",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-19103102",
+      "title": "Range Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1031.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19103103",
+      "title": "Park Naturalists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1031.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19103200",
+      "title": "Foresters",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1032.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19104200",
+      "title": "Medical Scientists, Except Epidemiologists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-1042.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19109900",
+      "title": "Life Scientists, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19201100",
+      "title": "Astronomers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-2011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19201200",
+      "title": "Physicists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/19-2012.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-19202100",
+      "title": "Atmospheric and Space Scientists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/19-2021.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "degree-19203200",
+      "title": "Materials Scientists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/19-2032.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "degree-19204101",
+      "title": "Climate Change Policy Analysts",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-2041.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19204102",
+      "title": "Environmental Restoration Planners",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-2041.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19204103",
+      "title": "Industrial Ecologists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-2041.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19204300",
+      "title": "Hydrologists",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/19-2043.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "degree-19209900",
+      "title": "Physical Scientists, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19209901",
+      "title": "Remote Sensing Scientists and Technologists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-2099.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19301101",
+      "title": "Environmental Economists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3011.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19302200",
+      "title": "Survey Researchers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/19-3022.00",
+      "ruleCount": 2
+    },
+    {
+      "id": "degree-19303200",
+      "title": "Industrial-Organizational Psychologists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3032.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19303900",
+      "title": "Psychologists, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19303902",
+      "title": "Neuropsychologists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3039.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19303903",
+      "title": "Clinical Neuropsychologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/19-3039.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19304100",
+      "title": "Sociologists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19309100",
+      "title": "Anthropologists and Archeologists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3091.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19309200",
+      "title": "Geographers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3092.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19309300",
+      "title": "Historians",
+      "checks": 3,
+      "status": "Prior four-rule benchmark",
+      "source": "https://www.onetonline.org/link/summary/19-3093.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19309400",
+      "title": "Political Scientists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3094.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19309900",
+      "title": "Social Scientists and Related Workers, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19309901",
+      "title": "Transportation Planners",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-3099.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19409200",
+      "title": "Forensic Science Technicians",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-4092.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-19501100",
+      "title": "Occupational Health and Safety Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/19-5011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21101100",
+      "title": "Substance Abuse and Behavioral Disorder Counselors",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/21-1011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21101300",
+      "title": "Marriage and Family Therapists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/21-1013.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21101500",
+      "title": "Rehabilitation Counselors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/21-1015.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21101900",
+      "title": "Counselors, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21102200",
+      "title": "Healthcare Social Workers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/21-1022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21102300",
+      "title": "Mental Health and Substance Abuse Social Workers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/21-1023.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21102900",
+      "title": "Social Workers, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21109100",
+      "title": "Health Education Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/21-1091.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21109200",
+      "title": "Probation Officers and Correctional Treatment Specialists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/21-1092.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21109900",
+      "title": "Community and Social Service Specialists, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21201100",
+      "title": "Clergy",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/21-2011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21202100",
+      "title": "Directors, Religious Activities and Education",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/21-2021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-21209900",
+      "title": "Religious Workers, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-23101200",
+      "title": "Judicial Law Clerks",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/23-1012.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-23102100",
+      "title": "Administrative Law Judges, Adjudicators, and Hearing Officers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/23-1021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-23102200",
+      "title": "Arbitrators, Mediators, and Conciliators",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/23-1022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-23102300",
+      "title": "Judges, Magistrate Judges, and Magistrates",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/23-1023.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25101100",
+      "title": "Business Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25102100",
+      "title": "Computer Science Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/25-1021.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-25102200",
+      "title": "Mathematical Science Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/25-1022.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-25103100",
+      "title": "Architecture Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25103200",
+      "title": "Engineering Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1032.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25104100",
+      "title": "Agricultural Sciences Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25104200",
+      "title": "Biological Science Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/25-1042.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-25104300",
+      "title": "Forestry and Conservation Science Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/25-1043.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-25105100",
+      "title": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1051.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25105200",
+      "title": "Chemistry Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/25-1052.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-25105300",
+      "title": "Environmental Science Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1053.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25105400",
+      "title": "Physics Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1054.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25106100",
+      "title": "Anthropology and Archeology Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1061.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25106200",
+      "title": "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1062.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25106300",
+      "title": "Economics Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1063.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25106400",
+      "title": "Geography Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1064.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25106500",
+      "title": "Political Science Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1065.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25106600",
+      "title": "Psychology Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1066.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25106700",
+      "title": "Sociology Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1067.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25106900",
+      "title": "Social Sciences Teachers, Postsecondary, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25107100",
+      "title": "Health Specialties Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1071.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25107200",
+      "title": "Nursing Instructors and Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1072.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25108100",
+      "title": "Education Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1081.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25108200",
+      "title": "Library Science Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1082.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25111100",
+      "title": "Criminal Justice and Law Enforcement Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1111.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25111200",
+      "title": "Law Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1112.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25111300",
+      "title": "Social Work Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1113.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25112100",
+      "title": "Art, Drama, and Music Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1121.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25112200",
+      "title": "Communications Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1122.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25112300",
+      "title": "English Language and Literature Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1123.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25112400",
+      "title": "Foreign Language and Literature Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1124.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25112500",
+      "title": "History Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/25-1125.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-25112600",
+      "title": "Philosophy and Religion Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1126.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25119200",
+      "title": "Family and Consumer Sciences Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1192.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25119300",
+      "title": "Recreation and Fitness Studies Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1193.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25119400",
+      "title": "Career/Technical Education Teachers, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-1194.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25119900",
+      "title": "Postsecondary Teachers, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25201200",
+      "title": "Kindergarten Teachers, Except Special Education",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-2012.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25202300",
+      "title": "Career/Technical Education Teachers, Middle School",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-2023.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25203200",
+      "title": "Career/Technical Education Teachers, Secondary School",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-2032.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25205100",
+      "title": "Special Education Teachers, Preschool",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/25-2051.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25205500",
+      "title": "Special Education Teachers, Kindergarten",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/25-2055.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25205600",
+      "title": "Special Education Teachers, Elementary School",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/25-2056.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25205700",
+      "title": "Special Education Teachers, Middle School",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/25-2057.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25205800",
+      "title": "Special Education Teachers, Secondary School",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/25-2058.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25205900",
+      "title": "Special Education Teachers, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25205901",
+      "title": "Adapted Physical Education Specialists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/25-2059.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25301100",
+      "title": "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-3011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25303100",
+      "title": "Substitute Teachers, Short-Term",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-3031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25309900",
+      "title": "Teachers and Instructors, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25401100",
+      "title": "Archivists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-4011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25401200",
+      "title": "Curators",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-4012.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25401300",
+      "title": "Museum Technicians and Conservators",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-4013.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25902100",
+      "title": "Farm and Home Management Educators",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-9021.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25903100",
+      "title": "Instructional Coordinators",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-9031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25904400",
+      "title": "Teaching Assistants, Postsecondary",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/25-9044.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-25909900",
+      "title": "Educational Instruction and Library Workers, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27101100",
+      "title": "Art Directors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-1011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "checks": 3,
+      "status": "Prior four-rule benchmark",
+      "source": "https://www.onetonline.org/link/summary/27-1013.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27102200",
+      "title": "Fashion Designers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-1022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27102500",
+      "title": "Interior Designers",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/27-1025.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-27102700",
+      "title": "Set and Exhibit Designers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-1027.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27102900",
+      "title": "Designers, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27201200",
+      "title": "Producers and Directors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-2012.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27201203",
+      "title": "Media Programming Directors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-2012.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27201204",
+      "title": "Talent Directors",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/27-2012.04",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27201205",
+      "title": "Media Technical Directors/Managers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-2012.05",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27202200",
+      "title": "Coaches and Scouts",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/27-2022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27204100",
+      "title": "Music Directors and Composers",
+      "checks": 3,
+      "status": "Prior four-rule benchmark",
+      "source": "https://www.onetonline.org/link/summary/27-2041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27301100",
+      "title": "Broadcast Announcers and Radio Disc Jockeys",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/27-3011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27302300",
+      "title": "News Analysts, Reporters, and Journalists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-3023.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27304100",
+      "title": "Editors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-3041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27304200",
+      "title": "Technical Writers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-3042.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27304305",
+      "title": "Poets, Lyricists and Creative Writers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/27-3043.05",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-27403100",
+      "title": "Camera Operators, Television, Video, and Film",
+      "checks": 3,
+      "status": "Question-level alternative reviewed",
+      "source": "https://www.onetonline.org/link/summary/27-4031.00",
+      "ruleCount": 1
+    },
+    {
+      "id": "degree-29101100",
+      "title": "Chiropractors",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29102200",
+      "title": "Oral and Maxillofacial Surgeons",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1022.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29102300",
+      "title": "Orthodontists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1023.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29102400",
+      "title": "Prosthodontists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1024.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29102900",
+      "title": "Dentists, All Other Specialists",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29104100",
+      "title": "Optometrists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1041.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29107101",
+      "title": "Anesthesiologist Assistants",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1071.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29108100",
+      "title": "Podiatrists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1081.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29112201",
+      "title": "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1122.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29112500",
+      "title": "Recreational Therapists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1125.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29112900",
+      "title": "Therapists, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29112901",
+      "title": "Art Therapists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1129.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29112902",
+      "title": "Music Therapists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1129.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29114101",
+      "title": "Acute Care Nurses",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1141.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29114102",
+      "title": "Advanced Practice Psychiatric Nurses",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1141.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29114103",
+      "title": "Critical Care Nurses",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1141.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29114104",
+      "title": "Clinical Nurse Specialists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1141.04",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29115100",
+      "title": "Nurse Anesthetists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1151.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29116100",
+      "title": "Nurse Midwives",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1161.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29118100",
+      "title": "Audiologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1181.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29121100",
+      "title": "Anesthesiologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1211.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29121200",
+      "title": "Cardiologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1212.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29121300",
+      "title": "Dermatologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1213.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29121400",
+      "title": "Emergency Medicine Physicians",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1214.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29121600",
+      "title": "General Internal Medicine Physicians",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1216.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29121700",
+      "title": "Neurologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1217.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29121800",
+      "title": "Obstetricians and Gynecologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1218.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122100",
+      "title": "Pediatricians, General",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1221.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122200",
+      "title": "Physicians, Pathologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1222.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122300",
+      "title": "Psychiatrists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1223.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122400",
+      "title": "Radiologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1224.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122900",
+      "title": "Physicians, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122901",
+      "title": "Allergists and Immunologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1229.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122902",
+      "title": "Hospitalists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1229.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122903",
+      "title": "Urologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1229.03",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122904",
+      "title": "Physical Medicine and Rehabilitation Physicians",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1229.04",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122905",
+      "title": "Preventive Medicine Physicians",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1229.05",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29122906",
+      "title": "Sports Medicine Physicians",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-1229.06",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29124100",
+      "title": "Ophthalmologists, Except Pediatric",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1241.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29124200",
+      "title": "Orthopedic Surgeons, Except Pediatric",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1242.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29124300",
+      "title": "Pediatric Surgeons",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1243.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29124900",
+      "title": "Surgeons, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29129100",
+      "title": "Acupuncturists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1291.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29129900",
+      "title": "Healthcare Diagnosing or Treating Practitioners, All Other",
+      "checks": 0,
+      "status": "Aggregate / no defining checks",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29129901",
+      "title": "Naturopathic Physicians",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1299.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29129902",
+      "title": "Orthoptists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-1299.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29201100",
+      "title": "Medical and Clinical Laboratory Technologists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-2011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29201101",
+      "title": "Cytogenetic Technologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-2011.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29201102",
+      "title": "Cytotechnologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-2011.02",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29201104",
+      "title": "Histotechnologists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-2011.04",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29201200",
+      "title": "Medical and Clinical Laboratory Technicians",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-2012.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29201201",
+      "title": "Histology Technicians",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-2012.01",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29203600",
+      "title": "Medical Dosimetrists",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-2036.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29209100",
+      "title": "Orthotists and Prosthetists",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-2091.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29909100",
+      "title": "Athletic Trainers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/29-9091.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-29909200",
+      "title": "Genetic Counselors",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/29-9092.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-33303100",
+      "title": "Fish and Game Wardens",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/33-3031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-41303100",
+      "title": "Securities, Commodities, and Financial Services Sales Agents",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/41-3031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-41401100",
+      "title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/41-4011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-41401107",
+      "title": "Solar Sales Representatives and Assessors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/41-4011.07",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-41903100",
+      "title": "Sales Engineers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/41-9031.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-43908100",
+      "title": "Proofreaders and Copy Markers",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/43-9081.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-43911100",
+      "title": "Statistical Assistants",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/43-9111.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-45201100",
+      "title": "Agricultural Inspectors",
+      "checks": 3,
+      "status": "Inventory screened; no new rule",
+      "source": "https://www.onetonline.org/link/summary/45-2011.00",
+      "ruleCount": 0
+    },
+    {
+      "id": "degree-53201100",
+      "title": "Airline Pilots, Copilots, and Flight Engineers",
+      "checks": 3,
+      "status": "Specialty interest still explicitly required",
+      "source": "https://www.onetonline.org/link/summary/53-2011.00",
+      "ruleCount": 0
+    }
+  ],
+  "claimCounts": [
+    {
+      "id": "degree-15204101",
+      "title": "Biostatisticians",
+      "routes": [
+        {
+          "key": "graduate",
+          "label": "Graduate / professional degree",
+          "detail": "Master's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": null,
+        "amount": null,
+        "reason": "Comparable first-paid-stage pay unavailable"
+      },
+      "models": 2,
+      "development": 2,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "degree-13102300",
+      "title": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": null,
+        "amount": null,
+        "reason": "Comparable first-paid-stage pay unavailable"
+      },
+      "models": 27,
+      "development": 21,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 6
+    },
+    {
+      "id": "graphic-design",
+      "title": "Graphic Designers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Typical entry route; some employers accept other preparation.",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 46122,
+        "reason": "First paid stage under stated assumptions"
+      },
+      "models": 17,
+      "development": 13,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 4
+    },
+    {
+      "id": "degree-27403100",
+      "title": "Camera Operators, Television, Video, and Film",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": true,
+        "amount": 38219,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 4,
+      "development": 4,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "degree-19302200",
+      "title": "Survey Researchers",
+      "routes": [
+        {
+          "key": "graduate",
+          "label": "Graduate / professional degree",
+          "detail": "Master's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 31056,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 23,
+      "development": 19,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 4
+    },
+    {
+      "id": "degree-19101300",
+      "title": "Soil and Plant Scientists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": null,
+        "amount": null,
+        "reason": "Comparable first-paid-stage pay unavailable"
+      },
+      "models": 24,
+      "development": 20,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 4
+    },
+    {
+      "id": "architecture",
+      "title": "Architects",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · professional BArch",
+          "detail": "A five-year professional degree, then required experience and licensing.",
+          "primary": true
+        },
+        {
+          "key": "graduate",
+          "label": "Graduate · professional architecture",
+          "detail": "An eligible prior degree, then a professional architecture program and licensing.",
+          "primary": false
+        }
+      ],
+      "budgetExample": {
+        "covers": true,
+        "amount": 67366,
+        "reason": "First paid stage under stated assumptions"
+      },
+      "models": 10,
+      "development": 9,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 1
+    },
+    {
+      "id": "degree-13104107",
+      "title": "Regulatory Affairs Specialists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": null,
+        "amount": null,
+        "reason": "Comparable first-paid-stage pay unavailable"
+      },
+      "models": 3,
+      "development": 2,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 1
+    },
+    {
+      "id": "degree-13115100",
+      "title": "Training and Development Specialists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": null,
+        "reason": "Experienced destination"
+      },
+      "models": 2,
+      "development": 1,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 1
+    },
+    {
+      "id": "degree-17204100",
+      "title": "Chemical Engineers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": true,
+        "amount": 92732,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 10,
+      "development": 9,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 1
+    },
+    {
+      "id": "degree-17213100",
+      "title": "Materials Engineers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": true,
+        "amount": 66823,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 10,
+      "development": 9,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 1
+    },
+    {
+      "id": "degree-15125100",
+      "title": "Computer Programmers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 66110,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 29,
+      "development": 20,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 9
+    },
+    {
+      "id": "degree-19202100",
+      "title": "Atmospheric and Space Scientists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 55559,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 15,
+      "development": 11,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 4
+    },
+    {
+      "id": "degree-17201100",
+      "title": "Aerospace Engineers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": true,
+        "amount": 89324,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 2,
+      "development": 2,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "degree-19201200",
+      "title": "Physicists",
+      "routes": [
+        {
+          "key": "graduate",
+          "label": "Graduate / professional degree",
+          "detail": "Doctoral or professional degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": null,
+        "amount": null,
+        "reason": "Comparable first-paid-stage pay unavailable"
+      },
+      "models": 6,
+      "development": 3,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 3
+    },
+    {
+      "id": "degree-15125300",
+      "title": "Software Quality Assurance Analysts and Testers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 70884,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 14,
+      "development": 11,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 3
+    },
+    {
+      "id": "degree-19204300",
+      "title": "Hydrologists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 56410,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 12,
+      "development": 7,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 5
+    },
+    {
+      "id": "degree-19102904",
+      "title": "Biologists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": null,
+        "amount": null,
+        "reason": "Comparable first-paid-stage pay unavailable"
+      },
+      "models": 3,
+      "development": 2,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 1
+    },
+    {
+      "id": "degree-17207200",
+      "title": "Electronics Engineers, Except Computer",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 100428,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 7,
+      "development": 7,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "degree-13203100",
+      "title": "Budget Analysts",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 66830,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 9,
+      "development": 6,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 3
+    },
+    {
+      "id": "degree-25105200",
+      "title": "Chemistry Teachers, Postsecondary",
+      "routes": [
+        {
+          "key": "graduate",
+          "label": "Graduate / professional degree",
+          "detail": "Doctoral or professional degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": null,
+        "amount": null,
+        "reason": "Comparable first-paid-stage pay unavailable"
+      },
+      "models": 1,
+      "development": 1,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "degree-15209901",
+      "title": "Bioinformatics Technicians",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": null,
+        "amount": null,
+        "reason": "Comparable first-paid-stage pay unavailable"
+      },
+      "models": 1,
+      "development": 1,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "degree-27102500",
+      "title": "Interior Designers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": true,
+        "amount": 51730,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 3,
+      "development": 3,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "degree-13108102",
+      "title": "Logistics Analysts",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": true,
+        "amount": 55062,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 7,
+      "development": 5,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 2
+    },
+    {
+      "id": "degree-19203200",
+      "title": "Materials Scientists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 77766,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 10,
+      "development": 6,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 4
+    },
+    {
+      "id": "degree-19102100",
+      "title": "Biochemists and Biophysicists",
+      "routes": [
+        {
+          "key": "graduate",
+          "label": "Graduate / professional degree",
+          "detail": "Doctoral or professional degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": null,
+        "amount": null,
+        "reason": "Comparable first-paid-stage pay unavailable"
+      },
+      "models": 3,
+      "development": 1,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 2
+    },
+    {
+      "id": "degree-17208100",
+      "title": "Environmental Engineers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 71586,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 1,
+      "development": 1,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "degree-17205102",
+      "title": "Water/Wastewater Engineers",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": null,
+        "amount": null,
+        "reason": "Comparable first-paid-stage pay unavailable"
+      },
+      "models": 1,
+      "development": 1,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    }
+  ],
+  "checks": {
+    "models": 1000,
+    "inventoryCareers": 404,
+    "inventoryQuestions": 1067,
+    "reviewedCareers": 46,
+    "reviewedQuestions": 62,
+    "knownProfessionAnswersChecked": 28472,
+    "reviewHoldsChecked": 89,
+    "sourceStatesChanged": 0,
+    "newProfilePreferences": 0,
+    "knownAnswersOverwritten": 0,
+    "reviewHoldsOverwritten": 0,
+    "supportedCareersLost": 0,
+    "liveFlowChanges": 0
+  },
+  "limitations": [
+    "This is a research replay of designed synthetic cases, not observed student fit, measured aptitude or independent validation of these semantic rules.",
+    "The full 404-career inventory was screened. Question-level alternative evidence was authored only for the listed careers; untouched careers are not certified as well calibrated.",
+    "Concrete profile facts are distinct from broad topic ratings. Authored profiles can use only eligible saved activity IDs, topic ratings and the previous frozen annotations. No profession Yes is reversed into a new interest. No biographies, job titles, demographics, diagnoses, earnings or degree ambitions classify answers.",
+    "Known Yes/No answers and review holds remain. Even an inferred No caused by an older binding is not silently overwritten. Retained conflicts need a fresh direct answer in a future study.",
+    "Clinical care, specialist features, financial risk, legal representation, adult teaching and assessment, and explicit safety responsibilities are not inferred from broad subjects.",
+    "Proposed evidence alternatives are hypotheses, not new validated scales or newly administered student questions. New simulated answers have medium confidence.",
+    "Development and all three previously inspected holdouts use the same frozen rules, with separate reporting. These are diagnostic holdouts, not pristine final validation.",
+    "Support gates, scores, ranking, education routes, budgets and earnings are unchanged. First paid stage values are planning proxies; missing pay remains unassessed. Route groups overlap.",
+    "All earlier supported alternatives remain available. A new Top-three order can still displace a budget-covering option; coverage gains and losses are reported rather than hidden."
+  ]
+}

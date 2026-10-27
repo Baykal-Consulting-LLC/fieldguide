@@ -1,0 +1,21 @@
+{
+  "check": "Existing answers replay identically through the independent-answer comparison pipeline",
+  "models": 2000,
+  "categories": [
+    "Top",
+    "all supported",
+    "supported alternatives",
+    "lifestyle-covering supported",
+    "production exploration",
+    "partial specific evidence"
+  ],
+  "verified": [
+    "career IDs and order",
+    "interest correlations",
+    "education routes",
+    "budget values and coverage"
+  ],
+  "inputManifestSHA256": "62a2761a4022ebf847a25d3e1d98c18e22b278955bcdb933ce6e0ecdfc1bd000",
+  "command": "node scripts/executor-077/verify-identity-full.mjs",
+  "status": "passed"
+}

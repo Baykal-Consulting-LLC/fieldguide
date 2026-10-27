@@ -1,0 +1,24 @@
+{
+  "createdAt": "2026-10-20T01:21:26.687Z",
+  "changes": [
+    {
+      "file": "dist/coverage-050-replay.js",
+      "beforeSHA256": "1347cdb9dedeb09d0e74a7008e008c95986abd7b967e78b7dcf7914eea8c141e",
+      "afterSHA256": "e1b5140c9dbdcfebda10ca5edb94770ebb809caa8841d4ccf2f9c5acad8c631e",
+      "reason": "Retain the existing evidence-hold explanation on an Unsure/Unfamiliar/low-confidence new reflection; these responses were already ineligible, so no matching eligibility changes."
+    },
+    {
+      "file": "scripts/prepare-coverage-050-runtime.mjs",
+      "beforeSHA256": "b53a4298158dbf5ed1a3e1340c6b8a6cf5e694970cd5d4d4341f114d68ce3b9e",
+      "afterSHA256": "db13c6104da45140d36e076fbe0f3f293b5cdd9dbfeaa1da654071f352f6e2e3",
+      "reason": "Preserve the existing reflection-freeze timestamp during repeat builds. This is build provenance only."
+    },
+    {
+      "file": "dist/expanded-pay-data.js",
+      "beforeSHA256": "fc312dcd47b4d2249ca6dc0e129daaa214cb96f61441e11743354b902c34baec",
+      "afterSHA256": "c4fbe85624c7e63479ce0aa0c70aeb14f289021ae03b6b8eb7df30a1d2e3a307",
+      "reason": "Correct metadata for Mathematicians: absent TWC value uses the already selected national BLS 10th-percentile amount, now correctly labeled and linked. Wage amounts, entry-comparability flags and matching/coverage calculations are unchanged. Add explicit fallback metadata to all rows."
+    }
+  ],
+  "matchingPolicyUnchanged": true
+}

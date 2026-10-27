@@ -1,0 +1,462 @@
+{
+  "version": "research-046",
+  "date": "2026-10-19",
+  "scope": "Research and code-path review only. No engine, questionbank, model responses or live site edited. Supplied catalog is public; no private model files accessed.",
+  "mainConclusion": "Broaden discovery and catalog coverage, but differentiate the actual work before confirmation. Doctor, lawyer and five engineering occupations already exist; their low frequency must be diagnosed as evidence, exposure, ranking/display, route or missing-specialty issues separately. Broad interest types and repeated generic options cannot substitute for domain-specific inquiry.",
+  "sources": [
+    {
+      "id": "onet-manual",
+      "title": "O*NET Interest Profiler Manual, March 2021",
+      "url": "https://www.onetcenter.org/dl_files/IP_Manual.pdf",
+      "kind": "official technical manual",
+      "evidence": "The validated Interest Profiler measures six RIASEC interests. Its Short Form has60items and Mini-IP30. Reliability, validity, occupational linkage and interpretation are documented separately. These findings do not validate Fieldguide’s editorial follow-ups or its matching thresholds.",
+      "locator": "Chapters2,4–7"
+    },
+    {
+      "id": "onet-content",
+      "title": "O*NET Content Model",
+      "url": "https://www.onetcenter.org/content.html",
+      "kind": "official current occupational taxonomy",
+      "evidence": "Separates worker interests, abilities, knowledge and education from job tasks, activities and work context, and from market information. Activities form general, intermediate and detailed levels."
+    },
+    {
+      "id": "onet-specific-2026",
+      "title": "O*NET May2026 Specific Interest information release",
+      "url": "https://www.onetcenter.org/whatsnew.html",
+      "kind": "official current release notes",
+      "evidence": "May2026 introduced41specific-interest areas with occupational profiles for891data-level occupations, populated using a hybrid artificial intelligence-expert method. Treat occupational descriptors as occupational data, not student norms or a validated new Fieldguide assessment."
+    },
+    {
+      "id": "onet-specific-design",
+      "title": "Updating Vocational Interests Information for the O*NET Content Model",
+      "url": "https://www.onetcenter.org/dl_files/Voc_Interests.pdf",
+      "kind": "official research report",
+      "evidence": "Defines41basic-interest areas based on CABIN, with activity and occupation examples. Describes interest items as actions tied to objects/context. Medical Science, Health Care Service, Engineering and Law distinguish domains that broad helping or problem-solving can conflate.",
+      "locator": "Pages3–9 and AppendixB"
+    },
+    {
+      "id": "cabin-original",
+      "title": "Su etal.,2019. Toward a dimensional model of vocational interests",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30550299/",
+      "doi": "10.1037/apl0000373",
+      "kind": "original peer-reviewed research abstract",
+      "evidence": "Develops41homogeneous basic-interest scales and an8dimension SETPOINT hierarchy. Working-adult structural and occupational-membership evidence supports measuring activity preferences below broad interest dimensions; it does not establish Fieldguide adolescent cutoffs."
+    },
+    {
+      "id": "cabin-net",
+      "title": "Chu etal. Interest Fit Beyond the RIASEC: CABIN-NET",
+      "url": "https://ink.library.smu.edu.sg/lkcsb_research/7785/",
+      "doi": "10.1177/10690727251322520",
+      "kind": "original peer-reviewed author manuscript repository",
+      "evidence": "A60item measure of20basic-interest scales was developed in768adults and studied longitudinally in816four-year university and560community-college graduates. Authors report stronger career-outcome prediction from basic-interest fit than RIASEC fit. Transfer to younger students or our custom branching requires validation.",
+      "licensingNote": "Repository manuscript license is CC BY-NC-ND4.0. Do not assume unrestricted reuse/adaptation of instrument items; verify separate instrument permission. Proposed items below are original editorial drafts."
+    },
+    {
+      "id": "nye-performance",
+      "title": "Nye etal.,2012. Vocational Interests and Performance",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26168474/",
+      "doi": "10.1177/1745691612449021",
+      "kind": "original meta-analysis abstract",
+      "evidence": "Across60studies and approximately568correlations, interests related to performance/persistence and person-environment congruence was more predictive than interest scores alone. Association is neither guaranteed career success nor a precise individual probability."
+    },
+    {
+      "id": "hoff-longitudinal",
+      "title": "Hoff etal. Adolescent vocational interests predict early career success: Two12-year longitudinal studies",
+      "url": "https://iaap-journals.onlinelibrary.wiley.com/doi/10.1111/apps.12311",
+      "doi": "10.1111/apps.12311",
+      "kind": "original longitudinal research abstract",
+      "evidence": "Two12-year samples of485and1290participants followed interests from late adolescence. Better eventual vocational fit related to later job satisfaction; interest levels and change were studied as separate predictors. This supports revisiting exploration rather than treating one profile as permanent."
+    },
+    {
+      "id": "adaptive-ofii",
+      "title": "Alkan and Deniz,2023. Developing a Computerized Adaptive Test Form of the Occupational Field Interest Inventory",
+      "url": "https://dergipark.org.tr/en/pub/epod/article/1153713",
+      "kind": "original peer-reviewed simulation research",
+      "evidence": "Post-hoc CAT simulations on1425high-school students averaged59items, with correlations.91–.97between paper scores and simulated theta estimates. Efficiency depended on a calibrated item bank, model and stopping rules. It does not validate an arbitrary short decision tree."
+    },
+    {
+      "id": "avid",
+      "title": "Kirkendall etal. Adaptive vocational interest diagnostic: Informing and improving the job assignment process",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10013305/",
+      "doi": "10.1080/08995605.2019.1652480",
+      "kind": "original program-development research abstract",
+      "evidence": "Describes a military instrument combining broad/narrow interests, adaptive testing and forced choice. Useful precedent for a hierarchical architecture; civilian adolescent transfer, fake resistance and efficiency are not established for Fieldguide."
+    },
+    {
+      "id": "ncda",
+      "title": "2024 NCDA Code of Ethics",
+      "url": "https://ncda.org/aws/NCDA/asset_manager/get_file/3395?ver=738700",
+      "kind": "official professional standard",
+      "evidence": "SectionsE.1–E.3require appropriate use, explanation and sound interpretation. E.6recommends considering validity/reliability/limitations and multiple evidence forms. E.8requires caution about population/context differences. E.9requires qualification of results from insufficiently supported instruments; E.10addresses assessment permission.",
+      "locator": "Printedpages14–16; PDFpages16–18",
+      "verification": "Official PDF downloaded and text extracted locally; web parser returned an error."
+    },
+    {
+      "id": "onet-core",
+      "title": "O*NET Scales, Ratings, and Standardized Scores",
+      "url": "https://www.onetonline.org/help/online/scales",
+      "kind": "official task methodology",
+      "evidence": "O*NET calls a task core when relevance is at least67percent and mean importance at least3.0. This does not mean every individual performs every core task, or that every task should be a mandatory student-interest gate."
+    },
+    {
+      "id": "physician",
+      "title": "O*NET29-1215.00 Family Medicine Physicians",
+      "url": "https://www.onetonline.org/link/summary/29-1215.00",
+      "kind": "official occupational source",
+      "evidence": "Tasks include diagnosis using history/tests, choosing treatment, monitoring progress and communicating with patients; family medicine is one physician occupation, not all physician specialties."
+    },
+    {
+      "id": "lawyer",
+      "title": "O*NET23-1011.00 Lawyers",
+      "url": "https://www.onetonline.org/link/summary/23-1011.00",
+      "kind": "official occupational source",
+      "evidence": "Tasks span legal interpretation/research, evidence, advising clients, drafting/reviewing documents, negotiation and representation. Courtroom argument alone does not cover the occupation."
+    },
+    {
+      "id": "mechanical",
+      "title": "O*NET17-2141.00 Mechanical Engineers",
+      "url": "https://www.onetonline.org/link/summary/17-2141.00",
+      "kind": "official occupational source",
+      "evidence": "Tasks span mechanical design, drawings, evaluation/testing, technical constraints and system modification. Device interest needs differentiation from maintenance and from other engineering domains."
+    },
+    {
+      "id": "medical-scientist",
+      "title": "O*NET19-1042.00 Medical Scientists, Except Epidemiologists",
+      "url": "https://www.onetonline.org/link/summary/19-1042.00",
+      "kind": "official occupational source",
+      "evidence": "Tasks include designing studies of disease/treatment, evaluating biological effects, analyzing samples/data and communicating research findings. Clinical diagnosis and direct patient care are not interchangeable with research interest."
+    },
+    {
+      "id": "operations-research",
+      "title": "O*NET15-2031.00 Operations Research Analysts",
+      "url": "https://www.onetonline.org/link/summary/15-2031.00",
+      "kind": "official occupational source",
+      "evidence": "Describes mathematical modeling, optimization and analysis to improve decisions. It offers a quantitative decision-science branch distinct from engineering physical objects and generic project coordination."
+    }
+  ],
+  "actualCodeGatesAndRisks": [
+    {
+      "file": "site/dist/career-comparisons.js",
+      "symbol": "careerComparisonOptions",
+      "observation": "No comparison invitations for incomplete, flat or near-flat profiles. Entry requires eligible whole-profile fit plus an opportunity or focused-field like; alternate opportunity route requiresr>=.2andtaskEvidence>=3. All-connected-field conflict and role/route conflict also suppress invitations.",
+      "risk": "Plausible narrow interests can remain unasked when a broad profile is weak or field questions do not represent them. This is a code-path risk, not proof that this caused any specific zero count.",
+      "proposal": "Allow an explicitly labeled student-selected discovery path from search or a domain probe even with incomplete/flat profiles. Keep Top evidence standards separate and explain why results are provisional."
+    },
+    {
+      "file": "site/dist/career-comparisons-ui.js",
+      "symbol": "careerComparisonsPanel",
+      "observation": "First3invitations are immediately visible; remaining options are inside More professions to compare.",
+      "risk": "Visibility and eligible-candidate availability differ. A zero in displayed match counts can reflect ordering/caps rather than career ineligibility.",
+      "proposal": "Record eligible/invited/visible/started/completed separately; expose domain-diverse exploration and user search."
+    },
+    {
+      "file": "site/dist/profile-journey.js",
+      "symbol": "journeyFieldConnection / broadSuggestions",
+      "observation": "Field support uses mean correlation of3leading catalog occupations, threshold.608, plus focused-field confirmation and fewer than2concerns. Suggested fields are capped3.",
+      "risk": "The field score depends on current catalog composition; adding careers can change field exposure before any new student answer.",
+      "proposal": "Freeze/version field vectors or explicitly audit expansion effects on old fields. Offer all fields through exploration navigation."
+    },
+    {
+      "file": "site/dist/profile-journey.js",
+      "symbol": "professionSuggestions",
+      "observation": "Direct support requires3nonroute question groups and2derived domains plus whole-profile fit or a6group repeated-task alternative. The alternative further needs3refinement groups and4focused groups; counting depends on selected options.",
+      "risk": "Repeated variants of the same activity can look like independent evidence, while a profession omitted from mapped options cannot gather enough evidence.",
+      "proposal": "Represent activity/domain/outcome evidence explicitly. Count semantically distinct constructs, not question IDs alone; give each new profession balanced positive, adjacent and contradiction probes."
+    },
+    {
+      "file": "site/dist/career-check-questions.js",
+      "symbol": "taskEvidenceDomain / careerCheckSpec",
+      "observation": "Evidence domain is inferred from question ID substrings. One family with most matching nonroute questions is selected;4questions chosen for specificity/domain coverage.",
+      "risk": "Naming conventions can create artificial independence. Cross-field professions are reduced to one family; more catalog entries can increase repeated shared options without useful differentiation.",
+      "proposal": "Add explicit domain/construct/role-family/question-purpose metadata and source mappings. Reuse relevant cross-field responses and branch to the missing differentiator."
+    },
+    {
+      "file": "site/dist/profession-questions.js",
+      "symbol": "health-role-work / health-role-observe / health-role-learning",
+      "observation": "Clinical-role checks distinguish7medical/dental roles. Physician, NP and PA share many broad items, then role names and preparation routes separate them. health focusedRoles excludes other roles when a focused role has been selected.",
+      "risk": "A novice can understand symptom investigation yet not know PA/NP/physician responsibilities or route terminology. More specifically, roleFocusElsewhere applies to every health-family occupation once any focused clinical role is selected, so a clinical choice can exclude nonclinical health ideas such as epidemiology in that family. This is an actual gate; its contribution to observed model counts still needs a controlled replay.",
+      "proposal": "Provide neutral role explanations and work scenarios before named-role choices; support multiple interests. Keep actual prescribing scope, training and licensure accurate and separate from interest."
+    },
+    {
+      "file": "site/dist/profession-questions.js",
+      "symbol": "building questions",
+      "observation": "Mechanical, electrical and biomedical engineering share many identical options; biomedical is linked to generic devices/circuits before its2defining medical-device questions. Catalog contains5engineering occupations.",
+      "risk": "Question count overstates breadth; repeated generic device evidence cannot decide a medical-device interest or reveal omitted chemical/environmental/computer/aerospace areas.",
+      "proposal": "Probe design object and problem domain before specialization; map a given domain to engineer, technician, researcher and trade alternatives with differentiated work activities."
+    },
+    {
+      "file": "site/dist/core-work.js",
+      "symbol": "coreWorkStatus",
+      "observation": "Current0.44requires2defining Yes responses. Direct responses support confirmation; inferred responses support only high/medium confidence. ExplicitNo declines; unsure/unfamiliar stays pending.",
+      "risk": "Improved content avoids the former unfamiliar-tools gate, but2Yes is an editorial rule, not a validated standard. Leading or compound prompts can still inflate endorsement.",
+      "proposal": "Keep provenance and unresolvedness visible; test single-concept wording, contradictions and alternate second probes. Never treat inferred answers as real student choices."
+    },
+    {
+      "file": "site/dist/career-comparisons.js",
+      "symbol": "invitation ordering",
+      "observation": "Among similar relevance candidates, education preference and lifestyle coverage affect invitation ordering. A relevant degree option is inserted if willing/open to college or graduate study and the initial3have none.",
+      "risk": "This helps exposure but cannot establish suitability. Pay and education routing can change which questions are answered before outcomes are calculated.",
+      "proposal": "Measure exposure stratified by route and interest strength. Keep salary, prestige, education preference and affordability outside interest evidence."
+    }
+  ],
+  "questionArchitectureProposal": {
+    "status": "Original design proposal informed by sources; unvalidated until tested with students and independent expert review.",
+    "layers": [
+      {
+        "layer": "Keep broad inventory intact",
+        "detail": "Preserve licensed O*NET instrument wording, administration and scoring. Store editorial domain/role probes separately; do not call their results O*NET scores or aptitude measures."
+      },
+      {
+        "layer": "Broaden domain coverage",
+        "detail": "Use the41O*NET specific-interest areas as an occupational coverage checklist and a mapping aid. Introduce concrete activity probes for omitted areas such as medical research, law, engineering domains, mathematical optimization, finance and research. Use broad scores to prioritize, not permanently exclude."
+      },
+      {
+        "layer": "Open exploration",
+        "detail": "Let students search any profession or select a domain. Ask what is attractive about it; a title choice starts exploration, it does not become a Top match. Allow uncertain/flat profiles to learn about work without pretending precision."
+      },
+      {
+        "layer": "Differentiate role/activity",
+        "detail": "Ask about two distinct defining activities and at least one adjacent-role contrast. Use examples that do not require already knowing professional software, jargon, admissions rules or job titles. A learner should be able to imagine the activity."
+      },
+      {
+        "layer": "Resolve ambiguity",
+        "detail": "Select a follow-up about the largest missing distinction, not another paraphrase of the same interest. Explain unfamiliar work neutrally, then let the student answer; keep before/after responses and whether information was shown."
+      },
+      {
+        "layer": "Plan feasibility separately",
+        "detail": "After interest evidence, show training paths, licensing, academic preparation and supports, costs, time and staged pay. Distinguish interest, willingness to pursue a route and current eligibility. Keep first-paid-stage lifestyle checks and residency/prior-experience treatment."
+      }
+    ],
+    "responseDesign": {
+      "interest": "Five ordered anchors from strongly dislike to strongly like, with neutral/unsure; provide separate I do not yet understand this activity. Prototype choice, not validated scale.",
+      "exposure": "Optional separate Have tried / Have observed / Have only heard of it / New to me; do not give extra interest credit for costly prior exposure.",
+      "selfEfficacy": "Optional Can imagine learning this with support / Unsure / Want to discuss barriers. Do not mix confidence, current skill or school access into interest.",
+      "pairedComparisons": "Use occasional adjacent-role contrasts with both/neither/unsure options; do not force students into one domain. Randomize option order in evaluation."
+    },
+    "burdenProposal": {
+      "initialDomainProbes": "Prototype 8–12 short activity probes selected across underrepresented domains after the existing broad inventory, with a browse-all alternative.",
+      "focusedBranch": "Prototype 3–5 new questions per chosen branch, reuse genuine prior evidence, typically explore 2–3 branches and allow save/resume.",
+      "qualification": "These are product targets to test for completion, comprehension, accessibility and recall. They are not a psychometric minimum or a validated adaptive stopping rule. Do not call rule-based branching calibrated CAT."
+    },
+    "itemMetadata": [
+      "stableVersionedId",
+      "occupationSOC",
+      "sourceURLanddate",
+      "construct/domain",
+      "purpose:discovery/defining/adjacent/context/route",
+      "mandatory-versus-variant-rationale",
+      "plain-languageprompt",
+      "oneactivityperitem",
+      "mappedalternatives",
+      "negative-evidencerule",
+      "reading/accessibilityreview",
+      "exposureexplanation"
+    ]
+  },
+  "branchingExamples": [
+    {
+      "profession": "Physician, beginning with family medicine",
+      "catalogStatus": "Already present as physician; not absent from catalog. Expand physician specialties only after distinguishing them.",
+      "sources": [
+        "physician"
+      ],
+      "trigger": "Interest in disease mechanisms plus patient-facing diagnosis, or explicit medical exploration; generic helping alone is insufficient.",
+      "questions": [
+        {
+          "purpose": "defining",
+          "prompt": "Would you enjoy learning to compare a patient’s symptoms, health history and test results to work out what may be causing an illness?"
+        },
+        {
+          "purpose": "distinct defining",
+          "prompt": "Would you enjoy learning to choose a medical treatment with a patient and check over time whether it is helping?"
+        },
+        {
+          "purpose": "adjacent-role contrast",
+          "prompt": "Which work would you like to investigate further: diagnosing and treating an individual patient; studying disease in a research project; tracking illness across a community; or supporting daily patient care? Choose any, or unsure."
+        },
+        {
+          "purpose": "clarification",
+          "prompt": "Imagine two illnesses could explain the same symptoms. Would comparing the evidence and explaining why one diagnosis fits better hold your interest?"
+        },
+        {
+          "purpose": "route, separate",
+          "prompt": "After learning about this work, would you like to compare medical school and residency with other health-care preparation routes?"
+        }
+      ],
+      "branching": "Patient diagnosis+treatment opens physician/PA/NP work comparisons with neutral scope/role descriptions; research opens medical scientist; community patterns opens epidemiology. Definite dislike of direct clinical work should not imply dislike of medical science. No automatic physician promotion from two generic helping answers."
+    },
+    {
+      "profession": "Lawyer",
+      "catalogStatus": "Already present as law; title law may obscure that this includes lawyers.",
+      "sources": [
+        "lawyer"
+      ],
+      "trigger": "Interest in rights/rules plus using evidence or careful language to advise/represent others. Being argumentative, sociable or interested in fairness alone is insufficient.",
+      "questions": [
+        {
+          "purpose": "defining",
+          "prompt": "Would you enjoy learning to read laws and earlier legal decisions to explain how they apply to someone’s situation?"
+        },
+        {
+          "purpose": "distinct defining",
+          "prompt": "Would you enjoy learning to build a well-supported legal recommendation after comparing facts and opposing arguments?"
+        },
+        {
+          "purpose": "role variants",
+          "prompt": "Which legal activities would you like to try learning: advising a client; drafting a contract; negotiating a dispute; presenting an argument in court; or organizing evidence for a legal team? Choose any, or unsure."
+        },
+        {
+          "purpose": "clarification",
+          "prompt": "If a case has a sympathetic person but mixed evidence, would you want to investigate the facts and explain the limits of their legal position?"
+        },
+        {
+          "purpose": "context, separate",
+          "prompt": "How do you feel about work that involves substantial reading, precise writing and deadlines?"
+        }
+      ],
+      "branching": "Core legal analysis+advice can support law exploration even if courtroom performance is unattractive; legal-team evidence work opens paralegal; general policy/justice interest opens public policy/social research. Do not make criminal defense, litigation or enjoying public speaking mandatory for all lawyers."
+    },
+    {
+      "profession": "Engineering, then domain-specific roles",
+      "catalogStatus": "5 current occupations: mechanical, civil, electrical, biomedical and industrial engineering. Engineer should be a discovery family, not one undifferentiated match.",
+      "sources": [
+        "mechanical",
+        "onet-content"
+      ],
+      "trigger": "Interest in designing/test-improving systems under real constraints, or explicit domain exploration; liking mathematics or assembling things alone is insufficient.",
+      "questions": [
+        {
+          "purpose": "domain discovery",
+          "prompt": "Which problems would you like to learn to design solutions for: machines and motion; electricity and electronics; buildings and water systems; materials and chemical processes; aircraft and spacecraft; computer hardware; medical devices; or production systems? Choose any, or unsure."
+        },
+        {
+          "purpose": "defining",
+          "prompt": "Would you enjoy learning to compare design options using calculations and tests before deciding which solution is likely to work?"
+        },
+        {
+          "purpose": "distinct defining",
+          "prompt": "Would you enjoy revising a design when tests show a weakness, while balancing safety, cost and how people will use it?"
+        },
+        {
+          "purpose": "adjacent-role contrast",
+          "prompt": "Would you rather explore designing a new system, building/installing it, maintaining and repairing it, or investigating the science behind it? Choose any, or unsure."
+        },
+        {
+          "purpose": "domain-specific differentiator",
+          "prompt": "For medical devices: would designing equipment used to diagnose or treat health conditions interest you, even when much of the work is testing and documenting rather than caring directly for patients?"
+        }
+      ],
+      "branching": "Domain selection opens matching engineer/technician/scientist/trade activities. Preserve overlap without treating interest in generic gadgets as biomedical interest. Environmental/chemical/computer/aerospace branches require their own sourced questions and route/pay data before live matching."
+    },
+    {
+      "profession": "Medical scientist",
+      "catalogStatus": "Not present under this occupation/SOC in supplied117career catalog.",
+      "sources": [
+        "medical-scientist"
+      ],
+      "trigger": "Interest in biology/disease and experimental investigation; can emerge from science or health, including dislike of patient care.",
+      "questions": [
+        {
+          "purpose": "defining",
+          "prompt": "Would you enjoy learning to design a study that tests a possible explanation for how a disease develops or how a treatment works?"
+        },
+        {
+          "purpose": "distinct defining",
+          "prompt": "Would you enjoy learning to analyze biological samples or research results and explain what they do and do not show?"
+        },
+        {
+          "purpose": "adjacent-role contrast",
+          "prompt": "Would you prefer to investigate disease in a research study, diagnose individual patients, or study health patterns in whole communities? Choose any, or unsure."
+        },
+        {
+          "purpose": "context, separate",
+          "prompt": "Would repeating a careful procedure and checking unexpected results appeal to you, or would you want to learn more about that routine first?"
+        }
+      ],
+      "branching": "Research/design interest opens medical scientist; reliable-lab-procedure interest may also open biological technician or clinical laboratory scientist; patient diagnosis routes toward clinical roles; population patterns routes toward epidemiology. Do not require intent to practice medicine."
+    },
+    {
+      "profession": "Operations research analyst",
+      "catalogStatus": "Not present under this occupation/SOC in supplied117career catalog.",
+      "sources": [
+        "operations-research"
+      ],
+      "trigger": "Interest in quantitative decision-making under constraints; can connect data, logistics, public-service or engineering interests.",
+      "questions": [
+        {
+          "purpose": "defining",
+          "prompt": "Would you enjoy learning to build a mathematical model that compares ways to use limited staff, time or resources?"
+        },
+        {
+          "purpose": "distinct defining",
+          "prompt": "Would you enjoy testing how a recommended plan changes when demand, costs or assumptions change?"
+        },
+        {
+          "purpose": "adjacent-role contrast",
+          "prompt": "Would you like to explore optimizing a decision with a model, finding patterns in data, coordinating an agreed project, or designing physical equipment? Choose any, or unsure."
+        },
+        {
+          "purpose": "context, separate",
+          "prompt": "Would explaining a model’s assumptions and limitations to people making a decision interest you?"
+        }
+      ],
+      "branching": "Optimization under constraints opens operations research; pattern-finding opens data science/statistics; coordination opens project/logistics roles. Spreadsheet familiarity or enjoyment of gaming strategy alone does not establish the profession."
+    }
+  ],
+  "scoringAndInterpretationProposal": {
+    "status": "Proposed evidence model, not empirical validated thresholds or likelihoods.",
+    "independentEvidence": "Track broad fit, domain interest, at least two semantically distinct defining-activity endorsements, adjacent-role differentiation, explicit contradictions and route/context information separately. Do not count the same answer multiple times because it appears in several fields or supports several occupations.",
+    "discovery": "Use weaker evidence to ask a question or offer a low-stakes work sample. Exposure eligibility should be wider than confirmed match eligibility.",
+    "top": "Require coherent occupation-specific evidence without unresolved defining-work contradictions. Compare similarly supported careers; show ties and why. Do not convert more total questions, a degree label or higher pay into stronger interest.",
+    "negative": "A clear dislike of a defining activity counts against that occupation. A dislike of an optional task, specialty or setting should branch to other variants rather than reject the whole profession. Check comprehension before treating a novice response as a firm conflict.",
+    "unknown": "Unfamiliar/unsure is missing information, not zero interest and not implicit Yes. Offer a neutral description or safe sample and ask again. Preserve status until resolved; do not impute hidden preferences from biography or demographics.",
+    "provenance": "Separate actual student choices from profile-inferred simulation answers. Inference confidence is not a psychometric probability. Show evidence excerpts and unresolved questions; original frozen histories stay immutable.",
+    "interestVersusFeasibility": "Interest evidence may justify a profession even when training feasibility is unresolved or entry pay does not sustain the lifestyle. State each separately. Financial feasibility must not create interest evidence; high salary must not be used as a rescue match.",
+    "unvalidatedRules": "Use transparent provisional rule thresholds initially and prospectively evaluate them. A copiedO*NETcorrelation threshold or twoYesrule does not acquire validity from using occupational source data."
+  },
+  "fairnessAndLimits": [
+    "Equal opportunity to learn about unfamiliar work is different from assigning equal numbers of professions. Do not use gender, ethnicity, family income or school prestige as an interest shortcut.",
+    "An adolescent without shadowing or lab access can express a coherent learning interest; lack of expensive exposure is not a disqualifier. Conversely, family exposure or a prestigious title is not sufficient evidence.",
+    "Current skill, grade history, self-efficacy, disability and financial/training barriers should be discussed as supports or feasibility, not silently treated as dislike.",
+    "RIASEC and basic-interest validity evidence is population- and instrument-specific. Fieldguide editorial questions remain exploration tools until their own validation; source-linked task accuracy alone is insufficient.",
+    "Published adult/graduate observational findings do not establish causal benefits of the proposed interface. Simulation/biography agreement tests consistency and code behavior, not student-outcome validity."
+  ],
+  "evaluationPlan": [
+    {
+      "phase": "Catalog and item audit",
+      "actions": "Create occupation×domain×activity×route coverage matrix, mapped to SOCs and current source versions. Identify missing questions before model replays. Independent occupational experts review defining versus optional tasks and adjacent-role distinctions."
+    },
+    {
+      "phase": "Comprehension and accessibility",
+      "actions": "Cognitive interviews with diverse secondary students, including limited work exposure, different language backgrounds, disability/access needs and rural/low-resource contexts. Ask students to explain prompts in their own words; track jargon, leading wording and reading burden."
+    },
+    {
+      "phase": "Frozen model replay",
+      "actions": "Keep 0.41, 0.42 and 0.44 answers and chart outputs frozen. Freeze the new question bank and offered manifest before biography-only authors answer new items. Authors must not see desired careers, outcomes or engine gates. Compare old/new status with explicit reason codes and evidence; never tune to make every model receive a degree profession."
+    },
+    {
+      "phase": "Holdout and adversarial evaluation",
+      "actions": "Retain unseen holdout profiles and add counterexamples: generic helping without diagnosis; science curiosity without patient care; justice concern without legal reasoning; gadgets without medical devices; mathematics without optimization; writing without law; strong interest with low prior exposure; and clear No despite a high salary target. Check false promotions and missed plausible invitations."
+    },
+    {
+      "phase": "Student pilot and calibration",
+      "actions": "Prospectively measure comprehension, completion, question burden, stability, response distributions and whether students recognize the offered work. Use independent counselor judgments and subsequent voluntary work-sample reactions as limited criteria, not agreement with the engine itself. If using a new scored scale, evaluate reliability, dimensionality, external validity and calibration before claiming a validated assessment."
+    },
+    {
+      "phase": "Fairness and exposure",
+      "actions": "Audit invited, visible, started, completed, eligible, Top, Other, pending and sustaining separately by field/route and available consented subgroup variables. Test differential item functioning/measurement comparability only with adequate data; do not infer sensitive traits from names. Evaluate whether unfamiliar responses concentrate in groups with less exposure. No numerical parity targets that force unsuitable matches."
+    },
+    {
+      "phase": "Outcome reporting",
+      "actions": "Report unique model counts and capped visible-list counts separately, ties, evidence insufficiency and catalog absence. Track questions asked per supported offer, breadth of interest coverage, false promotion rate, missed-domain invitations and unresolved status. A higher degree Top count alone is not success."
+    }
+  ],
+  "implementationOrderProposal": [
+    "Publish this audit with catalog and exposure distinctions.",
+    "Add transparent browse/search and domain discovery probes for existing overlooked professions, without changing Top thresholds automatically.",
+    "Prioritize new degree occupations by missing domains and independent source coverage, then author distinct activity questions and neutral role explanations.",
+    "Complete route/licensing/cost/first-paid-stage pay data for every new occupation before offering lifestyle coverage.",
+    "Freeze new questions, author unseen profile-consistent answers, run holdout evaluation and publish stage-by-stage chart differences with reasons.",
+    "Pilot with actual students before claiming scoring validity or calibrated adaptive efficiency."
+  ]
+}

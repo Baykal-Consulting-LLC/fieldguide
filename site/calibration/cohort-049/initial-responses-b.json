@@ -1,0 +1,6123 @@
+[
+  {
+    "id": "new049-003",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      4,
+      3,
+      2,
+      2
+    ],
+    "fields": [
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      2,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      4,
+      3,
+      4,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "independent",
+      "supported",
+      "new",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported"
+    ],
+    "priorities": [
+      "independence",
+      "curiosity",
+      "stability"
+    ],
+    "context": {
+      "company": "mix",
+      "rhythm": "variety",
+      "setting": [
+        "desk"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 1,
+        "transport": 2,
+        "groceries": 1,
+        "dining": 1,
+        "travel": 1,
+        "entertainment": 0,
+        "recreation": 1,
+        "clothing": 0,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "business",
+    "depth": {
+      "business-problem": [
+        "business-problem-1"
+      ],
+      "business-evidence": [
+        "business-evidence-1"
+      ],
+      "business-people": [
+        "business-people-1"
+      ],
+      "business-workday": [
+        "business-workday-3",
+        "business-workday-4"
+      ],
+      "business-refine-1": [
+        "business-refine-1-1"
+      ],
+      "business-refine-2": [],
+      "business-refine-3": [
+        "business-refine-3-1"
+      ],
+      "business-refine-4": [
+        "business-refine-4-1"
+      ]
+    },
+    "branchReason": "Comparing full offers, package quantities, and resale prices is a repeated voluntary interest. A budget is a small extension; investment analysis and sustained business management are still untested. Branch omissions preserve that limit.",
+    "financialAssumptions": "A dependable used vehicle and a trial in a larger town support a modest rented place, used car, and savings room. Other spending levels are tentative ordinary preferences, not deductions from household income. No education route is ruled out by access or organization difficulties.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Cleaning used gear and testing accessories show attention to objects, but he does not express a wish to build cabinets, lay tile, assemble electronics, or make repairs; these remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "low",
+        "evidence": "Seed package work was about prices rather than growing or studying organisms. Stones and evening walks do not establish laboratory, environmental, astronomy, fire investigation, or firefighting interests; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "medium",
+        "evidence": "He explicitly dislikes photographing and describing resale items, supporting mild dislike of related editing work, but has not rejected writing stories, drawing, effects, or set painting. Those unfamiliar creative tasks remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "He enjoyed a childhood singing game while finding singing embarrassing at home. This mixed and old evidence does not establish either current enthusiasm or aversion to instruments, composing, dance, or band singing."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "low",
+        "evidence": "Bicycling and board games are leisure preferences, without evidence of wanting to teach exercise, sports, a class, sign language, or provide personal care and counseling. Helping activities remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "medium",
+        "evidence": "Card exchanges and repeated small resale experiments support liking buying/selling, negotiating, starting a small venture, and merchandise sales. Managing stores or departments is untested. Clothing marketing resembles the posting he finds annoying; law and salon operations remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "medium",
+        "evidence": "He enjoys comparing quantities and checking that used items work, supporting calculator use and quality testing. Spreadsheets, network installation, and delivery driving are unfamiliar; wanting a vehicle is not evidence of enjoying deliveries."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "medium",
+        "evidence": "He explicitly loses interest in repetitive follow-through and dislikes long repetitive assignments, supporting mild dislike of sustained inventory and mail sorting. Proofreading forms, payroll, shipping logs, and rent records are not described and remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-18",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-58"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-004",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      4,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "supported",
+      "independent",
+      "supported",
+      "new",
+      "independent",
+      "supported",
+      "supported",
+      "new",
+      "supported",
+      "independent",
+      "supported"
+    ],
+    "priorities": [
+      "creativity",
+      "impact",
+      "independence"
+    ],
+    "context": {
+      "company": "team",
+      "rhythm": "variety",
+      "setting": [
+        "desk",
+        "people"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 2,
+        "groceries": 2,
+        "dining": 2,
+        "travel": 2,
+        "entertainment": 2,
+        "recreation": 1,
+        "clothing": 2,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "business",
+    "depth": {
+      "business-problem": [
+        "business-problem-3"
+      ],
+      "business-evidence": [
+        "business-evidence-2"
+      ],
+      "business-people": [
+        "business-people-2"
+      ],
+      "business-workday": [
+        "business-workday-3"
+      ],
+      "business-refine-1": [
+        "business-refine-1-2"
+      ],
+      "business-refine-2": [
+        "business-refine-2-2"
+      ],
+      "business-refine-3": [
+        "business-refine-3-2"
+      ],
+      "business-refine-4": [
+        "business-refine-4-2"
+      ]
+    },
+    "branchReason": "Her strongest repeated choice is planning messages for audiences and asking why invitations fail. Business branch customer evidence fits this interest; artwork delegation does not imply dislike of all creation. Management beyond small publicity teams remains untested.",
+    "financialAssumptions": "A summer away and freedom to finish chosen work suggest a rented personal space and a trip. Dining, clothing, and entertainment choices are tentative moderate hopes; comfortable parents do not justify premium consumption or a graduate route.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "She repeatedly delegates display construction and art rather than choosing physical making. There is no direct aversion to construction or repair tasks, so cabinets, tile, appliances, electronics, locks, and machines remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "low",
+        "evidence": "She wants to understand why different messages reach people, a transferable interest in comparing explanations, but there is no expressed preference for medicines, samples, organisms, pollution, planets, weather, or fire work. These specific tasks remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "medium",
+        "evidence": "She likes audience wording and opening sentences, supporting tentative liking for longer written pieces and scripts. She explicitly avoids artwork and video editing, supporting dislike of drawing, set painting, and editing; special effects are untested."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "medium",
+        "evidence": "Repetitive piano practice frustrated her and did not sustain her interest, supporting mild dislike of playing an instrument. There is insufficient evidence on composing, dancing, or singing to rate those beyond unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "medium",
+        "evidence": "Helping publicize a clothing exchange, book collection, and school event supports liking purposeful volunteering. She has not chosen teaching, therapy, child care, or other guidance activities; these remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "medium",
+        "evidence": "She enjoys setting campaign direction, adjusting messages, and getting her ideas used, supporting clothing marketing strongly and tentative department leadership and negotiation. Retail selling, financial trading, salon operations, legal representation, and starting a business remain untested."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "Her questioning of potential attendees is about audience understanding rather than spreadsheets, networking, calculator operations, delivery, or physical quality testing. These unfamiliar tasks remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Missed meetings reflect competing household calendars, not proof she dislikes accurate records. The biography does not show enjoyment or explicit rejection of proofreading, shipping, payroll, inventory, rent records, or mail; these remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-007",
+    "official": [
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "supported",
+      "independent",
+      "supported",
+      "new",
+      "supported",
+      "supported",
+      "independent",
+      "new",
+      "supported",
+      "independent",
+      "supported"
+    ],
+    "priorities": [
+      "curiosity",
+      "mastery",
+      "independence"
+    ],
+    "context": {
+      "company": "independent",
+      "rhythm": "mix",
+      "setting": [
+        "desk"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 0,
+        "groceries": 1,
+        "dining": 1,
+        "travel": 2,
+        "entertainment": 1,
+        "recreation": 1,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "business",
+    "depth": {
+      "business-problem": [
+        "business-problem-4"
+      ],
+      "business-evidence": [
+        "business-evidence-3"
+      ],
+      "business-people": [
+        "business-people-4"
+      ],
+      "business-workday": [
+        "business-workday-3"
+      ],
+      "business-refine-1": [
+        "business-refine-1-5"
+      ],
+      "business-refine-2": [
+        "business-refine-2-5"
+      ],
+      "business-refine-3": [
+        "business-refine-3-5"
+      ],
+      "business-refine-4": [
+        "business-refine-4-5"
+      ]
+    },
+    "branchReason": "He repeatedly chooses source checking, written argument, and disputed school rules. The branch indicates a tentative wish to clarify rules through evidence; courtroom speaking and enforcing decisions remain unresolved.",
+    "financialAssumptions": "A private rented space, simple recreation, and a trip to a place read about reflect his stated hopes. Cycling/transit is a tentative urban mobility choice; exact housing and other consumption are unknown. No graduate preference is inferred from careful writing.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "His early puzzle frustration and abandoned decorative maps do not establish aversion to construction or repair. No sustained interest in cabinets, tile, appliances, electronics, locks, or machine production appears; unsure is appropriate."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "medium",
+        "evidence": "Conflicting local water restrictions and contested claims support tentative interest in studying pollution and investigating causes such as a fire. This is transfer from evidence inquiry, not experience in either. Specific laboratory, astronomy, organism, weather-prediction, and firefighting tasks remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "medium",
+        "evidence": "He voluntarily revises paragraphs and wants classmates to read his longer work, supporting liking written books or scripts provisionally. Decorative map shading became tedious, supporting mild dislike of drawing. Effects, sets, and film editing are unfamiliar."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "medium",
+        "evidence": "He explicitly avoids performances after forgetting a line and dislikes waiting under lights. Dance and band singing plausibly inherit mild dislike of public performance; instruments and composing privately are unknown."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "medium",
+        "evidence": "He wants his explanations taken seriously, but no evidence shows wanting therapy, rehabilitation, child care, sports instruction, career guidance, sign teaching, or volunteering as activities. Teaching a class involves the public delivery he avoids and is mildly disliked."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "low",
+        "evidence": "Written argument about rules supports curiosity about legal reasoning but not enjoyment of representing a client in a live lawsuit, so that remains unsure. Selling, financial trades, management, salon operations, business ownership, contracts, and clothing marketing are untested."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "He checks quotations against original documents, which does not demonstrate interest in computer networks, spreadsheets, arithmetic tools, package driving, or parts testing. These remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "medium",
+        "evidence": "Precise meanings and checking quotations support liking proofreading as a tentative transfer. Shipping, payroll, stock, rent records, and sorting mail lack direct interest evidence and remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-34",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-008",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "fields": [
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      2
+    ],
+    "experience": [
+      "independent",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "new",
+      "supported",
+      "supported",
+      "supported"
+    ],
+    "priorities": [
+      "community",
+      "variety",
+      "independence"
+    ],
+    "context": {
+      "company": "team",
+      "rhythm": "variety",
+      "setting": [
+        "people"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 2,
+        "groceries": 2,
+        "dining": 2,
+        "travel": 2,
+        "entertainment": 2,
+        "recreation": 1,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "business",
+    "depth": {
+      "business-problem": [
+        "business-problem-2"
+      ],
+      "business-evidence": [
+        "business-evidence-4"
+      ],
+      "business-people": [
+        "business-people-2",
+        "business-people-5"
+      ],
+      "business-workday": [
+        "business-workday-2",
+        "business-workday-4"
+      ],
+      "business-refine-1": [
+        "business-refine-1-3"
+      ],
+      "business-refine-2": [
+        "business-refine-2-3"
+      ],
+      "business-refine-3": [
+        "business-refine-3-3",
+        "business-refine-3-4"
+      ],
+      "business-refine-4": [
+        "business-refine-4-3"
+      ]
+    },
+    "branchReason": "Jules repeatedly enjoys regrouping decision makers and allocating urgent work. The branch expresses interest in coordination under change, while detailed long-term record keeping and ordinary management remain less established.",
+    "financialAssumptions": "Independent transport, shared purposeful gatherings, and time for friends support a reliable used car and room for social plans. Housing and ordinary spending are tentative hopes. Education remains open; missing lists do not establish a route preference.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Moving tables during gatherings is practical help, not evidence of wanting to build, lay tile, assemble electronics, repair locks/appliances, or run production machines. Those tasks remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "low",
+        "evidence": "Weather changes are occasions for adapting an event, without evidence of wanting to predict weather or conduct science. No specific laboratory, nature, astronomy, fire investigation, or forest fire interest appears; these remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "low",
+        "evidence": "Family storytelling and assigning group story parts are positive but ambiguous evidence about personally writing books or scripts. Unfinished coloring is not an explicit broad aversion to art; drawing, effects, sets, writing, and editing remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "Drumming was voluntarily practiced for months and faded when equipment transport became inconvenient. This does not establish dislike; current instrument, composition, dance, and singing preferences remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "medium",
+        "evidence": "Neighborhood and school gathering help supports liking volunteering. Their wish to keep people from being stranded does not establish enjoyment of therapy, child care, teaching sports/classes/sign language, or career guidance; these remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "medium",
+        "evidence": "They enjoy making decisions, directing urgent tasks, and finding agreements, supporting management, a small venture, and negotiation. Retail management is a tentative extension. Stocks, salon management, legal advocacy, clothing promotion, and sales remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "Rapidly redistributing available materials does not demonstrate interest in parts quality checks, delivery driving, spreadsheets, network setup, or calculator use. All remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "medium",
+        "evidence": "They explicitly dislike counting supplies afterward and maintaining detailed lists. Inventory and shipping records and repetitive mail sorting receive mild dislike; payroll, rent entries, and proofreading forms lack specific evidence and remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-18",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-32",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-57",
+      "onet-sf-58"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-011",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      2,
+      5,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      5,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "independent"
+    ],
+    "priorities": [
+      "curiosity",
+      "mastery",
+      "independence"
+    ],
+    "context": {
+      "company": "independent",
+      "rhythm": "mix",
+      "setting": [
+        "desk"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 0,
+        "groceries": 1,
+        "dining": 1,
+        "travel": 1,
+        "entertainment": 0,
+        "recreation": 1,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "technology",
+    "depth": {
+      "technology-problem": [
+        "technology-problem-1",
+        "technology-problem-4"
+      ],
+      "technology-approach": [
+        "technology-approach-1",
+        "technology-approach-3"
+      ],
+      "technology-result": [
+        "technology-result-1",
+        "technology-result-4"
+      ],
+      "technology-workday": [
+        "technology-workday-1"
+      ],
+      "technology-refine-1": [
+        "technology-refine-1-1",
+        "technology-refine-1-5"
+      ],
+      "technology-refine-2": [
+        "technology-refine-2-1",
+        "technology-refine-2-5"
+      ],
+      "technology-refine-3": [
+        "technology-refine-3-1",
+        "technology-refine-3-4",
+        "technology-refine-3-5"
+      ],
+      "technology-refine-4": [
+        "technology-refine-4-1"
+      ]
+    },
+    "branchReason": "Debugging small useful systems is a repeated chosen activity, including duplicate alerts and synchronization. Branch choices keep the scale small; larger public services and shared projects are unfamiliar. Mood and identity are not evidence about interest.",
+    "financialAssumptions": "Steadiness and control over commitments suggest a private modest rental and savings room; other entries are tentative ordinary hopes without a stated luxury preference. Transport choice is exploratory. No education avoidance follows from energy, device access, or depression.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Toy buttons and blanket forts show early curiosity, but current voluntary work is digital. There is no basis to infer like or dislike for cabinetmaking, tile, appliances, electronic assembly, locks, or production machines; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "low",
+        "evidence": "Jordan enjoys isolating causes and checking reliability, a transferable inquiry interest. Yet no particular medicines, living systems, environment, astronomy, fire, or weather activities are chosen, so these specific unfamiliar tasks remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "medium",
+        "evidence": "They explicitly avoid fonts, color palettes, and drawing backgrounds, supporting mild dislike of drawing and decorative set work. Narrative writing, movie effects, scripts, and editing are insufficiently described and remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "Watching comedy does not show a wish to perform or make music. There is no explicit instrument, composing, dancing, or singing preference; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "low",
+        "evidence": "Device help for a neighbor is bounded practical support, not evidence of wanting counseling, therapy, child care, sports instruction, sign teaching, classroom teaching, or career guidance. These remain unsure rather than being reduced for low energy."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "medium",
+        "evidence": "They explicitly dislike pitching and say not to make them sell the button, supporting dislike of starting a venture, marketing, and merchandise sales. This does not show dislike of finance, contracts, salons, law, or management in general; those remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "medium",
+        "evidence": "Maintaining lists and making systems cooperate support liking spreadsheets and, tentatively, network software setup. Large networks remain unfamiliar despite the interest transfer. Calculator use, delivery driving, and checking physical parts remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Saved-data checks and concise technical notes do not establish enthusiasm for payroll, rent, shipping, supply inventory, mail, or proofreading unrelated forms. Those record-specific activities remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-34",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-012",
+    "official": [
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "independent",
+      "supported"
+    ],
+    "priorities": [
+      "curiosity",
+      "mastery",
+      "independence"
+    ],
+    "context": {
+      "company": "mix",
+      "rhythm": "mix",
+      "setting": [
+        "active",
+        "desk"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 1,
+        "transport": 2,
+        "groceries": 1,
+        "dining": 1,
+        "travel": 2,
+        "entertainment": 1,
+        "recreation": 2,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "science",
+    "depth": {
+      "science-wonder": [
+        "science-wonder-3",
+        "science-wonder-4"
+      ],
+      "science-setting": [
+        "science-setting-2",
+        "science-setting-3"
+      ],
+      "science-result": [
+        "science-result-2"
+      ],
+      "science-workday": [
+        "science-workday-1",
+        "science-workday-2",
+        "science-workday-4"
+      ],
+      "science-refine-1": [
+        "science-refine-1-1",
+        "science-refine-1-4"
+      ],
+      "science-refine-2": [
+        "science-refine-2-1"
+      ],
+      "science-refine-3": [
+        "science-refine-3-1",
+        "science-refine-3-4"
+      ],
+      "science-refine-4": [
+        "science-refine-4-1",
+        "science-refine-4-4"
+      ]
+    },
+    "branchReason": "Years of voluntary repeat observations, explicit method corrections, and questions about moisture give direct interest evidence for field inquiry. Laboratory answers are cautious transfers; low confidence is not low interest, and branch choices do not assert independent investigation experience.",
+    "financialAssumptions": "Her hopes concern choosing a question and credible notes rather than possessions. A modest independent rental, time for walking/observations, and savings are tentative choices. No current wage or limited equipment caps her desired lifestyle or education options.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Marked sticks and containers serve observations, without expressed enjoyment of construction, repair, electronics assembly, or manufacturing. Those practical tasks remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "medium",
+        "evidence": "Repeatedly returning after rain, keeping leaf records, and comparing dampness support strong pollution/environment interest and tentative fish-rearing and weather-prediction interest. Astronomy and fire work are untested; noticing rain does not imply firefighting enthusiasm."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "low",
+        "evidence": "She enjoys repeated observations and correcting comparisons. Biology lab work is a strong tentative transfer; chemical experiments, microscopy, and diagnostic testing are liked as evidence work but remain unfamiliar. Medicine development and inventing sweeteners have no specific basis and stay unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "Organizing photographs and marking leaves is about records, with no evidence of wanting authored stories, scripts, decorative drawing, sets, effects, or movie editing. All remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "low",
+        "evidence": "No music-making or performance preference is stated. Instruments, composition, dance, and singing remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "low",
+        "evidence": "Food-stall shifts and science-club attendance do not establish enjoyment of teaching, counseling, care, sports coaching, child care, sign language, or volunteering. Her relief about not presenting is not a general helping aversion; these remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "Wanting notes taken seriously does not imply wanting to lead or sell. No specific interest in stocks, stores, salons, departmental management, business ownership, contracts, law, or clothing marketing is established; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "She uses dated observations but has not expressed a preference for spreadsheets, networks, calculator operation, delivery driving, or parts inspection as activities. These remain unsure despite transferable care with evidence."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-18",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-34",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-015",
+    "official": [
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      3,
+      3,
+      4,
+      3,
+      5,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "independent",
+      "supported"
+    ],
+    "priorities": [
+      "curiosity",
+      "mastery",
+      "impact"
+    ],
+    "context": {
+      "company": "mix",
+      "rhythm": "mix",
+      "setting": [
+        "desk",
+        "active"
+      ],
+      "education": [
+        "college",
+        "graduate"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 2,
+        "groceries": 1,
+        "dining": 1,
+        "travel": 2,
+        "entertainment": 1,
+        "recreation": 2,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "science",
+    "depth": {
+      "science-wonder": [
+        "science-wonder-1"
+      ],
+      "science-setting": [
+        "science-setting-1",
+        "science-setting-3"
+      ],
+      "science-result": [
+        "science-result-1"
+      ],
+      "science-workday": [
+        "science-workday-1",
+        "science-workday-4"
+      ],
+      "science-refine-1": [
+        "science-refine-1-2",
+        "science-refine-1-4"
+      ],
+      "science-refine-2": [
+        "science-refine-2-2"
+      ],
+      "science-refine-3": [
+        "science-refine-3-2"
+      ],
+      "science-refine-4": [
+        "science-refine-4-2"
+      ]
+    },
+    "branchReason": "She repeatedly reads beyond class about bodily regulation and living systems and voluntarily repeats plant/yeast comparisons. Science branch choices concern those questions, not assumed comfort with direct care. Long study is explicitly welcome if compelling.",
+    "financialAssumptions": "Her stated interest in many years of learning supports college and possible graduate study independently of costs. Lifestyle is tentative moderate renting, a reliable car, study/hobby time, travel, and savings; no premium preferences are stated or ruled out by present income.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Packing produce and dinner duties are practical experience, without a stated interest in building or repairing physical systems. Cabinets, tile, appliances, electronics assembly, locks, and machines remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "medium",
+        "evidence": "Plants, changed growth conditions, and living-system questions support tentative liking for fish rearing and water-pollution inquiry. Astronomy, weather prediction, fire investigation, and forest firefighting have no specific interest evidence and remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "low",
+        "evidence": "Her sustained chosen reading about digestion, yeast, feedback, and body processes supports strong biology lab interest and liking chemistry, medicines, microscopy, sweetener investigation, and disease testing as tentative scientific extensions. These are interest ratings, not care-setting or laboratory experience claims."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "Simple process drawings are explanatory tools rather than evidence of a wish to write fiction, make films, draw art, paint sets, or edit. These creative activities remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "low",
+        "evidence": "Family card games and reading do not establish musical or public performance preferences. Instruments, composing, dance, and singing remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "low",
+        "evidence": "No direct care setting experience exists. Interest in how bodies work does not establish liking rehabilitation, counseling, group therapy, child care, career guidance, volunteering, sports coaching, sign teaching, or teaching a class; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "Her ambition is deeper understanding and education. No independent interest evidence supports financial trading, retail/salon management, departments, business ownership, contract bargaining, lawsuit representation, marketing, or sales; these remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Rough comparisons and biological drawings do not establish preferences for spreadsheets, networks, calculators, delivery driving, or parts testing. Those tasks remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-18",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-34",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-016",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      4,
+      3,
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      4,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "supported",
+      "independent",
+      "supported",
+      "new",
+      "supported",
+      "supported",
+      "independent",
+      "new",
+      "supported",
+      "independent",
+      "supported"
+    ],
+    "priorities": [
+      "impact",
+      "curiosity",
+      "mastery"
+    ],
+    "context": {
+      "company": "independent",
+      "rhythm": "mix",
+      "setting": [
+        "desk"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 0,
+        "groceries": 2,
+        "dining": 1,
+        "travel": 2,
+        "entertainment": 1,
+        "recreation": 1,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "business",
+    "depth": {
+      "business-problem": [
+        "business-problem-4"
+      ],
+      "business-evidence": [
+        "business-evidence-3"
+      ],
+      "business-people": [
+        "business-people-4"
+      ],
+      "business-workday": [
+        "business-workday-3",
+        "business-workday-4"
+      ],
+      "business-refine-1": [
+        "business-refine-1-5"
+      ],
+      "business-refine-2": [
+        "business-refine-2-5"
+      ],
+      "business-refine-3": [
+        "business-refine-3-5"
+      ],
+      "business-refine-4": [
+        "business-refine-4-5"
+      ]
+    },
+    "branchReason": "Written interpretation of rules, fair exceptions, and evidence is a direct recurring interest. Explaining a rule is supported; live advocacy and enforcement are unresolved, so branch choices do not claim a desire for public conflict.",
+    "financialAssumptions": "Reading on buses and wanting useful written work support a private rental and simple transport, with moderate travel and savings aspirations. Other spending is tentative; household comfort is not a consumption preference or evidence of a graduate route.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Writing board-game rules is not evidence about construction or repair. No preference for cabinets, tile, appliances, electronics, locks, or machine operation is stated; these remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "medium",
+        "evidence": "She enjoys testing explanations against awkward examples and separating what happened from inference, supporting tentative interest in investigating a fire cause. Particular laboratory, environmental, astronomical, weather, fish, or firefighting activities remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "medium",
+        "evidence": "Long book reports, editing publication pieces, and revising explanations support liking authored written pieces and scripts tentatively. There is no evidence about drawing art, effects, sets, or film editing; those remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "medium",
+        "evidence": "She explicitly avoids being made a spokesperson and public exchanges, supporting mild dislike of dance/band performance as tentative transfers. Private instrumental playing and composition remain unknown."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "medium",
+        "evidence": "Her wish to clarify disagreements is not evidence of wanting therapy, rehabilitation, child care, career guidance, sports instruction, sign teaching, or volunteering. Classroom teaching entails public delivery she dreads, supporting mild dislike; the remaining helping tasks stay unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "medium",
+        "evidence": "Fair-rule analysis supports liking contract negotiation when thoughtful written discussion is possible. Live lawsuit representation remains unsure because public conflict is unresolved. Finance, stores, salons, departments, business ownership, marketing, and selling lack direct interest evidence."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "Her written schedule proposals show selective interest in fair arrangements, not demonstrated enjoyment of spreadsheets, networks, calculator operation, package delivery, or parts inspection; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "medium",
+        "evidence": "Checking weak sentences and preserving relevant differences supports liking proofreading records provisionally. Routine shipping, payroll, stock, rent, and mail tasks are unfamiliar and remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-18",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-019",
+    "official": [
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      5,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "independent",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported"
+    ],
+    "priorities": [
+      "creativity",
+      "independence",
+      "mastery"
+    ],
+    "context": {
+      "company": "independent",
+      "rhythm": "mix",
+      "setting": [
+        "active",
+        "desk"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 2,
+        "groceries": 2,
+        "dining": 1,
+        "travel": 2,
+        "entertainment": 1,
+        "recreation": 3,
+        "clothing": 2,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "creative",
+    "depth": {
+      "creative-make": [
+        "creative-make-2"
+      ],
+      "creative-revise": [
+        "creative-revise-2"
+      ],
+      "creative-people": [],
+      "creative-workday": [
+        "creative-workday-1",
+        "creative-workday-2"
+      ],
+      "creative-refine-1": [
+        "creative-refine-1-3"
+      ],
+      "creative-refine-2": [
+        "creative-refine-2-3"
+      ],
+      "creative-refine-3": [
+        "creative-refine-3-2"
+      ],
+      "creative-refine-4": [
+        "creative-refine-4-3"
+      ]
+    },
+    "branchReason": "Unprompted fabric experiments, sleeve sketches, and repeated seam revision support physical design. Strong mathematics is not substituted for her chosen activity, and dyslexia does not determine interests. Client work and production deadlines remain unknown.",
+    "financialAssumptions": "She wants time for her own choices and fabric work, supporting hobby/equipment room and a few quality pieces. Housing, travel, and car levels are tentative moderate hopes. Family resources and course performance do not establish adult spending or further-study preferences.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "medium",
+        "evidence": "Changing how fabric fits and revising seams support tentative liking for cabinet construction as physical design transfer. Tile, appliances, electronics, locks, and machines have no specific interest evidence and remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "low",
+        "evidence": "Geometry enjoyment and spatial work do not establish scientific interests. No voluntary environmental, biological, chemical, astronomy, weather, fire investigation, or firefighting interest is described; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "medium",
+        "evidence": "Free afternoons go to clothing sketches and fabric changes, supporting drawing strongly and set painting tentatively as visual making. Writing books/scripts, effects, and editing are unfamiliar and remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "Audiobooks during stitching show listening preference, not making music or performing. Instrument, composition, dance, and band singing preferences remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "low",
+        "evidence": "She has tried a classmate repair but feels stressed by promised perfection. This does not establish either interest or aversion to teaching, counseling, rehabilitation, volunteering, child care, sign instruction, sports guidance, or classroom teaching; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "low",
+        "evidence": "Personal clothing creation does not establish liking clothing marketing or store management. Finance, salon operations, departments, ownership, contracts, legal advocacy, marketing, and selling remain unsure; her parents suggested math rather than these activities."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "medium",
+        "evidence": "Some enjoyable math problems and her visual experiments support tentative liking for calculator use and checking physical quality. Spreadsheets, network setup, and delivery driving are untested and remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Dense reading is effortful, but this is not evidence of disliking proofreading or records. Shipping, payroll, stock, rent, mail, and form tasks remain unsure rather than being lowered for dyslexia."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-34",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-020",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      3,
+      3,
+      3,
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported"
+    ],
+    "priorities": [
+      "curiosity",
+      "mastery",
+      "community"
+    ],
+    "context": {
+      "company": "mix",
+      "rhythm": "mix",
+      "setting": [
+        "desk",
+        "active"
+      ],
+      "education": [
+        "college"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 2,
+        "groceries": 2,
+        "dining": 1,
+        "travel": 2,
+        "entertainment": 1,
+        "recreation": 2,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "science",
+    "depth": {
+      "science-wonder": [],
+      "science-setting": [
+        "science-setting-1"
+      ],
+      "science-result": [],
+      "science-workday": [
+        "science-workday-1",
+        "science-workday-4"
+      ],
+      "science-refine-1": [],
+      "science-refine-2": [],
+      "science-refine-3": [
+        "science-refine-3-2"
+      ],
+      "science-refine-4": [
+        "science-refine-4-2"
+      ]
+    },
+    "branchReason": "He chooses motion problems and experiments despite needing substantial help. Science is a broad exploratory choice; the branch lacks his physics focus, so organism/environment outcome options are left empty. A supervised demonstration is an introduction, not a preference for biological work.",
+    "financialAssumptions": "Continuing the next demanding course supports considering a degree, without evidence of graduate appetite. Games, swimming, study time, and ordinary travel support moderate hopeful choices. Existing household comfort does not imply premium spending.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Toy ramps and one flashlight exploration were brief and adult-supported. He has not chosen complicated equipment building; construction, repair, electronics, locks, and production-machine preferences remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "medium",
+        "evidence": "Voluntary motion study and comparing predictions support tentative liking of studying planets, weather prediction, and fire-cause inquiry as physical explanation tasks. Pollution, fish care, and forest firefighting are untested and remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "low",
+        "evidence": "He likes experiments matching or challenging predictions, supporting tentative liking of chemical experiments. Medicines, blood microscopy, biology labs, sweeteners, and disease testing have no specific topic interest evidence and remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "He dislikes long report formatting but that is not a stated aversion to writing stories, scripts, art, movie effects, sets, or editing. Those unfamiliar creative tasks remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "low",
+        "evidence": "Family games and swimming do not indicate performance interests. Instrument playing, composing, dance, and singing remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "low",
+        "evidence": "He values explanations from teachers and friends, but receiving support is not a wish to provide therapy, teach sports/classes/sign language, give career guidance, volunteer, or care for children. These remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "Persistence in physics does not imply interest in finance, selling, salons, stores, departments, business ownership, contracts, law, or marketing. All remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Diagrams and equations support learning experience, without a stated preference for calculators or spreadsheets as work. Networks, delivery driving, and parts inspection are also untested; all remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-17",
+      "onet-sf-18",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-34",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-023",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      1,
+      2,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      3,
+      3,
+      2,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      5,
+      3,
+      2,
+      1,
+      2,
+      3,
+      3
+    ],
+    "fields": [
+      5,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      4,
+      3,
+      3,
+      1,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      1,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2
+    ],
+    "experience": [
+      "independent",
+      "supported",
+      "supported",
+      "independent",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "independent",
+      "supported",
+      "independent",
+      "supported"
+    ],
+    "priorities": [
+      "independence",
+      "creativity",
+      "mastery"
+    ],
+    "context": {
+      "company": "independent",
+      "rhythm": "mix",
+      "setting": [
+        "desk",
+        "active"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 0,
+        "groceries": 1,
+        "dining": 0,
+        "travel": 1,
+        "entertainment": 0,
+        "recreation": 2,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "creative",
+    "depth": {
+      "creative-make": [
+        "creative-make-3"
+      ],
+      "creative-revise": [
+        "creative-revise-3"
+      ],
+      "creative-people": [],
+      "creative-workday": [
+        "creative-workday-1",
+        "creative-workday-2"
+      ],
+      "creative-refine-1": [
+        "creative-refine-1-4"
+      ],
+      "creative-refine-2": [
+        "creative-refine-2-4"
+      ],
+      "creative-refine-3": [
+        "creative-refine-3-4"
+      ],
+      "creative-refine-4": [
+        "creative-refine-4-4"
+      ]
+    },
+    "branchReason": "His narrow positive choice is silent paper movement and frame timing. Creative branch options describe a solo moving-image project, with collaborator/client questions empty. Actual refusals of group prompts and dialogue remain refusals; untried solitary activities stay unsure.",
+    "financialAssumptions": "A quiet personal rented space, modest equipment/hobby room, and simple leisure are tentative extensions of his chosen solitary work. Income is not used to constrain hopes. No learning route is rejected for declining clubs.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Folding and cutting paper are sustained pleasures, but interest in cabinets, tile, appliances, electronics, locks, or production machinery is not established. These unfamiliar physical activities remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "low",
+        "evidence": "He explicitly says he has barely tried gardening and extended science. There is no basis to fill that gap with dislike or enthusiasm for organisms, labs, environment, planets, weather, fire investigation, or firefighting; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "medium",
+        "evidence": "He repeatedly changes frame spacing and reviews clips, supporting strong effects and movie-editing interest and tentative liking of drawing shapes. He dislikes writing character stories and specifically rejects dialogue, supporting mild dislike of books and strong dislike of scripts. Sets remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "medium",
+        "evidence": "Quiet music while cutting is listening, not composing or playing. Public performing is explicitly disliked, so dance and band singing are strongly disliked; instrument playing and private composing remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "medium",
+        "evidence": "Team sports, public delivery, and group planning are explicitly disliked, supporting strong dislike of sports coaching and mild dislike of classroom teaching. Therapy, rehabilitation, child care, career/sign guidance, exercise teaching, and volunteering are not established and remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "medium",
+        "evidence": "He explicitly rejects persuasion and group planning, supporting strong dislikes for negotiation, marketing, selling, and department direction. Business ownership, lawsuits, and clothing-store management are mildly disliked as related demands, with uncertainty about actual work; stocks, salons, and generic retail management remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "He notices timing and tests small digital changes, but no interest in spreadsheets, network deployment, calculators, deliveries, or parts inspection is stated. These remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Keeping a folder of clips is not evidence of wanting payroll, rent, shipping, stock, mail, or proofreading work. All remain unsure rather than being globally lowered for his sincere narrow preferences."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-55",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "new049-024",
+    "official": [
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      4,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported"
+    ],
+    "priorities": [
+      "curiosity",
+      "independence",
+      "creativity"
+    ],
+    "context": {
+      "company": "mix",
+      "rhythm": "mix",
+      "setting": [
+        "desk",
+        "people",
+        "active"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 0,
+        "groceries": 2,
+        "dining": 1,
+        "travel": 2,
+        "entertainment": 1,
+        "recreation": 2,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "education",
+    "depth": {
+      "education-help": [
+        "education-help-3"
+      ],
+      "education-learners": [
+        "education-learners-4"
+      ],
+      "education-approach": [
+        "education-approach-4"
+      ],
+      "education-workday": [
+        "education-workday-4"
+      ],
+      "education-refine-1": [
+        "education-refine-1-4"
+      ],
+      "education-refine-2": [
+        "education-refine-2-4"
+      ],
+      "education-refine-3": [
+        "education-refine-3-4"
+      ],
+      "education-refine-4": [
+        "education-refine-4-4"
+      ]
+    },
+    "branchReason": "Neighborhood changes, relatives’ recollections, and a readable map make community information an exploratory choice. This does not settle whether the interest lasts or whether she enjoys systematic research; branches reflect a small supported introduction, not completed expertise.",
+    "financialAssumptions": "A personal place, local mobility, familiar baking, and time to explore interests support moderate hopes. Exact spending and travel are ambiguous. Changing electives and household resources do not establish any education route preference.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Street-sign cardboard and rough maps do not establish a wish for building or repair work. Cabinets, tile, appliances, electronics, locks, and machines remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "medium",
+        "evidence": "Puddles, blocked sidewalks, and neighborhood route changes support tentative water-pollution and weather inquiry interest. These are place-based curiosity transfers, not commitments. Labs, organisms, astronomy, fire investigation, and firefighting remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "medium",
+        "evidence": "Rough maps, titles, recipe introductions, and recollections support tentative drawing and written/story-script interest. She explicitly avoids sorting long recordings, supporting mild dislike of movie editing. Effects and set painting are untested."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "Speaking on recipe introductions does not establish a wish to play instruments, compose, dance, or sing. These remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "medium",
+        "evidence": "Wanting to share discoveries about a neighborhood supports tentative volunteering interest. Familiar conversations do not establish counseling, child care, rehabilitation, career/sign guidance, sports teaching, or high-school teaching preferences; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "low",
+        "evidence": "Past baking pride and borrowed recording equipment do not imply a business wish. Finance, retail/salon/department management, ownership, negotiation, lawsuits, marketing, and selling remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "Her familiar recipe measurements require reminders, while mapping is unfinished. Neither ability nor unfinished work establishes interest in spreadsheets, networks, calculators, deliveries, or parts inspection; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Unlabeled recordings and weak follow-through show uncertainty about sustaining projects, not a clear dislike of record tasks. Forms, payroll, shipping, stock, rent, and mail remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-34",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-40",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "diag049-001",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      4,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      4,
+      3,
+      4,
+      5,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      4,
+      2,
+      2
+    ],
+    "fields": [
+      2,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      5,
+      2,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "experience": [
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported"
+    ],
+    "priorities": [
+      "stability",
+      "community",
+      "independence"
+    ],
+    "context": {
+      "company": "team",
+      "rhythm": "variety",
+      "setting": [
+        "people"
+      ],
+      "education": [
+        "college",
+        "training",
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "own",
+      "choices": {
+        "home": 3,
+        "transport": 3,
+        "groceries": 2,
+        "dining": 2,
+        "travel": 3,
+        "entertainment": 2,
+        "recreation": 2,
+        "clothing": 2,
+        "saving": 3
+      }
+    },
+    "selectedFamily": "business",
+    "depth": {
+      "business-problem": [
+        "business-problem-3"
+      ],
+      "business-evidence": [
+        "business-evidence-2"
+      ],
+      "business-people": [
+        "business-people-1"
+      ],
+      "business-workday": [
+        "business-workday-4"
+      ],
+      "business-refine-1": [
+        "business-refine-1-2"
+      ],
+      "business-refine-2": [
+        "business-refine-2-2"
+      ],
+      "business-refine-3": [
+        "business-refine-3-2"
+      ],
+      "business-refine-4": [
+        "business-refine-4-2"
+      ]
+    },
+    "branchReason": "Repeated bargaining and conversations with buyers support interest in customer needs and agreements, while checking long budgets is disliked. This branch is exploratory about bargaining, not evidence of a wish to lead every aspect of a business.",
+    "financialAssumptions": "The biography explicitly wants substantial financial comfort, promptly replaced appliances, a house, and family vacations. A spacious owned home, newer car, travel, and strong savings reflect those hopes, independent of current poverty. Studying after school is open; graduate study has not been endorsed.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Childhood sorting and household supervision do not establish physical making or repair interest. Cabinets, tile, appliances, electronics, locks, and machines remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "low",
+        "evidence": "Her interest is social exchange rather than any stated laboratory, organism, environment, astronomy, weather, fire investigation, or firefighting activity. Those unfamiliar tasks remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "medium",
+        "evidence": "She explicitly avoids posters and left one unfinished; drawing and set painting receive mild dislike. Story/script writing, effects, and movie editing remain unsure; slow writing is not itself a dislike of written creation."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "medium",
+        "evidence": "Dance practice felt repetitive and she quit, supporting mild dislike of dancing. Enjoying performance clothes does not settle singing, instruments, or composing, which remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "medium",
+        "evidence": "Fundraising conversations and being useful to relatives support liking volunteering. Watching brothers is a responsibility rather than a demonstrated child-care preference. Therapy, rehabilitation, career/sign guidance, and sports/class teaching remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "medium",
+        "evidence": "Negotiating bowls and yard-sale bundles is a repeated positive choice, supporting strong negotiation and merchandise sales, and tentative management, ownership, and advocacy interest. Stocks and salon operations remain unsure; she dislikes poster creation but audience marketing as a whole is unresolved."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "medium",
+        "evidence": "She explicitly avoids long columns of numbers and repeated checking, supporting mild dislike of spreadsheets/calculator work. Network installation, delivery driving, and parts testing are untested and remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "medium",
+        "evidence": "Quiet repetitive checking is explicitly avoided, supporting mild dislike of proofreading, payroll calculation, stock records, and mail sorting. Shipping and rent records lack specific evidence and remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-23",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-32",
+      "onet-sf-35",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-56"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "diag049-002",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "independent",
+      "supported"
+    ],
+    "priorities": [
+      "independence",
+      "community",
+      "variety"
+    ],
+    "context": {
+      "company": "mix",
+      "rhythm": "mix",
+      "setting": [
+        "desk",
+        "people"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 2,
+        "groceries": 2,
+        "dining": 1,
+        "travel": 2,
+        "entertainment": 1,
+        "recreation": 1,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "business",
+    "depth": {
+      "business-problem": [
+        "business-problem-2"
+      ],
+      "business-evidence": [
+        "business-evidence-4"
+      ],
+      "business-people": [
+        "business-people-3",
+        "business-people-5"
+      ],
+      "business-workday": [
+        "business-workday-4"
+      ],
+      "business-refine-1": [
+        "business-refine-1-3"
+      ],
+      "business-refine-2": [
+        "business-refine-2-3"
+      ],
+      "business-refine-3": [
+        "business-refine-3-3"
+      ],
+      "business-refine-4": [
+        "business-refine-4-3"
+      ]
+    },
+    "branchReason": "Private conversations about underlying needs and workable exchanges are recurring choices. Business coordination is tentative: he wants agreements, while public enforcement and management without compromise may not suit him. The branch does not claim leadership appetite.",
+    "financialAssumptions": "His own room and a visit somewhere new support personal rented space and a proper trip. Cooking and games support moderate ordinary spending. Family budgeting does not determine his own consumption or education preference.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Cushion tunnels and childhood water channels are old and do not establish current cabinetmaking, tile, appliances, electronics, locks, or machines interest. All remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "low",
+        "evidence": "He abandoned gardening when weather made it unpleasant, without rejecting organism or environmental study. No specific laboratory, astronomy, weather, fire investigation, or firefighting preference is stated; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "low",
+        "evidence": "He quietly assembled written group pieces but hid crafts from public display. This does not establish a creative-writing or art preference or broad aversion; books, drawing, effects, sets, scripts, and editing remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "medium",
+        "evidence": "He explicitly avoids public attention, praise, and microphones. Public dance and band singing receive tentative mild dislike; instruments and composing privately remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "medium",
+        "evidence": "Strategy-club compromise is not equivalent to counseling or therapy interest. Sports/exercise/sign teaching, rehabilitation, child care, volunteering, and career guidance remain unsure. Teaching a whole class is mildly disliked as a public responsibility."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "medium",
+        "evidence": "He likes discovering what people accept, remembering offers, and finding trades, supporting strong contract-negotiation interest as a transfer. Public enforcement makes department management mildly disliked. Stores, finance, salons, ownership, lawsuits, clothing promotion, and selling remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "Remembering constraints and offers does not establish spreadsheet, network, calculator, delivery, or parts-inspection preferences. These remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Formal inventory is explicitly unfamiliar and unlabeled cupboard items remain a problem. No stated enjoyment or aversion establishes shipping/payroll/stock/rent records, forms, or mail; these remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-18",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "diag049-007",
+    "official": [
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      4,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      2,
+      4,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      2,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "independent",
+      "supported"
+    ],
+    "priorities": [
+      "impact",
+      "mastery",
+      "independence"
+    ],
+    "context": {
+      "company": "mix",
+      "rhythm": "mix",
+      "setting": [
+        "desk",
+        "people"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 0,
+        "groceries": 1,
+        "dining": 1,
+        "travel": 1,
+        "entertainment": 1,
+        "recreation": 2,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "education",
+    "depth": {
+      "education-help": [
+        "education-help-2"
+      ],
+      "education-learners": [
+        "education-learners-2",
+        "education-learners-3"
+      ],
+      "education-approach": [
+        "education-approach-1"
+      ],
+      "education-workday": [
+        "education-workday-1"
+      ],
+      "education-refine-1": [
+        "education-refine-1-2"
+      ],
+      "education-refine-2": [
+        "education-refine-2-2"
+      ],
+      "education-refine-3": [
+        "education-refine-3-2"
+      ],
+      "education-refine-4": [
+        "education-refine-4-2"
+      ]
+    },
+    "branchReason": "She voluntarily revises examples until classmates understand. Subject explanation is the selected interest; allocating tasks and organizing groups remain disliked. An unnamed developmental diagnosis supplies no interest evidence.",
+    "financialAssumptions": "Prepared time and a booklet for her brother suggest a private modest rental and hobby/learning room. Other choices are tentative ordinary hopes rather than restrictions from household finances or accommodations. Further learning routes remain open.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Arranging plastic animals and using household containers for density examples are not evidence about construction, appliance repair, electronics, locks, tile, or machines; these remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "medium",
+        "evidence": "Weather books and diagrams are chosen interests, supporting tentative liking for pollution inquiry and weather prediction. Unopened science kits do not show dislike of labs or other investigations; medicine, organisms, astronomy, fire, and firefighting tasks remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "medium",
+        "evidence": "Her diagrams and annotated examples support liking drawing as explanatory making, not an assumed broad art identity. Books, scripts, effects, set painting, and editing remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "Comedy clips are enjoyed as an audience member. No particular instrument, composition, dance, or singing preference appears; public unprepared speaking is not enough to infer dislike of every performance."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "medium",
+        "evidence": "Repeated voluntary peer explanations support liking a high-school class and tentative guidance/sign teaching as helping someone grasp an idea. Care for unfamiliar children, sports/exercise teaching, rehabilitation, therapy, counseling, and volunteering remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "low",
+        "evidence": "She explicitly avoids assigning group tasks and collecting preferences for outings, but no official business item exactly isolates that task. Stores, salons, departments, finance, ownership, contracts, lawsuits, marketing, and sales remain unsure rather than being universally rejected."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "Revising a mistaken example with a teacher is learning support, not evidence of interest in spreadsheets, networks, calculators, package driving, or parts testing; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Reminders are needed for routine deadlines. That does not establish aversion to proofreading, shipping, payroll, stock, rent, or mail activities, which remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-34",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "diag049-009",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      3,
+      4,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "independent",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "independent",
+      "supported",
+      "supported",
+      "independent",
+      "new"
+    ],
+    "priorities": [
+      "curiosity",
+      "mastery",
+      "independence"
+    ],
+    "context": {
+      "company": "independent",
+      "rhythm": "mix",
+      "setting": [
+        "desk"
+      ],
+      "education": [
+        "college",
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 2,
+        "transport": 2,
+        "groceries": 1,
+        "dining": 1,
+        "travel": 2,
+        "entertainment": 0,
+        "recreation": 2,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "science",
+    "depth": {
+      "science-wonder": [],
+      "science-setting": [],
+      "science-result": [],
+      "science-workday": [
+        "science-workday-4"
+      ],
+      "science-refine-1": [],
+      "science-refine-2": [],
+      "science-refine-3": [],
+      "science-refine-4": []
+    },
+    "branchReason": "Her sustained voluntary interest is abstract rules, counterexamples, and arguments. Science is an exploratory broad family for inquiry; its living/lab/environment branch options do not represent her mathematics questions, so most remain empty. Available supported tryouts are not evidence she completed or enjoyed them.",
+    "financialAssumptions": "She explicitly wants harder material and uninterrupted study, supporting considering college while keeping routes open; graduate study is unknown. Quiet personal space, dependable transport, travel/study time, and savings are tentative hopes. Poverty and presentation anxiety do not lower aspirations or determine interests.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Paid fence painting and cooking are responsibilities and income activities, without a stated wish for construction, repair, electronics, locks, tile, or production machines. Those interests remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "medium",
+        "evidence": "Invented counting rules, infinity questions, and counterexamples support tentative interest in planetary study and fire-cause reasoning as logical inquiry transfers. Specific organism, environment, weather, chemical/lab, and firefighting activities remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "low",
+        "evidence": "She has not chosen medicine, chemical experiments, microscopy, biology labs, sweetener development, or diagnostic tests. Mathematical inquiry is not equivalent to liking every scientific domain, so these remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "Paper mazes served restrictions rather than art or storytelling. No expressed creative-writing, drawing, effects, sets, scripts, or editing interest exists; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "low",
+        "evidence": "Anxiety in timed demonstrations and dislike of being watched do not establish preferences about private instruments/composing or dance/band activities themselves. There is insufficient evidence to choose beyond unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "low",
+        "evidence": "Keeping a brother on an evening routine is a responsibility, with some resentment of lost study time, not enough to establish child-care aversion or enthusiasm. Teaching, therapy, rehabilitation, volunteering, and guidance activities remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "medium",
+        "evidence": "Wanting dependable money and family choices is not interest in stocks, stores, salons, departments, ownership, contracts, lawsuits, clothing promotion, or selling. All remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Tables checking claims and grocery totals support tentative liking for spreadsheets and calculators, despite digital experience being new. Networks, delivery driving, and physical parts checks remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-17",
+      "onet-sf-18",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-34",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "diag049-010",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "fields": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "experience": [
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "supported",
+      "new",
+      "supported",
+      "supported",
+      "supported",
+      "supported"
+    ],
+    "priorities": [
+      "stability",
+      "independence",
+      "variety"
+    ],
+    "context": {
+      "company": "unknown",
+      "rhythm": "unknown",
+      "setting": [
+        "unknown"
+      ],
+      "education": [
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 1,
+        "transport": 2,
+        "groceries": 1,
+        "dining": 1,
+        "travel": 1,
+        "entertainment": 1,
+        "recreation": 1,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "services",
+    "depth": {
+      "services-serve": [
+        "services-serve-1"
+      ],
+      "services-make": [
+        "services-make-1"
+      ],
+      "services-people": [],
+      "services-workday": [],
+      "services-refine-1": [],
+      "services-refine-2": [],
+      "services-refine-3": [],
+      "services-refine-4": [
+        "services-refine-4-1"
+      ]
+    },
+    "branchReason": "A short cooking lesson and occasional simple shared meals provide a tentative starting point for supported exploration. She is not declaring a settled service interest: most branch choices are empty. Accessible sessions offer an opportunity and do not establish completion, skill, enjoyment, or commitment.",
+    "financialAssumptions": "Predictable personal space and a shelf that stays hers support a small rented place; a reliable car and savings room are hopes for stability. Other spending is tentative and ordinary, not scaled down because of poverty. Learning routes are unknown because access and lasting preference are unresolved.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Copying funny faces and sometimes braiding hair are limited trials, not evidence about cabinetmaking, tile, appliances, electronics, locks, or machines. These remain unsure, without treating limited access as dislike."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "low",
+        "evidence": "Extended labs and structured outdoors are unfamiliar. There is no basis for preferring or rejecting medicine, environment, organisms, planets, weather, fire investigation, or firefighting; all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "low",
+        "evidence": "Cereal-box drawing and one copied funny face are weak early evidence, while craft supplies were abandoned for moving logistics. Books, drawing, effects, sets, scripts, and editing remain unsure rather than being rated as disliked."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "She enjoys selecting music but has not tried making it. Dance was never arranged, and a declined performance depended on rides. Instruments, composing, dance, and singing remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "low",
+        "evidence": "She sometimes likes quiet games with cousins and sometimes wants solitude; supervision is partly duty. No stable preference is established for child care, teaching, therapy, rehabilitation, volunteering, or guidance, so all remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "low",
+        "evidence": "Learning household routines and watching relatives braid hair do not establish interest in salons, retail, finance, departments, ownership, contracts, law, marketing, or selling. These remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "low",
+        "evidence": "Library computer use is access experience, not a stated preference for spreadsheets, network setup, calculators, delivery driving, or parts testing. All remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "low",
+        "evidence": "Interrupted assignments and limited storage are constraints, not evidence of disliking records. Forms, shipping, payroll, inventory, rent entries, and mail remain unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-09",
+      "onet-sf-10",
+      "onet-sf-11",
+      "onet-sf-12",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-18",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-22",
+      "onet-sf-23",
+      "onet-sf-24",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-33",
+      "onet-sf-34",
+      "onet-sf-35",
+      "onet-sf-36",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-46",
+      "onet-sf-47",
+      "onet-sf-48",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-57",
+      "onet-sf-58",
+      "onet-sf-59",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  },
+  {
+    "id": "diag049-011",
+    "official": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      2,
+      5,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      2,
+      5,
+      3
+    ],
+    "fields": [
+      3,
+      4,
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      4,
+      3,
+      3,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      5,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      5
+    ],
+    "experience": [
+      "independent",
+      "independent",
+      "independent",
+      "supported",
+      "supported",
+      "supported",
+      "independent",
+      "independent",
+      "supported",
+      "supported",
+      "independent",
+      "supported"
+    ],
+    "priorities": [
+      "curiosity",
+      "stability",
+      "independence"
+    ],
+    "context": {
+      "company": "independent",
+      "rhythm": "mix",
+      "setting": [
+        "desk"
+      ],
+      "education": [
+        "college",
+        "unknown"
+      ]
+    },
+    "lifestyle": {
+      "homeMode": "rent",
+      "choices": {
+        "home": 0,
+        "transport": 0,
+        "groceries": 1,
+        "dining": 0,
+        "travel": 1,
+        "entertainment": 0,
+        "recreation": 1,
+        "clothing": 1,
+        "saving": 2
+      }
+    },
+    "selectedFamily": "business",
+    "depth": {
+      "business-problem": [
+        "business-problem-1"
+      ],
+      "business-evidence": [
+        "business-evidence-1"
+      ],
+      "business-people": [
+        "business-people-1"
+      ],
+      "business-workday": [
+        "business-workday-1",
+        "business-workday-3"
+      ],
+      "business-refine-1": [
+        "business-refine-1-1"
+      ],
+      "business-refine-2": [
+        "business-refine-2-1"
+      ],
+      "business-refine-3": [
+        "business-refine-3-1"
+      ],
+      "business-refine-4": [
+        "business-refine-4-1"
+      ]
+    },
+    "branchReason": "Reconciling records, separating estimates, and comparing costs with time are direct repeated interests. The branch is about explaining a financial choice, not controlling household money, leadership, sales, or graduate study. Guaranteed first-degree tuition changes access without changing his interests.",
+    "financialAssumptions": "The diagnostic biography explicitly specifies modest shared housing and a first-degree tuition/material grant. Shared rent, transit, simple leisure, and savings follow that stated target; costs beyond a degree and graduate willingness are unknown. This preserves the diagnostic assumptions rather than inventing higher consumption.",
+    "responseRationales": [
+      {
+        "items": [
+          "onet-sf-01",
+          "onet-sf-02",
+          "onet-sf-13",
+          "onet-sf-25",
+          "onet-sf-38",
+          "onet-sf-49"
+        ],
+        "confidence": "low",
+        "evidence": "Setting up chairs is occasional paid work, not evidence of enjoying cabinets, tile, repairs, electronics, locks, or production machinery. These remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-03",
+          "onet-sf-04",
+          "onet-sf-14",
+          "onet-sf-15",
+          "onet-sf-16",
+          "onet-sf-27",
+          "onet-sf-28",
+          "onet-sf-39",
+          "onet-sf-40",
+          "onet-sf-50",
+          "onet-sf-51",
+          "onet-sf-52"
+        ],
+        "confidence": "low",
+        "evidence": "He enjoys explaining discrepancies and trade-offs, but grandfather care scheduling does not establish health, laboratory, organism, environmental, astronomy, weather, fire, or firefighting interests. These specific activities remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-05",
+          "onet-sf-18",
+          "onet-sf-29",
+          "onet-sf-30",
+          "onet-sf-41",
+          "onet-sf-54"
+        ],
+        "confidence": "low",
+        "evidence": "Written recommendations help him explain costs, but no evidence shows wanting fiction, visual art, effects, sets, scripts, or movie editing. These remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-06",
+          "onet-sf-17",
+          "onet-sf-42",
+          "onet-sf-53"
+        ],
+        "confidence": "low",
+        "evidence": "Downloaded music during bus rides is listening, without evidence for or against instruments, composing, dance, or band singing. All remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-07",
+          "onet-sf-08",
+          "onet-sf-19",
+          "onet-sf-20",
+          "onet-sf-31",
+          "onet-sf-32",
+          "onet-sf-43",
+          "onet-sf-44",
+          "onet-sf-55",
+          "onet-sf-56"
+        ],
+        "confidence": "low",
+        "evidence": "Calendar entries for appointments are requested family help and explicitly not treatment responsibility. Therapy, rehabilitation, child care, volunteering, career/sign guidance, and sports/class teaching preferences remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-09",
+          "onet-sf-10",
+          "onet-sf-21",
+          "onet-sf-22",
+          "onet-sf-33",
+          "onet-sf-34",
+          "onet-sf-45",
+          "onet-sf-46",
+          "onet-sf-57",
+          "onet-sf-58"
+        ],
+        "confidence": "medium",
+        "evidence": "Comparing costs and savings supports tentative liking for financial trading research, with market risk untested. He explicitly avoids sales, meetings, collecting reluctant money, and default authority: selling is strongly disliked, management/ownership/negotiation/marketing mildly disliked. Law and salons remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-11",
+          "onet-sf-23",
+          "onet-sf-24",
+          "onet-sf-26",
+          "onet-sf-37"
+        ],
+        "confidence": "medium",
+        "evidence": "He enjoys quantity comparisons, duplicate detection, and estimates versus actuals, supporting strong spreadsheets/calculator interest and a tentative data-checking interest. Networks, package driving, and physical parts inspection remain unsure."
+      },
+      {
+        "items": [
+          "onet-sf-12",
+          "onet-sf-35",
+          "onet-sf-36",
+          "onet-sf-47",
+          "onet-sf-48",
+          "onet-sf-59",
+          "onet-sf-60"
+        ],
+        "confidence": "medium",
+        "evidence": "Reconciling receipts and chair records, wanting larger checkable records, and tracking savings support strong stock-record interest and liking forms, shipping, wages, computerized inventory, and rent records as cautious transfers. Mail sorting is not described and remains unsure."
+      }
+    ],
+    "uncertainItems": [
+      "onet-sf-01",
+      "onet-sf-02",
+      "onet-sf-03",
+      "onet-sf-04",
+      "onet-sf-05",
+      "onet-sf-06",
+      "onet-sf-07",
+      "onet-sf-08",
+      "onet-sf-13",
+      "onet-sf-14",
+      "onet-sf-15",
+      "onet-sf-16",
+      "onet-sf-17",
+      "onet-sf-18",
+      "onet-sf-19",
+      "onet-sf-20",
+      "onet-sf-21",
+      "onet-sf-23",
+      "onet-sf-25",
+      "onet-sf-26",
+      "onet-sf-27",
+      "onet-sf-28",
+      "onet-sf-29",
+      "onet-sf-30",
+      "onet-sf-31",
+      "onet-sf-32",
+      "onet-sf-37",
+      "onet-sf-38",
+      "onet-sf-39",
+      "onet-sf-40",
+      "onet-sf-41",
+      "onet-sf-42",
+      "onet-sf-43",
+      "onet-sf-44",
+      "onet-sf-45",
+      "onet-sf-49",
+      "onet-sf-50",
+      "onet-sf-51",
+      "onet-sf-52",
+      "onet-sf-53",
+      "onet-sf-54",
+      "onet-sf-55",
+      "onet-sf-56",
+      "onet-sf-60"
+    ],
+    "alternateResponses": []
+  }
+]

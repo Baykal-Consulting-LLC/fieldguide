@@ -1,0 +1,11 @@
+# Questionnaire encouragement · 0.31.11
+
+The Get to know you screens now show the current part and its progress, with occasional milestones and short tips. Interest milestones reflect actual completed activities: a start, a quarter, halfway, and three quarters. Other messages mark section changes, experience practice, and the final stretch. They do not interpret answer ratings, reveal scores, recommend a career early, promise results, or estimate remaining time.
+
+A short marker appears beside the progress bar. At milestones a fuller note sits below the response choices, so it does not interrupt answering or move the choices. No popup takes focus, no dismissal is needed, and no new Continue button is added. Notes remain for a few answered activities. Their brief entrance and glyph animation play once per milestone in the active browser session; edits and Back do not replay them. Reloading starts a new presentation session. Progress animation only moves forward within a part.
+
+Reduced-motion preferences disable these animations. Progress has accessible values and each note uses a polite status announcement. Part progress counts the actual required questions, including focused follow-ups, and does not treat the current index as a completed answer. Reviewing a completed profile shows progress without encouragement messages.
+
+Presentation state stays in memory. Saved answers, official question wording and order, scoring, matching, accounts, salaries, and budgets are unchanged.
+
+Verification: meaningful progress and animation-state tests plus profile and broad rendering checks passed. Phone browser review covers crossing the halfway point, continuing without replaying animation, 320px/390px layouts, and section/experience/final-stretch messages. Emulated reduced motion confirmed animation-name:none on a newly entered milestone. Temporary emulation is restored after the check. The observed review is in validation/questionnaire-encouragement-phone-2026-10-18.json.

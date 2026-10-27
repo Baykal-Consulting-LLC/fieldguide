@@ -1,0 +1,33 @@
+# First matches versus final Top matches · 0.41.0
+
+The interactive model chart now compares **First matches** before the new profession comparisons with **Final Top matches** after one fixed round. It includes other final matches and lifestyle-sustaining options at the first paid stage. A changed/unchanged label makes the before/after distinction visible.
+
+The round covers the initial up to three offered comparisons per model from release 0.40.0. It does not repeatedly ask every newly suggested profession until a desired outcome appears. All 148 public models and six owner-only models remain included; a model offered no comparison keeps its original offers, with an explicit status.
+
+## Answer provenance
+
+Original biographies, official interest answers, education preferences, lifestyle budgets, field choices and work answers remain unchanged. Existing work responses are reused exactly. Only previously unanswered comparison questions receive new answers.
+
+Three separate answer authors were given only the frozen biography and question/option text. They were instructed not to inspect matching rules, occupation mappings, scores, previous answers, pay or output reports. They recorded a specific biographical rationale and confidence for each response, retaining unfamiliar or unsure responses where the profile did not establish a preference. Missing exposure, family finances, identity, disability or low confidence were not grounds to infer dislike. New answer files were validated and fingerprinted before final matching. Results were not used to revise the answers.
+
+The chart’s model trail shows each comparison, question, selected response, rationale, confidence, original/inferred status, and current explanation of why a profession is inside or outside Top. Student preview links open the original state or the state after the comparison round. Neither state records a new career choice or writes to a real student’s guide.
+
+This is a simulation of plausible fictional responses. Independent answer authoring and immutable histories improve auditability; they do not establish real-student preferences, predictive accuracy, or psychometric validity. The original cohort’s holdout status does not make this follow-up a fresh validation set.
+
+## Degree filter
+
+**Profession education** offers all professions, college plus graduate degrees, bachelor’s routes only, and graduate/professional routes only. The selected filter hides other professions in every offer column and in the comparison trail, removes models with no relevant offers/comparisons, and recomputes final lifestyle coverage over the displayed professions. CSV exports use the same filtered view across all pages.
+
+Routes come from the existing education-route definitions, including alternative routes such as RN-to-BSN nursing and graduate architecture. A listed degree route does not assert that the degree is mandatory for every job with an alternative route. First-stage pay and prior-experience safeguards remain in effect.
+
+## Privacy and maintenance
+
+Public inferred answers are stored separately from the original case files. The six private replays are appended to the existing owner-authenticated records in a separate field; their original payloads and student guide storage are preserved. No private answers, histories or results are bundled into static assets.
+
+The chart stays pinned as the first Developer feature and rebuilds with the normal student app build. The fixed additional answer round replays through current matching and lifestyle logic; historical input and answer hashes remain available.
+
+## Results of this comparison round
+
+The 148 public profiles include 131 with offered comparisons and 17 without. The round reviews 326 comparisons, reuses 329 original question responses and adds 561 profile-inferred responses. Of those new responses, 81 remain unfamiliar and 48 unsure.
+
+The leading list changes for 38 public models. The number with a college or graduate route in Top moves from 105 to 119. Lifestyle coverage moves from 68 leading / 57 other / 23 none before comparisons to 75 leading / 52 other / 21 none afterward. One of six private Top lists changes; their lifestyle coverage remains four leading and two other. These counts describe simulated offers, not student outcomes.

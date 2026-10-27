@@ -1,0 +1,651 @@
+[
+  {
+    "modelId": "scale056-0001",
+    "careerId": "librarian",
+    "profile": {
+      "id": "scale056-0001",
+      "name": "Alex Bennett",
+      "phase": "holdout056",
+      "biography": {
+        "id": "scale056-0001",
+        "name": "Alex Bennett",
+        "age": 16,
+        "pronouns": "she/her",
+        "background": {
+          "geography": "small-town Maine",
+          "family": "Lives with a guardian and an older sibling",
+          "cultureLanguages": "The household uses English and another language that the profile does not name",
+          "finances": "Household income is stable, but higher education funding is uncertain",
+          "school": "Public high school with limited elective places",
+          "accessOpportunities": "Is still looking for a reliable mentor"
+        },
+        "timeline": [
+          {
+            "ages": "4\u20135",
+            "story": "Early opportunities were uneven and did not settle a career preference. Organizing reference materials, checking their accuracy and helping someone find the source they need. A familiar adult provided encouragement, and this is a chosen activity rather than a claim of advanced ability."
+          },
+          {
+            "ages": "6\u20137",
+            "story": "Early opportunities were uneven and did not settle a career preference. Comparing supplier offers including hidden costs and checking whether items meet agreed requirements. A familiar adult provided encouragement, and this is a chosen activity rather than a claim of advanced ability."
+          },
+          {
+            "ages": "8\u20139",
+            "story": "A self-chosen project provided another opportunity: Organizing reference materials, checking their accuracy and helping someone find the source they need. Coordinating people, deadlines and resources while asking for feedback. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "10\u201311",
+            "story": "A self-chosen project provided another opportunity: Comparing supplier offers including hidden costs and checking whether items meet agreed requirements. Comparing sources and asking what would change an explanation. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "12\u201313",
+            "story": "A self-chosen project provided another opportunity: Organizing reference materials, checking their accuracy and helping someone find the source they need. Trying alternative designs and comparing their trade-offs. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "14\u201315",
+            "story": "Current interests remain mixed. Comparing supplier offers including hidden costs and checking whether items meet agreed requirements. I want to learn how to check safety rules, recognize a limit and be accountable for careful work. Has reliable daytime transport but limited weekend access. Unknown work remains open to learn about."
+          },
+          {
+            "ages": "16",
+            "story": "Current interests remain mixed. Organizing reference materials, checking their accuracy and helping someone find the source they need. I want to compare allocating work and handling disagreements with contributing as an individual. Regular family responsibilities limit evening travel. Unknown work remains open to learn about."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Organizing reference materials, checking their accuracy and helping someone find the source they need",
+            "Comparing supplier offers including hidden costs and checking whether items meet agreed requirements"
+          ],
+          "avoids": [
+            "Does not currently enjoy: Behavior and well-being",
+            "Does not currently enjoy: Physical space and matter",
+            "Does not currently enjoy: Listening and adapting individual support after asking what helps"
+          ],
+          "activities": [
+            "Organizing reference materials, checking their accuracy and helping someone find the source they need",
+            "Comparing supplier offers including hidden costs and checking whether items meet agreed requirements"
+          ],
+          "demonstratedSkills": [
+            "Keeps records when a checklist is available",
+            "Finds original alternatives but benefits from help choosing one",
+            "Coordinates a bounded task but dislikes taking over"
+          ],
+          "unfamiliarActivities": [
+            "Wood and joinery is untried",
+            "Mechanisms is untried",
+            "Circuits is untried",
+            "Digital systems is untried"
+          ],
+          "motivations": [
+            "Have variety",
+            "Keep learning",
+            "Make a useful difference"
+          ],
+          "ambitions": [
+            "Wants to compare several interests before choosing a career",
+            "I want to compare allocating work and handling disagreements with contributing as an individual",
+            "I want to learn how to check safety rules, recognize a limit and be accountable for careful work"
+          ],
+          "struggles": [
+            "Had a period of low mood; current energy varies and support is available",
+            "Has not tried enough activities to state many specific preferences"
+          ],
+          "supports": [
+            "Is still looking for a reliable mentor"
+          ],
+          "practicalConstraints": [
+            "Regular family responsibilities limit evening travel",
+            "Has reliable daytime transport but limited weekend access"
+          ]
+        },
+        "selfDescription": "I have several interests and want to compare them without having to pick an occupation first. Trying alternative designs and comparing their trade-offs. Comparing two explanations using a repeatable fair test. Coordinating people, deadlines and resources while asking for feedback.",
+        "openQuestions": [
+          "Which unfamiliar activities would I choose after a fair introduction?",
+          "Would I enjoy a profession\u2019s distinctive responsibilities beyond these broad activities?"
+        ],
+        "variationTags": [
+          "Structured synthetic coverage case",
+          "Not a representative population draw",
+          "Background and health labels do not generate career answers"
+        ]
+      },
+      "selectedFields": [],
+      "lifestyleLevel": 0,
+      "studyOpenness": "Open to graduate study after learning more",
+      "uncertainty": "limited-exposure",
+      "statedEnjoyedActivities": [
+        "Comparing supplier offers including hidden costs and checking whether items meet agreed requirements",
+        "Organizing reference materials, checking their accuracy and helping someone find the source they need"
+      ],
+      "statedDislikedActivities": [
+        "Keeping a sky-observation notebook and comparing explanations for physical patterns",
+        "Comparing explanations of behavior and voluntarily listening when someone wants emotional support"
+      ],
+      "statedEnjoyedMethods": [
+        "Comparing two explanations using a repeatable fair test",
+        "Trying alternative designs and comparing their trade-offs",
+        "Coordinating people, deadlines and resources while asking for feedback",
+        "Comparing sources and asking what would change an explanation"
+      ],
+      "statedDislikedMethods": [
+        "Listening and adapting individual support after asking what helps"
+      ],
+      "statedResponsibilities": [
+        "I want to learn how to check safety rules, recognize a limit and be accountable for careful work",
+        "I want to compare allocating work and handling disagreements with contributing as an individual"
+      ]
+    },
+    "questions": [
+      {
+        "id": "librarian-interest-044-1",
+        "type": "specific",
+        "prompt": "Would you like to learn to help someone work out what information they need and search reliable sources to answer their question as a regular part of your work?",
+        "kind": "profession",
+        "scope": "librarian",
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "librarian-interest-044-2",
+        "type": "specific",
+        "prompt": "Would you like to learn to guide library users in finding and using books, reference materials, or online information for their own purposes as a regular part of your work?",
+        "kind": "profession",
+        "scope": "librarian",
+        "before": 0,
+        "after": 1
+      }
+    ],
+    "beforeTop": [],
+    "afterTop": [
+      "Office Clerks, General",
+      "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "Librarians & media specialists"
+    ]
+  },
+  {
+    "modelId": "scale056-0027",
+    "careerId": "law",
+    "profile": {
+      "id": "scale056-0027",
+      "name": "Blair Bennett",
+      "phase": "development056",
+      "biography": {
+        "id": "scale056-0027",
+        "name": "Blair Bennett",
+        "age": 16,
+        "pronouns": "pronouns not stated",
+        "background": {
+          "geography": "urban California",
+          "family": "Lives with one parent and a younger sibling",
+          "cultureLanguages": "Spanish and English are used at home; fluency varies by situation",
+          "finances": "Family budgeting is tight; the student wants paid work while studying",
+          "school": "Small rural school with a shared online course",
+          "accessOpportunities": "Uses breaks, accessible transport and a flexible pace"
+        },
+        "timeline": [
+          {
+            "ages": "4\u20135",
+            "story": "Early opportunities were uneven and did not settle a career preference. Assembling a low-voltage circuit, tracing a failed connection and recording repeatable tests. A familiar adult provided encouragement, and this is a chosen activity rather than a claim of advanced ability."
+          },
+          {
+            "ages": "6\u20137",
+            "story": "Early opportunities were uneven and did not settle a career preference. Comparing written rules and source evidence about a disagreement and considering arguments on both sides. A familiar adult provided encouragement, and this is a chosen activity rather than a claim of advanced ability."
+          },
+          {
+            "ages": "8\u20139",
+            "story": "A self-chosen project provided another opportunity: Choosing a supervised safety exercise and comparing how a response plan protects people. Coordinating people, deadlines and resources while asking for feedback. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "10\u201311",
+            "story": "A self-chosen project provided another opportunity: Comparing movement techniques, adapting a practice routine and recording what makes it easier to repeat. Assembling, shaping or repairing physical materials. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "12\u201313",
+            "story": "A self-chosen project provided another opportunity: Choosing to prepare a meal, compare ingredients and revise a food-safety checklist. Comparing sources and asking what would change an explanation. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "14\u201315",
+            "story": "Current interests remain mixed. Monitoring a stream or habitat, comparing changes and discussing ways to reduce waste. I would choose a supervised introduction to how clinicians compare symptoms, choose treatments and monitor their consequences. Needs to compare study costs before committing. Unknown work remains open to learn about."
+          },
+          {
+            "ages": "16",
+            "story": "Current interests remain mixed. Observing animal behavior carefully and choosing to help with routine animal care. I want to learn to design an investigation, tolerate uncertain results and explain the limits of a conclusion. Has reliable daytime transport but limited weekend access. Unknown work remains open to learn about."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Assembling a low-voltage circuit, tracing a failed connection and recording repeatable tests",
+            "Comparing written rules and source evidence about a disagreement and considering arguments on both sides",
+            "Choosing a supervised safety exercise and comparing how a response plan protects people",
+            "Comparing movement techniques, adapting a practice routine and recording what makes it easier to repeat",
+            "Choosing to prepare a meal, compare ingredients and revise a food-safety checklist",
+            "Monitoring a stream or habitat, comparing changes and discussing ways to reduce waste",
+            "Observing animal behavior carefully and choosing to help with routine animal care"
+          ],
+          "avoids": [
+            "Does not currently enjoy: Earth and maps",
+            "Does not currently enjoy: Finding and checking information",
+            "Does not currently enjoy: Health and recovery",
+            "Does not currently enjoy: Spaces and access",
+            "Does not currently enjoy: Tracing a program or digital workflow and testing a change"
+          ],
+          "activities": [
+            "Assembling a low-voltage circuit, tracing a failed connection and recording repeatable tests",
+            "Comparing written rules and source evidence about a disagreement and considering arguments on both sides",
+            "Choosing a supervised safety exercise and comparing how a response plan protects people"
+          ],
+          "demonstratedSkills": [
+            "Coordinates a bounded task but dislikes taking over",
+            "Explains a familiar idea clearly after preparation",
+            "Listens carefully and asks before offering help"
+          ],
+          "unfamiliarActivities": [
+            "Wood and joinery is untried",
+            "Mechanisms is untried",
+            "Digital systems is untried",
+            "Physical space and matter is untried"
+          ],
+          "motivations": [
+            "Feel connected to a community",
+            "Build a steady foundation",
+            "Make something original"
+          ],
+          "ambitions": [
+            "Wants to compare several interests before choosing a career",
+            "I want to compare allocating work and handling disagreements with contributing as an individual",
+            "I would choose a supervised introduction to how clinicians compare symptoms, choose treatments and monitor their consequences",
+            "I want to learn to design an investigation, tolerate uncertain results and explain the limits of a conclusion",
+            "I want to learn about accountability for an entire organization, including difficult resource and workforce decisions"
+          ],
+          "struggles": [
+            "A mobility limitation requires accessible rooms and transport",
+            "Sometimes finds it difficult to choose between enjoyable activities"
+          ],
+          "supports": [
+            "Is still looking for a reliable mentor"
+          ],
+          "practicalConstraints": [
+            "Has reliable daytime transport but limited weekend access",
+            "Needs to compare study costs before committing"
+          ]
+        },
+        "selfDescription": "I have several interests and want to compare them without having to pick an occupation first. Trying alternative designs and comparing their trade-offs. Comparing two explanations using a repeatable fair test. Coordinating people, deadlines and resources while asking for feedback.",
+        "openQuestions": [
+          "Which unfamiliar activities would I choose after a fair introduction?",
+          "Would I enjoy a profession\u2019s distinctive responsibilities beyond these broad activities?"
+        ],
+        "variationTags": [
+          "Structured synthetic coverage case",
+          "Not a representative population draw",
+          "Background and health labels do not generate career answers"
+        ]
+      },
+      "selectedFields": [
+        "building"
+      ],
+      "lifestyleLevel": 1,
+      "studyOpenness": "Open to a first degree",
+      "uncertainty": "mixed-interests",
+      "statedEnjoyedActivities": [
+        "Assembling a low-voltage circuit, tracing a failed connection and recording repeatable tests",
+        "Observing animal behavior carefully and choosing to help with routine animal care",
+        "Monitoring a stream or habitat, comparing changes and discussing ways to reduce waste",
+        "Comparing movement techniques, adapting a practice routine and recording what makes it easier to repeat",
+        "Comparing written rules and source evidence about a disagreement and considering arguments on both sides",
+        "Choosing to prepare a meal, compare ingredients and revise a food-safety checklist",
+        "Choosing a supervised safety exercise and comparing how a response plan protects people"
+      ],
+      "statedDislikedActivities": [
+        "Comparing rock samples, terrain maps and changes in water moving across the ground",
+        "Choosing a supervised health-science introduction, learning about symptoms and asking how evidence guides care",
+        "Drawing alternative layouts for a shared space and comparing access, light and how people move",
+        "Organizing reference materials, checking their accuracy and helping someone find the source they need"
+      ],
+      "statedEnjoyedMethods": [
+        "Comparing two explanations using a repeatable fair test",
+        "Trying alternative designs and comparing their trade-offs",
+        "Checking small details without guessing what missing information means",
+        "Looking for a counterexample and explaining a general argument",
+        "Assembling, shaping or repairing physical materials",
+        "Collecting observations outside and comparing places over time",
+        "Finding a second example when an explanation is confusing",
+        "Revising an original form until it expresses the intended idea",
+        "Coordinating people, deadlines and resources while asking for feedback",
+        "Comparing sources and asking what would change an explanation"
+      ],
+      "statedDislikedMethods": [
+        "Tracing a program or digital workflow and testing a change"
+      ],
+      "statedResponsibilities": [
+        "I would choose a supervised introduction to how clinicians compare symptoms, choose treatments and monitor their consequences",
+        "I want to learn about accountability for an entire organization, including difficult resource and workforce decisions",
+        "I want to learn to design an investigation, tolerate uncertain results and explain the limits of a conclusion",
+        "I want to compare allocating work and handling disagreements with contributing as an individual"
+      ]
+    },
+    "questions": [
+      {
+        "id": "law-interest-044-1",
+        "type": "specific",
+        "prompt": "Would you like to learn to research laws and explain how they apply to a person\u2019s or organization\u2019s legal problem?",
+        "kind": "profession",
+        "scope": "law",
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "law-interest-044-2",
+        "type": "specific",
+        "prompt": "Would you like to learn to compare the facts of a legal case with earlier decisions and build a reasoned argument about what should happen?",
+        "kind": "profession",
+        "scope": "law",
+        "before": 0,
+        "after": 1
+      }
+    ],
+    "beforeTop": [
+      "Animal Scientists",
+      "Food Scientists and Technologists",
+      "Zoologists and Wildlife Biologists"
+    ],
+    "afterTop": [
+      "Cooks, Restaurant",
+      "Environmental scientists & specialists",
+      "Lawyers"
+    ]
+  },
+  {
+    "modelId": "scale056-0042",
+    "careerId": "mechanical-engineering",
+    "profile": {
+      "id": "scale056-0042",
+      "name": "Kai Chen",
+      "phase": "development056",
+      "biography": {
+        "id": "scale056-0042",
+        "name": "Kai Chen",
+        "age": 16,
+        "pronouns": "pronouns not stated",
+        "background": {
+          "geography": "rural New Mexico",
+          "family": "Lives with two parents",
+          "cultureLanguages": "English is the household language; cultural identity is not otherwise stated",
+          "finances": "Income varies month to month; free activities and shared transport help",
+          "school": "Alternative public program with project-based learning",
+          "accessOpportunities": "Uses a trusted teacher to plan manageable next steps"
+        },
+        "timeline": [
+          {
+            "ages": "4\u20135",
+            "story": "Early opportunities were uneven and did not settle a career preference. Observing animal behavior carefully and choosing to help with routine animal care. A familiar adult provided encouragement, and this is a chosen activity rather than a claim of advanced ability."
+          },
+          {
+            "ages": "6\u20137",
+            "story": "Early opportunities were uneven and did not settle a career preference. Building a small moving mechanism, comparing its motion and testing a revised part. A familiar adult provided encouragement, and this is a chosen activity rather than a claim of advanced ability."
+          },
+          {
+            "ages": "8\u20139",
+            "story": "A self-chosen project provided another opportunity: Keeping a sky-observation notebook and comparing explanations for physical patterns. Checking small details without guessing what missing information means. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "10\u201311",
+            "story": "A self-chosen project provided another opportunity: Building a simple model bridge and asking how ground, loads and water affect safety. Looking for a counterexample and explaining a general argument. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "12\u201313",
+            "story": "A self-chosen project provided another opportunity: Comparing conflicting historical accounts and checking where an original record came from. Trying alternative designs and comparing their trade-offs. Help and revision were ordinary parts of the activity; the student has not chosen an occupation."
+          },
+          {
+            "ages": "14\u201315",
+            "story": "Current interests remain mixed. Monitoring a stream or habitat, comparing changes and discussing ways to reduce waste. I want to learn about accountability for an entire organization, including difficult resource and workforce decisions. Regular family responsibilities limit evening travel. Unknown work remains open to learn about."
+          },
+          {
+            "ages": "16",
+            "story": "Current interests remain mixed. Observing animal behavior carefully and choosing to help with routine animal care. I would choose a supervised introduction to how clinicians compare symptoms, choose treatments and monitor their consequences. Would need accessible spaces and flexible scheduling. Unknown work remains open to learn about."
+          }
+        ],
+        "currentLife": {
+          "enjoys": [
+            "Observing animal behavior carefully and choosing to help with routine animal care",
+            "Building a small moving mechanism, comparing its motion and testing a revised part",
+            "Keeping a sky-observation notebook and comparing explanations for physical patterns",
+            "Building a simple model bridge and asking how ground, loads and water affect safety",
+            "Comparing conflicting historical accounts and checking where an original record came from",
+            "Monitoring a stream or habitat, comparing changes and discussing ways to reduce waste"
+          ],
+          "avoids": [
+            "Does not currently enjoy: Living mechanisms",
+            "Does not currently enjoy: Earth and maps",
+            "Does not currently enjoy: Wood and joinery",
+            "Does not currently enjoy: Tracing a program or digital workflow and testing a change",
+            "Does not currently enjoy: Revising an original form until it expresses the intended idea"
+          ],
+          "activities": [
+            "Observing animal behavior carefully and choosing to help with routine animal care",
+            "Building a small moving mechanism, comparing its motion and testing a revised part",
+            "Keeping a sky-observation notebook and comparing explanations for physical patterns"
+          ],
+          "demonstratedSkills": [
+            "Explains a familiar idea clearly after preparation",
+            "Uses numerical examples confidently but avoids claiming certainty",
+            "Finds original alternatives but benefits from help choosing one"
+          ],
+          "unfamiliarActivities": [
+            "Circuits is untried",
+            "Digital systems is untried",
+            "Weather is untried",
+            "Materials and chemical change is untried"
+          ],
+          "motivations": [
+            "Work independently with support when needed",
+            "Make a useful difference",
+            "Have variety"
+          ],
+          "ambitions": [
+            "Wants to compare several interests before choosing a career",
+            "I would choose a supervised introduction to how clinicians compare symptoms, choose treatments and monitor their consequences",
+            "I want to learn how recommendations affect another person\u2019s money and how to explain uncertain financial risks",
+            "I want to learn about accountability for an entire organization, including difficult resource and workforce decisions"
+          ],
+          "struggles": [
+            "Mental-health history is not stated",
+            "Sometimes finds it difficult to choose between enjoyable activities"
+          ],
+          "supports": [
+            "Uses a trusted teacher to plan manageable next steps"
+          ],
+          "practicalConstraints": [
+            "Would need accessible spaces and flexible scheduling",
+            "Regular family responsibilities limit evening travel"
+          ]
+        },
+        "selfDescription": "I have several interests and want to compare them without having to pick an occupation first. Collecting observations outside and comparing places over time. Organizing information and keeping a sequence or record consistent. Checking small details without guessing what missing information means.",
+        "openQuestions": [
+          "Which unfamiliar activities would I choose after a fair introduction?",
+          "Would I enjoy a profession\u2019s distinctive responsibilities beyond these broad activities?"
+        ],
+        "variationTags": [
+          "Structured synthetic coverage case",
+          "Not a representative population draw",
+          "Background and health labels do not generate career answers"
+        ]
+      },
+      "selectedFields": [
+        "science"
+      ],
+      "lifestyleLevel": 1,
+      "studyOpenness": "Open to a first degree",
+      "uncertainty": "mixed-interests",
+      "statedEnjoyedActivities": [
+        "Building a small moving mechanism, comparing its motion and testing a revised part",
+        "Keeping a sky-observation notebook and comparing explanations for physical patterns",
+        "Observing animal behavior carefully and choosing to help with routine animal care",
+        "Monitoring a stream or habitat, comparing changes and discussing ways to reduce waste",
+        "Comparing conflicting historical accounts and checking where an original record came from",
+        "Building a simple model bridge and asking how ground, loads and water affect safety"
+      ],
+      "statedDislikedActivities": [
+        "Making a fitted wooden box and revising joints until its lid closes evenly",
+        "Comparing rock samples, terrain maps and changes in water moving across the ground",
+        "Voluntarily reading about cells and body systems and diagramming how a biological process changes"
+      ],
+      "statedEnjoyedMethods": [
+        "Comparing two explanations using a repeatable fair test",
+        "Trying alternative designs and comparing their trade-offs",
+        "Checking small details without guessing what missing information means",
+        "Looking for a counterexample and explaining a general argument",
+        "Assembling, shaping or repairing physical materials",
+        "Collecting observations outside and comparing places over time",
+        "Listening and adapting individual support after asking what helps",
+        "Finding a second example when an explanation is confusing",
+        "Organizing information and keeping a sequence or record consistent"
+      ],
+      "statedDislikedMethods": [
+        "Tracing a program or digital workflow and testing a change",
+        "Revising an original form until it expresses the intended idea"
+      ],
+      "statedResponsibilities": [
+        "I would choose a supervised introduction to how clinicians compare symptoms, choose treatments and monitor their consequences",
+        "I want to learn about accountability for an entire organization, including difficult resource and workforce decisions",
+        "I want to learn how recommendations affect another person\u2019s money and how to explain uncertain financial risks"
+      ]
+    },
+    "questions": [
+      {
+        "id": "mechanical-engineering-interest-044-1",
+        "type": "specific",
+        "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?",
+        "kind": "profession",
+        "scope": "mechanical-engineering",
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "mechanical-engineering-interest-044-2",
+        "type": "specific",
+        "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?",
+        "kind": "profession",
+        "scope": "mechanical-engineering",
+        "before": 0,
+        "after": 1
+      }
+    ],
+    "beforeTop": [],
+    "afterTop": [
+      "Conservation Scientists",
+      "Civil Engineers",
+      "Mechanical engineers"
+    ]
+  },
+  {
+    "modelId": "grok075-0021",
+    "careerId": "degree-19309300",
+    "profile": {
+      "id": "grok075-0021",
+      "name": "Mina Cho",
+      "age": 17,
+      "gender": "girl",
+      "raceEthnicity": "Asian non-Hispanic",
+      "region": "Northeast",
+      "locale": "suburban",
+      "household": "Lives with both parents and a younger brother in a two-bedroom rental. Parents work in food service and a hospital laundry; Korean is spoken at home and English at school. She helps her brother with reading most evenings. A public bachelor's would require aid they have not yet figured out.",
+      "school": "Large public high school, grade 11. Literary magazine, one elective in another language, no shop classes this year. Library is reliable; home internet is shared and slow after dinner.",
+      "wellbeing": "No current concern stated. No classroom accommodations. She uses the school library when the apartment is noisy.",
+      "motivation": [
+        "Get a sentence's tone right",
+        "Be useful to her brother",
+        "See whether more school is worth the cost"
+      ],
+      "strengths": [
+        "Revising wording after a reader reacts",
+        "Keeping a source and a draft side by side",
+        "Still learning to say when a task is no longer hers"
+      ],
+      "confidence": 3,
+      "exposure": "mixed",
+      "education": "undecided",
+      "workContext": "Quiet indoor table, unhurried revision, one partner or a small editorial group. No unusual physical access need.",
+      "constraints": [
+        "Aid unclear for anything beyond local public college",
+        "Evening homework help reduces club time"
+      ],
+      "narrative": "Mina revises bilingual short scenes for the literary magazine and rewrites an example when a classmate misses the tone. Six years of piano were her parents' priority; she almost never sits down at the keyboard now. Comparing wording still holds her, and she does not know whether a language-heavy bachelor's is feasible without substantial aid or whether she would rather keep writing than teach.",
+      "lifestyleChoices": {
+        "home": 1,
+        "transport": 1,
+        "groceries": 1,
+        "dining": 0,
+        "travel": 1,
+        "entertainment": 1,
+        "recreation": 0,
+        "clothing": 1,
+        "saving": 1
+      },
+      "statedEnjoyedActivities": [
+        "Preparing an explanation for teenagers and checking whether a different example helps",
+        "Revising a short learning guide, checking understanding and choosing a clearer sequence of examples",
+        "Comparing conflicting historical accounts and checking where an original record came from",
+        "Comparing the meaning of a passage in two languages and checking whether a translation preserves its tone",
+        "Writing original scenes or essays and revising structure after a reader gives feedback",
+        "Organizing reference materials, checking their accuracy and helping someone find the source they need"
+      ],
+      "statedDislikedActivities": [
+        "Making a fitted wooden box and revising joints until its lid closes evenly",
+        "Building a small moving mechanism, comparing its motion and testing a revised part",
+        "Assembling a low-voltage circuit, tracing a failed connection and recording repeatable tests",
+        "Rehearsing a dance or dramatic scene and revising how movement communicates to an audience",
+        "Voluntarily comparing a mock company report, uncertain future returns and the risk of losing an investment"
+      ],
+      "statedEnjoyedMethods": [
+        "Finding a second example when an explanation is confusing",
+        "Revising an original form until it expresses the intended idea",
+        "Organizing information and keeping a sequence or record consistent",
+        "Comparing sources and asking what would change an explanation"
+      ],
+      "statedDislikedMethods": [
+        "Tracing a program or digital workflow and testing a change",
+        "Assembling, shaping or repairing physical materials"
+      ],
+      "statedResponsibilities": [
+        "I want to compare preparing a course, assessing learning and responding to different learners over time"
+      ]
+    },
+    "questions": [
+      {
+        "id": "degree-19309300-047-domain",
+        "type": "specific",
+        "prompt": "Would you like to learn to investigate how people and societies lived in the past and why events unfolded differently in particular historical settings?",
+        "kind": "profession",
+        "scope": "degree-19309300",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "id": "degree-19309300-047-method",
+        "type": "specific",
+        "prompt": "Would you like to learn to compare original records and conflicting accounts to work out which explanation of a past event is best supported?",
+        "kind": "profession",
+        "scope": "degree-19309300",
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "degree-19309300-047-responsibility",
+        "type": "specific",
+        "prompt": "Would you like to learn to present historical interpretations that distinguish evidence from speculation and acknowledge gaps or uncertainty in the surviving records?",
+        "kind": "profession",
+        "scope": "degree-19309300",
+        "before": 0,
+        "after": 1
+      }
+    ],
+    "beforeTop": [
+      "Poets, Lyricists and Creative Writers",
+      "Writers & authors",
+      "Librarians & media specialists"
+    ],
+    "afterTop": [
+      "Writers & authors",
+      "Poets, Lyricists and Creative Writers",
+      "Historians"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "version": "0.103",
+  "arms": [
+    "fixed",
+    "hybrid2",
+    "hybrid3"
+  ],
+  "selection": "Development758 only; highest Top+degree then fewer losses; best hybrid frozen before holds",
+  "initial": "60 fixed official answers; no accumulated follow-ups",
+  "cap": 24,
+  "strongLead": "Direct linked official activity rated Like4 or StronglyLike5 retains current opening block; otherwise one activity-first probe",
+  "unknownCap": "2 or3 observed unknowns per field; protects a career with affirmative specific evidence",
+  "architecture": "Both comparison arms use narrow building-layout preference and separate building-regulation-design preference; absent stays unknown; no profiles populated with new facts",
+  "liveChanged": false
+}

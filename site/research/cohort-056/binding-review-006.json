@@ -1,0 +1,434 @@
+{
+  "version": 6,
+  "reviewedAt": "2026-10-20T16:34:42.367946+00:00",
+  "scope": "Author review of all 49 added occupation bindings, 10 direct technology activity bindings and all 23 development profiles gaining a first supported Top. Holdout cases not inspected or edited. This is not an independent psychometric review.",
+  "criteria": [
+    "Check the existing sourced profession questions against the frozen positive topic, method and responsibility IDs.",
+    "Preserve all official ratings, profiles, previous mappings and Top gates. Changes to ten technology activity options are direct authored bindings; no new occupation-link propagation.",
+    "Use explicit conjunctions; unstated specialist interests remain unfamiliar.",
+    "Retain broad interest correlations even when they conflict with specific learning interests. A supported specific interest is not proof of high broad correlation, ability or eventual success.",
+    "No automatic medical-specialty, game-design, religious, marine or nuclear inference from broad fields.",
+    "The fixed first-three Top display and degree-route classification are unchanged."
+  ],
+  "mappingCount": 49,
+  "activityOptionCount": 10,
+  "developmentFirstTopReviews": [
+    {
+      "id": "scale056-0013",
+      "name": "Reese Bennett",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Writing plus precision and consistent records supports proofreading. Original visual work does not by itself support a research career.",
+      "broadCorrelationCaution": true,
+      "top": [
+        {
+          "id": "degree-43908100",
+          "title": "Proofreaders and Copy Markers",
+          "degree": true,
+          "r": -0.02285973572016866
+        }
+      ]
+    },
+    {
+      "id": "scale056-0030",
+      "name": "Parker Bennett",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Digital systems, listening, testing, investigation and design support systems analysis. Computing execution is not assumed when that method is unstated.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "systems-analysis",
+          "title": "Computer Systems Analysts",
+          "degree": true,
+          "r": 0.021492070975193348
+        }
+      ]
+    },
+    {
+      "id": "scale056-0136",
+      "name": "Kendall Ellis",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Digital-system projects plus design, testing, computing and listening support software and web development; explaining and listening also support user assistance.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "software",
+          "title": "Software developers",
+          "degree": true,
+          "r": 0.7304623487142096
+        },
+        {
+          "id": "web-developer",
+          "title": "Web Developers",
+          "degree": true,
+          "r": 0.5534638178300592
+        },
+        {
+          "id": "computer-support",
+          "title": "Computer User Support Specialists",
+          "degree": false,
+          "r": 0.49678874145767055
+        }
+      ]
+    },
+    {
+      "id": "scale056-0202",
+      "name": "Sky Garcia",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Computing, explaining and listening support user assistance. Broad RIASEC correlation is negative and should remain visible as mixed broad evidence.",
+      "broadCorrelationCaution": true,
+      "top": [
+        {
+          "id": "computer-support",
+          "title": "Computer User Support Specialists",
+          "degree": false,
+          "r": -0.6579649831658705
+        }
+      ]
+    },
+    {
+      "id": "scale056-0212",
+      "name": "Hayden Garcia",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Computing, explaining and listening support user assistance; unconfirmed research responsibility is not fabricated to offer a research-scientist Top.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "computer-support",
+          "title": "Computer User Support Specialists",
+          "degree": false,
+          "r": 0.7237771914674466
+        }
+      ]
+    },
+    {
+      "id": "scale056-0246",
+      "name": "Parker Hayes",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Biology, computing, quantitative work, organization and precision support the technician role. Research accountability is unstated, so the scientist role stays unconfirmed.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "degree-15209901",
+          "title": "Bioinformatics Technicians",
+          "degree": true,
+          "r": 0.18873163889983066
+        }
+      ]
+    },
+    {
+      "id": "scale056-0247",
+      "name": "Charlie Hayes",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Statistics, numerical work, record organization and precision support statistical assistance without inventing research accountability.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "degree-43911100",
+          "title": "Statistical Assistants",
+          "degree": true,
+          "r": 0.8077200470370056
+        }
+      ]
+    },
+    {
+      "id": "scale056-0259",
+      "name": "Morgan Ibrahim",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Digital systems, listening, design, testing and investigation support systems analysis. Missing coding preference is not supplied for a programming Top.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "systems-analysis",
+          "title": "Computer Systems Analysts",
+          "degree": true,
+          "r": 0.47634011003264776
+        }
+      ]
+    },
+    {
+      "id": "scale056-0313",
+      "name": "Ellis Jones",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Original writing and expressive revision support creative writing; mathematical proof does not become empirical research interest.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "degree-27304305",
+          "title": "Poets, Lyricists and Creative Writers",
+          "degree": true,
+          "r": 0.3690140820376574
+        }
+      ]
+    },
+    {
+      "id": "scale056-0387",
+      "name": "Blair Lopez",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Digital-system design, coding and testing support web development. The negative broad correlation remains visible and warrants user discussion.",
+      "broadCorrelationCaution": true,
+      "top": [
+        {
+          "id": "web-developer",
+          "title": "Web Developers",
+          "degree": true,
+          "r": -0.2813754927805635
+        }
+      ]
+    },
+    {
+      "id": "scale056-0405",
+      "name": "Taylor Martin",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Writing and expressive revision support creative writing; interest in making mechanisms does not erase a separately stated writing interest.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "degree-27304305",
+          "title": "Poets, Lyricists and Creative Writers",
+          "degree": true,
+          "r": 0.0688047022526056
+        }
+      ]
+    },
+    {
+      "id": "scale056-0414",
+      "name": "Robin Martin",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Writing, precision and organization support proofreading. Expressive authorship is not assumed; broad correlation remains mixed.",
+      "broadCorrelationCaution": true,
+      "top": [
+        {
+          "id": "degree-43908100",
+          "title": "Proofreaders and Copy Markers",
+          "degree": true,
+          "r": -0.16490898308155888
+        }
+      ]
+    },
+    {
+      "id": "scale056-0487",
+      "name": "Cameron Ortiz",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Original writing and expressive revision support creative writing. A flat broad profile has no defined correlation, which must not be reported as statistical confirmation.",
+      "broadCorrelationCaution": true,
+      "top": [
+        {
+          "id": "degree-27304305",
+          "title": "Poets, Lyricists and Creative Writers",
+          "degree": true,
+          "r": null
+        }
+      ]
+    },
+    {
+      "id": "scale056-0566",
+      "name": "Arden Reed",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Computing, explaining and listening support user assistance. Strongly negative broad correlation is retained for review; a research role is not invented.",
+      "broadCorrelationCaution": true,
+      "top": [
+        {
+          "id": "computer-support",
+          "title": "Computer User Support Specialists",
+          "degree": false,
+          "r": -0.7527233653027545
+        }
+      ]
+    },
+    {
+      "id": "scale056-0585",
+      "name": "Taylor Singh",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Coding, testing, design, listening and coordination support software and web work alongside user support. These degree options accompany a nondegree fit.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "computer-support",
+          "title": "Computer User Support Specialists",
+          "degree": false,
+          "r": 0.6996444779039909
+        },
+        {
+          "id": "software",
+          "title": "Software developers",
+          "degree": true,
+          "r": 0.4179458404961889
+        },
+        {
+          "id": "web-developer",
+          "title": "Web Developers",
+          "degree": true,
+          "r": 0.3632523906347877
+        }
+      ]
+    },
+    {
+      "id": "scale056-0610",
+      "name": "Lane Singh",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Writing and expressive revision support creative writing despite other science interests; unconfirmed teaching accountability is not inferred.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "degree-27304305",
+          "title": "Poets, Lyricists and Creative Writers",
+          "degree": true,
+          "r": 0.4834565252765751
+        }
+      ]
+    },
+    {
+      "id": "scale056-0620",
+      "name": "Casey Taylor",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Coding, testing and precision support programming; clear explanation also supports QA defect communication and user support. Broad correlations are mixed.",
+      "broadCorrelationCaution": true,
+      "top": [
+        {
+          "id": "computer-support",
+          "title": "Computer User Support Specialists",
+          "degree": false,
+          "r": 0.02363898732956527
+        },
+        {
+          "id": "degree-15125100",
+          "title": "Computer Programmers",
+          "degree": true,
+          "r": -0.28538646991659944
+        },
+        {
+          "id": "degree-15125300",
+          "title": "Software Quality Assurance Analysts and Testers",
+          "degree": true,
+          "r": -0.34214044153029366
+        }
+      ]
+    },
+    {
+      "id": "scale056-0644",
+      "name": "Hayden Taylor",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Statistics, numerical work, record organization and precision support statistical assistance. Missing research responsibility keeps independent statistics research unconfirmed.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "degree-43911100",
+          "title": "Statistical Assistants",
+          "degree": true,
+          "r": 0.20279472335898632
+        }
+      ]
+    },
+    {
+      "id": "scale056-0695",
+      "name": "Jamie Vega",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Computing, explaining and listening support user assistance. Investment interest alone does not bypass missing numerical or financial-risk preferences.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "computer-support",
+          "title": "Computer User Support Specialists",
+          "degree": false,
+          "r": 0.6245975973518186
+        }
+      ]
+    },
+    {
+      "id": "scale056-0710",
+      "name": "Arden Vega",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Statistics, numerical work, organization and precision support statistical assistance. Negative broad correlation remains an explicit caution.",
+      "broadCorrelationCaution": true,
+      "top": [
+        {
+          "id": "degree-43911100",
+          "title": "Statistical Assistants",
+          "degree": true,
+          "r": -0.5546213166540479
+        }
+      ]
+    },
+    {
+      "id": "scale056-0717",
+      "name": "River Vega",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Computing, explaining and listening support user assistance; missing design interest prevents a software-design inference.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "computer-support",
+          "title": "Computer User Support Specialists",
+          "degree": false,
+          "r": 0.28794144144625944
+        }
+      ]
+    },
+    {
+      "id": "scale056-0736",
+      "name": "Sage Walker",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Computing, testing, precision and design support programming and web work. Missing listening keeps user-needs software planning unconfirmed.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "degree-15125100",
+          "title": "Computer Programmers",
+          "degree": true,
+          "r": 0.9940012474755782
+        },
+        {
+          "id": "web-developer",
+          "title": "Web Developers",
+          "degree": true,
+          "r": 0.9645328936202918
+        }
+      ]
+    },
+    {
+      "id": "scale056-0798",
+      "name": "Kai Zhao",
+      "phase": "development056",
+      "verdict": "Plausible specific learning interests under explicit simulation assumptions",
+      "reason": "Writing, precision and organization support proofreading; expressive authorship is unstated, so creative writing remains unconfirmed.",
+      "broadCorrelationCaution": false,
+      "top": [
+        {
+          "id": "degree-43908100",
+          "title": "Proofreaders and Copy Markers",
+          "degree": true,
+          "r": 0.4316603776167267
+        }
+      ]
+    }
+  ],
+  "newDevelopmentTopPairs": 213,
+  "newDevelopmentTopModels": 165,
+  "limits": [
+    "The 213 newly appearing development Top pairs were checked for structured evidence consistency. Only the 23 first-Top models received individual narrative review in this update.",
+    "Other changed Top pairs and added holdout cases still need independent qualitative review.",
+    "Some supported specific interests have negative or unavailable broad RIASEC correlations. These are visible in the evidence; this change does not reinterpret them as high correlations."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "fieldguide-approach-2-college-pathways",
+  "version": "0.17.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 scripts/shared-foundation.py run -- node scripts/stage-recording-runtime.mjs && node scripts/preview-recording.mjs",
+    "build": "python3 scripts/shared-foundation.py run -- npm run local:build",
+    "test": "python3 scripts/shared-foundation.py run -- npm run local:test",
+    "verify:approach1": "python3 scripts/verify-approach1.py",
+    "local:build": "node --check dist/draft-session.js && node --check dist/app.js && node --check dist/engine.js && node --check dist/lifestyle-state.js && node --check dist/lifestyle-ui.js && node --check dist/earnings.js && node --check dist/earnings-ui.js && node --check dist/sample-journey.js && node --check dist/discovery-ui.js && node --check dist/subject-reflection.js && node --check dist/subject-reflection-ui.js && node --check dist/choice-statistics-ui.js && node --check dist/activity.js && node --check dist/study-intent.js && node --check dist/study-intent-ui.js && node --check dist/route-comparison.js && node --check runtime/lib/activity-service.js && node scripts/build-recording-runtime.mjs",
+    "shared:check": "python3 scripts/shared-foundation.py check",
+    "shared:status": "python3 scripts/shared-foundation.py status",
+    "shared:boundary": "python3 scripts/shared-foundation.py boundary",
+    "local:test": "node --test tests/*.test.js",
+    "data:earnings": "python3 scripts/build-earnings.py",
+    "dev:recording": "python3 scripts/shared-foundation.py run -- node scripts/stage-recording-runtime.mjs && node scripts/preview-recording.mjs",
+    "dev:static": "python3 -m http.server 4174 --directory dist --bind 127.0.0.1"
+  }
+}

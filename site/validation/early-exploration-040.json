@@ -1,0 +1,432 @@
+{
+  "version": "0.40.0",
+  "generatedAt": "2026-10-19T15:48:15.211Z",
+  "fixtureSHA256": "d78d41030494e06149e6715d3f75140314cf4ddc08bb95e5aa822c5cfa3f4ba0",
+  "classification": "Six new fictional diagnostic scenarios authored by the implementing agent before their first execution. These are transparent regression scenarios, not independent student or predictive-validity evidence. Theme-level official answers intentionally simplify each profile.",
+  "scenarios": 6,
+  "passed": 6,
+  "rows": [
+    {
+      "id": "early-01",
+      "name": "Morgan · repair first",
+      "biography": "Enjoys diagnosing faults and replacing worn parts in a workshop. Does not want design iteration or component modeling. Open to college if the work appeals, but pay alone should not turn repair into engineering.",
+      "themes": {
+        "R": 5,
+        "I": 3,
+        "A": 2,
+        "S": 2,
+        "E": 2,
+        "C": 3
+      },
+      "family": "trades",
+      "fields": {
+        "trades": 5,
+        "building": 3
+      },
+      "checks": {
+        "scoresUnchanged": true,
+        "expectedWorkSupported": true,
+        "unsupportedWorkNotPromoted": true
+      },
+      "shouldSupport": "automotive",
+      "shouldNotSupport": "electrical-engineering",
+      "before": {
+        "scores": [
+          40,
+          20,
+          10,
+          10,
+          10,
+          20
+        ],
+        "offers": [],
+        "invitations": [
+          "industrial-machinery-mechanic",
+          "hvac",
+          "electrician"
+        ]
+      },
+      "after": {
+        "supported": [
+          "automotive"
+        ],
+        "top": [
+          "automotive"
+        ],
+        "explanations": [
+          {
+            "id": "automotive",
+            "code": "supported",
+            "headline": "Your answers support a Top match",
+            "detail": "Several distinct work choices and your interest evidence support this match.",
+            "nextIndex": 0,
+            "nextQuestionId": "trades-refine-1",
+            "nextLabel": "Review the work answers"
+          },
+          {
+            "id": "electrical-engineering",
+            "code": "not-interested",
+            "headline": "Some of these tasks did not appeal",
+            "detail": "You chose “These activities do not interest me” for 4 questions. That is different from unfamiliar work. You can keep exploring other roles or revisit that answer.",
+            "nextIndex": 0,
+            "nextQuestionId": "building-design",
+            "nextLabel": "Revisit this question"
+          }
+        ]
+      },
+      "passes": true
+    },
+    {
+      "id": "early-02",
+      "name": "Jordan · design and testing",
+      "biography": "Likes physics, circuit design, comparing component performance and testing prototypes. Has tried a repair workshop but prefers finding design weaknesses. College is welcome.",
+      "themes": {
+        "R": 4,
+        "I": 5,
+        "A": 2,
+        "S": 2,
+        "E": 2,
+        "C": 3
+      },
+      "family": "trades",
+      "fields": {
+        "trades": 4,
+        "building": 5
+      },
+      "checks": {
+        "scoresUnchanged": true,
+        "expectedWorkSupported": true,
+        "unsupportedWorkNotPromoted": true
+      },
+      "shouldSupport": "electrical-engineering",
+      "shouldNotSupport": "automotive",
+      "before": {
+        "scores": [
+          30,
+          40,
+          10,
+          10,
+          10,
+          20
+        ],
+        "offers": [],
+        "invitations": [
+          "electrical-engineering",
+          "biomedical-engineering",
+          "mechanical-engineering"
+        ]
+      },
+      "after": {
+        "supported": [
+          "electrical-engineering"
+        ],
+        "top": [
+          "electrical-engineering"
+        ],
+        "explanations": [
+          {
+            "id": "automotive",
+            "code": "unfamiliar",
+            "headline": "Unfamiliar work is still open",
+            "detail": "You said this work is unfamiliar: “An engine or production machine behaving strangely” Read about it or try a small activity before deciding whether it interests you. This does not count as disliking it.",
+            "nextIndex": 0,
+            "nextQuestionId": "trades-refine-1",
+            "nextLabel": "Revisit this question"
+          },
+          {
+            "id": "electrical-engineering",
+            "code": "supported",
+            "headline": "Your answers support a Top match",
+            "detail": "Several distinct work choices and your interest evidence support this match.",
+            "nextIndex": 0,
+            "nextQuestionId": "building-design",
+            "nextLabel": "Review the work answers"
+          }
+        ]
+      },
+      "passes": true
+    },
+    {
+      "id": "early-03",
+      "name": "Casey · accurate records",
+      "biography": "Likes reconciling a small club’s transactions and keeping records accurate. Does not enjoy explaining financial choices or making forecasts. College is an option rather than the goal.",
+      "themes": {
+        "R": 2,
+        "I": 2,
+        "A": 2,
+        "S": 2,
+        "E": 2,
+        "C": 5
+      },
+      "family": "sales-office",
+      "fields": {
+        "sales-office": 5,
+        "business": 3
+      },
+      "checks": {
+        "scoresUnchanged": true,
+        "expectedWorkSupported": true,
+        "unsupportedWorkNotPromoted": true
+      },
+      "shouldSupport": "bookkeeping-clerk",
+      "shouldNotSupport": "accounting",
+      "before": {
+        "scores": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          40
+        ],
+        "offers": [],
+        "invitations": [
+          "bookkeeping-clerk",
+          "office-clerk",
+          "administrative-assistant"
+        ]
+      },
+      "after": {
+        "supported": [
+          "bookkeeping-clerk"
+        ],
+        "top": [
+          "bookkeeping-clerk"
+        ],
+        "explanations": [
+          {
+            "id": "bookkeeping-clerk",
+            "code": "supported",
+            "headline": "Your answers support a Top match",
+            "detail": "Several distinct work choices and your interest evidence support this match.",
+            "nextIndex": 0,
+            "nextQuestionId": "sales-office-refine-1",
+            "nextLabel": "Review the work answers"
+          },
+          {
+            "id": "accounting",
+            "code": "not-interested",
+            "headline": "Some of these tasks did not appeal",
+            "detail": "You chose “These activities do not interest me” for 3 questions. That is different from unfamiliar work. You can keep exploring other roles or revisit that answer.",
+            "nextIndex": 0,
+            "nextQuestionId": "business-people",
+            "nextLabel": "Revisit this question"
+          }
+        ]
+      },
+      "passes": true
+    },
+    {
+      "id": "early-04",
+      "name": "Riley · financial explanation",
+      "biography": "Likes tracing discrepancies, testing assumptions in forecasts, and explaining a financial choice with a budget. Interested in college accounting; routine records alone are not the extent of the interest.",
+      "themes": {
+        "R": 2,
+        "I": 4,
+        "A": 2,
+        "S": 3,
+        "E": 4,
+        "C": 5
+      },
+      "family": "sales-office",
+      "fields": {
+        "sales-office": 4,
+        "business": 5
+      },
+      "checks": {
+        "scoresUnchanged": true,
+        "expectedWorkSupported": true,
+        "unsupportedWorkNotPromoted": true
+      },
+      "shouldSupport": "accounting",
+      "shouldNotSupport": null,
+      "before": {
+        "scores": [
+          10,
+          30,
+          10,
+          20,
+          30,
+          40
+        ],
+        "offers": [],
+        "invitations": [
+          "financial-analysis",
+          "accounting",
+          "logistics"
+        ]
+      },
+      "after": {
+        "supported": [
+          "bookkeeping-clerk",
+          "accounting"
+        ],
+        "top": [
+          "accounting",
+          "bookkeeping-clerk"
+        ],
+        "explanations": [
+          {
+            "id": "bookkeeping-clerk",
+            "code": "supported",
+            "headline": "Your answers support a Top match",
+            "detail": "Several distinct work choices and your interest evidence support this match.",
+            "nextIndex": 0,
+            "nextQuestionId": "sales-office-refine-1",
+            "nextLabel": "Review the work answers"
+          },
+          {
+            "id": "accounting",
+            "code": "supported",
+            "headline": "Your answers support a Top match",
+            "detail": "Several distinct work choices and your interest evidence support this match.",
+            "nextIndex": 0,
+            "nextQuestionId": "business-people",
+            "nextLabel": "Review the work answers"
+          }
+        ]
+      },
+      "passes": true
+    },
+    {
+      "id": "early-05",
+      "name": "Drew · practical food preparation",
+      "biography": "Enjoys timing a meal, handling several orders, and practising repeatable cooking techniques. Laboratory research is unfamiliar. A food interest should not automatically establish food science.",
+      "themes": {
+        "R": 5,
+        "I": 2,
+        "A": 3,
+        "S": 3,
+        "E": 2,
+        "C": 3
+      },
+      "family": "services",
+      "fields": {
+        "services": 5,
+        "science": 3
+      },
+      "checks": {
+        "scoresUnchanged": true,
+        "expectedWorkSupported": true,
+        "unsupportedWorkNotPromoted": true
+      },
+      "shouldSupport": "restaurant-cook",
+      "shouldNotSupport": "food-science",
+      "before": {
+        "scores": [
+          40,
+          10,
+          20,
+          20,
+          10,
+          20
+        ],
+        "offers": [],
+        "invitations": [
+          "general-maintenance",
+          "landscaping-worker",
+          "hairdresser"
+        ]
+      },
+      "after": {
+        "supported": [
+          "restaurant-cook"
+        ],
+        "top": [
+          "restaurant-cook"
+        ],
+        "explanations": [
+          {
+            "id": "restaurant-cook",
+            "code": "supported",
+            "headline": "Your answers support a Top match",
+            "detail": "Several distinct work choices and your interest evidence support this match.",
+            "nextIndex": 0,
+            "nextQuestionId": "services-make",
+            "nextLabel": "Review the work answers"
+          },
+          {
+            "id": "food-science",
+            "code": "unfamiliar",
+            "headline": "Unfamiliar work is still open",
+            "detail": "You said this work is unfamiliar: “Samples, lab procedures, and possible sources of error” Read about it or try a small activity before deciding whether it interests you. This does not count as disliking it.",
+            "nextIndex": 1,
+            "nextQuestionId": "science-refine-3",
+            "nextLabel": "Revisit this question"
+          }
+        ]
+      },
+      "passes": true
+    },
+    {
+      "id": "early-06",
+      "name": "Alex · food quality research",
+      "biography": "Curious about chemistry, food quality and sources of laboratory error. Prefers controlled samples and careful procedures to a busy kitchen. Wants to consider college science.",
+      "themes": {
+        "R": 3,
+        "I": 5,
+        "A": 2,
+        "S": 2,
+        "E": 2,
+        "C": 4
+      },
+      "family": "services",
+      "fields": {
+        "services": 3,
+        "science": 5
+      },
+      "checks": {
+        "scoresUnchanged": true,
+        "expectedWorkSupported": true,
+        "unsupportedWorkNotPromoted": true
+      },
+      "shouldSupport": "food-science",
+      "shouldNotSupport": "restaurant-cook",
+      "before": {
+        "scores": [
+          20,
+          40,
+          10,
+          10,
+          10,
+          30
+        ],
+        "offers": [],
+        "invitations": [
+          "food-science",
+          "environmental-science",
+          "geoscience"
+        ]
+      },
+      "after": {
+        "supported": [
+          "food-science"
+        ],
+        "top": [
+          "food-science"
+        ],
+        "explanations": [
+          {
+            "id": "restaurant-cook",
+            "code": "not-interested",
+            "headline": "Some of these tasks did not appeal",
+            "detail": "You chose “These activities do not interest me” for 4 questions. That is different from unfamiliar work. You can keep exploring other roles or revisit that answer.",
+            "nextIndex": 0,
+            "nextQuestionId": "services-make",
+            "nextLabel": "Revisit this question"
+          },
+          {
+            "id": "food-science",
+            "code": "supported",
+            "headline": "Your answers support a Top match",
+            "detail": "Several distinct work choices and your interest evidence support this match.",
+            "nextIndex": 0,
+            "nextQuestionId": "science-result",
+            "nextLabel": "Review the work answers"
+          }
+        ]
+      },
+      "passes": true
+    }
+  ]
+}

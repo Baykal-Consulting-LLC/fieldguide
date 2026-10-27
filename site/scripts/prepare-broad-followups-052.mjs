@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {currentModelStates} from './current-model-states.mjs';
+import {broadQuestionQueue} from '../dist/broad-exploration.js';
+import {readMatchChart} from './read-match-chart.mjs';
+const root='research/broad-followups-052/',sha=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+if(fs.existsSync(root+'question-freeze.json'))throw Error('Follow-up questions already frozen; do not regenerate after answer authoring.');
+const baseline=readMatchChart(),all=currentModelStates(),mapping=[],packets={developmentA:[],developmentB:[],holdout:[]};let qn=0,pn=0,dn=0;
+for(const {c,state:s}of all){
+ const queue=broadQuestionQueue(s),token='profile-'+String(++pn).padStart(3,'0');
+ const questions=queue.map((e,i)=>{const key='reflection-'+String(++qn).padStart(4,'0'),binary=e.expanded||e.q.kind==='core-work';const options=binary?[]:e.q.options.map((o,j)=>({token:'choice-'+(j+1),text:o.text}));mapping.push({token:key,profileToken:token,modelId:c.id,phase:c.phase,careerId:e.careerId,questionId:e.questionId,family:e.family,kind:e.expanded?'expanded':binary?'core':'work',options:binary?[]:e.q.options.map((o,j)=>({token:'choice-'+(j+1),id:o.id}))});return {token:key,prompt:e.q.prompt,kind:binary?'interest-reflection':'choose-any',options};});
+ if(c.phase==='diagnostic049')continue;
+ const phase=['holdout','holdout049'].includes(c.phase)?'holdout':dn++%2?'developmentB':'developmentA';
+ if(questions.length)packets[phase].push({token,biography:c.biography,questions});
+}
+fs.writeFileSync(root+'question-map.json',JSON.stringify(mapping,null,2)+'\n');
+for(const [name,profiles]of Object.entries(packets))fs.writeFileSync(root+'blind-'+name+'.json',JSON.stringify({version:'0.52.0',scope:'Fictional biography plus anonymous questions only. No career labels, scores, current outcomes, target counts or salary information.',profiles},null,2)+'\n');
+fs.writeFileSync(root+'baseline-051.json',JSON.stringify({version:baseline.version,generatedAt:baseline.generatedAt,rows:baseline.rows.map(r=>({id:r.id,phase:r.phase,top:r.top.map(p=>({id:p.id,title:p.title,routes:p.routes,sustains:p.sustains,firstPay:p.firstPay})),other:r.other.map(p=>({id:p.id,title:p.title,routes:p.routes,sustains:p.sustains})),sustaining:r.sustaining.map(p=>({id:p.id,title:p.title,routes:p.routes,sustains:p.sustains})),needsConfirmation:r.needsConfirmation.map(p=>({id:p.id,title:p.title,routes:p.routes}))}))}));
+const files=['dist/broad-exploration.js','dist/core-work.js','dist/expanded-interest.js','dist/direct-match-candidates.js','dist/career-check-questions.js','dist/profile-journey.js','dist/plan-matches.js','dist/match-selection.js'];
+const old=JSON.parse(fs.readFileSync('research/broad-exploration-051/protocol.json'));
+fs.writeFileSync(root+'question-freeze.json',JSON.stringify({version:'0.52.0',frozenAt:new Date().toISOString(),rounds:1,maxQuestions:12,selection:'Exact 0.51 first-round queue from each model’s current frozen-answer state. No outcome-based selection or additional rounds to chase Top matches.',answerPolicy:'Profile-only authored simulations. Explicit biography evidence for each selected option or Yes; unfamiliarity is not dislike. Medium/high confidence with direct construct support required for positive evidence. Preserve original answers, uncertainty, declines and review holds. No matching-rule changes.',holdoutPolicy:'Original holdout and fresh 0.49 holdout retain separate denominators and receive the same locked rules. Answer author sees biographies and anonymous questions only, not matching outcomes. No holdout tuning; these historical cohorts are not untouched accuracy validation.',diagnostics:'Parent answers reused only for the exact question IDs also in the diagnostic queue. Other questions stay unasked; variants excluded from base totals.',private:'Public fictional profiles only; six owner-only cases not bundled or included in public totals.',baselineSHA256:sha(root+'baseline-051.json'),questionMapSHA256:sha(root+'question-map.json'),packets:Object.fromEntries(Object.keys(packets).map(k=>[k,{profiles:packets[k].length,questions:packets[k].reduce((n,p)=>n+p.questions.length,0),sha256:sha(root+'blind-'+k+'.json')}])),matchingFiles:Object.fromEntries(files.map(f=>[f,sha(f)])),inputs:old.inputs},null,2)+'\n');
+console.log(JSON.stringify(Object.fromEntries(Object.entries(packets).map(([k,ps])=>[k,{models:ps.length,questions:ps.reduce((n,p)=>n+p.questions.length,0)}]))));

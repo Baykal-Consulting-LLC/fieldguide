@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "remaining-gaps",
+      "title": "What remains without a degree Top?",
+      "queries": [
+        {
+          "id": "remaining-primary-queues",
+          "source": {
+            "label": "Frozen cohort and reconstructed gate audit",
+            "files": [
+              {
+                "label": "evidence-071/results.json.gz"
+              },
+              {
+                "label": "quality-072/audit.json.gz"
+              },
+              {
+                "label": "quality-072/analyze.py"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "Population",
+                "definition": "Exactly 1,000 public base profiles, excluding diagnostic variants and owner-only records."
+              },
+              {
+                "label": "Degree Top",
+                "definition": "At least one college or graduate route among the first three supported careers; associate-only routes are excluded."
+              },
+              {
+                "label": "Primary queue",
+                "definition": "Each of the 309 models without degree Top is assigned once using the documented priority order."
+              }
+            ],
+            "caveats": [
+              "These designed simulated profiles are not a representative student sample.",
+              "Primary queues are diagnostic categories, not predictions that a follow-up will produce a match.",
+              "All previously inspected holdouts remain separate diagnostic groups."
+            ]
+          },
+          "columns": [
+            "queue",
+            "models",
+            "also_no_top"
+          ],
+          "rows": [
+            {
+              "queue": "below-cap",
+              "models": 67,
+              "also_no_top": 0
+            },
+            {
+              "queue": "binding",
+              "models": 9,
+              "also_no_top": 4
+            },
+            {
+              "queue": "activity",
+              "models": 15,
+              "also_no_top": 10
+            },
+            {
+              "queue": "one-check",
+              "models": 136,
+              "also_no_top": 101
+            },
+            {
+              "queue": "broader",
+              "models": 81,
+              "also_no_top": 66
+            },
+            {
+              "queue": "exposure",
+              "models": 1,
+              "also_no_top": 1
+            }
+          ],
+          "methods": [
+            {
+              "language": "calculation",
+              "code": "67 + 15 + 9 + 136 + 81 + 1 = 309\n309 - 67 = 242 models without a supported degree option anywhere\n182 of the 309 also have no supported Top at any education level"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "followup-wiring",
+      "title": "Which recorded follow-ups do not affect matching?",
+      "queries": [
+        {
+          "id": "evidence-item-probes",
+          "source": {
+            "label": "Frozen question counts and isolated interface probes",
+            "files": [
+              {
+                "label": "evidence-071/results.json.gz"
+              },
+              {
+                "label": "evidence-071/engine.mjs"
+              },
+              {
+                "label": "quality-072/check-wiring.mjs"
+              },
+              {
+                "label": "quality-072/wiring-check.json"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "Offered items",
+                "definition": "Seven evidence items were offered 553 times and received 91 grounded positive simulated responses."
+              },
+              {
+                "label": "Probe result",
+                "definition": "Each of these seven positive answer inputs leaves researchRows071 output unchanged, while activity and specialist context controls are consumed."
+              }
+            ],
+            "caveats": [
+              "Probes are isolated interface checks, not additional cohort profiles or invented model interests.",
+              "Existing evidence mapping may already use the same source facts; this does not establish that wiring alone would increase frozen-cohort Top counts."
+            ]
+          },
+          "columns": [
+            "question",
+            "offered",
+            "grounded_positive"
+          ],
+          "rows": [
+            {
+              "question": "evidence071-physical-model",
+              "offered": 62,
+              "grounded_positive": 17
+            },
+            {
+              "question": "evidence071-research-report",
+              "offered": 104,
+              "grounded_positive": 8
+            },
+            {
+              "question": "evidence071-event-commitments",
+              "offered": 71,
+              "grounded_positive": 22
+            },
+            {
+              "question": "evidence071-safety-accountability",
+              "offered": 79,
+              "grounded_positive": 14
+            },
+            {
+              "question": "evidence071-curriculum-review",
+              "offered": 62,
+              "grounded_positive": 30
+            },
+            {
+              "question": "evidence071-educator-coaching",
+              "offered": 75,
+              "grounded_positive": 0
+            },
+            {
+              "question": "evidence071-client-budget",
+              "offered": 100,
+              "grounded_positive": 0
+            }
+          ],
+          "methods": [
+            {
+              "language": "calculation",
+              "code": "62 + 104 + 71 + 79 + 62 + 75 + 100 = 553 offers\n17 + 8 + 22 + 14 + 30 + 0 + 0 = 91 grounded positive answers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality-review",
+      "title": "How strong is the evidence for the new claims and losses?",
+      "queries": [
+        {
+          "id": "quality-scope",
+          "source": {
+            "label": "Saved claims, exact source facts and case review",
+            "files": [
+              {
+                "label": "evidence-071/results.json.gz"
+              },
+              {
+                "label": "quality-072/claim-review.json"
+              },
+              {
+                "label": "quality-072/loss-review.json"
+              }
+            ],
+            "metricDefinitions": [
+              {
+                "label": "Review scope",
+                "definition": "All 113 additional supported model-career claims across 15 professions and all six models losing Top or degree Top coverage were included."
+              },
+              {
+                "label": "Pattern disagreement",
+                "definition": "Seventeen new claims have negative six-theme correlations; eight are highlighted in Top three. One highlighted claim has an unavailable comparison."
+              },
+              {
+                "label": "Specialist reclassification",
+                "definition": "Seventeen optometry and 27 Animal Scientist claims lack the newly required specialty context; no frozen profile has a positive vision or farm-production fact."
+              }
+            ],
+            "caveats": [
+              "This is a systematic rule and provenance review with selected deeper profile judgments, not independent blinded certification or measured career-fit accuracy.",
+              "A negative broad correlation does not by itself invalidate a concrete task preference.",
+              "Multiple simulated answers may reuse one source fact; they are not independent confirmations.",
+              "No live matching, profiles, saved answers, pay or benchmark outcomes changed."
+            ]
+          },
+          "columns": [
+            "cohort",
+            "models",
+            "new_claims",
+            "reclassified_claims"
+          ],
+          "rows": [
+            {
+              "cohort": "development",
+              "models": 758,
+              "new_claims": 81,
+              "reclassified_claims": 36
+            },
+            {
+              "cohort": "holdout",
+              "models": 30,
+              "new_claims": 3,
+              "reclassified_claims": 0
+            },
+            {
+              "cohort": "holdout049",
+              "models": 12,
+              "new_claims": 2,
+              "reclassified_claims": 0
+            },
+            {
+              "cohort": "holdout056",
+              "models": 200,
+              "new_claims": 27,
+              "reclassified_claims": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

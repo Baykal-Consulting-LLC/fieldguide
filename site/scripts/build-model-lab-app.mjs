@@ -1,0 +1,5 @@
+import fs from'node:fs';import{createHash}from'node:crypto';
+import{build}from'esbuild';import path from'node:path';
+await build({entryPoints:['dist/model-lab-controller.js'],outfile:'dist/developer/model-lab-app.js',bundle:true,minify:true,format:'esm',platform:'browser',target:'es2022',plugins:[{name:'external-account',setup(b){b.onResolve({filter:/experiment-035\.js/},a=>({path:a.path,external:true}));b.onResolve({filter:/firebase-client\.js/},()=>({path:'../firebase-client.js?v=0.47.0',external:true}));b.onResolve({filter:/^\.\/.*\?v=/},args=>({path:path.resolve(args.resolveDir,args.path.split('?')[0])}));}}],external:['./experiment-035.js'],legalComments:'eof'});
+
+const hash=f=>createHash('sha256').update(fs.readFileSync(f)).digest('hex').slice(0,12),file='dist/developer/model-lab.html';fs.writeFileSync(file,fs.readFileSync(file,'utf8').replace(/model-lab-app\.js\?v=[^"]+/,`model-lab-app.js?v=${hash('dist/developer/model-lab-app.js')}`).replace(/model-lab\.css\?v=[^"]+/,`model-lab.css?v=${hash('dist/developer/model-lab.css')}`));

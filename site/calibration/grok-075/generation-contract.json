@@ -1,0 +1,5011 @@
+{
+  "generator": "Grok CLI default model, independent sessions, no tools/web/subagents",
+  "blindness": "Only neutral assessment items, whole-profile instructions and demographic roster; no site repository, rules, occupations, prior cohort, scores or outcomes. Outputs not selected by matching performance.",
+  "population": "Synthetic whole-person US student coverage cases; not a statistically representative population sample. Race marginal approximates NCES public students fall 2022; all other distributions are design choices.",
+  "demographicSource": "https://ies.ed.gov/learn/press-release/public-school-fall-2022-enrollment-counts-remain-below-fall-2019",
+  "roster": [
+    {
+      "id": "grok075-0001",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0002",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0003",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0004",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0005",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0006",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0007",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0008",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0009",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0010",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0011",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0012",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0013",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0014",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0015",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0016",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0017",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0018",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0019",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0020",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0021",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0022",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0023",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0024",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0025",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0026",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0027",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0028",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0029",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0030",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0031",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0032",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0033",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0034",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0035",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0036",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0037",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0038",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0039",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0040",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0041",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0042",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0043",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0044",
+      "raceEthnicity": "Native Hawaiian/Pacific Islander non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0045",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0046",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0047",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0048",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0049",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0050",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0051",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0052",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0053",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0054",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0055",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0056",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0057",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0058",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0059",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0060",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0061",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0062",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0063",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0064",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0065",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0066",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0067",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0068",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0069",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0070",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0071",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0072",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0073",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0074",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0075",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0076",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0077",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0078",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0079",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0080",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0081",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0082",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0083",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0084",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0085",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0086",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0087",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0088",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0089",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0090",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0091",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0092",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0093",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0094",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0095",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0096",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0097",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0098",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0099",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0100",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0101",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0102",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0103",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0104",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0105",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0106",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0107",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0108",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0109",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0110",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0111",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0112",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0113",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0114",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0115",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0116",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0117",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0118",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0119",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0120",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0121",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0122",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0123",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0124",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0125",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0126",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0127",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0128",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0129",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0130",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0131",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0132",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0133",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0134",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0135",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0136",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0137",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0138",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0139",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0140",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0141",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0142",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0143",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0144",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0145",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0146",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0147",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0148",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0149",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0150",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0151",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0152",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0153",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0154",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0155",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0156",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0157",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0158",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0159",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0160",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0161",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0162",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0163",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0164",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0165",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0166",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0167",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0168",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0169",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0170",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0171",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0172",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0173",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0174",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0175",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0176",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0177",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0178",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0179",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0180",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0181",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0182",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0183",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0184",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0185",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0186",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0187",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0188",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0189",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0190",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0191",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0192",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0193",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0194",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0195",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0196",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0197",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0198",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0199",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0200",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0201",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0202",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0203",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0204",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0205",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0206",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0207",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0208",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0209",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0210",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0211",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0212",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0213",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0214",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0215",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0216",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0217",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0218",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0219",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0220",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0221",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0222",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0223",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0224",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0225",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0226",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0227",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0228",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0229",
+      "raceEthnicity": "Native Hawaiian/Pacific Islander non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0230",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0231",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0232",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0233",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0234",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0235",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0236",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0237",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0238",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0239",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0240",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0241",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0242",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0243",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0244",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0245",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0246",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0247",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0248",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0249",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0250",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0251",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0252",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0253",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0254",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0255",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0256",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0257",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0258",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0259",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0260",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0261",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0262",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0263",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0264",
+      "raceEthnicity": "American Indian/Alaska Native non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0265",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0266",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0267",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0268",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0269",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0270",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0271",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0272",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0273",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0274",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0275",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0276",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0277",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0278",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0279",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0280",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0281",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0282",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0283",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0284",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0285",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0286",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0287",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0288",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0289",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0290",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0291",
+      "raceEthnicity": "Native Hawaiian/Pacific Islander non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0292",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0293",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0294",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0295",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0296",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0297",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0298",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0299",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0300",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0301",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0302",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0303",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0304",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0305",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0306",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0307",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0308",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0309",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0310",
+      "raceEthnicity": "American Indian/Alaska Native non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0311",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0312",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0313",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0314",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0315",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0316",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0317",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0318",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0319",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0320",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0321",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0322",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0323",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0324",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0325",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0326",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0327",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0328",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0329",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0330",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0331",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0332",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0333",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0334",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0335",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0336",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0337",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0338",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0339",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0340",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0341",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0342",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0343",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0344",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0345",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0346",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0347",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0348",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0349",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0350",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0351",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0352",
+      "raceEthnicity": "American Indian/Alaska Native non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0353",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0354",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0355",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0356",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0357",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0358",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0359",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0360",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0361",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0362",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0363",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0364",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0365",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0366",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0367",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0368",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0369",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0370",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0371",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0372",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0373",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0374",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0375",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0376",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0377",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0378",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0379",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0380",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0381",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0382",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0383",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0384",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0385",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0386",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0387",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0388",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0389",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0390",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0391",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0392",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0393",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0394",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0395",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0396",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0397",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0398",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0399",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0400",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0401",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0402",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0403",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0404",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0405",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0406",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0407",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0408",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0409",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0410",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0411",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0412",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0413",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0414",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0415",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0416",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0417",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0418",
+      "raceEthnicity": "Native Hawaiian/Pacific Islander non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0419",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0420",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0421",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0422",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0423",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0424",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0425",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0426",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0427",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0428",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0429",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0430",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0431",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0432",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0433",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0434",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0435",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0436",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0437",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0438",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0439",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0440",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0441",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0442",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0443",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0444",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0445",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0446",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0447",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0448",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0449",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0450",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0451",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0452",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0453",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0454",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0455",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0456",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0457",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0458",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0459",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0460",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0461",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0462",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0463",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0464",
+      "raceEthnicity": "American Indian/Alaska Native non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0465",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0466",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0467",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0468",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0469",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0470",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0471",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0472",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0473",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0474",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0475",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0476",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0477",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0478",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0479",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0480",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0481",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0482",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0483",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0484",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0485",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0486",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0487",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0488",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0489",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0490",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0491",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0492",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0493",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0494",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0495",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0496",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0497",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0498",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0499",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0500",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0501",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0502",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0503",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0504",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0505",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0506",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0507",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0508",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0509",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0510",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0511",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0512",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0513",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0514",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0515",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0516",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0517",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0518",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0519",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0520",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0521",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0522",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0523",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0524",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0525",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0526",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0527",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0528",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0529",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0530",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0531",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0532",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0533",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0534",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0535",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0536",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0537",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0538",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0539",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0540",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0541",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0542",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0543",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0544",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0545",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0546",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0547",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0548",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0549",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0550",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0551",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0552",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0553",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0554",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0555",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0556",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0557",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0558",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0559",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0560",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0561",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0562",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0563",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0564",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0565",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0566",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0567",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0568",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0569",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0570",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0571",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0572",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0573",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0574",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0575",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0576",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0577",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0578",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0579",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0580",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0581",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0582",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0583",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0584",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0585",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0586",
+      "raceEthnicity": "American Indian/Alaska Native non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0587",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0588",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0589",
+      "raceEthnicity": "American Indian/Alaska Native non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0590",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0591",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0592",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0593",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0594",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0595",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0596",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0597",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0598",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0599",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0600",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0601",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0602",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0603",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0604",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0605",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0606",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0607",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0608",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0609",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0610",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0611",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0612",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0613",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0614",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0615",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0616",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0617",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0618",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0619",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0620",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0621",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0622",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0623",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0624",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0625",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0626",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0627",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0628",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0629",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0630",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0631",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0632",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0633",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0634",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0635",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0636",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0637",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0638",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0639",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0640",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0641",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0642",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0643",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0644",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0645",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0646",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0647",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0648",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0649",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0650",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0651",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0652",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0653",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0654",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0655",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0656",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0657",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0658",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0659",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0660",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0661",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0662",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0663",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0664",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0665",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0666",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0667",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0668",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0669",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0670",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0671",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0672",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0673",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0674",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0675",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0676",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0677",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0678",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0679",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0680",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0681",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0682",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0683",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0684",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0685",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0686",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0687",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0688",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0689",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0690",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0691",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0692",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0693",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0694",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0695",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0696",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0697",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0698",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0699",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0700",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0701",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0702",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0703",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0704",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0705",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0706",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0707",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0708",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0709",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0710",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0711",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0712",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0713",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0714",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0715",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0716",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0717",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0718",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0719",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0720",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0721",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0722",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0723",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0724",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0725",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0726",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0727",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0728",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0729",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0730",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0731",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0732",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0733",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0734",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0735",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0736",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0737",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0738",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0739",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0740",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0741",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0742",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0743",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0744",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0745",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0746",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0747",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0748",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0749",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0750",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0751",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0752",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0753",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0754",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0755",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0756",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0757",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0758",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0759",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0760",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0761",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0762",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0763",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0764",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0765",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0766",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0767",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0768",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0769",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0770",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0771",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0772",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0773",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0774",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0775",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0776",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0777",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0778",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0779",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0780",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0781",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0782",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0783",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0784",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0785",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0786",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0787",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0788",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0789",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0790",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0791",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0792",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0793",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0794",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0795",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0796",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0797",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0798",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0799",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0800",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0801",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0802",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0803",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0804",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0805",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0806",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0807",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0808",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0809",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0810",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0811",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0812",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0813",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0814",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0815",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0816",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0817",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0818",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0819",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0820",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0821",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0822",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0823",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0824",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0825",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0826",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0827",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0828",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0829",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0830",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0831",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0832",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0833",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0834",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0835",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0836",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0837",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0838",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0839",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0840",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0841",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0842",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0843",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0844",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0845",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0846",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0847",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0848",
+      "raceEthnicity": "American Indian/Alaska Native non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0849",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0850",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0851",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0852",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0853",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0854",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0855",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0856",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0857",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0858",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0859",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0860",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0861",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0862",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0863",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0864",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0865",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0866",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0867",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0868",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0869",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0870",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0871",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0872",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0873",
+      "raceEthnicity": "American Indian/Alaska Native non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0874",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0875",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0876",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0877",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0878",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0879",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0880",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0881",
+      "raceEthnicity": "American Indian/Alaska Native non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0882",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0883",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0884",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0885",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0886",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0887",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0888",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0889",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0890",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0891",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0892",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0893",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0894",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0895",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0896",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0897",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0898",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0899",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0900",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0901",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0902",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0903",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0904",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0905",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0906",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0907",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0908",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0909",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0910",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0911",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0912",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0913",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0914",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0915",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0916",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0917",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0918",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0919",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0920",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0921",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0922",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0923",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0924",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0925",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0926",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0927",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0928",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0929",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0930",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0931",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0932",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0933",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0934",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0935",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0936",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0937",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0938",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0939",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0940",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0941",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0942",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0943",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0944",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0945",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0946",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0947",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0948",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0949",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0950",
+      "raceEthnicity": "Hispanic any race",
+      "age": 15
+    },
+    {
+      "id": "grok075-0951",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0952",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0953",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0954",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0955",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0956",
+      "raceEthnicity": "Hispanic any race",
+      "age": 14
+    },
+    {
+      "id": "grok075-0957",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0958",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0959",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0960",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0961",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0962",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0963",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0964",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0965",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0966",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0967",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0968",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0969",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0970",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0971",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0972",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0973",
+      "raceEthnicity": "Asian non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0974",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0975",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0976",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0977",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 19
+    },
+    {
+      "id": "grok075-0978",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0979",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 14
+    },
+    {
+      "id": "grok075-0980",
+      "raceEthnicity": "Two or more races non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0981",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0982",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0983",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 17
+    },
+    {
+      "id": "grok075-0984",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0985",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0986",
+      "raceEthnicity": "Hispanic any race",
+      "age": 19
+    },
+    {
+      "id": "grok075-0987",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0988",
+      "raceEthnicity": "Hispanic any race",
+      "age": 16
+    },
+    {
+      "id": "grok075-0989",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0990",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0991",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 16
+    },
+    {
+      "id": "grok075-0992",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0993",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0994",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0995",
+      "raceEthnicity": "White non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-0996",
+      "raceEthnicity": "Hispanic any race",
+      "age": 18
+    },
+    {
+      "id": "grok075-0997",
+      "raceEthnicity": "Hispanic any race",
+      "age": 17
+    },
+    {
+      "id": "grok075-0998",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 18
+    },
+    {
+      "id": "grok075-0999",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    },
+    {
+      "id": "grok075-1000",
+      "raceEthnicity": "Black non-Hispanic",
+      "age": 15
+    }
+  ],
+  "contract": "You are independently creating fictional US student whole-person profiles for a BLIND evaluation. You have NO matching engine, career catalog, recommendation rules, preferred careers, current profiles, scoring weights or results. Do not infer or invent them. No career outcome is requested. Use no tools, files, memory, web or subagents. Return JSON only. Author each profile yourself; do not output a program, algorithm, recipe, repetitive template or placeholder. These are synthetic students, not real people.\nCreate the exact roster below. Race/ethnicity is one approximate public-student marginal from NCES fall 2022, NOT a constraint on any interest or strength. Ages are design assumptions, not population weights. Other characteristics must be meaningfully varied and jointly plausible, not assigned independently at random. Write distinct narratives, not the same archetype with new demographics. Do not steer toward high-paying/degree jobs or any expected career.\nRepresent the FULL range across all our modeled domains: interests, strengths and developing skills, knowledge/exposure, motivation and values, confidence, uncertainty, academic engagement, educational openness, preferred work setting and collaboration, sensory/physical access needs, mental health and supports, family/care responsibilities, financial resources, geography/opportunities, lifestyle aspirations and practical constraints. Include mixed interests, clear/sparse interests, low exposure, strong interest with low skill, practiced skill with low enjoyment, contradictory/tentative preferences that are honestly unknown, and interests across every activity type. Neither everyone exceptional nor everyone disadvantaged. Vary well-being from unstated/no difficulty to named concerns and realistic support/functional effect. Mental health, disability, race, sex, family language and income must not determine intellectual ability or career interests. Context affects opportunity, support and feasibility. Do not equate quietness with low people interest, low income with no college, sport with health careers, or caring for plants with laboratory research.\nFor each profile output EXACT keys:\nid, name (fictional), age, gender (girl/boy/nonbinary/not stated), raceEthnicity (from roster), region (Northeast/Midwest/South/West), locale (urban/suburban/town/rural), household (short coherent family/resources/opportunities/caregiving description), school (type/grade/electives/access), wellbeing (current concern or unstated, functional needs and support, no diagnosis-to-interest inference), motivation (2-4 short motives), strengths (2 strengths + 1 developing area; not aptitude claims), confidence (1-5), exposure (limited/mixed/broad), education (short training/associate/bachelor/graduate/open/undecided; feasible aspirations may need aid), workContext (preferred setting, pace, people vs solo and access needs), constraints (0-3), narrative (45-75 words connecting sustained chosen activities, motivation, strengths, exposure and one uncertainty; no career recommendation), positiveTopics (1-8 IDs), negativeTopics (0-6 distinct IDs), positiveMethods (1-8 IDs), negativeMethods (0-4 IDs), responsibilities (0-3 IDs), lifestyleChoices ({home,transport,groceries,dining,travel,entertainment,recreation,clothing,saving}, each 0-3), official (60 integer responses 1-5 in supplied order), followups (object mapping all six supplied IDs to 0=unknown or 1-5 interest; 3=neutral, 4=interested,5=very interested).\nActivity IDs are questionnaire ANSWERS to the supplied exact activity statements, NOT categories or inferred attributes. Select a positive only if this specific activity appeals; broad subject liking must not imply its distinctive procedures. Select negatives only for explicit disinterest; all other IDs remain unknown. Keep positives and negatives disjoint. Official 3 means Unsure; never invent confident interest to fill every item. Followup 0 is unknown; use 4/5 only for explicitly appealing activities consistent with narrative, context and other answers. One statement being positive does not force the paired statement. A student can like an unfamiliar hypothetical activity without prior skill; leave unknown if they cannot judge. Vary answers independently where meaningful, not identical theme patterns. Responses and profile must be internally consistent. Lifestyle choices: 0 low-cost/shared/basic,1 modest,2 comfortable,3 expansive; aspirations may exceed current household means but make that uncertainty explicit.\nReturn {\"profiles\":[...]} and nothing else.",
+  "questionnaireSHA256": "458c97ea6af9ed17bf9e7d9616928752f88eca1068e90e46257da577affa4814",
+  "createdAt": 1792596696.191453
+}

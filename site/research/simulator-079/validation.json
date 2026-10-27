@@ -1,0 +1,19 @@
+{
+  "fullBuild": "npm run build completed exit 0",
+  "focusedSuites": [
+    "tests/simulator-079.test.js",
+    "tests/simulator-079-results.test.js",
+    "tests/model-match-chart.test.js",
+    "tests/simulator-078.test.js",
+    "tests/program-performance.test.js",
+    "tests/cohort-049.test.js",
+    "tests/cohort-matrix.test.js"
+  ],
+  "focusedDistinctTests": 54,
+  "result": "All passed; no full-suite claim",
+  "dashboard": "All six final cohort summaries reconcile with final paired dataset; app identity preserved and buildStatus complete",
+  "transport": "All categories for 2000 paired models round-trip against final canonical data; baseline SHA verified; first pass retained",
+  "liveFlow": "Core student matching, budget, education and app source diffs empty; research-only bindings and developer presentation",
+  "visualQA": "Unavailable: CUA inventory has no browsers; local chart/dashboard HTTP200 and native opening queued, not a rendered verification",
+  "publicationPayloadMiB": 237.19
+}

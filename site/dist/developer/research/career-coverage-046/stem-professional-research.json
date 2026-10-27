@@ -1,0 +1,1163 @@
+{
+  "version": "coverage-research-046",
+  "scope": "Medicine, law, engineering and technical STEM research; public catalog only; no private models accessed",
+  "checkedAt": "2026-10-19",
+  "method": "Reviewed existing 117-occupation catalog; browsed official BLS OOH, O*NET, ABET, AAMC and ABA sources. Proposals are editorial designs; their ability to improve student matches has not been empirically established.",
+  "sources": [
+    {
+      "id": "bls-physician",
+      "title": "BLS OOH: Physicians and Surgeons",
+      "url": "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Clinical and nonclinical work and multiple specialties; typical bachelor’s, medical degree and residency. A working physician and a first-paid resident are different financial stages."
+    },
+    {
+      "id": "bls-lawyer",
+      "title": "BLS OOH: Lawyers",
+      "url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Legal work includes advice, transactions, documents and litigation. Typical law degree and state admission; newly hired associates work with experienced lawyers."
+    },
+    {
+      "id": "aamc-specialties",
+      "title": "AAMC Careers in Medicine",
+      "url": "https://careersinmedicine.aamc.org/",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Self-exploration and exploration of specialty options precede choosing a specialty; contains over 200 specialty profiles. This supports exploration, not a validated scoring key for this product."
+    },
+    {
+      "id": "aba-areas",
+      "title": "ABA Practice Areas & Career Resources",
+      "url": "https://www.americanbar.org/topics/",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Practice areas include civil rights, business, environment, family, intellectual property, health, immigration and litigation. These are branches within lawyer exploration, not distinct SOC occupations."
+    },
+    {
+      "id": "abet-programs",
+      "title": "ABET: What Programs Does ABET Accredit?",
+      "url": "https://www.abet.org/accreditation/what-is-accreditation/what-programs-does-abet-accredit/",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Engineering and engineering technology are related but distinct; engineering emphasizes theoretical analysis and conceptual design. Engineering technology has associate and bachelor routes; licensing pathways vary."
+    },
+    {
+      "id": "occupation-aerospace-engineering",
+      "title": "BLS OOH: Aerospace Engineers",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/aerospace-engineers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Design and test flying vehicles and spacecraft. Entry preparation: Bachelor’s in aerospace engineering or related field."
+    },
+    {
+      "id": "occupation-chemical-engineering",
+      "title": "BLS OOH: Chemical Engineers",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/chemical-engineers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Turn chemistry into safe, repeatable production processes. Entry preparation: Bachelor’s in chemical engineering or related field."
+    },
+    {
+      "id": "occupation-computer-hardware-engineering",
+      "title": "BLS OOH: Computer Hardware Engineers",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Design and test the physical components of computing systems. Entry preparation: Bachelor’s in computer engineering or related field."
+    },
+    {
+      "id": "occupation-electronics-engineering",
+      "title": "BLS OOH: Electronics Engineers, Except Computer",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/electrical-and-electronics-engineers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Design electronic circuits and communication/sensing devices. Entry preparation: Bachelor’s in electrical/electronics engineering or related field."
+    },
+    {
+      "id": "occupation-environmental-engineering",
+      "title": "BLS OOH: Environmental Engineers",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/environmental-engineers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Design practical systems that prevent or reduce pollution. Entry preparation: Bachelor’s in environmental engineering or related engineering field."
+    },
+    {
+      "id": "occupation-materials-engineering",
+      "title": "BLS OOH: Materials Engineers",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/materials-engineers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Develop and select materials based on how they behave. Entry preparation: Bachelor’s in materials engineering or related engineering field."
+    },
+    {
+      "id": "occupation-agricultural-engineering",
+      "title": "BLS OOH: Agricultural Engineers",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/agricultural-engineers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Engineer equipment and systems for agriculture. Entry preparation: Bachelor’s in agricultural/biological engineering or related engineering field."
+    },
+    {
+      "id": "occupation-health-safety-engineering",
+      "title": "BLS OOH: Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "url": "https://www.bls.gov/ooh/architecture-and-engineering/health-and-safety-engineers.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Engineer hazards out of equipment and work systems. Entry preparation: Bachelor’s in engineering or related field."
+    },
+    {
+      "id": "occupation-robotics-engineering",
+      "title": "O*NET: Robotics Engineers",
+      "url": "https://www.onetonline.org/link/details/17-2199.08",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Integrate sensing, movement and code into robotic systems. Entry preparation: Usually bachelor-level engineering preparation; graduate research roles may require more."
+    },
+    {
+      "id": "occupation-operations-research",
+      "title": "BLS OOH: Operations Research Analysts",
+      "url": "https://www.bls.gov/ooh/math/operations-research-analysts.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Use mathematical models to compare constrained decisions. Entry preparation: At least bachelor’s; some employers require or prefer master’s."
+    },
+    {
+      "id": "occupation-actuary",
+      "title": "BLS OOH: Actuaries",
+      "url": "https://www.bls.gov/ooh/math/actuaries.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Use probability to analyze financial uncertainty. Entry preparation: Bachelor’s in analytical field plus professional exam progression."
+    },
+    {
+      "id": "occupation-medical-science",
+      "title": "BLS OOH: Medical Scientists, Except Epidemiologists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/medical-scientists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Research mechanisms, prevention and treatment of disease. Entry preparation: Typically Ph.D. in life science or medical degree; some positions have other graduate routes."
+    },
+    {
+      "id": "occupation-microbiology",
+      "title": "BLS OOH: Microbiologists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/microbiologists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Study microorganisms and their effects. Entry preparation: Bachelor’s in microbiology or related field; some positions prefer graduate degree."
+    },
+    {
+      "id": "occupation-biochemistry-biophysics",
+      "title": "BLS OOH: Biochemists and Biophysicists",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/biochemists-and-biophysicists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Investigate chemical and physical processes in living things. Entry preparation: Ph.D. for independent R&D; bachelor’s/master’s qualify for some entry positions."
+    },
+    {
+      "id": "occupation-forensic-science",
+      "title": "BLS OOH: Forensic Science Technicians",
+      "url": "https://www.bls.gov/ooh/life-physical-and-social-science/forensic-science-technicians.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Analyze physical evidence for investigations. Entry preparation: Typically bachelor’s in natural or forensic science plus on-the-job training."
+    },
+    {
+      "id": "occupation-medical-laboratory-science",
+      "title": "BLS OOH: Medical and Clinical Laboratory Technologists",
+      "url": "https://www.bls.gov/ooh/healthcare/clinical-laboratory-technologists-and-technicians.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Perform and evaluate patient diagnostic laboratory tests. Entry preparation: Typically bachelor’s in medical laboratory technology/science or related life science; licensing/certification requirements vary."
+    },
+    {
+      "id": "occupation-optometry",
+      "title": "BLS OOH: Optometrists",
+      "url": "https://www.bls.gov/ooh/healthcare/optometrists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Diagnose and treat vision and eye-health problems. Entry preparation: Doctor of Optometry and state license; applicants typically have bachelor’s."
+    },
+    {
+      "id": "occupation-audiology",
+      "title": "BLS OOH: Audiologists",
+      "url": "https://www.bls.gov/ooh/healthcare/audiologists.htm",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Diagnose and manage hearing and balance problems. Entry preparation: Doctor of Audiology after bachelor’s and state license."
+    },
+    {
+      "id": "physician-branch-psychiatry",
+      "title": "O*NET: Psychiatry",
+      "url": "https://www.onetonline.org/link/summary/29-1223.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Medical assessment and treatment of mental disorders. Specialty exploration requires medical training and more specific preparation; these branches do not establish fit from a generic helping interest."
+    },
+    {
+      "id": "physician-branch-diagnostic-radiology",
+      "title": "O*NET: Diagnostic radiology",
+      "url": "https://www.onetonline.org/link/summary/29-1224.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Medical interpretation of imaging. Specialty exploration requires medical training and more specific preparation; these branches do not establish fit from a generic helping interest."
+    },
+    {
+      "id": "physician-branch-pathology",
+      "title": "O*NET: Pathology",
+      "url": "https://www.onetonline.org/link/summary/29-1222.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Physician diagnosis through tissues, cells and tests. Specialty exploration requires medical training and more specific preparation; these branches do not establish fit from a generic helping interest."
+    },
+    {
+      "id": "physician-branch-emergency-medicine",
+      "title": "O*NET: Emergency medicine",
+      "url": "https://www.onetonline.org/link/summary/29-1214.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Urgent medical diagnosis and treatment. Specialty exploration requires medical training and more specific preparation; these branches do not establish fit from a generic helping interest."
+    },
+    {
+      "id": "physician-branch-pediatrics",
+      "title": "O*NET: Pediatrics",
+      "url": "https://www.onetonline.org/link/summary/29-1221.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Medical diagnosis, prevention and treatment for children. Specialty exploration requires medical training and more specific preparation; these branches do not establish fit from a generic helping interest."
+    },
+    {
+      "id": "physician-branch-surgery",
+      "title": "O*NET: Surgery",
+      "url": "https://www.onetonline.org/link/summary/29-1249.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Procedural treatment of disease and injury. Specialty exploration requires medical training and more specific preparation; these branches do not establish fit from a generic helping interest."
+    },
+    {
+      "id": "onet-electronics",
+      "title": "O*NET: Electronics Engineers, Except Computer",
+      "url": "https://www.onetonline.org/link/summary/17-2072.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Confirms exact detailed O*NET occupation code and scope; distinct from the existing Electrical Engineers entry."
+    },
+    {
+      "id": "onet-safety-engineering",
+      "title": "O*NET: Health and Safety Engineers",
+      "url": "https://www.onetonline.org/link/summary/17-2111.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Confirms exact O*NET occupation code; engineering hazard prevention is distinct from generic inspection."
+    },
+    {
+      "id": "onet-clinical-lab",
+      "title": "O*NET: Medical and Clinical Laboratory Technologists",
+      "url": "https://www.onetonline.org/link/details/29-2011.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Confirms technologist code 29-2011.00 and distinguishes Medical and Clinical Laboratory Technicians 29-2012.00; BLS wage data combine the occupations."
+    },
+    {
+      "id": "onet-medical-scientist",
+      "title": "O*NET: Medical Scientists, Except Epidemiologists",
+      "url": "https://www.onetonline.org/link/summary/19-1042.00",
+      "checkedAt": "2026-10-19",
+      "keyEvidence": "Confirms detailed occupation code and explicitly excludes the existing Epidemiologists occupation."
+    }
+  ],
+  "findings": [
+    {
+      "id": "not-absent",
+      "finding": "Doctor, lawyer and engineer are not absent from the catalog: physician is specifically family medicine; law is Lawyers; five engineering occupations are mechanical, civil, electrical, biomedical and industrial. Their absence from a particular view must be diagnosed as exposure, unanswered comparisons, confirmation, ranking, or affordability; catalog presence alone does not establish that models received a fair opportunity.",
+      "basis": "Existing catalog inspection",
+      "inference": false
+    },
+    {
+      "id": "medicine-narrowness",
+      "finding": "Family medicine cannot stand in for the full variety of physician work. Add a broad medicine exploration entry that routes to diagnostic/longitudinal care, acute care, procedural work, mental health and imaging/laboratory diagnosis. Keep current family medicine evidence and label accurate; specialty preferences are exploratory, not promised residency placements.",
+      "sources": [
+        "bls-physician",
+        "aamc-specialties"
+      ],
+      "inference": true
+    },
+    {
+      "id": "law-narrowness",
+      "finding": "The two existing lawyer prompts focus on legal research and case/precedent argument. Add client advice, transactions/contracts, negotiation and regulatory/public-interest applications. Preserve one Lawyer occupation and shared J.D./license preparation; practice-area preferences should not create duplicate Top counts.",
+      "sources": [
+        "bls-lawyer",
+        "aba-areas"
+      ],
+      "inference": true
+    },
+    {
+      "id": "engineering-narrowness",
+      "finding": "Five engineering disciplines leave meaningful gaps in materials, processes, electronics/computing hardware, environmental systems, agriculture and aerospace. Cross-field exploration can ask whether science, tinkering, computing or conservation interest extends to design, modeling and testing; do not require engineering vocabulary or prior technical training.",
+      "sources": [
+        "abet-programs"
+      ],
+      "inference": true
+    },
+    {
+      "id": "degree-not-interest",
+      "finding": "Ask work interest before willingness to pursue long training, current mathematics confidence, admissions readiness, finances or work context. These are separate dimensions. College willingness can broaden invitations but cannot substitute for domain interest; unfamiliarity should produce a short activity example rather than a negative answer.",
+      "basis": "Product-design recommendation, not a psychometric finding",
+      "inference": true
+    },
+    {
+      "id": "fiscal-separation",
+      "finding": "Professional-school completion is not the first paid stage for physicians: paid residency and later independent practice need separate budgets. For new occupations, leave lifestyle-sustaining unknown until a source-backed first-paid-stage wage and route budget exist. Occupational medians and wage percentiles must not be relabeled as graduate starting salaries.",
+      "sources": [
+        "bls-physician"
+      ],
+      "inference": true
+    }
+  ],
+  "proposedOccupations": [
+    {
+      "id": "aerospace-engineering",
+      "title": "Aerospace Engineers",
+      "onetSoc": "17-2011.00",
+      "soc": "17-2011",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "second-wave",
+      "typicalEntryDegree": "Bachelor’s in aerospace engineering or related field",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Design and test flying vehicles and spacecraft"
+      ],
+      "novicePrompts": [
+        "Would you like to learn how to design an aircraft or spacecraft so it can fly or move safely and efficiently?",
+        "Would you like to learn to use calculations and prototype tests to improve how an aircraft or spacecraft performs?"
+      ],
+      "contrastingQuestion": "Which sounds more interesting: designing and testing a flying vehicle, operating it, repairing it, or none of these?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "mechanical-engineering",
+        "electrical-engineering"
+      ],
+      "risks": [
+        "Interest in space news or flying is not enough to establish engineering-design interest. Defense clearance requirements apply to some jobs, not the entire occupation."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/aerospace-engineers.htm"
+      ],
+      "sources": [
+        "occupation-aerospace-engineering"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "chemical-engineering",
+      "title": "Chemical Engineers",
+      "onetSoc": "17-2041.00",
+      "soc": "17-2041",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "first-wave",
+      "typicalEntryDegree": "Bachelor’s in chemical engineering or related field",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Turn chemistry into safe, repeatable production processes"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to design a process that turns raw ingredients into useful products such as medicines, fuels, or materials?",
+        "Would you like to learn to test how temperature, pressure, and equipment changes can make a production process safer and less wasteful?"
+      ],
+      "contrastingQuestion": "Would you rather discover what a substance does in a laboratory, design how to make a product at larger scale, both, or neither?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "chemistry",
+        "food-science",
+        "industrial-engineering"
+      ],
+      "risks": [
+        "Distinguish process design from chemistry alone or following production instructions; do not require prior plant or calculus experience to express interest."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/chemical-engineers.htm"
+      ],
+      "sources": [
+        "occupation-chemical-engineering"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "computer-hardware-engineering",
+      "title": "Computer Hardware Engineers",
+      "onetSoc": "17-2061.00",
+      "soc": "17-2061",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "first-wave",
+      "typicalEntryDegree": "Bachelor’s in computer engineering or related field",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Design and test the physical components of computing systems"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to design the physical parts inside a computer or smart device, such as its circuits or processor system?",
+        "Would you like to learn to test a new computer component and work out why it fails or does not work well with the software?"
+      ],
+      "contrastingQuestion": "Would you rather design new computer parts, write applications, help people fix existing computers, or explore more than one?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "software",
+        "electrical-engineering",
+        "computer-support"
+      ],
+      "risks": [
+        "Gaming, assembling a PC, and troubleshooting can open exploration but do not by themselves establish new-hardware design interest."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm"
+      ],
+      "sources": [
+        "occupation-computer-hardware-engineering"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "electronics-engineering",
+      "title": "Electronics Engineers, Except Computer",
+      "onetSoc": "17-2072.00",
+      "soc": "17-2072",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "second-wave",
+      "typicalEntryDegree": "Bachelor’s in electrical/electronics engineering or related field",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Design electronic circuits and communication/sensing devices"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to design circuits that let devices sense information, communicate, or control what happens?",
+        "Would you like to learn to measure signals and test a circuit to make an electronic device work more reliably?"
+      ],
+      "contrastingQuestion": "Which would you most like to design: electronic sensors and communication devices, power and motors, software, or none?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "electrical-engineering",
+        "software",
+        "biomedical-engineering"
+      ],
+      "risks": [
+        "Avoid double counting a general electrical interest as two independent confirmations. This is a distinct O*NET occupation; show overlap and shared preparation."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/electrical-and-electronics-engineers.htm",
+        "https://www.onetonline.org/link/summary/17-2072.00"
+      ],
+      "sources": [
+        "occupation-electronics-engineering",
+        "onet-electronics"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "environmental-engineering",
+      "title": "Environmental Engineers",
+      "onetSoc": "17-2081.00",
+      "soc": "17-2081",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "first-wave",
+      "typicalEntryDegree": "Bachelor’s in environmental engineering or related engineering field",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Design practical systems that prevent or reduce pollution"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to design systems that clean polluted water or reduce waste and air pollution?",
+        "Would you like to learn to compare treatment designs using test results, costs, and their effects on people and the environment?"
+      ],
+      "contrastingQuestion": "Would you rather investigate an environmental problem, design a system to fix it, do outdoor conservation work, or explore several?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "environmental-science",
+        "civil-engineering",
+        "conservation"
+      ],
+      "risks": [
+        "Caring about nature is not sufficient to confirm engineering design. Offer a science-to-design bridge rather than require the Engineering field first."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/environmental-engineers.htm"
+      ],
+      "sources": [
+        "occupation-environmental-engineering"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "materials-engineering",
+      "title": "Materials Engineers",
+      "onetSoc": "17-2131.00",
+      "soc": "17-2131",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "first-wave",
+      "typicalEntryDegree": "Bachelor’s in materials engineering or related engineering field",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Develop and select materials based on how they behave"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to choose or develop a material that makes a product stronger, lighter, longer-lasting, or easier to recycle?",
+        "Would you like to learn to test why a material cracks, wears out, or fails and use the findings to improve it?"
+      ],
+      "contrastingQuestion": "Would you rather improve what a product is made from, how its moving parts work, how it looks and feels, or none?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "chemistry",
+        "mechanical-engineering",
+        "industrial-design"
+      ],
+      "risks": [
+        "Do not turn general art-material use or chemistry curiosity into material-performance interest without a follow-up."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/materials-engineers.htm"
+      ],
+      "sources": [
+        "occupation-materials-engineering"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "agricultural-engineering",
+      "title": "Agricultural Engineers",
+      "onetSoc": "17-2021.00",
+      "soc": "17-2021",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "second-wave",
+      "typicalEntryDegree": "Bachelor’s in agricultural/biological engineering or related engineering field",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Engineer equipment and systems for agriculture"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to design equipment or growing systems that help farms use water, energy, or labor more effectively?",
+        "Would you like to learn to test a farm’s irrigation, storage, or machinery problem and design a practical improvement?"
+      ],
+      "contrastingQuestion": "Would you rather grow and care for crops, study the science of crop growth, design farm equipment and systems, or explore several?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "mechanical-engineering",
+        "conservation",
+        "food-science",
+        "farmworker-crops"
+      ],
+      "risks": [
+        "Gardening alone is not an engineering confirmation; promising practical farm experience should trigger a design branch. Small occupation: local opportunity requires separate verification."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/agricultural-engineers.htm"
+      ],
+      "sources": [
+        "occupation-agricultural-engineering"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "health-safety-engineering",
+      "title": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "onetSoc": "17-2111.00",
+      "soc": "17-2111",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "second-wave",
+      "typicalEntryDegree": "Bachelor’s in engineering or related field",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Engineer hazards out of equipment and work systems"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to work out how a machine, product, or workplace could injure someone and redesign it to reduce that risk?",
+        "Would you like to learn to investigate an accident or test a safety feature and explain what needs to change?"
+      ],
+      "contrastingQuestion": "Would you rather design safer systems, inspect whether rules are followed, respond to emergencies, or explore more than one?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "industrial-engineering",
+        "civil-engineering",
+        "biomedical-engineering"
+      ],
+      "risks": [
+        "General concern for safety or helping people does not establish engineering interest. Separate engineering design from safety inspection and emergency care."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/health-and-safety-engineers.htm",
+        "https://www.onetonline.org/link/summary/17-2111.00"
+      ],
+      "sources": [
+        "occupation-health-safety-engineering",
+        "onet-safety-engineering"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "robotics-engineering",
+      "title": "Robotics Engineers",
+      "onetSoc": "17-2199.08",
+      "soc": "17-2199",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "first-wave",
+      "typicalEntryDegree": "Bachelor’s is the most common response in O*NET’s new-hire education survey (50%); some respondents report associate or master’s preparation. Verify the actual role and program before fixing a route.",
+      "entryVsExperienced": "O*NET describes a mixed-preparation occupation rather than a universal bachelor’s-only rule; early design/test roles differ from lead systems or research roles. A robotics technician should not inherit an engineer wage or qualification claim.",
+      "definingInterests": [
+        "Integrate sensing, movement and code into robotic systems"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to combine sensors, moving parts, and code so a robot can carry out a useful task?",
+        "Would you like to learn to test a robot, work out why it moves or responds incorrectly, and improve its design or program?"
+      ],
+      "contrastingQuestion": "Would you rather design and program a robot, repair an existing robot, use one to make something, or none?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "software",
+        "mechanical-engineering",
+        "electrical-engineering",
+        "industrial-engineering"
+      ],
+      "risks": [
+        "O*NET detailed occupation nested under SOC 17-2199 Engineers, All Other; broad-SOC wages are not robotics-specific wages. Do not add both generic other-engineer and robotics as independent counts."
+      ],
+      "sourceUrls": [
+        "https://www.onetonline.org/link/details/17-2199.08"
+      ],
+      "sources": [
+        "occupation-robotics-engineering"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "operations-research",
+      "title": "Operations Research Analysts",
+      "onetSoc": "15-2031.00",
+      "soc": "15-2031",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "first-wave",
+      "typicalEntryDegree": "At least bachelor’s; some employers require or prefer master’s",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Use mathematical models to compare constrained decisions"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to use numbers and computer models to find a better delivery route, schedule, or way to use limited resources?",
+        "Would you like to learn to compare possible plans, test what happens when assumptions change, and explain the trade-offs?"
+      ],
+      "contrastingQuestion": "Would you rather organize a plan directly, build a mathematical model to compare plans, collect customer opinions, or none?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "statistics",
+        "data-science",
+        "industrial-engineering",
+        "logistics"
+      ],
+      "risks": [
+        "Enjoying planning or puzzles is an exploration signal, not confirmed interest in quantitative modeling. Do not require knowing the term optimization."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/math/operations-research-analysts.htm"
+      ],
+      "sources": [
+        "occupation-operations-research"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "actuary",
+      "title": "Actuaries",
+      "onetSoc": "15-2011.00",
+      "soc": "15-2011",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "second-wave",
+      "typicalEntryDegree": "Bachelor’s in analytical field plus professional exam progression",
+      "entryVsExperienced": "Entry trainees commonly work while progressing through professional exams; established credentialed-practitioner wages cannot be treated as starting wages.",
+      "definingInterests": [
+        "Use probability to analyze financial uncertainty"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to use probability and data to estimate the financial effects of uncertain events, such as accidents or illness?",
+        "Would you like to learn to test whether an insurance or pension plan can meet its future promises under different conditions?"
+      ],
+      "contrastingQuestion": "Would you rather estimate financial risks with mathematics, advise individual customers, keep financial records, or none?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "statistics",
+        "financial-analysis",
+        "insurance-sales-agent"
+      ],
+      "risks": [
+        "A math interest alone is insufficient; confirm financial-risk application. Entry trainees and fully credentialed actuaries are different career/pay stages; many employers expect early exams."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/math/actuaries.htm"
+      ],
+      "sources": [
+        "occupation-actuary"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "medical-science",
+      "title": "Medical Scientists, Except Epidemiologists",
+      "onetSoc": "19-1042.00",
+      "soc": "19-1042",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "first-wave",
+      "typicalEntryDegree": "Typically Ph.D. in life science or medical degree; some positions have other graduate routes",
+      "entryVsExperienced": "Independent research may follow graduate study and temporary postdoctoral work; model the actual first-paid stage rather than assuming established researcher pay.",
+      "definingInterests": [
+        "Research mechanisms, prevention and treatment of disease"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to design experiments that help explain why a disease develops or how a treatment could work?",
+        "Would you like to learn to compare results from medical research and test whether the evidence supports a proposed explanation?"
+      ],
+      "contrastingQuestion": "Would you rather investigate disease through research, diagnose and treat individual patients, provide ongoing patient care, or explore several?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "biological-technician",
+        "epidemiology",
+        "physician",
+        "chemistry"
+      ],
+      "risks": [
+        "Do not equate wanting to cure disease with physician practice. Research training, postdoctoral work, and licensed clinical responsibilities need separate route/pay descriptions."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/medical-scientists.htm",
+        "https://www.onetonline.org/link/summary/19-1042.00"
+      ],
+      "sources": [
+        "occupation-medical-science",
+        "onet-medical-scientist"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "microbiology",
+      "title": "Microbiologists",
+      "onetSoc": "19-1022.00",
+      "soc": "19-1022",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "second-wave",
+      "typicalEntryDegree": "Bachelor’s in microbiology or related field; some positions prefer graduate degree",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Study microorganisms and their effects"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to study bacteria, fungi, or other tiny living things to find out how they grow and affect people or the environment?",
+        "Would you like to learn to compare samples and experiments to identify microorganisms or test ways to control or use them?"
+      ],
+      "contrastingQuestion": "Would you rather investigate microbes in experiments, run patient diagnostic tests, care for sick people directly, or none?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "biological-technician",
+        "food-science",
+        "environmental-science",
+        "epidemiology"
+      ],
+      "risks": [
+        "Interest in science documentaries alone is weak evidence. Distinguish diagnostic service work from research; graduate independent-research opportunities are not automatic after a bachelor’s."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/microbiologists.htm"
+      ],
+      "sources": [
+        "occupation-microbiology"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "biochemistry-biophysics",
+      "title": "Biochemists and Biophysicists",
+      "onetSoc": "19-1021.00",
+      "soc": "19-1021",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "second-wave",
+      "typicalEntryDegree": "Ph.D. for independent R&D; bachelor’s/master’s qualify for some entry positions",
+      "entryVsExperienced": "Independent research may follow graduate study and temporary postdoctoral work; model the actual first-paid stage rather than assuming established researcher pay.",
+      "definingInterests": [
+        "Investigate chemical and physical processes in living things"
+      ],
+      "novicePrompts": [
+        "Would you like to learn how molecules such as proteins or DNA make cells and living things work?",
+        "Would you like to learn to plan and repeat laboratory experiments to test an explanation of a biological process?"
+      ],
+      "contrastingQuestion": "Would you rather study how cells work, design medical equipment, provide patient care, or explore several?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "chemistry",
+        "biological-technician",
+        "food-science",
+        "biomedical-engineering"
+      ],
+      "risks": [
+        "Do not label the independent-research role as a straightforward bachelor’s entry job. Distinguish scientific curiosity from sustained experiment-based work."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/biochemists-and-biophysicists.htm"
+      ],
+      "sources": [
+        "occupation-biochemistry-biophysics"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "forensic-science",
+      "title": "Forensic Science Technicians",
+      "onetSoc": "19-4092.00",
+      "soc": "19-4092",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "second-wave",
+      "typicalEntryDegree": "Typically bachelor’s in natural or forensic science plus on-the-job training",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Analyze physical evidence for investigations"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to examine physical evidence, such as a substance or a biological sample, to answer a specific investigation question?",
+        "Would you like to learn to document every step of an evidence test and explain what the results can and cannot show?"
+      ],
+      "contrastingQuestion": "Would you rather analyze evidence carefully in a laboratory, interview people and investigate events, argue a legal case, or none?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "chemistry",
+        "biological-technician",
+        "law",
+        "police"
+      ],
+      "risks": [
+        "True-crime entertainment is not enough. Lab and scene variants differ; disturbing material and chain-of-custody are context checks, not assumptions that all work involves every exposure."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/life-physical-and-social-science/forensic-science-technicians.htm"
+      ],
+      "sources": [
+        "occupation-forensic-science"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "medical-laboratory-science",
+      "title": "Medical and Clinical Laboratory Technologists",
+      "onetSoc": "29-2011.00",
+      "soc": "29-2011",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "first-wave",
+      "typicalEntryDegree": "Typically bachelor’s in medical laboratory technology/science or related life science; licensing/certification requirements vary",
+      "entryVsExperienced": "A degree-qualified entry role is distinct from senior, lead, manager, independent consultant or licensed sign-off responsibility; additional requirements vary by employer and jurisdiction.",
+      "definingInterests": [
+        "Perform and evaluate patient diagnostic laboratory tests"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to test patient samples in a medical laboratory to help clinicians diagnose or monitor disease?",
+        "Would you like to learn to check whether a laboratory test result is accurate and investigate a result that seems wrong?"
+      ],
+      "contrastingQuestion": "Would you rather analyze patient samples, research a new biological question, work directly with patients, or explore several?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "biological-technician",
+        "chemistry",
+        "sonography",
+        "physician"
+      ],
+      "risks": [
+        "Separate bachelor-level technologist 29-2011 from associate-level technician 29-2012. The combined BLS wage reference covers both; it is not an entry wage for this exact degree route."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/healthcare/clinical-laboratory-technologists-and-technicians.htm",
+        "https://www.onetonline.org/link/details/29-2011.00"
+      ],
+      "sources": [
+        "occupation-medical-laboratory-science",
+        "onet-clinical-lab"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "optometry",
+      "title": "Optometrists",
+      "onetSoc": "29-1041.00",
+      "soc": "29-1041",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "second-wave",
+      "typicalEntryDegree": "Doctor of Optometry and state license; applicants typically have bachelor’s",
+      "entryVsExperienced": "Clinical entry requires the profession’s qualifying doctorate and state licensure; an undergraduate science degree alone does not qualify someone for this role. Practice ownership and specialty advancement are later stages.",
+      "definingInterests": [
+        "Diagnose and treat vision and eye-health problems"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to examine how well someone sees and work out what is causing a vision or eye-health problem?",
+        "Would you like to learn to choose appropriate lenses or treatment and explain eye-care options to patients?"
+      ],
+      "contrastingQuestion": "Would you rather diagnose and manage eye-health problems, design optical technology, help customers choose glasses, or none?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "physician",
+        "sonography",
+        "pharmacy"
+      ],
+      "risks": [
+        "Wearing glasses or enjoying precision gadgets is insufficient. Optometrist, ophthalmologist physician, and dispensing optician have different preparation and scopes."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/healthcare/optometrists.htm"
+      ],
+      "sources": [
+        "occupation-optometry"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    },
+    {
+      "id": "audiology",
+      "title": "Audiologists",
+      "onetSoc": "29-1181.00",
+      "soc": "29-1181",
+      "proposalStatus": "research-proposal-not-live",
+      "priority": "first-wave",
+      "typicalEntryDegree": "Doctor of Audiology after bachelor’s and state license",
+      "entryVsExperienced": "Clinical entry requires the profession’s qualifying doctorate and state licensure; an undergraduate science degree alone does not qualify someone for this role. Practice ownership and specialty advancement are later stages.",
+      "definingInterests": [
+        "Diagnose and manage hearing and balance problems"
+      ],
+      "novicePrompts": [
+        "Would you like to learn to test a person’s hearing or balance and work out what kind of problem they have?",
+        "Would you like to learn to fit and adjust hearing technology or other treatment and help someone adapt as their hearing needs change?"
+      ],
+      "contrastingQuestion": "Would you rather diagnose hearing problems and guide treatment, teach communication skills, design audio equipment, or none?",
+      "contrastAnswerUse": "Choose any that appeal, neither, or not sure. Treat choices as information about preference; do not force exclusive interest. A neutral contrast is not a penalty.",
+      "adjacentExistingOccupations": [
+        "speech-language",
+        "occupational-therapy",
+        "physician"
+      ],
+      "risks": [
+        "Music/audio enthusiasm is not sufficient clinical interest. Separate diagnosis and patient treatment from hearing-aid sales and sound engineering."
+      ],
+      "sourceUrls": [
+        "https://www.bls.gov/ooh/healthcare/audiologists.htm"
+      ],
+      "sources": [
+        "occupation-audiology"
+      ],
+      "salary": {
+        "included": false,
+        "reason": "No entry wage established by this research. BLS OOH medians describe the occupation’s employed workforce, not new graduates; low percentiles are not automatically entry wages."
+      },
+      "questionProvenance": "Editorial novice-friendly adaptation of occupational duties; not a validated assessment item or verbatim O*NET item."
+    }
+  ],
+  "physicianExplorationSubtypes": [
+    {
+      "id": "psychiatry",
+      "title": "Psychiatry",
+      "onetSoc": "29-1223.00",
+      "parent": "physician",
+      "representation": "explore-subtype",
+      "countAsExtraCatalogOccupation": false,
+      "definingInterest": "Medical assessment and treatment of mental disorders",
+      "novicePrompts": [
+        "Would you like to learn how physical health, medicines, and life circumstances contribute to mental-health symptoms?",
+        "Would you like to learn to diagnose mental illness and choose and monitor medical treatment, alongside talking treatments when appropriate?"
+      ],
+      "sourceUrls": [
+        "https://www.onetonline.org/link/summary/29-1223.00",
+        "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+        "https://careersinmedicine.aamc.org/"
+      ],
+      "guardrail": "Do not infer specialty fit or admission prospects from a short novice questionnaire. Retain physician pathway, then explore work styles. Do not reuse family-medicine wage or task profile as if it described this specialty."
+    },
+    {
+      "id": "diagnostic-radiology",
+      "title": "Diagnostic radiology",
+      "onetSoc": "29-1224.00",
+      "parent": "physician",
+      "representation": "explore-subtype",
+      "countAsExtraCatalogOccupation": false,
+      "definingInterest": "Medical interpretation of imaging",
+      "novicePrompts": [
+        "Would you like to learn to interpret medical images to find signs of disease or injury?",
+        "Would you like to learn to combine imaging findings with a patient’s history to advise the treating team?"
+      ],
+      "sourceUrls": [
+        "https://www.onetonline.org/link/summary/29-1224.00",
+        "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+        "https://careersinmedicine.aamc.org/"
+      ],
+      "guardrail": "Do not infer specialty fit or admission prospects from a short novice questionnaire. Retain physician pathway, then explore work styles. Do not reuse family-medicine wage or task profile as if it described this specialty."
+    },
+    {
+      "id": "pathology",
+      "title": "Pathology",
+      "onetSoc": "29-1222.00",
+      "parent": "physician",
+      "representation": "explore-subtype",
+      "countAsExtraCatalogOccupation": false,
+      "definingInterest": "Physician diagnosis through tissues, cells and tests",
+      "novicePrompts": [
+        "Would you like to learn to examine tissue, cells, and test results to work out what disease is present?",
+        "Would you like to learn to explain a laboratory diagnosis and its uncertainties to the clinicians treating a patient?"
+      ],
+      "sourceUrls": [
+        "https://www.onetonline.org/link/summary/29-1222.00",
+        "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+        "https://careersinmedicine.aamc.org/"
+      ],
+      "guardrail": "Do not infer specialty fit or admission prospects from a short novice questionnaire. Retain physician pathway, then explore work styles. Do not reuse family-medicine wage or task profile as if it described this specialty."
+    },
+    {
+      "id": "emergency-medicine",
+      "title": "Emergency medicine",
+      "onetSoc": "29-1214.00",
+      "parent": "physician",
+      "representation": "explore-subtype",
+      "countAsExtraCatalogOccupation": false,
+      "definingInterest": "Urgent medical diagnosis and treatment",
+      "novicePrompts": [
+        "Would you like to learn to assess a seriously ill or injured person quickly and decide which medical problems need attention first?",
+        "Would you like to learn to choose urgent treatment while information is incomplete and work with a team as the situation changes?"
+      ],
+      "sourceUrls": [
+        "https://www.onetonline.org/link/summary/29-1214.00",
+        "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+        "https://careersinmedicine.aamc.org/"
+      ],
+      "guardrail": "Do not infer specialty fit or admission prospects from a short novice questionnaire. Retain physician pathway, then explore work styles. Do not reuse family-medicine wage or task profile as if it described this specialty."
+    },
+    {
+      "id": "pediatrics",
+      "title": "Pediatrics",
+      "onetSoc": "29-1221.00",
+      "parent": "physician",
+      "representation": "explore-subtype",
+      "countAsExtraCatalogOccupation": false,
+      "definingInterest": "Medical diagnosis, prevention and treatment for children",
+      "novicePrompts": [
+        "Would you like to learn to diagnose and treat illnesses in children while considering their growth and development?",
+        "Would you like to learn to explain a child’s medical treatment and preventive care to the child and their caregivers?"
+      ],
+      "sourceUrls": [
+        "https://www.onetonline.org/link/summary/29-1221.00",
+        "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+        "https://careersinmedicine.aamc.org/"
+      ],
+      "guardrail": "Do not infer specialty fit or admission prospects from a short novice questionnaire. Retain physician pathway, then explore work styles. Do not reuse family-medicine wage or task profile as if it described this specialty."
+    },
+    {
+      "id": "surgery",
+      "title": "Surgery",
+      "onetSoc": "29-1249.00",
+      "parent": "physician",
+      "representation": "explore-subtype",
+      "countAsExtraCatalogOccupation": false,
+      "definingInterest": "Procedural treatment of disease and injury",
+      "novicePrompts": [
+        "Would you like to learn to use operations to treat an injury or disease?",
+        "Would you like to learn to judge whether an operation is appropriate and follow a patient’s recovery afterward?"
+      ],
+      "sourceUrls": [
+        "https://www.onetonline.org/link/summary/29-1249.00",
+        "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+        "https://careersinmedicine.aamc.org/"
+      ],
+      "guardrail": "Do not infer specialty fit or admission prospects from a short novice questionnaire. Retain physician pathway, then explore work styles. Do not reuse family-medicine wage or task profile as if it described this specialty."
+    }
+  ],
+  "lawExplorationBranches": [
+    {
+      "id": "transactions-contracts",
+      "parent": "law",
+      "onetSoc": "23-1011.00",
+      "novicePrompts": [
+        "Would you like to learn to turn an agreement into clear legal terms that protect the people or organizations involved?",
+        "Would you like to learn to spot possible legal problems in a proposed deal and negotiate workable changes?"
+      ],
+      "contrast": "Which legal work appeals: researching a disputed case, advising on agreements before a dispute, helping a client understand rights, several, or none?",
+      "sources": [
+        "bls-lawyer",
+        "aba-areas"
+      ]
+    },
+    {
+      "id": "public-interest-rights",
+      "parent": "law",
+      "onetSoc": "23-1011.00",
+      "novicePrompts": [
+        "Would you like to learn to apply laws about housing, work, family, or civil rights to help someone understand their legal options?",
+        "Would you like to learn to assemble evidence and develop a legal argument for a person or cause, while considering the strongest opposing argument?"
+      ],
+      "contrast": "Would you rather provide practical support services, analyze and advocate through legal rules, campaign for policy change, several, or none?",
+      "sources": [
+        "bls-lawyer",
+        "aba-areas"
+      ]
+    },
+    {
+      "id": "regulatory-technical",
+      "parent": "law",
+      "onetSoc": "23-1011.00",
+      "novicePrompts": [
+        "Would you like to learn to work out how laws apply to a new technology, environmental decision, or business activity?",
+        "Would you like to learn to advise an organization on lawful options by interpreting regulations and explaining trade-offs?"
+      ],
+      "contrast": "Would you rather design a technical solution, investigate its effects, interpret the legal requirements, several, or none?",
+      "sources": [
+        "bls-lawyer",
+        "aba-areas"
+      ]
+    }
+  ],
+  "implementationPlan": [
+    "Create coverage manifests linking every new occupation to field invitations, two distinct defining-interest activities, contrasts, training routes, clinical scope and verified source tasks. Do not add a title without reachable questions.",
+    "Use a broad-to-specific exploration map across existing fields. Surface a representative degree option for plausible design/science/data/legal/medical interests even when a closely adjacent trade currently ranks higher. Invitation eligibility is not Top eligibility.",
+    "Present a short realistic activity example when a student is unfamiliar. Ask interest in learning to do that work; collect uncertainty, dislike and context separately. Do not require all work variants as universal gates.",
+    "Require occupation-specific corroboration before Top and independent evidence from more than a single broad helping, math or making-things choice. Retain whole-profile pattern, contradictions and clinical role safeguards; treat these drafts as unvalidated until tested.",
+    "Freeze the question bank and offered manifest, then author profile-consistent answers without showing answerers ranks, desired occupations, salary or previous model verdicts. Preserve original rounds and show current outcomes against them.",
+    "Audit coverage funnels by occupation: reachable, eligible, offered, answered, supported, confirmed, Top, Other, sustainable, hidden/truncated. Report degree and nondegree separately without quotas. Audit contradictory profiles, broad-Yes profiles, unfamiliar novices and long-route unwillingness.",
+    "Before enabling lifestyle claims, verify regional training route, licensure, realistic first-paid stage, program cost, funding and salary source/date. Medicine must show residency separately; research careers must distinguish postdoctoral and established roles.",
+    "Keep subtype counts deduplicated at the parent catalog level. For robotics report its O*NET detail and broader wage SOC separately. For clinical laboratory work distinguish technologist and technician; do not infer bachelor-route wages from the combined BLS reference."
+  ],
+  "limits": [
+    "No model biography or private file was read; no proposed occupation is asserted to match a particular model.",
+    "No current catalog, code, live scoring, frozen response or live website was changed.",
+    "Draft prompts and priorities are product-design judgments informed by occupational sources; they are not validated psychometric scales, admissions predictions or guaranteed opportunities."
+  ]
+}

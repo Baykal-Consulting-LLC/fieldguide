@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createProtectedSelector} from './selector.mjs';
+const q=(id)=>({id,kind:'specific'});
+function row(id='career'){return {id,o:{},r:.2,specific:{supported:false,contrary:[],evidence:[{},{}],specificDomains:[],taskDomains:['tasks','context'],missing:[q(id+'-one'),q(id+'-two')]}};}
+function setup(r){const answers=new Map(),ctx={questionsFor:id=>[q(id+'-one'),q(id+'-two')],answerFor:(id,q)=>answers.get(id+'|'+q.id),seen:new Set(),canAnswer:()=>true,events:[],remaining:24};return {ctx,answers};}
+test('protects the complete set for a grounded career outside any top-eight cap',()=>{const rows=Array.from({length:10},(_,i)=>({...row('broad'+i),r:.9,specific:{...row().specific,taskDomains:[],evidence:[]}}));const r=row();rows.push(r);const {ctx}=setup(r),s=createProtectedSelector(()=>null);const a=s.choose(rows,ctx);assert.equal(a.r.id,'career');assert.equal(a.reasonA3,'protected-set-start');assert.equal(s.episodes[0].planned.length,2);});
+test('does not open a set that cannot fit in the remaining budget',()=>{const r=row(),{ctx}=setup(r);ctx.remaining=1;assert.equal(createProtectedSelector(()=>null).choose([r],ctx),null);});
+test('positive evidence protects the second defining-interest question',()=>{const r=row(),{ctx,answers}=setup(r),s=createProtectedSelector(()=>null),a=s.choose([r],ctx);ctx.seen.add(a.key);answers.set(a.key,{response:'yes'});ctx.events.push({response:'yes'});ctx.remaining--;r.specific.specificDomains=['one'];r.specific.missing=[q('career-two')];const b=s.choose([r],ctx);assert.equal(b.q.id,'career-two');assert.equal(b.reasonA3,'protected-set-continue');});
+test('unknown is preserved and stops protection rather than becoming interest',()=>{const r=row(),{ctx,answers}=setup(r),s=createProtectedSelector(()=>null),a=s.choose([r],ctx);ctx.seen.add(a.key);answers.set(a.key,{response:'unfamiliar'});ctx.events.push({response:'unfamiliar',unknown:true});assert.equal(s.choose([r],ctx),null);assert.equal(r.specific.supported,false);assert.equal(s.episodes[0].end,'no-new-positive-evidence');});
+test('broad correlation alone does not trigger protection',()=>{const r=row();r.r=.99;r.specific.taskDomains=[];r.specific.evidence=[];const {ctx}=setup(r);assert.equal(createProtectedSelector(()=>null).choose([r],ctx),null);});

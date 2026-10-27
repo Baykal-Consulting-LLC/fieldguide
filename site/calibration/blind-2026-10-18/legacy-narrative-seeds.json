@@ -1,0 +1,170 @@
+[
+  {
+    "id": "legacy-001",
+    "sourceId": "m32-medical-reasoning",
+    "seedNarrative": "Ari enjoys explaining why illness happens, comparing explanations, and listening to people. A biology presentation and a supervised hospital information-desk shift increased curiosity about consultations. Ari is willing to explore college, medical school and residency, and imagines a modest independent life while training. The aim is useful work with room to keep learning, not a guaranteed physician outcome.",
+    "observedContext": "Completed a class experiment, checked sources for a health presentation, and helped visitors find the correct desk. Has never examined or treated a patient.",
+    "limits": "No clinical aptitude, admission readiness, manual dexterity or ability to cope with medical training has been tested."
+  },
+  {
+    "id": "legacy-002",
+    "sourceId": "m32-dental-precision",
+    "seedNarrative": "Jules likes biology, careful model-making and explaining routines to younger cousins. An approved dental observation made restoring a damaged tooth more interesting than broad hospital diagnosis. Jules will consider college prerequisites and dental school but wants to compare costs before committing. Savings matter more than a premium car.",
+    "observedContext": "Builds detailed craft models and has watched a dentist with permission. Classroom science is familiar; actual dental treatment is entirely new.",
+    "limits": "Craft experience is narrative context, not a measured dentistry ability or evidence of future licensure."
+  },
+  {
+    "id": "legacy-003",
+    "sourceId": "m32-novice-care",
+    "seedNarrative": "Sam likes helping a relative follow everyday routines and notices small changes in how people feel. Sam enjoys biology but has not had access to a clinic, lab club or paid work. Nursing observation seems more appealing than diagnosing alone. Sam speaks cautiously about ability, wants help learning, and is open to a nursing program without assuming graduate study.",
+    "observedContext": "Helped with household reminders and a school biology project. Reports needing support on most unfamiliar tasks.",
+    "limits": "Low exposure and modest self-confidence must not be interpreted as low ability or a ban on care careers."
+  },
+  {
+    "id": "legacy-004",
+    "sourceId": "m32-care-route-tension",
+    "seedNarrative": "Lee is fascinated by differential diagnosis and explains case stories from a school health club. Lee currently hopes to start earning quickly and chooses dental assisting preparation, despite preferring physician responsibilities in the role questions. These are two real preferences to discuss rather than proof the routes are interchangeable. Lee wants an expensive future lifestyle before understanding its training timeline.",
+    "observedContext": "Health-club reading and family conversations; no clinical performance experience. The short route reflects current money concerns, not inability to study.",
+    "limits": "The model is a route-conflict check. Neither an expensive goal nor an education preference is an aptitude score."
+  },
+  {
+    "id": "legacy-005",
+    "sourceId": "m32-visual-editor",
+    "seedNarrative": "Ren likes choosing type, color and layout, showing drafts to classmates, and improving a message after feedback. Drawing is enjoyable; public performance and sales are not. Ren wants to compare graphic design and interface design, can consider a degree or practical study, and accepts shared housing to protect time for creative work.",
+    "observedContext": "Designed a club poster, revised it after readers missed the date, and uses basic image tools independently.",
+    "limits": "Enjoyment and practiced tools do not establish professional design aptitude or client readiness."
+  },
+  {
+    "id": "legacy-006",
+    "sourceId": "m32-quiet-writer",
+    "seedNarrative": "Noor spends free time revising fiction, checking facts for the school magazine, and finding a precise word. Music, dance, visual effects and acting do not appeal, so a broad artistic label may obscure this specific writing interest. Noor dislikes persuasion and clinical care, values quiet autonomy, and will explore college writing or another route with a portfolio.",
+    "observedContext": "Keeps several story drafts and has edited a factual article with a teacher. Likes research when it serves a story; technical labs are less appealing.",
+    "limits": "This is a specific-task versus broad-pattern contrast to inspect, not a constructed negative correlation or a promise that writing must rank first."
+  },
+  {
+    "id": "legacy-007",
+    "sourceId": "m32-biology-stories",
+    "seedNarrative": "Imani enjoys pond observations and explaining the findings through drawings, diagrams and short stories. A science fair felt best when visitors understood the poster. Patient care does not attract Imani, and neither science nor creative work should erase the other interest. Imani is willing to compare degrees and keeps future spending moderate.",
+    "observedContext": "Collected observations with a club and revised explanatory sketches. Has not worked in a research lab or design studio.",
+    "limits": "Parallel interests are intentional; no single professional identity or aptitude is inferred."
+  },
+  {
+    "id": "legacy-008",
+    "sourceId": "m32-web-maker",
+    "seedNarrative": "Alex enjoys making a school club site work, finding a bug and testing a fix. Explaining the site to users is useful but presenting, art performance and retail management are not the main interests. Alex likes a mix of focused coding and team discussion, is open to college, and wants a modest place and reliable transport.",
+    "observedContext": "Built a small site using tutorials, kept a bug list and asked two classmates to try it. School math is comfortable; large systems are unfamiliar.",
+    "limits": "An informal project demonstrates exposure only; no programming aptitude or employment readiness is tested."
+  },
+  {
+    "id": "legacy-009",
+    "sourceId": "m32-tech-cautious",
+    "seedNarrative": "Drew often helps relatives reconnect devices and likes patiently testing one possible fix at a time. Drew worries about not being a math genius and reports wanting support, despite interest in practical computer work. The goal is useful service and steady income, with college or certificates available to compare rather than an assumed research career.",
+    "observedContext": "Has followed device instructions and explained a fix to family. Describes unfamiliar tools as requiring help; has not had coding classes.",
+    "limits": "Anxiety is narrative context, not a diagnosis. Lower confidence must not erase the stated troubleshooting interest."
+  },
+  {
+    "id": "legacy-010",
+    "sourceId": "m32-budget-volunteer",
+    "seedNarrative": "Casey likes keeping a club budget accurate and explaining why a balance changed. Investing for excitement and sales targets are less attractive than reliable records. Casey wants to compare accounting and bookkeeping, is willing to study a degree, and values predictable work and savings rather than a luxury lifestyle.",
+    "observedContext": "Reconciled receipts for a club with adult review; spreadsheets are familiar. Has not prepared audited accounts or advised anyone financially.",
+    "limits": "Checking school records is not professional financial competence, a measured numerical ability or a reason to exclude learning."
+  },
+  {
+    "id": "legacy-011",
+    "sourceId": "m32-debate-law",
+    "seedNarrative": "Morgan likes weighing evidence, reading competing accounts and arguing a fair case in debate. The interest is explaining rules and rights rather than selling products. Morgan will consider professional study but wants to compare paralegal work too. A future home and occasional travel matter, while actual legal responsibilities remain unfamiliar.",
+    "observedContext": "Researched a school debate and revised a written argument after feedback. Comfortable speaking to classmates; no legal practice experience.",
+    "limits": "Debate success is not a law admission prediction or evidence of legal competence."
+  },
+  {
+    "id": "legacy-012",
+    "sourceId": "m32-water-observer",
+    "seedNarrative": "Taylor likes comparing stream measurements, keeping field notes and returning after rain to see what changed. Outdoor evidence and uncertainty are interesting; treating people and managing a shop are not. Taylor is willing to study science and wants a simple lifestyle with room for hiking equipment rather than expensive dining.",
+    "observedContext": "Joined a supervised water-monitoring club and entered results into a shared sheet. Repeated measurements when a reading looked inconsistent.",
+    "limits": "Club measurements do not establish scientific aptitude or readiness for hazardous fieldwork."
+  },
+  {
+    "id": "legacy-013",
+    "sourceId": "m32-bridge-testing",
+    "seedNarrative": "River likes physics, model bridges and testing a design until it handles a load. Drawing for expression is enjoyable sometimes, but calculations and safety constraints are the main attraction. River wants engineering study, is prepared to revise a weak design, and dreams of owning a modest home after training.",
+    "observedContext": "Built and tested a small model bridge in class and documented its failure points. Has no professional design or construction authority.",
+    "limits": "Classroom models do not establish engineering aptitude or competence to design public structures."
+  },
+  {
+    "id": "legacy-014",
+    "sourceId": "m32-circuit-learner",
+    "seedNarrative": "Ash likes following diagrams, building low-voltage circuits and finding a loose connection. Paid apprenticeship learning is attractive, though college remains possible. Ash wants a practical career with teamwork, a dependable car and growing savings. No answer implies that unsupervised mains wiring is appropriate for a student.",
+    "observedContext": "Completed a supervised low-voltage classroom kit and helped measure parts for a household project. Electrical installation is new.",
+    "limits": "Interest and a kit are not proof of electrical aptitude, safety training, licensure or readiness for unsupervised work."
+  },
+  {
+    "id": "legacy-015",
+    "sourceId": "m32-machine-repair",
+    "seedNarrative": "Cameron enjoys learning why a bike or engine stops working, trying a repair and checking it rather than changing parts at random. Workshop work and clear customer explanations appeal; desk research and sales do not. Cameron would start with technical training and compares vehicle repair with industrial machinery.",
+    "observedContext": "Works on a bicycle with an experienced relative and logs repairs in a notebook. Has watched engine maintenance but does not perform dangerous tasks alone.",
+    "limits": "Informal mechanical exposure is not a measured ability, professional qualification or guaranteed match."
+  },
+  {
+    "id": "legacy-016",
+    "sourceId": "m32-food-without-sales",
+    "seedNarrative": "Sky likes planning the order of cooking tasks, testing a recipe and preparing food safely for others. Owning a restaurant, bargaining and supervising staff are not appealing. Many official activities are unrelated to cooking and receive unsure or dislike responses; the detailed food interest should still be visible as something to explore, not a forced management identity.",
+    "observedContext": "Prepares several family meals each week and helped at a supervised school food event. Adult oversight is still needed for large-service food safety.",
+    "limits": "Cooking at home is neither a professional aptitude result nor proof that restaurant work, hours or earnings will suit Sky."
+  },
+  {
+    "id": "legacy-017",
+    "sourceId": "m32-salon-listener",
+    "seedNarrative": "Rowan enjoys sketching styles, hearing what someone wants and practicing careful techniques on a mannequin. A welcoming service setting appeals more than science experiments or office accounts. Rowan will consider a licensed training route, likes some spending on clothing, and wants to understand customer work before making a choice.",
+    "observedContext": "Has tried a supervised mannequin demonstration and helped organize tools. Enjoys visual planning but has never provided a paid salon service.",
+    "limits": "Appearance interests do not establish dexterity, licensure readiness or permission to practice on others."
+  },
+  {
+    "id": "legacy-018",
+    "sourceId": "m32-tutor-explainer",
+    "seedNarrative": "Finley likes noticing where another student gets stuck and finding a different example. Tutoring a younger pupil was more enjoyable than doing a task for them. Finley likes science and language subjects, is willing to study education, and wants a steady life with time for friends rather than a very high income goal.",
+    "observedContext": "Helps at a supervised homework club and has tried two explanations for the same maths idea. No professional teaching experience.",
+    "limits": "Peer tutoring does not establish teaching ability, classroom-management skill or licensing eligibility."
+  },
+  {
+    "id": "legacy-019",
+    "sourceId": "m32-emergency-team",
+    "seedNarrative": "Jordan likes first-aid practice, repeated procedures and helping a team respond calmly. Clinical diagnosis over years is less appealing than trained immediate care. Jordan wants an EMT course or related training, accepts varied hours as something to investigate, and values practical service more than expensive travel.",
+    "observedContext": "Attended an introductory first-aid course and practiced scenarios with an instructor. Has not provided independent emergency care.",
+    "limits": "Scenario practice does not establish crisis performance, medical competence or fitness for emergency work."
+  },
+  {
+    "id": "legacy-020",
+    "sourceId": "m32-stock-systems",
+    "seedNarrative": "Parker enjoys stock counts, labels, safe handling and making sure a team can find materials. School supply-room volunteering felt satisfying even without a dramatic creative project. Parker likes clear routines and practical teamwork, wants paid training first, and imagines shared rent with a car already owned.",
+    "observedContext": "Counts and organizes school-event supplies with adult supervision and checks a list before moving items. No forklift or industrial machinery qualification.",
+    "limits": "Reliable school routines are exposure, not tested physical ability or authorization for hazardous equipment."
+  },
+  {
+    "id": "legacy-021",
+    "sourceId": "m32-route-organizer",
+    "seedNarrative": "Quinn likes map routes, timing and checking what must reach each destination. A family delivery business made the planning visible, but Quinn has not driven commercial vehicles. Paid training and independent work attract Quinn, who also wants to examine hours, licensing and the cost of transport before committing.",
+    "observedContext": "Helped arrange a school delivery schedule and checked addresses with an adult. Commercial driving, lifting demands and overnight work are untried.",
+    "limits": "A preference for movement is not evidence of safe driving ability, license eligibility or tolerance of every driving schedule."
+  },
+  {
+    "id": "legacy-022",
+    "sourceId": "m32-event-office",
+    "seedNarrative": "Sage likes an accurate appointment list, clear messages and helping a busy group know what happens next. A school event was enjoyable because the information stayed organized. Sage prefers an office/service setting to labs or repairs, is open to a certificate or degree, and wants predictable work and modest spending.",
+    "observedContext": "Maintained a club event sign-up sheet and corrected duplicate entries with an adult. Has little experience resolving difficult customer situations.",
+    "limits": "Organization at school is not a test of clerical speed, professional judgment or general aptitude."
+  },
+  {
+    "id": "legacy-023",
+    "sourceId": "m32-still-exploring",
+    "seedNarrative": "Remy has tried ordinary school tasks but cannot yet picture most work activities and uses Unsure honestly. A few new settings sound worth seeing, but Remy does not choose a specific creative project when asked. The goal is to learn what options involve; a close-to-home future with low spending is only a first sketch.",
+    "observedContext": "No club, job, shadowing or distinctive project history is assumed. Wants supportive introductions and time to revisit answers.",
+    "limits": "Uncertainty is not incapacity. Do not manufacture a differentiated profile or infer a profession from the selected exploration tab."
+  },
+  {
+    "id": "legacy-024",
+    "sourceId": "m32-many-positive",
+    "seedNarrative": "Charlie likes trying almost anything, from school projects to helping people and making things. None stands out reliably yet. In the creative branch Charlie selects every offered option because all sound interesting, not because each profession has distinct evidence. College, practical training and several working settings remain open; lifestyle preferences are similarly exploratory.",
+    "observedContext": "Participates briefly in several school activities without a sustained specialist project. Reports some help is useful across tasks.",
+    "limits": "An all-positive response style must not be turned into a precise winner, measured all-round aptitude or a forced three-career identity."
+  }
+]

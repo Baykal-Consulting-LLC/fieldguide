@@ -1,0 +1,1271 @@
+{
+  "policy": "Research-only global scoped evidence corrections and seven closer inventory roles. Same rules in all 2000 cases. No new interests invented; unknown is not Yes. Post-holdout tuning: Grok cohort is no longer untouched validation. Preserve independent No/Unsure/holds. Negative contextual examples cannot veto unrelated career evidence. All new roles have null interest correlation pending a measured occupational vector; list after existing ranked supported careers, preserving existing Top ranks. Median pay is context only, never starting-pay lifestyle coverage.",
+  "files": {
+    "prototypes/evidence-076/engine.mjs": "7c77191e7d0991e90e5827b8ad17bdaf054abe6459e1a77cdc3111085f32215a",
+    "scripts/benchmark-evidence-076.mjs": "9ca8c0fc191deeae8903b2e6869b721aa71a7405d53feee398b26ccc1d0551f6",
+    "dist/developer/evidence-benchmark-075.json.gz": "7bdd068621d5a55f6093e64774daa0ea519d44722e35260a9e1a83bc72d22605",
+    "calibration/cohort-056/profiles.json": "c57b0f4f6b3c894cec8cd4343a27859152dee241477018ba4029565a7f94bc2c",
+    "calibration/grok-075/profiles.json": "aa4e222f4885505c77a7824c1b804c0b602fdf2d6de838ac87348fbb2bf41032",
+    "dist/open-explorer.js": "285eb07d656ddc95e7cf616121cc65d133490ccde90d65579983996f234cd84b",
+    "dist/open-explorer-056.js": "62b7f63607c9334c350a30d1747a7333adf03f853cb6707f5ddb7e810650554b",
+    "dist/education-routes.js": "4322f1b90ed0c77d9d278b9b40dc6dbbbef01fa55a9eac217cbea882fcdf6427",
+    "research/executor-077/states.json.gz": "52ccb71a417c605284f3ac0ad877f70ad0deaec90a5546d3b7654d9733ea6a7b"
+  },
+  "rules": [
+    {
+      "careerId": "degree-17207200",
+      "questionId": "degree-17207200-047-method",
+      "all": [
+        "f:circuit-test",
+        "m:precision"
+      ],
+      "reason": "The concrete circuit fact explicitly traces a failed connection and records repeatable tests. General design preference is not a separate requirement of this diagnostic-method question."
+    },
+    {
+      "careerId": "degree-19309400",
+      "questionId": "degree-19309400-047-method",
+      "all": [
+        "t:policy",
+        "m:investigation"
+      ],
+      "reason": "The question permits documents OR interviews OR survey evidence. The concrete policy fact gathers and compares evidence; numerical preference is not mandatory."
+    },
+    {
+      "careerId": "degree-19309100",
+      "questionId": "degree-19309100-047-method",
+      "all": [
+        "f:historical-records",
+        "m:investigation"
+      ],
+      "reason": "Conflicting historical accounts and original-record provenance support the documentary alternative. Field excavation is not required for every route."
+    },
+    {
+      "careerId": "childcare-worker",
+      "questionId": "childcare-worker-interest-044-1",
+      "all": [
+        "t:children",
+        "f:daycare-interest076",
+        "m:listening",
+        "m:organization",
+        "r:safety"
+      ],
+      "reason": "A direct positive daycare-care item plus child-focused activity, organization and safety replace the inappropriate medical patient-care proxy."
+    },
+    {
+      "careerId": "childcare-worker",
+      "questionId": "childcare-worker-interest-044-2",
+      "all": [
+        "t:children",
+        "m:listening",
+        "m:organization"
+      ],
+      "reason": "The concrete child-game fact already includes watching a response and adapting the explanation. This child-development activity does not require medical patient care."
+    }
+  ],
+  "guards": [
+    {
+      "careerId": "degree-17217100",
+      "feature": "f:petroleum-purpose076",
+      "prompt": "Would comparing well measurements to investigate oil or gas extraction interest you, including its environmental consequences?"
+    },
+    {
+      "careerId": "degree-17215100",
+      "feature": "f:mining-purpose076",
+      "prompt": "Would planning underground extraction and examining worker-protection and ground-support choices interest you?"
+    },
+    {
+      "careerId": "degree-17102200",
+      "feature": "f:boundary-purpose076",
+      "prompt": "Would reconciling legal property descriptions with precise land measurements interest you, including resolving conflicting boundary evidence?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "followup076-child-routines",
+      "careerId": "childcare-worker",
+      "prompt": "Would caring for children during meals, play and everyday routines interest you, including following safeguarding rules and asking for help when needed?",
+      "feature": null,
+      "targetQuestionIds": [
+        "childcare-worker-interest-044-1"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-math-written-argument",
+      "careerId": "degree-15202100",
+      "prompt": "Would writing a mathematical argument, stating assumptions and inviting others to check the reasoning interest you, even without teaching a class?",
+      "feature": null,
+      "targetQuestionIds": [
+        "degree-15202100-047-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-education-coaching",
+      "careerId": "degree-25903100",
+      "prompt": "Would helping educators review classroom evidence and coordinate curriculum changes interest you, rather than working directly with learners?",
+      "feature": null,
+      "targetQuestionIds": [
+        "degree-25903100-047-responsibility",
+        "evidence071-educator-coaching"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-film-timing",
+      "careerId": "film-editing",
+      "prompt": "Would checking picture and sound timing repeatedly and revising a recorded sequence until the edit works interest you?",
+      "feature": null,
+      "targetQuestionIds": [
+        "film-editing-interest-044-2"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-plant-recommendations",
+      "careerId": "degree-19101300",
+      "prompt": "Would explaining the evidence and uncertainty behind growing recommendations to people managing crops or land interest you?",
+      "feature": null,
+      "targetQuestionIds": [
+        "degree-19101300-047-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-practical-safety",
+      "careerId": "carpentry",
+      "prompt": "Would checking workshop safety rules, recognizing limits and asking qualified help before cutting or assembling materials interest you?",
+      "feature": "r:safety",
+      "targetQuestionIds": [
+        "carpentry-interest-044-1",
+        "carpentry-interest-044-2"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-software-reliability",
+      "careerId": "degree-15125100",
+      "prompt": "Would implementing agreed program requirements and checking that a change does not break functions other people rely on interest you?",
+      "feature": null,
+      "targetQuestionIds": [
+        "degree-15125100-047-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-electronics-reliability",
+      "careerId": "degree-17207200",
+      "prompt": "Would documenting circuit changes and checking component reliability before a device is used interest you?",
+      "feature": null,
+      "targetQuestionIds": [
+        "degree-17207200-047-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-qualitative-report",
+      "careerId": "degree-19309400",
+      "prompt": "Would documenting competing explanations and uncertainty in a public-policy investigation interest you, including evidence that challenges your own views?",
+      "feature": null,
+      "targetQuestionIds": [
+        "degree-19309400-047-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-cultural-report",
+      "careerId": "degree-19309100",
+      "prompt": "Would documenting uncertain cultural interpretations and sharing findings with care for the communities involved interest you?",
+      "feature": null,
+      "targetQuestionIds": [
+        "degree-19309100-047-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-petroleum-purpose076",
+      "careerId": "degree-17217100",
+      "prompt": "Would comparing well measurements to investigate oil or gas extraction interest you, including its environmental consequences?",
+      "feature": "f:petroleum-purpose076",
+      "targetQuestionIds": [
+        "degree-17217100-047-domain"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-mining-purpose076",
+      "careerId": "degree-17215100",
+      "prompt": "Would planning underground extraction and examining worker-protection and ground-support choices interest you?",
+      "feature": "f:mining-purpose076",
+      "targetQuestionIds": [
+        "degree-17215100-047-domain"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "followup076-boundary-purpose076",
+      "careerId": "degree-17102200",
+      "prompt": "Would reconciling legal property descriptions with precise land measurements interest you, including resolving conflicting boundary evidence?",
+      "feature": "f:boundary-purpose076",
+      "targetQuestionIds": [
+        "degree-17102200-047-domain"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-animal-caretaker-domain",
+      "careerId": "research076-animal-caretaker",
+      "prompt": "Would routine animal care and careful observation of behavior interest you?",
+      "targetQuestionIds": [
+        "research076-animal-caretaker-domain"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-animal-caretaker-method",
+      "careerId": "research076-animal-caretaker",
+      "prompt": "Would keeping accurate care records and checking changes in behavior interest you?",
+      "targetQuestionIds": [
+        "research076-animal-caretaker-method"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-animal-caretaker-responsibility",
+      "careerId": "research076-animal-caretaker",
+      "prompt": "Would following animal-handling safety procedures and asking for qualified help interest you?",
+      "targetQuestionIds": [
+        "research076-animal-caretaker-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-vet-assistant-domain",
+      "careerId": "research076-vet-assistant",
+      "prompt": "Would assisting with animal care in a veterinary setting interest you?",
+      "targetQuestionIds": [
+        "research076-vet-assistant-domain"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-vet-assistant-method",
+      "careerId": "research076-vet-assistant",
+      "prompt": "Would supporting supervised examinations, cleaning equipment and handling distressed animals interest you?",
+      "targetQuestionIds": [
+        "research076-vet-assistant-method"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-vet-assistant-responsibility",
+      "careerId": "research076-vet-assistant",
+      "prompt": "Would following safe handling instructions and recording observations accurately interest you?",
+      "targetQuestionIds": [
+        "research076-vet-assistant-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-conservation-technician-domain",
+      "careerId": "research076-conservation-technician",
+      "prompt": "Would monitoring forest and conservation sites and collecting tree or habitat information interest you?",
+      "targetQuestionIds": [
+        "research076-conservation-technician-domain"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-conservation-technician-method",
+      "careerId": "research076-conservation-technician",
+      "prompt": "Would recording repeatable outdoor observations of plants and habitats interest you?",
+      "targetQuestionIds": [
+        "research076-conservation-technician-method"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-conservation-technician-responsibility",
+      "careerId": "research076-conservation-technician",
+      "prompt": "Would following field safety procedures and keeping consistent conservation records interest you?",
+      "targetQuestionIds": [
+        "research076-conservation-technician-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-environmental-technician-domain",
+      "careerId": "research076-environmental-technician",
+      "prompt": "Would monitoring environmental conditions and investigating pollution interest you?",
+      "targetQuestionIds": [
+        "research076-environmental-technician-domain"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-environmental-technician-method",
+      "careerId": "research076-environmental-technician",
+      "prompt": "Would collecting and labeling air, soil or water samples using a specified contamination-checking procedure interest you?",
+      "targetQuestionIds": [
+        "research076-environmental-technician-method"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-environmental-technician-responsibility",
+      "careerId": "research076-environmental-technician",
+      "prompt": "Would following sampling safety rules and maintaining checkable records interest you?",
+      "targetQuestionIds": [
+        "research076-environmental-technician-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-teaching-assistant-domain",
+      "careerId": "research076-teaching-assistant",
+      "prompt": "Would helping children learn under a teacher’s direction interest you?",
+      "targetQuestionIds": [
+        "research076-teaching-assistant-domain"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-teaching-assistant-method",
+      "careerId": "research076-teaching-assistant",
+      "prompt": "Would adapting examples and organizing activities for children interest you?",
+      "targetQuestionIds": [
+        "research076-teaching-assistant-method"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-teaching-assistant-responsibility",
+      "careerId": "research076-teaching-assistant",
+      "prompt": "Would following a teacher’s support plan, safeguarding boundaries and recording observations interest you?",
+      "targetQuestionIds": [
+        "research076-teaching-assistant-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-human-service-assistant-domain",
+      "careerId": "research076-human-service-assistant",
+      "prompt": "Would helping people find practical community support interest you?",
+      "targetQuestionIds": [
+        "research076-human-service-assistant-domain"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-human-service-assistant-method",
+      "careerId": "research076-human-service-assistant",
+      "prompt": "Would locating resources and keeping service information organized interest you?",
+      "targetQuestionIds": [
+        "research076-human-service-assistant-method"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-human-service-assistant-responsibility",
+      "careerId": "research076-human-service-assistant",
+      "prompt": "Would recording confidential service information accurately and working within referral boundaries interest you?",
+      "targetQuestionIds": [
+        "research076-human-service-assistant-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-cabinetmaker-domain",
+      "careerId": "research076-cabinetmaker",
+      "prompt": "Would making fitted wood components and revising joints interest you?",
+      "targetQuestionIds": [
+        "research076-cabinetmaker-domain"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-cabinetmaker-method",
+      "careerId": "research076-cabinetmaker",
+      "prompt": "Would measuring and checking the fit of assembled wood parts interest you?",
+      "targetQuestionIds": [
+        "research076-cabinetmaker-method"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    },
+    {
+      "id": "research076-cabinetmaker-responsibility",
+      "careerId": "research076-cabinetmaker",
+      "prompt": "Would following safe workshop practices and recognizing when qualified help is needed interest you?",
+      "targetQuestionIds": [
+        "research076-cabinetmaker-responsibility"
+      ],
+      "choices": [
+        {
+          "value": 1,
+          "text": "Yes, I would like to learn this work"
+        },
+        {
+          "value": 2,
+          "text": "This work does not interest me"
+        },
+        {
+          "value": 3,
+          "text": "Unsure / mixed interest"
+        },
+        {
+          "value": 0,
+          "text": "Unfamiliar / insufficient evidence"
+        }
+      ],
+      "status": "Occupational-task-grounded diagnostic draft; not a validated psychometric scale."
+    }
+  ],
+  "newRoles": [
+    {
+      "id": "research076-animal-caretaker",
+      "title": "Animal Caretakers",
+      "soc": "39-2021.00",
+      "fields": [
+        "science",
+        "services"
+      ],
+      "route": "work",
+      "education": "High school; on-the-job training",
+      "source": "https://www.bls.gov/ooh/personal-care-and-service/animal-care-and-service-workers.htm",
+      "checks": [
+        {
+          "all": [
+            "t:animals"
+          ]
+        },
+        {
+          "all": [
+            "t:animals",
+            "m:precision",
+            "m:organization"
+          ]
+        },
+        {
+          "all": [
+            "t:animals",
+            "r:safety"
+          ]
+        }
+      ],
+      "prompts": [
+        "Would routine animal care and careful observation of behavior interest you?",
+        "Would keeping accurate care records and checking changes in behavior interest you?",
+        "Would following animal-handling safety procedures and asking for qualified help interest you?"
+      ]
+    },
+    {
+      "id": "research076-vet-assistant",
+      "title": "Veterinary Assistants and Laboratory Animal Caretakers",
+      "soc": "31-9096.00",
+      "fields": [
+        "science",
+        "health"
+      ],
+      "route": "work",
+      "education": "High school; on-the-job training",
+      "source": "https://www.bls.gov/ooh/healthcare/veterinary-assistants-and-laboratory-animal-caretakers.htm",
+      "checks": [
+        {
+          "all": [
+            "t:animals"
+          ]
+        },
+        {
+          "all": [
+            "f:vet-support076"
+          ]
+        },
+        {
+          "all": [
+            "r:safety",
+            "m:precision"
+          ]
+        }
+      ],
+      "prompts": [
+        "Would assisting with animal care in a veterinary setting interest you?",
+        "Would supporting supervised examinations, cleaning equipment and handling distressed animals interest you?",
+        "Would following safe handling instructions and recording observations accurately interest you?"
+      ]
+    },
+    {
+      "id": "research076-conservation-technician",
+      "title": "Forest and Conservation Technicians",
+      "soc": "19-4071.00",
+      "fields": [
+        "science"
+      ],
+      "route": "program",
+      "education": "Associate degree is typical",
+      "source": "https://www.onetonline.org/link/summary/19-4071.00",
+      "checks": [
+        {
+          "all": [
+            "f:forest-monitor076"
+          ]
+        },
+        {
+          "all": [
+            "t:plants",
+            "t:ecology",
+            "m:fieldwork",
+            "m:precision"
+          ]
+        },
+        {
+          "all": [
+            "r:safety",
+            "m:organization"
+          ]
+        }
+      ],
+      "prompts": [
+        "Would monitoring forest and conservation sites and collecting tree or habitat information interest you?",
+        "Would recording repeatable outdoor observations of plants and habitats interest you?",
+        "Would following field safety procedures and keeping consistent conservation records interest you?"
+      ]
+    },
+    {
+      "id": "research076-environmental-technician",
+      "title": "Environmental Science and Protection Technicians",
+      "soc": "19-4042.00",
+      "fields": [
+        "science"
+      ],
+      "route": "program",
+      "education": "Associate degree is typical",
+      "source": "https://www.bls.gov/ooh/life-physical-and-social-science/environmental-science-and-protection-technicians.htm",
+      "checks": [
+        {
+          "all": [
+            "t:ecology"
+          ]
+        },
+        {
+          "all": [
+            "f:pollution-samples076"
+          ]
+        },
+        {
+          "all": [
+            "r:safety",
+            "m:precision",
+            "m:organization"
+          ]
+        }
+      ],
+      "prompts": [
+        "Would monitoring environmental conditions and investigating pollution interest you?",
+        "Would collecting and labeling air, soil or water samples using a specified contamination-checking procedure interest you?",
+        "Would following sampling safety rules and maintaining checkable records interest you?"
+      ]
+    },
+    {
+      "id": "research076-teaching-assistant",
+      "title": "Teaching Assistants, Except Postsecondary",
+      "soc": "25-9045",
+      "fields": [
+        "education"
+      ],
+      "route": "program",
+      "education": "Some college; requirements vary by setting",
+      "source": "https://www.bls.gov/ooh/education-training-and-library/teacher-assistants.htm",
+      "checks": [
+        {
+          "all": [
+            "t:children",
+            "t:learning"
+          ]
+        },
+        {
+          "all": [
+            "t:children",
+            "m:explaining",
+            "m:organization"
+          ]
+        },
+        {
+          "all": [
+            "f:classroom-support076"
+          ]
+        }
+      ],
+      "prompts": [
+        "Would helping children learn under a teacher’s direction interest you?",
+        "Would adapting examples and organizing activities for children interest you?",
+        "Would following a teacher’s support plan, safeguarding boundaries and recording observations interest you?"
+      ]
+    },
+    {
+      "id": "research076-human-service-assistant",
+      "title": "Social and Human Service Assistants",
+      "soc": "21-1093.00",
+      "fields": [
+        "health",
+        "services"
+      ],
+      "route": "work",
+      "education": "High school; on-the-job training; requirements vary",
+      "source": "https://www.bls.gov/ooh/community-and-social-service/social-and-human-service-assistants.htm",
+      "checks": [
+        {
+          "all": [
+            "f:practical-support076",
+            "m:listening"
+          ]
+        },
+        {
+          "all": [
+            "t:information",
+            "m:organization"
+          ]
+        },
+        {
+          "all": [
+            "f:support-confidentiality076"
+          ]
+        }
+      ],
+      "prompts": [
+        "Would helping people find practical community support interest you?",
+        "Would locating resources and keeping service information organized interest you?",
+        "Would recording confidential service information accurately and working within referral boundaries interest you?"
+      ]
+    },
+    {
+      "id": "research076-cabinetmaker",
+      "title": "Cabinetmakers and Bench Carpenters",
+      "soc": "51-7011.00",
+      "fields": [
+        "trades",
+        "building"
+      ],
+      "route": "work",
+      "education": "High school; on-the-job training",
+      "source": "https://www.bls.gov/ooh/production/woodworkers.htm",
+      "checks": [
+        {
+          "all": [
+            "t:wood"
+          ]
+        },
+        {
+          "all": [
+            "t:wood",
+            "m:making",
+            "m:precision"
+          ]
+        },
+        {
+          "all": [
+            "r:safety"
+          ]
+        }
+      ],
+      "prompts": [
+        "Would making fitted wood components and revising joints interest you?",
+        "Would measuring and checking the fit of assembled wood parts interest you?",
+        "Would following safe workshop practices and recognizing when qualified help is needed interest you?"
+      ]
+    }
+  ]
+}

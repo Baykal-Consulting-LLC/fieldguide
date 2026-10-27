@@ -1,0 +1,16 @@
+.cache/
+node_modules/
+.DS_Store
+*.log
+artifacts/
+
+# Ephemeral shared-update/build coordination
+.shared-foundation-use.lock/
+*.shared-tmp
+
+# Generated Sites worker and asset output; existing dist files remain app source.
+dist/server/
+dist/client/
+dist/.openai/
+runtime/public/
+runtime/.openai/hosting.json

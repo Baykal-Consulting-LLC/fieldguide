@@ -1,0 +1,519 @@
+{
+  "rows": [
+    {
+      "id": "new049-003",
+      "offers": [
+        {
+          "probe": "offer-001",
+          "decision": "supported",
+          "reason": "Comparing delivery-inclusive supply offers, resale prices, and the financial effect of a refund meaningfully anchors examining business performance and recommending uses of money.",
+          "heldQuestions": []
+        }
+      ]
+    },
+    {
+      "id": "new049-007",
+      "offers": [
+        {
+          "probe": "offer-001",
+          "decision": "needs-confirmation",
+          "reason": "Original-source checking supports the investigative method, but his school and community policy arguments do not establish an interest in financial deception.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "The money/property-deception subject is inferred from general evidence checking.",
+              "followupQuestion": "Would you like to investigate whether money or property was obtained dishonestly and reconstruct what happened?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-002",
+          "decision": "supported",
+          "reason": "His sustained scrutiny of rules and original policy documents, quotation checking, and precise written arguments support learning to prepare accurate legal documents and supporting case information.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-003",
+          "decision": "needs-confirmation",
+          "reason": "Comparing water-restriction accounts and writing policy arguments support policy analysis; climate-change responses remain an unconfirmed subject.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "A water-restriction dispute does not itself establish curiosity about climate causes, consequences, or responses.",
+              "followupQuestion": "Would you like to investigate how public policies could reduce the causes or consequences of climate change?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-004",
+          "decision": "needs-confirmation",
+          "reason": "Comparing sources and acknowledging missing facts are established interests; investigating past societies is an additional subject choice.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "His voluntary investigations concern current rules and community disputes, with no specific historical curiosity described.",
+              "followupQuestion": "Would you like to investigate how people lived in the past and why historical events unfolded as they did?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-005",
+          "decision": "needs-confirmation",
+          "reason": "He uses original records to build arguments, but preserving collections and arranging responsible access involve distinct purposes not shown in the biography.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "Finding a source for an argument does not establish interest in preserving records for lasting use.",
+              "followupQuestion": "Would you like to preserve and organize records so future readers can understand people, events, or an organization?"
+            },
+            {
+              "key": "q2",
+              "reason": "No activity shows interest in descriptions or categories designed to help other people discover records.",
+              "followupQuestion": "Would you like to describe and categorize records so other people can find and interpret them?"
+            },
+            {
+              "key": "q3",
+              "reason": "His accuracy concerns do not establish an interest in caring for historical materials and deciding access or privacy restrictions.",
+              "followupQuestion": "Would you like to help people access historical records while protecting the materials and the privacy of people they describe?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new049-011",
+      "offers": [
+        {
+          "probe": "offer-001",
+          "decision": "supported",
+          "reason": "Investigating failed saving and duplicate alerts, plus helping a neighbor with device settings, supports troubleshooting and setting up technology around another person’s needs.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-002",
+          "decision": "supported",
+          "reason": "They voluntarily write scripts, isolate loops, check saved data, and maintain a shared household list; their wish to keep one system working for a term anchors bounded responsibility for reliable implementation.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-003",
+          "decision": "supported",
+          "reason": "Reproducing errors with small examples, checking changes, and writing concise fix notes directly support defect testing, reproduction, and communication.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-004",
+          "decision": "supported",
+          "reason": "Their book tracker, reminders, and household shopping list turn practical needs into small programs whose behavior they repeatedly test and repair.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-005",
+          "decision": "supported",
+          "reason": "Making ordinary digital pieces cooperate and keeping a synchronized household list reliable supports learning functional web application coding and maintenance; new web tools need not already be familiar.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-006",
+          "decision": "supported",
+          "reason": "Recurring household-system improvements and paid help with a neighbor’s settings anchor learning user needs and practical system changes; regular technical investigation is already voluntarily repeated.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-007",
+          "decision": "needs-confirmation",
+          "reason": "Saving, synchronization, and checking changed data support data-flow reliability, but combining business information for analysis introduces a different purpose.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "Their interest is making small tools work; the biography does not show curiosity about combining business records to answer analytical questions.",
+              "followupQuestion": "Would you like to bring records from different business systems together so people can analyze them and answer questions about the business?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new049-015",
+      "offers": [
+        {
+          "probe": "offer-001",
+          "decision": "supported",
+          "reason": "Her curiosity about healing, breathing, digestion, and bodily regulation, combined with repeated experiments and restraint about unreliable comparisons, anchors health research and careful reporting of its limits.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-002",
+          "decision": "supported",
+          "reason": "She voluntarily studies linked body processes, adjusts plant conditions, repeats yeast comparisons, and explains processes with drawings while recognizing evidence limits.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-003",
+          "decision": "needs-confirmation",
+          "reason": "Biological inquiry and uncertainty are well supported, but they do not establish an interest in statistical investigation.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "No described choice centers on quantitative variation or using statistics to investigate health or biology.",
+              "followupQuestion": "Would you like to use statistics to investigate health or biological questions, including how much uncertainty the data leave?"
+            },
+            {
+              "key": "q2",
+              "reason": "Recognizing an uncontrolled comparison does not establish interest in choosing and checking statistical analysis methods.",
+              "followupQuestion": "Would you like to compare statistical methods for a biological or health study and check which methods make its conclusions trustworthy?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-004",
+          "decision": "supported",
+          "reason": "Plant observations and a voluntarily repeated yeast experiment directly anchor preparing biological material, recording observations, and learning more careful experimental routines.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-005",
+          "decision": "supported",
+          "reason": "Her explicit questions about chemical versus mechanical explanations of digestion and repeated yeast comparisons meaningfully anchor chemical processes and laboratory comparisons, beyond a generic liking for science.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-006",
+          "decision": "needs-confirmation",
+          "reason": "Her biological questions and careful observations support research, but information-centered and computational inquiry are additional method preferences.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "Her curiosity is expressed through organisms and processes, rather than examining large collections of biological records.",
+              "followupQuestion": "Would you like to investigate living things by organizing and looking for patterns in large collections of biological information?"
+            },
+            {
+              "key": "q2",
+              "reason": "Neither difficult biology reading nor rough experiments establish interest in computational comparisons of records.",
+              "followupQuestion": "Would you like to use step-by-step computational methods to compare biological records and distinguish meaningful patterns from data problems?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-007",
+          "decision": "supported",
+          "reason": "Moving a slow-growing plant, noting changed conditions, and continuing plant observations anchor investigating growing conditions and learning evidence-based ways to improve them.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-008",
+          "decision": "supported",
+          "reason": "Questions about chemical explanations of digestion, yeast responses, and regulation across body processes anchor investigating mechanisms within living systems and comparing explanations carefully.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-009",
+          "decision": "supported",
+          "reason": "She voluntarily repeated a yeast experiment because a small change altered its visible behavior; this directly anchors learning controlled study of microorganisms and dependable handling and reporting.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-010",
+          "decision": "needs-confirmation",
+          "reason": "She seeks deeper biological explanations, but large-data pattern finding and developing computational analyses are not established interests.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "Reading about bodily regulation does not establish a preference for discovering patterns in large biological datasets.",
+              "followupQuestion": "Would you like to investigate genes, proteins, or other living systems by finding patterns in large collections of biological information?"
+            },
+            {
+              "key": "q2",
+              "reason": "Her experiments and reading do not show whether developing computational approaches is itself appealing.",
+              "followupQuestion": "Would you like to develop computational methods for comparing biological data and testing possible scientific explanations of the patterns?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-011",
+          "decision": "supported",
+          "reason": "Her voluntary questions about digestion’s chemical processes and bodily regulation support deeper cellular and molecular explanations; her yeast comparisons and explicit limits anchor experimental checking and records.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-012",
+          "decision": "needs-confirmation",
+          "reason": "Her sustained interest in bodily mechanisms supports biological investigation, but inherited information is a distinct unconfirmed focus.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "No described question or voluntary activity concerns inheritance, family traits, or transmission of genetic information.",
+              "followupQuestion": "Would you like to investigate how inherited information affects traits and biological processes in organisms, families, or populations?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new049-019",
+      "offers": [
+        {
+          "probe": "offer-001",
+          "decision": "supported",
+          "reason": "Sleeve sketches, garment alterations, repeated seam revisions, and testing fabric hang anchor designing useful physical objects and revising models for how they will be worn or used.",
+          "heldQuestions": []
+        }
+      ]
+    },
+    {
+      "id": "new049-023",
+      "offers": [
+        {
+          "probe": "offer-001",
+          "decision": "supported",
+          "reason": "Years of short paper animations, repeated frame-spacing experiments, and refining a bird’s movement directly support creating moving objects and planning clear animated action without requiring dialogue or public performance.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-002",
+          "decision": "needs-confirmation",
+          "reason": "Taking frames for animation is established; composing standalone photographs and exploring photographic lighting are separate interests.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "His camera use serves incremental paper movement, not choosing photographic subjects or composition.",
+              "followupQuestion": "Would you like to compose photographs of people, places, or events and adjust a camera to achieve the pictures you want?"
+            },
+            {
+              "key": "q2",
+              "reason": "Working beside a window does not show a voluntary interest in shaping light or reviewing images for a photographic project.",
+              "followupQuestion": "Would you like to experiment with natural or artificial light and review photographs to improve a photographic project?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new049-004",
+      "offers": [
+        {
+          "probe": "offer-001",
+          "decision": "supported",
+          "reason": "She interviews classmates about skipping an event and compares how wording changes donations or reaches different groups; this anchors investigating choices and explaining findings for an organization.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-002",
+          "decision": "supported",
+          "reason": "Voluntary election and event campaigns, audience-specific messages, and interest in which messages reach people anchor coordinated marketing and using response evidence to adjust plans and resources.",
+          "heldQuestions": []
+        }
+      ]
+    },
+    {
+      "id": "new049-008",
+      "offers": [
+        {
+          "probe": "offer-001",
+          "decision": "supported",
+          "reason": "They repeatedly coordinate gatherings, divide urgent tasks, revise sequences, and now want to complete an event without disappointing another group; this anchors planning and responsibility for agreed results despite uneven execution.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-002",
+          "decision": "needs-confirmation",
+          "reason": "Immediate coordination and putting workable changes into action are well supported; a broader preference for investigating organizational procedures is less established.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "Their voluntary choices center on resolving disruptions, rather than gathering and studying procedures and results to diagnose how an organization operates.",
+              "followupQuestion": "Would you like to gather information about an organization’s procedures, problems, and results to understand why it works as it does?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new049-012",
+      "offers": [
+        {
+          "probe": "offer-001",
+          "decision": "supported",
+          "reason": "Repeated observations of ant routes, labeled leaves, and environmental conditions anchor organism-environment inquiry; she also explicitly wants checkable records and explains comparison limits.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-002",
+          "decision": "needs-confirmation",
+          "reason": "Environmental sampling and repeated comparisons are directly supported, while investigating pollution and preventing harm introduces a new substantive purpose.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "Her moisture and shade investigations do not describe curiosity about contamination or pollution prevention.",
+              "followupQuestion": "Would you like to investigate how pollution affects land, air, or water and find ways to prevent harm?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-003",
+          "decision": "needs-confirmation",
+          "reason": "Recording locations, environmental differences, and changing methods anchors spatial environmental investigation, but population information adds an unconfirmed human-data interest.",
+          "heldQuestions": [
+            {
+              "key": "q2",
+              "reason": "Her local field notes do not establish interest in combining population information with maps and observations.",
+              "followupQuestion": "Would you like to combine maps, observations, and information about where people live to explain geographic patterns?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-004",
+          "decision": "supported",
+          "reason": "Months of soil dampness comparisons and repeated puddle measurements directly anchor local soil and Earth-process investigation; explaining incompatible measurements supports evaluating and communicating site evidence.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-005",
+          "decision": "needs-confirmation",
+          "reason": "She investigates land and water conditions, but curiosity about what changes does not establish an interest in resource protection and land-management interventions.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "The biography does not describe a goal of protecting soil or water while people use them.",
+              "followupQuestion": "Would you like to study how people can use land, soil, or water while protecting those resources?"
+            },
+            {
+              "key": "q2",
+              "reason": "Keeping careful environmental records does not establish a preference for planning restoration or changes in land use.",
+              "followupQuestion": "Would you like to plan changes such as restoring vegetation or managing land differently to protect soil and water?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-006",
+          "decision": "needs-confirmation",
+          "reason": "Repeated puddle and soil-moisture measurements anchor learning water movement; water-supply planning and coordinating compliance investigations are distinct purposes.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "There is no described interest in managing a community’s water quality and dependable supply.",
+              "followupQuestion": "Would you like to plan how a community can protect water quality and maintain a dependable water supply?"
+            },
+            {
+              "key": "q3",
+              "reason": "Careful field records do not establish interest in coordinating investigations around environmental or water-use requirements.",
+              "followupQuestion": "Would you like to coordinate water investigations and assess whether proposed activities meet environmental and water-use requirements?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-007",
+          "decision": "needs-confirmation",
+          "reason": "Years of dated biological observations, preserving corrections, and deciding which sets can be combined support organizing dependable research records; computational inquiry remains unconfirmed.",
+          "heldQuestions": [
+            {
+              "key": "q2",
+              "reason": "Her record comparisons are direct field work; no choice shows interest in computational processing of biological records.",
+              "followupQuestion": "Would you like to use computational methods to compare biological records and check whether patterns come from living systems or from problems in the data?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-008",
+          "decision": "needs-confirmation",
+          "reason": "Leaves and sustained soil-condition comparisons meaningfully anchor plant-environment study, while recommending land and growing practices adds an applied management purpose.",
+          "heldQuestions": [
+            {
+              "key": "q3",
+              "reason": "She explains evidence limits, but no described activity or goal concerns choosing growing practices for people managing land.",
+              "followupQuestion": "Would you like to use scientific evidence to recommend land or growing practices and explain their effects on soil, crops, and the people using them?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-009",
+          "decision": "needs-confirmation",
+          "reason": "Her repeated ant-route observations after wet conditions anchor learning animal behavior and habitat effects; wildlife-management recommendations are a further purpose.",
+          "heldQuestions": [
+            {
+              "key": "q3",
+              "reason": "Observing animals and testing explanations does not itself establish an interest in decisions about managing wildlife.",
+              "followupQuestion": "Would you like to develop recommendations about managing wild animals while considering effects on their habitats and on people?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-010",
+          "decision": "needs-confirmation",
+          "reason": "Careful field observations and uncertainty checks are established, but molecular-data pattern finding and developing computational methods are not.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "Her leaf, ant, and moisture investigations do not establish curiosity about large collections of molecular or other biological data.",
+              "followupQuestion": "Would you like to investigate genes, proteins, or other biological systems by finding patterns in large collections of biological information?"
+            },
+            {
+              "key": "q2",
+              "reason": "Recognizing incompatible field observations does not establish interest in developing computational analysis methods.",
+              "followupQuestion": "Would you like to develop computational approaches that compare biological data and test whether apparent patterns have meaningful scientific explanations?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-011",
+          "decision": "needs-confirmation",
+          "reason": "She records environmental changes carefully, but investigating atmospheric mechanisms and developing forecasts are distinct from tracking moisture at local sites.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "Weather changes her observation conditions; that does not show curiosity about how the atmosphere or climate works.",
+              "followupQuestion": "Would you like to investigate how the atmosphere works and why weather or climate patterns change across places and time?"
+            },
+            {
+              "key": "q2",
+              "reason": "Her dated field comparisons do not establish an interest in weather-model predictions or forecast development.",
+              "followupQuestion": "Would you like to compare weather observations with model predictions to develop forecasts or test explanations of atmospheric changes?"
+            }
+          ]
+        },
+        {
+          "probe": "offer-012",
+          "decision": "supported",
+          "reason": "Repeated puddle-depth measurements, correction of measuring position, and months of soil dampness comparisons directly anchor water behavior and trustworthy findings about a water system.",
+          "heldQuestions": []
+        },
+        {
+          "probe": "offer-013",
+          "decision": "supported",
+          "reason": "Her place-based environmental comparisons, organized photographs, and scrutiny of method changes anchor interpreting observations of Earth’s surface and checking misleading measurements; distant sensors are a learnable extension of that subject and method.",
+          "heldQuestions": []
+        }
+      ]
+    },
+    {
+      "id": "new049-016",
+      "offers": []
+    },
+    {
+      "id": "new049-020",
+      "offers": [
+        {
+          "probe": "offer-001",
+          "decision": "needs-confirmation",
+          "reason": "His voluntary persistence establishes physics interest; motion, magnets, and comparing predictions do not establish an interest in substance composition or chemical reactions.",
+          "heldQuestions": [
+            {
+              "key": "q1",
+              "reason": "The described questions concern physical motion and magnets rather than identifying substances or investigating their composition.",
+              "followupQuestion": "Would you like to investigate substances in a laboratory to find out what they contain and how they behave?"
+            },
+            {
+              "key": "q2",
+              "reason": "Enjoying experimental prediction in physics does not establish curiosity about changing or combining substances chemically.",
+              "followupQuestion": "Would you like to plan experiments that change or combine substances and investigate why the chemical results occur?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new049-024",
+      "offers": []
+    }
+  ]
+}

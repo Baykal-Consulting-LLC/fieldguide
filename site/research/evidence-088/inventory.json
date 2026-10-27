@@ -1,0 +1,418 @@
+[
+  {
+    "id": "environmental-technician",
+    "soc": "19-4042.00",
+    "title": "Environmental science & protection technicians",
+    "summary": "Would you enjoy monitoring water, soil or air to check environmental conditions?",
+    "fields": [
+      "science"
+    ],
+    "vector": [
+      5.83,
+      5.6,
+      1.23,
+      1.93,
+      1.35,
+      4.93
+    ],
+    "evidence088": true,
+    "noncollege087": true,
+    "routes": [
+      {
+        "key": "program",
+        "label": "Associate degree",
+        "detail": "Associate degree",
+        "primary": true
+      }
+    ],
+    "preparation": {
+      "typicalEducation": [
+        "Associate degree"
+      ]
+    },
+    "sourceURL": "https://www.onetonline.org/link/summary/19-4042.00",
+    "anchors": [
+      "onet-sf-04"
+    ],
+    "topicIds": [],
+    "questions": [
+      {
+        "id": "environmental-technician-088-1",
+        "kind": "specific",
+        "domain": "domain",
+        "prompt": "Would you enjoy monitoring water, soil or air to check environmental conditions?",
+        "rule": {
+          "id": "environmental-technician-088-1",
+          "any": [
+            [
+              "t:ecology",
+              "m:fieldwork"
+            ]
+          ],
+          "block": [],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      },
+      {
+        "id": "environmental-technician-088-2",
+        "kind": "specific",
+        "domain": "method",
+        "prompt": "Would you enjoy learning to collect and label environmental samples using a set procedure?",
+        "rule": {
+          "id": "environmental-technician-088-2",
+          "any": [
+            [
+              "t:ecology",
+              "m:precision",
+              "s:environmental-sampling"
+            ]
+          ],
+          "block": [
+            "m:precision"
+          ],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      },
+      {
+        "id": "environmental-technician-088-3",
+        "kind": "specific",
+        "domain": "responsibility",
+        "prompt": "Would you enjoy keeping reliable environmental test records and flagging unusual findings?",
+        "rule": {
+          "id": "environmental-technician-088-3",
+          "any": [
+            [
+              "t:ecology",
+              "m:precision",
+              "m:organization"
+            ]
+          ],
+          "block": [],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      }
+    ],
+    "salary": {
+      "entry": 45367,
+      "median": 53035,
+      "year5": 48817.6,
+      "sourceURL": "https://texaswages.com/MSAWages/MSASocDetails?soc=19-4042&wgeType=entrywg",
+      "geography": "Austin MSA",
+      "period": "2025",
+      "basis": "Lower-paid-worker wage proxy; five-year scenario interpolates 45% toward the median, not observed pay by experience."
+    }
+  },
+  {
+    "id": "forest-technician",
+    "soc": "19-4071.00",
+    "title": "Forest & conservation technicians",
+    "summary": "Would you enjoy monitoring trees, plants and habitat conditions outdoors?",
+    "fields": [
+      "science"
+    ],
+    "vector": [
+      6.53,
+      4.37,
+      1,
+      2.81,
+      2.47,
+      4.72
+    ],
+    "evidence088": true,
+    "noncollege087": true,
+    "routes": [
+      {
+        "key": "program",
+        "label": "Associate degree or related technical preparation",
+        "detail": "Associate degree or related technical preparation",
+        "primary": true
+      }
+    ],
+    "preparation": {
+      "typicalEducation": [
+        "Associate degree or related technical preparation"
+      ]
+    },
+    "sourceURL": "https://www.onetonline.org/link/summary/19-4071.00",
+    "anchors": [],
+    "topicIds": [],
+    "questions": [
+      {
+        "id": "forest-technician-088-1",
+        "kind": "specific",
+        "domain": "domain",
+        "prompt": "Would you enjoy monitoring trees, plants and habitat conditions outdoors?",
+        "rule": {
+          "id": "forest-technician-088-1",
+          "any": [
+            [
+              "t:plants",
+              "t:ecology",
+              "m:fieldwork"
+            ]
+          ],
+          "block": [],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      },
+      {
+        "id": "forest-technician-088-2",
+        "kind": "specific",
+        "domain": "method",
+        "prompt": "Would you enjoy learning to measure vegetation or map field observations using a consistent procedure?",
+        "rule": {
+          "id": "forest-technician-088-2",
+          "any": [
+            [
+              "t:plants",
+              "t:ecology",
+              "m:fieldwork",
+              "m:precision"
+            ]
+          ],
+          "block": [
+            "m:precision"
+          ],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      },
+      {
+        "id": "forest-technician-088-3",
+        "kind": "specific",
+        "domain": "responsibility",
+        "prompt": "Would you enjoy keeping field records to help a team plan conservation work safely?",
+        "rule": {
+          "id": "forest-technician-088-3",
+          "any": [
+            [
+              "t:ecology",
+              "m:organization",
+              "r:safety"
+            ]
+          ],
+          "block": [],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      }
+    ],
+    "salary": {
+      "entry": 38609,
+      "median": 52278,
+      "year5": 44760.05,
+      "sourceURL": "https://texaswages.com/MSAWages/MSASocDetails?soc=19-4071&wgeType=entrywg",
+      "geography": "Austin MSA",
+      "period": "2025",
+      "basis": "Lower-paid-worker wage proxy; five-year scenario interpolates 45% toward the median, not observed pay by experience."
+    }
+  },
+  {
+    "id": "geological-technician",
+    "soc": "19-4043.00",
+    "title": "Geological technicians",
+    "summary": "Would you enjoy comparing rock samples and terrain observations?",
+    "fields": [
+      "science"
+    ],
+    "vector": [
+      5.6,
+      5.18,
+      1.28,
+      1.46,
+      1.11,
+      5.34
+    ],
+    "evidence088": true,
+    "noncollege087": true,
+    "routes": [
+      {
+        "key": "program",
+        "label": "Associate degree; some employers require a bachelor’s degree",
+        "detail": "Associate degree; some employers require a bachelor’s degree",
+        "primary": true
+      }
+    ],
+    "preparation": {
+      "typicalEducation": [
+        "Associate degree; some employers require a bachelor’s degree"
+      ]
+    },
+    "sourceURL": "https://www.onetonline.org/link/summary/19-4043.00",
+    "anchors": [],
+    "topicIds": [],
+    "questions": [
+      {
+        "id": "geological-technician-088-1",
+        "kind": "specific",
+        "domain": "domain",
+        "prompt": "Would you enjoy comparing rock samples and terrain observations?",
+        "rule": {
+          "id": "geological-technician-088-1",
+          "any": [
+            [
+              "t:earth"
+            ]
+          ],
+          "block": [],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      },
+      {
+        "id": "geological-technician-088-2",
+        "kind": "specific",
+        "domain": "method",
+        "prompt": "Would you enjoy learning to measure and record geological samples using consistent procedures?",
+        "rule": {
+          "id": "geological-technician-088-2",
+          "any": [
+            [
+              "t:earth",
+              "m:fieldwork",
+              "m:precision"
+            ]
+          ],
+          "block": [
+            "m:precision"
+          ],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      },
+      {
+        "id": "geological-technician-088-3",
+        "kind": "specific",
+        "domain": "responsibility",
+        "prompt": "Would you enjoy organizing geological observations and noting results that need checking?",
+        "rule": {
+          "id": "geological-technician-088-3",
+          "any": [
+            [
+              "t:earth",
+              "m:organization",
+              "m:precision"
+            ]
+          ],
+          "block": [],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      }
+    ],
+    "salary": {
+      "entry": 35769,
+      "median": 51460,
+      "year5": 42829.95,
+      "sourceURL": "https://texaswages.com/MSAWages/MSASocDetails?soc=19-4043&wgeType=entrywg",
+      "geography": "Austin MSA",
+      "period": "2025",
+      "basis": "Lower-paid-worker wage proxy; five-year scenario interpolates 45% toward the median, not observed pay by experience."
+    }
+  },
+  {
+    "id": "recreation-worker",
+    "soc": "39-9032.00",
+    "title": "Recreation workers",
+    "summary": "Would you enjoy helping people participate in games or recreational activities?",
+    "fields": [
+      "teaching"
+    ],
+    "vector": [
+      3.75,
+      1.98,
+      3.05,
+      4.9,
+      4.51,
+      3.46
+    ],
+    "evidence088": true,
+    "noncollege087": true,
+    "routes": [
+      {
+        "key": "work",
+        "label": "High school + workplace training; requirements vary",
+        "detail": "High school + workplace training; requirements vary",
+        "primary": true
+      }
+    ],
+    "preparation": {
+      "typicalEducation": [
+        "High school + workplace training; requirements vary"
+      ]
+    },
+    "sourceURL": "https://www.onetonline.org/link/summary/39-9032.00",
+    "anchors": [
+      "onet-sf-32"
+    ],
+    "topicIds": [],
+    "questions": [
+      {
+        "id": "recreation-worker-088-1",
+        "kind": "specific",
+        "domain": "domain",
+        "prompt": "Would you enjoy helping people participate in games or recreational activities?",
+        "rule": {
+          "id": "recreation-worker-088-1",
+          "any": [
+            [
+              "t:children",
+              "t:movement"
+            ],
+            [
+              "t:adults",
+              "t:movement"
+            ]
+          ],
+          "block": [],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      },
+      {
+        "id": "recreation-worker-088-2",
+        "kind": "specific",
+        "domain": "method",
+        "prompt": "Would you enjoy adapting an activity or explanation so participants can join in?",
+        "rule": {
+          "id": "recreation-worker-088-2",
+          "any": [
+            [
+              "t:children",
+              "m:explaining"
+            ],
+            [
+              "t:adults",
+              "m:explaining"
+            ]
+          ],
+          "block": [
+            "m:precision"
+          ],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      },
+      {
+        "id": "recreation-worker-088-3",
+        "kind": "specific",
+        "domain": "responsibility",
+        "prompt": "Would you enjoy organizing activities and watching for participant safety?",
+        "rule": {
+          "id": "recreation-worker-088-3",
+          "any": [
+            [
+              "t:movement",
+              "m:coordination",
+              "r:safety"
+            ]
+          ],
+          "block": [],
+          "reason": "Exact question-scoped typed activities only. Unrecorded sampling, responsibility or method stays unknown."
+        }
+      }
+    ],
+    "salary": {
+      "entry": 28416,
+      "median": 38231,
+      "year5": 32832.75,
+      "sourceURL": "https://texaswages.com/MSAWages/MSASocDetails?soc=39-9032&wgeType=entrywg",
+      "geography": "Austin MSA",
+      "period": "2025",
+      "basis": "Lower-paid-worker wage proxy; five-year scenario interpolates 45% toward the median, not observed pay by experience."
+    }
+  }
+]

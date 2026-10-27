@@ -1,0 +1,5266 @@
+{
+  "release": "0.31.15",
+  "walkthroughStartedOn": "0.31.14",
+  "walkthroughCompletedOn": "0.31.15",
+  "fixture": "Fictional medicine student; fresh guide completed via the UI",
+  "method": "A fresh fictional student completed every displayed question through browser UI; the same draft continued after the repeated-introduction fix. Section boundaries were rechecked after rebuilding.",
+  "counts": {
+    "lifestyle": 9,
+    "official": 60,
+    "work": 18,
+    "experience": 12,
+    "priorities": 1,
+    "workStyle": 4,
+    "profession": 11
+  },
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "role": "Full student route"
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "role": "Career matches, profile review and saved plan round trip"
+    }
+  ],
+  "findingsFixed": [
+    "Read introductions repeated when using Back or crossing a section again.",
+    "Early follow-up and experience screens repeated the introduction as a banner."
+  ],
+  "checked": {
+    "unreadIntroductionPreservedWhenPausing": true,
+    "readIntroductionsSkippedOnBackAndResume": true,
+    "allFiveProfileSectionsRevisitedWithoutIntroductions": true,
+    "multiSelectPrioritiesPreservedBeforeNext": true,
+    "workAndEducationSelectionsPreserved": true,
+    "professionSelectionsPreserved": true,
+    "careerAndSalaryStagePreserved": true,
+    "completedStepAndReflectionPreserved": true,
+    "realStudentDataModified": false
+  },
+  "exportChecks": {
+    "officialAnswers": 60,
+    "workPreferenceAnswers": 18,
+    "experienceAnswers": 12,
+    "workAndEducationAnswers": 4,
+    "professionAnswers": 11,
+    "allExportedAnswersMatchUIInput": true,
+    "completedStepPreserved": true,
+    "reflectionPreserved": true,
+    "careerPreserved": true,
+    "salaryStagePreserved": true,
+    "prioritiesCompletionSaved": true
+  },
+  "automatedTests": {
+    "passed": 109,
+    "failed": 0,
+    "scope": "Full focused/all-question routes, transition replay, question order, saved state, matching invariance, rendering and restart checks."
+  },
+  "limits": [
+    "Phone-sized browser viewports; no physical iPhone or Android device used.",
+    "Browser-local persistence tested. Production sign-in and cloud synchronization were not exercised.",
+    "One realistic UI student route; not a psychometric validation or a claim that every student profile was tested."
+  ],
+  "trail": [
+    {
+      "heading": "Where would you feel at home?",
+      "options": [
+        {
+          "id": "home",
+          "label": "Share a place\n\nA room of your own. Shared living space.",
+          "value": "0"
+        },
+        {
+          "id": "home",
+          "label": "A small place\n\nA modest apartment with the basics.",
+          "value": "1"
+        },
+        {
+          "id": "home",
+          "label": "My own space\n\nA comfortable one-bedroom apartment.",
+          "value": "2"
+        },
+        {
+          "id": "home",
+          "label": "Room to spread out\n\nA larger apartment or rental home.",
+          "value": "3"
+        },
+        {
+          "id": "home",
+          "label": "A standout home\n\nA high-end home with extra space and comforts.",
+          "value": "4"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/lifestyle",
+      "selected": {
+        "id": "home",
+        "label": "My own space\n\nA comfortable one-bedroom apartment.",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "How would you like to get around?",
+      "options": [
+        {
+          "id": "transport",
+          "label": "Keep it light\n\nWalking, cycling, transit, and occasional rides.",
+          "value": "0"
+        },
+        {
+          "id": "transport",
+          "label": "A car I own\n\nNo loan payment. Include upkeep and a replacement fund.",
+          "value": "1"
+        },
+        {
+          "id": "transport",
+          "label": "A reliable used car\n\nA compact car for everyday trips.",
+          "value": "2"
+        },
+        {
+          "id": "transport",
+          "label": "A newer car\n\nMore comfort and newer features.",
+          "value": "3"
+        },
+        {
+          "id": "transport",
+          "label": "A premium car\n\nA car that is part of the experience.",
+          "value": "4"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/lifestyle",
+      "selected": {
+        "id": "transport",
+        "label": "A reliable used car\n\nA compact car for everyday trips.",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "What is your food-at-home style?",
+      "options": [
+        {
+          "id": "groceries",
+          "label": "Simple and planned\n\nCook at home and make the most of each shop.",
+          "value": "0"
+        },
+        {
+          "id": "groceries",
+          "label": "Everyday favorites\n\nMostly groceries, with some small treats.",
+          "value": "1"
+        },
+        {
+          "id": "groceries",
+          "label": "A little more choice\n\nGood variety and some convenience foods.",
+          "value": "2"
+        },
+        {
+          "id": "groceries",
+          "label": "Food I love\n\nSpecialty ingredients and more convenience.",
+          "value": "3"
+        },
+        {
+          "id": "groceries",
+          "label": "No skimping\n\nPremium ingredients and a well-stocked kitchen.",
+          "value": "4"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/lifestyle",
+      "selected": {
+        "id": "groceries",
+        "label": "Everyday favorites\n\nMostly groceries, with some small treats.",
+        "value": "1"
+      }
+    },
+    {
+      "heading": "How many dinners out would you like each week?",
+      "options": [
+        {
+          "id": "dining",
+          "label": "Occasional dinners\n\nLess than 1 dinner out a week.",
+          "value": "0"
+        },
+        {
+          "id": "dining",
+          "label": "1 dinner a week\n\nA casual meal out to look forward to.",
+          "value": "1"
+        },
+        {
+          "id": "dining",
+          "label": "2–3 dinners a week\n\nRegular casual meals, with a special dinner sometimes.",
+          "value": "2"
+        },
+        {
+          "id": "dining",
+          "label": "4–5 dinners a week\n\nDinner out is a big part of the week.",
+          "value": "3"
+        },
+        {
+          "id": "dining",
+          "label": "6–7 dinners a week\n\nMost evenings out, including memorable dining.",
+          "value": "4"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/lifestyle",
+      "selected": {
+        "id": "dining",
+        "label": "1 dinner a week\n\nA casual meal out to look forward to.",
+        "value": "1"
+      }
+    },
+    {
+      "heading": "What kind of travel would you like?",
+      "options": [
+        {
+          "id": "travel",
+          "label": "Close to home\n\nLocal adventures and day trips.",
+          "value": "0"
+        },
+        {
+          "id": "travel",
+          "label": "A simple getaway\n\nSave up for a modest trip.",
+          "value": "1"
+        },
+        {
+          "id": "travel",
+          "label": "An annual escape\n\nA proper trip, with room to enjoy it.",
+          "value": "2"
+        },
+        {
+          "id": "travel",
+          "label": "A few adventures\n\nLonger trips and weekend escapes.",
+          "value": "3"
+        },
+        {
+          "id": "travel",
+          "label": "Travel in style\n\nSeveral big trips with extra comfort.",
+          "value": "4"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/lifestyle",
+      "selected": {
+        "id": "travel",
+        "label": "A simple getaway\n\nSave up for a modest trip.",
+        "value": "1"
+      }
+    },
+    {
+      "heading": "What entertainment would you enjoy?",
+      "options": [
+        {
+          "id": "entertainment",
+          "label": "Keep it simple\n\nFree events, streaming, and nights with friends.",
+          "value": "0"
+        },
+        {
+          "id": "entertainment",
+          "label": "A few nights out\n\nMovies or a small show now and then.",
+          "value": "1"
+        },
+        {
+          "id": "entertainment",
+          "label": "Regular plans\n\nMovies, music, and shows through the month.",
+          "value": "2"
+        },
+        {
+          "id": "entertainment",
+          "label": "A full calendar\n\nMore concerts, tickets, and nights out.",
+          "value": "3"
+        },
+        {
+          "id": "entertainment",
+          "label": "Make it special\n\nPremium seats and big entertainment experiences.",
+          "value": "4"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/lifestyle",
+      "selected": {
+        "id": "entertainment",
+        "label": "A few nights out\n\nMovies or a small show now and then.",
+        "value": "1"
+      }
+    },
+    {
+      "heading": "How would you spend time on hobbies and recreation?",
+      "options": [
+        {
+          "id": "recreation",
+          "label": "Outdoors and free\n\nParks, walks, and low-cost hobbies.",
+          "value": "0"
+        },
+        {
+          "id": "recreation",
+          "label": "A few favorites\n\nA simple hobby or fitness routine.",
+          "value": "1"
+        },
+        {
+          "id": "recreation",
+          "label": "Time for my interests\n\nClasses, sports, and memberships.",
+          "value": "2"
+        },
+        {
+          "id": "recreation",
+          "label": "Go deeper\n\nMore lessons, equipment, and active weekends.",
+          "value": "3"
+        },
+        {
+          "id": "recreation",
+          "label": "Big hobbies\n\nPremium clubs, equipment, and recreation.",
+          "value": "4"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/lifestyle",
+      "selected": {
+        "id": "recreation",
+        "label": "A few favorites\n\nA simple hobby or fitness routine.",
+        "value": "1"
+      }
+    },
+    {
+      "heading": "What feels like your personal style?",
+      "options": [
+        {
+          "id": "clothing",
+          "label": "Thrift and reuse\n\nFind good pieces and make them last.",
+          "value": "0"
+        },
+        {
+          "id": "clothing",
+          "label": "Everyday basics\n\nAffordable favorites and occasional replacements.",
+          "value": "1"
+        },
+        {
+          "id": "clothing",
+          "label": "A few quality pieces\n\nEveryday brands, with a little room for treats.",
+          "value": "2"
+        },
+        {
+          "id": "clothing",
+          "label": "Style is a priority\n\nBetter brands and more frequent updates.",
+          "value": "3"
+        },
+        {
+          "id": "clothing",
+          "label": "Designer choices\n\nPremium pieces are part of the picture.",
+          "value": "4"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/lifestyle",
+      "selected": {
+        "id": "clothing",
+        "label": "Everyday basics\n\nAffordable favorites and occasional replacements.",
+        "value": "1"
+      }
+    },
+    {
+      "heading": "How much room would you like for future goals?",
+      "options": [
+        {
+          "id": "saving",
+          "label": "Start a cushion\n\nBuild a small emergency fund.",
+          "value": "0"
+        },
+        {
+          "id": "saving",
+          "label": "Keep it steady\n\nPut something aside each month.",
+          "value": "1"
+        },
+        {
+          "id": "saving",
+          "label": "Build more security\n\nGrow savings for the next chapter.",
+          "value": "2"
+        },
+        {
+          "id": "saving",
+          "label": "Move toward big goals\n\nSave more for a home, change, or opportunity.",
+          "value": "3"
+        },
+        {
+          "id": "saving",
+          "label": "Make saving a priority\n\nSet aside a substantial part of life’s budget.",
+          "value": "4"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/lifestyle",
+      "selected": {
+        "id": "saving",
+        "label": "Keep it steady\n\nPut something aside each month.",
+        "value": "1"
+      }
+    },
+    {
+      "route": "http://127.0.0.1:4204/#/journey/profile-intro",
+      "type": "transition",
+      "heading": "Start with what you’d enjoy."
+    },
+    {
+      "heading": "Build kitchen cabinets",
+      "options": [
+        {
+          "id": "onet-sf-01",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-01",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-01",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-01",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-01",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-01",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Lay brick or tile",
+      "options": [
+        {
+          "id": "onet-sf-02",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-02",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-02",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-02",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-02",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-02",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Develop a new medicine",
+      "options": [
+        {
+          "id": "onet-sf-03",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-03",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-03",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-03",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-03",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-03",
+        "label": "Strongly Like",
+        "pressed": "false",
+        "value": "5"
+      }
+    },
+    {
+      "heading": "Study ways to reduce water pollution",
+      "options": [
+        {
+          "id": "onet-sf-04",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-04",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-04",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-04",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-04",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-04",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Write books or plays",
+      "options": [
+        {
+          "id": "onet-sf-05",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-05",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-05",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-05",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-05",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-05",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Play a musical instrument",
+      "options": [
+        {
+          "id": "onet-sf-06",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-06",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-06",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-06",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-06",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-06",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Teach an individual an exercise routine",
+      "options": [
+        {
+          "id": "onet-sf-07",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-07",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-07",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-07",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-07",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-07",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Help people with personal or emotional problems",
+      "options": [
+        {
+          "id": "onet-sf-08",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-08",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-08",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-08",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-08",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-08",
+        "label": "Strongly Like",
+        "pressed": "false",
+        "value": "5"
+      }
+    },
+    {
+      "heading": "Buy and sell stocks and bonds",
+      "options": [
+        {
+          "id": "onet-sf-09",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-09",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-09",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-09",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-09",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-09",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Manage a retail store",
+      "options": [
+        {
+          "id": "onet-sf-10",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-10",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-10",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-10",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-10",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-10",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Develop a spreadsheet using computer software",
+      "options": [
+        {
+          "id": "onet-sf-11",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-11",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-11",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-11",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-11",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-11",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Proofread records or forms",
+      "options": [
+        {
+          "id": "onet-sf-12",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-12",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-12",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-12",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-12",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-12",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Repair household appliances",
+      "options": [
+        {
+          "id": "onet-sf-13",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-13",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-13",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-13",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-13",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-13",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Raise fish in a fish hatchery",
+      "options": [
+        {
+          "id": "onet-sf-14",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-14",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-14",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-14",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-14",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-14",
+        "label": "Strongly Dislike",
+        "pressed": "false",
+        "value": "1"
+      }
+    },
+    {
+      "heading": "Conduct chemical experiments",
+      "options": [
+        {
+          "id": "onet-sf-15",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-15",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-15",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-15",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-15",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-15",
+        "label": "Strongly Like",
+        "pressed": "false",
+        "value": "5"
+      }
+    },
+    {
+      "heading": "Study the movement of planets",
+      "options": [
+        {
+          "id": "onet-sf-16",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-16",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-16",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-16",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-16",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-16",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Compose or arrange music",
+      "options": [
+        {
+          "id": "onet-sf-17",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-17",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-17",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-17",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-17",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-17",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Draw pictures",
+      "options": [
+        {
+          "id": "onet-sf-18",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-18",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-18",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-18",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-18",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-18",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Give career guidance to people",
+      "options": [
+        {
+          "id": "onet-sf-19",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-19",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-19",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-19",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-19",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-19",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Perform rehabilitation therapy",
+      "options": [
+        {
+          "id": "onet-sf-20",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-20",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-20",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-20",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-20",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-20",
+        "label": "Strongly Like",
+        "pressed": "false",
+        "value": "5"
+      }
+    },
+    {
+      "heading": "Operate a beauty salon or barber shop",
+      "options": [
+        {
+          "id": "onet-sf-21",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-21",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-21",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-21",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-21",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-21",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Manage a department within a large company",
+      "options": [
+        {
+          "id": "onet-sf-22",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-22",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-22",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-22",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-22",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-22",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Install software across computers on a large network",
+      "options": [
+        {
+          "id": "onet-sf-23",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-23",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-23",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-23",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-23",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-23",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Operate a calculator",
+      "options": [
+        {
+          "id": "onet-sf-24",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-24",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-24",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-24",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-24",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-24",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Assemble electronic parts",
+      "options": [
+        {
+          "id": "onet-sf-25",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-25",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-25",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-25",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-25",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-25",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Drive a truck to deliver packages to offices and homes",
+      "options": [
+        {
+          "id": "onet-sf-26",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-26",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-26",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-26",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-26",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-26",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Examine blood samples using a microscope",
+      "options": [
+        {
+          "id": "onet-sf-27",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-27",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-27",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-27",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-27",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-27",
+        "label": "Strongly Like",
+        "pressed": "false",
+        "value": "5"
+      }
+    },
+    {
+      "heading": "Investigate the cause of a fire",
+      "options": [
+        {
+          "id": "onet-sf-28",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-28",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-28",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-28",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-28",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-28",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Create special effects for movies",
+      "options": [
+        {
+          "id": "onet-sf-29",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-29",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-29",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-29",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-29",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-29",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Paint sets for plays",
+      "options": [
+        {
+          "id": "onet-sf-30",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-30",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-30",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-30",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-30",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-30",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Do volunteer work at a non-profit organization",
+      "options": [
+        {
+          "id": "onet-sf-31",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-31",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-31",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-31",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-31",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-31",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Teach children how to play sports",
+      "options": [
+        {
+          "id": "onet-sf-32",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-32",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-32",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-32",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-32",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-32",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Start your own business",
+      "options": [
+        {
+          "id": "onet-sf-33",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-33",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-33",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-33",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-33",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-33",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Negotiate business contracts",
+      "options": [
+        {
+          "id": "onet-sf-34",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-34",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-34",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-34",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-34",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-34",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Keep shipping and receiving records",
+      "options": [
+        {
+          "id": "onet-sf-35",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-35",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-35",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-35",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-35",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-35",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Calculate the wages of employees",
+      "options": [
+        {
+          "id": "onet-sf-36",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-36",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-36",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-36",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-36",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-36",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Test the quality of parts before shipment",
+      "options": [
+        {
+          "id": "onet-sf-37",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-37",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-37",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-37",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-37",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-37",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Repair and install locks",
+      "options": [
+        {
+          "id": "onet-sf-38",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-38",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-38",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-38",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-38",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-38",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Develop a way to better predict the weather",
+      "options": [
+        {
+          "id": "onet-sf-39",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-39",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-39",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-39",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-39",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-39",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Work in a biology lab",
+      "options": [
+        {
+          "id": "onet-sf-40",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-40",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-40",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-40",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-40",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-40",
+        "label": "Strongly Like",
+        "pressed": "false",
+        "value": "5"
+      }
+    },
+    {
+      "heading": "Write scripts for movies or television shows",
+      "options": [
+        {
+          "id": "onet-sf-41",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-41",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-41",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-41",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-41",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-41",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Perform jazz or tap dance",
+      "options": [
+        {
+          "id": "onet-sf-42",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-42",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-42",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-42",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-42",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-42",
+        "label": "Strongly Dislike",
+        "pressed": "false",
+        "value": "1"
+      }
+    },
+    {
+      "heading": "Teach sign language to people who are deaf or hard of hearing",
+      "options": [
+        {
+          "id": "onet-sf-43",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-43",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-43",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-43",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-43",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-43",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Help conduct a group therapy session",
+      "options": [
+        {
+          "id": "onet-sf-44",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-44",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-44",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-44",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-44",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-44",
+        "label": "Strongly Like",
+        "pressed": "false",
+        "value": "5"
+      }
+    },
+    {
+      "heading": "Represent a client in a lawsuit",
+      "options": [
+        {
+          "id": "onet-sf-45",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-45",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-45",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-45",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-45",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-45",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Market a new line of clothing",
+      "options": [
+        {
+          "id": "onet-sf-46",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-46",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-46",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-46",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-46",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-46",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Inventory supplies using a hand-held computer",
+      "options": [
+        {
+          "id": "onet-sf-47",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-47",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-47",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-47",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-47",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-47",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Record rent payments",
+      "options": [
+        {
+          "id": "onet-sf-48",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-48",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-48",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-48",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-48",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-48",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Set up and operate machines to make products",
+      "options": [
+        {
+          "id": "onet-sf-49",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-49",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-49",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-49",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-49",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-49",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Put out forest fires",
+      "options": [
+        {
+          "id": "onet-sf-50",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-50",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-50",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-50",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-50",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-50",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Invent a replacement for sugar",
+      "options": [
+        {
+          "id": "onet-sf-51",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-51",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-51",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-51",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-51",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-51",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Do laboratory tests to identify diseases",
+      "options": [
+        {
+          "id": "onet-sf-52",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-52",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-52",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-52",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-52",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-52",
+        "label": "Strongly Like",
+        "pressed": "false",
+        "value": "5"
+      }
+    },
+    {
+      "heading": "Sing in a band",
+      "options": [
+        {
+          "id": "onet-sf-53",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-53",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-53",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-53",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-53",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-53",
+        "label": "Strongly Dislike",
+        "pressed": "false",
+        "value": "1"
+      }
+    },
+    {
+      "heading": "Edit movies",
+      "options": [
+        {
+          "id": "onet-sf-54",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-54",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-54",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-54",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-54",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-54",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Take care of children at a day-care center",
+      "options": [
+        {
+          "id": "onet-sf-55",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-55",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-55",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-55",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-55",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-55",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Teach a high-school class",
+      "options": [
+        {
+          "id": "onet-sf-56",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-56",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-56",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-56",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-56",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-56",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Sell merchandise at a department store",
+      "options": [
+        {
+          "id": "onet-sf-57",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-57",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-57",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-57",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-57",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-57",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Manage a clothing store",
+      "options": [
+        {
+          "id": "onet-sf-58",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-58",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-58",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-58",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-58",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-58",
+        "label": "Dislike",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Keep inventory records",
+      "options": [
+        {
+          "id": "onet-sf-59",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-59",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-59",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-59",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-59",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-59",
+        "label": "Like",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Stamp, sort, and distribute mail for an organization",
+      "options": [
+        {
+          "id": "onet-sf-60",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-60",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-60",
+          "label": "Unsure",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-60",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-60",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-60",
+        "label": "Unsure",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "type": "transition",
+      "route": "http://127.0.0.1:4204/#/journey/profile-followups",
+      "heading": "Let’s get more specific."
+    },
+    {
+      "heading": "Stamp, sort, and distribute mail for an organization",
+      "options": [
+        {
+          "id": "onet-sf-60",
+          "label": "Strongly Dislike",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "onet-sf-60",
+          "label": "Dislike",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "onet-sf-60",
+          "label": "Unsure",
+          "pressed": "true",
+          "value": "3"
+        },
+        {
+          "id": "onet-sf-60",
+          "label": "Like",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "onet-sf-60",
+          "label": "Strongly Like",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Interests",
+      "type": "answer",
+      "selected": {
+        "id": "onet-sf-60",
+        "label": "Unsure",
+        "pressed": "true",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Help someone resolve a service question or compare useful options.",
+      "options": [
+        {
+          "id": "field-profile-sales-office-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-sales-office-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-sales-office-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-sales-office-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-sales-office-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-sales-office-1",
+        "label": "Not very interested",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Coordinate materials and equipment so a practical workflow runs smoothly.",
+      "options": [
+        {
+          "id": "field-profile-transportation-production-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-transportation-production-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-transportation-production-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-transportation-production-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-transportation-production-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-transportation-production-1",
+        "label": "Not very interested",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Investigate a health concern and explain ways to help.",
+      "options": [
+        {
+          "id": "field-profile-health-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-health-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-health-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-health-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-health-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-health-1",
+        "label": "I’d love this",
+        "pressed": "false",
+        "value": "5"
+      }
+    },
+    {
+      "heading": "Turn an original idea into a piece an audience can experience.",
+      "options": [
+        {
+          "id": "field-profile-creative-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-creative-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-creative-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-creative-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-creative-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-creative-1",
+        "label": "Not very interested",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Design a structure or device before it is made.",
+      "options": [
+        {
+          "id": "field-profile-building-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-building-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-building-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-building-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-building-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-building-1",
+        "label": "Not very interested",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Gather measurements and compare them with a possible explanation.",
+      "options": [
+        {
+          "id": "field-profile-science-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-science-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-science-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-science-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-science-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-science-1",
+        "label": "Sounds interesting",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Explain an idea in a different way when someone does not understand it.",
+      "options": [
+        {
+          "id": "field-profile-education-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-education-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-education-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-education-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-education-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-education-1",
+        "label": "Sounds interesting",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Build or improve a digital tool that solves a useful problem.",
+      "options": [
+        {
+          "id": "field-profile-technology-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-technology-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-technology-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-technology-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-technology-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-technology-1",
+        "label": "Not very interested",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Prepare an everyday service so it feels useful and welcoming.",
+      "options": [
+        {
+          "id": "field-profile-services-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-services-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-services-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-services-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-services-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-services-1",
+        "label": "Not very interested",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Practise an organized response to an urgent situation.",
+      "options": [
+        {
+          "id": "field-profile-public-safety-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-public-safety-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-public-safety-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-public-safety-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-public-safety-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-public-safety-1",
+        "label": "Not very interested",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Compare costs and evidence before recommending a business decision.",
+      "options": [
+        {
+          "id": "field-profile-business-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-business-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-business-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-business-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-business-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-business-1",
+        "label": "Not very interested",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Install or repair a physical system so it works properly.",
+      "options": [
+        {
+          "id": "field-profile-trades-1",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-trades-1",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-trades-1",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-trades-1",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-trades-1",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-trades-1",
+        "label": "Not very interested",
+        "pressed": "false",
+        "value": "2"
+      }
+    },
+    {
+      "heading": "Stay with an investigation when the answer is still uncertain.",
+      "options": [
+        {
+          "id": "field-profile-science-2",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-science-2",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-science-2",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-science-2",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-science-2",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-science-2",
+        "label": "Sounds interesting",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Help someone understand what is happening during a care visit.",
+      "options": [
+        {
+          "id": "field-profile-health-2",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-health-2",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-health-2",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-health-2",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-health-2",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-health-2",
+        "label": "I’d love this",
+        "pressed": "false",
+        "value": "5"
+      }
+    },
+    {
+      "heading": "Spend time with learners who have different needs and ways of learning.",
+      "options": [
+        {
+          "id": "field-profile-education-2",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-education-2",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-education-2",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-education-2",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-education-2",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-education-2",
+        "label": "Somewhere in the middle",
+        "pressed": "false",
+        "value": "3"
+      }
+    },
+    {
+      "heading": "Repeat a method and document the results even when the first attempt is inconclusive.",
+      "options": [
+        {
+          "id": "field-profile-science-3",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-science-3",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-science-3",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-science-3",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-science-3",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-science-3",
+        "label": "Sounds interesting",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Keep health information accurate and follow care and privacy procedures.",
+      "options": [
+        {
+          "id": "field-profile-health-3",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-health-3",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-health-3",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-health-3",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-health-3",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-health-3",
+        "label": "Sounds interesting",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Adjust an activity and give feedback when a learner gets stuck.",
+      "options": [
+        {
+          "id": "field-profile-education-3",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-education-3",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-education-3",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-education-3",
+          "label": "Sounds interesting",
+          "pressed": "false",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-education-3",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-education-3",
+        "label": "Sounds interesting",
+        "pressed": "false",
+        "value": "4"
+      }
+    },
+    {
+      "type": "transition",
+      "route": "http://127.0.0.1:4204/#/journey/profile-experience",
+      "heading": "What have you tried?"
+    },
+    {
+      "heading": "Adjust an activity and give feedback when a learner gets stuck.",
+      "options": [
+        {
+          "id": "field-profile-education-3",
+          "label": "Really not for me",
+          "pressed": "false",
+          "value": "1"
+        },
+        {
+          "id": "field-profile-education-3",
+          "label": "Not very interested",
+          "pressed": "false",
+          "value": "2"
+        },
+        {
+          "id": "field-profile-education-3",
+          "label": "Somewhere in the middle",
+          "pressed": "false",
+          "value": "3"
+        },
+        {
+          "id": "field-profile-education-3",
+          "label": "Sounds interesting",
+          "pressed": "true",
+          "value": "4"
+        },
+        {
+          "id": "field-profile-education-3",
+          "label": "I’d love this",
+          "pressed": "false",
+          "value": "5"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Everyday work",
+      "type": "answer",
+      "selected": {
+        "id": "field-profile-education-3",
+        "label": "Sounds interesting",
+        "pressed": "true",
+        "value": "4"
+      }
+    },
+    {
+      "heading": "Explain an idea clearly through writing, speaking, or visuals.",
+      "options": [
+        {
+          "id": "words",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "words",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "words",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "words",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "words",
+        "label": "I’ve tried it and would want some help.",
+        "pressed": "false",
+        "value": "supported"
+      }
+    },
+    {
+      "heading": "Learn a digital tool, find a problem, or make it work better.",
+      "options": [
+        {
+          "id": "digital",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "digital",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "digital",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "digital",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "digital",
+        "label": "This is new to me.",
+        "pressed": "false",
+        "value": "new"
+      }
+    },
+    {
+      "heading": "Picture how shapes, objects, or layouts could fit together.",
+      "options": [
+        {
+          "id": "visual",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "visual",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "visual",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "visual",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "visual",
+        "label": "This is new to me.",
+        "pressed": "false",
+        "value": "new"
+      }
+    },
+    {
+      "heading": "Make a small, careful adjustment by hand while following instructions.",
+      "options": [
+        {
+          "id": "precision",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "precision",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "precision",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "precision",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "precision",
+        "label": "This is new to me.",
+        "pressed": "false",
+        "value": "new"
+      }
+    },
+    {
+      "heading": "Learn an unfamiliar subject or tool and decide what to practice next.",
+      "options": [
+        {
+          "id": "learning",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "learning",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "learning",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "learning",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "learning",
+        "label": "This is new to me.",
+        "pressed": "false",
+        "value": "new"
+      }
+    },
+    {
+      "heading": "Plan a project and keep track of its details.",
+      "options": [
+        {
+          "id": "organizing",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "organizing",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "organizing",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "organizing",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "organizing",
+        "label": "This is new to me.",
+        "pressed": "false",
+        "value": "new"
+      }
+    },
+    {
+      "heading": "Compare observations, test an explanation, and notice what remains uncertain.",
+      "options": [
+        {
+          "id": "science",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "science",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "science",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "science",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "science",
+        "label": "This is new to me.",
+        "pressed": "false",
+        "value": "new"
+      }
+    },
+    {
+      "heading": "Make, repair, or carefully assemble something with your hands.",
+      "options": [
+        {
+          "id": "practical",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "practical",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "practical",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "practical",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "practical",
+        "label": "This is new to me.",
+        "pressed": "false",
+        "value": "new"
+      }
+    },
+    {
+      "heading": "Work through an unfamiliar problem by comparing possible explanations.",
+      "options": [
+        {
+          "id": "reasoning",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "reasoning",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "reasoning",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "reasoning",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "reasoning",
+        "label": "I’ve tried it and would want some help.",
+        "pressed": "false",
+        "value": "supported"
+      }
+    },
+    {
+      "heading": "Use numbers, measurements, or a simple chart to make sense of something.",
+      "options": [
+        {
+          "id": "numbers",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "numbers",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "numbers",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "numbers",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "numbers",
+        "label": "This is new to me.",
+        "pressed": "false",
+        "value": "new"
+      }
+    },
+    {
+      "heading": "Work through a disagreement so a team can keep moving.",
+      "options": [
+        {
+          "id": "collaboration",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "collaboration",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "collaboration",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "collaboration",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "collaboration",
+        "label": "This is new to me.",
+        "pressed": "false",
+        "value": "new"
+      }
+    },
+    {
+      "heading": "Listen closely and help someone understand or solve a problem.",
+      "options": [
+        {
+          "id": "people",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "people",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "false",
+          "value": "supported"
+        },
+        {
+          "id": "people",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "people",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "people",
+        "label": "I’ve tried it and would want some help.",
+        "pressed": "false",
+        "value": "supported"
+      }
+    },
+    {
+      "type": "transition",
+      "route": "http://127.0.0.1:4204/#/journey/profile-priorities",
+      "heading": "What matters most to you?"
+    },
+    {
+      "heading": "Listen closely and help someone understand or solve a problem.",
+      "options": [
+        {
+          "id": "people",
+          "label": "This is new to me.",
+          "pressed": "false",
+          "value": "new"
+        },
+        {
+          "id": "people",
+          "label": "I’ve tried it and would want some help.",
+          "pressed": "true",
+          "value": "supported"
+        },
+        {
+          "id": "people",
+          "label": "I can usually do it on my own.",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "people",
+          "label": "I could show someone else how.",
+          "pressed": "false",
+          "value": "teach"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Experience",
+      "type": "answer",
+      "selected": {
+        "id": "people",
+        "label": "I’ve tried it and would want some help.",
+        "pressed": "true",
+        "value": "supported"
+      }
+    },
+    {
+      "type": "priorities",
+      "selected": [
+        "impact",
+        "curiosity",
+        "mastery"
+      ]
+    },
+    {
+      "type": "transition",
+      "route": "http://127.0.0.1:4204/#/journey/profile-working-life",
+      "heading": "Picture a working day."
+    },
+    {
+      "heading": "Who would you enjoy working alongside?",
+      "options": [
+        {
+          "id": "company",
+          "label": "A close team",
+          "pressed": "false",
+          "value": "team"
+        },
+        {
+          "id": "company",
+          "label": "Mostly on my own",
+          "pressed": "false",
+          "value": "independent"
+        },
+        {
+          "id": "company",
+          "label": "A mix of both",
+          "pressed": "false",
+          "value": "mix"
+        },
+        {
+          "id": "company",
+          "label": "Still exploring",
+          "pressed": "false",
+          "value": "unknown"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Work style",
+      "type": "answer",
+      "selected": {
+        "id": "company",
+        "label": "A close team",
+        "pressed": "false",
+        "value": "team"
+      }
+    },
+    {
+      "heading": "What would make a good working day?",
+      "options": [
+        {
+          "id": "rhythm",
+          "label": "Different problems and changing tasks",
+          "pressed": "false",
+          "value": "variety"
+        },
+        {
+          "id": "rhythm",
+          "label": "A steady rhythm and clear routines",
+          "pressed": "false",
+          "value": "routine"
+        },
+        {
+          "id": "rhythm",
+          "label": "Some of each",
+          "pressed": "false",
+          "value": "mix"
+        },
+        {
+          "id": "rhythm",
+          "label": "Still exploring",
+          "pressed": "false",
+          "value": "unknown"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/profile",
+      "stage": "Work style",
+      "type": "answer",
+      "selected": {
+        "id": "rhythm",
+        "label": "Different problems and changing tasks",
+        "pressed": "false",
+        "value": "variety"
+      }
+    },
+    {
+      "heading": "Where could you picture spending your day?",
+      "options": [
+        {
+          "id": "setting",
+          "label": "With people and communities",
+          "value": "people"
+        },
+        {
+          "id": "setting",
+          "label": "With ideas, information, or digital tools",
+          "value": "desk"
+        },
+        {
+          "id": "setting",
+          "label": "Making, moving, or working outdoors",
+          "value": "active"
+        },
+        {
+          "id": "setting",
+          "label": "I want to try a few settings",
+          "value": "unknown"
+        }
+      ],
+      "type": "context-multi",
+      "selected": [
+        "people",
+        "desk"
+      ]
+    },
+    {
+      "heading": "Which learning routes would you consider?",
+      "options": [
+        {
+          "id": "education",
+          "label": "A college degree",
+          "value": "college"
+        },
+        {
+          "id": "education",
+          "label": "College, then professional or graduate study",
+          "value": "graduate"
+        },
+        {
+          "id": "education",
+          "label": "Paid training or a practical qualification",
+          "value": "training"
+        },
+        {
+          "id": "education",
+          "label": "I want to learn about all of them",
+          "value": "unknown"
+        }
+      ],
+      "type": "context-multi",
+      "selected": [
+        "college",
+        "graduate"
+      ]
+    },
+    {
+      "type": "pathways",
+      "heading": "Two pathways worth exploring.",
+      "fields": [
+        "health",
+        "education"
+      ],
+      "workLed": [
+        "science"
+      ]
+    },
+    {
+      "type": "transition",
+      "route": "http://127.0.0.1:4204/#/journey/profession-intro",
+      "heading": "Let’s look closer at the jobs."
+    },
+    {
+      "heading": "Which parts of health and helping draw you in?",
+      "options": [
+        {
+          "id": "health-care-1",
+          "label": "Investigate symptoms and explain possible treatment",
+          "pressed": "false"
+        },
+        {
+          "id": "health-care-2",
+          "label": "Care for people and notice changes in how they feel",
+          "pressed": "false"
+        },
+        {
+          "id": "health-care-3",
+          "label": "Learn precise hands-on care for teeth and gums",
+          "pressed": "false"
+        },
+        {
+          "id": "health-care-4",
+          "label": "Help someone move, communicate or manage daily life",
+          "pressed": "false"
+        },
+        {
+          "id": "health-care-5",
+          "label": "Help people with emotions, relationships or practical support",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-care",
+      "selected": [
+        "health-care-1"
+      ]
+    },
+    {
+      "heading": "What would you enjoy understanding more deeply?",
+      "options": [
+        {
+          "id": "health-investigate-1",
+          "label": "How symptoms, medical history and tests fit together",
+          "pressed": "false"
+        },
+        {
+          "id": "health-investigate-2",
+          "label": "How oral health affects someone’s comfort and health",
+          "pressed": "false"
+        },
+        {
+          "id": "health-investigate-3",
+          "label": "How images and medical equipment help care teams",
+          "pressed": "false"
+        },
+        {
+          "id": "health-investigate-4",
+          "label": "How medicines, nutrition or food affect health",
+          "pressed": "false"
+        },
+        {
+          "id": "health-investigate-5",
+          "label": "Why health or social patterns differ across communities",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-investigate",
+      "selected": [
+        "health-investigate-1"
+      ]
+    },
+    {
+      "heading": "What would you enjoy understanding more deeply?",
+      "options": [
+        {
+          "id": "health-investigate-1",
+          "label": "How symptoms, medical history and tests fit together",
+          "pressed": "true"
+        },
+        {
+          "id": "health-investigate-2",
+          "label": "How oral health affects someone’s comfort and health",
+          "pressed": "false"
+        },
+        {
+          "id": "health-investigate-3",
+          "label": "How images and medical equipment help care teams",
+          "pressed": "false"
+        },
+        {
+          "id": "health-investigate-4",
+          "label": "How medicines, nutrition or food affect health",
+          "pressed": "false"
+        },
+        {
+          "id": "health-investigate-5",
+          "label": "Why health or social patterns differ across communities",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-investigate",
+      "selected": [
+        "health-investigate-1"
+      ]
+    },
+    {
+      "heading": "How would you like to help someone?",
+      "options": [
+        {
+          "id": "health-support-1",
+          "label": "Listen to their concerns and explain a care plan",
+          "pressed": "false"
+        },
+        {
+          "id": "health-support-2",
+          "label": "Provide practical help and comfort during the day",
+          "pressed": "false"
+        },
+        {
+          "id": "health-support-3",
+          "label": "Coach them through recovery or a skill they are building",
+          "pressed": "false"
+        },
+        {
+          "id": "health-support-4",
+          "label": "Work through emotional challenges or connect them with support",
+          "pressed": "false"
+        },
+        {
+          "id": "health-support-5",
+          "label": "Help them use treatment, medicine or nutrition safely",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-support",
+      "selected": [
+        "health-support-1"
+      ]
+    },
+    {
+      "heading": "Which health-care routines would you like to learn?",
+      "options": [
+        {
+          "id": "health-workday-1",
+          "label": "Use evidence, keep records and review complex decisions",
+          "pressed": "false"
+        },
+        {
+          "id": "health-workday-2",
+          "label": "Carry out careful procedures while helping a patient feel at ease",
+          "pressed": "false"
+        },
+        {
+          "id": "health-workday-3",
+          "label": "Position people and use equipment to get clear information",
+          "pressed": "false"
+        },
+        {
+          "id": "health-workday-4",
+          "label": "Track small changes and adapt support over several meetings",
+          "pressed": "false"
+        },
+        {
+          "id": "health-workday-5",
+          "label": "Collect information and look for ways to improve health in a community",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-workday",
+      "selected": [
+        "health-workday-1"
+      ]
+    },
+    {
+      "heading": "Which problem would you want to understand in more detail?",
+      "options": [
+        {
+          "id": "health-refine-1-1",
+          "label": "An illness that could have several causes",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-1-2",
+          "label": "A problem with teeth, gums, or a patient’s oral health",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-1-3",
+          "label": "How movement, speech, or breathing can improve",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-1-4",
+          "label": "How emotions and life circumstances affect wellbeing",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-1-5",
+          "label": "How a test, medicine, or prevention programme can help",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-refine-1",
+      "selected": [
+        "health-refine-1-1"
+      ]
+    },
+    {
+      "heading": "Which responsibility would you enjoy learning about?",
+      "options": [
+        {
+          "id": "health-refine-2-1",
+          "label": "Diagnose a medical problem and manage treatment over time",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-2-2",
+          "label": "Provide ongoing nursing care and notice changes",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-2-3",
+          "label": "Plan and carry out precise dental treatment",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-2-4",
+          "label": "Guide therapy, rehabilitation, or personal support",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-2-5",
+          "label": "Produce reliable health information or treatment support",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-refine-2",
+      "selected": [
+        "health-refine-2-1"
+      ]
+    },
+    {
+      "heading": "What would you like to explain to someone?",
+      "options": [
+        {
+          "id": "health-refine-3-1",
+          "label": "Why symptoms point toward a diagnosis and what comes next",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-3-2",
+          "label": "How daily care helps someone stay comfortable and recover",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-3-3",
+          "label": "How to care for teeth and what a dental procedure involves",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-3-4",
+          "label": "How a medicine, test result, or nutrition change is used",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-3-5",
+          "label": "How to build a skill or handle a difficult situation",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-refine-3",
+      "selected": [
+        "health-refine-3-1"
+      ]
+    },
+    {
+      "heading": "Which supervised experience would you most want to try?",
+      "options": [
+        {
+          "id": "health-refine-4-1",
+          "label": "Observe a medical consultation and discuss the reasoning afterward",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-4-2",
+          "label": "Observe a dental clinic and its careful procedures",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-4-3",
+          "label": "See how a nursing or daily-care team supports patients",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-4-4",
+          "label": "Visit a therapy, counselling, or rehabilitation service",
+          "pressed": "false"
+        },
+        {
+          "id": "health-refine-4-5",
+          "label": "Visit a diagnostic lab, pharmacy, or public-health project",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-refine-4",
+      "selected": [
+        "health-refine-4-1"
+      ]
+    },
+    {
+      "heading": "Which responsibility would you most want to learn about?",
+      "options": [
+        {
+          "id": "health-role-work-physician",
+          "label": "Investigate a broad medical problem and plan treatment as a physician.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-work-nurse-practitioner",
+          "label": "Assess and treat patients through advanced nursing practice.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-work-physician-assistant",
+          "label": "Examine and treat patients as a physician assistant (PA) on a medical team.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-work-nursing",
+          "label": "Monitor patients and coordinate their day-to-day nursing care.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-work-dentist",
+          "label": "Diagnose oral disease and plan restorative dental treatment.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-work-dental-hygiene",
+          "label": "Clean teeth, assess gum health, and teach preventive oral care.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-work-dental-assisting",
+          "label": "Prepare instruments and help the dentist during treatment.",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-role-work",
+      "selected": [
+        "health-role-work-physician"
+      ]
+    },
+    {
+      "heading": "Which professional would you like to follow for a day?",
+      "options": [
+        {
+          "id": "health-role-observe-physician",
+          "label": "Follow a physician evaluating a complex new patient.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-observe-nurse-practitioner",
+          "label": "Follow a nurse practitioner (NP) assessing patients and providing advanced nursing care.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-observe-physician-assistant",
+          "label": "Follow a physician assistant (PA) conducting medical assessments with a physician team.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-observe-nursing",
+          "label": "Follow a registered nurse (RN) monitoring patients and responding to changes.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-observe-dentist",
+          "label": "Watch a dentist diagnose a problem and restore a tooth.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-observe-dental-hygiene",
+          "label": "Watch a hygienist provide preventive care and explain home care.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-observe-dental-assisting",
+          "label": "Watch an assistant prepare the room and support a dental procedure.",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-role-observe",
+      "selected": [
+        "health-role-observe-physician"
+      ]
+    },
+    {
+      "heading": "Which preparation route would you like to explore?",
+      "options": [
+        {
+          "id": "health-role-learning-physician",
+          "label": "College, medical school, then a medical residency.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-learning-nurse-practitioner",
+          "label": "Nursing preparation and RN licensure, then graduate NP education.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-learning-physician-assistant",
+          "label": "College and prerequisites, then graduate PA education.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-learning-nursing",
+          "label": "An approved nursing program and RN licensure.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-learning-dentist",
+          "label": "College prerequisites, then dental school.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-learning-dental-hygiene",
+          "label": "An accredited dental hygiene program and licensure.",
+          "pressed": "false"
+        },
+        {
+          "id": "health-role-learning-dental-assisting",
+          "label": "Dental assisting training and the credentials needed for assigned duties.",
+          "pressed": "false"
+        }
+      ],
+      "overflow": false,
+      "route": "#/journey/deeper",
+      "type": "profession-answer",
+      "question": "health-role-learning",
+      "selected": [
+        "health-role-learning-physician"
+      ]
+    },
+    {
+      "type": "review-all-sections",
+      "reviewed": [
+        {
+          "section": "What draws you in",
+          "heading": "Build kitchen cabinets",
+          "overflow": false,
+          "route": "#/journey/profile",
+          "selected": [
+            {
+              "id": "onet-sf-01",
+              "label": "Dislike",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "section": "Picture the everyday work",
+          "heading": "Help someone resolve a service question or compare useful options.",
+          "overflow": false,
+          "route": "#/journey/profile",
+          "selected": [
+            {
+              "id": "field-profile-sales-office-1",
+              "label": "Not very interested",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "section": "Strength clues",
+          "heading": "Explain an idea clearly through writing, speaking, or visuals.",
+          "overflow": false,
+          "route": "#/journey/profile",
+          "selected": [
+            {
+              "id": "words",
+              "label": "I’ve tried it and would want some help.",
+              "value": "supported"
+            }
+          ]
+        },
+        {
+          "section": "What matters to you",
+          "heading": "What would you most want your work to give you?",
+          "overflow": false,
+          "route": "#/journey/profile",
+          "selected": [
+            {
+              "id": "curiosity",
+              "label": "Keep learning"
+            },
+            {
+              "id": "impact",
+              "label": "Make a difference"
+            },
+            {
+              "id": "mastery",
+              "label": "Go deep"
+            }
+          ]
+        },
+        {
+          "section": "Working life & education",
+          "heading": "Who would you enjoy working alongside?",
+          "overflow": false,
+          "route": "#/journey/profile",
+          "selected": [
+            {
+              "id": "company",
+              "label": "A close team",
+              "value": "team"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "saved-plan-roundtrip",
+      "career": "Doctor (family medicine)",
+      "checkedSteps": [
+        {
+          "checked": true,
+          "label": null
+        },
+        {
+          "checked": false,
+          "label": null
+        },
+        {
+          "checked": false,
+          "label": null
+        }
+      ],
+      "note": "I enjoyed explaining the evidence. Next I want to learn about a resident’s normal day.",
+      "overflow": false
+    }
+  ]
+}

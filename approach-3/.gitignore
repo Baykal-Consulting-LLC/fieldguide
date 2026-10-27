@@ -1,0 +1,13 @@
+node_modules/
+.sites-runtime/
+.sites-checkout/
+.shared-foundation-use.lock/
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+coverage/
+test-results/
+
+.cache/

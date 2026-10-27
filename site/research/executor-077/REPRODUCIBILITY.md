@@ -1,0 +1,7 @@
+# Response-executor benchmark 0.77
+
+The full canonical datasets remain unchanged in this checkout and have verified duplicate copies in `../outputs/executor-077-reproducibility/`. Exact paths, sizes and SHA-256 values are recorded in `reproducibility-files.json`. These large intermediate files are excluded from the Site source repository after its receive-pack size limit rejected the initial source push. No matching output was removed from the public comparison.
+
+The public `dist/developer/executor-comparison-077.json.gz` index and its checksummed detail shards retain every primary result row, career category and question disagreement. `executor-case-codec-077.js` losslessly restores the career pools. The targeted comparison has the same representation. `scripts/executor-077/validate-publication.mjs` verifies the complete public reconstruction against both canonical datasets. Sealed answer codes and the complete question/profile manifest are also published.
+
+Use the retained canonical files for exact reproduction. On a fresh checkout, `scripts/executor-077/export.mjs` can regenerate model states from the versioned profile/runtime inputs; verify the recorded pre-outcome manifest and runtime hashes before using those states. `compare.mjs` replays the sealed responses without any tuning. Keep original and Grok cohorts and all original holdout splits separate. Raw CLI hidden reasoning is intentionally not published.

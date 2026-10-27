@@ -1,0 +1,92 @@
+{
+  "reviewDate": "2026-10-18",
+  "appRelease": "0.31.15",
+  "careers": 117,
+  "families": 12,
+  "questionsByKind": {
+    "interest": 60,
+    "pathway": 36,
+    "skill": 12,
+    "values": 1,
+    "context": 4
+  },
+  "professionQuestionCounts": {
+    "creative": 8,
+    "technology": 8,
+    "health": 11,
+    "business": 8,
+    "science": 8,
+    "building": 8,
+    "trades": 8,
+    "services": 8,
+    "education": 8,
+    "public-safety": 8,
+    "transportation-production": 8,
+    "sales-office": 8
+  },
+  "examples": [
+    {
+      "id": "medicine",
+      "profileQuestionCount": 95,
+      "professionQuestionCount": 11,
+      "totalQuestionScreensBeforePlan": 115,
+      "pathways": [
+        "health",
+        "education"
+      ],
+      "refinedCareers": [
+        "physician"
+      ]
+    },
+    {
+      "id": "creative",
+      "profileQuestionCount": 91,
+      "professionQuestionCount": 8,
+      "totalQuestionScreensBeforePlan": 108,
+      "pathways": [
+        "creative"
+      ],
+      "refinedCareers": [
+        "graphic-design"
+      ]
+    },
+    {
+      "id": "trades",
+      "profileQuestionCount": 105,
+      "professionQuestionCount": 8,
+      "totalQuestionScreensBeforePlan": 122,
+      "pathways": [
+        "trades",
+        "transportation-production"
+      ],
+      "refinedCareers": [
+        "electrician",
+        "plumbing"
+      ]
+    }
+  ],
+  "wages": {
+    "methods": {
+      "modeled_local_wage_scenario": 113,
+      "published_employer_schedule": 4
+    },
+    "confidence": {
+      "modeled": 112,
+      "published_example": 4,
+      "low": 1
+    },
+    "geographies": {
+      "Austin–Round Rock–San Marcos, Texas metro": 65,
+      "Austin, Texas": 1,
+      "Dallas–Fort Worth–Arlington, Texas metro": 1,
+      "Austin-Round Rock-San Marcos, TX": 50
+    }
+  },
+  "validation": {
+    "latestPhoneRegressionTests": 109,
+    "realStudentPilotParticipants": 0,
+    "syntheticNarratives": "54 authored narratives (38 unique score patterns), plus 12 later authored narratives",
+    "sensitivity": 5820
+  },
+  "scope": "Source inventory and authored test scenarios; no human timing or predictive validation."
+}

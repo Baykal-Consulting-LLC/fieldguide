@@ -1,0 +1,294 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Texas college and training examples for career panels · Developer</title><link rel="stylesheet" href="../../developer.css"><main><nav><a href="../../developer.html#archive">← Developer archive</a> · <a href="../../#/overview">Student guide</a></nav><h1>Texas college and training examples for career panels</h1><p>Retained development record. It may describe an earlier release.</p><a href="./college-program-options-2026-10-18.md" download>Download original Markdown</a><pre class="document"># Texas college and training examples for career panels
+
+Reviewed October 18, 2026. The new data module provides named, official-source examples for all 117 occupation panels. Each career receives one to three choices: 29 careers have one, 81 have two, and 7 have three. These are curated route examples, not a comprehensive college finder or a prediction of admission, licensure, employment, or earnings.
+
+## Scope and interpretation
+
+The catalog contains 111 separate program or award records, including 20 advanced programs reused from the existing education-cost evidence and one electrical certificate reused from education-route evidence. The original target of roughly 25–40 records was expanded to preserve distinctions among engineering majors, nursing levels, clinical credentials, and trades. No career receives an invented extra choice to satisfy a quota.
+
+Institution-published facts are the program name, award, official URL, and any explicitly supplied duration or admission note. Career connections and the short benefit descriptions are editorial judgments about related study; the module labels them accordingly. An institution's listing of a program is not evidence that every graduate qualifies for every related occupation.
+
+ACC's [2026–27 award catalog](https://catalog.austincc.edu/award-plans/degrees-and-certificates-listing-by-award-type/) distinguishes academic transfer awards from workforce awards. Transfer foundations require course planning with the receiving university; neither transfer admission nor major admission is guaranteed. The university examples are alternatives to investigate, not a claim that the particular ACC award automatically transfers into the particular university program.
+
+Requirements panels remain authoritative for the full occupation route. Optional study for tattoo work, retail, customer service, stocking, delivery, cleaning, and other entry roles must remain visibly optional. An ASL interpreting program is not a Spanish interpreting program; a nurse aide course is not psychiatric technician certification; an RN degree is not an LVN bridge; and an occupational or physical therapist assistant award is not a therapist degree. No assistant award was substituted for its corresponding therapist profession.
+
+## Integration contract
+
+Only two new files belong to this change: dist/college-program-options.js and this document. Existing UI, engine, build scripts, tests, and source datasets were not edited.
+
+The module exports:
+
+- collegeProgramOptionsCheckedAt: catalog review date.
+- collegeProgramCatalog: program records keyed by stable program ID.
+- collegeProgramCareerMap: explicit occupation ID → program ID arrays.
+- collegeProgramOptions(careerOrId): accepts an occupation ID or an object with id/careerId. Returns careerId, checkedAt, categories, optionCount, and note. Unknown IDs return no choices; no family fallback silently inserts a weak match.
+
+Each category has id, label, and options. Each option carries title, school, location, award, url, routeType, benefit, duration, requirementsNote, tuitionURL, costEvidenceRef, sourceURLs, checkedAt, relationship, mappingBasis, and careerNote. Display relationship and the result note/careerNote next to the choices; hiding those fields can turn an optional or broader study route into a misleading qualification claim. Null duration means no verified duration is supplied, not that study has no duration. Some teaching sites are deliberately left at a regional level pending confirmation from the school.
+
+The UI can show the named choice and one-sentence benefit first, with requirements and source details on expansion. This preserves the short, friendly guide while making depth available on demand.
+
+## Costs and source freshness
+
+No new tuition amounts were copied into the program module. Most ACC entries link to its current tuition schedule; most UT Austin undergraduate entries link to its tuition page. These are pointers, not total-program quotes. Additional institutional and course fees, residency classification, aid, living expenses, transfer credits, and pace can change the cost.
+
+A costEvidenceRef is provided only for an exact existing named program: 20 educationCostEvidence entries and the ACC electrical certificate in educationRouteEvidence. The genericGraduate benchmark is excluded. Existing professional-program evidence retains its actual October 16 or 17 checkedAt date rather than being relabeled as newly reverified. Some professional links lead to the school's specific program cost or funding page because those are the evidence already reviewed; sourceURLs preserve those links. New program and current award pages were browsed on October 18. These dates describe the review, not a guaranteed institutional update cadence.
+
+## Material source details and unresolved cases
+
+- ACC's [truck-driving page](https://continue.austincc.edu/trucking) says five weeks in its description and four weeks in its summary. The module supplies no single duration and tells the reader to confirm the schedule.
+- ACC's [medical-assistant page](https://continue.austincc.edu/medical) advertises as little as six to seven months and lists 720 hours over six to twelve months in its summary. The module uses the longer published range and preserves the qualification.
+- The current ACC catalog marks its new Health Sciences–Vocational Nursing Specialty AAS as pending Texas Board of Nursing approval. The module instead uses the published [Vocational Nursing Level 2 certificate](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=HESCI&amp;ap=10323&amp;yr=2027), which has separate program admission and licensure eligibility.
+- The [Texas State entry respiratory-care BSRC](https://www.health.txst.edu/rc.html) is on the Round Rock campus. The module distinguishes it from the completion route for existing respiratory therapists.
+- No occupation-specific Texas psychiatric technician program was verified in this pass. That career receives clearly labeled psychology and human-services study, with an explicit statement that neither is a psychiatric technician credential. This is a gap in the curated qualifying-program evidence, not a claim that no such program exists.
+- Industrial design receives broader design and graphic-design examples, explicitly labeled as broader study rather than verified industrial-design specializations. Middle and high school teaching receive appropriate ACC teaching-transfer awards; there is no invented university subject/certification match.
+- Cleaning receives management as optional preparation for supervision or business operations. Delivery and warehouse roles receive logistics as optional preparation for other responsibilities. These are not entry requirements or specialized cleaning/driving instruction.
+- The inherited ACC electrical estimate remains only the listed 25-credit plan. Its evidence identifies an additional prerequisite ambiguity; this module preserves that limitation rather than turning the estimate into a guaranteed bill.
+
+## Verification
+
+An import and data-integrity check compared the module against all 117 exported occupations: all IDs mapped, no extra occupation IDs, no missing program records, one to three choices per career, all required presentation fields present, all cost references resolve to the named existing evidence, and unknown IDs return zero choices. This checks structural coverage, not admission eligibility or course equivalency. Public documentation was used; no accounts, applications, purchases, or real student records were created.
+
+## Named examples and official sources
+
+Each linked title below is the direct official program, current award-plan, or inherited program-cost source used by the record. The source title identifies the program; the connection to a career remains the explicitly labeled editorial mapping.
+
+| Program | Institution and location | Award | Reviewed |
+| --- | --- | --- | --- |
+| [Biology](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=SETMA&amp;ap=10148&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AS | 2026-10-18 |
+| [Engineering](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=SETMA&amp;ap=10219&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AS | 2026-10-18 |
+| [Mathematics](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=SETMA&amp;ap=10262&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AS | 2026-10-18 |
+| [Business Administration](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=BSNES&amp;ap=10143&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AS | 2026-10-18 |
+| [Psychology](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=LARTS&amp;ap=10293&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AA | 2026-10-18 |
+| [Social Work](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=PBSSV&amp;ap=10339&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | BSW | 2026-10-18 |
+| [Environmental Studies](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=SETMA&amp;ap=10221&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AS | 2026-10-18 |
+| [Chemistry](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=SETMA&amp;ap=10163&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AS | 2026-10-18 |
+| [Geology](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=SETMA&amp;ap=10231&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AS | 2026-10-18 |
+| [Kinesiology](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=EDUCN&amp;ap=10252&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AS | 2026-10-18 |
+| [Computer Science](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=COSIS&amp;ap=10170&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | BSCompSci | 2026-10-18 |
+| [Architecture](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=DMCAT&amp;ap=10571&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | BArch | 2026-10-18 |
+| [Construction Management](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=DMCAT&amp;ap=10154&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Heating, Air Conditioning, and Refrigeration Technology](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=DMCAT&amp;ap=10131&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Code Welding](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=DMCAT&amp;ap=10326&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Automotive Technology](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=DMCAT&amp;ap=10133&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Culinary Arts](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=CUHTM&amp;ap=10184&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Logistics and Supply Chain Management](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=BSNES&amp;ap=10456&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Accounting Technician Full Charge Bookkeeper](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=BSNES&amp;ap=10513&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Sustainable Agriculture](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=DMCAT&amp;ap=10546&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Interpreter Training — American Sign Language](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=PBSSV&amp;ap=10245&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Automation, Robotics and Semiconductor Technology](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=DMCAT&amp;ap=10198&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Child Development](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=EDUCN&amp;ap=10159&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Texas Peace Officer Specialization](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=PBSSV&amp;ap=10485&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Dental Hygiene](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=HESCI&amp;ap=10187&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Radiology](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=HESCI&amp;ap=10192&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Fire Protection Technology](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=PBSSV&amp;ap=10226&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Health Information Technology](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=HESCI&amp;ap=10345&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Information Technology — User and Computer Support](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=COSIS&amp;ap=10176&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Local Area Network Systems — Cybersecurity](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=COSIS&amp;ap=10173&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Management](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=BSNES&amp;ap=10144&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | BBA | 2026-10-18 |
+| [Administrative Assistant](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=BSNES&amp;ap=10274&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Pharmacy Technician](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=HESCI&amp;ap=10412&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Nursing — Traditional Track](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=HESCI&amp;ap=10271&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Film and Emerging Media Production](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=ARDMC&amp;ap=10432&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Real Estate Brokerage Licensing](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=BSNES&amp;ap=10299&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Computer Programming — Web Programming](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=COSIS&amp;ap=10169&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Diagnostic Medical Sonography](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=HESCI&amp;ap=10189&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Graphic Design](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=ARDMC&amp;ap=10318&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [User Experience Design](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=ARDMC&amp;ap=10421&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Horticulture Technician](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=DMCAT&amp;ap=10620&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | Level 1 certificate | 2026-10-18 |
+| [Carpentry](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=DMCAT&amp;ap=10153&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | Level 1 certificate | 2026-10-18 |
+| [Emergency Medical Technician (EMT)](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=HESCI&amp;ap=10636&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | Level 1 certificate | 2026-10-18 |
+| [Design](https://catalog.utexas.edu/undergraduate/programs/design-bfa/) | The University of Texas at Austin · Austin, Texas | BFA | 2026-10-18 |
+| [Statistics and Data Science](https://catalog.utexas.edu/undergraduate/programs/statistics-data-science-bssds/) | The University of Texas at Austin · Austin, Texas | BSSDS | 2026-10-18 |
+| [Mechanical Engineering](https://catalog.utexas.edu/undergraduate/programs/mechanical-engineering-bsme/) | The University of Texas at Austin · Austin, Texas | BSME | 2026-10-18 |
+| [Social Work](https://catalog.utexas.edu/undergraduate/programs/social-work-bsw/) | The University of Texas at Austin · Austin, Texas | BSW | 2026-10-18 |
+| [Biology — Human Biology](https://catalog.utexas.edu/undergraduate/programs/biology-human-biology-bsbio/) | The University of Texas at Austin · Austin, Texas | BSBio | 2026-10-18 |
+| [Biomedical Engineering — Biomedical Imaging and Instrumentation](https://catalog.utexas.edu/undergraduate/programs/biomedical-engineering-biomedical-imaging-instrumentation-bsbiomede/) | The University of Texas at Austin · Austin, Texas | BSBiomedE | 2026-10-18 |
+| [Civil Engineering](https://catalog.utexas.edu/undergraduate/programs/civil-engineering-bsce/) | The University of Texas at Austin · Austin, Texas | BSCE | 2026-10-18 |
+| [Electrical and Computer Engineering — Electronics and Integrated Circuits](https://catalog.utexas.edu/undergraduate/programs/electrical-computer-engineering-electronics-integrated-circuits-bsece/) | The University of Texas at Austin · Austin, Texas | BSECE | 2026-10-18 |
+| [Education — Early Childhood Through Grade Six ESL Generalist](https://catalog.utexas.edu/undergraduate/programs/education-early-childhood-through-grade-six-esl-generalist-bsed/) | The University of Texas at Austin · Austin, Texas | BSEd | 2026-10-18 |
+| [Exercise Science](https://catalog.utexas.edu/undergraduate/programs/exercise-science-bskinhealth/) | The University of Texas at Austin · Austin, Texas | BS in Kinesiology and Health | 2026-10-18 |
+| [General Geology](https://catalog.utexas.edu/undergraduate/programs/geosciences-general-geology-bsgs/) | The University of Texas at Austin · Austin, Texas | BSGS | 2026-10-18 |
+| [Economics](https://catalog.utexas.edu/undergraduate/programs/economics-bseco/) | The University of Texas at Austin · Austin, Texas | BSEco | 2026-10-18 |
+| [English](https://catalog.utexas.edu/undergraduate/programs/english-ba/) | The University of Texas at Austin · Austin, Texas | BA | 2026-10-18 |
+| [Spanish](https://catalog.utexas.edu/undergraduate/programs/spanish-ba/) | The University of Texas at Austin · Austin, Texas | BA | 2026-10-18 |
+| [Accounting](https://catalog.utexas.edu/undergraduate/programs/accounting-bba/) | The University of Texas at Austin · Austin, Texas | BBA | 2026-10-18 |
+| [Finance](https://catalog.utexas.edu/undergraduate/programs/finance-energy-finance-law-science-bba/) | The University of Texas at Austin · Austin, Texas | BBA | 2026-10-18 |
+| [Management](https://catalog.utexas.edu/undergraduate/programs/management-general-management-bba/) | The University of Texas at Austin · Austin, Texas | BBA | 2026-10-18 |
+| [Management Information Systems](https://catalog.utexas.edu/undergraduate/programs/management-information-systems-bba/) | The University of Texas at Austin · Austin, Texas | BBA | 2026-10-18 |
+| [Marketing](https://catalog.utexas.edu/undergraduate/programs/marketing-bba/) | The University of Texas at Austin · Austin, Texas | BBA | 2026-10-18 |
+| [Supply Chain Management](https://catalog.utexas.edu/undergraduate/programs/supply-chain-management-bba/) | The University of Texas at Austin · Austin, Texas | BBA | 2026-10-18 |
+| [Environmental Science — Biological Sciences](https://catalog.utexas.edu/undergraduate/programs/environmental-science-biological-sciences-option-bsenvirsci/) | The University of Texas at Austin · Austin, Texas | BSEnvirSci | 2026-10-18 |
+| [Chemistry — Chemical Physics and Instrumentation](https://catalog.utexas.edu/undergraduate/programs/chemistry-chemical-physics-instrumentation-bsch/) | The University of Texas at Austin · Austin, Texas | BSCh | 2026-10-18 |
+| [Vocational Nursing](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=HESCI&amp;ap=10323&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | Level 2 certificate | 2026-10-18 |
+| [Education — Grades 4–8](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=EDUCN&amp;ap=10196&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAT | 2026-10-18 |
+| [Education — Grades 8–12](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=EDUCN&amp;ap=10195&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAT | 2026-10-18 |
+| [Education — Early Childhood–Grade 6](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=EDUCN&amp;ap=10197&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AAT | 2026-10-18 |
+| [Communication Studies](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=ARDMC&amp;ap=10455&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AA | 2026-10-18 |
+| [Studio Art](https://www6.austincc.edu/cms/site/www/awardplans/programmap.php?aos=ARDMC&amp;ap=10120&amp;yr=2027) | Austin Community College · Austin area, Texas — campus varies | AA | 2026-10-18 |
+| [Creative Writing](https://programs.austincc.edu/school-of-humanities-and-communications/creative-writing/) | Austin Community College · Austin area, Texas — campus varies | AA | 2026-10-18 |
+| [3D Animation](https://programs.austincc.edu/school-of-arts-and-creative-industries/game-development-animation-and-motion-graphics/) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Paralegal](https://programs.austincc.edu/school-of-public-and-social-services/paralegal/) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [General Human Services](https://programs.austincc.edu/school-of-public-and-social-services/human-services/) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Photography — Fine Art](https://programs.austincc.edu/school-of-arts-and-creative-industries/photography-visual-media/) | Austin Community College · Austin area, Texas — campus varies | AAS | 2026-10-18 |
+| [Computer Science](https://catalog.utexas.edu/undergraduate/programs/computer-science-computer-science-option-bscompsci/) | The University of Texas at Austin · Austin, Texas | BSCompSci | 2026-10-18 |
+| [Architecture](https://catalog.utexas.edu/undergraduate/programs/architecture-barch/) | The University of Texas at Austin · Austin, Texas | BArch | 2026-10-18 |
+| [Nursing](https://catalog.utexas.edu/undergraduate/programs/nursing-bsn/) | The University of Texas at Austin · Austin, Texas | BSN | 2026-10-18 |
+| [Nutrition — Nutritional Sciences](https://catalog.utexas.edu/undergraduate/programs/nutrition-nutritional-sciences-bsntr/) | The University of Texas at Austin · Austin, Texas | BSNtr | 2026-10-18 |
+| [Certified Nurse Aide](https://continue.austincc.edu/nurseaide) | Austin Community College · Austin area, Texas | Continuing education training | 2026-10-18 |
+| [Medical Assistant](https://continue.austincc.edu/medical) | Austin Community College · Austin, Texas — Highland and clinical sites | Registered Medical Assistant CE program | 2026-10-18 |
+| [Registered Dental Assistant](https://continue.austincc.edu/dental) | Austin Community College · Austin area, Texas — clinical placements vary | CE certificate | 2026-10-18 |
+| [Commercial Vehicle Operator Training](https://continue.austincc.edu/trucking) | Austin Community College · Austin, Texas — Northridge | Continuing education CDL-A preparation | 2026-10-18 |
+| [Plumbing &amp; Pipefitting](https://www.tstc.edu/programs/plumbingpipefittingtechnology/) | Texas State Technical College · Waco, Harlingen, or Abilene, Texas — confirm award location | Associate degree or certificate options | 2026-10-18 |
+| [Cosmetology Operator](https://catalog.southtexascollege.edu/certificate-associate-degrees/division-business-technology/cosmetology/) | South Texas College · Rio Grande Valley, Texas — confirm teaching site | Cosmetology Operator certificate | 2026-10-18 |
+| [Respiratory Care — entry level](https://www.health.txst.edu/rc.html) | Texas State University · Round Rock, Texas | BSRC | 2026-10-18 |
+| [Industrial Engineering](https://mycatalog.txstate.edu/undergraduate/science-engineering/ingram-school/industrial-engineering-bs/) | Texas State University · San Marcos, Texas | BS | 2026-10-18 |
+| [Healthcare Administration](https://www.health.txst.edu/ha/prospective-students/degree-plans/bha.html) | Texas State University · Texas State University — confirm current teaching site | BHA | 2026-10-18 |
+| [Food Science and Technology — Food Science option](https://catalog.tamu.edu/undergraduate/agriculture-life-sciences/food-science-and-technology/food-science-technology-food-science-bs-option/) | Texas A&amp;M University · College Station, Texas | BS | 2026-10-18 |
+| [Doctor of Medicine (MD)](https://dellmed.utexas.edu/education/academics/undergraduate-medical-education) | UT Austin Dell Medical School · Austin, Texas | MD | 2026-10-16 |
+| [Doctor of Dental Surgery (DDS)](https://catalog.uth.edu/dentistry/programs/doctor-dental-surgery/) | UTHealth Houston School of Dentistry · Houston, Texas | DDS | 2026-10-16 |
+| [Juris Doctor (JD)](https://law.utexas.edu/financial-aid/cost-of-attendance/) | UT Austin School of Law · Austin, Texas | JD | 2026-10-16 |
+| [Doctor of Pharmacy (PharmD)](https://pharmacy.utexas.edu/apply/pharmd/tuition) | UT Austin College of Pharmacy · Austin, Texas | PharmD | 2026-10-16 |
+| [Physician Assistant Studies](https://www.utmb.edu/som/physician-assistant/program-overview/program-costs) | University of Texas Medical Branch (UTMB), Galveston · Galveston, Texas | Physician Assistant Studies graduate program | 2026-10-16 |
+| [Entry-level Doctor of Occupational Therapy (OTD)](https://www.utmb.edu/shp/academics/occt/costs) | University of Texas Medical Branch (UTMB), Galveston · Galveston, Texas | Entry-level OTD | 2026-10-16 |
+| [Doctor of Physical Therapy (DPT)](https://www.utmb.edu/shp/academics/phyt/costs) | University of Texas Medical Branch (UTMB), Galveston · Galveston, Texas | DPT | 2026-10-16 |
+| [Psychology PhD, including the department’s clinical training area](https://cola.utexas.edu/psychology/graduate-program/clinical-phd-program/) | UT Austin Department of Psychology · Austin, Texas | PhD | 2026-10-16 |
+| [Doctor of Veterinary Medicine (DVM)](https://www.depts.ttu.edu/vetschool/dvm-admissions/how-to-apply/financial.php) | Texas Tech University School of Veterinary Medicine, Amarillo · Amarillo, Texas | DVM | 2026-10-16 |
+| [M.S. in Communication Disorders · non-thesis](https://www.health.txst.edu/cdis/graduate-degree-program.html) | Texas State University · Texas State University — confirm current teaching site | MS | 2026-10-17 |
+| [Specialist in School Psychology (S.S.P.)](https://www.gradcollege.txst.edu/programs/ssp.html) | Texas State University · San Marcos, Texas | SSP | 2026-10-17 |
+| [M.S. Mathematics · Statistics concentration · non-thesis](https://www.gradcollege.txst.edu/programs/math.html) | Texas State University · San Marcos, Texas | MS | 2026-10-17 |
+| [M.A. Professional Counseling · Clinical Mental Health Counseling](https://www.gradcollege.txst.edu/programs/counseling.html) | Texas State University · Texas State University — confirm campus/track | MA | 2026-10-17 |
+| [M.A. Professional Counseling · School Counseling + professional certification](https://www.gradcollege.txst.edu/programs/counseling.html) | Texas State University · Texas State University — confirm campus/track | MA and professional certification route | 2026-10-17 |
+| [M.S. Community and Regional Planning](https://soa.utexas.edu/planning/masters) | University of Texas at Austin · School of Architecture · Austin, Texas | MS | 2026-10-17 |
+| [M.A. Economics · accelerated 10-month track](https://ma.eco.utexas.edu/news-and-events/program-length-options/) | University of Texas at Austin · Austin, Texas | MA | 2026-10-17 |
+| [M.S. Library Science · online](https://online.unt.edu/programs/graduate/library-science) | University of North Texas · Online — University of North Texas | MS | 2026-10-17 |
+| [Master of Public Health in Epidemiology](https://sph.uth.edu/academic-programs/masters-programs/epidemiology) | UTHealth Houston School of Public Health · Austin/hybrid, Houston or online · Austin/hybrid, Houston, or online — confirm format | MPH | 2026-10-17 |
+| [MSN · Adult-Gerontology Primary Care Nurse Practitioner · online](https://academicpartnerships.uta.edu/healthcare-nursing-online-programs/msn-adult-gerontology/primary-care-nurse-practitioner/) | University of Texas at Arlington · Online — University of Texas at Arlington | MSN | 2026-10-17 |
+| [Master of Clinical Nutrition · Coordinated Program](https://shp.utsouthwestern.edu/programs/clinical-nutrition-coordinated-program/) | UT Southwestern Medical Center, Dallas · Dallas, Texas | Master of Clinical Nutrition | 2026-10-17 |
+| [Construction Management – Electrical Specialization Level 1 Certificate](https://www6.austincc.edu/cms/site/www/awardplans/awardplan.php?apid=10606&amp;group=PCBCT&amp;nid=31282&amp;type=CC&amp;year=2027) | Austin Community College · Austin area, Texas | Level 1 certificate | 2026-10-17 |
+
+## Coverage by career
+
+| Career | Named choices |
+| --- | --- |
+| Industrial designers | Design (The University of Texas at Austin); Graphic Design (Austin Community College) |
+| Software developers | Computer Science (Austin Community College); Computer Science (The University of Texas at Austin) |
+| Social science research assistants | Psychology (Austin Community College); Statistics and Data Science (The University of Texas at Austin) |
+| Environmental scientists &amp; specialists | Environmental Studies (Austin Community College); Environmental Science — Biological Sciences (The University of Texas at Austin) |
+| Market research analysts | Marketing (The University of Texas at Austin); Statistics and Data Science (The University of Texas at Austin) |
+| Writers &amp; authors | Creative Writing (Austin Community College); English (The University of Texas at Austin) |
+| Mechanical engineers | Engineering (Austin Community College); Mechanical Engineering (The University of Texas at Austin) |
+| Middle school teachers | Education — Grades 4–8 (Austin Community College) |
+| Tattoo artists | Studio Art (Austin Community College); Management (Austin Community College) |
+| Registered Nurses | Nursing — Traditional Track (Austin Community College); Nursing (The University of Texas at Austin) |
+| Physician Assistants | Biology (Austin Community College); Biology — Human Biology (The University of Texas at Austin); Physician Assistant Studies (University of Texas Medical Branch (UTMB), Galveston) |
+| Physical Therapists | Kinesiology (Austin Community College); Exercise Science (The University of Texas at Austin); Doctor of Physical Therapy (DPT) (University of Texas Medical Branch (UTMB), Galveston) |
+| Occupational Therapists | Psychology (Austin Community College); Biology — Human Biology (The University of Texas at Austin); Entry-level Doctor of Occupational Therapy (OTD) (University of Texas Medical Branch (UTMB), Galveston) |
+| Pharmacists | Chemistry (Austin Community College); Chemistry — Chemical Physics and Instrumentation (The University of Texas at Austin); Doctor of Pharmacy (PharmD) (UT Austin College of Pharmacy) |
+| Dental Hygienists | Dental Hygiene (Austin Community College) |
+| Speech-Language Pathologists | Communication Studies (Austin Community College); M.S. in Communication Disorders · non-thesis (Texas State University) |
+| Medical sonographers | Diagnostic Medical Sonography (Austin Community College) |
+| Respiratory Therapists | Respiratory Care — entry level (Texas State University) |
+| Dietitians and Nutritionists | Nutrition — Nutritional Sciences (The University of Texas at Austin); Master of Clinical Nutrition · Coordinated Program (UT Southwestern Medical Center, Dallas) |
+| Child, Family, and School Social Workers | Social Work (Austin Community College); Social Work (The University of Texas at Austin) |
+| School Psychologists | Psychology (Austin Community College); Specialist in School Psychology (S.S.P.) (Texas State University) |
+| Data Scientists | Mathematics (Austin Community College); Statistics and Data Science (The University of Texas at Austin) |
+| Statisticians | Statistics and Data Science (The University of Texas at Austin); M.S. Mathematics · Statistics concentration · non-thesis (Texas State University) |
+| Information Security Analysts | Local Area Network Systems — Cybersecurity (Austin Community College); Computer Science (The University of Texas at Austin) |
+| Computer Systems Analysts | Computer Science (Austin Community College); Management Information Systems (The University of Texas at Austin) |
+| Accountants and Auditors | Business Administration (Austin Community College); Accounting (The University of Texas at Austin) |
+| Financial and Investment Analysts | Business Administration (Austin Community College); Finance (The University of Texas at Austin) |
+| Human Resources Specialists | Business Administration (Austin Community College); Management (The University of Texas at Austin) |
+| Logisticians | Logistics and Supply Chain Management (Austin Community College); Supply Chain Management (The University of Texas at Austin) |
+| Project Management Specialists | Management (Austin Community College); Management (The University of Texas at Austin) |
+| Economists | Economics (The University of Texas at Austin); M.A. Economics · accelerated 10-month track (University of Texas at Austin) |
+| Lawyers | English (The University of Texas at Austin); Juris Doctor (JD) (UT Austin School of Law) |
+| Paralegals and Legal Assistants | Paralegal (Austin Community College) |
+| Urban and Regional Planners | Architecture (Austin Community College); M.S. Community and Regional Planning (University of Texas at Austin · School of Architecture) |
+| Civil Engineers | Engineering (Austin Community College); Civil Engineering (The University of Texas at Austin) |
+| Electrical Engineers | Engineering (Austin Community College); Electrical and Computer Engineering — Electronics and Integrated Circuits (The University of Texas at Austin) |
+| Bioengineers and Biomedical Engineers | Engineering (Austin Community College); Biomedical Engineering — Biomedical Imaging and Instrumentation (The University of Texas at Austin) |
+| Chemists | Chemistry (Austin Community College); Chemistry — Chemical Physics and Instrumentation (The University of Texas at Austin) |
+| Biological Technicians | Biology (Austin Community College); Biology — Human Biology (The University of Texas at Austin) |
+| Conservation Scientists | Environmental Studies (Austin Community College); Environmental Science — Biological Sciences (The University of Texas at Austin) |
+| Food Scientists and Technologists | Chemistry (Austin Community College); Food Science and Technology — Food Science option (Texas A&amp;M University) |
+| Veterinarians | Biology (Austin Community College); Biology — Human Biology (The University of Texas at Austin); Doctor of Veterinary Medicine (DVM) (Texas Tech University School of Veterinary Medicine, Amarillo) |
+| Architects | Architecture (Austin Community College); Architecture (The University of Texas at Austin) |
+| Construction Managers | Construction Management (Austin Community College); Management (Austin Community College) |
+| Graphic Designers | Graphic Design (Austin Community College); Design (The University of Texas at Austin) |
+| Special Effects Artists and Animators | 3D Animation (Austin Community College); Design (The University of Texas at Austin) |
+| Film and Video Editors | Film and Emerging Media Production (Austin Community College) |
+| Public Relations Specialists | Communication Studies (Austin Community College); Marketing (The University of Texas at Austin) |
+| Librarians &amp; media specialists | English (The University of Texas at Austin); M.S. Library Science · online (University of North Texas) |
+| Interpreters and Translators | Interpreter Training — American Sign Language (Austin Community College); Spanish (The University of Texas at Austin) |
+| Exercise Physiologists | Kinesiology (Austin Community College); Exercise Science (The University of Texas at Austin) |
+| Epidemiologists | Biology — Human Biology (The University of Texas at Austin); Master of Public Health in Epidemiology (UTHealth Houston School of Public Health · Austin/hybrid, Houston or online) |
+| Geoscientists | Geology (Austin Community College); General Geology (The University of Texas at Austin) |
+| Industrial Engineers | Engineering (Austin Community College); Industrial Engineering (Texas State University) |
+| Electricians | Construction Management – Electrical Specialization Level 1 Certificate (Austin Community College) |
+| Plumbers &amp; pipefitters | Plumbing &amp; Pipefitting (Texas State Technical College) |
+| HVAC technicians | Heating, Air Conditioning, and Refrigeration Technology (Austin Community College) |
+| Carpenters | Carpentry (Austin Community College); Construction Management (Austin Community College) |
+| Automotive Service Technicians and Mechanics | Automotive Technology (Austin Community College) |
+| Emergency Medical Technicians | Emergency Medical Technician (EMT) (Austin Community College) |
+| Chefs &amp; head cooks | Culinary Arts (Austin Community College); Management (Austin Community College) |
+| Dental assistants | Registered Dental Assistant (Austin Community College) |
+| Psychiatric Aides | General Human Services (Austin Community College); Certified Nurse Aide (Austin Community College) |
+| Psychiatric Technicians | General Human Services (Austin Community College); Psychology (Austin Community College) |
+| Clinical &amp; Counseling Psychologists | Psychology (Austin Community College); Psychology PhD, including the department’s clinical training area (UT Austin Department of Psychology) |
+| Physician · family medicine | Biology (Austin Community College); Biology — Human Biology (The University of Texas at Austin); Doctor of Medicine (MD) (UT Austin Dell Medical School) |
+| Dentist · general dentistry | Biology (Austin Community College); Biology — Human Biology (The University of Texas at Austin); Doctor of Dental Surgery (DDS) (UTHealth Houston School of Dentistry) |
+| Retail Salespersons | Business Administration (Austin Community College); Management (Austin Community College) |
+| Cashiers | Accounting Technician Full Charge Bookkeeper (Austin Community College); Management (Austin Community College) |
+| Fast Food &amp; Counter Workers | Culinary Arts (Austin Community College); Management (Austin Community College) |
+| Waiters &amp; Waitresses | Culinary Arts (Austin Community College); Management (Austin Community College) |
+| Cooks, Restaurant | Culinary Arts (Austin Community College) |
+| Food Service Managers | Culinary Arts (Austin Community College); Management (Austin Community College) |
+| Customer Service Representatives | Administrative Assistant (Austin Community College); Management (Austin Community College) |
+| Office Clerks, General | Administrative Assistant (Austin Community College); Business Administration (Austin Community College) |
+| Secretaries &amp; Administrative Assistants | Administrative Assistant (Austin Community College); Business Administration (Austin Community College) |
+| Bookkeeping, Accounting, &amp; Auditing Clerks | Accounting Technician Full Charge Bookkeeper (Austin Community College); Accounting (The University of Texas at Austin) |
+| Receptionists &amp; Information Clerks | Administrative Assistant (Austin Community College) |
+| Laborers &amp; Freight, Stock, &amp; Material Movers, Hand | Logistics and Supply Chain Management (Austin Community College) |
+| Stockers &amp; Order Fillers | Logistics and Supply Chain Management (Austin Community College) |
+| Heavy &amp; Tractor-Trailer Truck Drivers | Commercial Vehicle Operator Training (Austin Community College); Logistics and Supply Chain Management (Austin Community College) |
+| Light Truck Drivers | Logistics and Supply Chain Management (Austin Community College) |
+| Nursing Assistants | Certified Nurse Aide (Austin Community College); Vocational Nursing (Austin Community College) |
+| Personal Care Aides | Certified Nurse Aide (Austin Community College); General Human Services (Austin Community College) |
+| Medical Assistants | Medical Assistant (Austin Community College) |
+| Licensed Practical &amp; Licensed Vocational Nurses | Vocational Nursing (Austin Community College); Nursing — Traditional Track (Austin Community College) |
+| Nurse Practitioners | Nursing (The University of Texas at Austin); MSN · Adult-Gerontology Primary Care Nurse Practitioner · online (University of Texas at Arlington) |
+| Radiologic Technologists &amp; Technicians | Radiology (Austin Community College) |
+| Pharmacy Technicians | Pharmacy Technician (Austin Community College) |
+| Mental Health Counselors | General Human Services (Austin Community College); M.A. Professional Counseling · Clinical Mental Health Counseling (Texas State University) |
+| Educational, Guidance, &amp; Career Counselors &amp; Advisors | Psychology (Austin Community College); M.A. Professional Counseling · School Counseling + professional certification (Texas State University) |
+| Elementary School Teachers | Education — Early Childhood–Grade 6 (Austin Community College); Education — Early Childhood Through Grade Six ESL Generalist (The University of Texas at Austin) |
+| Secondary School Teachers | Education — Grades 8–12 (Austin Community College) |
+| Preschool Teachers | Child Development (Austin Community College); Education — Early Childhood Through Grade Six ESL Generalist (The University of Texas at Austin) |
+| Childcare Workers | Child Development (Austin Community College) |
+| Computer User Support Specialists | Information Technology — User and Computer Support (Austin Community College); Computer Science (Austin Community College) |
+| Web &amp; Digital Interface Designers | User Experience Design (Austin Community College); Design (The University of Texas at Austin) |
+| Web Developers | Computer Programming — Web Programming (Austin Community College); Computer Science (The University of Texas at Austin) |
+| Police &amp; Sheriff's Patrol Officers | Texas Peace Officer Specialization (Austin Community College) |
+| Firefighters | Fire Protection Technology (Austin Community College) |
+| Security Guards | Texas Peace Officer Specialization (Austin Community College) |
+| Welders, Cutters, Solderers, &amp; Brazers | Code Welding (Austin Community College) |
+| Industrial Machinery Mechanics | Automation, Robotics and Semiconductor Technology (Austin Community College); Code Welding (Austin Community College) |
+| Maintenance &amp; Repair Workers, General | Heating, Air Conditioning, and Refrigeration Technology (Austin Community College); Construction Management (Austin Community College) |
+| Construction Laborers | Carpentry (Austin Community College); Construction Management (Austin Community College) |
+| Landscaping &amp; Groundskeeping Workers | Horticulture Technician (Austin Community College); Sustainable Agriculture (Austin Community College) |
+| Janitors &amp; Cleaners | Management (Austin Community College) |
+| Hairdressers, Hairstylists, &amp; Cosmetologists | Cosmetology Operator (South Texas College) |
+| Farmworkers &amp; Laborers, Crop, Nursery, &amp; Greenhouse | Horticulture Technician (Austin Community College); Sustainable Agriculture (Austin Community College) |
+| Real Estate Sales Agents | Real Estate Brokerage Licensing (Austin Community College) |
+| Insurance Sales Agents | Business Administration (Austin Community College); Finance (The University of Texas at Austin) |
+| Marketing Managers | Marketing (The University of Texas at Austin); Management (The University of Texas at Austin) |
+| Personal Financial Advisors | Finance (The University of Texas at Austin); Accounting (The University of Texas at Austin) |
+| Management Analysts | Management (The University of Texas at Austin); Statistics and Data Science (The University of Texas at Austin) |
+| General &amp; Operations Managers | Management (Austin Community College); Management (The University of Texas at Austin) |
+| Medical &amp; Health Services Managers | Health Information Technology (Austin Community College); Healthcare Administration (Texas State University) |
+| Photographers | Photography — Fine Art (Austin Community College); Management (Austin Community College) |
+
+## Tuition-link integration follow-up
+
+All example cards now have a tuition/fee link as well as the program link. Added official [TSTC tuition](https://www.tstc.edu/admissions/tuition/), [South Texas College tuition and program fees](https://catalog.southtexascollege.edu/tuition-fees/), [TXST One Stop tuition rates](https://onestop.txst.edu/cost-payments/cost-attendance/tuition-rates.html), and [Texas A&amp;M undergraduate tuition calculator](https://tuition.tamu.edu/undergraduate) for the six records that originally only carried program evidence. The former TXST billing URL returned 404 and was replaced by the current One Stop page. Links expose each institution’s published pricing; they are not an individual bill or aid offer.
+</pre></main></html>

@@ -1,0 +1,13 @@
+{
+  "url": "https://onetinterestprofiler.org/p/welcome_back",
+  "method": "Live hypothetical equal six-score entry",
+  "inputRaw": [
+    20,
+    20,
+    20,
+    20,
+    20,
+    20
+  ],
+  "visibleResult": "- main:\n  - heading \"Welcome back to the O*NET Interest Profiler!\" [level=3]:\n    - text: Welcome back to the\n    - text: O*NET Interest Profiler!\n  - generic: R\n  - generic: I\n  - generic: A\n  - generic: S\n  - generic: E\n  - generic: C\n  - table \"Here is your profile\":\n    - rowgroup:\n      - row \"Interest area Your interest profile\":\n        - columnheader \"Interest area\"\n        - columnheader \"Your interest profile\"\n    - rowgroup:\n      - row \"Realistic 5 out of 10\":\n        - cell \"Realistic\"\n        - cell \"5 out of 10\"\n      - row \"Investigative 5 out of 10\":\n        - cell \"Investigative\"\n        - cell \"5 out of 10\"\n      - row \"Artistic 5 out of 10\":\n        - cell \"Artistic\"\n        - cell \"5 out of 10\"\n      - row \"Social 5 out of 10\":\n        - cell \"Social\"\n        - cell \"5 out of 10\"\n      - row \"Enterprising 5 out of 10\":\n        - cell \"Enterprising\"\n        - cell \"5 out of 10\"\n      - row \"Conventional 5 out of 10\":\n        - cell \"Conventional\"\n        - cell \"5 out of 10\"\n  - paragraph: Your answers led to a “flat profile.” The results may not reflect your interests.\n  - button \"Retake the Interest Profiler\":\n    - text: Retake the Interest Profiler\n- banner:\n  - heading \"O*NET Interest Profiler\" [level=1]\n  - button \"Help\":\n    - generic: Help\n- contentinfo:\n  - link \"Back\" [disabled]:\n    - /url: /\n    - generic: Back\n  - link \"Next\":\n    - /url: /p/results\n    - text: Next\n  - button \"Full screen\":\n    - generic: Full screen\n  - button \"Jump to…\":\n    - generic: Jump to…\n  - button \"Share or print…\":\n    - generic: Share or print…"
+}

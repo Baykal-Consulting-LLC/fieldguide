@@ -1,0 +1,34 @@
+// Research only. Frozen 078 remains unchanged. No prose/occupation-name inference.
+import {questionRules as prior,decide078} from '../simulator-078/bindings-002.mjs';
+export {decide078};
+export const scopedRules={};
+const put=(id,any,reason,block=[])=>{scopedRules[id]={id,any,reason,block};};
+put('degree-17207200-047-method',[['t:electronics']],'The concrete circuit activity already traces failed connections and records repeatable tests. Troubleshooting does not require a separate generic design preference. This grants no product-safety sign-off.', ['m:testing','m:precision']);
+put('degree-17211202-047-responsibility',[['t:quality','m:testing','m:precision'],['t:electronics','m:testing','m:precision','r:research'],['t:mechanics','m:testing','m:precision','r:research']],'Careful recorded tests plus explicit investigation/limits responsibility supports documenting unresolved failures. It does not answer a different question about certifying safety.', ['m:testing','m:precision','m:organization']);
+put('degree-25201200-047-method',[['t:children','t:learning','m:explaining','m:listening']],'The learning activity explicitly revises a guide/checks understanding, and child activity adapts an explanation after seeing the response. Those methods need not also be labeled generic design. Classroom/family responsibility stays separate.', ['m:explaining','m:listening']);
+put('degree-25903100-047-method',[['t:learning','m:explaining','r:assessment']],'Revising learning examples/checking understanding plus explicit course assessment supplies comparison of learning evidence without a separate generic design label. Staff coaching/leadership is not inferred.', ['m:explaining']);
+put('environmental-science-interest-044-1',[['t:ecology','m:investigation'],['t:ecology','r:research']],'Concrete habitat monitoring/change comparison and waste reduction plus explicit investigation or research responsibility supports this environmental investigation. Preserve opposition to field observation.', ['m:fieldwork']);
+put('paralegal-interest-044-2',[['t:law','t:information','m:precision'],['t:law','m:organization','m:precision']],'Written-rule/source-evidence interest plus explicit consistent-record organization and precision supports legal-file organization without an additional general reference-help topic. Document preparation and client representation remain separate.', ['m:organization','m:precision']);
+export const questionRules={...prior,...scopedRules};
+// Short probes split bundled constructs. They never infer a purpose from demographics,
+// ability, access, lifestyle, a broad field score, or an occupation title.
+export const probes=[
+ {id:'079-circuit-trace',question:'Would you enjoy tracing a failed circuit connection and repeating the test to see what changed?',targets:['degree-17207200-047-method'],any:[['t:electronics']],block:['m:testing','m:precision']},
+ {id:'079-test-record',question:'Would you enjoy recording repeatable tests and explaining which failures remain unresolved?',targets:['degree-17211202-047-responsibility'],any:[['t:quality','m:testing','m:precision'],['t:electronics','m:testing','m:precision','r:research'],['t:mechanics','m:testing','m:precision','r:research']],block:['m:testing','m:precision','m:organization']},
+ {id:'079-adapt-learning',question:'Would you enjoy changing an explanation or learning activity after seeing what helps a child understand?',targets:['degree-25201200-047-method'],any:[['t:children','t:learning','m:explaining','m:listening']],block:['m:explaining','m:listening']},
+ {id:'079-learning-evidence',question:'Would you enjoy revising learning materials after checking what learners understood?',targets:['degree-25903100-047-method'],any:[['t:learning','m:explaining','r:assessment']],block:['m:explaining']},
+ {id:'079-environment-evidence',question:'Would you enjoy comparing habitat or pollution observations to investigate changes and possible ways to prevent harm?',targets:['environmental-science-interest-044-1'],any:[['t:ecology','m:investigation'],['t:ecology','r:research']],block:['m:fieldwork']},
+ {id:'079-numerical-weather',question:'Would you enjoy using numerical measurements and model predictions to investigate weather patterns?',targets:['degree-19202100-047-method'],any:[['t:weather','m:quantitative']],block:['m:quantitative']},
+ {id:'079-forecast-communication',question:'Would you enjoy explaining uncertain forecasts to people making important plans or protective decisions?',targets:['degree-19202100-047-responsibility'],any:[['t:weather','m:precision','m:explaining','r:safety']],block:['m:explaining','m:precision']},
+ {id:'079-animal-experiments',question:'Would you enjoy designing fair comparisons of animal feeding or care practices and interpreting the results?',targets:['degree-19101100-047-method'],any:[['t:animals','m:investigation','m:testing']],block:['m:testing']},
+ {id:'079-producer-advice',question:'Would you enjoy explaining research to livestock producers and recommending changes to animal-raising practices?',targets:['degree-19101100-047-responsibility'],any:[['t:animals','m:explaining','r:research','s:livestock-advice']],block:['m:explaining']},
+ {id:'079-growing-advice',question:'Would you enjoy advising growers about land or crop practices and explaining the consequences?',targets:['degree-19101300-047-responsibility'],any:[['t:plants','m:explaining','r:research']],block:['m:explaining']},
+ {id:'079-compose',question:'Would you enjoy creating or arranging original music, or interpreting a musical score?',targets:['degree-27204100-047-method'],any:[['t:sound','s:musical-work']],block:[]},
+ {id:'079-finished-music',question:'Would you enjoy taking responsibility for a finished musical work or preparing a group performance?',targets:['degree-27204100-047-responsibility'],any:[['t:sound','s:musical-work']],block:[]},
+ {id:'079-audio-edit',question:'Would you enjoy layering recordings, changing rhythm or timbre, and comparing the result by listening?',targets:['degree-27204100-047-method'],any:[['t:sound']],block:[]},
+ {id:'079-legal-records',question:'Would you enjoy keeping legal case files organized and checking that their supporting information is accurate?',targets:['paralegal-interest-044-2'],any:[['t:law','t:information','m:precision'],['t:law','m:organization','m:precision']],block:['m:organization','m:precision']}
+].map(p=>({...p,reason:'Question-scoped structured probe; missing construct stays unknown. Answers are simulated from frozen typed facts, not observed student responses.'}));
+// Only exact equivalent method/documentation probes corroborate scope repairs.
+// Audio editing, quantitative science and purpose/accountability probes are diagnostic;
+// they never transfer Yes to a different profession-specific responsibility.
+export const options=['Yes, I would like to try this','Not for me','Unfamiliar / not enough information','Unsure'];

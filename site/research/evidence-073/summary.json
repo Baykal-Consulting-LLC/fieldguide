@@ -1,0 +1,4471 @@
+{
+  "experiment": "evidence-073-v1",
+  "baselineRunId": "835f3e9eeb139692035e7672805c414bf104f557fb5983856e6928d9b0fc7a87",
+  "previousExperiment": "evidence-071-v1",
+  "freezeSHA256": "55ca93ec0690096b45f87c882faa77ee0365485b9e0f8bd2fc42720401ba77e2",
+  "summary": {
+    "all": {
+      "models": 1000,
+      "beforeTop": 789,
+      "beforeDegree": 653,
+      "beforeGraduate": 120,
+      "beforeCovers": 236,
+      "priorTop": 818,
+      "priorDegree": 691,
+      "priorGraduate": 158,
+      "priorCovers": 258,
+      "bindingTop": 820,
+      "bindingDegree": 696,
+      "bindingGraduate": 158,
+      "bindingCovers": 258,
+      "wiredTop": 820,
+      "wiredDegree": 696,
+      "wiredGraduate": 158,
+      "wiredCovers": 258,
+      "afterTop": 820,
+      "afterDegree": 696,
+      "afterGraduate": 158,
+      "afterCovers": 258,
+      "gainedTop": 2,
+      "lostTop": 0,
+      "gainedDegree": 5,
+      "lostDegree": 0,
+      "gainedGraduate": 0,
+      "lostGraduate": 0,
+      "gainedCovers": 0,
+      "lostCovers": 0,
+      "changed": 11,
+      "priorAnyDegree": 758,
+      "afterAnyDegree": 763,
+      "afterDegreeBelowCap": 67,
+      "newClaims": 14,
+      "mappingFills": 46,
+      "followups": 196,
+      "positiveActivities": 10,
+      "unknownActivities": 186,
+      "reusedResponses": 992,
+      "positiveConsumed": 99
+    },
+    "development": {
+      "models": 758,
+      "beforeTop": 594,
+      "beforeDegree": 490,
+      "beforeGraduate": 81,
+      "beforeCovers": 183,
+      "priorTop": 614,
+      "priorDegree": 516,
+      "priorGraduate": 112,
+      "priorCovers": 197,
+      "bindingTop": 616,
+      "bindingDegree": 519,
+      "bindingGraduate": 112,
+      "bindingCovers": 197,
+      "wiredTop": 616,
+      "wiredDegree": 519,
+      "wiredGraduate": 112,
+      "wiredCovers": 197,
+      "afterTop": 616,
+      "afterDegree": 519,
+      "afterGraduate": 112,
+      "afterCovers": 197,
+      "gainedTop": 2,
+      "lostTop": 0,
+      "gainedDegree": 3,
+      "lostDegree": 0,
+      "gainedGraduate": 0,
+      "lostGraduate": 0,
+      "gainedCovers": 0,
+      "lostCovers": 0,
+      "changed": 9,
+      "priorAnyDegree": 570,
+      "afterAnyDegree": 573,
+      "afterDegreeBelowCap": 54,
+      "newClaims": 12,
+      "mappingFills": 40,
+      "followups": 142,
+      "positiveActivities": 8,
+      "unknownActivities": 134,
+      "reusedResponses": 718,
+      "positiveConsumed": 70
+    },
+    "holdout": {
+      "models": 30,
+      "beforeTop": 26,
+      "beforeDegree": 21,
+      "beforeGraduate": 4,
+      "beforeCovers": 10,
+      "priorTop": 27,
+      "priorDegree": 22,
+      "priorGraduate": 6,
+      "priorCovers": 10,
+      "bindingTop": 27,
+      "bindingDegree": 24,
+      "bindingGraduate": 6,
+      "bindingCovers": 10,
+      "wiredTop": 27,
+      "wiredDegree": 24,
+      "wiredGraduate": 6,
+      "wiredCovers": 10,
+      "afterTop": 27,
+      "afterDegree": 24,
+      "afterGraduate": 6,
+      "afterCovers": 10,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 2,
+      "lostDegree": 0,
+      "gainedGraduate": 0,
+      "lostGraduate": 0,
+      "gainedCovers": 0,
+      "lostCovers": 0,
+      "changed": 2,
+      "priorAnyDegree": 22,
+      "afterAnyDegree": 24,
+      "afterDegreeBelowCap": 0,
+      "newClaims": 2,
+      "mappingFills": 5,
+      "followups": 2,
+      "positiveActivities": 0,
+      "unknownActivities": 2,
+      "reusedResponses": 4,
+      "positiveConsumed": 0
+    },
+    "holdout049": {
+      "models": 12,
+      "beforeTop": 11,
+      "beforeDegree": 11,
+      "beforeGraduate": 4,
+      "beforeCovers": 3,
+      "priorTop": 11,
+      "priorDegree": 11,
+      "priorGraduate": 5,
+      "priorCovers": 3,
+      "bindingTop": 11,
+      "bindingDegree": 11,
+      "bindingGraduate": 5,
+      "bindingCovers": 3,
+      "wiredTop": 11,
+      "wiredDegree": 11,
+      "wiredGraduate": 5,
+      "wiredCovers": 3,
+      "afterTop": 11,
+      "afterDegree": 11,
+      "afterGraduate": 5,
+      "afterCovers": 3,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "gainedGraduate": 0,
+      "lostGraduate": 0,
+      "gainedCovers": 0,
+      "lostCovers": 0,
+      "changed": 0,
+      "priorAnyDegree": 11,
+      "afterAnyDegree": 11,
+      "afterDegreeBelowCap": 0,
+      "newClaims": 0,
+      "mappingFills": 1,
+      "followups": 4,
+      "positiveActivities": 0,
+      "unknownActivities": 4,
+      "reusedResponses": 12,
+      "positiveConsumed": 1
+    },
+    "holdout056": {
+      "models": 200,
+      "beforeTop": 158,
+      "beforeDegree": 131,
+      "beforeGraduate": 31,
+      "beforeCovers": 40,
+      "priorTop": 166,
+      "priorDegree": 142,
+      "priorGraduate": 35,
+      "priorCovers": 48,
+      "bindingTop": 166,
+      "bindingDegree": 142,
+      "bindingGraduate": 35,
+      "bindingCovers": 48,
+      "wiredTop": 166,
+      "wiredDegree": 142,
+      "wiredGraduate": 35,
+      "wiredCovers": 48,
+      "afterTop": 166,
+      "afterDegree": 142,
+      "afterGraduate": 35,
+      "afterCovers": 48,
+      "gainedTop": 0,
+      "lostTop": 0,
+      "gainedDegree": 0,
+      "lostDegree": 0,
+      "gainedGraduate": 0,
+      "lostGraduate": 0,
+      "gainedCovers": 0,
+      "lostCovers": 0,
+      "changed": 0,
+      "priorAnyDegree": 155,
+      "afterAnyDegree": 155,
+      "afterDegreeBelowCap": 13,
+      "newClaims": 0,
+      "mappingFills": 0,
+      "followups": 48,
+      "positiveActivities": 2,
+      "unknownActivities": 46,
+      "reusedResponses": 258,
+      "positiveConsumed": 28
+    }
+  },
+  "rules": [
+    {
+      "careerId": "biological-technician",
+      "questionId": "biological-technician-interest-044-1",
+      "all": [
+        "t:biology",
+        "f:lab-procedure",
+        "m:testing",
+        "m:precision"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Biology plus an explicitly chosen repeatable procedure/record context supports the laboratory interest; plant care or a science rating alone is insufficient."
+    },
+    {
+      "careerId": "biological-technician",
+      "questionId": "biological-technician-interest-044-2",
+      "all": [
+        "t:biology",
+        "f:lab-procedure",
+        "m:testing",
+        "m:precision"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Biology plus an explicitly chosen repeatable procedure/record context supports the laboratory interest; plant care or a science rating alone is insufficient."
+    },
+    {
+      "careerId": "degree-43911100",
+      "questionId": "degree-43911100-047-domain",
+      "all": [
+        "t:statistics",
+        "f:statistical-limits"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Concrete dataset/assumptions context is required, beyond a broad statistics rating."
+    },
+    {
+      "careerId": "degree-43911100",
+      "questionId": "degree-43911100-047-method",
+      "all": [
+        "t:statistics",
+        "f:statistical-limits",
+        "m:quantitative",
+        "m:precision",
+        "m:organization"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Keep numerical, accurate and organized study-record evidence."
+    },
+    {
+      "careerId": "degree-43911100",
+      "questionId": "degree-43911100-047-responsibility",
+      "all": [
+        "t:statistics",
+        "f:statistical-limits",
+        "m:quantitative",
+        "m:precision",
+        "m:organization",
+        "m:explaining"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Explaining study results is a separate requirement; do not infer research leadership."
+    },
+    {
+      "careerId": "management-analyst",
+      "questionId": "management-analyst-interest-044-1",
+      "all": [
+        "t:enterprise",
+        "f:workflow-study",
+        "m:investigation",
+        "m:quantitative"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "A chosen team/workflow investigation supplies the organizational context. Existing numerical/investigation requirements remain."
+    },
+    {
+      "careerId": "management-analyst",
+      "questionId": "management-analyst-interest-044-2",
+      "all": [
+        "t:enterprise",
+        "f:workflow-study",
+        "f:workflow-review",
+        "m:investigation",
+        "m:quantitative",
+        "m:coordination"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "A distinct project-review/coordination context is needed before inferring interest in implementing organizational changes."
+    },
+    {
+      "careerId": "logistics",
+      "questionId": "logistics-interest-044-1",
+      "all": [
+        "t:logistics",
+        "m:quantitative",
+        "m:organization"
+      ],
+      "any": [
+        [
+          "f:stock-materials",
+          "f:delay-records"
+        ]
+      ],
+      "block": [],
+      "reason": "Stock/materials or a concrete delivery-comparison context is required."
+    },
+    {
+      "careerId": "logistics",
+      "questionId": "logistics-interest-044-2",
+      "all": [
+        "t:logistics",
+        "f:delay-records",
+        "m:quantitative",
+        "m:organization",
+        "m:coordination"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Generic appointments or office records do not establish supplier/delivery coordination."
+    },
+    {
+      "careerId": "public-relations",
+      "questionId": "public-relations-interest-044-1",
+      "all": [
+        "t:marketing",
+        "f:message-trial",
+        "m:explaining",
+        "m:persuading"
+      ],
+      "any": [],
+      "block": [],
+      "reason": "Testing an audience message supplies a concrete communication context; negotiating a purchase alone does not."
+    }
+  ],
+  "questionBank": [
+    {
+      "id": "activity071-food-compare",
+      "domain": "tasks",
+      "careerIds": [
+        "food-science"
+      ],
+      "prompt": "Which short food experiment would you choose to try?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-food-compare-try",
+          "text": "Change one ingredient while keeping the steps comparable, then compare what happens to texture or consistency.",
+          "all": [
+            "t:food",
+            "m:testing"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-food-compare-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-food-compare-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-food-records",
+      "domain": "process",
+      "careerIds": [
+        "food-science"
+      ],
+      "prompt": "Which part of a food experiment would interest you?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-food-records-try",
+          "text": "Check the measurements and batch notes carefully before claiming that one version worked better.",
+          "all": [
+            "t:food",
+            "m:precision",
+            "r:research"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-food-records-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-food-records-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-public-message",
+      "domain": "tasks",
+      "careerIds": [
+        "public-relations"
+      ],
+      "prompt": "Which communication activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-public-message-try",
+          "text": "Explain a project to a particular audience and compare how different messages are understood.",
+          "all": [
+            "t:marketing",
+            "m:explaining",
+            "m:persuading"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-public-message-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-public-message-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-public-accuracy",
+      "domain": "process",
+      "careerIds": [
+        "public-relations"
+      ],
+      "prompt": "What would you like to do before sharing a project update?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-public-accuracy-try",
+          "text": "Check the details, notice misleading wording, and explain what the evidence actually supports.",
+          "all": [
+            "t:marketing",
+            "m:precision",
+            "m:explaining"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-public-accuracy-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-public-accuracy-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-exercise-measures",
+      "domain": "tasks",
+      "careerIds": [
+        "exercise-physiology"
+      ],
+      "prompt": "Which supervised activity comparison would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-exercise-measures-try",
+          "text": "Compare numerical observations before and after a movement routine, using a repeatable procedure.",
+          "all": [
+            "t:movement",
+            "m:quantitative",
+            "m:testing"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-exercise-measures-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-exercise-measures-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-exercise-records",
+      "domain": "process",
+      "careerIds": [
+        "exercise-physiology"
+      ],
+      "prompt": "Which part of a supported exercise introduction interests you?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-exercise-records-try",
+          "text": "Keep an accurate record of progress against a care plan and flag a result that needs checking.",
+          "all": [
+            "t:movement",
+            "m:precision",
+            "r:patientcare"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-exercise-records-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-exercise-records-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-social-sources",
+      "domain": "tasks",
+      "careerIds": [
+        "social-research"
+      ],
+      "prompt": "Which community-question activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-social-sources-try",
+          "text": "Compare source evidence about how a community rule affects different people.",
+          "all": [
+            "t:policy",
+            "m:investigation"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-social-sources-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-social-sources-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-social-records",
+      "domain": "process",
+      "careerIds": [
+        "social-research"
+      ],
+      "prompt": "What would interest you when a community study has incomplete information?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-social-records-try",
+          "text": "Organize the records, check uncertain details and keep missing information distinct from a conclusion.",
+          "all": [
+            "t:policy",
+            "m:organization",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-social-records-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-social-records-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-mechanism-compare",
+      "domain": "tasks",
+      "careerIds": [
+        "mechanical-engineering"
+      ],
+      "prompt": "Which small physical-system project would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-mechanism-compare-try",
+          "text": "Compare a tested change in a mechanism and check whether it behaves as expected.",
+          "all": [
+            "f:mechanism-test",
+            "m:testing"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-mechanism-compare-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-mechanism-compare-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-mechanism-record",
+      "domain": "process",
+      "careerIds": [
+        "mechanical-engineering"
+      ],
+      "prompt": "What would you choose to do after trying a physical design?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-mechanism-record-try",
+          "text": "Check the design and test notes carefully before explaining which change worked.",
+          "all": [
+            "f:mechanism-test",
+            "m:design",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-mechanism-record-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-mechanism-record-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-circuit-compare",
+      "domain": "tasks",
+      "careerIds": [
+        "electrical-engineering"
+      ],
+      "prompt": "Which small physical-system project would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-circuit-compare-try",
+          "text": "Compare a tested change in a circuit and check whether it behaves as expected.",
+          "all": [
+            "f:circuit-test",
+            "m:testing"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-circuit-compare-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-circuit-compare-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-circuit-record",
+      "domain": "process",
+      "careerIds": [
+        "electrical-engineering"
+      ],
+      "prompt": "What would you choose to do after trying a physical design?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-circuit-record-try",
+          "text": "Check the design and test notes carefully before explaining which change worked.",
+          "all": [
+            "f:circuit-test",
+            "m:design",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-circuit-record-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-circuit-record-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-reference-search",
+      "domain": "tasks",
+      "careerIds": [
+        "librarian"
+      ],
+      "prompt": "Which information activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-reference-search-try",
+          "text": "Help someone find useful reference sources, compare their reliability and clarify what is still missing.",
+          "all": [
+            "f:reference-help",
+            "f:source-comparison"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-reference-search-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-reference-search-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-reference-access",
+      "domain": "process",
+      "careerIds": [
+        "librarian"
+      ],
+      "prompt": "What would interest you about a shared information collection?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-reference-access-try",
+          "text": "Organize and check its records so another person can find the resource they need.",
+          "all": [
+            "t:information",
+            "m:organization",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-reference-access-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-reference-access-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-accounts-check",
+      "domain": "tasks",
+      "careerIds": [
+        "accounting"
+      ],
+      "prompt": "Which financial-record activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-accounts-check-try",
+          "text": "Reconcile recorded receipts against spending and investigate a total that does not agree.",
+          "all": [
+            "t:finance",
+            "m:precision",
+            "m:investigation"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-accounts-check-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-accounts-check-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-accounts-trail",
+      "domain": "process",
+      "careerIds": [
+        "accounting"
+      ],
+      "prompt": "What would interest you after a financial record does not add up?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-accounts-trail-try",
+          "text": "Organize the evidence trail and check the explanation before filling in any missing information.",
+          "all": [
+            "t:finance",
+            "m:organization",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-accounts-trail-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-accounts-trail-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-audience-evidence",
+      "domain": "tasks",
+      "careerIds": [
+        "market-research"
+      ],
+      "prompt": "Which project question would you choose to investigate?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-audience-evidence-try",
+          "text": "Compare numerical evidence about how audiences respond to different messages.",
+          "all": [
+            "t:marketing",
+            "m:quantitative",
+            "m:investigation"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-audience-evidence-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-audience-evidence-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-audience-sample",
+      "domain": "process",
+      "careerIds": [
+        "market-research"
+      ],
+      "prompt": "What would interest you about a small survey?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-audience-sample-try",
+          "text": "Check whether the sample and the wording could change the conclusion about an audience.",
+          "all": [
+            "f:survey-design",
+            "m:precision",
+            "m:investigation"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-audience-sample-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-audience-sample-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-product-model",
+      "domain": "tasks",
+      "careerIds": [
+        "industrial-design"
+      ],
+      "prompt": "Which making activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-product-model-try",
+          "text": "Sketch a useful physical object and compare designs before building a model.",
+          "all": [
+            "f:physical-product",
+            "m:design",
+            "m:making"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-product-model-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-product-model-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-product-revision",
+      "domain": "process",
+      "careerIds": [
+        "industrial-design"
+      ],
+      "prompt": "What would interest you after building a small physical model?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-product-revision-try",
+          "text": "Test a revised part and check which design trade-off improved how it works.",
+          "all": [
+            "f:physical-prototype",
+            "m:design",
+            "m:testing"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-product-revision-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-product-revision-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-footage-sequence",
+      "domain": "tasks",
+      "careerIds": [
+        "film-editing"
+      ],
+      "prompt": "Which story-making activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-footage-sequence-try",
+          "text": "Select and arrange footage from a filmed sequence, then revise the timing to change how it works.",
+          "all": [
+            "f:shots-edit",
+            "m:expression"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-footage-sequence-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-footage-sequence-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-footage-check",
+      "domain": "process",
+      "careerIds": [
+        "film-editing"
+      ],
+      "prompt": "What would interest you while revising a short recording?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-footage-check-try",
+          "text": "Check picture, sound and timing carefully before deciding the edit is finished.",
+          "all": [
+            "f:shots-edit",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-footage-check-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-footage-check-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-investment-compare",
+      "domain": "tasks",
+      "careerIds": [
+        "personal-financial-advisor"
+      ],
+      "prompt": "Which financial introduction would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-investment-compare-try",
+          "text": "Compare uncertain investment returns and the consequences of a recommendation for another person.",
+          "all": [
+            "t:investment",
+            "m:quantitative",
+            "r:risk"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-investment-compare-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-investment-compare-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "activity071-investment-explain",
+      "domain": "process",
+      "careerIds": [
+        "personal-financial-advisor"
+      ],
+      "prompt": "What would interest you before sharing a financial recommendation?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-investment-explain-try",
+          "text": "Check the records and explain uncertainty and limits without promising a return.",
+          "all": [
+            "t:finance",
+            "m:precision",
+            "m:explaining",
+            "r:risk"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-investment-explain-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-investment-explain-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "context071-vision",
+      "domain": "specialty",
+      "careerIds": [
+        "degree-29104100"
+      ],
+      "kind": "context",
+      "prompt": "Which supervised health introduction would you choose?",
+      "options": [
+        {
+          "id": "context071-vision-try",
+          "text": "Compare how focusing and vision tests inform an eye examination, including when a finding needs referral.",
+          "all": [
+            "f:vision-examination"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "context071-vision-no",
+          "text": "A different health topic interests me more"
+        },
+        {
+          "id": "context071-vision-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "context071-animal-production",
+      "domain": "specialty",
+      "careerIds": [
+        "degree-19101100"
+      ],
+      "kind": "context",
+      "prompt": "Which animal-related investigation would you choose?",
+      "options": [
+        {
+          "id": "context071-animal-production-try",
+          "text": "Compare feeding, housing or breeding evidence for animals raised on farms.",
+          "all": [
+            "f:animal-production"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "context071-animal-production-care",
+          "text": "Routine care or behavior observation interests me more"
+        },
+        {
+          "id": "context071-animal-production-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "evidence071-physical-model",
+      "domain": "subject",
+      "careerIds": [
+        "degree-19201200"
+      ],
+      "kind": "evidence",
+      "prompt": "Which physical-science introduction would you choose?",
+      "options": [
+        {
+          "id": "evidence071-physical-model-try",
+          "text": "Compare a prediction about motion with the result of a small experiment.",
+          "all": [
+            "f:physical-model"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-physical-model-other",
+          "text": "Observe a pattern in the night sky instead"
+        },
+        {
+          "id": "evidence071-physical-model-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "evidence071-research-report",
+      "domain": "responsibility",
+      "careerIds": [
+        "degree-19201200",
+        "degree-19309300"
+      ],
+      "kind": "evidence",
+      "prompt": "Which part of an investigation would you choose to try?",
+      "options": [
+        {
+          "id": "evidence071-research-report-try",
+          "text": "Record the assumptions and uncertainty so someone else can challenge or repeat the reasoning.",
+          "all": [
+            "r:research",
+            "m:precision",
+            "m:explaining"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-research-report-result",
+          "text": "Focus on finding the result for now"
+        },
+        {
+          "id": "evidence071-research-report-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "evidence071-event-commitments",
+      "domain": "responsibility",
+      "careerIds": [
+        "degree-13112100"
+      ],
+      "kind": "evidence",
+      "prompt": "Which part of organizing a group event would you choose?",
+      "options": [
+        {
+          "id": "evidence071-event-commitments-try",
+          "text": "Keep track of agreed costs and supplier commitments, and check what must change when plans change.",
+          "all": [
+            "f:financial-reconciliation",
+            "m:coordination",
+            "m:organization",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-event-commitments-activities",
+          "text": "Choose the activities without managing bills or suppliers"
+        },
+        {
+          "id": "evidence071-event-commitments-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "evidence071-safety-accountability",
+      "domain": "responsibility",
+      "careerIds": [
+        "mechanical-engineering",
+        "electrical-engineering",
+        "architecture",
+        "degree-17101200",
+        "degree-17102200",
+        "degree-17201100",
+        "degree-17202100",
+        "degree-17204100",
+        "degree-17205101",
+        "degree-17205102",
+        "degree-17206100",
+        "degree-17207200",
+        "degree-17208100",
+        "degree-17211100",
+        "degree-17211102",
+        "degree-17211202",
+        "degree-17212100",
+        "degree-17213100",
+        "degree-17214101",
+        "degree-17214102",
+        "degree-17215100",
+        "degree-17216100",
+        "degree-17217100",
+        "degree-17219905",
+        "degree-17219908",
+        "degree-17219910",
+        "degree-17219911"
+      ],
+      "kind": "evidence",
+      "prompt": "Which responsibility would you choose in a supervised technical introduction?",
+      "options": [
+        {
+          "id": "evidence071-safety-accountability-try",
+          "text": "Check safety rules, recognize when the evidence is incomplete and ask for qualified help before proceeding.",
+          "all": [
+            "r:safety"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-safety-accountability-observe",
+          "text": "Observe first before deciding whether to take this responsibility"
+        },
+        {
+          "id": "evidence071-safety-accountability-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "evidence071-curriculum-review",
+      "domain": "method",
+      "careerIds": [
+        "degree-25903100"
+      ],
+      "kind": "evidence",
+      "prompt": "Which learning-material project would you choose?",
+      "options": [
+        {
+          "id": "evidence071-curriculum-review-try",
+          "text": "Compare how well two learning guides work and revise the sequence using evidence about understanding.",
+          "all": [
+            "f:learning-guide",
+            "m:design",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-curriculum-review-explain",
+          "text": "Explain a familiar idea without evaluating a course or curriculum"
+        },
+        {
+          "id": "evidence071-curriculum-review-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "evidence071-educator-coaching",
+      "domain": "responsibility",
+      "careerIds": [
+        "degree-25903100"
+      ],
+      "kind": "evidence",
+      "prompt": "Which education responsibility would you choose to explore?",
+      "options": [
+        {
+          "id": "evidence071-educator-coaching-try",
+          "text": "Help educators review teaching evidence and coordinate curriculum changes with them.",
+          "all": [
+            "f:educator-coaching"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-educator-coaching-learners",
+          "text": "Work directly with learners instead"
+        },
+        {
+          "id": "evidence071-educator-coaching-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "evidence071-client-budget",
+      "domain": "responsibility",
+      "careerIds": [
+        "degree-13207100"
+      ],
+      "kind": "evidence",
+      "prompt": "Which financial responsibility would you choose to learn about?",
+      "options": [
+        {
+          "id": "evidence071-client-budget-try",
+          "text": "Help another person compare a manageable debt plan and explain consequences without promising an outcome.",
+          "all": [
+            "f:client-debt-care"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-client-budget-records",
+          "text": "Keep records without advising another person"
+        },
+        {
+          "id": "evidence071-client-budget-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "followup073-workflow-review",
+      "careerIds": [
+        "management-analyst"
+      ],
+      "prompt": "Which part of improving a small team project would you choose?",
+      "kind": "evidence",
+      "domain": "scoped",
+      "options": [
+        {
+          "id": "followup073-workflow-review-try",
+          "text": "Compare how a revised plan worked and coordinate the next change with the people using it.",
+          "all": [
+            "f:workflow-study",
+            "f:workflow-review",
+            "m:investigation",
+            "m:coordination"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "followup073-workflow-review-other",
+          "text": "I would choose a different part of the activity"
+        },
+        {
+          "id": "followup073-workflow-review-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "followup073-group-update",
+      "careerIds": [
+        "public-relations"
+      ],
+      "prompt": "Which communication activity would you choose to explore?",
+      "kind": "evidence",
+      "domain": "scoped",
+      "options": [
+        {
+          "id": "followup073-group-update-try",
+          "text": "Prepare an accurate update on behalf of a group, compare how people understood it and respond to questions or criticism.",
+          "all": [
+            "f:public-group-update",
+            "m:explaining",
+            "m:persuading",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "followup073-group-update-other",
+          "text": "I would choose a different part of the activity"
+        },
+        {
+          "id": "followup073-group-update-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    },
+    {
+      "id": "followup073-supply-change",
+      "careerIds": [
+        "logistics"
+      ],
+      "prompt": "Which planning activity would you choose?",
+      "kind": "evidence",
+      "domain": "scoped",
+      "options": [
+        {
+          "id": "followup073-supply-change-try",
+          "text": "Compare a delayed delivery with the stock records, then coordinate a revised plan and explain its limits.",
+          "all": [
+            "f:delay-records",
+            "m:organization",
+            "m:quantitative",
+            "m:coordination"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "followup073-supply-change-other",
+          "text": "I would choose a different part of the activity"
+        },
+        {
+          "id": "followup073-supply-change-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ]
+    }
+  ],
+  "questionCounts": [
+    {
+      "id": "activity071-food-compare",
+      "domain": "tasks",
+      "careerIds": [
+        "food-science"
+      ],
+      "prompt": "Which short food experiment would you choose to try?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-food-compare-try",
+          "text": "Change one ingredient while keeping the steps comparable, then compare what happens to texture or consistency.",
+          "all": [
+            "t:food",
+            "m:testing"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-food-compare-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-food-compare-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 19
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 11
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 8
+      }
+    },
+    {
+      "id": "activity071-food-records",
+      "domain": "process",
+      "careerIds": [
+        "food-science"
+      ],
+      "prompt": "Which part of a food experiment would interest you?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-food-records-try",
+          "text": "Check the measurements and batch notes carefully before claiming that one version worked better.",
+          "all": [
+            "t:food",
+            "m:precision",
+            "r:research"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-food-records-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-food-records-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 17
+      },
+      "development": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 10
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 7
+      }
+    },
+    {
+      "id": "activity071-public-message",
+      "domain": "tasks",
+      "careerIds": [
+        "public-relations"
+      ],
+      "prompt": "Which communication activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-public-message-try",
+          "text": "Explain a project to a particular audience and compare how different messages are understood.",
+          "all": [
+            "t:marketing",
+            "m:explaining",
+            "m:persuading"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-public-message-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-public-message-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 40
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 26
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 14
+      }
+    },
+    {
+      "id": "activity071-public-accuracy",
+      "domain": "process",
+      "careerIds": [
+        "public-relations"
+      ],
+      "prompt": "What would you like to do before sharing a project update?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-public-accuracy-try",
+          "text": "Check the details, notice misleading wording, and explain what the evidence actually supports.",
+          "all": [
+            "t:marketing",
+            "m:precision",
+            "m:explaining"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-public-accuracy-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-public-accuracy-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 7,
+        "positive": 0,
+        "unknown": 7,
+        "reused": 33
+      },
+      "development": {
+        "offered": 4,
+        "positive": 0,
+        "unknown": 4,
+        "reused": 22
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 3,
+        "positive": 0,
+        "unknown": 3,
+        "reused": 11
+      }
+    },
+    {
+      "id": "activity071-exercise-measures",
+      "domain": "tasks",
+      "careerIds": [
+        "exercise-physiology"
+      ],
+      "prompt": "Which supervised activity comparison would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-exercise-measures-try",
+          "text": "Compare numerical observations before and after a movement routine, using a repeatable procedure.",
+          "all": [
+            "t:movement",
+            "m:quantitative",
+            "m:testing"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-exercise-measures-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-exercise-measures-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 1,
+        "positive": 1,
+        "unknown": 0,
+        "reused": 14
+      },
+      "development": {
+        "offered": 1,
+        "positive": 1,
+        "unknown": 0,
+        "reused": 11
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 3
+      }
+    },
+    {
+      "id": "activity071-exercise-records",
+      "domain": "process",
+      "careerIds": [
+        "exercise-physiology"
+      ],
+      "prompt": "Which part of a supported exercise introduction interests you?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-exercise-records-try",
+          "text": "Keep an accurate record of progress against a care plan and flag a result that needs checking.",
+          "all": [
+            "t:movement",
+            "m:precision",
+            "r:patientcare"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-exercise-records-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-exercise-records-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 1,
+        "positive": 1,
+        "unknown": 0,
+        "reused": 14
+      },
+      "development": {
+        "offered": 1,
+        "positive": 1,
+        "unknown": 0,
+        "reused": 11
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 3
+      }
+    },
+    {
+      "id": "activity071-social-sources",
+      "domain": "tasks",
+      "careerIds": [
+        "social-research"
+      ],
+      "prompt": "Which community-question activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-social-sources-try",
+          "text": "Compare source evidence about how a community rule affects different people.",
+          "all": [
+            "t:policy",
+            "m:investigation"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-social-sources-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-social-sources-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 27
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 19
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 8
+      }
+    },
+    {
+      "id": "activity071-social-records",
+      "domain": "process",
+      "careerIds": [
+        "social-research"
+      ],
+      "prompt": "What would interest you when a community study has incomplete information?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-social-records-try",
+          "text": "Organize the records, check uncertain details and keep missing information distinct from a conclusion.",
+          "all": [
+            "t:policy",
+            "m:organization",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-social-records-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-social-records-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 5,
+        "positive": 0,
+        "unknown": 5,
+        "reused": 23
+      },
+      "development": {
+        "offered": 4,
+        "positive": 0,
+        "unknown": 4,
+        "reused": 15
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 8
+      }
+    },
+    {
+      "id": "activity071-mechanism-compare",
+      "domain": "tasks",
+      "careerIds": [
+        "mechanical-engineering"
+      ],
+      "prompt": "Which small physical-system project would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-mechanism-compare-try",
+          "text": "Compare a tested change in a mechanism and check whether it behaves as expected.",
+          "all": [
+            "f:mechanism-test",
+            "m:testing"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-mechanism-compare-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-mechanism-compare-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 9
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 8
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      }
+    },
+    {
+      "id": "activity071-mechanism-record",
+      "domain": "process",
+      "careerIds": [
+        "mechanical-engineering"
+      ],
+      "prompt": "What would you choose to do after trying a physical design?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-mechanism-record-try",
+          "text": "Check the design and test notes carefully before explaining which change worked.",
+          "all": [
+            "f:mechanism-test",
+            "m:design",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-mechanism-record-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-mechanism-record-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 8
+      },
+      "development": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 7
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      }
+    },
+    {
+      "id": "activity071-circuit-compare",
+      "domain": "tasks",
+      "careerIds": [
+        "electrical-engineering"
+      ],
+      "prompt": "Which small physical-system project would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-circuit-compare-try",
+          "text": "Compare a tested change in a circuit and check whether it behaves as expected.",
+          "all": [
+            "f:circuit-test",
+            "m:testing"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-circuit-compare-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-circuit-compare-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 6
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 6
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "activity071-circuit-record",
+      "domain": "process",
+      "careerIds": [
+        "electrical-engineering"
+      ],
+      "prompt": "What would you choose to do after trying a physical design?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-circuit-record-try",
+          "text": "Check the design and test notes carefully before explaining which change worked.",
+          "all": [
+            "f:circuit-test",
+            "m:design",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-circuit-record-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-circuit-record-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 7
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 7
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "activity071-reference-search",
+      "domain": "tasks",
+      "careerIds": [
+        "librarian"
+      ],
+      "prompt": "Which information activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-reference-search-try",
+          "text": "Help someone find useful reference sources, compare their reliability and clarify what is still missing.",
+          "all": [
+            "f:reference-help",
+            "f:source-comparison"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-reference-search-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-reference-search-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 21
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 15
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 6
+      }
+    },
+    {
+      "id": "activity071-reference-access",
+      "domain": "process",
+      "careerIds": [
+        "librarian"
+      ],
+      "prompt": "What would interest you about a shared information collection?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-reference-access-try",
+          "text": "Organize and check its records so another person can find the resource they need.",
+          "all": [
+            "t:information",
+            "m:organization",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-reference-access-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-reference-access-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 4,
+        "positive": 0,
+        "unknown": 4,
+        "reused": 16
+      },
+      "development": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 12
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 4
+      }
+    },
+    {
+      "id": "activity071-accounts-check",
+      "domain": "tasks",
+      "careerIds": [
+        "accounting"
+      ],
+      "prompt": "Which financial-record activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-accounts-check-try",
+          "text": "Reconcile recorded receipts against spending and investigate a total that does not agree.",
+          "all": [
+            "t:finance",
+            "m:precision",
+            "m:investigation"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-accounts-check-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-accounts-check-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 2
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 2
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "activity071-accounts-trail",
+      "domain": "process",
+      "careerIds": [
+        "accounting"
+      ],
+      "prompt": "What would interest you after a financial record does not add up?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-accounts-trail-try",
+          "text": "Organize the evidence trail and check the explanation before filling in any missing information.",
+          "all": [
+            "t:finance",
+            "m:organization",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-accounts-trail-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-accounts-trail-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 2
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 2
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "activity071-audience-evidence",
+      "domain": "tasks",
+      "careerIds": [
+        "market-research"
+      ],
+      "prompt": "Which project question would you choose to investigate?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-audience-evidence-try",
+          "text": "Compare numerical evidence about how audiences respond to different messages.",
+          "all": [
+            "t:marketing",
+            "m:quantitative",
+            "m:investigation"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-audience-evidence-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-audience-evidence-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 0
+      },
+      "development": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 0
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "activity071-audience-sample",
+      "domain": "process",
+      "careerIds": [
+        "market-research"
+      ],
+      "prompt": "What would interest you about a small survey?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-audience-sample-try",
+          "text": "Check whether the sample and the wording could change the conclusion about an audience.",
+          "all": [
+            "f:survey-design",
+            "m:precision",
+            "m:investigation"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-audience-sample-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-audience-sample-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 0
+      },
+      "development": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 0
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "activity071-product-model",
+      "domain": "tasks",
+      "careerIds": [
+        "industrial-design"
+      ],
+      "prompt": "Which making activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-product-model-try",
+          "text": "Sketch a useful physical object and compare designs before building a model.",
+          "all": [
+            "f:physical-product",
+            "m:design",
+            "m:making"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-product-model-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-product-model-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 0
+      },
+      "development": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 0
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "activity071-product-revision",
+      "domain": "process",
+      "careerIds": [
+        "industrial-design"
+      ],
+      "prompt": "What would interest you after building a small physical model?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-product-revision-try",
+          "text": "Test a revised part and check which design trade-off improved how it works.",
+          "all": [
+            "f:physical-prototype",
+            "m:design",
+            "m:testing"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-product-revision-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-product-revision-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 25
+      },
+      "development": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 18
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 5
+      }
+    },
+    {
+      "id": "activity071-footage-sequence",
+      "domain": "tasks",
+      "careerIds": [
+        "film-editing"
+      ],
+      "prompt": "Which story-making activity would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-footage-sequence-try",
+          "text": "Select and arrange footage from a filmed sequence, then revise the timing to change how it works.",
+          "all": [
+            "f:shots-edit",
+            "m:expression"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-footage-sequence-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-footage-sequence-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 15
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 12
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 3
+      }
+    },
+    {
+      "id": "activity071-footage-check",
+      "domain": "process",
+      "careerIds": [
+        "film-editing"
+      ],
+      "prompt": "What would interest you while revising a short recording?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-footage-check-try",
+          "text": "Check picture, sound and timing carefully before deciding the edit is finished.",
+          "all": [
+            "f:shots-edit",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-footage-check-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-footage-check-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 15
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 12
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 3
+      }
+    },
+    {
+      "id": "activity071-investment-compare",
+      "domain": "tasks",
+      "careerIds": [
+        "personal-financial-advisor"
+      ],
+      "prompt": "Which financial introduction would you choose?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-investment-compare-try",
+          "text": "Compare uncertain investment returns and the consequences of a recommendation for another person.",
+          "all": [
+            "t:investment",
+            "m:quantitative",
+            "r:risk"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-investment-compare-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-investment-compare-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "activity071-investment-explain",
+      "domain": "process",
+      "careerIds": [
+        "personal-financial-advisor"
+      ],
+      "prompt": "What would interest you before sharing a financial recommendation?",
+      "kind": "activity",
+      "options": [
+        {
+          "id": "activity071-investment-explain-try",
+          "text": "Check the records and explain uncertainty and limits without promising a return.",
+          "all": [
+            "t:finance",
+            "m:precision",
+            "m:explaining",
+            "r:risk"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "activity071-investment-explain-not-for-me",
+          "text": "Not for me"
+        },
+        {
+          "id": "activity071-investment-explain-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "context071-vision",
+      "domain": "specialty",
+      "careerIds": [
+        "degree-29104100"
+      ],
+      "kind": "context",
+      "prompt": "Which supervised health introduction would you choose?",
+      "options": [
+        {
+          "id": "context071-vision-try",
+          "text": "Compare how focusing and vision tests inform an eye examination, including when a finding needs referral.",
+          "all": [
+            "f:vision-examination"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "context071-vision-no",
+          "text": "A different health topic interests me more"
+        },
+        {
+          "id": "context071-vision-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 63
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 43
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 20
+      }
+    },
+    {
+      "id": "context071-animal-production",
+      "domain": "specialty",
+      "careerIds": [
+        "degree-19101100"
+      ],
+      "kind": "context",
+      "prompt": "Which animal-related investigation would you choose?",
+      "options": [
+        {
+          "id": "context071-animal-production-try",
+          "text": "Compare feeding, housing or breeding evidence for animals raised on farms.",
+          "all": [
+            "f:animal-production"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "context071-animal-production-care",
+          "text": "Routine care or behavior observation interests me more"
+        },
+        {
+          "id": "context071-animal-production-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 61
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 48
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 13
+      }
+    },
+    {
+      "id": "evidence071-physical-model",
+      "domain": "subject",
+      "careerIds": [
+        "degree-19201200"
+      ],
+      "kind": "evidence",
+      "prompt": "Which physical-science introduction would you choose?",
+      "options": [
+        {
+          "id": "evidence071-physical-model-try",
+          "text": "Compare a prediction about motion with the result of a small experiment.",
+          "all": [
+            "f:physical-model"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-physical-model-other",
+          "text": "Observe a pattern in the night sky instead"
+        },
+        {
+          "id": "evidence071-physical-model-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 62
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 40
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 2
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 20
+      }
+    },
+    {
+      "id": "evidence071-research-report",
+      "domain": "responsibility",
+      "careerIds": [
+        "degree-19201200",
+        "degree-19309300"
+      ],
+      "kind": "evidence",
+      "prompt": "Which part of an investigation would you choose to try?",
+      "options": [
+        {
+          "id": "evidence071-research-report-try",
+          "text": "Record the assumptions and uncertainty so someone else can challenge or repeat the reasoning.",
+          "all": [
+            "r:research",
+            "m:precision",
+            "m:explaining"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-research-report-result",
+          "text": "Focus on finding the result for now"
+        },
+        {
+          "id": "evidence071-research-report-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 15,
+        "positive": 0,
+        "unknown": 15,
+        "reused": 104
+      },
+      "development": {
+        "offered": 9,
+        "positive": 0,
+        "unknown": 9,
+        "reused": 72
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 3
+      },
+      "holdout056": {
+        "offered": 6,
+        "positive": 0,
+        "unknown": 6,
+        "reused": 28
+      }
+    },
+    {
+      "id": "evidence071-event-commitments",
+      "domain": "responsibility",
+      "careerIds": [
+        "degree-13112100"
+      ],
+      "kind": "evidence",
+      "prompt": "Which part of organizing a group event would you choose?",
+      "options": [
+        {
+          "id": "evidence071-event-commitments-try",
+          "text": "Keep track of agreed costs and supplier commitments, and check what must change when plans change.",
+          "all": [
+            "f:financial-reconciliation",
+            "m:coordination",
+            "m:organization",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-event-commitments-activities",
+          "text": "Choose the activities without managing bills or suppliers"
+        },
+        {
+          "id": "evidence071-event-commitments-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 4,
+        "positive": 0,
+        "unknown": 4,
+        "reused": 71
+      },
+      "development": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 55
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 2
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 3
+      },
+      "holdout056": {
+        "offered": 3,
+        "positive": 0,
+        "unknown": 3,
+        "reused": 11
+      }
+    },
+    {
+      "id": "evidence071-safety-accountability",
+      "domain": "responsibility",
+      "careerIds": [
+        "mechanical-engineering",
+        "electrical-engineering",
+        "architecture",
+        "degree-17101200",
+        "degree-17102200",
+        "degree-17201100",
+        "degree-17202100",
+        "degree-17204100",
+        "degree-17205101",
+        "degree-17205102",
+        "degree-17206100",
+        "degree-17207200",
+        "degree-17208100",
+        "degree-17211100",
+        "degree-17211102",
+        "degree-17211202",
+        "degree-17212100",
+        "degree-17213100",
+        "degree-17214101",
+        "degree-17214102",
+        "degree-17215100",
+        "degree-17216100",
+        "degree-17217100",
+        "degree-17219905",
+        "degree-17219908",
+        "degree-17219910",
+        "degree-17219911"
+      ],
+      "kind": "evidence",
+      "prompt": "Which responsibility would you choose in a supervised technical introduction?",
+      "options": [
+        {
+          "id": "evidence071-safety-accountability-try",
+          "text": "Check safety rules, recognize when the evidence is incomplete and ask for qualified help before proceeding.",
+          "all": [
+            "r:safety"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-safety-accountability-observe",
+          "text": "Observe first before deciding whether to take this responsibility"
+        },
+        {
+          "id": "evidence071-safety-accountability-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 122,
+        "positive": 8,
+        "unknown": 114,
+        "reused": 79
+      },
+      "development": {
+        "offered": 92,
+        "positive": 6,
+        "unknown": 86,
+        "reused": 58
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      },
+      "holdout056": {
+        "offered": 30,
+        "positive": 2,
+        "unknown": 28,
+        "reused": 20
+      }
+    },
+    {
+      "id": "evidence071-curriculum-review",
+      "domain": "method",
+      "careerIds": [
+        "degree-25903100"
+      ],
+      "kind": "evidence",
+      "prompt": "Which learning-material project would you choose?",
+      "options": [
+        {
+          "id": "evidence071-curriculum-review-try",
+          "text": "Compare how well two learning guides work and revise the sequence using evidence about understanding.",
+          "all": [
+            "f:learning-guide",
+            "m:design",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-curriculum-review-explain",
+          "text": "Explain a familiar idea without evaluating a course or curriculum"
+        },
+        {
+          "id": "evidence071-curriculum-review-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 11,
+        "positive": 0,
+        "unknown": 11,
+        "reused": 62
+      },
+      "development": {
+        "offered": 9,
+        "positive": 0,
+        "unknown": 9,
+        "reused": 47
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      },
+      "holdout056": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 14
+      }
+    },
+    {
+      "id": "evidence071-educator-coaching",
+      "domain": "responsibility",
+      "careerIds": [
+        "degree-25903100"
+      ],
+      "kind": "evidence",
+      "prompt": "Which education responsibility would you choose to explore?",
+      "options": [
+        {
+          "id": "evidence071-educator-coaching-try",
+          "text": "Help educators review teaching evidence and coordinate curriculum changes with them.",
+          "all": [
+            "f:educator-coaching"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-educator-coaching-learners",
+          "text": "Work directly with learners instead"
+        },
+        {
+          "id": "evidence071-educator-coaching-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 75
+      },
+      "development": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 58
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 1
+      },
+      "holdout056": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 16
+      }
+    },
+    {
+      "id": "evidence071-client-budget",
+      "domain": "responsibility",
+      "careerIds": [
+        "degree-13207100"
+      ],
+      "kind": "evidence",
+      "prompt": "Which financial responsibility would you choose to learn about?",
+      "options": [
+        {
+          "id": "evidence071-client-budget-try",
+          "text": "Help another person compare a manageable debt plan and explain consequences without promising an outcome.",
+          "all": [
+            "f:client-debt-care"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "evidence071-client-budget-records",
+          "text": "Keep records without advising another person"
+        },
+        {
+          "id": "evidence071-client-budget-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 100
+      },
+      "development": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 69
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 31
+      }
+    },
+    {
+      "id": "followup073-workflow-review",
+      "careerIds": [
+        "management-analyst"
+      ],
+      "prompt": "Which part of improving a small team project would you choose?",
+      "kind": "evidence",
+      "domain": "scoped",
+      "options": [
+        {
+          "id": "followup073-workflow-review-try",
+          "text": "Compare how a revised plan worked and coordinate the next change with the people using it.",
+          "all": [
+            "f:workflow-study",
+            "f:workflow-review",
+            "m:investigation",
+            "m:coordination"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "followup073-workflow-review-other",
+          "text": "I would choose a different part of the activity"
+        },
+        {
+          "id": "followup073-workflow-review-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 3,
+        "positive": 0,
+        "unknown": 3,
+        "reused": 0
+      },
+      "development": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 0
+      },
+      "holdout": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "followup073-group-update",
+      "careerIds": [
+        "public-relations"
+      ],
+      "prompt": "Which communication activity would you choose to explore?",
+      "kind": "evidence",
+      "domain": "scoped",
+      "options": [
+        {
+          "id": "followup073-group-update-try",
+          "text": "Prepare an accurate update on behalf of a group, compare how people understood it and respond to questions or criticism.",
+          "all": [
+            "f:public-group-update",
+            "m:explaining",
+            "m:persuading",
+            "m:precision"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "followup073-group-update-other",
+          "text": "I would choose a different part of the activity"
+        },
+        {
+          "id": "followup073-group-update-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 0
+      },
+      "development": {
+        "offered": 2,
+        "positive": 0,
+        "unknown": 2,
+        "reused": 0
+      },
+      "holdout": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    },
+    {
+      "id": "followup073-supply-change",
+      "careerIds": [
+        "logistics"
+      ],
+      "prompt": "Which planning activity would you choose?",
+      "kind": "evidence",
+      "domain": "scoped",
+      "options": [
+        {
+          "id": "followup073-supply-change-try",
+          "text": "Compare a delayed delivery with the stock records, then coordinate a revised plan and explain its limits.",
+          "all": [
+            "f:delay-records",
+            "m:organization",
+            "m:quantitative",
+            "m:coordination"
+          ],
+          "any": [],
+          "block": []
+        }
+      ],
+      "alternatives": [
+        {
+          "id": "followup073-supply-change-other",
+          "text": "I would choose a different part of the activity"
+        },
+        {
+          "id": "followup073-supply-change-unknown",
+          "text": "Not sure / have not tried"
+        }
+      ],
+      "all": {
+        "offered": 7,
+        "positive": 0,
+        "unknown": 7,
+        "reused": 0
+      },
+      "development": {
+        "offered": 6,
+        "positive": 0,
+        "unknown": 6,
+        "reused": 0
+      },
+      "holdout": {
+        "offered": 1,
+        "positive": 0,
+        "unknown": 1,
+        "reused": 0
+      },
+      "holdout049": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      },
+      "holdout056": {
+        "offered": 0,
+        "positive": 0,
+        "unknown": 0,
+        "reused": 0
+      }
+    }
+  ],
+  "registry": [
+    {
+      "questionId": "evidence071-physical-model",
+      "careerId": "degree-19201200",
+      "targetQuestionId": "degree-19201200-047-domain",
+      "domain": "domain",
+      "all": [],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-research-report",
+      "careerId": "degree-19201200",
+      "targetQuestionId": "degree-19201200-047-responsibility",
+      "domain": "responsibility",
+      "all": [],
+      "anchorDomains": [
+        "domain",
+        "method"
+      ]
+    },
+    {
+      "questionId": "evidence071-research-report",
+      "careerId": "degree-19309300",
+      "targetQuestionId": "degree-19309300-047-responsibility",
+      "domain": "responsibility",
+      "all": [],
+      "anchorDomains": [
+        "domain",
+        "method"
+      ]
+    },
+    {
+      "questionId": "evidence071-event-commitments",
+      "careerId": "degree-13112100",
+      "targetQuestionId": "degree-13112100-047-responsibility",
+      "domain": "responsibility",
+      "all": [],
+      "anchorDomains": [
+        "domain",
+        "method"
+      ]
+    },
+    {
+      "questionId": "evidence071-curriculum-review",
+      "careerId": "degree-25903100",
+      "targetQuestionId": "degree-25903100-047-method",
+      "domain": "method",
+      "all": [
+        "t:learning"
+      ],
+      "anchorDomains": [
+        "domain"
+      ]
+    },
+    {
+      "questionId": "evidence071-educator-coaching",
+      "careerId": "degree-25903100",
+      "targetQuestionId": "degree-25903100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:learning"
+      ],
+      "anchorDomains": [
+        "domain"
+      ]
+    },
+    {
+      "questionId": "evidence071-client-budget",
+      "careerId": "degree-13207100",
+      "targetQuestionId": "degree-13207100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:finance"
+      ],
+      "anchorDomains": [
+        "domain",
+        "method"
+      ]
+    },
+    {
+      "questionId": "followup073-workflow-review",
+      "careerId": "management-analyst",
+      "targetQuestionId": "management-analyst-interest-044-2",
+      "domain": "management-analyst-interest-044-2",
+      "all": [
+        "t:enterprise",
+        "f:workflow-study"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "followup073-group-update",
+      "careerId": "public-relations",
+      "targetQuestionId": "public-relations-interest-044-2",
+      "domain": "public-relations-interest-044-2",
+      "all": [
+        "t:marketing"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "followup073-supply-change",
+      "careerId": "logistics",
+      "targetQuestionId": "logistics-interest-044-2",
+      "domain": "logistics-interest-044-2",
+      "all": [
+        "t:logistics",
+        "m:organization"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "mechanical-engineering",
+      "targetQuestionId": "mechanical-engineering-interest-044-1",
+      "domain": "mechanical-engineering-interest-044-1",
+      "all": [
+        "t:mechanics",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "mechanical-engineering",
+      "targetQuestionId": "mechanical-engineering-interest-044-2",
+      "domain": "mechanical-engineering-interest-044-2",
+      "all": [
+        "f:mechanism-test",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "m:testing",
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "electrical-engineering",
+      "targetQuestionId": "electrical-engineering-interest-044-1",
+      "domain": "electrical-engineering-interest-044-1",
+      "all": [
+        "t:electronics",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "electrical-engineering",
+      "targetQuestionId": "electrical-engineering-interest-044-2",
+      "domain": "electrical-engineering-interest-044-2",
+      "all": [
+        "f:circuit-test",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "m:testing",
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "architecture",
+      "targetQuestionId": "architecture-interest-044-1",
+      "domain": "architecture-interest-044-1",
+      "all": [
+        "f:layout-comparison",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "architecture",
+      "targetQuestionId": "architecture-interest-044-2",
+      "domain": "architecture-interest-044-2",
+      "all": [
+        "f:layout-comparison",
+        "m:design"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17101200",
+      "targetQuestionId": "degree-17101200-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:spaces",
+        "t:plants"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17102200",
+      "targetQuestionId": "degree-17102200-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:earth"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17201100",
+      "targetQuestionId": "degree-17201100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:space",
+        "t:mechanics"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17202100",
+      "targetQuestionId": "degree-17202100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:plants",
+        "t:mechanics"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17204100",
+      "targetQuestionId": "degree-17204100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:chemistry"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17205101",
+      "targetQuestionId": "degree-17205101-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:infrastructure",
+        "t:logistics",
+        "m:precision",
+        "m:explaining"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17205102",
+      "targetQuestionId": "degree-17205102-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:infrastructure",
+        "t:ecology",
+        "t:chemistry",
+        "m:precision",
+        "m:investigation"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17206100",
+      "targetQuestionId": "degree-17206100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:electronics",
+        "t:computing"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17207200",
+      "targetQuestionId": "degree-17207200-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:electronics"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17208100",
+      "targetQuestionId": "degree-17208100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:ecology",
+        "t:infrastructure"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17211100",
+      "targetQuestionId": "degree-17211100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:safety"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17211102",
+      "targetQuestionId": "degree-17211102-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:safety",
+        "t:infrastructure",
+        "t:spaces",
+        "m:precision",
+        "m:explaining"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17211202",
+      "targetQuestionId": "degree-17211202-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:quality"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17212100",
+      "targetQuestionId": "degree-17212100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:mechanics",
+        "t:infrastructure",
+        "m:coordination",
+        "m:precision",
+        "s:marine-systems"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17213100",
+      "targetQuestionId": "degree-17213100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:chemistry"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17214101",
+      "targetQuestionId": "degree-17214101-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:chemistry",
+        "t:electronics",
+        "t:mechanics",
+        "m:testing",
+        "m:precision"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17214102",
+      "targetQuestionId": "degree-17214102-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:mechanics",
+        "m:coordination",
+        "m:precision",
+        "s:vehicle-systems"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17215100",
+      "targetQuestionId": "degree-17215100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:earth"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17216100",
+      "targetQuestionId": "degree-17216100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:chemistry",
+        "t:mathematics",
+        "m:precision",
+        "m:investigation",
+        "s:nuclear-radiation"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17217100",
+      "targetQuestionId": "degree-17217100-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:earth"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17219905",
+      "targetQuestionId": "degree-17219905-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:mechanics",
+        "t:electronics",
+        "m:design",
+        "m:making",
+        "m:testing",
+        "m:computing"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17219908",
+      "targetQuestionId": "degree-17219908-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:mechanics",
+        "t:electronics"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17219910",
+      "targetQuestionId": "degree-17219910-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:weather",
+        "t:mechanics",
+        "t:electronics",
+        "m:coordination",
+        "m:precision"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    },
+    {
+      "questionId": "evidence071-safety-accountability",
+      "careerId": "degree-17219911",
+      "targetQuestionId": "degree-17219911-047-responsibility",
+      "domain": "responsibility",
+      "all": [
+        "t:ecology",
+        "t:electronics",
+        "t:infrastructure",
+        "m:coordination",
+        "m:explaining"
+      ],
+      "any": [],
+      "block": [
+        "r:safety"
+      ],
+      "anchorDomains": []
+    }
+  ],
+  "claimCounts": [
+    {
+      "id": "degree-43911100",
+      "title": "Statistical Assistants",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Bachelor's degree",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 34224,
+        "reason": "Entry pay proxy; planning assumption"
+      },
+      "models": 6,
+      "development": 6,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "management-analyst",
+      "title": "Management Analysts",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Related work experience usually comes before this role.",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 74519,
+        "reason": "Experienced destination"
+      },
+      "models": 4,
+      "development": 3,
+      "holdout": 1,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "biological-technician",
+      "title": "Biological Technicians",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Typical entry route; some employers accept other preparation.",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 43411,
+        "reason": "First paid stage under stated assumptions"
+      },
+      "models": 3,
+      "development": 2,
+      "holdout": 1,
+      "holdout049": 0,
+      "holdout056": 0
+    },
+    {
+      "id": "exercise-physiology",
+      "title": "Exercise Physiologists",
+      "routes": [
+        {
+          "key": "college",
+          "label": "College · bachelor’s degree",
+          "detail": "Typical entry route; some employers accept other preparation.",
+          "primary": true
+        }
+      ],
+      "budgetExample": {
+        "covers": false,
+        "amount": 40526,
+        "reason": "First paid stage under stated assumptions"
+      },
+      "models": 1,
+      "development": 1,
+      "holdout": 0,
+      "holdout049": 0,
+      "holdout056": 0
+    }
+  ],
+  "checks": {
+    "models": 1000,
+    "mappingRules": 10,
+    "scopedEvidenceTypes": 7,
+    "registryTargets": 40,
+    "maxNewItems": 4,
+    "knownAnswersChecked": 29427,
+    "heldRecordsChecked": 89,
+    "unsureRecordsChecked": 0,
+    "knownAnswersOverwritten": 0,
+    "holdsOverwritten": 0,
+    "sourceStatesChanged": 0,
+    "newProfilePreferences": 0,
+    "liveFlowChanges": 0
+  },
+  "limitations": [
+    "Research only; new authored follow-up items and semantic links are not independently validated scales or real student outcomes.",
+    "0.71 profiles, Yes/No/Unsure and held records are unchanged. Unknown facts remain unknown; positive simulation answers only reuse frozen facts. Source reuse is not independent confirmation.",
+    "Ten binding rules are distinct from connecting seven prior evidence-answer types and from newly offered targeted questions. All prior 0.71 responses, including unknowns, are reused rather than re-asked.",
+    "Scoped choices connect only to reviewed question/construct targets. Technical safety does not supply clinical, financial or legal responsibility. New curriculum-coordinator support needs actual educator-coaching context.",
+    "Current live results, previous research, binding-only results, wired prior responses and additional targeted responses are reported separately. No degree/pay ranking boost, no cap change and no new correlation threshold.",
+    "Development and three previously inspected holdouts use identical policies with separate results. They are diagnostic, not pristine final validation.",
+    "All 0.71 supported alternatives are retained. Top-three ordering can displace a degree, graduate or lifestyle option; such changes remain visible. All routes and existing pay proxies remain available; null pay is unassessed."
+  ]
+}

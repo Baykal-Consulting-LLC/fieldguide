@@ -1,0 +1,1448 @@
+{
+  "schemaVersion": "053-pre-outcome-subjective-1",
+  "authoredOn": "2026-10-19",
+  "reviewer": "Independent biography-only reviewer",
+  "status": "Frozen before this reviewer saw explorer-053 or current matching outcomes",
+  "scope": {
+    "baseModels": 24,
+    "development": 18,
+    "originalHoldout": 6,
+    "freshHoldout": 0,
+    "syntheticCounterexamples": 6,
+    "privateAccountData": false
+  },
+  "selectionMethod": "Purposive coverage across analytical engineering, practical electronics, health-adjacent science, language and ethics, arts, communication, organization, teaching, uncertain interests and access contexts. This is a stress-test sample, not a prevalence estimate. Original holdout cases are evaluated separately; they are not used to tune the engine. Fresh holdout biographies were not opened.",
+  "sourceAccess": "Only biography fields were consumed for case expectations; response histories, recommendation outputs, correlations and salaries were not inspected or calculated.",
+  "interpretation": "Families are relevance expectations for discovery, not a closed gold-label set. Absence from this ledger is not an error. Strong claims need stronger answer evidence than biography themes alone.",
+  "models": [
+    {
+      "id": "life-005",
+      "name": "Amara Okafor",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-005.json#biography",
+      "biographySha256": "4c8093b5d1876a598b4439522d984dcadba3e8d3e9611580032a264b5527f38b",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Ceramics",
+            "Local policy discussions",
+            "Photographing lettering"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Plans reliable routes",
+            "Negotiates shared tasks",
+            "Patient hand finishing"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "At sixteen in 2026, Amara enjoys photographing neighborhood signs and takes a government elective seriously. She is considering a Houston college workshop but needs dates early enough to arrange caregiving, and she dislikes being praised mainly for resilience. Her latest photograph shows a fading shop sign reflected in a puddle after school."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "How would she use time without caregiving duties?",
+            "Does she want public-facing work or simply more influence over local decisions?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Visual arts and photography",
+        "Ceramics and craft design"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Graphic or communication design",
+        "Civic policy research"
+      ],
+      "conditionalOrUnresolved": [
+        "Commercial art: wants to keep making objects without selling them",
+        "Law: policy curiosity alone does not establish extended legal reading or client advocacy"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Caregiving experience treated as nursing, counseling or childcare interest",
+        "Bereavement used to select a helping profession"
+      ],
+      "resolvingQuestion": "Would she enjoy solving visual communication problems for someone else, including revisions, or prefer personal artwork?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-007",
+      "name": "Isabel Rios",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-007.json#biography",
+      "biographySha256": "8fb9b3076dbdd07a1903aeadeb99f861c9ebb9cabe016f17ebe2a1c5e54ada68",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Ensemble playing",
+            "Debugging small programs",
+            "Comparing prices"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Builds clear comparison sheets",
+            "Hears ensemble balance",
+            "Patient error checking"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "At sixteen in 2026, she is exploring dual-credit mathematics and a summer ensemble in West Texas. She hopes to visit a campus but is uncertain whether her interest in calculations depends on having a clear real-world question."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Would she enjoy abstract mathematics with no immediate application?",
+            "How much would she miss ensemble life away from home?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Applied quantitative analysis",
+        "Programming and software troubleshooting"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Accounting or financial analysis",
+        "Operations research",
+        "Ensemble music"
+      ],
+      "conditionalOrUnresolved": [
+        "Abstract mathematics: real-world purpose currently matters",
+        "Professional music: ensemble enjoyment differs from auditions and paid performance"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Bilingual home treated as professional interpreting motivation",
+        "Budget constraints treated as a reason to withhold college study"
+      ],
+      "resolvingQuestion": "When comparing options, does she want to investigate patterns, write a reusable tool, or maintain accurate records over time?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-012",
+      "name": "Tariq Bennett",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-012.json#biography",
+      "biographySha256": "ea96b2acd709233f550234bfca048624db60781fde6c93903837074692ae38f4",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Astronomy",
+            "Drawing instructions",
+            "Swimming"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Explains procedures visually",
+            "Revises after feedback",
+            "Keeps publication dates"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "At sixteen in 2026, he uses library software to animate short explanations. He is interested in a San Antonio college outreach program and a paid summer job, weighing how to preserve drawing time without expecting his hobby to provide income."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "How will he respond to repetitive experimental work?",
+            "Could earning money coexist with an unpressured creative practice?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Visual communication",
+        "Animation and illustration"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Science communication",
+        "Graphic design",
+        "Astronomy exploration"
+      ],
+      "conditionalOrUnresolved": [
+        "Research astronomy: subject curiosity and outreach exposure do not establish sustained quantitative research",
+        "Teaching: communication to children does not settle desire for classroom responsibility"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Every comic or astronomy hobby converted into a confirmed occupation",
+        "Income need treated as evidence of commercial-art interest"
+      ],
+      "resolvingQuestion": "Would he enjoy repeatedly planning and revising visual explanations for an audience after the initial idea is finished?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-018",
+      "name": "Finn Callahan",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-018.json#biography",
+      "biographySha256": "4340cd526d6bc59d3af19a9f9c5360d01f871e55282f48e758c8e930c80fb360",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Bridge sketches",
+            "Orchestra",
+            "Group construction puzzles"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Reads simple plans",
+            "Coordinates rehearsals",
+            "Notices structural weak points"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "At sixteen in 2026, Finn is exploring both Iowa options and Texas programs near relatives. He wants to sample a demanding technical course but refuses to assume that enjoying bridge sketches means he has already settled his future."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Would abstract coursework appeal as much as visible structures?",
+            "Is Texas curiosity durable beyond visiting family?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Civil or structural engineering exploration",
+        "Built-environment technical design"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Architecture",
+        "Construction technology",
+        "Collaborative technical coordination"
+      ],
+      "conditionalOrUnresolved": [
+        "Engineering specialty and degree commitment: abstract mathematics and coursework remain unfamiliar",
+        "Architecture: bridge sketches do not establish interest in occupancy, context or spatial user needs"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Musical collaboration automatically equated to management",
+        "Enjoying tangible structures used to exclude degree engineering"
+      ],
+      "resolvingQuestion": "Would he enjoy modeling forces and comparing alternative designs when no physical build is available yet?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-025",
+      "name": "Leila Haddad",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-025.json#biography",
+      "biographySha256": "3f59e8c62954a8142f3361499edc57742ed7df673f1fc6ac75eaaf49d9cfe527",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Tennis drills",
+            "Mechanical parts",
+            "Watercolor experiments"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Precise repeated practice",
+            "Tracks changes in performance",
+            "Labels assemblies clearly"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "At sixteen in 2026, Leila is comparing Texas summer programs with rigorous experiments and opportunities to build. She wants challenge and recognition, but is beginning to ask whether a schedule filled with competitions leaves enough room to discover unfamiliar interests."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Which challenges remain satisfying without public rankings?",
+            "Can she protect relationships when achievement demands more time?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Mechanical design and engineering exploration",
+        "Engineering test and measurement"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Product design",
+        "Engineering technology",
+        "Visual arts exploration"
+      ],
+      "conditionalOrUnresolved": [
+        "Industrial design: mechanical interest does not establish user-centered form and usability interest",
+        "Professional sport or coaching: personal competitive practice alone is insufficient"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Recognition-seeking treated as business-management interest",
+        "Watercolor experimentation converted into a strong commercial artist match"
+      ],
+      "resolvingQuestion": "Would she prefer understanding a mechanism, testing its performance, or interviewing users and redesigning the whole product?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-031",
+      "name": "Amina Farah",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-031.json#biography",
+      "biographySha256": "ca684defcb39f4a8027ba09afdbbc4bc74852b2753ec6e12d47e5ad81fd9050c",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Strategy games",
+            "Ethical puzzles",
+            "Hand sewing"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Explains complex rules",
+            "Notices inconsistent arguments",
+            "Careful hand stitching"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "At sixteen in 2026, Amina is exploring a Texas college humanities workshop near her aunt and a local design camp. She is curious about difficult ideas but does not yet know whether she likes prolonged academic writing as much as lively discussion."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Will sustained writing become rewarding with a topic she chooses?",
+            "How does she respond when a fair process still produces an outcome she dislikes?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Argument and ethical analysis",
+        "Clear explanation and learning design"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Law or policy exploration",
+        "Philosophy and humanities",
+        "Game or information design",
+        "Textile craft"
+      ],
+      "conditionalOrUnresolved": [
+        "Law: sustained source research, long writing and client obligations remain untested",
+        "Teaching: explaining game rules does not establish classroom preference"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Competitive persuasion or sales labeled strong despite preference for fair dialogue",
+        "Fairness interest treated as proof of lawyer fit"
+      ],
+      "resolvingQuestion": "Would she enjoy researching a contested claim and revising a long written argument, beyond discussing it aloud?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-033",
+      "name": "Ruth Henderson",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-033.json#biography",
+      "biographySha256": "3a5964f8c8bb5803f90c40624d89c113812f5009150be555eaf17f8bcfbd0203",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Physics questions",
+            "Flute phrases",
+            "Bread experiments"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Works through symbolic steps",
+            "Tracks quantities",
+            "Adjusts recipes systematically"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "At sixteen in 2026, Ruth is comparing Texas community-college classes with a short university physics program. She wants to learn difficult material while staying connected to home, and she is uncertain whether she wants a long academic pathway or simply a stronger understanding."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Would sustained laboratory work strengthen her interest?",
+            "How much educational distance from home would feel worthwhile?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Physics and quantitative science",
+        "Applied or theoretical mathematics exploration"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Engineering analysis",
+        "Research or laboratory science",
+        "Quantitative analysis"
+      ],
+      "conditionalOrUnresolved": [
+        "Experimental science: sustained laboratory work untested",
+        "Long academic route: interest in learning does not establish graduate-training commitment"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Farm background used to assign agriculture by default",
+        "Low interest in showcases treated as low scientific ability"
+      ],
+      "resolvingQuestion": "Does she enjoy investigating an uncertain physical result over several trials as much as working through symbolic problems?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-036",
+      "name": "Marisol Treviño",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-036.json#biography",
+      "biographySha256": "c545ef1dfd199c96f53b7474e5e63eae94448dbd634844e582d08f605a8499e2",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Glazing experiments",
+            "Explaining objects",
+            "Family breakfasts"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Checks measurements",
+            "Explains processes orally",
+            "Revises production schedules"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "She takes ceramics and geometry, helps her brothers with spoken vocabulary games, and joins occasional plumbing errands. She wants further education but compares accessible materials and costs before deciding what kind of campus feels possible. At a recent open workshop she asked to handle an unfamiliar tool and requested a demonstration twice. Leaving with an imperfect sample felt better than leaving with another brochure about possibilities."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Would she enjoy selling regularly?",
+            "How much does inaccessible reading shape course preferences?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Ceramics and practical making",
+        "Product production and materials exploration"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Craft enterprise or product operations",
+        "Technical education and practical demonstration",
+        "Materials or manufacturing technology"
+      ],
+      "conditionalOrUnresolved": [
+        "Business ownership: fair sales interest does not establish ongoing marketing, finance or risk preference",
+        "Teaching: sibling vocabulary games do not establish classroom interest"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Reading accommodation used to exclude college or analytical work",
+        "Plumbing errands interpreted as settled trade preference"
+      ],
+      "resolvingQuestion": "Which part would she choose repeatedly: experimenting with material, planning reliable production, or explaining and selling the object?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-038",
+      "name": "Aisha Ellery",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-038.json#biography",
+      "biographySha256": "4266d9a10e28b5f0781c48a75c02595d0fa0c28f34815cd442e3739223691fe2",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Measured improvement",
+            "Family dancing",
+            "Explaining results"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Records repeatable tests",
+            "Communicates health needs",
+            "Gives useful feedback"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "She swims recreationally, keeps a robotics testing notebook, and weighs whether another competitive season deserves the time. Her health is usually well managed, and she wants future study to allow sleep, friendship, and dependable supplies."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Would she enjoy testing outside a noisy club?",
+            "Is reduced competition a lasting preference?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Test engineering and technical quality",
+        "Evidence-based explanation"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Robotics or mechanical testing",
+        "Quality assurance",
+        "Technical communication",
+        "Learning support"
+      ],
+      "conditionalOrUnresolved": [
+        "Clinical health: self-management experience does not show care-delivery interest",
+        "Specific engineering branch requires more interest evidence"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Diabetes used to recommend medicine or nursing",
+        "Noisy competition avoidance used to reject engineering generally"
+      ],
+      "resolvingQuestion": "Would she choose to design repeatable tests and explain the findings in a quiet workshop or lab outside robotics competition?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-054",
+      "name": "Harper Voss",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-054.json#biography",
+      "biographySha256": "fc6ab4c673c96da7ba41bef04929571b24af637d69e36830a683d7a1cd0b7562",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Game strategy",
+            "Fantasy stories",
+            "Teaching through movement"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Reads game situations",
+            "Explains movements",
+            "Keeps observation notes"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "She plays regularly, takes history and statistics, and continues the shared fantasy story with her brother. She would like college opportunities but does not want recruitment to dictate every choice; enjoying a sport and building an entire life around it feel different."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Would she choose the same sport without recruitment possibilities?",
+            "How will she balance leadership with other people’s pace?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Instruction through movement",
+        "Group strategy and analysis"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Physical education or coaching exploration",
+        "Learning or recreation program design",
+        "Writing and storytelling"
+      ],
+      "conditionalOrUnresolved": [
+        "Teaching: regular instruction, age group and classroom duties still need clarification",
+        "Sports analysis: sustained data work not yet established"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Injury treated as motivation for physiotherapy",
+        "Sport participation used to funnel into athletic careers alone"
+      ],
+      "resolvingQuestion": "Would she enjoy planning several sessions, adapting to different learners and reviewing what helped them improve?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-055",
+      "name": "Elena Ward",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-055.json#biography",
+      "biographySha256": "110cb4b3e4a999324a9a37db447b30ced15fd7e5437938de52a0abee090109ef",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Piano improvisation",
+            "Gentle editing",
+            "Familiar outdoor places"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Hears melodic patterns",
+            "Gives specific written feedback",
+            "Communicates workload limits"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "She now attends regularly, plays piano in short sessions, and edits a few submissions rather than leading everything. Some days still feel flat; she is exploring future study slowly and learning which commitments feel nourishing instead of merely evidence that she is improving."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Which older interests will return, change, or fade?",
+            "How can she explore new settings while maintaining care and manageable demands?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Editing and language-centered creative work",
+        "Music creation exploration"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Publishing or editorial work",
+        "Writing",
+        "Collaborative arts"
+      ],
+      "conditionalOrUnresolved": [
+        "Professional music: short improvisation practice alone does not establish occupational commitment",
+        "Current interests may evolve during recovery; avoid overconfident stability claims"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Depression treated as evidence for counseling or as a career disqualification",
+        "Quiet routine preference used to restrict ambition or degree options"
+      ],
+      "resolvingQuestion": "Which manageable activity would she want more of: revising another person’s writing, making her own work, or collaborating musically?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-062",
+      "name": "Alex Nowak",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-062.json#biography",
+      "biographySha256": "1c7f712c82bbe2a387b491816321cd680242dfe0a6d5b35a9d79286cb0b53d8e",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Plant propagation",
+            "Character discussions",
+            "Family recipe notes"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Recognizes care changes",
+            "Supports textual arguments",
+            "Keeps patient records"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "He now maintains greenhouse plants, reads widely, and visits his aunt in El Paso during breaks. He is curious about continued study but wants to evaluate ordinary daily life on campuses as carefully as their brochures and welcoming statements."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Would he enjoy plant study at a more technical level?",
+            "Which campus routines would help him feel both private and connected?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Plant and horticultural science exploration",
+        "Textual analysis"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Botany or plant research",
+        "Horticulture",
+        "Literature or editing"
+      ],
+      "conditionalOrUnresolved": [
+        "Scientific research: care routines alone do not establish appetite for experimental design and analysis",
+        "Professional counseling unsupported by privacy and belonging motivations"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Gender identity used to recommend advocacy or helping professions",
+        "Plant hobby alone treated as confirmed biological researcher"
+      ],
+      "resolvingQuestion": "Would he enjoy comparing plant treatments, recording unexpected results and using them to change an explanation?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-067",
+      "name": "Greta Halvorsen",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-067.json#biography",
+      "biographySha256": "36cf4f681b945f373ae96f4bc9a65cdf879f9dbdb6be993c9cad6237653dcda5",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Organizing usable spaces",
+            "Familiar novels",
+            "Short social walks"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Labels materials clearly",
+            "Answers concrete questions",
+            "Maintains routine commitments"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "She now helps with service-club supplies and occasionally reads to children at the library. A cousin’s invitation makes Texas education options feel real, but she is still distinguishing enjoyment, familiarity, and willingness to persist when friends choose something different."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Which activities would persist without friends attending?",
+            "Does she prefer predictable work or simply need more supported introductions to unfamiliar tasks?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Practical information and resource organization",
+        "Clear routine support"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Library or records support",
+        "Operations support",
+        "Information organization"
+      ],
+      "conditionalOrUnresolved": [
+        "Librarianship: reading and sorting alone do not establish professional information-service interest",
+        "Predictability may reflect exposure rather than fixed work preference"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Low expressed passion treated as inability or a reason for a narrow low-education list",
+        "Occasional reading to children treated as confirmed teaching interest"
+      ],
+      "resolvingQuestion": "Would she like learning how to organize unfamiliar information so others can find what they need, beyond sorting supplies she already knows?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-069",
+      "name": "Evan Rourke",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-069.json#biography",
+      "biographySha256": "bebf520522510e9b3903909308cf52cace62c8c73d2779899f8aa0f0d0ed7ec8",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Audio storytelling",
+            "Troubleshooting physical mechanisms",
+            "Cooking for a small group"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Film sequencing",
+            "Spatial assembly",
+            "Using evidence in spoken explanations"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "He films swim meets and is trying robotics again with a smaller team that shares documentation duties. His grades are solid, yet he describes himself as behind whenever classmates finish reading first; unfamiliar practical work sometimes restores his confidence."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "How much did documentation versus team size influence leaving robotics?",
+            "Will confidence improve when access tools feel ordinary?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Film and audio storytelling",
+        "Mechanical troubleshooting exploration"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Film editing or documentary production",
+        "Robotics or engineering technology",
+        "Technical communication"
+      ],
+      "conditionalOrUnresolved": [
+        "Research-intensive work: access barriers must be separated from actual interest",
+        "Professional cooking: meal enjoyment does not settle repeated production and cleanup preference"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Reading speed used to veto college study or engineering",
+        "Robotics exit interpreted as aversion to all technical work despite team and access context"
+      ],
+      "resolvingQuestion": "With documentation tools and shared workload available, would he choose mechanism testing, story editing, or both?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-077",
+      "name": "Owen Patel",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-077.json#biography",
+      "biographySha256": "d560f96fe34bfeab5d3e93835422f67121f5c609dfa06c266a78d32ce444f448",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Testing mechanisms",
+            "Accompanying singers",
+            "Prepared demonstrations"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Clear technical explanations",
+            "Listening and adjusting musically",
+            "Careful testing records"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "Owen still experiences difficult evenings, especially before unfamiliar tasks, but attends school consistently and uses agreed support rather than repeated reassurance. He is considering a summer workshop while admitting that both engineering activities and collaborative music can absorb him."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "How will unfamiliar settings affect routines that currently help?",
+            "Does he choose some structured activities from genuine enjoyment, predictability, or both?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Engineering test and analysis",
+        "Collaborative music"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Robotics or mechanical engineering",
+        "Engineering technology",
+        "Technical explanation"
+      ],
+      "conditionalOrUnresolved": [
+        "Industrial design: mechanism testing alone does not establish user-centered product creation",
+        "Structured preferences may combine enjoyment and current coping supports"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Anxiety treated as evidence of inability to handle engineering or unfamiliar settings",
+        "Careful records automatically equated to accounting or compliance motivation"
+      ],
+      "resolvingQuestion": "Does he want to investigate why a mechanism behaves unexpectedly, design a new mechanism, or mainly verify it against a known standard?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-082",
+      "name": "Malik Harbin",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-082.json#biography",
+      "biographySha256": "388500fc256a4e5b60e5a87b96c98cdeba64f56ba370dec3c2802cb642f5ff8a",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Visual design",
+            "Hair and costume experiments",
+            "Presenting to an audience"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Readable layouts",
+            "Adapting a work setup",
+            "Confident prepared introductions"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "Malik designs publicity for a student production and helps plan seating for audience members with access needs. His symptoms fluctuate. He wants opportunities that allow flexibility without assuming his interests must stay indoors or that every activity should be easy."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Which activities remain satisfying during symptom changes?",
+            "Does his interest in chemistry persist beyond visually striking experiments?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Visual communication design",
+        "Theater costume and appearance design"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Graphic design",
+        "Digital interface visual design",
+        "Costume or fashion design",
+        "Cosmetology exploration"
+      ],
+      "conditionalOrUnresolved": [
+        "Chemistry: striking mixtures are not yet sustained research interest",
+        "Software engineering: changing page appearance differs from debugging logic"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Mobility or symptom constraints used to confine careers to indoor desk work",
+        "Public presentation skill treated as generic management preference"
+      ],
+      "resolvingQuestion": "Would he prefer revising visual communication for an audience, making wearable designs, or experimenting with the properties of materials?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-094",
+      "name": "Sadie Pruitt",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-094.json#biography",
+      "biographySha256": "9c0efd981ccfcf352668fe99eecde8d58dba4e6e0b0806abe6e19b1299c34f38",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Ensemble clarinet",
+            "Paper mechanisms",
+            "Clear customer conversations"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Following circuit diagrams",
+            "Organizing shared equipment",
+            "Precise paper folding"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "Sadie now helps organize band equipment and occasionally assists at resale events. She calls herself untechnical despite successful repairs, partly because she compares herself with relatives who work quickly. She wants to learn at her own pace without having to enjoy dirt or loud machinery."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "How will her confidence change with comparison to her own earlier work?",
+            "Would she enjoy customer work with training in boundaries and pricing?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Electronics and precision technical work exploration",
+        "Practical systems coordination"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Electrical or electronics engineering exploration",
+        "Electronics technology",
+        "Technical repair",
+        "Operations support"
+      ],
+      "conditionalOrUnresolved": [
+        "Degree engineering: mathematical modeling and design interest not yet known",
+        "Customer service: clear helpful conversations do not imply persuasion or bargaining"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Calling herself untechnical allowed to override actual circuit experience",
+        "Dislike of grease or noise used to exclude all engineering and technical careers"
+      ],
+      "resolvingQuestion": "Would she enjoy learning the principles behind a circuit and designing alternatives, as well as following a diagram to repair it?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-096",
+      "name": "Claire Okafor",
+      "cohort": "development",
+      "biographySource": "validation/blind-2026-10-18/life-096.json#biography",
+      "biographySha256": "466f91f85a5c118f5fd6a2018738879814db815c84611d943933eb1d69b2453b",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Microscope drawing",
+            "Ensemble trombone",
+            "Inventing menus"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Detailed observational drawings",
+            "Adapting kitchen workflows",
+            "Listening within an ensemble"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "She continues band and cooking, and has begun a small illustrated notebook about microscopic life. She is curious about experiments but has limited sustained laboratory experience. She wants unfamiliar challenges and ordinary feedback, rather than automatic praise for participating."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Would sustained laboratory recordkeeping interest her as much as observation?",
+            "How will she manage cost estimates when stakes increase?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Microscopy and biological observation",
+        "Visual scientific communication"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Biology or microbiology exploration",
+        "Laboratory science",
+        "Scientific illustration",
+        "Food science exploration"
+      ],
+      "conditionalOrUnresolved": [
+        "Medicine or nursing: observing microscopic life does not establish patient care interest",
+        "Laboratory research: sustained records and repetitive procedures remain untested"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Physical access needs used to withhold laboratory occupations",
+        "Cooking or baby-adjacent care interpreted as dietetics or clinical motivation without further evidence"
+      ],
+      "resolvingQuestion": "Would she enjoy planning a longer investigation and keeping repeated measurements, or mainly observing and illustrating what she sees?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-003",
+      "name": "Priya Desai",
+      "cohort": "original-holdout",
+      "biographySource": "validation/blind-2026-10-18/life-003.json#biography",
+      "biographySha256": "2537b852c2c49f96b2b1cddac8e14ab7205e21d054a1e9869723ca2ae3cf097e",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Sketching spaces",
+            "Spice experiments",
+            "Collaborative games"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Revises designs after observation",
+            "Writes clear summaries",
+            "Careful laboratory notes"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "At sixteen in 2026, she takes demanding science courses, sketches public spaces, and sometimes wishes her schedule contained nothing impressive. She is comparing Texas campus visits partly by whether students seem able to change their minds."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Which activities would remain without external praise?",
+            "How much structure does she actually want?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Human-centered design",
+        "Information and spatial usability"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Human factors engineering",
+        "Interaction design or user research",
+        "Architecture or planning exploration",
+        "Communication design"
+      ],
+      "conditionalOrUnresolved": [
+        "Architecture: technical building systems and extended studio work untested",
+        "Engineering: branch-specific methods require exploration"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Robotics membership automatically equated to software engineering",
+        "Achievement and demanding classes mistaken for specific career interest"
+      ],
+      "resolvingQuestion": "Would she enjoy comparing observed user behavior, testing design changes and documenting why one solution works better?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-017",
+      "name": "Nadia Flores",
+      "cohort": "original-holdout",
+      "biographySource": "validation/blind-2026-10-18/life-017.json#biography",
+      "biographySha256": "597c40be04e18b67da1c04fbf7865ce78e9334921ac2e66efc0f43e966647bd4",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Historical fact checking",
+            "Martial arts drills",
+            "Costume ideas"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Verifies accounts against documents",
+            "Calm customer service",
+            "Consistent practice"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "At sixteen in 2026, Nadia is comparing Texas community-college offerings and a university public-history event. She wants opportunities beyond her current neighborhood while keeping the stable relationships she has worked hard to rebuild in ordinary daily routines."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Does research appeal beyond personally meaningful local subjects?",
+            "How much distance would feel like opportunity rather than another disruption?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Historical investigation",
+        "Source verification and public history"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Archives or museum interpretation",
+        "Journalism research",
+        "History scholarship exploration"
+      ],
+      "conditionalOrUnresolved": [
+        "Law: local history inquiry and calm customer service do not establish legal practice interest",
+        "Research outside personally meaningful local subjects remains uncertain"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Family incarceration used to recommend criminal law or policing",
+        "Martial arts practice treated as evidence for enforcement occupations"
+      ],
+      "resolvingQuestion": "Would she enjoy checking conflicting documents and interviews about a topic with no personal connection, then explaining what remains uncertain?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-028",
+      "name": "Malik Thompson",
+      "cohort": "original-holdout",
+      "biographySource": "validation/blind-2026-10-18/life-028.json#biography",
+      "biographySha256": "e788ff2d570593c4ca1077729a80171c32e6cfa32bd4416c0220088925b7150d",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Signed comedy",
+            "Wayfinding photographs",
+            "Informal chess analysis"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Visual timing",
+            "Clear access requests",
+            "Compares layouts carefully"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "At sixteen in 2026, Malik is exploring Texas campus visits near his sister and asking specific questions about interpreting and captioning. He wants access to both Deaf peers and broad electives, without assuming one campus feature can answer every daily-life question."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Which settings offer reliable everyday communication?",
+            "Would design interest persist through technical production requirements?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Wayfinding and visual communication",
+        "Accessible design exploration"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Human factors or usability",
+        "Graphic or information design",
+        "Urban or spatial planning exploration"
+      ],
+      "conditionalOrUnresolved": [
+        "Architecture and engineering need production-method and technical-interest clarification",
+        "Accessibility advocacy may be chosen or may be an imposed responsibility"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Deaf identity used as automatic interpreting or disability-service interest",
+        "Captioning needs treated as an occupational restriction"
+      ],
+      "resolvingQuestion": "Would he enjoy testing layouts with different users and revising a design through technical production, beyond noticing confusing spaces?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-066",
+      "name": "Lucía Benítez",
+      "cohort": "original-holdout",
+      "biographySource": "validation/blind-2026-10-18/life-066.json#biography",
+      "biographySha256": "8d44d2be0eda4169d5b3821171a11fa480240b7df095d25288eeda3cbdfaea3c",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Accordion tunes",
+            "Soil experiments",
+            "Bilingual wordplay"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Compares physical samples",
+            "Revises pickup forms",
+            "Practices from recordings"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "Lucía studies chemistry through the co-op, practices borrowed accordion, and helps at selected market shifts. Texas colleges and technical programs are possibilities she can name, though she wants more firsthand experience before deciding whether to stay near land, music, both, or neither."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Would she enjoy formal scientific work away from familiar land?",
+            "How much group music can she sustain with travel constraints?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Applied soil or environmental science exploration",
+        "Practical information improvement"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Agronomy or soil science",
+        "Laboratory science",
+        "Information or graphic design exploration",
+        "Language-centered creative work"
+      ],
+      "conditionalOrUnresolved": [
+        "Design: one pickup-form revision supports exploration, not occupational certainty",
+        "Translation: bilingual wordplay does not establish accuracy-focused professional translation interest"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Rural family work treated as an obligation to enter agriculture",
+        "Bilingual background treated as automatic interpreting preference"
+      ],
+      "resolvingQuestion": "Would she choose a controlled soil comparison with formal records away from the family farm, and would she enjoy revising other unfamiliar information systems?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-074",
+      "name": "Brielle Booker",
+      "cohort": "original-holdout",
+      "biographySource": "validation/blind-2026-10-18/life-074.json#biography",
+      "biographySha256": "a07ca1fed34acaac4c6c2b40c529fe3e3255fa446089be973015e9a43d9f1202",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Dance practice",
+            "Telescope alignment",
+            "Caring for horses without competition"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Safety checks",
+            "Remembering movement sequences",
+            "Patient explanations to children"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "Brielle attends dance weekly, helps at occasional riding days, and borrows a telescope through the library. She is comfortable directing children but hesitant asking unfamiliar adults for information, especially when she assumes their time is more valuable than hers."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "Does astronomy remain compelling when it requires more mathematics?",
+            "Would working with peers feel different from guiding younger children?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Movement instruction",
+        "Practical observation and equipment alignment"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Physical education or recreation instruction",
+        "Animal care exploration",
+        "Astronomy or instrumentation exploration"
+      ],
+      "conditionalOrUnresolved": [
+        "Astronomy: sustained mathematical work not yet established",
+        "Early-childhood education: riding safety instruction is not equivalent to broad developmental teaching or care"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Patient explanations to children treated as confirmed preschool teaching",
+        "Horse care or telescope use alone converted into veterinarian or astronomer certainty"
+      ],
+      "resolvingQuestion": "Would she enjoy teaching a range of skills over many sessions, or is helping younger riders the particular setting she values?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    },
+    {
+      "id": "life-099",
+      "name": "Elena Castillo-Brooks",
+      "cohort": "original-holdout",
+      "biographySource": "validation/blind-2026-10-18/life-099.json#biography",
+      "biographySha256": "af50247f848028449f6ed4b22e77d50a7df5ccccd26816ecf44be346cab736cc",
+      "evidence": [
+        {
+          "path": "currentLife.enjoys",
+          "value": [
+            "Explanations in chemistry",
+            "Book discussions",
+            "Measured cooking with small variations"
+          ]
+        },
+        {
+          "path": "currentLife.demonstratedSkills",
+          "value": [
+            "Accurate measurement",
+            "Strong academic reading",
+            "Responding patiently to a baby's changing needs"
+          ]
+        },
+        {
+          "path": "timeline[-1].story",
+          "value": "She remains academically successful and is trying a weekend cooking group where participants adapt recipes. She wants more experience making and testing things, but unfamiliar tasks expose how little she trusts competence that cannot be confirmed by a grade."
+        },
+        {
+          "path": "openQuestions",
+          "value": [
+            "How will she respond to sustained open-ended work with supportive feedback?",
+            "Will practical experience broaden or clarify her academic interests?"
+          ]
+        }
+      ],
+      "primaryExplorationFamilies": [
+        "Chemistry and scientific explanation exploration",
+        "Textual reasoning"
+      ],
+      "adjacentProfessionsToInvestigate": [
+        "Chemistry or laboratory science",
+        "Food science",
+        "Science communication",
+        "Humanities research exploration"
+      ],
+      "conditionalOrUnresolved": [
+        "Clinical practice: baby care and chemistry curiosity do not establish patient care motivation",
+        "Independent experimental design and uncertainty tolerance are still developing"
+      ],
+      "unacceptableInferenceOrStretch": [
+        "Academic success treated as proof of doctor fit",
+        "Family childcare duty treated as a positive profession preference"
+      ],
+      "resolvingQuestion": "Would she enjoy designing a small experiment with no expected answer, repeating trials and revising an explanation from the results?",
+      "expectedCertainty": "Exploration relevance only. Biography is not a completed assessment or evidence of professional readiness."
+    }
+  ],
+  "counterexamples": [
+    {
+      "id": "synthetic-engineering-analytic",
+      "group": "engineering",
+      "signals": [
+        "Enjoys modeling forces and comparing mechanism alternatives",
+        "Enjoys controlled tests and explaining failure causes",
+        "Dislikes vehicle maintenance and greasy repair tasks"
+      ],
+      "expected": [
+        "Keep analytical engineering professions visible",
+        "Offer branch-specific comparisons; do not veto based on dislike of manual trades"
+      ],
+      "unacceptable": [
+        "Conclude all engineering is a poor fit from low manual repair interest",
+        "Automatically confirm every engineering specialty"
+      ]
+    },
+    {
+      "id": "synthetic-engineering-practical",
+      "group": "engineering",
+      "signals": [
+        "Enjoys following circuit diagrams and repairing supervised equipment",
+        "Unsure about mathematical modeling and open-ended design"
+      ],
+      "expected": [
+        "Offer electronics technology and engineering exploration side by side",
+        "Show uncertainty about design and mathematical study rather than exclude college options"
+      ],
+      "unacceptable": [
+        "Upgrade all practical repairs to strong degree-engineering fit",
+        "Use unfamiliar mathematics as a negative interest response"
+      ]
+    },
+    {
+      "id": "synthetic-health-clinical",
+      "group": "health",
+      "signals": [
+        "Enjoys learning how symptoms and patient histories inform care",
+        "Enjoys explaining options to a person and sharing follow-up responsibility",
+        "Unsure about invasive procedures"
+      ],
+      "expected": [
+        "Within a health survey show relevant health professions with clinical alternatives and procedure uncertainty",
+        "Use all prior evidence without presenting unrelated global careers as field-survey answers"
+      ],
+      "unacceptable": [
+        "Present software developers as main Health-survey matches because broad correlation is higher",
+        "Interpret uncertainty about invasive work as rejection of all clinical health"
+      ]
+    },
+    {
+      "id": "synthetic-health-nonclinical",
+      "group": "health",
+      "signals": [
+        "Enjoys comparing population patterns and evaluating prevention evidence",
+        "Enjoys explaining community health findings",
+        "Explicitly dislikes hands-on patient care"
+      ],
+      "expected": [
+        "Keep public health, epidemiology and health data/research possibilities available if specific evidence supports them",
+        "Separate patient-care negatives from nonclinical health interest"
+      ],
+      "unacceptable": [
+        "Veto all health professions because clinical care was declined",
+        "Confirm physician or nurse despite direct sustained patient-care dislike"
+      ]
+    },
+    {
+      "id": "synthetic-health-exposure-only",
+      "group": "health",
+      "signals": [
+        "Has managed own illness and attended many appointments",
+        "No expressed preference yet for clinical care, health research or community health work"
+      ],
+      "expected": [
+        "Invite exploration if requested",
+        "Record unknown health-profession interests as unknown"
+      ],
+      "unacceptable": [
+        "Use diagnosis or personal medical exposure as positive health-career evidence",
+        "Treat unfamiliar professional work as a negative preference"
+      ]
+    },
+    {
+      "id": "synthetic-overlap-boundary",
+      "group": "health-engineering-overlap",
+      "signals": [
+        "Wants Health-field results",
+        "Enjoys medical-device design and usability testing",
+        "Also has broad evidence supporting software and mechanical systems"
+      ],
+      "expected": [
+        "Include deliberately reviewed health-overlap professions such as biomedical engineering or medical-device human factors when membership is documented",
+        "Show unrelated global software or engineering recommendations only in a separate opt-in cross-field invitation"
+      ],
+      "unacceptable": [
+        "Use an overly literal single-field taxonomy to exclude legitimate cross-disciplinary health roles",
+        "Allow every globally correlated career into field-survey results without membership justification"
+      ]
+    }
+  ]
+}

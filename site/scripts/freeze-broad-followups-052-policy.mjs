@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {createHash} from 'node:crypto';
+const root='research/broad-followups-052/',sha=f=>createHash('sha256').update(fs.readFileSync(f)).digest('hex');
+if(fs.existsSync(root+'replay-policy-freeze.json'))throw Error('Policy is already frozen.');
+fs.writeFileSync(root+'replay-policy-freeze.json',JSON.stringify({at:new Date().toISOString(),questionFreezeSHA256:sha(root+'question-freeze.json'),files:{'dist/broad-followups-052-replay.js':sha('dist/broad-followups-052-replay.js')},qualityPolicy:'All new positive inferences must have direct construct support, valid biography references and medium/high confidence; each selected option must have its own specific evidence. Unknown does not become No. Apply only newly unasked IDs, preserve original inputs. Review every changed Top after the first rerun and document any inference stretch without tuning the matching rules.'},null,2)+'\n');

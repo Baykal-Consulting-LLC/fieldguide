@@ -1,0 +1,299 @@
+{
+  "version": "established-methods-046",
+  "date": "2026-10-19",
+  "scope": "Verified official methodology after reading the existing competitive-assessments-2026-10-18.md and competitive-school-platforms-2026-10-18.md. No purchases, signups, student-data submission, authenticated assessments, engine edits or private-model access.",
+  "answerToUserConcern": "Direct profession-function questions fit better after initial self-discovery and neutral exposure. Established systems usually measure patterns across many activities or performance exercises, map them to occupations, and let users learn more. However, interest inventories still use work activities and Strong includes job titles: their documentation does not prove a title-free survey eliminates bias. Separate interests, self-confidence, demonstrated aptitude and values, with transparent limits.",
+  "sources": [
+    {
+      "id": "onet-current",
+      "url": "https://www.onetcenter.org/IP.html",
+      "title": "O*NET Interest Profiler: current formats",
+      "evidence": "The official inventory measures six RIASEC interests and links to over 900 occupations. Current public web form is the 30-item Mini-IP; the 60-item Short Form is separate. These are preferences, not scored demonstrations of ability."
+    },
+    {
+      "id": "onet-manual",
+      "url": "https://www.onetcenter.org/dl_files/IP_Manual.pdf",
+      "title": "O*NET Interest Profiler Manual, March 2021",
+      "locator": "Chapter 3, printed pages 22\u201325",
+      "evidence": "Documented occupational linkage uses correlation between six-score client and occupation profiles, measuring shape rather than level. Results are presented by preparation Job Zone and fit bands. Instrument evidence does not validate arbitrary rewording or a new editorial composite."
+    },
+    {
+      "id": "onet-license",
+      "url": "https://www.onetcenter.org/license_tools.html",
+      "title": "O*NET Career Exploration Tools Content License",
+      "evidence": "Verbatim redistribution and modification have different licenses. The modification license includes validation and notices. Preserve the chosen official form and attribution; label new discovery items editorial."
+    },
+    {
+      "id": "cos-interest",
+      "url": "https://cloudfront.careeronestop.org/Toolkit/Careers/careers.aspx",
+      "title": "CareerOneStop career tools",
+      "evidence": "Lists a 30-question Interest Assessment and occupational profiles covering wages, education, employment and knowledge, skills and abilities. The index does not disclose an exact combined matching formula."
+    },
+    {
+      "id": "cos-skills",
+      "url": "https://github.com/CareerOneStop/Skills-Matcher",
+      "title": "CareerOneStop official Skills-Matcher repository",
+      "evidence": "API provides 40 skill statements for users to rate themselves, then analyzes ratings into occupation matches. The inspected repository does not supply full coefficients or current school-student calibration."
+    },
+    {
+      "id": "cos-values",
+      "url": "https://cloudfront.careeronestop.org/Toolkit/Careers/work-values-matcher-help.aspx",
+      "title": "CareerOneStop Work Values Matcher help",
+      "evidence": "A card sort ranks 20 statements, then a formula compares them with occupational work-value ratings. Help points to the older O*NET Work Importance Locator and notes those data are no longer supported by O*NET."
+    },
+    {
+      "id": "strong-items",
+      "url": "https://strongsupplement.themyersbriggs.com/chapter1.html",
+      "title": "Strong 244 Technical Supplement: Items",
+      "evidence": "Its 244 items span five sections: occupations, subject areas, activities, people and self-described characteristics. This established assessment is not job-title-free. Some platforms randomize item order inside sections."
+    },
+    {
+      "id": "strong-model",
+      "url": "https://strongsupplement.themyersbriggs.com/chapter5.html",
+      "title": "Strong 244: Occupation Similarity Scales",
+      "evidence": "Documents 321 occupation scales. Elastic-net penalized logistic regression distinguishes occupation samples from a general reference sample using 233 holdover items; occupation-group scores have mean 50. These are interest similarity scores, not admission or career-success probabilities."
+    },
+    {
+      "id": "strong-basic",
+      "url": "https://strongsupplement.themyersbriggs.com/chapter3.html",
+      "title": "Strong 244: Basic Interest Scales",
+      "evidence": "Narrower domains such as Law, Healthcare Services, Science, and Programming & Information Systems supplement broad themes. Publisher technical evidence is not automatically evidence for Fieldguide or a new adolescent population."
+    },
+    {
+      "id": "ys-faq",
+      "url": "https://www.youscience.com/discovery-faqs/",
+      "title": "YouScience Discovery FAQs,current official product description",
+      "evidence": "Describes game-like aptitude exercises separate from interests, with 11 exercises totaling about 90 minutes for grade 9 and beyond. Dimensions include reasoning, spatial visualization, visual comparison speed and vocabulary. Current matching is proprietary and references O*NET. Innateness and broad fairness claims are vendor claims."
+    },
+    {
+      "id": "ys-technical",
+      "url": "https://resources.youscience.com/rs/806-BFU-539/images/Validity_Full_Report.pdf",
+      "title": "The Validity Behind YouScience, HumRRO report hosted by vendor",
+      "locator": "PDF pages 5\u20137",
+      "evidence": "An older report describes an augmented Ball Aptitude Battery, 60-item O*NET interests, expert mappings to O*NET descriptors, comparable scaling, profile similarity and simulated-user vetting. Full operational weights are not provided. Its older battery description differs from the current FAQ, so version equivalence is unverified."
+    },
+    {
+      "id": "morrisby-admin",
+      "url": "https://support.morrisby.com/support/solutions/articles/44002054625-administering-morrisby-profile-assessments",
+      "title": "Morrisby Profile Administration Guide, updated August 11, 2026",
+      "evidence": "At age 15 and beyond, students complete verbal, numerical, abstract, spatial and mechanical tasks plus interests/personality questionnaires; optional priorities and study interests follow. Full configuration takes about 1 hour 50 minutes. Performance and self-report modules are distinct."
+    },
+    {
+      "id": "morrisby-profile",
+      "url": "https://www.morrisby.com/morrisby-profile",
+      "title": "Morrisby Profile: official product page",
+      "evidence": "Says abilities, interests and personality inform career/subject recommendations and later exploration. Statements about independence from educational or social background are vendor claims, not independently established fairness conclusions in this review."
+    },
+    {
+      "id": "morrisby-history",
+      "url": "https://www.morrisby.com/about",
+      "title": "Morrisby history",
+      "evidence": "Describes a fuzzy-logic expert system begun in the 1970s and still used. This does not reveal current weights, calibration or a reproducible matching specification."
+    },
+    {
+      "id": "kuder-current",
+      "url": "https://help.kuder.com/en/articles/6063433-students-how-to-take-assessments-in-navigator",
+      "title": "Kuder Navigator assessment instructions, August 11, 2026",
+      "evidence": "Interest questions ask how much activities are liked/disliked. Skills Confidence separately asks confidence in performing tasks, explicitly not liking. Work Values ranks priorities. Confidence is self-perceived ability, not an objective performance test."
+    },
+    {
+      "id": "kuder-model",
+      "url": "https://www.kuder.com/wp-content/uploads/2022/11/KCIA-L-2019-Technical-Brief.pdf",
+      "title": "KCIA-L Technical Brief, August 1, 2019",
+      "evidence": "The 60-item KCIA-L measures six Holland interest areas. O*NET occupations are matched by Euclidean distance; pathway/cluster profiles use constituent-occupation medians. Reports student think-alouds, item analysis, structural validity and DIF checks. Historical evidence does not prove current combined-platform outcomes."
+    },
+    {
+      "id": "kuder-explore",
+      "url": "https://help.kuder.com/en/articles/8173342-students-how-to-utilize-navigator",
+      "title": "How to Utilize Kuder Navigator, August 11, 2026",
+      "evidence": "Current help describes grades 6\u201312, separate repeatable assessments and more than 1,000 occupations organized by results, clusters/pathways or title. Career pages then explain pay, education and tasks."
+    }
+  ],
+  "establishedSystems": [
+    {
+      "name": "O*NET / My Next Move",
+      "constructs": [
+        "Activity preferences: six RIASEC interests"
+      ],
+      "matchingMechanism": "Sum official activity preferences into six scores; compare the whole profile with occupational interests using documented correlation and presentation rules. Preparation levels are explored separately.",
+      "roleCues": "Users need not nominate a profession, but many activities are recognizably related to occupations. The method does not claim complete freedom from preconceptions.",
+      "learnMore": "Results lead to occupational tasks, knowledge, skills, abilities, education, pay and outlook.",
+      "evidence": "Public technical manual and occupational mappings; comparatively inspectable.",
+      "cannotInfer": "No aptitude, admissions probability or guaranteed earnings. Custom rewording or shortening does not inherit official validity.",
+      "sources": [
+        "onet-current",
+        "onet-manual",
+        "onet-license"
+      ]
+    },
+    {
+      "name": "CareerOneStop",
+      "constructs": [
+        "Interest preferences",
+        "Self-rated skills and knowledge",
+        "Work values"
+      ],
+      "matchingMechanism": "Separate Interest Assessment, Skills Matcher and Work Values Matcher. Values rankings are compared with occupation ratings; skill ratings yield occupation matches. Full coefficients and a validated combined composite were not verified.",
+      "roleCues": "Activities, skill statements and values allow discovery beyond a named profession. Self-ratings still depend on experience, awareness and confidence.",
+      "learnMore": "Profiles expose education, training, occupational attributes and national/state labor data.",
+      "evidence": "Official public tools and API description; formula disclosure varies by tool.",
+      "cannotInfer": "Self-rating is not demonstrated ability or learning potential. Do not silently average these constructs into an aptitude percentage.",
+      "sources": [
+        "cos-interest",
+        "cos-skills",
+        "cos-values"
+      ]
+    },
+    {
+      "name": "Strong 244",
+      "constructs": [
+        "Broad interests",
+        "Basic interests",
+        "Personal styles",
+        "Empirical occupational interest similarities"
+      ],
+      "matchingMechanism": "Occupational similarity models are learned from occupation versus reference-group responses. A wider pattern can suggest a profession without endorsement of its title.",
+      "roleCues": "Includes named occupations alongside other item types. It does not establish that masking all career terms is necessary or sufficient.",
+      "learnMore": "Occupation and academic-major similarity scales support interpretation and exploration.",
+      "evidence": "Current publisher supplement documents items, scales and modeling; distinguish it from independent prospective adolescent outcomes.",
+      "cannotInfer": "Cannot copy proprietary items or train a comparable empirical classifier on 154 fictional models. Similarity is not a calibrated success probability.",
+      "sources": [
+        "strong-items",
+        "strong-model",
+        "strong-basic"
+      ]
+    },
+    {
+      "name": "YouScience",
+      "constructs": [
+        "Performance-based aptitude exercises",
+        "Interests",
+        "Other profile dimensions"
+      ],
+      "matchingMechanism": "Current matching is proprietary. An older HumRRO report describes expert mappings to O*NET descriptors, comparable scaling, similarity and simulated-profile testing.",
+      "roleCues": "Reasoning and spatial exercises do not require career choices and can yield a different list from self-reported interests. That does not eliminate test, exposure or accessibility effects.",
+      "learnMore": "Current FAQ describes career possibilities and educational pathways after assessment.",
+      "evidence": "Current product FAQ plus an older vendor-hosted technical report; current-version mapping and coefficients remain unverified.",
+      "cannotInfer": "Do not repeat hard-wired or universal fairness promises as fact. Homemade puzzles, biography interpretation and self-reported strengths are not equivalent aptitude testing.",
+      "sources": [
+        "ys-faq",
+        "ys-technical"
+      ]
+    },
+    {
+      "name": "Morrisby",
+      "constructs": [
+        "Verbal, numerical, abstract, spatial and mechanical performance",
+        "Interests",
+        "Personality",
+        "Optional priorities and study interests"
+      ],
+      "matchingMechanism": "Official product describes recommendations based on abilities, interests and personality; history describes a fuzzy-logic expert system. Current coefficients and public calibration were not verified.",
+      "roleCues": "Performance modules can reveal strengths without direct profession choices. Questionnaires and later occupation exploration remain separate.",
+      "learnMore": "Students revisit career and course suggestions; individual provision includes guidance.",
+      "evidence": "Current administration guidance details modules and conditions; product descriptions remain vendor claims.",
+      "cannotInfer": "No verified basis here to claim removal of every background effect or copy a predictive fit percentage. Administration time and conditions matter.",
+      "sources": [
+        "morrisby-admin",
+        "morrisby-profile",
+        "morrisby-history"
+      ]
+    },
+    {
+      "name": "Kuder Navigator",
+      "constructs": [
+        "Interests",
+        "Skills confidence",
+        "Work values"
+      ],
+      "matchingMechanism": "The historical KCIA-L technical brief specifies six-score profiling and Euclidean distance to O*NET occupation profiles; current help keeps separate assessments.",
+      "roleCues": "Activity preferences, confidence and values lead to pathways before occupation exploration. Confidence is explicitly self-perceived and can reflect exposure.",
+      "learnMore": "Pathways, clusters, occupations, majors, education routes, favorites and repeat assessments.",
+      "evidence": "Technical brief includes student development input and psychometric checks; current help verifies the workflow.",
+      "cannotInfer": "The 2019 interest brief does not validate every current component or combined outcome. Confidence is not performance aptitude.",
+      "sources": [
+        "kuder-current",
+        "kuder-model",
+        "kuder-explore"
+      ]
+    }
+  ],
+  "revisedFieldguideArchitecture": [
+    {
+      "stage": "1. Self-discovery before named careers",
+      "designProposal": "Keep the official broad interest inventory unchanged. New editorial discovery should ask about varied activities, questions and ways of working in familiar contexts, without first displaying career names, pay, degrees or prestige. Sample several contexts for each construct.",
+      "originalExamplePrototypes": [
+        "Compare two explanations and look for evidence that would tell them apart.",
+        "Work out a fair solution when people have conflicting needs and a shared rule.",
+        "Build a small model, test it, and change one feature to see what improves.",
+        "Look for a pattern in observations, then explain what might make it misleading."
+      ],
+      "limitation": "These are unvalidated examples. Abstract verbs alone cannot distinguish professions; everyday contexts also carry culture and exposure. Test comprehension and bias."
+    },
+    {
+      "stage": "2. Separate strengths from interests",
+      "designProposal": "Optional self-reported strengths should use concrete examples and evidence from familiar activities. Record learning confidence and exposure separately. Objective aptitude requires an appropriately licensed, validated performance battery, age norms and accommodations.",
+      "examples": [
+        "Interest: I would enjoy figuring out why the results disagree.",
+        "Confidence: I feel able to explain my reasoning clearly today.",
+        "Exposure: I have tried this / observed it / it is new to me."
+      ],
+      "limitation": "Grades, hobbies, self-ratings and biographies are context, not direct estimates of innate ability or professional readiness."
+    },
+    {
+      "stage": "3. Generate a wide range of possibilities",
+      "designProposal": "Retrieve from the entire source-backed catalog using full interest patterns and several independent clues. Do not restrict discovery to the first three fields or require confirmed role interest before introducing unfamiliar work. Offer cross-field and degree-route possibilities with their evidence limits.",
+      "examples": [
+        "Evidence comparison plus biological curiosity can invite health research or clinical-reasoning exploration.",
+        "Rules and fairness plus careful argument can invite legal, policy, compliance or social-research exploration.",
+        "Model testing plus spatial and systems curiosity can invite engineering, design or technical-science exploration."
+      ],
+      "limitation": "These are invitations or initial interest possibilities. Generic helping is not physician evidence; talking is not lawyer evidence; liking mathematics is not sufficient engineering evidence."
+    },
+    {
+      "stage": "4. Reveal and learn about the work",
+      "designProposal": "After initial retrieval, reveal professions through plain-language explanations, neutral day-in-the-life examples and adjacent-role comparisons. Show why each appeared and what remains unknown. Students may save, pass or learn more. Realistic work functions matter at this later stage.",
+      "examples": [
+        "Medicine: individual diagnosis/treatment versus disease research versus population health.",
+        "Law: legal research/advice/documents versus courtroom advocacy versus policy analysis.",
+        "Engineering: design/test versus build/install/repair versus investigate underlying science."
+      ],
+      "limitation": "Avoid leading questions such as whether someone wants to be a doctor. Record which explanation was shown and distinguish responses before and after exposure."
+    },
+    {
+      "stage": "5. Optional activities and reflection",
+      "designProposal": "Offer brief, accessible, safe work examples and ask which parts were interesting, tedious or worth learning. Score performance as aptitude only when the activity has appropriate validation; otherwise label it experiential exploration.",
+      "examples": [
+        "Compare brief arguments and identify missing evidence.",
+        "Change a design-model parameter and observe a tradeoff.",
+        "Read a simple pattern display and propose an alternative explanation."
+      ],
+      "limitation": "A brief sample is not professional competency. Offer accessible alternatives; unfamiliar formats or speed should not exclude a whole domain."
+    },
+    {
+      "stage": "6. Keep fit, confirmation, route and money distinct",
+      "designProposal": "Display initial possibilities, supported matches, unresolved work questions and student choices as separate states. Preserve current Top meaning until a versioned change is evaluated; a broad pattern result may instead be labeled an interest match with confirmation recorded separately. Show route willingness, preparation and financial feasibility separately.",
+      "limitation": "Salary, prestige, parent preferences and willingness to study do not create work interest. A realistic non-sustaining match is preferable to a forced high-pay near-match."
+    }
+  ],
+  "specificRevisionsToEarlierRecommendation": {
+    "earlierPrompts": "Direct physician, lawyer and engineer prompts in question-method-research.json belong in later realistic exploration, not the primary discovery bank. First infer relevant areas from multiple activities and constructs, then reveal and investigate roles.",
+    "discoveryVsConfirmation": "Do not require two Yes answers about named job functions before a profession can appear as an initial interest possibility. Do not automatically call an unknown specialty a fully confirmed Top match either. Make the stage and uncertainty visible.",
+    "catalogScale": "Expand by source-backed SOC domains. Require occupational identity, interest attributes, defining activities and sources before discovery publication. Route, licensing, prior experience, first-paid-stage pay and budget evidence are additionally needed for lifestyle coverage. Missing feasibility data should be visible, never fabricated.",
+    "scalableMapping": "Map new editorial discovery questions to explicit constructs first, then map constructs to occupation attributes. This scales better than only hand-written career-ID lists. Keep an inspectable translation table, provenance and independent review; custom scores remain provisional until validated.",
+    "sharedEvidence": "Multiple careers may share activity evidence. Count distinct constructs rather than paraphrases or raw mapped-item totals. Ask another differentiator only when it would change guidance.",
+    "negativeEvidence": "Keep dislike, unfamiliar, uncertain, no exposure and not selected separate. Unknown is neither No nor Yes. Disliking an optional variant is not rejection of the entire profession; an informed dislike of defining work is a material contradiction.",
+    "wholeProfile": "Use all six interest scores, not one highest letter or hobby. Flat profiles should allow open discovery with uncertainty. Broad correlations alone cannot distinguish every specialty.",
+    "fairness": "Title masking is not proof of bias removal. Test reading, culture, accessibility, ordering and title/pay-visibility effects with real students. Avoid demographic assumptions and requirements for expensive shadowing.",
+    "frozenModels": "The 154 profiles are a regression and consistency set, not occupation-classifier training data, student norms or outcome validation. Freeze new questions and biography-based answers before replay; preserve all prior rounds."
+  },
+  "evaluationPlan": [
+    "Pilot activity-only discovery against career-labeled prompts with randomized order and no early pay/degree cues. Measure comprehension, unfamiliar responses and new possibilities considered. More college suggestions alone does not prove lower bias.",
+    "Have independent occupational experts and counselors review construct mappings and adjacent-role coverage before seeing desired matching outcomes.",
+    "Use unseen holdouts and counterexamples: helping without clinical reasoning, mathematics without design, debate without legal research. Preserve plausible unknowns for learning and reject forced promotions.",
+    "Pilot with real students for completion, accessibility, response stability and recognition of actual work after neutral previews. If creating scales, evaluate their content, structure and external evidence. Simulation is not external validation.",
+    "Chart catalogued, retrieved, invited, visible, opened, answered, supported, Top, Other, pending, chosen and sustaining stages separately. Distinguish unique occupation counts from capped displayed lists.",
+    "Preserve original profiles, initial candidates, exposure records, new answers, final matches, choices and budgets as versioned stages. Show actual versus inferred provenance and why results changed."
+  ],
+  "implementationRecommendation": "Expand catalog and discovery retrieval within verified source coverage. Stage the broader activity/construct layer separately from the existing official inventory, preserving historical matches. Introduce unfamiliar careers where evidence justifies learning; promote only with coherent work evidence, without degree or pay quotas."
+}

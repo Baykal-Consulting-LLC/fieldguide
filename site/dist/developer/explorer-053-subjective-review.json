@@ -1,0 +1,4136 @@
+{
+  "version": "053-independent-subjective-review-1",
+  "reviewedOn": "2026-10-19",
+  "status": "Initial blinded review locked; no current raw scores, pay, prior ranking labels or coverage deltas inspected.",
+  "expectationFreeze": {
+    "lockedOn": "2026-10-19",
+    "stage": "pre-outcome; no current recommendations opened by reviewer",
+    "files": {
+      "expectations.json": "f6cc1620b0d579fa7f81c0ac42075e1c170e085f0256fa4784556730d52980a4",
+      "rubric.md": "3f057e93c38ee32b4ad462f06f0ec7ad9ab78042ea3e8c11d82b62dc4f2a10ac"
+    }
+  },
+  "outputPacketSha256": "f16c126b7d1b8c369ce907462ddaf752099e7e32a180a744b54903b9b8c9fb89",
+  "reviewerCount": 1,
+  "scope": "24 purposively sampled public biographies; 18 development and 6 original holdout. Fresh holdout not opened. Synthetic counterexamples defined but not executed by this review.",
+  "importantDistinction": "A plausible discovery option can still have an overstated specific-support claim. Relevance labels here concern exploration, not validated career suitability or professional readiness.",
+  "summary": {
+    "development": {
+      "models": 18,
+      "candidateAppearances": 216,
+      "relevanceLabels": {
+        "supported connection": 37,
+        "plausible adjacent connection": 112,
+        "needs clarification": 67
+      },
+      "modelsWithVisibleCoverageRisk": 11,
+      "specificSupportConcerns": 13,
+      "modelsWithSpecificSupportConcern": 9,
+      "meanOrdinalRatings": {
+        "supportedRelevance": 2.33,
+        "visibleOpportunityCoverage": 2.28,
+        "calibration": 2.0,
+        "observableVariety": 1.83
+      }
+    },
+    "original-holdout": {
+      "models": 6,
+      "candidateAppearances": 72,
+      "relevanceLabels": {
+        "plausible adjacent connection": 35,
+        "supported connection": 9,
+        "needs clarification": 28
+      },
+      "modelsWithVisibleCoverageRisk": 4,
+      "specificSupportConcerns": 4,
+      "modelsWithSpecificSupportConcern": 2,
+      "meanOrdinalRatings": {
+        "supportedRelevance": 2.17,
+        "visibleOpportunityCoverage": 2.33,
+        "calibration": 2.0,
+        "observableVariety": 1.83
+      }
+    }
+  },
+  "globalFindings": [
+    "The leading directions are generally coherent, but several branch-specific labels rest on inherited profile-inferred answers whose rationales call the transfer untested. This is evidence provenance/calibration risk, not a reason to hide those careers.",
+    "The 12-slot global window can repeat a family and bury distinct directly supported directions. This review cannot infer whether hidden careers are accessible elsewhere.",
+    "Every packet candidate has an empty contrary array. That does not prove absence of conflicting interest; it limits this reviewers ability to validate negative-evidence handling.",
+    "No confirmed stereotype-driven veto can be established from these static outputs. Mental health or access requirements should continue to affect support and practical context only where relevant.",
+    "Field-survey scope fidelity, live interactions, added-answer responsiveness, fresh-holdout performance, external-service agreement and before/after gains are not assessed by this packet."
+  ],
+  "cases": [
+    {
+      "id": "life-005",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 2,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Clear art and photography interests anchor the list. Graphic design is plausible; the inferred answers themselves say commissioned layout revision remains untested.",
+      "visibleCoverageRisks": [
+        "Civic-policy exploration not represented by an explicit policy profession in the first window."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Own rationale says commissioned layout revision remains inferred; photographing lettering is not the same chosen process.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 5,
+          "id": "degree-27403100",
+          "title": "Camera Operators, Television, Video, and Film",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "public-relations",
+          "title": "Public Relations Specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "graphic-design",
+          "title": "Graphic Designers",
+          "kind": "specific-support overstatement risk",
+          "reason": "Own rationale says commissioned layout revision remains inferred; photographing lettering is not the same chosen process.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        }
+      ],
+      "followupQuestion": "Would she enjoy solving visual communication problems for someone else, including revisions, or prefer personal artwork?"
+    },
+    {
+      "id": "life-007",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 3,
+        "visibleOpportunityCoverage": 2,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Applied numbers and self-chosen debugging are sound connections. Data science is a learning direction rather than proven statistical-computing interest; translation is correctly broad, not specifically supported.",
+      "visibleCoverageRisks": [
+        "Ensemble music is absent from the first window, although the biography explicitly wants to preserve music without necessarily making it work."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "bookkeeping-clerk",
+          "title": "Bookkeeping, Accounting, & Auditing Clerks",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "accounting",
+          "title": "Accountants and Auditors",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "data-science",
+          "title": "Data Scientists",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "software",
+          "title": "Software developers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 5,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 6,
+          "id": "degree-13203100",
+          "title": "Budget Analysts",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 7,
+          "id": "degree-15129901",
+          "title": "Web Administrators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "web-developer",
+          "title": "Web Developers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "financial-analysis",
+          "title": "Financial and Investment Analysts",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "statistics",
+          "title": "Statisticians",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "cashier",
+          "title": "Cashiers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "When comparing options, does she want to investigate patterns, write a reusable tool, or maintain accurate records over time?"
+    },
+    {
+      "id": "life-012",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 3,
+        "visibleOpportunityCoverage": 2,
+        "calibration": 3,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Repeated newsletter work and current animation provide coherent evidence for the leading visual and writing directions. Several neighboring creative roles offer variety but not separate established interests.",
+      "visibleCoverageRisks": [
+        "Science/astronomy appears mainly through visual storytelling; a science-exploration branch would be useful."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "degree-27304305",
+          "title": "Poets, Lyricists and Creative Writers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 5,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 6,
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "public-relations",
+          "title": "Public Relations Specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Would he enjoy repeatedly planning and revising visual explanations for an audience after the initial idea is finished?"
+    },
+    {
+      "id": "life-018",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Civil engineering connects directly to bridges, plans and structural weaknesses. Architecture is a plausible adjacent direction; users, buildings and spatial design should be clarified rather than marked fully specifically supported.",
+      "visibleCoverageRisks": [],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "civil-engineering",
+          "title": "Civil Engineers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "architecture",
+          "title": "Architects",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 4,
+          "id": "mechanical-engineering",
+          "title": "Mechanical engineers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "biomedical-engineering",
+          "title": "Bioengineers and Biomedical Engineers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "electrical-engineering",
+          "title": "Electrical Engineers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "construction-management",
+          "title": "Construction Managers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "urban-planning",
+          "title": "Urban and Regional Planners",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 3
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "architecture",
+          "title": "Architects",
+          "kind": "specific-support overstatement risk",
+          "reason": "Structural sketches and safety interests support built-environment discovery. The defining inference adds users, building rules and environmental tradeoffs without evidence of a preference to balance those concerns. This is branch uncertainty, not lack of professional experience.",
+          "action": "Retain as exploration; clarify building-user and constraint interests."
+        }
+      ],
+      "followupQuestion": "Would he enjoy modeling forces and comparing alternative designs when no physical build is available yet?"
+    },
+    {
+      "id": "life-025",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Mechanical engineering and technical troubleshooting are reasonable. Electrical engineering is introduced through a fan and mechanical parts, without explicit circuit or electrical-system interest; ranking it first with the same specific-support claim overstates the branch inference.",
+      "visibleCoverageRisks": [],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "electrical-engineering",
+          "title": "Electrical Engineers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "The rationale extends fan/mechanical investigation to electrical systems and explicitly has no circuit experience or electrical preference.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "mechanical-engineering",
+          "title": "Mechanical engineers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "automotive",
+          "title": "Automotive Service Technicians and Mechanics",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 4,
+          "id": "hvac",
+          "title": "HVAC technicians",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 5,
+          "id": "degree-17202100",
+          "title": "Agricultural Engineers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "welder",
+          "title": "Welders, Cutters, Solderers, & Brazers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "industrial-machinery-mechanic",
+          "title": "Industrial Machinery Mechanics",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "biomedical-engineering",
+          "title": "Bioengineers and Biomedical Engineers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "food-science",
+          "title": "Food Scientists and Technologists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "chemistry",
+          "title": "Chemists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "biological-technician",
+          "title": "Biological Technicians",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "carpentry",
+          "title": "Carpenters",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "electrical-engineering",
+          "title": "Electrical Engineers",
+          "kind": "specific-support overstatement risk",
+          "reason": "The rationale extends fan/mechanical investigation to electrical systems and explicitly has no circuit experience or electrical preference.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        }
+      ],
+      "followupQuestion": "Would she prefer understanding a mechanism, testing its performance, or interviewing users and redesigning the whole product?"
+    },
+    {
+      "id": "life-031",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Law, philosophy and teaching are useful exploration choices. Specific-support claims for two teaching age groups and law go beyond the biography: prolonged academic writing, client work and classroom preference remain untested.",
+      "visibleCoverageRisks": [],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "teaching",
+          "title": "Middle school teachers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Game explanations support instruction; the age group and academic classroom remain untested.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "high-school-teacher",
+          "title": "Secondary School Teachers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Teaching complex rules does not settle preference for high-school subjects and classroom duties.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "law",
+          "title": "Lawyers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Fairness and argument support law exploration; prolonged legal research, writing and client scope remain untested.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "degree-25112600",
+          "title": "Philosophy and Religion Teachers, Postsecondary",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 5,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "paralegal",
+          "title": "Paralegals and Legal Assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "elementary-teacher",
+          "title": "Elementary School Teachers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "preschool-teacher",
+          "title": "Preschool Teachers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "teaching",
+          "title": "Middle school teachers",
+          "kind": "specific-support overstatement risk",
+          "reason": "Game explanations support instruction; the age group and academic classroom remain untested.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        },
+        {
+          "careerId": "high-school-teacher",
+          "title": "Secondary School Teachers",
+          "kind": "specific-support overstatement risk",
+          "reason": "Teaching complex rules does not settle preference for high-school subjects and classroom duties.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        },
+        {
+          "careerId": "law",
+          "title": "Lawyers",
+          "kind": "specific-support overstatement risk",
+          "reason": "Fairness and argument support law exploration; prolonged legal research, writing and client scope remain untested.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        }
+      ],
+      "followupQuestion": "Would she enjoy researching a contested claim and revising a long written argument, beyond discussing it aloud?"
+    },
+    {
+      "id": "life-033",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 3,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Physics, mathematics and food experimentation form a coherent range. Statistics and chemistry are plausible learning extensions, but numerical recordkeeping or bread experiments alone do not establish their full specific work interests.",
+      "visibleCoverageRisks": [],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "statistics",
+          "title": "Statisticians",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "chemistry",
+          "title": "Chemists",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "food-science",
+          "title": "Food Scientists and Technologists",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "degree-19201200",
+          "title": "Physicists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 5,
+          "id": "degree-15202100",
+          "title": "Mathematicians",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "degree-19201100",
+          "title": "Astronomers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "data-science",
+          "title": "Data Scientists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "biomedical-engineering",
+          "title": "Bioengineers and Biomedical Engineers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "biological-technician",
+          "title": "Biological Technicians",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "mechanical-engineering",
+          "title": "Mechanical engineers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "electrical-engineering",
+          "title": "Electrical Engineers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "economics",
+          "title": "Economists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Does she enjoy investigating an uncertain physical result over several trials as much as working through symbolic problems?"
+    },
+    {
+      "id": "life-036",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 2,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Industrial design has useful-object, revision and buyer evidence. Carpentry is a plausible practical transfer, but pipe measurement and ceramics do not settle wood construction interest. Childhood pretend restaurant play is weak support for adult counter-service work.",
+      "visibleCoverageRisks": [
+        "Ceramics/fine arts and materials-oriented learning are not explicit professions in the first 12; manual maintenance roles occupy much of the window."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "carpentry",
+          "title": "Carpenters",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "food-counter",
+          "title": "Fast Food & Counter Workers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "plumbing",
+          "title": "Plumbers & pipefitters",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "hvac",
+          "title": "HVAC technicians",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "hairdresser",
+          "title": "Hairdressers, Hairstylists, & Cosmetologists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "landscaping-worker",
+          "title": "Landscaping & Groundskeeping Workers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "janitor-cleaner",
+          "title": "Janitors & Cleaners",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "welder",
+          "title": "Welders, Cutters, Solderers, & Brazers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "general-maintenance",
+          "title": "Maintenance & Repair Workers, General",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "construction-laborer",
+          "title": "Construction Laborers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "dental-assisting",
+          "title": "Dental assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Which part would she choose repeatedly: experimenting with material, planning reliable production, or explaining and selling the object?"
+    },
+    {
+      "id": "life-038",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 1,
+        "calibration": 1,
+        "observableVariety": 1,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Education and quantitative analysis can be offered, but the dominant teaching list misses the clearest engineering-test direction. Elementary teaching from sibling games and data science from robotics records are plausible extensions, not well-established profession-specific preferences.",
+      "visibleCoverageRisks": [
+        "Robotics, engineering testing and technical quality are absent from the first 12 despite recurring chosen testing activity."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "elementary-teacher",
+          "title": "Elementary School Teachers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Sibling games and peer feedback support educational exploration, not specifically academic classroom preference.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "data-science",
+          "title": "Data Scientists",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Repeatable test records support quantitative inquiry; computing/statistical methods are still an inferred branch extension.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "degree-25205901",
+          "title": "Adapted Physical Education Specialists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 4,
+          "id": "preschool-teacher",
+          "title": "Preschool Teachers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "high-school-teacher",
+          "title": "Secondary School Teachers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "statistics",
+          "title": "Statisticians",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "economics",
+          "title": "Economists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "teaching",
+          "title": "Middle school teachers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "childcare-worker",
+          "title": "Childcare Workers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "speech-language",
+          "title": "Speech-Language Pathologists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "occupational-therapy",
+          "title": "Occupational Therapists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "elementary-teacher",
+          "title": "Elementary School Teachers",
+          "kind": "specific-support overstatement risk",
+          "reason": "Sibling games and peer feedback support educational exploration, not specifically academic classroom preference.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        },
+        {
+          "careerId": "data-science",
+          "title": "Data Scientists",
+          "kind": "specific-support overstatement risk",
+          "reason": "Repeatable test records support quantitative inquiry; computing/statistical methods are still an inferred branch extension.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        }
+      ],
+      "followupQuestion": "Would she choose to design repeatable tests and explain the findings in a quiet workshop or lab outside robotics competition?"
+    },
+    {
+      "id": "life-054",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 2,
+        "observableVariety": 1,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Working with children is repeatedly chosen, so teaching exploration is justified. The window spends five leading places on adjacent teaching/care roles and many remaining places on therapy: weak breadth despite relevant central interests. High-school and middle-school specialization remain untested.",
+      "visibleCoverageRisks": [
+        "Movement instruction is represented indirectly; a direct physical-education or coaching direction should be easy to find."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "high-school-teacher",
+          "title": "Secondary School Teachers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "preschool-teacher",
+          "title": "Preschool Teachers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "teaching",
+          "title": "Middle school teachers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "elementary-teacher",
+          "title": "Elementary School Teachers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 5,
+          "id": "childcare-worker",
+          "title": "Childcare Workers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 6,
+          "id": "degree-25201200",
+          "title": "Kindergarten Teachers, Except Special Education",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "degree-25205901",
+          "title": "Adapted Physical Education Specialists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "degree-25904400",
+          "title": "Teaching Assistants, Postsecondary",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "occupational-therapy",
+          "title": "Occupational Therapists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "speech-language",
+          "title": "Speech-Language Pathologists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "physical-therapy",
+          "title": "Physical Therapists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "exercise-physiology",
+          "title": "Exercise Physiologists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Would she enjoy planning several sessions, adapting to different learners and reviewing what helped them improve?"
+    },
+    {
+      "id": "life-055",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 1,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Musical creation has repeated voluntary evidence. Writing ones own longer pieces is not established by enjoyment of editing others; the provided rationale explicitly acknowledges this distinction.",
+      "visibleCoverageRisks": [
+        "Editorial work, the clearest language activity, is absent; Writers and Authors is not the same preference."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "degree-27204100",
+          "title": "Music Directors and Composers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Own longer writing is not described; enjoying editorial feedback supports editing, with authorship an adjacent extension.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "degree-15125501",
+          "title": "Video Game Designers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 4,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "public-relations",
+          "title": "Public Relations Specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "writing",
+          "title": "Writers & authors",
+          "kind": "specific-support overstatement risk",
+          "reason": "Own longer writing is not described; enjoying editorial feedback supports editing, with authorship an adjacent extension.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        }
+      ],
+      "followupQuestion": "Which manageable activity would she want more of: revising another person’s writing, making her own work, or collaborating musically?"
+    },
+    {
+      "id": "life-062",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 1,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Nursery and greenhouse care are clearly relevant. Broader grounds maintenance is a reasonable extension but equipment appetite is untested. The first 12 underrepresent the scientific branch that should remain open; this is a visibility finding, not proof of hard exclusion.",
+      "visibleCoverageRisks": [
+        "Plant-science or horticulture degree discovery is absent; two hands-on plant-care occupations lead instead."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "landscaping-worker",
+          "title": "Landscaping & Groundskeeping Workers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "farmworker-crops",
+          "title": "Farmworkers & Laborers, Crop, Nursery, & Greenhouse",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 4,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "food-science",
+          "title": "Food Scientists and Technologists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "chemistry",
+          "title": "Chemists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "public-relations",
+          "title": "Public Relations Specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Would he enjoy comparing plant treatments, recording unexpected results and using them to change an explanation?"
+    },
+    {
+      "id": "life-067",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 3,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 3,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Organized office and information support coherently reflect repeated voluntary systems work and concrete help. Library and document roles broaden the range. A single practical-comfort task gives only weak evidence for nursing and should not imply a health preference.",
+      "visibleCoverageRisks": [],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "office-clerk",
+          "title": "Office Clerks, General",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "administrative-assistant",
+          "title": "Secretaries & Administrative Assistants",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "receptionist",
+          "title": "Receptionists & Information Clerks",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "degree-15129903",
+          "title": "Document Management Specialists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "customer-service",
+          "title": "Customer Service Representatives",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "medical-assistant",
+          "title": "Medical Assistants",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "vocational-nurse",
+          "title": "Licensed Practical & Licensed Vocational Nurses",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Would she like learning how to organize unfamiliar information so others can find what they need, beyond sorting supplies she already knows?"
+    },
+    {
+      "id": "life-069",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 3,
+        "visibleOpportunityCoverage": 2,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Film, camera work and animation have strong chosen activity evidence. A fine-artist label is broader than the specific film medium and requires a transparent explanation. Writing longer textual pieces remains an extension from audio/video storytelling, even with accessible writing tools.",
+      "visibleCoverageRisks": [
+        "Mechanical troubleshooting/robotics is absent from the first window, apart from an industrial-design transfer."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "degree-27403100",
+          "title": "Camera Operators, Television, Video, and Film",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 5,
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 6,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Audio/video documentary sequencing supports storytelling; written-form longer composition remains an inferred extension.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 7,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 8,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "public-relations",
+          "title": "Public Relations Specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "writing",
+          "title": "Writers & authors",
+          "kind": "specific-support overstatement risk",
+          "reason": "Audio/video documentary sequencing supports storytelling; written-form longer composition remains an inferred extension.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        }
+      ],
+      "followupQuestion": "With documentation tools and shared workload available, would he choose mechanism testing, story editing, or both?"
+    },
+    {
+      "id": "life-077",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Mechanical testing is directly grounded. Electrical engineering is a worthwhile exploration direction but unspecified robotics experience does not establish interest in electrical design. Industrial design appropriately remains broad rather than specifically supported.",
+      "visibleCoverageRisks": [
+        "Collaborative music, a sustained self-chosen direction, is absent from the first 12."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "mechanical-engineering",
+          "title": "Mechanical engineers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "electrical-engineering",
+          "title": "Electrical Engineers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Specific electrical projects are not described; robotics is broader than interest in electrical design.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 4,
+          "id": "biomedical-engineering",
+          "title": "Bioengineers and Biomedical Engineers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "carpentry",
+          "title": "Carpenters",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "welder",
+          "title": "Welders, Cutters, Solderers, & Brazers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "construction-laborer",
+          "title": "Construction Laborers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "industrial-machinery-mechanic",
+          "title": "Industrial Machinery Mechanics",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "automotive",
+          "title": "Automotive Service Technicians and Mechanics",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "electrical-engineering",
+          "title": "Electrical Engineers",
+          "kind": "specific-support overstatement risk",
+          "reason": "Specific electrical projects are not described; robotics is broader than interest in electrical design.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        }
+      ],
+      "followupQuestion": "Does he want to investigate why a mechanism behaves unexpectedly, design a new mechanism, or mainly verify it against a known standard?"
+    },
+    {
+      "id": "life-082",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 3,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Graphic and screen-interface design are coherent. Interior design is plausible from spatial access planning, while publicity and public introductions justify exploring communications. Claiming specific support for interior design, fine art and public relations should acknowledge the still-untried professional methods.",
+      "visibleCoverageRisks": [],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "degree-27102500",
+          "title": "Interior Designers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 5,
+          "id": "public-relations",
+          "title": "Public Relations Specialists",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 6,
+          "id": "degree-27101100",
+          "title": "Art Directors",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 7,
+          "id": "degree-27301100",
+          "title": "Broadcast Announcers and Radio Disc Jockeys",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 8,
+          "id": "degree-27102200",
+          "title": "Fashion Designers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 9,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Would he prefer revising visual communication for an audience, making wearable designs, or experimenting with the properties of materials?"
+    },
+    {
+      "id": "life-094",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 1,
+        "calibration": 1,
+        "observableVariety": 1,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Electrician and paper construction are plausible invitations. Building-scale wiring and coherent fine-art production are not established by lamp repair and pop-up cards. Unrelated maintenance trades crowd out closer electronics discovery.",
+      "visibleCoverageRisks": [
+        "Electronics technology and electrical/electronics engineering do not appear in the first 12 despite explicit circuits, electronics coursework and desire to keep learning."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Paper mechanism/cards do not establish a coherent visual-art practice; worthwhile making/design exploration.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "electrician",
+          "title": "Electricians",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Circuit/lamp interests support electronics broadly; building wiring scope is explicitly untested.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 4,
+          "id": "janitor-cleaner",
+          "title": "Janitors & Cleaners",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "general-maintenance",
+          "title": "Maintenance & Repair Workers, General",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "landscaping-worker",
+          "title": "Landscaping & Groundskeeping Workers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "carpentry",
+          "title": "Carpenters",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "welder",
+          "title": "Welders, Cutters, Solderers, & Brazers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "plumbing",
+          "title": "Plumbers & pipefitters",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "hvac",
+          "title": "HVAC technicians",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "industrial-machinery-mechanic",
+          "title": "Industrial Machinery Mechanics",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "automotive",
+          "title": "Automotive Service Technicians and Mechanics",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "kind": "specific-support overstatement risk",
+          "reason": "Paper mechanism/cards do not establish a coherent visual-art practice; worthwhile making/design exploration.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        },
+        {
+          "careerId": "electrician",
+          "title": "Electricians",
+          "kind": "specific-support overstatement risk",
+          "reason": "Circuit/lamp interests support electronics broadly; building wiring scope is explicitly untested.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        }
+      ],
+      "followupQuestion": "Would she enjoy learning the principles behind a circuit and designing alternatives, as well as following a diagram to repair it?"
+    },
+    {
+      "id": "life-096",
+      "cohort": "development",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Biological technicians is a close exploratory connection to microscopy and a longer observation project. Food science is plausible but food safety testing is untried. Chemistry, illustration and environmental study are useful alternatives; veterinarian specificity remains unresolved.",
+      "visibleCoverageRisks": [],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "food-science",
+          "title": "Food Scientists and Technologists",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "biological-technician",
+          "title": "Biological Technicians",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "chemistry",
+          "title": "Chemists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 4,
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "geoscience",
+          "title": "Geoscientists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "environmental-science",
+          "title": "Environmental scientists & specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "conservation",
+          "title": "Conservation Scientists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "veterinary",
+          "title": "Veterinarians",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "farmworker-crops",
+          "title": "Farmworkers & Laborers, Crop, Nursery, & Greenhouse",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Would she enjoy planning a longer investigation and keeping repeated measurements, or mainly observing and illustrating what she sees?"
+    },
+    {
+      "id": "life-003",
+      "cohort": "original-holdout",
+      "ratings": {
+        "supportedRelevance": 3,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Architecture and user-oriented visual design are plausible and coherent. Fine art as the leading specific-support role is less direct than communication/usability: the quoted evidence concerns signs and navigation more than personal artistic expression.",
+      "visibleCoverageRisks": [
+        "Human factors or usability research is not named in the first 12 although related interface and spatial-design choices appear."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "degree-27101300",
+          "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "architecture",
+          "title": "Architects",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "urban-planning",
+          "title": "Urban and Regional Planners",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 4,
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "public-relations",
+          "title": "Public Relations Specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Would she enjoy comparing observed user behavior, testing design changes and documenting why one solution works better?"
+    },
+    {
+      "id": "life-017",
+      "cohort": "original-holdout",
+      "ratings": {
+        "supportedRelevance": 1,
+        "visibleOpportunityCoverage": 1,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "The list contains plausible information and research neighbors but no specifically supported claim. Translation leads without language-specific evidence in the packet; keep that broad status distinct from a biography-grounded finding.",
+      "visibleCoverageRisks": [
+        "History, archives and explicit public-history professions are absent from the first 12 despite current chosen local-history investigation."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 2,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 3,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 4,
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "public-relations",
+          "title": "Public Relations Specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "teaching",
+          "title": "Middle school teachers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "high-school-teacher",
+          "title": "Secondary School Teachers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "tattoo",
+          "title": "Tattoo artists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Would she enjoy checking conflicting documents and interviews about a topic with no personal connection, then explaining what remains uncertain?"
+    },
+    {
+      "id": "life-028",
+      "cohort": "original-holdout",
+      "ratings": {
+        "supportedRelevance": 3,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 3,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Visual communication, signed-comedy film and digital usability coherently follow repeated chosen activities. Access context supports practical design requirements rather than implying a helping profession; the packet does not establish a stereotype-driven veto.",
+      "visibleCoverageRisks": [],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "librarian",
+          "title": "Librarians & media specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "public-relations",
+          "title": "Public Relations Specialists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "industrial-design",
+          "title": "Industrial designers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "tattoo",
+          "title": "Tattoo artists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Would he enjoy testing layouts with different users and revising a design through technical production, beyond noticing confusing spaces?"
+    },
+    {
+      "id": "life-066",
+      "cohort": "original-holdout",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 2,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Pickup-form improvement justifies information-design exploration, not automatic digital-interface specialization. Wordplay and two languages justify exploring translation, but accuracy-focused real-time message transfer remains a distinct unresolved preference.",
+      "visibleCoverageRisks": [
+        "Soil/agronomy and controlled scientific investigation are underrepresented; laboratory science appears late in the first 12."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "interpreting",
+          "title": "Interpreters and Translators",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Wordplay and bilingual reading do not establish accuracy-focused professional message transfer; explore and clarify rather than imply established specific preference.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "graphic-design",
+          "title": "Graphic Designers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "web-interface-design",
+          "title": "Web & Digital Interface Designers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "degree-27304100",
+          "title": "Editors",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "animation",
+          "title": "Special Effects Artists and Animators",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "film-editing",
+          "title": "Film and Video Editors",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "writing",
+          "title": "Writers & authors",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "social-research",
+          "title": "Social science research assistants",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "photographer",
+          "title": "Photographers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "geoscience",
+          "title": "Geoscientists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "chemistry",
+          "title": "Chemists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "biological-technician",
+          "title": "Biological Technicians",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "interpreting",
+          "title": "Interpreters and Translators",
+          "kind": "specific-support overstatement risk",
+          "reason": "Wordplay and bilingual reading do not establish accuracy-focused professional message transfer; explore and clarify rather than imply established specific preference.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        }
+      ],
+      "followupQuestion": "Would she choose a controlled soil comparison with formal records away from the family farm, and would she enjoy revising other unfamiliar information systems?"
+    },
+    {
+      "id": "life-074",
+      "cohort": "original-holdout",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 2,
+        "calibration": 1,
+        "observableVariety": 1,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Guiding younger riders supports instruction exploration, but three distinct school-teaching age groups are labeled specifically supported despite rationales admitting new academic classroom scope. The numerous rehabilitation occupations need separate evidence rather than riding or dance being treated as treatment interest.",
+      "visibleCoverageRisks": [
+        "Movement instruction and recreation are indirect; telescope/instrumentation and animal-care exploration do not appear in this first window."
+      ],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "teaching",
+          "title": "Middle school teachers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Riding safety instruction is not specific preference for academic middle-school teaching.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "elementary-teacher",
+          "title": "Elementary School Teachers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Schoolwork adaptation is explicitly untested in the rationale.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "high-school-teacher",
+          "title": "Secondary School Teachers",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": "Own rationale calls older subject teaching a tentative extension, while the claim presents specific interests supported.",
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 4,
+          "id": "preschool-teacher",
+          "title": "Preschool Teachers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 5,
+          "id": "degree-25201200",
+          "title": "Kindergarten Teachers, Except Special Education",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "occupational-therapy",
+          "title": "Occupational Therapists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "speech-language",
+          "title": "Speech-Language Pathologists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "physical-therapy",
+          "title": "Physical Therapists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "childcare-worker",
+          "title": "Childcare Workers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "exercise-physiology",
+          "title": "Exercise Physiologists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "respiratory-therapy",
+          "title": "Respiratory Therapists",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "clinical-psychologist",
+          "title": "Clinical & Counseling Psychologists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [
+        {
+          "careerId": "teaching",
+          "title": "Middle school teachers",
+          "kind": "specific-support overstatement risk",
+          "reason": "Riding safety instruction is not specific preference for academic middle-school teaching.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        },
+        {
+          "careerId": "elementary-teacher",
+          "title": "Elementary School Teachers",
+          "kind": "specific-support overstatement risk",
+          "reason": "Schoolwork adaptation is explicitly untested in the rationale.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        },
+        {
+          "careerId": "high-school-teacher",
+          "title": "Secondary School Teachers",
+          "kind": "specific-support overstatement risk",
+          "reason": "Own rationale calls older subject teaching a tentative extension, while the claim presents specific interests supported.",
+          "action": "Retain for exploration, distinguish inferred transfer from directly supported defining interest, and ask a resolving question."
+        }
+      ],
+      "followupQuestion": "Would she enjoy teaching a range of skills over many sessions, or is helping younger riders the particular setting she values?"
+    },
+    {
+      "id": "life-099",
+      "cohort": "original-holdout",
+      "ratings": {
+        "supportedRelevance": 2,
+        "visibleOpportunityCoverage": 3,
+        "calibration": 2,
+        "observableVariety": 2,
+        "studentAgency": null,
+        "fieldSurveyFidelity": null,
+        "answerResponsiveness": null
+      },
+      "notAssessableReason": "Static global first12 packet cannot establish field-survey filtering, UI access to other careers, counterfactual answer effects, or full-inventory absence.",
+      "assessment": "Chemistry and food-science learning connect coherently to explicit chemistry explanations and measured cooking. Broad engineering/biology can remain invitations. Nursing and psychiatric work have only a generic care-and-notice task; childcare competence is not proof of clinical interest.",
+      "visibleCoverageRisks": [],
+      "scopeOfCoverageFinding": "Only first 12 plus specifically-supported roles beyond that window were provided; absence here is not proof of exclusion from search/all careers.",
+      "candidateReviews": [
+        {
+          "rank": 1,
+          "id": "food-science",
+          "title": "Food Scientists and Technologists",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 2,
+          "id": "chemistry",
+          "title": "Chemists",
+          "displayedClaim": "Specific interests supported",
+          "reviewLabel": "supported connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 0
+        },
+        {
+          "rank": 3,
+          "id": "degree-17211202",
+          "title": "Validation Engineers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 1
+        },
+        {
+          "rank": 4,
+          "id": "biomedical-engineering",
+          "title": "Bioengineers and Biomedical Engineers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 5,
+          "id": "biological-technician",
+          "title": "Biological Technicians",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "plausible adjacent connection",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 6,
+          "id": "mechanical-engineering",
+          "title": "Mechanical engineers",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 7,
+          "id": "electrical-engineering",
+          "title": "Electrical Engineers",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 8,
+          "id": "geoscience",
+          "title": "Geoscientists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 9,
+          "id": "environmental-science",
+          "title": "Environmental scientists & specialists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 10,
+          "id": "conservation",
+          "title": "Conservation Scientists",
+          "displayedClaim": "Broad profile connection",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 11,
+          "id": "psychiatric-technician",
+          "title": "Psychiatric Technicians",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        },
+        {
+          "rank": 12,
+          "id": "nursing",
+          "title": "Registered Nurses",
+          "displayedClaim": "Some specific interest evidence",
+          "reviewLabel": "needs clarification",
+          "strongClaimConcern": null,
+          "contraryEvidenceSeen": false,
+          "unresolvedPromptsListed": 2
+        }
+      ],
+      "specificSupportConcerns": [],
+      "followupQuestion": "Would she enjoy designing a small experiment with no expected answer, repeating trials and revising an explanation from the results?"
+    }
+  ],
+  "reviewHolds": [
+    {
+      "modelId": "life-005",
+      "cohort": "development",
+      "careerId": "graphic-design",
+      "careerTitle": "Graphic Designers",
+      "questionId": "graphic-design-interest-044-2",
+      "question": "Would you like to learn to review a visual design with others and revise its layout so the message is clearer and fits the project’s needs?",
+      "quotedRationale": "She photographs neighborhood lettering, makes visual art, and once made elaborate cards. Learning visual communication is plausible; commissioned layout revision remains inferred.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Visual lettering/art interest and generic draft revision support discovery, but the sole defining-answer rationale explicitly calls clarity-focused collaborative layout revision inferred. Retain visual design exploration; do not present this specific preference as resolved.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-018",
+      "cohort": "development",
+      "careerId": "architecture",
+      "careerTitle": "Architects",
+      "questionId": "architecture-interest-044-2",
+      "question": "Would you like to learn to design buildings that meet users' needs while taking safety, environmental conditions, and building rules into account as a regular part of your work?",
+      "quotedRationale": "Structural safety interests and construction study support learning safe building design; building rules and environmental tradeoffs are new scope.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Structural sketches and safety interests support built-environment discovery. The defining inference adds users, building rules and environmental tradeoffs without evidence of a preference to balance those concerns. This is branch uncertainty, not lack of professional experience.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-025",
+      "cohort": "development",
+      "careerId": "electrical-engineering",
+      "careerTitle": "Electrical Engineers",
+      "questionId": "electrical-engineering-interest-044-1",
+      "question": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?",
+      "quotedRationale": "She disassembled a desk fan, studied how it moved air, and enjoys repairs and design; electrical systems are a plausible learning extension.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Mechanical air movement and fan assembly/testing are expressed; electrical power, circuitry or control interests are not. The fan being electric is an object attribute, not an established preference for electrical design.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-025",
+      "cohort": "development",
+      "careerId": "electrical-engineering",
+      "careerTitle": "Electrical Engineers",
+      "questionId": "electrical-engineering-interest-044-2",
+      "question": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?",
+      "quotedRationale": "Her repeated testing, labeled fan parts, and performance tracking support learning electrical investigation, without claiming circuit experience.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Mechanical air movement and fan assembly/testing are expressed; electrical power, circuitry or control interests are not. The fan being electric is an object attribute, not an established preference for electrical design.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-031",
+      "cohort": "development",
+      "careerId": "teaching",
+      "careerTitle": "Middle school teachers",
+      "questionId": "teaching-interest-044-1",
+      "question": "Would you like to learn to teach a subject to middle school students through explanations, discussions, and activities?",
+      "quotedRationale": "She enjoys explaining complex rules and revises explanations when learners struggle. Applying that interest to middle-school subjects is plausible, though the age/classroom setting is new.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Explaining games establishes an instruction connection. The inference adds a particular school-age/subject/classroom setting without expressed interest in that setting. Keep teaching accessible and clarify the setting.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-031",
+      "cohort": "development",
+      "careerId": "high-school-teacher",
+      "careerTitle": "Secondary School Teachers",
+      "questionId": "high-school-teacher-interest-044-1",
+      "question": "Would you like to learn to teach a subject to high-school students using explanations, discussions, and activities that help them understand it?",
+      "quotedRationale": "She teaches specific technology tasks, explains complex game rules, and rewrote an introduction after a member was confused. Learning explanation-based teaching and adapting instruction closely fits these interests.",
+      "source": "profile-inferred",
+      "reportedConfidence": "high",
+      "reason": "The defining inference converts explaining technology and games into high-school academic subject instruction. General explanation enjoyment is supported, but preference for this distinct classroom context is unresolved.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-031",
+      "cohort": "development",
+      "careerId": "law",
+      "careerTitle": "Lawyers",
+      "questionId": "law-interest-044-1",
+      "question": "Would you like to learn to research laws and explain how they apply to a person’s or organization’s legal problem?",
+      "quotedRationale": "She repeatedly explores fairness, inconsistent arguments, agreed rules, and opposing positions. Learning how laws apply and how case-based arguments work is plausible; actual legal research remains untried.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Ethical puzzles, opposing arguments and fairness support legal exploration. They do not settle a preference for investigating a persons concrete legal problem using legal sources. Do not treat lack of past legal experience as the issue; the uncertainty is legal-context interest.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-038",
+      "cohort": "development",
+      "careerId": "elementary-teacher",
+      "careerTitle": "Elementary School Teachers",
+      "questionId": "elementary-teacher-interest-044-1",
+      "question": "Would you like to learn to teach elementary school children through explanations, demonstrations, and classroom activities?",
+      "quotedRationale": "She designed sibling games with different rules for different ages and gives classmates patient, specific feedback. Learning to teach and adapt support for children is a reasonable inference.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Adapted sibling games and peer feedback show instruction interest, but school-subject/classroom preference is added by the inference. This should be a setting question rather than a resolved defining answer.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-038",
+      "cohort": "development",
+      "careerId": "data-science",
+      "careerTitle": "Data Scientists",
+      "questionId": "data-science-interest-044-1",
+      "question": "Would you like to learn to analyze data to find patterns and answer questions using statistics and computing as a regular part of your work?",
+      "quotedRationale": "She records repeatable robotics trials, compares improvements, and corrected omitted failed attempts. Learning statistical analysis and explaining results follows these interests; computing methods are new.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Repeatable robotics records and explaining progress support quantitative testing. The combined question also requires wanting statistical/computing analysis as regular work, which is not independently expressed. Keep data science visible with that component unresolved; no prior programming competence is required.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-055",
+      "cohort": "development",
+      "careerId": "writing",
+      "careerTitle": "Writers & authors",
+      "questionId": "writing-interest-044-1",
+      "question": "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+      "quotedRationale": "She enjoys literary-magazine editing and helping writers clarify images; creating written pieces is a plausible related learning interest, though her own long writing is not described.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "The rationale admits that own longer writing is not described. Editing and helping other writers are direct preferences; authorship should remain an adjacent option until creating longer original text is clarified.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-069",
+      "cohort": "development",
+      "careerId": "writing",
+      "careerTitle": "Writers & authors",
+      "questionId": "writing-interest-044-1",
+      "question": "Would you like to learn to write stories, articles, or other longer pieces that communicate ideas to readers?",
+      "quotedRationale": "Narrated stories, long audiobook engagement, and a carefully sourced documentary support composing longer pieces with accessible writing tools.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Audio/video narrative composition and revision are direct preferences. Reading/listening and documentary editing do not by themselves establish preference for longer written pieces or their textual revision. Accessible tools must remain available; this is not a reading-disability restriction.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-069",
+      "cohort": "development",
+      "careerId": "writing",
+      "careerTitle": "Writers & authors",
+      "questionId": "writing-interest-044-2",
+      "question": "Would you like to learn to revise your writing after feedback so its message, structure, and style work better for its intended readers?",
+      "quotedRationale": "He spends days revising documentary structure and wants audiences to understand; written-form revision is a plausible extension rather than an existing routine.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Audio/video narrative composition and revision are direct preferences. Reading/listening and documentary editing do not by themselves establish preference for longer written pieces or their textual revision. Accessible tools must remain available; this is not a reading-disability restriction.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-077",
+      "cohort": "development",
+      "careerId": "electrical-engineering",
+      "careerTitle": "Electrical Engineers",
+      "questionId": "electrical-engineering-interest-044-1",
+      "question": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?",
+      "quotedRationale": "His sustained robotics work gives a basis for learning electrical motors and controls; exact electrical projects are not specified.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Robot testing and mechanism loads are expressed. The inference adds electrical motors/controls without a branch-specific preference. Anxiety is irrelevant to this question; keep electrical engineering exploratory rather than reject it.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-077",
+      "cohort": "development",
+      "careerId": "electrical-engineering",
+      "careerTitle": "Electrical Engineers",
+      "questionId": "electrical-engineering-interest-044-2",
+      "question": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?",
+      "quotedRationale": "Robotics demonstrations and careful testing records support learning electrical design investigation; anxiety does not imply disinterest.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Robot testing and mechanism loads are expressed. The inference adds electrical motors/controls without a branch-specific preference. Anxiety is irrelevant to this question; keep electrical engineering exploratory rather than reject it.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-094",
+      "cohort": "development",
+      "careerId": "degree-27101300",
+      "careerTitle": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "questionId": "degree-27101300-047-responsibility",
+      "question": "Would you like to learn to develop a coherent personal body of artwork and make considered choices about how it is finished, presented, or adapted for an audience?",
+      "quotedRationale": "Finished cards for recipients support presentation/finishing; an ongoing coherent body of artwork is less established.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Finished pop-up cards support material making and presentation. The rationale adds a coherent continuing personal body of visual artwork, which is a distinct unresolved interest. Do not require a professional portfolio; ask whether this form of continuing art-making appeals.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    },
+    {
+      "modelId": "life-094",
+      "cohort": "development",
+      "careerId": "electrician",
+      "careerTitle": "Electricians",
+      "questionId": "electrician-interest-044-2",
+      "question": "Would you like to learn to install or connect electrical wiring and equipment in buildings using safe working procedures as a regular part of your work?",
+      "quotedRationale": "Electronics study, circuit-diagram use, lamp repair, and wanting another repair workshop support learning safe building wiring; building-scale work is untested.",
+      "source": "profile-inferred",
+      "reportedConfidence": "medium",
+      "reason": "Circuits, lamp repair and electronics support technical exploration. Building wiring installation is a separate context and preference. Learning experience alone is not required, but no evidence here resolves wanting that setting.",
+      "proposedEffectiveAnswer": "unsure",
+      "proposedConfidence": "low",
+      "proposedEvidenceKind": "transfer",
+      "preserveRawAnswer": true,
+      "mustRemainExplorable": true,
+      "mustNotBeNegative": true,
+      "approvalStatus": "Independent development-only review recommendation; policy owner decides implementation."
+    }
+  ],
+  "holdoutLimitations": [
+    {
+      "modelId": "life-066",
+      "cohort": "original-holdout",
+      "careerId": "interpreting",
+      "careerTitle": "Interpreters and Translators",
+      "reason": "Wordplay and bilingual reading do not establish accuracy-focused professional message transfer; explore and clarify rather than imply established specific preference.",
+      "doNotApplyAsTuning": true,
+      "specificEvidence": [
+        {
+          "questionId": "interpreting-interest-044-1",
+          "question": "Would you like to learn to convey someone’s spoken or signed message accurately from one language into another?",
+          "quotedRationale": "She reads in both household languages and enjoys comparing relatives’ jokes; conveying messages across languages is a plausible learning interest."
+        },
+        {
+          "questionId": "interpreting-interest-044-2",
+          "question": "Would you like to learn to work out meaning and context across languages so the translated message preserves the speaker’s intent and tone?",
+          "quotedRationale": "Bilingual wordplay and comparing how jokes are told directly show interest in meaning and tone across languages."
+        }
+      ]
+    },
+    {
+      "modelId": "life-074",
+      "cohort": "original-holdout",
+      "careerId": "teaching",
+      "careerTitle": "Middle school teachers",
+      "reason": "Riding safety instruction is not specific preference for academic middle-school teaching.",
+      "doNotApplyAsTuning": true,
+      "specificEvidence": [
+        {
+          "questionId": "teaching-interest-044-1",
+          "question": "Would you like to learn to teach a subject to middle school students through explanations, discussions, and activities?",
+          "quotedRationale": "She patiently explains safety and riding steps to younger riders and likes helping children feel capable; academic subject teaching is a plausible extension."
+        },
+        {
+          "questionId": "teaching-interest-044-2",
+          "question": "Would you like to learn to notice what middle school students understand and adapt lessons to help them make progress?",
+          "quotedRationale": "Her repeated child instruction and learning through correction support adapting explanations; classroom lessons are new scope."
+        }
+      ]
+    },
+    {
+      "modelId": "life-074",
+      "cohort": "original-holdout",
+      "careerId": "elementary-teacher",
+      "careerTitle": "Elementary School Teachers",
+      "reason": "Schoolwork adaptation is explicitly untested in the rationale.",
+      "doNotApplyAsTuning": true,
+      "specificEvidence": [
+        {
+          "questionId": "elementary-teacher-interest-044-1",
+          "question": "Would you like to learn to teach elementary school children through explanations, demonstrations, and classroom activities?",
+          "quotedRationale": "She helps younger riders, remembers sequences, and confidently directs children; learning classroom instruction is a reasonable extension."
+        },
+        {
+          "questionId": "elementary-teacher-interest-044-2",
+          "question": "Would you like to learn to identify where a child is struggling with schoolwork and adjust your teaching or support to help them learn?",
+          "quotedRationale": "Patient explanations and helping children feel capable support learner-responsive teaching, though schoolwork support itself is untested."
+        }
+      ]
+    },
+    {
+      "modelId": "life-074",
+      "cohort": "original-holdout",
+      "careerId": "high-school-teacher",
+      "careerTitle": "Secondary School Teachers",
+      "reason": "Own rationale calls older subject teaching a tentative extension, while the claim presents specific interests supported.",
+      "doNotApplyAsTuning": true,
+      "specificEvidence": [
+        {
+          "questionId": "high-school-teacher-interest-044-1",
+          "question": "Would you like to learn to teach a subject to high-school students using explanations, discussions, and activities that help them understand it?",
+          "quotedRationale": "She enjoys explaining practical skills to children and studies astronomy and physics with interest; older subject teaching is a tentative extension."
+        },
+        {
+          "questionId": "high-school-teacher-interest-044-2",
+          "question": "Would you like to learn to plan lessons for a high-school class, check students’ understanding, and adjust your teaching to help different students learn?",
+          "quotedRationale": "Her safety instruction and appreciation of corrective practice support learning lesson adaptation; high-school classrooms are not yet tested."
+        }
+      ]
+    }
+  ],
+  "reviewHoldInterpretation": "Recommended uncertainty holds concern an inferred branch/context preference, not absent professional experience. They must only weaken a specific-support claim, never become negative interests or prevent discovery. All raw frozen answers remain unchanged. Original-holdout observations are limitations, not tuning instructions.",
+  "extendedCoverageReview": {
+    "packetSha256": "ea157dba06101269158694247713094612fe53d96b66a7c94f3a7b907b1a78df",
+    "scope": "Six preselected cases, all 457 professions each; score/pay-free. No fresh holdout inspected.",
+    "findings": [
+      {
+        "modelId": "life-038",
+        "cohort": "development",
+        "careerId": "degree-17219908",
+        "title": "Robotics Engineers",
+        "globalRank": 205,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 3,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-038",
+        "cohort": "development",
+        "careerId": "degree-17211202",
+        "title": "Validation Engineers",
+        "globalRank": 208,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 3,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-038",
+        "cohort": "development",
+        "careerId": "mechanical-engineering",
+        "title": "Mechanical engineers",
+        "globalRank": 222,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 2,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-055",
+        "cohort": "development",
+        "careerId": "degree-27304100",
+        "title": "Editors",
+        "globalRank": 23,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 3,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-062",
+        "cohort": "development",
+        "careerId": "biological-technician",
+        "title": "Biological Technicians",
+        "globalRank": 14,
+        "displayedClaim": "Some specific interest evidence",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 2,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-062",
+        "cohort": "development",
+        "careerId": "degree-19101300",
+        "title": "Soil and Plant Scientists",
+        "globalRank": 140,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 3,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-069",
+        "cohort": "development",
+        "careerId": "mechanical-engineering",
+        "title": "Mechanical engineers",
+        "globalRank": 70,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 2,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-069",
+        "cohort": "development",
+        "careerId": "degree-17219908",
+        "title": "Robotics Engineers",
+        "globalRank": 90,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 3,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-094",
+        "cohort": "development",
+        "careerId": "degree-17207200",
+        "title": "Electronics Engineers, Except Computer",
+        "globalRank": 55,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 3,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-094",
+        "cohort": "development",
+        "careerId": "electrical-engineering",
+        "title": "Electrical Engineers",
+        "globalRank": 74,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 2,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-017",
+        "cohort": "original-holdout",
+        "careerId": "degree-19309300",
+        "title": "Historians",
+        "globalRank": 60,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 3,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      },
+      {
+        "modelId": "life-017",
+        "cohort": "original-holdout",
+        "careerId": "degree-25401100",
+        "title": "Archivists",
+        "globalRank": 86,
+        "displayedClaim": "Open to explore",
+        "independentSpecificPositiveAnswers": 0,
+        "unresolvedDefiningQuestions": 3,
+        "interpretation": "Available for exploration; this packet has no independent profession-specific positive answers for this role. Biography relevance justifies an invitation, not automatic specific-support promotion."
+      }
+    ],
+    "conclusion": "The initially flagged families are present in the full inventory. None of the 12 inspected role appearances has independent specific-positive evidence in this output. They are underrepresented plausible discoveries, not already-supported careers erroneously excluded by a Top gate. All-field cards/search can alleviate visibility; specifically supported labels still require clarification. Original-holdout life-017 is a reported limitation and must not be used to tune responses or scoring."
+  }
+}

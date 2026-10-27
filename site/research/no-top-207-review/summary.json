@@ -1,0 +1,2684 @@
+{
+  "runId": "e37edc53f50f37e1d316ab467e9051c1480e95eaa9c3a9dcb95d68c7608933a0",
+  "classification": "Synthetic case diagnosis, not predicted conversion or independent counselor validation",
+  "readOnlyHashes": {
+    "calibration/cohort-056/profiles.json": "c57b0f4f6b3c894cec8cd4343a27859152dee241477018ba4029565a7f94bc2c",
+    "calibration/cohort-056/question-bindings.json": "0593c86e70e63aee56c727156c892f549286032cff63c68823e2ee8ce3ece7ee",
+    "dist/open-explorer.js": "285eb07d656ddc95e7cf616121cc65d133490ccde90d65579983996f234cd84b",
+    "dist/open-explorer-056.js": "a4c3e00881042fdd1cb54acede51882d29fe9b983c2c86998cfec7c972061900",
+    "dist/developer/current-cohort-data.json": "c59f99504c12496548baeb901468979035758ae3a9e40a408ff71f9ef6bd7bce"
+  },
+  "summary": {
+    "all": {
+      "models": 207,
+      "procedural": 178,
+      "degreeCandidates": 204,
+      "outsideStrongPartial": 164,
+      "outsideStrongDegreePartial": 163,
+      "outsideStrongOneCheck": 104,
+      "outsideStrongDegreeOneCheck": 104,
+      "cleanCandidates": 202,
+      "alignedCandidates": 94,
+      "alignedDegreeCandidates": 77,
+      "buckets": {
+        "no-clean-subject-aligned-candidate": 108,
+        "multiple-specific-checks": 21,
+        "one-specific-check": 37,
+        "task-context-only": 4,
+        "all-candidates-conflicted-or-held": 5,
+        "aligned-but-no-specific-yes": 32
+      }
+    },
+    "cohorts": {
+      "development": {
+        "models": 160,
+        "procedural": 136,
+        "degreeCandidates": 158,
+        "outsideStrongPartial": 123,
+        "outsideStrongDegreePartial": 122,
+        "outsideStrongOneCheck": 75,
+        "outsideStrongDegreeOneCheck": 75,
+        "cleanCandidates": 158,
+        "alignedCandidates": 68,
+        "alignedDegreeCandidates": 58,
+        "buckets": {
+          "no-clean-subject-aligned-candidate": 90,
+          "multiple-specific-checks": 15,
+          "one-specific-check": 27,
+          "task-context-only": 3,
+          "all-candidates-conflicted-or-held": 2,
+          "aligned-but-no-specific-yes": 23
+        }
+      },
+      "holdout": {
+        "models": 4,
+        "procedural": 0,
+        "degreeCandidates": 4,
+        "outsideStrongPartial": 1,
+        "outsideStrongDegreePartial": 1,
+        "outsideStrongOneCheck": 0,
+        "outsideStrongDegreeOneCheck": 0,
+        "cleanCandidates": 4,
+        "alignedCandidates": 2,
+        "alignedDegreeCandidates": 1,
+        "buckets": {
+          "no-clean-subject-aligned-candidate": 2,
+          "multiple-specific-checks": 0,
+          "one-specific-check": 1,
+          "task-context-only": 1,
+          "all-candidates-conflicted-or-held": 0,
+          "aligned-but-no-specific-yes": 0
+        }
+      },
+      "holdout049": {
+        "models": 1,
+        "procedural": 0,
+        "degreeCandidates": 1,
+        "outsideStrongPartial": 0,
+        "outsideStrongDegreePartial": 0,
+        "outsideStrongOneCheck": 0,
+        "outsideStrongDegreeOneCheck": 0,
+        "cleanCandidates": 1,
+        "alignedCandidates": 1,
+        "alignedDegreeCandidates": 1,
+        "buckets": {
+          "no-clean-subject-aligned-candidate": 0,
+          "multiple-specific-checks": 0,
+          "one-specific-check": 1,
+          "task-context-only": 0,
+          "all-candidates-conflicted-or-held": 0,
+          "aligned-but-no-specific-yes": 0
+        }
+      },
+      "holdout056": {
+        "models": 42,
+        "procedural": 42,
+        "degreeCandidates": 41,
+        "outsideStrongPartial": 40,
+        "outsideStrongDegreePartial": 40,
+        "outsideStrongOneCheck": 29,
+        "outsideStrongDegreeOneCheck": 29,
+        "cleanCandidates": 39,
+        "alignedCandidates": 23,
+        "alignedDegreeCandidates": 17,
+        "buckets": {
+          "no-clean-subject-aligned-candidate": 16,
+          "multiple-specific-checks": 6,
+          "one-specific-check": 8,
+          "task-context-only": 0,
+          "all-candidates-conflicted-or-held": 3,
+          "aligned-but-no-specific-yes": 9
+        }
+      }
+    }
+  },
+  "missingFeatures": [
+    {
+      "feature": "responsibility:safety",
+      "models": 34,
+      "ids": [
+        "scale056-0042",
+        "scale056-0100",
+        "scale056-0117",
+        "scale056-0118",
+        "scale056-0133",
+        "scale056-0149",
+        "scale056-0197",
+        "scale056-0225",
+        "scale056-0231",
+        "scale056-0233",
+        "scale056-0241",
+        "scale056-0273",
+        "scale056-0289",
+        "scale056-0329",
+        "scale056-0394",
+        "scale056-0398",
+        "scale056-0401",
+        "scale056-0425",
+        "scale056-0435",
+        "scale056-0466",
+        "scale056-0471",
+        "scale056-0497",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0542",
+        "scale056-0545",
+        "scale056-0570",
+        "scale056-0582",
+        "scale056-0594",
+        "scale056-0602",
+        "scale056-0605",
+        "scale056-0625",
+        "scale056-0649",
+        "scale056-0669"
+      ]
+    },
+    {
+      "feature": "method:precision",
+      "models": 30,
+      "ids": [
+        "scale056-0023",
+        "scale056-0047",
+        "scale056-0133",
+        "scale056-0161",
+        "scale056-0185",
+        "scale056-0197",
+        "scale056-0233",
+        "scale056-0241",
+        "scale056-0249",
+        "scale056-0273",
+        "scale056-0329",
+        "scale056-0425",
+        "scale056-0426",
+        "scale056-0466",
+        "scale056-0471",
+        "scale056-0490",
+        "scale056-0497",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0542",
+        "scale056-0567",
+        "scale056-0582",
+        "scale056-0594",
+        "scale056-0602",
+        "scale056-0605",
+        "scale056-0669",
+        "scale056-0702",
+        "scale056-0727",
+        "scale056-0760",
+        "scale056-0802"
+      ]
+    },
+    {
+      "feature": "method:organization",
+      "models": 22,
+      "ids": [
+        "scale056-0035",
+        "scale056-0100",
+        "scale056-0141",
+        "scale056-0149",
+        "scale056-0161",
+        "scale056-0185",
+        "scale056-0197",
+        "scale056-0241",
+        "scale056-0293",
+        "scale056-0361",
+        "scale056-0401",
+        "scale056-0425",
+        "scale056-0466",
+        "scale056-0497",
+        "scale056-0517",
+        "scale056-0542",
+        "scale056-0582",
+        "scale056-0594",
+        "scale056-0625",
+        "scale056-0653",
+        "scale056-0727",
+        "scale056-0760"
+      ]
+    },
+    {
+      "feature": "method:design",
+      "models": 21,
+      "ids": [
+        "scale056-0035",
+        "scale056-0117",
+        "scale056-0171",
+        "scale056-0208",
+        "scale056-0221",
+        "scale056-0233",
+        "scale056-0258",
+        "scale056-0269",
+        "scale056-0289",
+        "scale056-0293",
+        "scale056-0341",
+        "scale056-0381",
+        "scale056-0408",
+        "scale056-0490",
+        "scale056-0497",
+        "scale056-0540",
+        "scale056-0542",
+        "scale056-0598",
+        "scale056-0625",
+        "scale056-0669",
+        "scale056-0801"
+      ]
+    },
+    {
+      "feature": "responsibility:leadership",
+      "models": 17,
+      "ids": [
+        "scale056-0035",
+        "scale056-0047",
+        "scale056-0100",
+        "scale056-0149",
+        "scale056-0231",
+        "scale056-0361",
+        "scale056-0381",
+        "scale056-0408",
+        "scale056-0425",
+        "scale056-0448",
+        "scale056-0497",
+        "scale056-0537",
+        "scale056-0557",
+        "scale056-0653",
+        "scale056-0673",
+        "scale056-0760",
+        "scale056-0801"
+      ]
+    },
+    {
+      "feature": "method:testing",
+      "models": 16,
+      "ids": [
+        "scale056-0047",
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0231",
+        "scale056-0241",
+        "scale056-0273",
+        "scale056-0341",
+        "scale056-0408",
+        "scale056-0425",
+        "scale056-0489",
+        "scale056-0497",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0570",
+        "scale056-0629",
+        "scale056-0801"
+      ]
+    },
+    {
+      "feature": "responsibility:patientcare",
+      "models": 15,
+      "ids": [
+        "scale056-0023",
+        "scale056-0035",
+        "scale056-0117",
+        "scale056-0149",
+        "scale056-0197",
+        "scale056-0208",
+        "scale056-0211",
+        "scale056-0241",
+        "scale056-0421",
+        "scale056-0471",
+        "scale056-0490",
+        "scale056-0567",
+        "scale056-0598",
+        "scale056-0629",
+        "scale056-0818"
+      ]
+    },
+    {
+      "feature": "method:investigation",
+      "models": 15,
+      "ids": [
+        "scale056-0035",
+        "scale056-0117",
+        "scale056-0149",
+        "scale056-0211",
+        "scale056-0249",
+        "scale056-0289",
+        "scale056-0341",
+        "scale056-0353",
+        "scale056-0381",
+        "scale056-0401",
+        "scale056-0452",
+        "scale056-0673",
+        "scale056-0760",
+        "scale056-0802",
+        "scale056-0818"
+      ]
+    },
+    {
+      "feature": "responsibility:research",
+      "models": 13,
+      "ids": [
+        "scale056-0171",
+        "scale056-0231",
+        "scale056-0233",
+        "scale056-0249",
+        "scale056-0273",
+        "scale056-0289",
+        "scale056-0353",
+        "scale056-0401",
+        "scale056-0425",
+        "scale056-0435",
+        "scale056-0466",
+        "scale056-0489",
+        "scale056-0818"
+      ]
+    },
+    {
+      "feature": "responsibility:clinical",
+      "models": 12,
+      "ids": [
+        "scale056-0033",
+        "scale056-0035",
+        "scale056-0081",
+        "scale056-0197",
+        "scale056-0208",
+        "scale056-0421",
+        "scale056-0471",
+        "scale056-0490",
+        "scale056-0567",
+        "scale056-0582",
+        "scale056-0802",
+        "scale056-0818"
+      ]
+    },
+    {
+      "feature": "method:coordination",
+      "models": 12,
+      "ids": [
+        "scale056-0042",
+        "scale056-0047",
+        "scale056-0118",
+        "scale056-0233",
+        "scale056-0241",
+        "scale056-0265",
+        "scale056-0276",
+        "scale056-0381",
+        "scale056-0507",
+        "scale056-0625",
+        "scale056-0760",
+        "scale056-0801"
+      ]
+    },
+    {
+      "feature": "method:quantitative",
+      "models": 11,
+      "ids": [
+        "scale056-0231",
+        "scale056-0258",
+        "scale056-0289",
+        "scale056-0353",
+        "scale056-0361",
+        "scale056-0401",
+        "scale056-0537",
+        "scale056-0629",
+        "scale056-0653",
+        "scale056-0669",
+        "scale056-0673"
+      ]
+    },
+    {
+      "feature": "method:listening",
+      "models": 9,
+      "ids": [
+        "scale056-0023",
+        "scale056-0033",
+        "scale056-0141",
+        "scale056-0161",
+        "scale056-0229",
+        "scale056-0381",
+        "scale056-0452",
+        "scale056-0669",
+        "scale056-0760"
+      ]
+    },
+    {
+      "feature": "method:making",
+      "models": 9,
+      "ids": [
+        "scale056-0118",
+        "scale056-0133",
+        "scale056-0171",
+        "scale056-0185",
+        "scale056-0221",
+        "scale056-0361",
+        "scale056-0449",
+        "scale056-0649",
+        "scale056-0673"
+      ]
+    },
+    {
+      "feature": "method:expression",
+      "models": 8,
+      "ids": [
+        "scale056-0029",
+        "scale056-0047",
+        "scale056-0265",
+        "scale056-0408",
+        "scale056-0559",
+        "scale056-0659",
+        "scale056-0661",
+        "scale056-0693"
+      ]
+    },
+    {
+      "feature": "responsibility:assessment",
+      "models": 6,
+      "ids": [
+        "scale056-0035",
+        "scale056-0208",
+        "scale056-0341",
+        "scale056-0559",
+        "scale056-0669",
+        "scale056-0758"
+      ]
+    },
+    {
+      "feature": "specialty:vehicle-systems",
+      "models": 6,
+      "ids": [
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0225",
+        "scale056-0233",
+        "scale056-0329",
+        "scale056-0537"
+      ]
+    },
+    {
+      "feature": "method:explaining",
+      "models": 6,
+      "ids": [
+        "scale056-0161",
+        "scale056-0258",
+        "scale056-0471",
+        "scale056-0559",
+        "scale056-0582",
+        "scale056-0653"
+      ]
+    },
+    {
+      "feature": "responsibility:risk",
+      "models": 5,
+      "ids": [
+        "scale056-0003",
+        "scale056-0035",
+        "scale056-0381",
+        "scale056-0425",
+        "scale056-0673"
+      ]
+    },
+    {
+      "feature": "specialty:needle-treatment",
+      "models": 5,
+      "ids": [
+        "scale056-0117",
+        "scale056-0197",
+        "scale056-0471",
+        "scale056-0567",
+        "scale056-0582"
+      ]
+    },
+    {
+      "feature": "method:persuading",
+      "models": 5,
+      "ids": [
+        "scale056-0448",
+        "scale056-0452",
+        "scale056-0653",
+        "scale056-0673",
+        "scale056-0760"
+      ]
+    },
+    {
+      "feature": "specialty:marine-systems",
+      "models": 4,
+      "ids": [
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0233",
+        "scale056-0537"
+      ]
+    },
+    {
+      "feature": "method:fieldwork",
+      "models": 4,
+      "ids": [
+        "scale056-0171",
+        "scale056-0289",
+        "scale056-0466",
+        "scale056-0818"
+      ]
+    },
+    {
+      "feature": "responsibility:representation",
+      "models": 4,
+      "ids": [
+        "scale056-0258",
+        "scale056-0361",
+        "scale056-0669",
+        "scale056-0760"
+      ]
+    },
+    {
+      "feature": "specialty:relationship-therapy",
+      "models": 3,
+      "ids": [
+        "scale056-0211",
+        "scale056-0421",
+        "scale056-0818"
+      ]
+    },
+    {
+      "feature": "specialty:shared-space-cleaning",
+      "models": 2,
+      "ids": [
+        "scale056-0118",
+        "scale056-0542"
+      ]
+    },
+    {
+      "feature": "specialty:spiritual-leadership",
+      "models": 2,
+      "ids": [
+        "scale056-0208",
+        "scale056-0557"
+      ]
+    },
+    {
+      "feature": "method:computing",
+      "models": 2,
+      "ids": [
+        "scale056-0329",
+        "scale056-0425"
+      ]
+    },
+    {
+      "feature": "specialty:inclusive-instruction",
+      "models": 2,
+      "ids": [
+        "scale056-0341",
+        "scale056-0559"
+      ]
+    },
+    {
+      "feature": "responsibility:wholeorganization",
+      "models": 2,
+      "ids": [
+        "scale056-0448",
+        "scale056-0653"
+      ]
+    },
+    {
+      "feature": "specialty:nonstandard-care",
+      "models": 2,
+      "ids": [
+        "scale056-0471",
+        "scale056-0582"
+      ]
+    },
+    {
+      "feature": "specialty:impartial-adjudication",
+      "models": 2,
+      "ids": [
+        "scale056-0669",
+        "scale056-0760"
+      ]
+    },
+    {
+      "feature": "specialty:live-presentation",
+      "models": 1,
+      "ids": [
+        "scale056-0047"
+      ]
+    },
+    {
+      "feature": "specialty:casting-performers",
+      "models": 1,
+      "ids": [
+        "scale056-0693"
+      ]
+    }
+  ],
+  "careers": [
+    {
+      "id": "general-maintenance",
+      "title": "Maintenance & Repair Workers, General",
+      "degree": false,
+      "models": [
+        "scale056-0042",
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0225",
+        "scale056-0233",
+        "scale056-0329",
+        "scale056-0471",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0625"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "welder",
+      "title": "Welders, Cutters, Solderers, & Brazers",
+      "degree": false,
+      "models": [
+        "scale056-0042",
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0225",
+        "scale056-0233",
+        "scale056-0329",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0542",
+        "scale056-0625"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "hvac",
+      "title": "HVAC technicians",
+      "degree": false,
+      "models": [
+        "scale056-0042",
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0225",
+        "scale056-0233",
+        "scale056-0329",
+        "scale056-0471",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0625"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "automotive",
+      "title": "Automotive Service Technicians and Mechanics",
+      "degree": false,
+      "models": [
+        "scale056-0042",
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0225",
+        "scale056-0233",
+        "scale056-0329",
+        "scale056-0471",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0625"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "industrial-machinery-mechanic",
+      "title": "Industrial Machinery Mechanics",
+      "degree": false,
+      "models": [
+        "scale056-0042",
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0225",
+        "scale056-0233",
+        "scale056-0329",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0625"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "electrical-engineering",
+      "title": "Electrical Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0133",
+        "scale056-0241",
+        "scale056-0273",
+        "scale056-0329",
+        "scale056-0497",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0570"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "electrician",
+      "title": "Electricians",
+      "degree": false,
+      "models": [
+        "scale056-0133",
+        "scale056-0241",
+        "scale056-0329",
+        "scale056-0449",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0582",
+        "scale056-0594"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "mechanical-engineering",
+      "title": "Mechanical engineers",
+      "degree": true,
+      "models": [
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0225",
+        "scale056-0233",
+        "scale056-0329",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0625"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "carpentry",
+      "title": "Carpenters",
+      "degree": false,
+      "models": [
+        "scale056-0241",
+        "scale056-0329",
+        "scale056-0394",
+        "scale056-0398",
+        "scale056-0426",
+        "scale056-0517",
+        "scale056-0542",
+        "scale056-0605"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "physician",
+      "title": "Physician · family medicine",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0117",
+        "scale056-0197",
+        "scale056-0208",
+        "scale056-0471",
+        "scale056-0490",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17207200",
+      "title": "Electronics Engineers, Except Computer",
+      "degree": true,
+      "models": [
+        "scale056-0133",
+        "scale056-0241",
+        "scale056-0273",
+        "scale056-0329",
+        "scale056-0517",
+        "scale056-0537",
+        "scale056-0582"
+      ],
+      "oneQuestion": [
+        "scale056-0133",
+        "scale056-0329",
+        "scale056-0582"
+      ]
+    },
+    {
+      "id": "security-guard",
+      "title": "Security Guards",
+      "degree": false,
+      "models": [
+        "scale056-0233",
+        "scale056-0241",
+        "scale056-0435",
+        "scale056-0471",
+        "scale056-0594",
+        "scale056-0602",
+        "scale056-0625"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "physician-assistant",
+      "title": "Physician Assistants",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0197",
+        "scale056-0208",
+        "scale056-0471",
+        "scale056-0490",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "nurse-practitioner",
+      "title": "Nurse Practitioners",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0197",
+        "scale056-0208",
+        "scale056-0471",
+        "scale056-0490",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "plumbing",
+      "title": "Plumbers & pipefitters",
+      "degree": false,
+      "models": [
+        "scale056-0042",
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0233",
+        "scale056-0537",
+        "scale056-0605"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "construction-laborer",
+      "title": "Construction Laborers",
+      "degree": false,
+      "models": [
+        "scale056-0042",
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0233",
+        "scale056-0537",
+        "scale056-0545"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "civil-engineering",
+      "title": "Civil Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0233",
+        "scale056-0273",
+        "scale056-0497",
+        "scale056-0537"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17214102",
+      "title": "Automotive Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0225",
+        "scale056-0233",
+        "scale056-0329",
+        "scale056-0537"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17211100",
+      "title": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+      "degree": true,
+      "models": [
+        "scale056-0233",
+        "scale056-0241",
+        "scale056-0401",
+        "scale056-0435",
+        "scale056-0471",
+        "scale056-0625"
+      ],
+      "oneQuestion": [
+        "scale056-0401",
+        "scale056-0435",
+        "scale056-0625"
+      ]
+    },
+    {
+      "id": "graphic-design",
+      "title": "Graphic Designers",
+      "degree": true,
+      "models": [
+        "scale056-0029",
+        "scale056-0047",
+        "scale056-0540",
+        "scale056-0659",
+        "scale056-0801"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "personal-care-aide",
+      "title": "Personal Care Aides",
+      "degree": false,
+      "models": [
+        "scale056-0035",
+        "scale056-0141",
+        "scale056-0197",
+        "scale056-0208",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25903100",
+      "title": "Instructional Coordinators",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0208",
+        "scale056-0341",
+        "scale056-0490",
+        "scale056-0669"
+      ],
+      "oneQuestion": [
+        "scale056-0490"
+      ]
+    },
+    {
+      "id": "degree-27204100",
+      "title": "Music Directors and Composers",
+      "degree": true,
+      "models": [
+        "scale056-0047",
+        "scale056-0265",
+        "scale056-0276",
+        "scale056-0507",
+        "scale056-0801"
+      ],
+      "oneQuestion": [
+        "scale056-0047",
+        "scale056-0265",
+        "scale056-0276",
+        "scale056-0507",
+        "scale056-0801"
+      ]
+    },
+    {
+      "id": "degree-29129100",
+      "title": "Acupuncturists",
+      "degree": true,
+      "models": [
+        "scale056-0117",
+        "scale056-0197",
+        "scale056-0471",
+        "scale056-0567",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "food-science",
+      "title": "Food Scientists and Technologists",
+      "degree": true,
+      "models": [
+        "scale056-0149",
+        "scale056-0233",
+        "scale056-0273",
+        "scale056-0401",
+        "scale056-0435"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "medical-assistant",
+      "title": "Medical Assistants",
+      "degree": false,
+      "models": [
+        "scale056-0161",
+        "scale056-0197",
+        "scale056-0208",
+        "scale056-0471",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "vocational-nurse",
+      "title": "Licensed Practical & Licensed Vocational Nurses",
+      "degree": false,
+      "models": [
+        "scale056-0161",
+        "scale056-0197",
+        "scale056-0208",
+        "scale056-0471",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "nursing-assistant",
+      "title": "Nursing Assistants",
+      "degree": false,
+      "models": [
+        "scale056-0161",
+        "scale056-0197",
+        "scale056-0208",
+        "scale056-0471",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "nursing",
+      "title": "Registered Nurses",
+      "degree": true,
+      "models": [
+        "scale056-0197",
+        "scale056-0208",
+        "scale056-0471",
+        "scale056-0490",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "firefighter",
+      "title": "Firefighters",
+      "degree": false,
+      "models": [
+        "scale056-0241",
+        "scale056-0471",
+        "scale056-0594",
+        "scale056-0602",
+        "scale056-0625"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "psychiatric-technician",
+      "title": "Psychiatric Technicians",
+      "degree": false,
+      "models": [
+        "scale056-0023",
+        "scale056-0211",
+        "scale056-0421",
+        "scale056-0802"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "clinical-psychologist",
+      "title": "Clinical & Counseling Psychologists",
+      "degree": true,
+      "models": [
+        "scale056-0033",
+        "scale056-0081",
+        "scale056-0421",
+        "scale056-0802"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-21109100",
+      "title": "Health Education Specialists",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0208",
+        "scale056-0341",
+        "scale056-0490"
+      ],
+      "oneQuestion": [
+        "scale056-0035",
+        "scale056-0490"
+      ]
+    },
+    {
+      "id": "degree-27201200",
+      "title": "Producers and Directors",
+      "degree": true,
+      "models": [
+        "scale056-0047",
+        "scale056-0408",
+        "scale056-0540",
+        "scale056-0801"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "mental-health-counselor",
+      "title": "Mental Health Counselors",
+      "degree": true,
+      "models": [
+        "scale056-0081",
+        "scale056-0211",
+        "scale056-0421",
+        "scale056-0802"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "construction-management",
+      "title": "Construction Managers",
+      "degree": true,
+      "models": [
+        "scale056-0100",
+        "scale056-0149",
+        "scale056-0497",
+        "scale056-0537"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "chef",
+      "title": "Chefs & head cooks",
+      "degree": false,
+      "models": [
+        "scale056-0118",
+        "scale056-0185",
+        "scale056-0361",
+        "scale056-0649"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17211202",
+      "title": "Validation Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0133",
+        "scale056-0233",
+        "scale056-0329",
+        "scale056-0625"
+      ],
+      "oneQuestion": [
+        "scale056-0625"
+      ]
+    },
+    {
+      "id": "degree-13102300",
+      "title": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "degree": true,
+      "models": [
+        "scale056-0141",
+        "scale056-0425",
+        "scale056-0497",
+        "scale056-0673"
+      ],
+      "oneQuestion": [
+        "scale056-0141",
+        "scale056-0425",
+        "scale056-0497",
+        "scale056-0673"
+      ]
+    },
+    {
+      "id": "degree-17212100",
+      "title": "Marine Engineers and Naval Architects",
+      "degree": true,
+      "models": [
+        "scale056-0149",
+        "scale056-0171",
+        "scale056-0233",
+        "scale056-0537"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "exercise-physiology",
+      "title": "Exercise Physiologists",
+      "degree": true,
+      "models": [
+        "scale056-0149",
+        "scale056-0161",
+        "scale056-0241",
+        "scale056-0629"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "dental-assisting",
+      "title": "Dental assistants",
+      "degree": false,
+      "models": [
+        "scale056-0161",
+        "scale056-0197",
+        "scale056-0471",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "sonography",
+      "title": "Medical sonographers",
+      "degree": false,
+      "models": [
+        "scale056-0161",
+        "scale056-0197",
+        "scale056-0471",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "dental-hygiene",
+      "title": "Dental Hygienists",
+      "degree": false,
+      "models": [
+        "scale056-0161",
+        "scale056-0197",
+        "scale056-0471",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "radiologic-technologist",
+      "title": "Radiologic Technologists & Technicians",
+      "degree": false,
+      "models": [
+        "scale056-0161",
+        "scale056-0197",
+        "scale056-0471",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "respiratory-therapy",
+      "title": "Respiratory Therapists",
+      "degree": false,
+      "models": [
+        "scale056-0161",
+        "scale056-0197",
+        "scale056-0471",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-29104100",
+      "title": "Optometrists",
+      "degree": true,
+      "models": [
+        "scale056-0197",
+        "scale056-0471",
+        "scale056-0567",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-19202100",
+      "title": "Atmospheric and Space Scientists",
+      "degree": true,
+      "models": [
+        "scale056-0249",
+        "scale056-0289",
+        "scale056-0466",
+        "scale056-0489"
+      ],
+      "oneQuestion": [
+        "scale056-0466",
+        "scale056-0489"
+      ]
+    },
+    {
+      "id": "marketing-manager",
+      "title": "Marketing Managers",
+      "degree": true,
+      "models": [
+        "scale056-0258",
+        "scale056-0361",
+        "scale056-0381",
+        "scale056-0653"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "law",
+      "title": "Lawyers",
+      "degree": true,
+      "models": [
+        "scale056-0258",
+        "scale056-0452",
+        "scale056-0669",
+        "scale056-0760"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-11101100",
+      "title": "Chief Executives",
+      "degree": true,
+      "models": [
+        "scale056-0361",
+        "scale056-0448",
+        "scale056-0653",
+        "scale056-0760"
+      ],
+      "oneQuestion": [
+        "scale056-0361",
+        "scale056-0448",
+        "scale056-0760"
+      ]
+    },
+    {
+      "id": "bookkeeping-clerk",
+      "title": "Bookkeeping, Accounting, & Auditing Clerks",
+      "degree": false,
+      "models": [
+        "life-053",
+        "scale056-0425",
+        "scale056-0497"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-19201200",
+      "title": "Physicists",
+      "degree": true,
+      "models": [
+        "new049-020",
+        "scale056-0231",
+        "scale056-0489"
+      ],
+      "oneQuestion": [
+        "new049-020"
+      ]
+    },
+    {
+      "id": "financial-analysis",
+      "title": "Financial and Investment Analysts",
+      "degree": true,
+      "models": [
+        "scale056-0003",
+        "scale056-0381",
+        "scale056-0669"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-27403100",
+      "title": "Camera Operators, Television, Video, and Film",
+      "degree": true,
+      "models": [
+        "scale056-0029",
+        "scale056-0047",
+        "scale056-0702"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25108100",
+      "title": "Education Teachers, Postsecondary",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0208",
+        "scale056-0559"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "elementary-teacher",
+      "title": "Elementary School Teachers",
+      "degree": true,
+      "models": [
+        "scale056-0208",
+        "scale056-0341",
+        "scale056-0559"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-21101300",
+      "title": "Marriage and Family Therapists",
+      "degree": true,
+      "models": [
+        "scale056-0211",
+        "scale056-0421",
+        "scale056-0818"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "architecture",
+      "title": "Architects",
+      "degree": true,
+      "models": [
+        "scale056-0221",
+        "scale056-0269",
+        "scale056-0542"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-11201100",
+      "title": "Advertising and Promotions Managers",
+      "degree": true,
+      "models": [
+        "scale056-0258",
+        "scale056-0381",
+        "scale056-0653"
+      ],
+      "oneQuestion": [
+        "scale056-0258",
+        "scale056-0653"
+      ]
+    },
+    {
+      "id": "public-relations",
+      "title": "Public Relations Specialists",
+      "degree": true,
+      "models": [
+        "scale056-0258",
+        "scale056-0381",
+        "scale056-0653"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13108102",
+      "title": "Logistics Analysts",
+      "degree": true,
+      "models": [
+        "scale056-0293",
+        "scale056-0401",
+        "scale056-0673"
+      ],
+      "oneQuestion": [
+        "scale056-0401"
+      ]
+    },
+    {
+      "id": "logistics",
+      "title": "Logisticians",
+      "degree": true,
+      "models": [
+        "scale056-0293",
+        "scale056-0466",
+        "scale056-0673"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17219908",
+      "title": "Robotics Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0329",
+        "scale056-0517",
+        "scale056-0537"
+      ],
+      "oneQuestion": [
+        "scale056-0517",
+        "scale056-0537"
+      ]
+    },
+    {
+      "id": "preschool-teacher",
+      "title": "Preschool Teachers",
+      "degree": false,
+      "models": [
+        "scale056-0341",
+        "scale056-0559",
+        "scale056-0758"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "general-operations-manager",
+      "title": "General & Operations Managers",
+      "degree": true,
+      "models": [
+        "scale056-0361",
+        "scale056-0653",
+        "scale056-0760"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "project-management",
+      "title": "Project Management Specialists",
+      "degree": true,
+      "models": [
+        "scale056-0361",
+        "scale056-0653",
+        "scale056-0760"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-23102200",
+      "title": "Arbitrators, Mediators, and Conciliators",
+      "degree": true,
+      "models": [
+        "scale056-0452",
+        "scale056-0669",
+        "scale056-0760"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "human-resources",
+      "title": "Human Resources Specialists",
+      "degree": true,
+      "models": [
+        "scale056-0653",
+        "scale056-0673",
+        "scale056-0760"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "management-analyst",
+      "title": "Management Analysts",
+      "degree": true,
+      "models": [
+        "scale056-0653",
+        "scale056-0673",
+        "scale056-0760"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17213100",
+      "title": "Materials Engineers",
+      "degree": true,
+      "models": [
+        "gap-001",
+        "scale056-0289"
+      ],
+      "oneQuestion": [
+        "gap-001"
+      ]
+    },
+    {
+      "id": "degree-19309200",
+      "title": "Geographers",
+      "degree": true,
+      "models": [
+        "life-046",
+        "scale056-0353"
+      ],
+      "oneQuestion": [
+        "life-046"
+      ]
+    },
+    {
+      "id": "degree-19201100",
+      "title": "Astronomers",
+      "degree": true,
+      "models": [
+        "new049-020",
+        "scale056-0489"
+      ],
+      "oneQuestion": [
+        "new049-020",
+        "scale056-0489"
+      ]
+    },
+    {
+      "id": "degree-19203200",
+      "title": "Materials Scientists",
+      "degree": true,
+      "models": [
+        "new049-020",
+        "scale056-0289"
+      ],
+      "oneQuestion": [
+        "new049-020"
+      ]
+    },
+    {
+      "id": "film-editing",
+      "title": "Film and Video Editors",
+      "degree": true,
+      "models": [
+        "scale056-0029",
+        "scale056-0047"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13115100",
+      "title": "Training and Development Specialists",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0208"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-11903100",
+      "title": "Education and Childcare Administrators, Preschool and Daycare",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0208"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-11903300",
+      "title": "Education Administrators, Postsecondary",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0208"
+      ],
+      "oneQuestion": [
+        "scale056-0208"
+      ]
+    },
+    {
+      "id": "degree-11903200",
+      "title": "Education Administrators, Kindergarten through Secondary",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0208"
+      ],
+      "oneQuestion": [
+        "scale056-0035",
+        "scale056-0208"
+      ]
+    },
+    {
+      "id": "degree-25107100",
+      "title": "Health Specialties Teachers, Postsecondary",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0208"
+      ],
+      "oneQuestion": [
+        "scale056-0208"
+      ]
+    },
+    {
+      "id": "degree-25107200",
+      "title": "Nursing Instructors and Teachers, Postsecondary",
+      "degree": true,
+      "models": [
+        "scale056-0035",
+        "scale056-0208"
+      ],
+      "oneQuestion": [
+        "scale056-0035",
+        "scale056-0208"
+      ]
+    },
+    {
+      "id": "degree-27101300",
+      "title": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+      "degree": true,
+      "models": [
+        "scale056-0047",
+        "scale056-0801"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "photographer",
+      "title": "Photographers",
+      "degree": false,
+      "models": [
+        "scale056-0047",
+        "scale056-0661"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-29112500",
+      "title": "Recreational Therapists",
+      "degree": true,
+      "models": [
+        "scale056-0117",
+        "scale056-0598"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "janitor-cleaner",
+      "title": "Janitors & Cleaners",
+      "degree": false,
+      "models": [
+        "scale056-0118",
+        "scale056-0542"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "hairdresser",
+      "title": "Hairdressers, Hairstylists, & Cosmetologists",
+      "degree": false,
+      "models": [
+        "scale056-0141",
+        "scale056-0229"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "pharmacy-technician",
+      "title": "Pharmacy Technicians",
+      "degree": false,
+      "models": [
+        "scale056-0161",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-19101300",
+      "title": "Soil and Plant Scientists",
+      "degree": true,
+      "models": [
+        "scale056-0171",
+        "scale056-0289"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25119200",
+      "title": "Family and Consumer Sciences Teachers, Postsecondary",
+      "degree": true,
+      "models": [
+        "scale056-0208",
+        "scale056-0559"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25301100",
+      "title": "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",
+      "degree": true,
+      "models": [
+        "scale056-0208",
+        "scale056-0559"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "web-developer",
+      "title": "Web Developers",
+      "degree": true,
+      "models": [
+        "scale056-0231",
+        "scale056-0425"
+      ],
+      "oneQuestion": [
+        "scale056-0231"
+      ]
+    },
+    {
+      "id": "degree-15202100",
+      "title": "Mathematicians",
+      "degree": true,
+      "models": [
+        "scale056-0231",
+        "scale056-0249"
+      ],
+      "oneQuestion": [
+        "scale056-0231"
+      ]
+    },
+    {
+      "id": "software",
+      "title": "Software developers",
+      "degree": true,
+      "models": [
+        "scale056-0231",
+        "scale056-0425"
+      ],
+      "oneQuestion": [
+        "scale056-0231",
+        "scale056-0425"
+      ]
+    },
+    {
+      "id": "systems-analysis",
+      "title": "Computer Systems Analysts",
+      "degree": true,
+      "models": [
+        "scale056-0231",
+        "scale056-0425"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-15125100",
+      "title": "Computer Programmers",
+      "degree": true,
+      "models": [
+        "scale056-0231",
+        "scale056-0425"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-15124100",
+      "title": "Computer Network Architects",
+      "degree": true,
+      "models": [
+        "scale056-0231",
+        "scale056-0425"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "biological-technician",
+      "title": "Biological Technicians",
+      "degree": true,
+      "models": [
+        "scale056-0249",
+        "scale056-0466"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-19102200",
+      "title": "Microbiologists",
+      "degree": true,
+      "models": [
+        "scale056-0249",
+        "scale056-0818"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-19102903",
+      "title": "Geneticists",
+      "degree": true,
+      "models": [
+        "scale056-0249",
+        "scale056-0818"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemists",
+      "degree": true,
+      "models": [
+        "scale056-0289",
+        "scale056-0466"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13108101",
+      "title": "Logistics Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0293",
+        "scale056-0401"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "stock-order-filler",
+      "title": "Stockers & Order Fillers",
+      "degree": false,
+      "models": [
+        "scale056-0293",
+        "scale056-0673"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25205100",
+      "title": "Special Education Teachers, Preschool",
+      "degree": true,
+      "models": [
+        "scale056-0341",
+        "scale056-0559"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25201200",
+      "title": "Kindergarten Teachers, Except Special Education",
+      "degree": true,
+      "models": [
+        "scale056-0341",
+        "scale056-0559"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25205500",
+      "title": "Special Education Teachers, Kindergarten",
+      "degree": true,
+      "models": [
+        "scale056-0341",
+        "scale056-0559"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13101100",
+      "title": "Agents and Business Managers of Artists, Performers, and Athletes",
+      "degree": true,
+      "models": [
+        "scale056-0361",
+        "scale056-0653"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-11202200",
+      "title": "Sales Managers",
+      "degree": true,
+      "models": [
+        "scale056-0381",
+        "scale056-0448"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-43911100",
+      "title": "Statistical Assistants",
+      "degree": true,
+      "models": [
+        "scale056-0425",
+        "scale056-0727"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13202200",
+      "title": "Appraisers of Personal and Business Property",
+      "degree": true,
+      "models": [
+        "scale056-0425",
+        "scale056-0497"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "dentist",
+      "title": "Dentist · general dentistry",
+      "degree": true,
+      "models": [
+        "scale056-0471",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-29129901",
+      "title": "Naturopathic Physicians",
+      "degree": true,
+      "models": [
+        "scale056-0471",
+        "scale056-0582"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17219905",
+      "title": "Mechatronics Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0517",
+        "scale056-0537"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "truck-driver",
+      "title": "Heavy & Tractor-Trailer Truck Drivers",
+      "degree": false,
+      "models": [
+        "scale056-0517",
+        "scale056-0594"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "delivery-driver",
+      "title": "Light Truck Drivers",
+      "degree": false,
+      "models": [
+        "scale056-0517",
+        "scale056-0594"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "warehouse-material-mover",
+      "title": "Laborers & Freight, Stock, & Material Movers, Hand",
+      "degree": false,
+      "models": [
+        "scale056-0517",
+        "scale056-0594"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-23102300",
+      "title": "Judges, Magistrate Judges, and Magistrates",
+      "degree": true,
+      "models": [
+        "scale056-0669",
+        "scale056-0760"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13205300",
+      "title": "Insurance Underwriters",
+      "degree": true,
+      "models": [
+        "scale056-0669",
+        "scale056-0673"
+      ],
+      "oneQuestion": [
+        "scale056-0669"
+      ]
+    },
+    {
+      "id": "degree-13104100",
+      "title": "Compliance Officers",
+      "degree": true,
+      "models": [
+        "scale056-0669",
+        "scale056-0760"
+      ],
+      "oneQuestion": [
+        "scale056-0760"
+      ]
+    },
+    {
+      "id": "degree-27304305",
+      "title": "Poets, Lyricists and Creative Writers",
+      "degree": true,
+      "models": [
+        "life-016"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-29102300",
+      "title": "Orthodontists",
+      "degree": true,
+      "models": [
+        "gap-001"
+      ],
+      "oneQuestion": [
+        "gap-001"
+      ]
+    },
+    {
+      "id": "degree-29909100",
+      "title": "Athletic Trainers",
+      "degree": true,
+      "models": [
+        "gap-009"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13112100",
+      "title": "Meeting, Convention, and Event Planners",
+      "degree": true,
+      "models": [
+        "gap-021"
+      ],
+      "oneQuestion": [
+        "gap-021"
+      ]
+    },
+    {
+      "id": "degree-13207100",
+      "title": "Credit Counselors",
+      "degree": true,
+      "models": [
+        "scale056-0035"
+      ],
+      "oneQuestion": [
+        "scale056-0035"
+      ]
+    },
+    {
+      "id": "degree-25108200",
+      "title": "Library Science Teachers, Postsecondary",
+      "degree": true,
+      "models": [
+        "scale056-0035"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "animation",
+      "title": "Special Effects Artists and Animators",
+      "degree": true,
+      "models": [
+        "scale056-0047"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-27301100",
+      "title": "Broadcast Announcers and Radio Disc Jockeys",
+      "degree": true,
+      "models": [
+        "scale056-0047"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "restaurant-cook",
+      "title": "Cooks, Restaurant",
+      "degree": false,
+      "models": [
+        "scale056-0118"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "landscaping-worker",
+      "title": "Landscaping & Groundskeeping Workers",
+      "degree": false,
+      "models": [
+        "scale056-0171"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17219903",
+      "title": "Energy Engineers, Except Wind and Solar",
+      "degree": true,
+      "models": [
+        "scale056-0171"
+      ],
+      "oneQuestion": [
+        "scale056-0171"
+      ]
+    },
+    {
+      "id": "farmworker-crops",
+      "title": "Farmworkers & Laborers, Crop, Nursery, & Greenhouse",
+      "degree": false,
+      "models": [
+        "scale056-0171"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17202100",
+      "title": "Agricultural Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0171"
+      ],
+      "oneQuestion": [
+        "scale056-0171"
+      ]
+    },
+    {
+      "id": "degree-19204102",
+      "title": "Environmental Restoration Planners",
+      "degree": true,
+      "models": [
+        "scale056-0171"
+      ],
+      "oneQuestion": [
+        "scale056-0171"
+      ]
+    },
+    {
+      "id": "degree-19103200",
+      "title": "Foresters",
+      "degree": true,
+      "models": [
+        "scale056-0171"
+      ],
+      "oneQuestion": [
+        "scale056-0171"
+      ]
+    },
+    {
+      "id": "degree-17208100",
+      "title": "Environmental Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0171"
+      ],
+      "oneQuestion": [
+        "scale056-0171"
+      ]
+    },
+    {
+      "id": "administrative-assistant",
+      "title": "Secretaries & Administrative Assistants",
+      "degree": false,
+      "models": [
+        "scale056-0185"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "receptionist",
+      "title": "Receptionists & Information Clerks",
+      "degree": false,
+      "models": [
+        "scale056-0185"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25904400",
+      "title": "Teaching Assistants, Postsecondary",
+      "degree": true,
+      "models": [
+        "scale056-0208"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25303100",
+      "title": "Substitute Teachers, Short-Term",
+      "degree": true,
+      "models": [
+        "scale056-0208"
+      ],
+      "oneQuestion": [
+        "scale056-0208"
+      ]
+    },
+    {
+      "id": "degree-21202100",
+      "title": "Directors, Religious Activities and Education",
+      "degree": true,
+      "models": [
+        "scale056-0208"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-15122100",
+      "title": "Computer and Information Research Scientists",
+      "degree": true,
+      "models": [
+        "scale056-0231"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13119907",
+      "title": "Security Management Specialists",
+      "degree": true,
+      "models": [
+        "scale056-0273"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17204100",
+      "title": "Chemical Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0289"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17102100",
+      "title": "Cartographers and Photogrammetrists",
+      "degree": true,
+      "models": [
+        "scale056-0353"
+      ],
+      "oneQuestion": [
+        "scale056-0353"
+      ]
+    },
+    {
+      "id": "geoscience",
+      "title": "Geoscientists",
+      "degree": true,
+      "models": [
+        "scale056-0353"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-11907200",
+      "title": "Entertainment and Recreation Managers, Except Gambling",
+      "degree": true,
+      "models": [
+        "scale056-0361"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "restaurant-manager",
+      "title": "Food Service Managers",
+      "degree": false,
+      "models": [
+        "scale056-0361"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "insurance-sales-agent",
+      "title": "Insurance Sales Agents",
+      "degree": false,
+      "models": [
+        "scale056-0381"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-21102300",
+      "title": "Mental Health and Substance Abuse Social Workers",
+      "degree": true,
+      "models": [
+        "scale056-0421"
+      ],
+      "oneQuestion": [
+        "scale056-0421"
+      ]
+    },
+    {
+      "id": "degree-15124400",
+      "title": "Network and Computer Systems Administrators",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "computer-support",
+      "title": "Computer User Support Specialists",
+      "degree": false,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13205400",
+      "title": "Financial Risk Specialists",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": [
+        "scale056-0425"
+      ]
+    },
+    {
+      "id": "accounting",
+      "title": "Accountants and Auditors",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-15125300",
+      "title": "Software Quality Assurance Analysts and Testers",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13204100",
+      "title": "Credit Analysts",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": [
+        "scale056-0425"
+      ]
+    },
+    {
+      "id": "statistics",
+      "title": "Statisticians",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-13203100",
+      "title": "Budget Analysts",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": [
+        "scale056-0425"
+      ]
+    },
+    {
+      "id": "degree-13208100",
+      "title": "Tax Examiners and Collectors, and Revenue Agents",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-19302200",
+      "title": "Survey Researchers",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": [
+        "scale056-0425"
+      ]
+    },
+    {
+      "id": "degree-13114100",
+      "title": "Compensation, Benefits, and Job Analysis Specialists",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": [
+        "scale056-0425"
+      ]
+    },
+    {
+      "id": "data-science",
+      "title": "Data Scientists",
+      "degree": true,
+      "models": [
+        "scale056-0425"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "retail-sales",
+      "title": "Retail Salespersons",
+      "degree": false,
+      "models": [
+        "scale056-0448"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-17217100",
+      "title": "Petroleum Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0466"
+      ],
+      "oneQuestion": [
+        "scale056-0466"
+      ]
+    },
+    {
+      "id": "degree-17215100",
+      "title": "Mining and Geological Engineers, Including Mining Safety Engineers",
+      "degree": true,
+      "models": [
+        "scale056-0466"
+      ],
+      "oneQuestion": [
+        "scale056-0466"
+      ]
+    },
+    {
+      "id": "degree-19204300",
+      "title": "Hydrologists",
+      "degree": true,
+      "models": [
+        "scale056-0466"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-19102902",
+      "title": "Molecular and Cellular Biologists",
+      "degree": true,
+      "models": [
+        "scale056-0466"
+      ],
+      "oneQuestion": [
+        "scale056-0466"
+      ]
+    },
+    {
+      "id": "emt",
+      "title": "Emergency Medical Technicians",
+      "degree": false,
+      "models": [
+        "scale056-0471"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-19501100",
+      "title": "Occupational Health and Safety Specialists",
+      "degree": true,
+      "models": [
+        "scale056-0471"
+      ],
+      "oneQuestion": [
+        "scale056-0471"
+      ]
+    },
+    {
+      "id": "degree-13105100",
+      "title": "Cost Estimators",
+      "degree": true,
+      "models": [
+        "scale056-0497"
+      ],
+      "oneQuestion": [
+        "scale056-0497"
+      ]
+    },
+    {
+      "id": "degree-21201100",
+      "title": "Clergy",
+      "degree": true,
+      "models": [
+        "scale056-0557"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25112100",
+      "title": "Art, Drama, and Music Teachers, Postsecondary",
+      "degree": true,
+      "models": [
+        "scale056-0559"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25112300",
+      "title": "English Language and Literature Teachers, Postsecondary",
+      "degree": true,
+      "models": [
+        "scale056-0559"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-25112400",
+      "title": "Foreign Language and Literature Teachers, Postsecondary",
+      "degree": true,
+      "models": [
+        "scale056-0559"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "speech-language",
+      "title": "Speech-Language Pathologists",
+      "degree": true,
+      "models": [
+        "scale056-0598"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "childcare-worker",
+      "title": "Childcare Workers",
+      "degree": false,
+      "models": [
+        "scale056-0598"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "school-counselor",
+      "title": "Educational, Guidance, & Career Counselors & Advisors",
+      "degree": true,
+      "models": [
+        "scale056-0669"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-27201204",
+      "title": "Talent Directors",
+      "degree": true,
+      "models": [
+        "scale056-0693"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "paralegal",
+      "title": "Paralegals and Legal Assistants",
+      "degree": false,
+      "models": [
+        "scale056-0760"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-11919902",
+      "title": "Compliance Managers",
+      "degree": true,
+      "models": [
+        "scale056-0760"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "interpreting",
+      "title": "Interpreters and Translators",
+      "degree": true,
+      "models": [
+        "scale056-0778"
+      ],
+      "oneQuestion": []
+    },
+    {
+      "id": "degree-19309100",
+      "title": "Anthropologists and Archeologists",
+      "degree": true,
+      "models": [
+        "scale056-0818"
+      ],
+      "oneQuestion": []
+    }
+  ]
+}

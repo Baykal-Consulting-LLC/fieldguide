@@ -1,0 +1,100 @@
+{
+  "version": "0.63",
+  "method": "Manual profile-only review of the ten genuinely unasked activity questions. Stable model/question/option IDs, exact quotations, no biography classifier. No occupation label, earnings or desired coverage count supplies an answer. Saved answers are never overwritten.",
+  "rows": [
+    {
+      "modelId": "life-036",
+      "questionId": "services-serve",
+      "selected": [
+        "services-serve-2"
+      ],
+      "confidence": "medium",
+      "evidence": "She sold ceramic planters at a school fair and discovered that pricing, packaging, and talking to buyers interested her as much as making them.",
+      "rationale": "The customer-experience part is directly supported by voluntary selling and buyer conversations. Breakfasts alone do not establish an interest in food preparation, and no personal-care or clinical preference is inferred."
+    },
+    {
+      "modelId": "life-053",
+      "questionId": "business-problem",
+      "selected": [],
+      "confidence": "low",
+      "feedback": "unfamiliar",
+      "evidence": "He began cashier shifts at a neighborhood market and appreciated coworkers who taught small practical shortcuts.",
+      "rationale": "Cashier experience and everyday-system curiosity do not establish enjoyment of reconciling financial records, customer research, legal advice or managing deliveries."
+    },
+    {
+      "modelId": "life-053",
+      "questionId": "business-workday",
+      "selected": [],
+      "confidence": "low",
+      "feedback": "unfamiliar",
+      "evidence": "He is curious about many systems but resists having every observation turned into an application",
+      "rationale": "The profile does not establish a preference for financial record analysis, competing organizational priorities, defending business recommendations or negotiating agreements."
+    },
+    {
+      "modelId": "life-053",
+      "questionId": "business-refine-3",
+      "selected": [],
+      "confidence": "low",
+      "feedback": "unfamiliar",
+      "evidence": "Handles transactions",
+      "rationale": "Handling transactions is a demonstrated skill, not an expressed preference for the bundled transactions, forecasts and financial assumptions option. The other specialist business details are unstated."
+    },
+    {
+      "modelId": "new049-017",
+      "questionId": "creative-make",
+      "selected": [
+        "creative-make-1"
+      ],
+      "confidence": "medium",
+      "evidence": "During remote lessons she made little diagrams for her brother when his fraction homework confused him.",
+      "rationale": "Illustrated explanations directly support creating a visual message that helps someone understand. This does not imply branding, product design, storytelling or body art."
+    },
+    {
+      "modelId": "new049-017",
+      "questionId": "creative-people",
+      "selected": [
+        "creative-people-4"
+      ],
+      "confidence": "medium",
+      "evidence": "Elena now shares short annotated examples in a class chat when someone requests help.",
+      "rationale": "Voluntary sharing of checked learning information with classmates supports the small learning-community option. No interest in client branding or group management is inferred."
+    },
+    {
+      "modelId": "new049-017",
+      "questionId": "creative-refine-3",
+      "selected": [
+        "creative-refine-3-3"
+      ],
+      "confidence": "medium",
+      "evidence": "She voluntarily helped two classmates understand density by comparing containers from home. When one example failed, she asked the teacher and rewrote it.",
+      "rationale": "Checking an explanation for meaning and accuracy is explicit. Type/colour styling, product materials, film timing and body-art hygiene are not established."
+    },
+    {
+      "modelId": "new049-010",
+      "questionId": "business-problem",
+      "selected": [],
+      "confidence": "low",
+      "feedback": "unfamiliar",
+      "evidence": "Measuring physical patterns",
+      "rationale": "The stated interest is physical measurement. Financial records, team management, customer research, legal guidance and goods distribution are not established."
+    },
+    {
+      "modelId": "new049-010",
+      "questionId": "business-refine-3",
+      "selected": [],
+      "confidence": "low",
+      "feedback": "unfamiliar",
+      "evidence": "Repeats measurements and notices inconsistent runs",
+      "rationale": "Careful physical measurement does not establish financial forecasting, marketing, organizational management, logistics or legal-detail interests."
+    },
+    {
+      "modelId": "new049-010",
+      "questionId": "business-refine-4",
+      "selected": [],
+      "confidence": "low",
+      "feedback": "unfamiliar",
+      "evidence": "Checks route accessibility before outings",
+      "rationale": "Accessibility planning is a practical constraint here, not evidence of a vocational interest in improving delivery systems or shared spaces. The other business introductions are unstated; disability and access needs supply no interest answer."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "all": {
+    "supported-below-cap": {
+      "models": 65,
+      "noTop": 0
+    },
+    "activity-context": {
+      "models": 25,
+      "noTop": 15
+    },
+    "unasked-bound-evidence": {
+      "models": 28,
+      "noTop": 14
+    },
+    "one-recorded-check": {
+      "models": 124,
+      "noTop": 99
+    },
+    "broader-exploration": {
+      "models": 74,
+      "noTop": 59
+    },
+    "no-typed-evidence": {
+      "models": 1,
+      "noTop": 1
+    }
+  },
+  "development": {
+    "supported-below-cap": {
+      "models": 52,
+      "noTop": 0
+    },
+    "activity-context": {
+      "models": 18,
+      "noTop": 12
+    },
+    "unasked-bound-evidence": {
+      "models": 21,
+      "noTop": 11
+    },
+    "one-recorded-check": {
+      "models": 91,
+      "noTop": 72
+    },
+    "broader-exploration": {
+      "models": 63,
+      "noTop": 51
+    },
+    "no-typed-evidence": {
+      "models": 1,
+      "noTop": 1
+    }
+  },
+  "holdout": {
+    "supported-below-cap": {
+      "models": 0,
+      "noTop": 0
+    },
+    "activity-context": {
+      "models": 0,
+      "noTop": 0
+    },
+    "unasked-bound-evidence": {
+      "models": 7,
+      "noTop": 3
+    },
+    "one-recorded-check": {
+      "models": 1,
+      "noTop": 1
+    },
+    "broader-exploration": {
+      "models": 1,
+      "noTop": 0
+    },
+    "no-typed-evidence": {
+      "models": 0,
+      "noTop": 0
+    }
+  },
+  "holdout049": {
+    "supported-below-cap": {
+      "models": 0,
+      "noTop": 0
+    },
+    "activity-context": {
+      "models": 0,
+      "noTop": 0
+    },
+    "unasked-bound-evidence": {
+      "models": 0,
+      "noTop": 0
+    },
+    "one-recorded-check": {
+      "models": 1,
+      "noTop": 1
+    },
+    "broader-exploration": {
+      "models": 0,
+      "noTop": 0
+    },
+    "no-typed-evidence": {
+      "models": 0,
+      "noTop": 0
+    }
+  },
+  "holdout056": {
+    "supported-below-cap": {
+      "models": 13,
+      "noTop": 0
+    },
+    "activity-context": {
+      "models": 7,
+      "noTop": 3
+    },
+    "unasked-bound-evidence": {
+      "models": 0,
+      "noTop": 0
+    },
+    "one-recorded-check": {
+      "models": 31,
+      "noTop": 25
+    },
+    "broader-exploration": {
+      "models": 10,
+      "noTop": 8
+    },
+    "no-typed-evidence": {
+      "models": 0,
+      "noTop": 0
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "lockedOn": "2026-10-19",
+  "stage": "Blinded independent review, including score/pay-free extended availability check; before before/after or score unblinding",
+  "reviewSha256": "6e9a3eb25238703906b65a287dc68af9e8e2cbb6e53e9d7f3335d3e602406087",
+  "outputPacketSha256": "f16c126b7d1b8c369ce907462ddaf752099e7e32a180a744b54903b9b8c9fb89",
+  "extendedPacketSha256": "ea157dba06101269158694247713094612fe53d96b66a7c94f3a7b907b1a78df",
+  "expectationFreeze": {
+    "lockedOn": "2026-10-19",
+    "stage": "pre-outcome; no current recommendations opened by reviewer",
+    "files": {
+      "expectations.json": "f6cc1620b0d579fa7f81c0ac42075e1c170e085f0256fa4784556730d52980a4",
+      "rubric.md": "3f057e93c38ee32b4ad462f06f0ec7ad9ab78042ea3e8c11d82b62dc4f2a10ac"
+    }
+  }
+}

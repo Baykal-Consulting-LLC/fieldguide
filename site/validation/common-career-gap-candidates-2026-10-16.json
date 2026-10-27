@@ -1,0 +1,344 @@
+{
+  "checkedAt": "2026-10-16",
+  "purpose": "Bounded common-career coverage audit against primary occupational and Texas licensing sources; candidates are not yet implementation-ready financial profiles.",
+  "method": "Compared named profile titles and SOC mappings in current finance-data plus existing custom profiles against familiar student-facing careers across health, learning, computing, public service, trades, business, design, engineering and performing arts. This is an editorial coverage screen, not an exhaustive list of all BLS occupations.",
+  "candidateCount": 18,
+  "candidates": [
+    {
+      "id": "nurse-practitioner",
+      "title": "Nurse practitioner",
+      "soc": "29-1171.00",
+      "family": "Health & care",
+      "currentlyMissing": true,
+      "priority": "high",
+      "typicalPreparation": "RN preparation followed by graduate NP education, commonly MSN or DNP.",
+      "texasMinimumOrProtectedCredential": "Texas RN license/compact privilege, approved advanced-practice education, congruent national certification, APRN license, and application eligibility. Prescriptive authority has additional requirements.",
+      "training": "Clinical preparation in a defined patient population and specialty.",
+      "earningsCaveat": "Keep NP wages separate from RN, PA and nurse-anesthetist wages. Entry means entry to qualified NP work, not entry to nursing.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://bon.texas.gov/applications_advanced_practice_registered_nurse.asp.html",
+        "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "elementary-teaching",
+      "title": "Elementary school teacher",
+      "soc": "25-2021.00",
+      "family": "Education & learning",
+      "currentlyMissing": true,
+      "priority": "essential",
+      "typicalPreparation": "Bachelor’s degree plus approved teacher preparation.",
+      "texasMinimumOrProtectedCredential": "Standard Texas classroom certificate route: bachelor’s, approved preparation, assignment-specific exams, state application and fingerprinting. Statutory employment exceptions are not the standard preparation target.",
+      "training": "Elementary curriculum and child development with supervised classroom practice.",
+      "earningsCaveat": "District salary schedules often apply across grade bands; show the district contract/year and do not add an assumed grade-level premium.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://tea.texas.gov/educators/certification/initial-certification/becoming-classroom-teacher-texas",
+        "https://www.onetonline.org/link/summary/25-2021.00"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "high-school-teaching",
+      "title": "High school teacher",
+      "soc": "25-2031.00",
+      "family": "Education & learning",
+      "currentlyMissing": true,
+      "priority": "essential",
+      "typicalPreparation": "Bachelor’s degree plus approved teacher preparation.",
+      "texasMinimumOrProtectedCredential": "Standard Texas classroom certificate route: bachelor’s, approved preparation, assignment-specific exams, state application and fingerprinting. Statutory employment exceptions are not the standard preparation target.",
+      "training": "A teaching subject and adolescent learning with supervised classroom practice.",
+      "earningsCaveat": "District salary schedules often apply across grade bands; show the district contract/year and do not add an assumed grade-level premium.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://tea.texas.gov/educators/certification/initial-certification/becoming-classroom-teacher-texas",
+        "https://www.onetonline.org/link/summary/25-2031.00"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "computer-support",
+      "title": "Computer user support specialist",
+      "soc": "15-1232.00",
+      "family": "Technology",
+      "currentlyMissing": true,
+      "priority": "essential",
+      "typicalPreparation": "Some college courses, IT certificate, associate’s or bachelor’s depending on technical depth; some enter with high school plus relevant certifications.",
+      "texasMinimumOrProtectedCredential": "No universal degree or Texas professional license minimum is established by the reviewed occupational source; employers set technical requirements.",
+      "training": "Troubleshooting, customer communication, operating systems and vendor tools.",
+      "earningsCaveat": "Do not use network support or software-developer wages for user support.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "police-officer",
+      "title": "Police patrol officer",
+      "soc": "33-3051.00",
+      "family": "Public service",
+      "currentlyMissing": true,
+      "priority": "essential",
+      "typicalPreparation": "High school/GED plus approved peace-officer academy and field training; college can add preparation and advancement options.",
+      "texasMinimumOrProtectedCredential": "TCOLE academy/eligibility, licensing exam and appointment requirements. Standard minimum age is 21, with qualifying college/military exceptions at 18; medical, psychological and background standards apply.",
+      "training": "Approved basic peace-officer course and employing-agency field training.",
+      "earningsCaveat": "Austin agency pay, overtime and specialty stipends differ from metro employee wages. Do not treat overtime as assured base salary.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://www.tcole.texas.gov/content/commission-rules",
+        "https://tcole.texas.gov/document/tcole-handbook-2024.pdf"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "firefighter",
+      "title": "Firefighter",
+      "soc": "33-2011.00",
+      "family": "Public service",
+      "currentlyMissing": true,
+      "priority": "essential",
+      "typicalPreparation": "Fire academy plus emergency medical preparation; community-college fire science can complement training.",
+      "texasMinimumOrProtectedCredential": "TCFP basic structure certification route includes approved training, qualifying exam results, medical-response training, fingerprints and application. Hiring departments may set higher standards.",
+      "training": "Firefighter and hazardous-material skills; medical preparation at accepted EMR/ECA/EMT/paramedic level.",
+      "earningsCaveat": "Base municipal pay differs from overtime, shift hours and paramedic stipends; volunteer roles do not imply an employed annual wage.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://www.tcfp.texas.gov/services/new-fire-suppression-fighter",
+        "https://www.tcfp.texas.gov/services/curriculum-manual"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "welding",
+      "title": "Welder",
+      "soc": "51-4121.00",
+      "family": "Skilled trades",
+      "currentlyMissing": true,
+      "priority": "essential",
+      "typicalPreparation": "High school/GED plus technical and supervised on-the-job training; certificate/associate routes available.",
+      "texasMinimumOrProtectedCredential": "The reviewed source does not establish a universal Texas occupational license. Employers and project codes can require process/material-specific qualification.",
+      "training": "Safe welding techniques, blueprint reading, measurement and supervised practice.",
+      "earningsCaveat": "Specialty pipeline/travel/overtime pay is not the typical entry baseline. Separate employees from independent contracting.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "truck-driving",
+      "title": "Heavy and tractor-trailer truck driver",
+      "soc": "53-3032.00",
+      "family": "Transport & logistics",
+      "currentlyMissing": true,
+      "priority": "essential",
+      "typicalPreparation": "Truck-driving school or an employer training route leading to the appropriate CDL.",
+      "texasMinimumOrProtectedCredential": "Texas CLP/CDL, required knowledge/skills tests and applicable medical qualification. First-time Class A/B applicants ordinarily need ELDT through a registered provider; CLP minimum holding period 14 days.",
+      "training": "Vehicle inspection, control and road driving; endorsements depend on vehicle/cargo.",
+      "earningsCaveat": "Employee driver wages are not owner-operator revenue. Fuel, truck financing, maintenance and unpaid time must be deducted from business receipts.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://www.dps.texas.gov/section/driver-license/how-do-i-apply-commercial-driver-license",
+        "https://www.dps.texas.gov/section/driver-license/entry-level-driver-training-eldt"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "real-estate-sales",
+      "title": "Real estate sales agent",
+      "soc": "41-9022.00",
+      "family": "Business & people",
+      "currentlyMissing": true,
+      "priority": "essential",
+      "typicalPreparation": "Qualifying real-estate courses and practical sales/business preparation; college is optional.",
+      "texasMinimumOrProtectedCredential": "TREC age18+, eligibility/fitness, 180 classroom hours, application/fingerprints, licensing examination, and licensed broker sponsorship before active sales work.",
+      "training": "Contracts, agency, finance and supervised brokerage work.",
+      "earningsCaveat": "Commission income is variable; employee wage surveys exclude many self-employed agents. Gross commissions are not take-home income.",
+      "wageDisplayMode": "commission_employee_caveat",
+      "sourceURLs": [
+        "https://www.trec.texas.gov/become-licensed/sales-agent"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "interior-design",
+      "title": "Interior designer",
+      "soc": "27-1025.00",
+      "family": "Design & places",
+      "currentlyMissing": true,
+      "priority": "high",
+      "typicalPreparation": "Bachelor’s in interior design or related training is typical.",
+      "texasMinimumOrProtectedCredential": "Texas protects the Registered Interior Designer credential. Registration requires qualifying education/experience, all NCIDQ sections and Board application/background requirements. Do not describe every unregistered decorator as illegally practicing.",
+      "training": "Space planning, codes, accessibility, CAD/BIM and portfolio work.",
+      "earningsCaveat": "Employee design wages exclude self-employed business income; furniture sales commissions may use another occupation.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://tbae.texas.gov/ridregbyexam/",
+        "https://tbae.texas.gov/enforcement-faqs/",
+        "https://www.bls.gov/ooh/arts-and-design/interior-designers.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "digital-interface-design",
+      "title": "Web and digital interface designer",
+      "soc": "15-1255.00",
+      "family": "Design & technology",
+      "currentlyMissing": true,
+      "priority": "essential",
+      "typicalPreparation": "Education ranges from high school to bachelor’s; portfolio and demonstrated design skill matter.",
+      "texasMinimumOrProtectedCredential": "No universal degree or Texas professional license minimum is established by the occupational source. Employer and project requirements vary.",
+      "training": "User interfaces, accessibility, prototypes and usability testing.",
+      "earningsCaveat": "Use this specific occupation; graphic-design and software-development wages do not establish UI-designer pay.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "chemical-engineering",
+      "title": "Chemical engineer",
+      "soc": "17-2041.00",
+      "family": "Engineering & science",
+      "currentlyMissing": true,
+      "priority": "high",
+      "typicalPreparation": "Bachelor’s in chemical engineering or a related engineering field; internships/co-op help.",
+      "texasMinimumOrProtectedCredential": "PE is required for regulated engineering practice subject to Texas statutory exemptions; not every entry-level industrial engineering job requires PE.",
+      "training": "Chemistry, physics, mathematics, process design and laboratory/project work.",
+      "earningsCaveat": "Austin occupational wages may be sparse; Houston/Dallas fallback must be labeled geography and not blended into an Austin observation.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/chemical-engineers.htm",
+        "https://pels.texas.gov/lic_basic.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "aerospace-engineering",
+      "title": "Aerospace engineer",
+      "soc": "17-2011.00",
+      "family": "Engineering & science",
+      "currentlyMissing": true,
+      "priority": "high",
+      "typicalPreparation": "Bachelor’s in aerospace engineering or a related engineering field.",
+      "texasMinimumOrProtectedCredential": "No universal entry-level PE requirement; regulated engineering scope follows Texas licensing law/exemptions. Defense roles may require security clearance and some clearances require U.S. citizenship.",
+      "training": "Flight/space systems, mechanics, controls, mathematics and engineering projects.",
+      "earningsCaveat": "Do not imply a security clearance is required for every aerospace job. Metro wages do not guarantee local openings.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/architecture-and-engineering/aerospace-engineers.htm",
+        "https://pels.texas.gov/lic_basic.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "photography",
+      "title": "Photographer",
+      "soc": "27-4021.00",
+      "family": "Creative & media",
+      "currentlyMissing": true,
+      "priority": "high",
+      "typicalPreparation": "High school is typical entry education; classes, certificates or degrees can develop technical/artistic skill.",
+      "texasMinimumOrProtectedCredential": "No universal degree or Texas professional license minimum is established by the reviewed occupational source. Business and activity-specific permissions are separate.",
+      "training": "Camera/lighting, editing, portfolio, client work and business practice.",
+      "earningsCaveat": "Part-time/self-employment is common. Employee hourly wages exclude self-employment and do not guarantee 2,080 paid hours.",
+      "wageDisplayMode": "hourly_and_business_scenario",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/media-and-communication/photographers.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "music-performance",
+      "title": "Musician or singer",
+      "soc": "27-2042.00",
+      "family": "Creative & performing arts",
+      "currentlyMissing": true,
+      "priority": "high",
+      "typicalPreparation": "Extensive training and practice; no universal formal credential. Classical/opera routes may include bachelor’s or graduate study.",
+      "texasMinimumOrProtectedCredential": "No universal degree or Texas professional license minimum is established by the occupational source.",
+      "training": "Instrument/voice instruction, rehearsal, auditions and live/recording experience.",
+      "earningsCaveat": "Hourly performance wage is not full-time annual earnings. Paid gigs can be irregular and preparation time unpaid; self-employed income is excluded from employee wage data.",
+      "wageDisplayMode": "hourly_only_no_2080",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/entertainment-and-sports/musicians-and-singers.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "acting",
+      "title": "Actor",
+      "soc": "27-2011.00",
+      "family": "Creative & performing arts",
+      "currentlyMissing": true,
+      "priority": "high",
+      "typicalPreparation": "Acting classes, sustained practice and auditions; formal degree is not universal.",
+      "texasMinimumOrProtectedCredential": "No universal degree or Texas professional license minimum is established by the occupational source.",
+      "training": "Performance technique, productions, audition preparation and portfolio/reel.",
+      "earningsCaveat": "Short engagements and periods without paid work are common. Do not annualize hourly employee wages at 2,080 hours or imply celebrity income.",
+      "wageDisplayMode": "hourly_only_no_2080",
+      "sourceURLs": [
+        "https://www.bls.gov/ooh/entertainment-and-sports/actors.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "veterinary-technician",
+      "title": "Veterinary technician",
+      "soc": "29-2056.00",
+      "family": "Animals & health",
+      "currentlyMissing": true,
+      "priority": "high",
+      "typicalPreparation": "Technician usually associate degree in veterinary technology; technologist commonly bachelor’s.",
+      "texasMinimumOrProtectedCredential": "Texas LVT is a protected credential, not a blanket requirement for every animal-care assistant. LVT route: AVMA-accredited program, VTNE, state board exam, fingerprinting and application.",
+      "training": "Supervised animal nursing, laboratory tests and clinical practice under a veterinarian.",
+      "earningsCaveat": "Use technician wages rather than veterinarian pay; the occupation also includes technologists.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://veterinary.texas.gov/licensing/types-of-licenses/lvt/",
+        "https://www.bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "radiologic-technology",
+      "title": "Radiologic technologist",
+      "soc": "29-2034.00",
+      "family": "Health & imaging",
+      "currentlyMissing": true,
+      "priority": "high",
+      "typicalPreparation": "Associate’s degree in radiography with clinical preparation is typical.",
+      "texasMinimumOrProtectedCredential": "Texas general medical radiologic technologist certificate and qualifying education/exam/application requirements for regulated radiologic procedures. MRI-only practice has a distinct licensing scope.",
+      "training": "Patient positioning, radiation safety and supervised imaging practice.",
+      "earningsCaveat": "Radiologic technologist, MRI technologist and sonographer are distinct occupations and salary categories.",
+      "wageDisplayMode": "annual_employee",
+      "sourceURLs": [
+        "https://www.tmb.texas.gov/apply-renew/medical-radiologic-technologist/medical-radiologic-technologist-certificate-application",
+        "https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm"
+      ],
+      "checkedAt": "2026-10-16"
+    }
+  ],
+  "implementationGate": [
+    "Verify current Austin wage series or labeled Dallas/Houston fallback before salary cards.",
+    "Acquire credential-specific education cost example and training duration.",
+    "Separate legal/protected-title requirements from typical hiring preferences.",
+    "Performing-arts hourly earnings require irregular-work scenarios, not 2,080-hour annualization.",
+    "Do not reuse a generic interest match as proof of aptitude or future career success."
+  ],
+  "verifiedTeacherTaxonomy": {
+    "elementary": "25-2021.00",
+    "middleSchool": "25-2022.00",
+    "secondary": "25-2031.00",
+    "note": "Existing middle-school SOC mapping is correct; elementary/high-school are separate profiles, not aliases.",
+    "sourceURLs": [
+      "https://www.onetonline.org/link/summary/25-2021.00",
+      "https://www.onetonline.org/link/summary/25-2022.00",
+      "https://www.onetonline.org/link/summary/25-2031.00"
+    ]
+  }
+}

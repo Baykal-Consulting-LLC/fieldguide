@@ -1,0 +1,5165 @@
+{
+  "version": "0.99",
+  "baseline": "Frozen 0.98 versus 0.97, same 60+24 budget",
+  "models": 2000,
+  "losses": [
+    {
+      "id": "scale056-0017",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "market-research"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "logistics",
+          "id": "business-refine-3",
+          "key": "field|business|business-refine-3",
+          "selected": [
+            "business-refine-3-2",
+            "business-refine-3-3",
+            "business-refine-3-4"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "project-management",
+          "id": "project-management-interest-044-1",
+          "key": "project-management|project-management-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to turn a work project’s goals into a plan for its people, tasks, deadlines, and budget?"
+        },
+        {
+          "careerId": "management-analyst",
+          "id": "management-analyst-interest-044-1",
+          "key": "management-analyst|management-analyst-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to investigate how an organization works by gathering information about its procedures, problems, and results?"
+        },
+        {
+          "careerId": "market-research",
+          "id": "market-research-interest-044-1",
+          "key": "market-research|market-research-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to investigate what customers want and why they choose one product or service over another?"
+        },
+        {
+          "careerId": "market-research",
+          "id": "market-research-interest-044-2",
+          "key": "market-research|market-research-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to compare customer and market data, then explain what an organization could do based on the findings?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0093",
+      "cohort": "holdout056",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "librarian"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "librarian",
+          "id": "librarian-interest-044-2",
+          "key": "librarian|librarian-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to guide library users in finding and using books, reference materials, or online information for their own purposes as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0101",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "bookkeeping-clerk"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "cashier",
+          "id": "sales-office-help",
+          "key": "field|sales-office|sales-office-help",
+          "selected": [
+            "sales-office-help-4"
+          ],
+          "prompt": "How would you enjoy helping people?"
+        },
+        {
+          "careerId": "cashier",
+          "id": "sales-office-refine-3",
+          "key": "field|sales-office|sales-office-refine-3",
+          "selected": [
+            "sales-office-refine-3-4"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "cashier",
+          "id": "sales-office-workday",
+          "key": "field|sales-office|sales-office-workday",
+          "selected": [
+            "sales-office-workday-4"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0131",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "retail-sales"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-help",
+          "key": "field|sales-office|sales-office-help",
+          "selected": [
+            "sales-office-help-1",
+            "sales-office-help-2"
+          ],
+          "prompt": "How would you enjoy helping people?"
+        },
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-refine-3",
+          "key": "field|sales-office|sales-office-refine-3",
+          "selected": [
+            "sales-office-refine-3-1",
+            "sales-office-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-1",
+          "key": "retail-sales|retail-sales-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to talk with shoppers to understand what they need and help them find suitable products?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-2",
+          "key": "retail-sales|retail-sales-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to explain product choices and help customers make a purchase that fits their needs?"
+        },
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-workday",
+          "key": "field|sales-office|sales-office-workday",
+          "selected": [
+            "sales-office-workday-1",
+            "sales-office-workday-2"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0156",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "office-clerk",
+        "librarian"
+      ],
+      "after": [
+        "office-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "personal-care-aide",
+          "id": "health-refine-3",
+          "key": "field|health|health-refine-3",
+          "selected": [
+            "health-refine-3-2",
+            "health-refine-3-5"
+          ],
+          "prompt": "What would you like to explain to someone?"
+        },
+        {
+          "careerId": "personal-care-aide",
+          "id": "health-support",
+          "key": "field|health|health-support",
+          "selected": [
+            "health-support-4"
+          ],
+          "prompt": "How would you like to help someone?"
+        },
+        {
+          "careerId": "librarian",
+          "id": "creative-make",
+          "key": "field|creative|creative-make",
+          "selected": [
+            "creative-make-4"
+          ],
+          "prompt": "What would you enjoy creating?"
+        },
+        {
+          "careerId": "medical-services-manager",
+          "id": "business-refine-3",
+          "key": "field|business|business-refine-3",
+          "selected": [
+            "business-refine-3-4"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "medical-services-manager",
+          "id": "business-people",
+          "key": "field|business|business-people",
+          "selected": [
+            "business-people-1",
+            "business-people-5"
+          ],
+          "prompt": "Which kind of work with people interests you?"
+        },
+        {
+          "careerId": "librarian",
+          "id": "creative-refine-3",
+          "key": "field|creative|creative-refine-3",
+          "selected": [
+            "creative-refine-3-3"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "librarian",
+          "id": "librarian-interest-044-1",
+          "key": "librarian|librarian-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to help someone work out what information they need and search reliable sources to answer their question as a regular part of your work?"
+        },
+        {
+          "careerId": "librarian",
+          "id": "librarian-interest-044-2",
+          "key": "librarian|librarian-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to guide library users in finding and using books, reference materials, or online information for their own purposes as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0169",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "carpentry",
+        "electrical-engineering"
+      ],
+      "after": [
+        "carpentry"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "trades-workday",
+          "key": "field|trades|trades-workday",
+          "selected": [
+            "trades-workday-1",
+            "trades-workday-2",
+            "trades-workday-3",
+            "trades-workday-4"
+          ],
+          "prompt": "Which routines would you like to practice?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1",
+            "building-design-2",
+            "building-design-4"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-1",
+          "key": "electrical-engineering|electrical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-2",
+          "key": "electrical-engineering|electrical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0182",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "carpentry"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "carpentry",
+          "id": "trades-refine-3",
+          "key": "field|trades|trades-refine-3",
+          "selected": [
+            "trades-refine-3-2",
+            "trades-refine-3-3"
+          ],
+          "prompt": "Which details would you enjoy learning to check?"
+        },
+        {
+          "careerId": "carpentry",
+          "id": "trades-systems",
+          "key": "field|trades|trades-systems",
+          "selected": [
+            "trades-systems-1",
+            "trades-systems-2",
+            "trades-systems-4"
+          ],
+          "prompt": "Which systems would you like to work with?"
+        },
+        {
+          "careerId": "carpentry",
+          "id": "carpentry-interest-044-1",
+          "key": "carpentry|carpentry-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to measure and mark wood or other building materials so pieces can be cut to fit a construction plan as a regular part of your work?"
+        },
+        {
+          "careerId": "carpentry",
+          "id": "carpentry-interest-044-2",
+          "key": "carpentry|carpentry-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to cut, assemble, or install building parts such as frames, cabinets, or trim while following safe work practices as a regular part of your work?"
+        },
+        {
+          "careerId": "electrician",
+          "id": "trades-workday",
+          "key": "field|trades|trades-workday",
+          "selected": [
+            "trades-workday-1",
+            "trades-workday-2",
+            "trades-workday-3",
+            "trades-workday-4"
+          ],
+          "prompt": "Which routines would you like to practice?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0263",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "industrial-machinery-mechanic"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "industrial-machinery-mechanic-interest-044-1",
+          "key": "industrial-machinery-mechanic|industrial-machinery-mechanic-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to investigate why production machinery is not working and work out what needs repairing as a regular part of your work?"
+        },
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "industrial-machinery-mechanic-interest-044-2",
+          "key": "industrial-machinery-mechanic|industrial-machinery-mechanic-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to repair or replace machine parts and maintain equipment so it can run reliably as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0324",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "retail-sales",
+        "marketing-manager",
+        "landscaping-worker"
+      ],
+      "after": [
+        "retail-sales",
+        "landscaping-worker"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "general-operations-manager",
+          "id": "business-problem",
+          "key": "field|business|business-problem",
+          "selected": [
+            "business-problem-2",
+            "business-problem-3",
+            "business-problem-4"
+          ],
+          "prompt": "Which problem would you enjoy working through?"
+        },
+        {
+          "careerId": "general-operations-manager",
+          "id": "business-refine-3",
+          "key": "field|business|business-refine-3",
+          "selected": [
+            "business-refine-3-2",
+            "business-refine-3-4"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "general-operations-manager",
+          "id": "business-people",
+          "key": "field|business|business-people",
+          "selected": [
+            "business-people-1",
+            "business-people-5"
+          ],
+          "prompt": "Which kind of work with people interests you?"
+        },
+        {
+          "careerId": "marketing-manager",
+          "id": "marketing-manager-interest-044-1",
+          "key": "marketing-manager|marketing-manager-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to plan and coordinate a business's marketing work to reach customers for its products or services as a regular part of your work?"
+        },
+        {
+          "careerId": "marketing-manager",
+          "id": "marketing-manager-interest-044-2",
+          "key": "marketing-manager|marketing-manager-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to study customer or sales trends and use them to decide how marketing plans and spending should change as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0448",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "retail-sales"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-help",
+          "key": "field|sales-office|sales-office-help",
+          "selected": [
+            "sales-office-help-1",
+            "sales-office-help-2"
+          ],
+          "prompt": "How would you enjoy helping people?"
+        },
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-refine-3",
+          "key": "field|sales-office|sales-office-refine-3",
+          "selected": [
+            "sales-office-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-1",
+          "key": "retail-sales|retail-sales-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to talk with shoppers to understand what they need and help them find suitable products?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-2",
+          "key": "retail-sales|retail-sales-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to explain product choices and help customers make a purchase that fits their needs?"
+        },
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-workday",
+          "key": "field|sales-office|sales-office-workday",
+          "selected": [
+            "sales-office-workday-1"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0631",
+      "cohort": "holdout056",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "industrial-machinery-mechanic"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "trades-refine-3",
+          "key": "field|trades|trades-refine-3",
+          "selected": [
+            "trades-refine-3-3",
+            "trades-refine-3-4"
+          ],
+          "prompt": "Which details would you enjoy learning to check?"
+        },
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "trades-systems",
+          "key": "field|trades|trades-systems",
+          "selected": [
+            "trades-systems-1",
+            "trades-systems-3",
+            "trades-systems-4"
+          ],
+          "prompt": "Which systems would you like to work with?"
+        },
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "industrial-machinery-mechanic-interest-044-1",
+          "key": "industrial-machinery-mechanic|industrial-machinery-mechanic-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to investigate why production machinery is not working and work out what needs repairing as a regular part of your work?"
+        },
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "industrial-machinery-mechanic-interest-044-2",
+          "key": "industrial-machinery-mechanic|industrial-machinery-mechanic-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to repair or replace machine parts and maintain equipment so it can run reliably as a regular part of your work?"
+        },
+        {
+          "careerId": "hvac",
+          "id": "trades-workday",
+          "key": "field|trades|trades-workday",
+          "selected": [
+            "trades-workday-2",
+            "trades-workday-3",
+            "trades-workday-4"
+          ],
+          "prompt": "Which routines would you like to practice?"
+        },
+        {
+          "careerId": "exercise-physiology",
+          "id": "health-support",
+          "key": "field|health|health-support",
+          "selected": [
+            "health-support-4"
+          ],
+          "prompt": "How would you like to help someone?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0648",
+      "cohort": "holdout056",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "retail-sales"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "customer-service",
+          "id": "sales-office-help",
+          "key": "field|sales-office|sales-office-help",
+          "selected": [
+            "sales-office-help-1",
+            "sales-office-help-2"
+          ],
+          "prompt": "How would you enjoy helping people?"
+        },
+        {
+          "careerId": "customer-service",
+          "id": "sales-office-refine-3",
+          "key": "field|sales-office|sales-office-refine-3",
+          "selected": [
+            "sales-office-refine-3-1",
+            "sales-office-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "receptionist",
+          "id": "sales-office-workday",
+          "key": "field|sales-office|sales-office-workday",
+          "selected": [
+            "sales-office-workday-1",
+            "sales-office-workday-2"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-1",
+          "key": "retail-sales|retail-sales-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to talk with shoppers to understand what they need and help them find suitable products?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-2",
+          "key": "retail-sales|retail-sales-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to explain product choices and help customers make a purchase that fits their needs?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0704",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "carpentry",
+        "civil-engineering",
+        "electronics-assembly"
+      ],
+      "after": [
+        "carpentry",
+        "electronics-assembly"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "architecture",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1",
+            "building-design-2",
+            "building-design-4"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "architecture",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "civil-engineering-interest-044-1",
+          "key": "civil-engineering|civil-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to plan or improve roads, bridges, water systems, or other structures that people depend on?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "civil-engineering-interest-044-2",
+          "key": "civil-engineering|civil-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use calculations and tests of soil or building materials to check whether a construction design is strong and safe?"
+        },
+        {
+          "careerId": "architecture",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-2",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0733",
+      "cohort": "holdout056",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "stock-order-filler",
+        "chemistry"
+      ],
+      "after": [
+        "stock-order-filler",
+        "landscaping-worker"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "biological-technician",
+          "id": "science-setting",
+          "key": "field|science|science-setting",
+          "selected": [
+            "science-setting-1",
+            "science-setting-3"
+          ],
+          "prompt": "Where would you enjoy gathering information?"
+        },
+        {
+          "careerId": "veterinary",
+          "id": "science-wonder",
+          "key": "field|science|science-wonder",
+          "selected": [
+            "science-wonder-2",
+            "science-wonder-3",
+            "science-wonder-4"
+          ],
+          "prompt": "What would you most enjoy investigating?"
+        },
+        {
+          "careerId": "chemistry",
+          "id": "chemistry-interest-044-1",
+          "key": "chemistry|chemistry-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to test substances in a laboratory to discover what they contain and how they behave?"
+        },
+        {
+          "careerId": "chemistry",
+          "id": "chemistry-interest-044-2",
+          "key": "chemistry|chemistry-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to plan controlled experiments that change or combine substances and explain the chemical results?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0737",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "statistics"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "librarian",
+          "id": "creative-make",
+          "key": "field|creative|creative-make",
+          "selected": [
+            "creative-make-4"
+          ],
+          "prompt": "What would you enjoy creating?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-2",
+          "key": "statistics|statistics-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to decide whether data were collected and analyzed in a fair, reliable way before trusting a conclusion?"
+        },
+        {
+          "careerId": "computer-support",
+          "id": "technology-workday",
+          "key": "field|technology|technology-workday",
+          "selected": [
+            "technology-workday-2"
+          ],
+          "prompt": "Which parts of the work would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "scale056-0803",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "accounting"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "bookkeeping-clerk",
+          "id": "business-problem",
+          "key": "field|business|business-problem",
+          "selected": [
+            "business-problem-1",
+            "business-problem-2",
+            "business-problem-3",
+            "business-problem-4",
+            "business-problem-5"
+          ],
+          "prompt": "Which problem would you enjoy working through?"
+        },
+        {
+          "careerId": "bookkeeping-clerk",
+          "id": "business-refine-3",
+          "key": "field|business|business-refine-3",
+          "selected": [
+            "business-refine-3-1",
+            "business-refine-3-4",
+            "business-refine-3-5"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "bookkeeping-clerk",
+          "id": "bookkeeping-clerk-interest-044-1",
+          "key": "bookkeeping-clerk|bookkeeping-clerk-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to keep an organization’s records of money coming in and going out, using bookkeeping tools you would be taught?"
+        },
+        {
+          "careerId": "bookkeeping-clerk",
+          "id": "bookkeeping-clerk-interest-044-2",
+          "key": "bookkeeping-clerk|bookkeeping-clerk-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to check business bills, payments, and account entries and correct records that do not add up?"
+        },
+        {
+          "careerId": "human-resources",
+          "id": "business-people",
+          "key": "field|business|business-people",
+          "selected": [
+            "business-people-1",
+            "business-people-4",
+            "business-people-5"
+          ],
+          "prompt": "Which kind of work with people interests you?"
+        },
+        {
+          "careerId": "accounting",
+          "id": "accounting-interest-044-1",
+          "key": "accounting|accounting-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to prepare and analyze an organization’s financial records and reports so people can understand its money and meet reporting rules?"
+        },
+        {
+          "careerId": "accounting",
+          "id": "accounting-interest-044-2",
+          "key": "accounting|accounting-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to investigate differences in an organization’s accounts and work out what needs correcting?"
+        },
+        {
+          "careerId": "marketing-manager",
+          "id": "business-workday",
+          "key": "field|business|business-workday",
+          "selected": [
+            "business-workday-1",
+            "business-workday-2"
+          ],
+          "prompt": "Which parts of the work would you like to try?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0022",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering",
+        "electrical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1",
+            "building-design-2"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-1",
+          "key": "electrical-engineering|electrical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-2",
+          "key": "electrical-engineering|electrical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0092",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "web-developer"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "software",
+          "id": "technology-refine-3",
+          "key": "field|technology|technology-refine-3",
+          "selected": [
+            "technology-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "software",
+          "id": "technology-workday",
+          "key": "field|technology|technology-workday",
+          "selected": [
+            "technology-workday-1"
+          ],
+          "prompt": "Which parts of the work would you like to learn?"
+        },
+        {
+          "careerId": "web-developer",
+          "id": "web-developer-interest-044-1",
+          "key": "web-developer|web-developer-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to write code that makes websites or web applications do what their users need?"
+        },
+        {
+          "careerId": "web-developer",
+          "id": "web-developer-interest-044-2",
+          "key": "web-developer|web-developer-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to build, test, and update a website so its pages and features work reliably?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0113",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "web-developer"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "web-developer",
+          "id": "web-developer-interest-044-1",
+          "key": "web-developer|web-developer-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to write code that makes websites or web applications do what their users need?"
+        },
+        {
+          "careerId": "web-developer",
+          "id": "web-developer-interest-044-2",
+          "key": "web-developer|web-developer-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to build, test, and update a website so its pages and features work reliably?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0193",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0247",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "statistics"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "computer-support",
+          "id": "technology-problem",
+          "key": "field|technology|technology-problem",
+          "selected": [
+            "technology-problem-2"
+          ],
+          "prompt": "Which digital problem would you enjoy exploring?"
+        },
+        {
+          "careerId": "computer-support",
+          "id": "technology-refine-3",
+          "key": "field|technology|technology-refine-3",
+          "selected": [
+            "technology-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-1",
+          "key": "statistics|statistics-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to use mathematics to find patterns and relationships in data, including how certain or uncertain the results are?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-2",
+          "key": "statistics|statistics-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to decide whether data were collected and analyzed in a fair, reliable way before trusting a conclusion?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0377",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "restaurant-cook"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "restaurant-manager",
+          "id": "services-refine-3",
+          "key": "field|services|services-refine-3",
+          "selected": [
+            "services-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "restaurant-manager",
+          "id": "services-serve",
+          "key": "field|services|services-serve",
+          "selected": [
+            "services-serve-1",
+            "services-serve-2"
+          ],
+          "prompt": "What would you enjoy helping people with?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-1",
+          "key": "restaurant-cook|restaurant-cook-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to prepare and cook meals for restaurant customers, managing cooking times and temperatures so dishes are ready correctly?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-2",
+          "key": "restaurant-cook|restaurant-cook-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to keep a restaurant kitchen clean and handle, store, and cook food safely while preparing meals for customers?"
+        },
+        {
+          "careerId": "general-maintenance",
+          "id": "trades-refine-3",
+          "key": "field|trades|trades-refine-3",
+          "selected": [
+            "trades-refine-3-2",
+            "trades-refine-3-3"
+          ],
+          "prompt": "Which details would you enjoy learning to check?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0381",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "mechanical-engineering"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0399",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "mechanical-engineering"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0401",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "carpentry",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic",
+        "carpentry"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-2",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0469",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "statistics"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "computer-support",
+          "id": "technology-problem",
+          "key": "field|technology|technology-problem",
+          "selected": [
+            "technology-problem-2"
+          ],
+          "prompt": "Which digital problem would you enjoy exploring?"
+        },
+        {
+          "careerId": "computer-support",
+          "id": "technology-refine-3",
+          "key": "field|technology|technology-refine-3",
+          "selected": [
+            "technology-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-1",
+          "key": "statistics|statistics-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to use mathematics to find patterns and relationships in data, including how certain or uncertain the results are?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-2",
+          "key": "statistics|statistics-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to decide whether data were collected and analyzed in a fair, reliable way before trusting a conclusion?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0473",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "restaurant-cook"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "food-counter",
+          "id": "services-people",
+          "key": "field|services|services-people",
+          "selected": [
+            "services-people-1"
+          ],
+          "prompt": "Which kind of teamwork interests you?"
+        },
+        {
+          "careerId": "food-counter",
+          "id": "services-refine-3",
+          "key": "field|services|services-refine-3",
+          "selected": [
+            "services-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-1",
+          "key": "restaurant-cook|restaurant-cook-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to prepare and cook meals for restaurant customers, managing cooking times and temperatures so dishes are ready correctly?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-2",
+          "key": "restaurant-cook|restaurant-cook-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to keep a restaurant kitchen clean and handle, store, and cook food safely while preparing meals for customers?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0529",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-1",
+          "key": "electrical-engineering|electrical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0531",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "statistics"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "computer-support",
+          "id": "technology-refine-3",
+          "key": "field|technology|technology-refine-3",
+          "selected": [
+            "technology-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-1",
+          "key": "statistics|statistics-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to use mathematics to find patterns and relationships in data, including how certain or uncertain the results are?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-2",
+          "key": "statistics|statistics-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to decide whether data were collected and analyzed in a fair, reliable way before trusting a conclusion?"
+        },
+        {
+          "careerId": "computer-support",
+          "id": "technology-workday",
+          "key": "field|technology|technology-workday",
+          "selected": [
+            "technology-workday-2"
+          ],
+          "prompt": "Which parts of the work would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0653",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0673",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0712",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "statistics"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "computer-support",
+          "id": "technology-refine-3",
+          "key": "field|technology|technology-refine-3",
+          "selected": [
+            "technology-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-1",
+          "key": "statistics|statistics-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to use mathematics to find patterns and relationships in data, including how certain or uncertain the results are?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-2",
+          "key": "statistics|statistics-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to decide whether data were collected and analyzed in a fair, reliable way before trusting a conclusion?"
+        },
+        {
+          "careerId": "computer-support",
+          "id": "technology-workday",
+          "key": "field|technology|technology-workday",
+          "selected": [
+            "technology-workday-2"
+          ],
+          "prompt": "Which parts of the work would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0714",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering",
+        "electrical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1",
+            "building-design-2"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-1",
+          "key": "electrical-engineering|electrical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-2",
+          "key": "electrical-engineering|electrical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0827",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "landscaping-worker"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "veterinary",
+          "id": "science-wonder",
+          "key": "field|science|science-wonder",
+          "selected": [
+            "science-wonder-3",
+            "science-wonder-4"
+          ],
+          "prompt": "What would you most enjoy investigating?"
+        },
+        {
+          "careerId": "landscaping-worker",
+          "id": "landscaping-worker-interest-044-1",
+          "key": "landscaping-worker|landscaping-worker-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to care for lawns, plants, and outdoor grounds through hands-on tasks such as mowing or pruning as a regular part of your work?"
+        },
+        {
+          "careerId": "landscaping-worker",
+          "id": "landscaping-worker-interest-044-2",
+          "key": "landscaping-worker|landscaping-worker-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use tools and outdoor equipment to maintain a landscape and keep the grounds in good condition as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0831",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering",
+        "electrical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-1",
+          "key": "electrical-engineering|electrical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-2",
+          "key": "electrical-engineering|electrical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0888",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "restaurant-cook"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "restaurant-manager",
+          "id": "services-people",
+          "key": "field|services|services-people",
+          "selected": [
+            "services-people-1"
+          ],
+          "prompt": "Which kind of teamwork interests you?"
+        },
+        {
+          "careerId": "restaurant-manager",
+          "id": "services-refine-3",
+          "key": "field|services|services-refine-3",
+          "selected": [
+            "services-refine-3-1",
+            "services-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-1",
+          "key": "restaurant-cook|restaurant-cook-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to prepare and cook meals for restaurant customers, managing cooking times and temperatures so dishes are ready correctly?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-2",
+          "key": "restaurant-cook|restaurant-cook-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to keep a restaurant kitchen clean and handle, store, and cook food safely while preparing meals for customers?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0951",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    },
+    {
+      "id": "grok075-0974",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation"
+    }
+  ],
+  "lossCounts": {
+    "models": 38,
+    "top": 18,
+    "degree": 27,
+    "classifications": {
+      "question-allocation": 38
+    }
+  },
+  "unknowns": {
+    "reasons": {
+      "unmeasured-preference": 29588,
+      "conflicting-evidence": 53,
+      "review-hold": 7
+    },
+    "questions": [
+      [
+        "health-refine-3",
+        1149
+      ],
+      [
+        "health-support",
+        1112
+      ],
+      [
+        "health-care",
+        1080
+      ],
+      [
+        "health-investigate",
+        1015
+      ],
+      [
+        "creative-people",
+        975
+      ],
+      [
+        "creative-refine-3",
+        776
+      ],
+      [
+        "services-refine-3",
+        717
+      ],
+      [
+        "creative-make",
+        673
+      ],
+      [
+        "services-serve",
+        669
+      ],
+      [
+        "technology-problem",
+        632
+      ],
+      [
+        "education-refine-3",
+        625
+      ],
+      [
+        "business-problem",
+        614
+      ],
+      [
+        "business-refine-3",
+        613
+      ],
+      [
+        "science-refine-3",
+        604
+      ],
+      [
+        "technology-refine-3",
+        560
+      ],
+      [
+        "science-wonder",
+        543
+      ],
+      [
+        "health-workday",
+        531
+      ],
+      [
+        "technology-workday",
+        516
+      ],
+      [
+        "science-setting",
+        507
+      ],
+      [
+        "services-people",
+        472
+      ],
+      [
+        "business-people",
+        463
+      ],
+      [
+        "building-design",
+        443
+      ],
+      [
+        "sales-office-refine-3",
+        425
+      ],
+      [
+        "education-help",
+        411
+      ],
+      [
+        "building-refine-3",
+        399
+      ],
+      [
+        "welder-interest-044-1",
+        398
+      ],
+      [
+        "sales-office-workday",
+        392
+      ],
+      [
+        "sales-office-help",
+        385
+      ],
+      [
+        "education-workday",
+        382
+      ],
+      [
+        "social-research-interest-044-1",
+        355
+      ],
+      [
+        "building-workday",
+        337
+      ],
+      [
+        "interpreting-interest-044-1",
+        334
+      ],
+      [
+        "urban-planning-interest-044-1",
+        320
+      ],
+      [
+        "trades-refine-3",
+        310
+      ],
+      [
+        "carpentry-interest-044-1",
+        296
+      ],
+      [
+        "logistics-interest-044-1",
+        278
+      ],
+      [
+        "industrial-machinery-mechanic-interest-044-1",
+        266
+      ],
+      [
+        "trades-systems",
+        266
+      ],
+      [
+        "degree-19309300-047-domain",
+        252
+      ],
+      [
+        "industrial-engineering-interest-044-1",
+        251
+      ],
+      [
+        "general-maintenance-interest-044-1",
+        241
+      ],
+      [
+        "trades-workday",
+        238
+      ],
+      [
+        "transportation-production-move",
+        228
+      ],
+      [
+        "school-psychology-interest-044-1",
+        218
+      ],
+      [
+        "photographer-interest-044-2",
+        212
+      ],
+      [
+        "quality-inspection-087-1",
+        204
+      ],
+      [
+        "conservation-interest-044-1",
+        199
+      ],
+      [
+        "transportation-production-refine-3",
+        190
+      ],
+      [
+        "public-relations-interest-044-1",
+        185
+      ],
+      [
+        "public-safety-refine-3",
+        176
+      ],
+      [
+        "transportation-production-setting",
+        165
+      ],
+      [
+        "geoscience-interest-044-1",
+        161
+      ],
+      [
+        "librarian-interest-044-1",
+        161
+      ],
+      [
+        "writing-interest-044-1",
+        159
+      ],
+      [
+        "animation-interest-044-1",
+        158
+      ],
+      [
+        "childcare-worker-interest-044-1",
+        154
+      ],
+      [
+        "business-refine-4",
+        154
+      ],
+      [
+        "preschool-teacher-interest-044-1",
+        151
+      ],
+      [
+        "social-work-interest-044-1",
+        148
+      ],
+      [
+        "environmental-science-interest-044-1",
+        136
+      ],
+      [
+        "mental-health-counselor-interest-044-1",
+        136
+      ],
+      [
+        "personal-financial-advisor-interest-044-1",
+        135
+      ],
+      [
+        "human-resources-interest-044-1",
+        135
+      ],
+      [
+        "clinical-psychologist-interest-044-1",
+        135
+      ],
+      [
+        "web-interface-design-interest-044-1",
+        134
+      ],
+      [
+        "general-operations-manager-interest-044-1",
+        131
+      ],
+      [
+        "public-safety-purpose",
+        129
+      ],
+      [
+        "public-safety-team",
+        122
+      ],
+      [
+        "quality-inspection-087-3",
+        120
+      ],
+      [
+        "accounting-interest-044-1",
+        119
+      ],
+      [
+        "food-science-interest-044-1",
+        113
+      ],
+      [
+        "sound-technician-087-1",
+        112
+      ],
+      [
+        "film-editing-interest-044-1",
+        111
+      ],
+      [
+        "biological-technician-interest-044-1",
+        107
+      ],
+      [
+        "elementary-teacher-interest-044-1",
+        103
+      ],
+      [
+        "landscaping-worker-interest-044-1",
+        103
+      ],
+      [
+        "logistics-interest-044-2",
+        103
+      ],
+      [
+        "high-school-teacher-interest-044-1",
+        99
+      ],
+      [
+        "marketing-manager-interest-044-1",
+        98
+      ],
+      [
+        "water-treatment-087-1",
+        94
+      ],
+      [
+        "financial-analysis-interest-044-1",
+        93
+      ],
+      [
+        "teaching-interest-044-1",
+        93
+      ],
+      [
+        "sound-technician-087-3",
+        92
+      ],
+      [
+        "stock-order-filler-interest-044-2",
+        88
+      ],
+      [
+        "office-clerk-interest-044-1",
+        87
+      ],
+      [
+        "paralegal-interest-044-1",
+        83
+      ],
+      [
+        "management-analyst-interest-044-1",
+        81
+      ],
+      [
+        "cashier-interest-044-1",
+        79
+      ],
+      [
+        "farmworker-crops-interest-044-1",
+        72
+      ],
+      [
+        "business-workday",
+        71
+      ],
+      [
+        "creative-revise",
+        71
+      ],
+      [
+        "degree-19101300-047-domain",
+        66
+      ],
+      [
+        "bookkeeping-clerk-interest-044-1",
+        63
+      ],
+      [
+        "degree-19309300-047-responsibility",
+        61
+      ],
+      [
+        "restaurant-cook-interest-044-1",
+        60
+      ],
+      [
+        "electronics-assembly-087-1",
+        58
+      ],
+      [
+        "mechanical-engineering-interest-044-1",
+        58
+      ],
+      [
+        "electrical-engineering-interest-044-1",
+        56
+      ],
+      [
+        "market-research-interest-044-1",
+        56
+      ],
+      [
+        "medical-services-manager-interest-044-1",
+        56
+      ],
+      [
+        "chemistry-interest-044-1",
+        53
+      ],
+      [
+        "conservation-interest-044-2",
+        49
+      ],
+      [
+        "geoscience-interest-044-2",
+        37
+      ],
+      [
+        "project-management-interest-044-1",
+        36
+      ],
+      [
+        "electronics-assembly-087-3",
+        34
+      ],
+      [
+        "physical-therapy-interest-044-1",
+        33
+      ],
+      [
+        "law-interest-044-1",
+        33
+      ],
+      [
+        "carpentry-interest-044-2",
+        31
+      ],
+      [
+        "hairdresser-interest-044-1",
+        30
+      ],
+      [
+        "animal-caretaking-087-3",
+        30
+      ],
+      [
+        "software-interest-044-1",
+        27
+      ],
+      [
+        "animal-caretaking-087-2",
+        25
+      ],
+      [
+        "animal-caretaking-087-1",
+        24
+      ],
+      [
+        "exercise-physiology-interest-044-1",
+        21
+      ],
+      [
+        "av-technician-087-1",
+        20
+      ],
+      [
+        "elementary-teacher-interest-044-2",
+        19
+      ],
+      [
+        "animation-interest-044-2",
+        19
+      ],
+      [
+        "physician-interest-044-1",
+        19
+      ],
+      [
+        "clinical-psychologist-interest-044-2",
+        19
+      ],
+      [
+        "phlebotomy-087-1",
+        18
+      ],
+      [
+        "market-research-interest-044-2",
+        17
+      ],
+      [
+        "restaurant-cook-interest-044-2",
+        17
+      ],
+      [
+        "av-technician-087-2",
+        16
+      ],
+      [
+        "mental-health-counselor-interest-044-2",
+        16
+      ],
+      [
+        "writing-interest-044-2",
+        15
+      ],
+      [
+        "physician-interest-044-2",
+        15
+      ],
+      [
+        "management-analyst-interest-044-2",
+        15
+      ],
+      [
+        "preschool-teacher-interest-044-2",
+        14
+      ],
+      [
+        "farmworker-crops-interest-044-2",
+        13
+      ],
+      [
+        "law-interest-044-2",
+        12
+      ],
+      [
+        "teaching-interest-044-2",
+        12
+      ],
+      [
+        "civil-engineering-interest-044-2",
+        11
+      ],
+      [
+        "plant-research-reporting-090",
+        11
+      ],
+      [
+        "firefighter-interest-044-1",
+        11
+      ],
+      [
+        "electrical-engineering-interest-044-2",
+        10
+      ],
+      [
+        "sound-technician-087-2",
+        8
+      ],
+      [
+        "architecture-interest-044-2",
+        8
+      ],
+      [
+        "degree-17102100-047-method",
+        7
+      ],
+      [
+        "degree-25112100-047-domain",
+        7
+      ],
+      [
+        "degree-25103200-047-domain",
+        6
+      ],
+      [
+        "childcare-worker-interest-044-2",
+        5
+      ],
+      [
+        "web-interface-design-interest-044-2",
+        5
+      ],
+      [
+        "film-editing-interest-044-2",
+        4
+      ],
+      [
+        "machining-087-1",
+        4
+      ],
+      [
+        "degree-25903100-047-method",
+        3
+      ],
+      [
+        "degree-25106500-047-domain",
+        3
+      ],
+      [
+        "social-research-interest-044-2",
+        3
+      ],
+      [
+        "architecture-interest-044-1",
+        3
+      ],
+      [
+        "food-science-interest-044-2",
+        3
+      ],
+      [
+        "degree-25103100-047-domain",
+        2
+      ],
+      [
+        "degree-25105200-047-domain",
+        2
+      ],
+      [
+        "social-work-interest-044-2",
+        2
+      ],
+      [
+        "high-school-teacher-interest-044-2",
+        2
+      ],
+      [
+        "degree-25108100-047-domain",
+        2
+      ],
+      [
+        "degree-25112200-047-domain",
+        2
+      ],
+      [
+        "graphic-design-interest-044-1",
+        1
+      ],
+      [
+        "interpreting-interest-044-2",
+        1
+      ],
+      [
+        "degree-25119300-047-domain",
+        1
+      ],
+      [
+        "degree-25105300-047-domain",
+        1
+      ],
+      [
+        "financial-analysis-interest-044-2",
+        1
+      ],
+      [
+        "industrial-machinery-mechanic-interest-044-2",
+        1
+      ],
+      [
+        "industrial-design-interest-044-1",
+        1
+      ],
+      [
+        "degree-27403100-047-responsibility",
+        1
+      ],
+      [
+        "paralegal-interest-044-2",
+        1
+      ],
+      [
+        "cnc-operation-087-1",
+        1
+      ],
+      [
+        "degree-19101300-047-method",
+        1
+      ],
+      [
+        "degree-25112100-047-method",
+        1
+      ],
+      [
+        "degree-25106400-047-domain",
+        1
+      ],
+      [
+        "degree-15202100-047-responsibility",
+        1
+      ],
+      [
+        "degree-27204100-047-method",
+        1
+      ],
+      [
+        "degree-27101300-047-method",
+        1
+      ],
+      [
+        "degree-25201200-047-method",
+        1
+      ],
+      [
+        "web-developer-interest-044-1",
+        1
+      ]
+    ]
+  },
+  "limits": [
+    "Omitted affirmative questions are trace evidence of allocation differences, not proof that restoring each item alone would restore support.",
+    "No unseen response or model feature is available to the next selector. All decisions use already observed responses and current scores.",
+    "Unknown is not negative. Lower priority after an unknown preserves candidates and unchanged support rules.",
+    "All previously inspected holdouts are evaluation splits, not untouched validation."
+  ],
+  "recovered": [
+    {
+      "id": "scale056-0017",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "market-research"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "logistics",
+          "id": "business-refine-3",
+          "key": "field|business|business-refine-3",
+          "selected": [
+            "business-refine-3-2",
+            "business-refine-3-3",
+            "business-refine-3-4"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "project-management",
+          "id": "project-management-interest-044-1",
+          "key": "project-management|project-management-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to turn a work project’s goals into a plan for its people, tasks, deadlines, and budget?"
+        },
+        {
+          "careerId": "management-analyst",
+          "id": "management-analyst-interest-044-1",
+          "key": "management-analyst|management-analyst-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to investigate how an organization works by gathering information about its procedures, problems, and results?"
+        },
+        {
+          "careerId": "market-research",
+          "id": "market-research-interest-044-1",
+          "key": "market-research|market-research-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to investigate what customers want and why they choose one product or service over another?"
+        },
+        {
+          "careerId": "market-research",
+          "id": "market-research-interest-044-2",
+          "key": "market-research|market-research-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to compare customer and market data, then explain what an organization could do based on the findings?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": true,
+      "current": [
+        "market-research"
+      ]
+    },
+    {
+      "id": "scale056-0093",
+      "cohort": "holdout056",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "librarian"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "librarian",
+          "id": "librarian-interest-044-2",
+          "key": "librarian|librarian-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to guide library users in finding and using books, reference materials, or online information for their own purposes as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": true,
+      "current": [
+        "bookkeeping-clerk",
+        "librarian"
+      ]
+    },
+    {
+      "id": "scale056-0101",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "bookkeeping-clerk"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "cashier",
+          "id": "sales-office-help",
+          "key": "field|sales-office|sales-office-help",
+          "selected": [
+            "sales-office-help-4"
+          ],
+          "prompt": "How would you enjoy helping people?"
+        },
+        {
+          "careerId": "cashier",
+          "id": "sales-office-refine-3",
+          "key": "field|sales-office|sales-office-refine-3",
+          "selected": [
+            "sales-office-refine-3-4"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "cashier",
+          "id": "sales-office-workday",
+          "key": "field|sales-office|sales-office-workday",
+          "selected": [
+            "sales-office-workday-4"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": []
+    },
+    {
+      "id": "scale056-0131",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "retail-sales"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-help",
+          "key": "field|sales-office|sales-office-help",
+          "selected": [
+            "sales-office-help-1",
+            "sales-office-help-2"
+          ],
+          "prompt": "How would you enjoy helping people?"
+        },
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-refine-3",
+          "key": "field|sales-office|sales-office-refine-3",
+          "selected": [
+            "sales-office-refine-3-1",
+            "sales-office-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-1",
+          "key": "retail-sales|retail-sales-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to talk with shoppers to understand what they need and help them find suitable products?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-2",
+          "key": "retail-sales|retail-sales-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to explain product choices and help customers make a purchase that fits their needs?"
+        },
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-workday",
+          "key": "field|sales-office|sales-office-workday",
+          "selected": [
+            "sales-office-workday-1",
+            "sales-office-workday-2"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": false,
+      "current": [
+        "retail-sales"
+      ]
+    },
+    {
+      "id": "scale056-0156",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "office-clerk",
+        "librarian"
+      ],
+      "after": [
+        "office-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "personal-care-aide",
+          "id": "health-refine-3",
+          "key": "field|health|health-refine-3",
+          "selected": [
+            "health-refine-3-2",
+            "health-refine-3-5"
+          ],
+          "prompt": "What would you like to explain to someone?"
+        },
+        {
+          "careerId": "personal-care-aide",
+          "id": "health-support",
+          "key": "field|health|health-support",
+          "selected": [
+            "health-support-4"
+          ],
+          "prompt": "How would you like to help someone?"
+        },
+        {
+          "careerId": "librarian",
+          "id": "creative-make",
+          "key": "field|creative|creative-make",
+          "selected": [
+            "creative-make-4"
+          ],
+          "prompt": "What would you enjoy creating?"
+        },
+        {
+          "careerId": "medical-services-manager",
+          "id": "business-refine-3",
+          "key": "field|business|business-refine-3",
+          "selected": [
+            "business-refine-3-4"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "medical-services-manager",
+          "id": "business-people",
+          "key": "field|business|business-people",
+          "selected": [
+            "business-people-1",
+            "business-people-5"
+          ],
+          "prompt": "Which kind of work with people interests you?"
+        },
+        {
+          "careerId": "librarian",
+          "id": "creative-refine-3",
+          "key": "field|creative|creative-refine-3",
+          "selected": [
+            "creative-refine-3-3"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "librarian",
+          "id": "librarian-interest-044-1",
+          "key": "librarian|librarian-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to help someone work out what information they need and search reliable sources to answer their question as a regular part of your work?"
+        },
+        {
+          "careerId": "librarian",
+          "id": "librarian-interest-044-2",
+          "key": "librarian|librarian-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to guide library users in finding and using books, reference materials, or online information for their own purposes as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": [
+        "office-clerk"
+      ]
+    },
+    {
+      "id": "scale056-0169",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "carpentry",
+        "electrical-engineering"
+      ],
+      "after": [
+        "carpentry"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "trades-workday",
+          "key": "field|trades|trades-workday",
+          "selected": [
+            "trades-workday-1",
+            "trades-workday-2",
+            "trades-workday-3",
+            "trades-workday-4"
+          ],
+          "prompt": "Which routines would you like to practice?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1",
+            "building-design-2",
+            "building-design-4"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-1",
+          "key": "electrical-engineering|electrical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-2",
+          "key": "electrical-engineering|electrical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": true,
+      "current": [
+        "carpentry",
+        "electrical-engineering"
+      ]
+    },
+    {
+      "id": "scale056-0182",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "carpentry"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "carpentry",
+          "id": "trades-refine-3",
+          "key": "field|trades|trades-refine-3",
+          "selected": [
+            "trades-refine-3-2",
+            "trades-refine-3-3"
+          ],
+          "prompt": "Which details would you enjoy learning to check?"
+        },
+        {
+          "careerId": "carpentry",
+          "id": "trades-systems",
+          "key": "field|trades|trades-systems",
+          "selected": [
+            "trades-systems-1",
+            "trades-systems-2",
+            "trades-systems-4"
+          ],
+          "prompt": "Which systems would you like to work with?"
+        },
+        {
+          "careerId": "carpentry",
+          "id": "carpentry-interest-044-1",
+          "key": "carpentry|carpentry-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to measure and mark wood or other building materials so pieces can be cut to fit a construction plan as a regular part of your work?"
+        },
+        {
+          "careerId": "carpentry",
+          "id": "carpentry-interest-044-2",
+          "key": "carpentry|carpentry-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to cut, assemble, or install building parts such as frames, cabinets, or trim while following safe work practices as a regular part of your work?"
+        },
+        {
+          "careerId": "electrician",
+          "id": "trades-workday",
+          "key": "field|trades|trades-workday",
+          "selected": [
+            "trades-workday-1",
+            "trades-workday-2",
+            "trades-workday-3",
+            "trades-workday-4"
+          ],
+          "prompt": "Which routines would you like to practice?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": false,
+      "current": [
+        "carpentry"
+      ]
+    },
+    {
+      "id": "scale056-0263",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "industrial-machinery-mechanic"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "industrial-machinery-mechanic-interest-044-1",
+          "key": "industrial-machinery-mechanic|industrial-machinery-mechanic-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to investigate why production machinery is not working and work out what needs repairing as a regular part of your work?"
+        },
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "industrial-machinery-mechanic-interest-044-2",
+          "key": "industrial-machinery-mechanic|industrial-machinery-mechanic-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to repair or replace machine parts and maintain equipment so it can run reliably as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": false,
+      "current": [
+        "industrial-machinery-mechanic"
+      ]
+    },
+    {
+      "id": "scale056-0324",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "retail-sales",
+        "marketing-manager",
+        "landscaping-worker"
+      ],
+      "after": [
+        "retail-sales",
+        "landscaping-worker"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "general-operations-manager",
+          "id": "business-problem",
+          "key": "field|business|business-problem",
+          "selected": [
+            "business-problem-2",
+            "business-problem-3",
+            "business-problem-4"
+          ],
+          "prompt": "Which problem would you enjoy working through?"
+        },
+        {
+          "careerId": "general-operations-manager",
+          "id": "business-refine-3",
+          "key": "field|business|business-refine-3",
+          "selected": [
+            "business-refine-3-2",
+            "business-refine-3-4"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "general-operations-manager",
+          "id": "business-people",
+          "key": "field|business|business-people",
+          "selected": [
+            "business-people-1",
+            "business-people-5"
+          ],
+          "prompt": "Which kind of work with people interests you?"
+        },
+        {
+          "careerId": "marketing-manager",
+          "id": "marketing-manager-interest-044-1",
+          "key": "marketing-manager|marketing-manager-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to plan and coordinate a business's marketing work to reach customers for its products or services as a regular part of your work?"
+        },
+        {
+          "careerId": "marketing-manager",
+          "id": "marketing-manager-interest-044-2",
+          "key": "marketing-manager|marketing-manager-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to study customer or sales trends and use them to decide how marketing plans and spending should change as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": [
+        "retail-sales",
+        "landscaping-worker"
+      ]
+    },
+    {
+      "id": "scale056-0448",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "retail-sales"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-help",
+          "key": "field|sales-office|sales-office-help",
+          "selected": [
+            "sales-office-help-1",
+            "sales-office-help-2"
+          ],
+          "prompt": "How would you enjoy helping people?"
+        },
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-refine-3",
+          "key": "field|sales-office|sales-office-refine-3",
+          "selected": [
+            "sales-office-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-1",
+          "key": "retail-sales|retail-sales-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to talk with shoppers to understand what they need and help them find suitable products?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-2",
+          "key": "retail-sales|retail-sales-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to explain product choices and help customers make a purchase that fits their needs?"
+        },
+        {
+          "careerId": "real-estate-agent",
+          "id": "sales-office-workday",
+          "key": "field|sales-office|sales-office-workday",
+          "selected": [
+            "sales-office-workday-1"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": []
+    },
+    {
+      "id": "scale056-0631",
+      "cohort": "holdout056",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "industrial-machinery-mechanic"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "trades-refine-3",
+          "key": "field|trades|trades-refine-3",
+          "selected": [
+            "trades-refine-3-3",
+            "trades-refine-3-4"
+          ],
+          "prompt": "Which details would you enjoy learning to check?"
+        },
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "trades-systems",
+          "key": "field|trades|trades-systems",
+          "selected": [
+            "trades-systems-1",
+            "trades-systems-3",
+            "trades-systems-4"
+          ],
+          "prompt": "Which systems would you like to work with?"
+        },
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "industrial-machinery-mechanic-interest-044-1",
+          "key": "industrial-machinery-mechanic|industrial-machinery-mechanic-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to investigate why production machinery is not working and work out what needs repairing as a regular part of your work?"
+        },
+        {
+          "careerId": "industrial-machinery-mechanic",
+          "id": "industrial-machinery-mechanic-interest-044-2",
+          "key": "industrial-machinery-mechanic|industrial-machinery-mechanic-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to repair or replace machine parts and maintain equipment so it can run reliably as a regular part of your work?"
+        },
+        {
+          "careerId": "hvac",
+          "id": "trades-workday",
+          "key": "field|trades|trades-workday",
+          "selected": [
+            "trades-workday-2",
+            "trades-workday-3",
+            "trades-workday-4"
+          ],
+          "prompt": "Which routines would you like to practice?"
+        },
+        {
+          "careerId": "exercise-physiology",
+          "id": "health-support",
+          "key": "field|health|health-support",
+          "selected": [
+            "health-support-4"
+          ],
+          "prompt": "How would you like to help someone?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": []
+    },
+    {
+      "id": "scale056-0648",
+      "cohort": "holdout056",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "retail-sales"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "customer-service",
+          "id": "sales-office-help",
+          "key": "field|sales-office|sales-office-help",
+          "selected": [
+            "sales-office-help-1",
+            "sales-office-help-2"
+          ],
+          "prompt": "How would you enjoy helping people?"
+        },
+        {
+          "careerId": "customer-service",
+          "id": "sales-office-refine-3",
+          "key": "field|sales-office|sales-office-refine-3",
+          "selected": [
+            "sales-office-refine-3-1",
+            "sales-office-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "receptionist",
+          "id": "sales-office-workday",
+          "key": "field|sales-office|sales-office-workday",
+          "selected": [
+            "sales-office-workday-1",
+            "sales-office-workday-2"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-1",
+          "key": "retail-sales|retail-sales-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to talk with shoppers to understand what they need and help them find suitable products?"
+        },
+        {
+          "careerId": "retail-sales",
+          "id": "retail-sales-interest-044-2",
+          "key": "retail-sales|retail-sales-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to explain product choices and help customers make a purchase that fits their needs?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": []
+    },
+    {
+      "id": "scale056-0704",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "carpentry",
+        "civil-engineering",
+        "electronics-assembly"
+      ],
+      "after": [
+        "carpentry",
+        "electronics-assembly"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "architecture",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1",
+            "building-design-2",
+            "building-design-4"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "architecture",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "civil-engineering-interest-044-1",
+          "key": "civil-engineering|civil-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to plan or improve roads, bridges, water systems, or other structures that people depend on?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "civil-engineering-interest-044-2",
+          "key": "civil-engineering|civil-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use calculations and tests of soil or building materials to check whether a construction design is strong and safe?"
+        },
+        {
+          "careerId": "architecture",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-2",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": [
+        "carpentry",
+        "electronics-assembly"
+      ]
+    },
+    {
+      "id": "scale056-0733",
+      "cohort": "holdout056",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "stock-order-filler",
+        "chemistry"
+      ],
+      "after": [
+        "stock-order-filler",
+        "landscaping-worker"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "biological-technician",
+          "id": "science-setting",
+          "key": "field|science|science-setting",
+          "selected": [
+            "science-setting-1",
+            "science-setting-3"
+          ],
+          "prompt": "Where would you enjoy gathering information?"
+        },
+        {
+          "careerId": "veterinary",
+          "id": "science-wonder",
+          "key": "field|science|science-wonder",
+          "selected": [
+            "science-wonder-2",
+            "science-wonder-3",
+            "science-wonder-4"
+          ],
+          "prompt": "What would you most enjoy investigating?"
+        },
+        {
+          "careerId": "chemistry",
+          "id": "chemistry-interest-044-1",
+          "key": "chemistry|chemistry-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to test substances in a laboratory to discover what they contain and how they behave?"
+        },
+        {
+          "careerId": "chemistry",
+          "id": "chemistry-interest-044-2",
+          "key": "chemistry|chemistry-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to plan controlled experiments that change or combine substances and explain the chemical results?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": true,
+      "current": [
+        "stock-order-filler",
+        "chemistry",
+        "landscaping-worker"
+      ]
+    },
+    {
+      "id": "scale056-0737",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "statistics"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "librarian",
+          "id": "creative-make",
+          "key": "field|creative|creative-make",
+          "selected": [
+            "creative-make-4"
+          ],
+          "prompt": "What would you enjoy creating?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-2",
+          "key": "statistics|statistics-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to decide whether data were collected and analyzed in a fair, reliable way before trusting a conclusion?"
+        },
+        {
+          "careerId": "computer-support",
+          "id": "technology-workday",
+          "key": "field|technology|technology-workday",
+          "selected": [
+            "technology-workday-2"
+          ],
+          "prompt": "Which parts of the work would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": true,
+      "current": [
+        "statistics"
+      ]
+    },
+    {
+      "id": "scale056-0803",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "accounting"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "bookkeeping-clerk",
+          "id": "business-problem",
+          "key": "field|business|business-problem",
+          "selected": [
+            "business-problem-1",
+            "business-problem-2",
+            "business-problem-3",
+            "business-problem-4",
+            "business-problem-5"
+          ],
+          "prompt": "Which problem would you enjoy working through?"
+        },
+        {
+          "careerId": "bookkeeping-clerk",
+          "id": "business-refine-3",
+          "key": "field|business|business-refine-3",
+          "selected": [
+            "business-refine-3-1",
+            "business-refine-3-4",
+            "business-refine-3-5"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "bookkeeping-clerk",
+          "id": "bookkeeping-clerk-interest-044-1",
+          "key": "bookkeeping-clerk|bookkeeping-clerk-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to keep an organization’s records of money coming in and going out, using bookkeeping tools you would be taught?"
+        },
+        {
+          "careerId": "bookkeeping-clerk",
+          "id": "bookkeeping-clerk-interest-044-2",
+          "key": "bookkeeping-clerk|bookkeeping-clerk-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to check business bills, payments, and account entries and correct records that do not add up?"
+        },
+        {
+          "careerId": "human-resources",
+          "id": "business-people",
+          "key": "field|business|business-people",
+          "selected": [
+            "business-people-1",
+            "business-people-4",
+            "business-people-5"
+          ],
+          "prompt": "Which kind of work with people interests you?"
+        },
+        {
+          "careerId": "accounting",
+          "id": "accounting-interest-044-1",
+          "key": "accounting|accounting-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to prepare and analyze an organization’s financial records and reports so people can understand its money and meet reporting rules?"
+        },
+        {
+          "careerId": "accounting",
+          "id": "accounting-interest-044-2",
+          "key": "accounting|accounting-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to investigate differences in an organization’s accounts and work out what needs correcting?"
+        },
+        {
+          "careerId": "marketing-manager",
+          "id": "business-workday",
+          "key": "field|business|business-workday",
+          "selected": [
+            "business-workday-1",
+            "business-workday-2"
+          ],
+          "prompt": "Which parts of the work would you like to try?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": false,
+      "current": [
+        "cashier",
+        "bookkeeping-clerk",
+        "retail-sales"
+      ]
+    },
+    {
+      "id": "grok075-0022",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering",
+        "electrical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1",
+            "building-design-2"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-1",
+          "key": "electrical-engineering|electrical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-2",
+          "key": "electrical-engineering|electrical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": [
+        "industrial-machinery-mechanic"
+      ]
+    },
+    {
+      "id": "grok075-0092",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "web-developer"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "software",
+          "id": "technology-refine-3",
+          "key": "field|technology|technology-refine-3",
+          "selected": [
+            "technology-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "software",
+          "id": "technology-workday",
+          "key": "field|technology|technology-workday",
+          "selected": [
+            "technology-workday-1"
+          ],
+          "prompt": "Which parts of the work would you like to learn?"
+        },
+        {
+          "careerId": "web-developer",
+          "id": "web-developer-interest-044-1",
+          "key": "web-developer|web-developer-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to write code that makes websites or web applications do what their users need?"
+        },
+        {
+          "careerId": "web-developer",
+          "id": "web-developer-interest-044-2",
+          "key": "web-developer|web-developer-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to build, test, and update a website so its pages and features work reliably?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": []
+    },
+    {
+      "id": "grok075-0113",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "web-developer"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "web-developer",
+          "id": "web-developer-interest-044-1",
+          "key": "web-developer|web-developer-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to write code that makes websites or web applications do what their users need?"
+        },
+        {
+          "careerId": "web-developer",
+          "id": "web-developer-interest-044-2",
+          "key": "web-developer|web-developer-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to build, test, and update a website so its pages and features work reliably?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": []
+    },
+    {
+      "id": "grok075-0193",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": [
+        "industrial-machinery-mechanic"
+      ]
+    },
+    {
+      "id": "grok075-0247",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "statistics"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "computer-support",
+          "id": "technology-problem",
+          "key": "field|technology|technology-problem",
+          "selected": [
+            "technology-problem-2"
+          ],
+          "prompt": "Which digital problem would you enjoy exploring?"
+        },
+        {
+          "careerId": "computer-support",
+          "id": "technology-refine-3",
+          "key": "field|technology|technology-refine-3",
+          "selected": [
+            "technology-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-1",
+          "key": "statistics|statistics-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to use mathematics to find patterns and relationships in data, including how certain or uncertain the results are?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-2",
+          "key": "statistics|statistics-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to decide whether data were collected and analyzed in a fair, reliable way before trusting a conclusion?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": true,
+      "current": [
+        "bookkeeping-clerk",
+        "statistics"
+      ]
+    },
+    {
+      "id": "grok075-0377",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "restaurant-cook"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "restaurant-manager",
+          "id": "services-refine-3",
+          "key": "field|services|services-refine-3",
+          "selected": [
+            "services-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "restaurant-manager",
+          "id": "services-serve",
+          "key": "field|services|services-serve",
+          "selected": [
+            "services-serve-1",
+            "services-serve-2"
+          ],
+          "prompt": "What would you enjoy helping people with?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-1",
+          "key": "restaurant-cook|restaurant-cook-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to prepare and cook meals for restaurant customers, managing cooking times and temperatures so dishes are ready correctly?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-2",
+          "key": "restaurant-cook|restaurant-cook-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to keep a restaurant kitchen clean and handle, store, and cook food safely while preparing meals for customers?"
+        },
+        {
+          "careerId": "general-maintenance",
+          "id": "trades-refine-3",
+          "key": "field|trades|trades-refine-3",
+          "selected": [
+            "trades-refine-3-2",
+            "trades-refine-3-3"
+          ],
+          "prompt": "Which details would you enjoy learning to check?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": false,
+      "current": [
+        "restaurant-cook"
+      ]
+    },
+    {
+      "id": "grok075-0381",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "mechanical-engineering"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": true,
+      "current": [
+        "mechanical-engineering"
+      ]
+    },
+    {
+      "id": "grok075-0399",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "mechanical-engineering"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": true,
+      "current": [
+        "mechanical-engineering"
+      ]
+    },
+    {
+      "id": "grok075-0401",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "carpentry",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic",
+        "carpentry"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-2",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": [
+        "industrial-machinery-mechanic",
+        "carpentry"
+      ]
+    },
+    {
+      "id": "grok075-0469",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "statistics"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "computer-support",
+          "id": "technology-problem",
+          "key": "field|technology|technology-problem",
+          "selected": [
+            "technology-problem-2"
+          ],
+          "prompt": "Which digital problem would you enjoy exploring?"
+        },
+        {
+          "careerId": "computer-support",
+          "id": "technology-refine-3",
+          "key": "field|technology|technology-refine-3",
+          "selected": [
+            "technology-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-1",
+          "key": "statistics|statistics-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to use mathematics to find patterns and relationships in data, including how certain or uncertain the results are?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-2",
+          "key": "statistics|statistics-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to decide whether data were collected and analyzed in a fair, reliable way before trusting a conclusion?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": true,
+      "current": [
+        "bookkeeping-clerk",
+        "statistics"
+      ]
+    },
+    {
+      "id": "grok075-0473",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "restaurant-cook"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "food-counter",
+          "id": "services-people",
+          "key": "field|services|services-people",
+          "selected": [
+            "services-people-1"
+          ],
+          "prompt": "Which kind of teamwork interests you?"
+        },
+        {
+          "careerId": "food-counter",
+          "id": "services-refine-3",
+          "key": "field|services|services-refine-3",
+          "selected": [
+            "services-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-1",
+          "key": "restaurant-cook|restaurant-cook-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to prepare and cook meals for restaurant customers, managing cooking times and temperatures so dishes are ready correctly?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-2",
+          "key": "restaurant-cook|restaurant-cook-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to keep a restaurant kitchen clean and handle, store, and cook food safely while preparing meals for customers?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": false,
+      "current": [
+        "restaurant-cook"
+      ]
+    },
+    {
+      "id": "grok075-0529",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-1",
+          "key": "electrical-engineering|electrical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": true,
+      "current": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ]
+    },
+    {
+      "id": "grok075-0531",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "statistics"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "computer-support",
+          "id": "technology-refine-3",
+          "key": "field|technology|technology-refine-3",
+          "selected": [
+            "technology-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-1",
+          "key": "statistics|statistics-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to use mathematics to find patterns and relationships in data, including how certain or uncertain the results are?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-2",
+          "key": "statistics|statistics-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to decide whether data were collected and analyzed in a fair, reliable way before trusting a conclusion?"
+        },
+        {
+          "careerId": "computer-support",
+          "id": "technology-workday",
+          "key": "field|technology|technology-workday",
+          "selected": [
+            "technology-workday-2"
+          ],
+          "prompt": "Which parts of the work would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": true,
+      "current": [
+        "bookkeeping-clerk",
+        "statistics"
+      ]
+    },
+    {
+      "id": "grok075-0653",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": true,
+      "current": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ]
+    },
+    {
+      "id": "grok075-0673",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": [
+        "industrial-machinery-mechanic"
+      ]
+    },
+    {
+      "id": "grok075-0712",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "bookkeeping-clerk",
+        "statistics"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "computer-support",
+          "id": "technology-refine-3",
+          "key": "field|technology|technology-refine-3",
+          "selected": [
+            "technology-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-1",
+          "key": "statistics|statistics-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to use mathematics to find patterns and relationships in data, including how certain or uncertain the results are?"
+        },
+        {
+          "careerId": "statistics",
+          "id": "statistics-interest-044-2",
+          "key": "statistics|statistics-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to decide whether data were collected and analyzed in a fair, reliable way before trusting a conclusion?"
+        },
+        {
+          "careerId": "computer-support",
+          "id": "technology-workday",
+          "key": "field|technology|technology-workday",
+          "selected": [
+            "technology-workday-2"
+          ],
+          "prompt": "Which parts of the work would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": true,
+      "current": [
+        "bookkeeping-clerk",
+        "statistics"
+      ]
+    },
+    {
+      "id": "grok075-0714",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering",
+        "electrical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "civil-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1",
+            "building-design-2"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-1",
+          "key": "electrical-engineering|electrical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-2",
+          "key": "electrical-engineering|electrical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": [
+        "industrial-machinery-mechanic"
+      ]
+    },
+    {
+      "id": "grok075-0827",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "landscaping-worker"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "veterinary",
+          "id": "science-wonder",
+          "key": "field|science|science-wonder",
+          "selected": [
+            "science-wonder-3",
+            "science-wonder-4"
+          ],
+          "prompt": "What would you most enjoy investigating?"
+        },
+        {
+          "careerId": "landscaping-worker",
+          "id": "landscaping-worker-interest-044-1",
+          "key": "landscaping-worker|landscaping-worker-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to care for lawns, plants, and outdoor grounds through hands-on tasks such as mowing or pruning as a regular part of your work?"
+        },
+        {
+          "careerId": "landscaping-worker",
+          "id": "landscaping-worker-interest-044-2",
+          "key": "landscaping-worker|landscaping-worker-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use tools and outdoor equipment to maintain a landscape and keep the grounds in good condition as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": true,
+      "recoveredDegree": false,
+      "current": [
+        "landscaping-worker"
+      ]
+    },
+    {
+      "id": "grok075-0831",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering",
+        "electrical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-1",
+          "key": "electrical-engineering|electrical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve electrical equipment and systems, such as power supplies, motors, or electrical controls?"
+        },
+        {
+          "careerId": "electrical-engineering",
+          "id": "electrical-engineering-interest-044-2",
+          "key": "electrical-engineering|electrical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to test electrical designs, work out why a system is not performing as expected, and improve how safely and reliably it works?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": true,
+      "current": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ]
+    },
+    {
+      "id": "grok075-0888",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "restaurant-cook"
+      ],
+      "after": [],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "restaurant-manager",
+          "id": "services-people",
+          "key": "field|services|services-people",
+          "selected": [
+            "services-people-1"
+          ],
+          "prompt": "Which kind of teamwork interests you?"
+        },
+        {
+          "careerId": "restaurant-manager",
+          "id": "services-refine-3",
+          "key": "field|services|services-refine-3",
+          "selected": [
+            "services-refine-3-1",
+            "services-refine-3-2"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-1",
+          "key": "restaurant-cook|restaurant-cook-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to prepare and cook meals for restaurant customers, managing cooking times and temperatures so dishes are ready correctly?"
+        },
+        {
+          "careerId": "restaurant-cook",
+          "id": "restaurant-cook-interest-044-2",
+          "key": "restaurant-cook|restaurant-cook-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to keep a restaurant kitchen clean and handle, store, and cook food safely while preparing meals for customers?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": []
+    },
+    {
+      "id": "grok075-0951",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        },
+        {
+          "careerId": "civil-engineering",
+          "id": "building-workday",
+          "key": "field|building|building-workday",
+          "selected": [
+            "building-workday-1",
+            "building-workday-3"
+          ],
+          "prompt": "Which routines would you like to learn?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": [
+        "industrial-machinery-mechanic"
+      ]
+    },
+    {
+      "id": "grok075-0974",
+      "cohort": "grok075",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "industrial-machinery-mechanic",
+        "mechanical-engineering"
+      ],
+      "after": [
+        "industrial-machinery-mechanic"
+      ],
+      "stillSupported": [],
+      "omitted": [
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-design",
+          "key": "field|building|building-design",
+          "selected": [
+            "building-design-1"
+          ],
+          "prompt": "What would you enjoy designing or improving?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "building-refine-3",
+          "key": "field|building|building-refine-3",
+          "selected": [
+            "building-refine-3-1"
+          ],
+          "prompt": "Which details would you enjoy checking?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-1",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-1",
+          "selected": [],
+          "prompt": "Would you like to learn to design or improve machines and moving parts to solve a practical problem as a regular part of your work?"
+        },
+        {
+          "careerId": "mechanical-engineering",
+          "id": "mechanical-engineering-interest-044-2",
+          "key": "mechanical-engineering|mechanical-engineering-interest-044-2",
+          "selected": [],
+          "prompt": "Would you like to learn to use drawings and test results to work out why a machine design works or needs changing as a regular part of your work?"
+        }
+      ],
+      "changed": [],
+      "classification": "question-allocation",
+      "recoveredTop": false,
+      "recoveredDegree": false,
+      "current": [
+        "industrial-machinery-mechanic"
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "cohort": "all",
+      "reviewed": 16,
+      "topLosses": 10,
+      "recoveredTop": 6,
+      "degreeLosses": 9,
+      "recoveredDegree": 5
+    },
+    {
+      "cohort": "grok075",
+      "reviewed": 22,
+      "topLosses": 8,
+      "recoveredTop": 5,
+      "degreeLosses": 18,
+      "recoveredDegree": 9
+    }
+  ],
+  "newLosses": [
+    {
+      "id": "scale056-0214",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "writing"
+      ],
+      "after": []
+    },
+    {
+      "id": "scale056-0262",
+      "cohort": "holdout056",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "librarian"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ]
+    },
+    {
+      "id": "scale056-0290",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "librarian"
+      ],
+      "after": []
+    },
+    {
+      "id": "scale056-0332",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "carpentry",
+        "librarian"
+      ],
+      "after": [
+        "carpentry"
+      ]
+    },
+    {
+      "id": "scale056-0402",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": false,
+      "before": [
+        "bookkeeping-clerk"
+      ],
+      "after": []
+    },
+    {
+      "id": "scale056-0444",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "carpentry",
+        "industrial-machinery-mechanic",
+        "writing"
+      ],
+      "after": [
+        "carpentry",
+        "industrial-machinery-mechanic"
+      ]
+    },
+    {
+      "id": "scale056-0528",
+      "cohort": "holdout056",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "physical-therapy"
+      ],
+      "after": []
+    },
+    {
+      "id": "scale056-0620",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "librarian"
+      ],
+      "after": []
+    },
+    {
+      "id": "scale056-0652",
+      "cohort": "development",
+      "lostTop": false,
+      "lostDegree": true,
+      "before": [
+        "librarian",
+        "bookkeeping-clerk"
+      ],
+      "after": [
+        "bookkeeping-clerk"
+      ]
+    },
+    {
+      "id": "scale056-0665",
+      "cohort": "development",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "film-editing"
+      ],
+      "after": []
+    },
+    {
+      "id": "grok075-0073",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "librarian"
+      ],
+      "after": []
+    },
+    {
+      "id": "grok075-0967",
+      "cohort": "grok075",
+      "lostTop": true,
+      "lostDegree": true,
+      "before": [
+        "web-developer"
+      ],
+      "after": []
+    }
+  ]
+}
